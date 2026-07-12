@@ -3,7 +3,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
   @impl true
   def mount(_params, _session, socket) do
-    {:ok, assign(socket, page_title: "PUBLIC-SITUATION-MACHINE-TURN-ZERO")}
+    {:ok,
+     assign(socket,
+       page_title: "PUBLIC-SITUATION-MACHINE-TURN-ZERO",
+       position_0_regard: :outward
+     )}
+  end
+
+  @impl true
+  def handle_event("regard-inward", %{"position" => "0"}, socket) do
+    {:noreply, assign(socket, position_0_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "0"}, socket) do
+    {:noreply, assign(socket, position_0_regard: :outward)}
   end
 
   @impl true
@@ -19,7 +32,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
           <h1>Turn Zero</h1>
 
           <p>
-            Canonical Sequence of the Quadranglementing Tuple
+            Canonical Sequencing of the Quadranglementing Tuple
           </p>
         </div>
       </header>
@@ -34,7 +47,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
         <div class="psm-identification__plate">
           <p class="psm-identification__label">
-            -Coordinationing-Operationing-Bobbin Appliance Tag
+            -Coordinationing-Operationing-Bobbining Appliance Tag
           </p>
           <p class="psm-identification__value">COB: 00428173</p>
         </div>
@@ -145,7 +158,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 </p>
 
                 <p>
-                  At runtime, this Coordinationing-Operationing-Bobbining enters
+                  At runtime, this -COORDINATIONING-OPERATIONING-BOBBINING enters
                   Occupancy-ing at the center of this Constitutional Locality
                   through the Recital of This Mounted Statefullment.
                 </p>
@@ -177,7 +190,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
                 <p>
                   From the center of This Post Upon the Pier, the
-                  Coordinationing-Operationing-Bobbining stands in Lawful
+                  -COORDINATIONING-OPERATIONING-BOBBINING stands in Lawful
                   Relationing between these two localities over Discrete Turns.
                 </p>
               </div>
@@ -199,26 +212,94 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 <code>instrument_position_0_foundation_post_capstone.webp</code>
               </div>
 
-              <div class="psm-post-stage">
-                <div class="psm-post-card psm-post-card--vertical">
-                  <p class="psm-post-card__foundation">
-                    En-Foundation-Mint-ing-<br /> En-Ment-ing-Able-<br /> En-Mint-ing-Able-<br />
-                    En-Ment
-                  </p>
+              <div
+                id="position-0-instrument-chamber"
+                class={[
+                  "psm-post-stage",
+                  @position_0_regard == :inward && "psm-post-stage--inward"
+                ]}
+              >
+                <%= if @position_0_regard == :outward do %>
+                  <div class="psm-post-stage__outward">
+                    <div class="psm-post-card psm-post-card--vertical">
+                      <p class="psm-post-card__foundation">
+                        En-Foundation-Mint-ing-<br /> En-Ment-ing-Able-<br /> En-Mint-ing-Able-<br />
+                        En-Ment
+                      </p>
 
-                  <div class="psm-post-card__line" aria-hidden="true"></div>
+                      <div class="psm-post-card__line" aria-hidden="true"></div>
 
-                  <p class="psm-post-card__cob-locality">
-                    Coordinationing-<br /> Operationing-<br /> Bobbining
-                  </p>
+                      <p class="psm-post-card__cob-locality">
+                        -COORDINATIONING-<br /> -OPERATIONING-<br /> -BOBBINING-
+                      </p>
 
-                  <div class="psm-post-card__line" aria-hidden="true"></div>
+                      <div class="psm-post-card__line" aria-hidden="true"></div>
 
-                  <p class="psm-post-card__capstone">
-                    En-Capstone-ing-Ment-<br /> En-Mint-ing-ly-<br /> En-Ment-ing-ly<br />
-                    En-Mint-ing-<br /> En-Ment-ing
-                  </p>
-                </div>
+                      <p class="psm-post-card__capstone">
+                        En-Capstone-ing-Ment-<br /> En-Mint-ing-ly-<br /> En-Ment-ing-ly<br />
+                        En-Mint-ing-<br /> En-Ment-ing
+                      </p>
+                    </div>
+
+                    <button
+                      id="position-0-regard-inward"
+                      type="button"
+                      class="psm-regard-control"
+                      phx-click="regard-inward"
+                      phx-value-position="0"
+                    >
+                      Regard Inward
+                    </button>
+                  </div>
+                <% else %>
+                  <article
+                    id="position-0-recital"
+                    class="psm-recital-chamber"
+                    aria-labelledby="position-0-recital-title"
+                  >
+                    <header class="psm-recital-chamber__header">
+                      <p class="psm-section-kicker">Inward Regard</p>
+
+                      <h4 id="position-0-recital-title">This Mounted Statefullment</h4>
+
+                      <p>
+                        PSM-COB Orchestrationing Recital of Occupancy-ing within
+                        This Mounted Statefullment
+                      </p>
+                    </header>
+
+                    <div class="psm-recital-chamber__recital" aria-label="Position Zero recital">
+                      <p>En-Steady-Mint-ing-ably</p>
+                      <p>En-Steady-Ment-ing-ably</p>
+                      <p>En-Fully-ing-ly-</p>
+                      <p>En-Able-Mint-ing-ably</p>
+                      <span aria-hidden="true">↓</span>
+                      <p>En-Steady-Ment-ing-ably</p>
+                      <p>En-Steady-Mint-ing-ably</p>
+                      <p>En-Able-Ment-ed-ing-ably</p>
+                      <p>En-Able-Mint-ed-ing-ably</p>
+                      <span aria-hidden="true">↓</span>
+                      <p>En-Able-Ment-ing-ably</p>
+                      <p>En-Able-Mint-ing-ably</p>
+                      <span aria-hidden="true">↓</span>
+                      <p>En-Able-Ment-ing-ly</p>
+                      <span aria-hidden="true">↓</span>
+                      <p>En-Able-Mint-ing-ly</p>
+                      <p>En-Able-Ment-ing</p>
+                      <p>En-Able-Mint-ing</p>
+                    </div>
+
+                    <button
+                      id="position-0-regard-outward"
+                      type="button"
+                      class="psm-regard-control"
+                      phx-click="regard-outward"
+                      phx-value-position="0"
+                    >
+                      Regard Outward
+                    </button>
+                  </article>
+                <% end %>
               </div>
             </section>
 
@@ -238,7 +319,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 <p>
                   The Foundation En-Mint-ing Stitch enters This Mounted
                   Statefullment through the center Constitutional Locality
-                  occupied by the Coordinationing-Operationing-Bobbining.
+                  occupied by the -COORDINATIONING-OPERATIONING-BOBBINING.
                 </p>
 
                 <p>
@@ -257,7 +338,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 <p>The Needle continues.</p>
 
                 <p>
-                  The Coordinationing-Operationing-Bobbining occupies the center
+                  The -COORDINATIONING-OPERATIONING-BOBBINING occupies the center
                   Constitutional Locality in Lawful Relationing between Standing
                   and Becoming over Discrete Turns.
                 </p>

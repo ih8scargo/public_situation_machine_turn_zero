@@ -558,6 +558,130 @@ select {
   text-transform: uppercase;
 }
 
+.psm-post-stage__outward {
+  display: flex;
+  min-height: 624px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.psm-post-stage--inward {
+  align-items: stretch;
+  padding: 24px;
+}
+
+.psm-regard-control {
+  min-width: 210px;
+  padding: 13px 22px 12px;
+  border: 3px solid var(--psm-steel);
+  border-radius: 0;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 4px 5px 0 rgb(32 38 41 / 20%);
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.psm-regard-control:hover,
+.psm-regard-control:focus-visible {
+  background: var(--psm-paper-light);
+  color: var(--psm-steel);
+}
+
+.psm-regard-control:focus-visible {
+  outline: 3px solid var(--psm-brass);
+  outline-offset: 4px;
+}
+
+.psm-regard-control.phx-click-loading {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.psm-recital-chamber {
+  box-sizing: border-box;
+  display: flex;
+  min-height: 624px;
+  width: 100%;
+  flex-direction: column;
+  border: 4px solid var(--psm-steel);
+  background:
+    linear-gradient(rgb(255 255 255 / 24%), rgb(255 255 255 / 24%)),
+    var(--psm-paper-deep);
+  box-shadow:
+    0 0 0 2px rgb(255 255 255 / 38%) inset,
+    8px 10px 0 rgb(32 38 41 / 18%);
+}
+
+.psm-recital-chamber__header {
+  padding: 28px 30px 24px;
+  border-bottom: 3px solid var(--psm-steel);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.psm-recital-chamber__header .psm-section-kicker {
+  color: #dfc28c;
+}
+
+.psm-recital-chamber__header h4 {
+  margin: 10px 0 0;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.psm-recital-chamber__header p:last-child {
+  margin: 16px 0 0;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.psm-recital-chamber__recital {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 32px;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  line-height: 1.28;
+  text-align: center;
+}
+
+.psm-recital-chamber__recital p {
+  margin: 0;
+}
+
+.psm-recital-chamber__recital span {
+  display: block;
+  margin: 10px 0;
+  color: var(--psm-brass);
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.psm-recital-chamber > .psm-regard-control {
+  align-self: center;
+  margin: 0 0 28px;
+}
+
 @media (max-width: 1535px) {
   body {
     overflow-x: auto;
