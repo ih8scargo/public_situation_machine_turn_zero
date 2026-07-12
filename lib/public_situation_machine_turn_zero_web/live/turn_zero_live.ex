@@ -6,7 +6,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
     {:ok,
      assign(socket,
        page_title: "PUBLIC-SITUATION-MACHINE-TURN-ZERO",
-       position_0_regard: :outward
+       position_0_regard: :outward,
+       unfolded_positions: MapSet.new([0])
      )}
   end
 
@@ -17,6 +18,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
   def handle_event("regard-outward", %{"position" => "0"}, socket) do
     {:noreply, assign(socket, position_0_regard: :outward)}
+  end
+
+  def handle_event("unfold-position", %{"position" => position}, socket) do
+    position = String.to_integer(position)
+
+    {:noreply,
+     update(socket, :unfolded_positions, fn unfolded_positions ->
+       MapSet.put(unfolded_positions, position)
+     end)}
   end
 
   @impl true
@@ -356,7 +366,67 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
             </p>
           </aside>
         </div>
+
+        <%= unless MapSet.member?(@unfolded_positions, 1) do %>
+          <footer class="psm-unfolding-control">
+            <p class="psm-unfolding-control__status">
+              Position Zero now stands available for inheritance.
+            </p>
+
+            <button
+              id="unfold-position-1"
+              type="button"
+              class="psm-unfold-control"
+              phx-click="unfold-position"
+              phx-value-position="1"
+            >
+              Unfold
+            </button>
+          </footer>
+        <% end %>
       </section>
+
+      <%= if MapSet.member?(@unfolded_positions, 1) do %>
+        <section
+          id="tuple-position-1"
+          class="psm-position psm-position--newly-unfolded"
+          aria-labelledby="tuple-position-1-title"
+        >
+          <header class="psm-position__heading">
+            <p class="psm-position__ordinal">Tuple Position 1</p>
+
+            <h2 id="tuple-position-1-title">
+              Position One Now Stands Encounterable
+            </h2>
+          </header>
+
+          <div class="psm-position-shell">
+            <div class="psm-position-shell__grounding">
+              <p class="psm-region-label">Grounding</p>
+
+              <p>
+                Position One grounding awaits furnishing.
+              </p>
+            </div>
+
+            <div class="psm-position-shell__center">
+              <p class="psm-region-label">Constitutional Locality</p>
+
+              <div class="psm-position-shell__post" aria-hidden="true">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="psm-position-shell__readiness">
+              <p class="psm-region-label">Readiness</p>
+
+              <p>
+                Position One consequence awaits furnishing.
+              </p>
+            </div>
+          </div>
+        </section>
+      <% end %>
     </main>
     """
   end
