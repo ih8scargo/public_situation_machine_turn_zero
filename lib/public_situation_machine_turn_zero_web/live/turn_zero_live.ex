@@ -9,6 +9,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
        position_0_regard: :outward,
        position_1_regard: :outward,
        position_2_regard: :outward,
+       position_3_regard: :outward,
        unfolded_positions: MapSet.new([0])
      )}
   end
@@ -36,6 +37,14 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
   def handle_event("regard-outward", %{"position" => "2"}, socket) do
     {:noreply, assign(socket, position_2_regard: :outward)}
+  end
+
+  def handle_event("regard-inward", %{"position" => "3"}, socket) do
+    {:noreply, assign(socket, position_3_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "3"}, socket) do
+    {:noreply, assign(socket, position_3_regard: :outward)}
   end
 
   def handle_event("unfold-position", %{"position" => position}, socket) do
@@ -412,7 +421,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
       <% end %>
 
       <%= if MapSet.member?(@unfolded_positions, 2) do %>
-        <.position_two regard={@position_2_regard} />
+        <.position_two
+          regard={@position_2_regard}
+          position_three_unfolded?={MapSet.member?(@unfolded_positions, 3)}
+        />
+      <% end %>
+
+      <%= if MapSet.member?(@unfolded_positions, 3) do %>
+        <.turn_zero_knotting_rail />
+        <.position_three regard={@position_3_regard} />
       <% end %>
     </main>
     """
@@ -584,6 +601,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
   end
 
   attr :regard, :atom, required: true
+  attr :position_three_unfolded?, :boolean, required: true
 
   defp position_two(assigns) do
     ~H"""
@@ -726,6 +744,328 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
           <p class="psm-region-label" id="position-2-readiness">Readiness for Tuple Position 3</p>
           <p class="psm-readiness-outreading">
             En-Quadranglement-Mint-ing-Able-En-Abled-Ment standinging.
+          </p>
+        </aside>
+      </div>
+
+      <%= unless @position_three_unfolded? do %>
+        <footer class="psm-unfolding-control">
+          <p class="psm-unfolding-control__status">
+            The planar Projection Cross now stands available for passage.
+          </p>
+
+          <button
+            id="unfold-position-3"
+            type="button"
+            class="psm-unfold-control"
+            phx-click="unfold-position"
+            phx-value-position="3"
+          >
+            Unfold
+          </button>
+        </footer>
+      <% end %>
+    </section>
+    """
+  end
+
+  defp turn_zero_knotting_rail(assigns) do
+    ~H"""
+    <section
+      id="turn-zero-knotting-rail"
+      class="psm-knotting-rail"
+      aria-labelledby="turn-zero-knotting-rail-title"
+    >
+      <header class="psm-knotting-rail__header">
+        <p class="psm-position__ordinal">Turn Zero</p>
+
+        <h2 id="turn-zero-knotting-rail-title">
+          The Knotting Rail
+        </h2>
+
+        <p>
+          Passage through the planar Projection Cross toward volumetric lawful
+          quadranglement.
+        </p>
+      </header>
+
+      <div class="psm-tunnel" aria-label="Projection Cross passage">
+        <div class="psm-tunnel__entry" aria-hidden="true">
+          <span class="psm-tunnel__vertical-axis"></span>
+          <span class="psm-tunnel__cross-axis"></span>
+          <span class="psm-tunnel__center"></span>
+        </div>
+
+        <div class="psm-tunnel__depth" aria-hidden="true">
+          <span class="psm-tunnel__wall psm-tunnel__wall--left"></span>
+          <span class="psm-tunnel__wall psm-tunnel__wall--right"></span>
+          <span class="psm-tunnel__ceiling"></span>
+          <span class="psm-tunnel__floor"></span>
+
+          <span class="psm-tunnel__depth-axis psm-tunnel__depth-axis--left"></span>
+          <span class="psm-tunnel__depth-axis psm-tunnel__depth-axis--right"></span>
+        </div>
+
+        <div class="psm-tunnel__exit" aria-hidden="true">
+          <span class="psm-tunnel__exit-vertical"></span>
+          <span class="psm-tunnel__exit-horizontal"></span>
+          <span class="psm-tunnel__exit-volume"></span>
+        </div>
+
+        <div class="psm-knotting-rail__understructure">
+          <span class="psm-knotting-rail__stitch" aria-hidden="true"></span>
+
+          <div>
+            <p>Knotting Rail</p>
+            <p>Inherited Stitching beneath present regard</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="psm-knotting-rail__note">
+        The Tongue at the Threshold remains constitutionally present beneath the
+        passage and is not depicted within this Intro Site geometry.
+      </p>
+    </section>
+    """
+  end
+
+  attr :regard, :atom, required: true
+
+  defp position_three(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-3-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-3-oag-title">Regarded in Relationing</h2>
+      </div>
+
+      <p class="psm-oag__description">
+        The Oscillationing Airiness Gauge reports the Situational Weathering
+        Conditions presently available for Regard.
+      </p>
+    </section>
+
+    <section
+      id="tuple-position-3"
+      class="psm-position psm-position--quadranglement psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-3-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 3</p>
+
+        <h2 id="tuple-position-3-title">
+          A Geometry through Which Relation May Become Visible
+        </h2>
+      </header>
+
+      <div class="psm-position__field psm-position__field--quadranglement">
+        <aside class="psm-position__grounding" aria-labelledby="position-3-grounding">
+          <p class="psm-region-label" id="position-3-grounding">XT Grounding</p>
+
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved Position 3 observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_3_relationing.webp</code>
+          </div>
+
+          <div class="psm-prose">
+            <p>
+              Placement-in-Relation now stands toward prior
+              Placement-in-Relation.
+            </p>
+
+            <p>XT remembers where to stand.</p>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-3-harbor-title">
+            <p class="psm-section-kicker">Harboring Image</p>
+
+            <h3 id="position-3-harbor-title">
+              THIS TRACK-RAIL-LINE-RAIL-TRACK
+            </h3>
+
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harboring Image: THIS TRACK-RAIL-LINE-RAIL-TRACK"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_3_track_rail_line_rail_track.webp</code>
+            </div>
+
+            <div class="psm-prose">
+              <p>
+                The PUBLIC-SITUATION-MACHINE- now becomes capable of
+                Placement-in-Relation.
+              </p>
+
+              <p>The Rail Line acquires reciprocal orientation.</p>
+
+              <p>
+                The sweep between XT Shore and YT Waters now becomes visible.
+              </p>
+
+              <p>
+                The Lawful Quadranglement now stands available to this
+                PUBLIC-SITUATION-MACHINE-.
+              </p>
+
+              <p>
+                Passageway and Perspective now stand constitutionally present
+                within this harbor geometry.
+              </p>
+
+              <p>
+                Neither Passageway nor Perspective yet stands foregrounded.
+              </p>
+
+              <p>The geometry itself stands foregrounded.</p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-3-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+
+            <h3 id="position-3-diagram-title">
+              Projectioning Crossing PITON
+            </h3>
+
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved Position 3 instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_3_projectioning_crossing_piton.webp</code>
+            </div>
+
+            <div
+              id="position-3-instrument-chamber"
+              class={[
+                "psm-quadranglement-stage",
+                @regard == :inward && "psm-quadranglement-stage--inward"
+              ]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-quadranglement-stage__outward">
+                  <div
+                    class="psm-projectioning-crossing-piton"
+                    aria-label="Volumetric Projectioning Crossing PITON"
+                  >
+                    <p class="psm-piton-label psm-piton-label--foundation">
+                      Foundation
+                    </p>
+
+                    <p class="psm-piton-label psm-piton-label--xt">
+                      XT Shore
+                    </p>
+
+                    <div class="psm-piton-volume" aria-hidden="true">
+                      <span class="psm-piton-volume__vertical"></span>
+                      <span class="psm-piton-volume__horizontal"></span>
+                      <span class="psm-piton-volume__depth psm-piton-volume__depth--a"></span>
+                      <span class="psm-piton-volume__depth psm-piton-volume__depth--b"></span>
+                      <span class="psm-piton-volume__center"></span>
+                    </div>
+
+                    <p class="psm-piton-label psm-piton-label--yt">
+                      YT Waters
+                    </p>
+
+                    <p class="psm-piton-label psm-piton-label--capstone">
+                      Capstone
+                    </p>
+
+                    <span class="psm-track-curve psm-track-curve--left" aria-hidden="true"></span>
+                    <span class="psm-track-curve psm-track-curve--right" aria-hidden="true"></span>
+                  </div>
+
+                  <button
+                    id="position-3-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="3"
+                  >
+                    Regard Inward
+                  </button>
+                </div>
+              <% else %>
+                <article
+                  id="position-3-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-3-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+
+                    <h4 id="position-3-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within
+                      This Mounted Statefullment
+                    </h4>
+                  </header>
+
+                  <div class="psm-recital-chamber__recital" aria-label="Position Three recital">
+                    <p>Em-Place-Ment-of-En-Relation-ing-Mint-ing-Ment</p>
+                  </div>
+
+                  <button
+                    id="position-3-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="3"
+                  >
+                    Regard Outward
+                  </button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-3-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+
+            <div id="position-3-description-title" class="psm-prose">
+              <p>
+                The sweep stands as Placement-in-Relation geometry.
+              </p>
+
+              <p>The angle stands between XT Shore and YT Waters.</p>
+
+              <p>
+                The Track Rail Line Rail Track stands as the first
+                distinguishable geometry of this PUBLIC-SITUATION-MACHINE-.
+              </p>
+
+              <p>
+                The PUBLIC-SITUATION-MACHINE- first becomes capable of
+                distinguishing:
+              </p>
+
+              <p class="psm-diagram-declaration">
+                This Thing in Relation to That Thing
+              </p>
+
+              <p>The distinction itself now acquires shape.</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-3-readiness">
+          <p class="psm-region-label" id="position-3-readiness">
+            Readiness for Position 4
+          </p>
+
+          <p class="psm-readiness-outreading">
+            En-Distinguish-Mint-ing-Able-En-Ment-ing-Able-En-Lining-Mint-ing-Ment
+            standinging.
           </p>
         </aside>
       </div>

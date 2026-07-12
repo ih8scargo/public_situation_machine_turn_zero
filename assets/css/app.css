@@ -819,6 +819,456 @@ select {
   }
 }
 
+
+/* -----------------------------------------------------------------
+   Turn Zero / Knotting Rail passage
+   ----------------------------------------------------------------- */
+
+.psm-knotting-rail {
+  box-sizing: border-box;
+  width: var(--psm-intro-field-width);
+  margin: 88px auto 0;
+  border: 4px solid var(--psm-steel);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  box-shadow:
+    0 10px 0 rgb(32 38 41 / 22%),
+    0 18px 32px rgb(17 18 18 / 20%);
+  animation: psm-unfold-position 620ms ease-out both;
+}
+
+.psm-knotting-rail__header {
+  padding: 28px 36px 26px;
+  border-bottom: 2px solid var(--psm-steel-light);
+  text-align: center;
+}
+
+.psm-knotting-rail__header .psm-position__ordinal {
+  color: #dfc28c;
+}
+
+.psm-knotting-rail__header h2 {
+  margin: 10px 0 0;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.psm-knotting-rail__header > p:last-child {
+  margin: 16px auto 0;
+  max-width: 760px;
+  color: #d9d5ca;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.psm-tunnel {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 760px;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      to bottom,
+      #111719 0%,
+      #20282b 59%,
+      #0b0f10 59%,
+      #080b0c 100%
+    );
+  perspective: 1000px;
+}
+
+.psm-tunnel__entry {
+  position: absolute;
+  z-index: 4;
+  top: 88px;
+  left: 50%;
+  width: 128px;
+  height: 576px;
+  transform: translateX(-50%);
+}
+
+.psm-tunnel__vertical-axis,
+.psm-tunnel__cross-axis {
+  position: absolute;
+  display: block;
+  background: #d8d4c9;
+}
+
+.psm-tunnel__vertical-axis {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  transform: translateX(-50%);
+}
+
+.psm-tunnel__cross-axis {
+  top: 50%;
+  left: -148px;
+  width: 424px;
+  height: 3px;
+  transform: translateY(-50%);
+}
+
+.psm-tunnel__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #d8d4c9;
+  background: #20282b;
+  transform: translate(-50%, -50%);
+}
+
+.psm-tunnel__depth {
+  position: absolute;
+  z-index: 2;
+  inset: 64px 104px 150px;
+}
+
+.psm-tunnel__wall,
+.psm-tunnel__ceiling,
+.psm-tunnel__floor,
+.psm-tunnel__depth-axis {
+  position: absolute;
+  display: block;
+  background: var(--psm-steel-light);
+  transform-origin: center;
+}
+
+.psm-tunnel__wall {
+  top: 48px;
+  bottom: 20px;
+  width: 3px;
+}
+
+.psm-tunnel__wall--left {
+  left: 0;
+  transform: rotate(-9deg);
+}
+
+.psm-tunnel__wall--right {
+  right: 0;
+  transform: rotate(9deg);
+}
+
+.psm-tunnel__ceiling,
+.psm-tunnel__floor {
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+
+.psm-tunnel__ceiling {
+  top: 0;
+  transform: perspective(900px) rotateX(58deg);
+}
+
+.psm-tunnel__floor {
+  bottom: 0;
+  transform: perspective(900px) rotateX(-58deg);
+}
+
+.psm-tunnel__depth-axis {
+  top: 50%;
+  width: 44%;
+  height: 2px;
+  opacity: 0.7;
+}
+
+.psm-tunnel__depth-axis--left {
+  left: 0;
+  transform: rotate(10deg);
+}
+
+.psm-tunnel__depth-axis--right {
+  right: 0;
+  transform: rotate(-10deg);
+}
+
+.psm-tunnel__exit {
+  position: absolute;
+  z-index: 3;
+  top: 254px;
+  left: 50%;
+  width: 576px;
+  height: 128px;
+  transform: translateX(-50%);
+}
+
+.psm-tunnel__exit-vertical,
+.psm-tunnel__exit-horizontal,
+.psm-tunnel__exit-volume {
+  position: absolute;
+  display: block;
+}
+
+.psm-tunnel__exit-vertical {
+  top: -188px;
+  bottom: -188px;
+  left: 50%;
+  width: 4px;
+  background: #e2ddcf;
+  transform: translateX(-50%);
+}
+
+.psm-tunnel__exit-horizontal {
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: #e2ddcf;
+  transform: translateY(-50%);
+}
+
+.psm-tunnel__exit-volume {
+  inset: 0;
+  border: 4px solid #e2ddcf;
+  box-shadow:
+    18px 18px 0 -4px #697377,
+    18px 18px 0 0 #e2ddcf;
+}
+
+.psm-knotting-rail__understructure {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-top: 5px solid #a47d37;
+  background: #090c0d;
+  color: #e7e1d5;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  text-align: left;
+}
+
+.psm-knotting-rail__understructure p {
+  margin: 0;
+}
+
+.psm-knotting-rail__understructure p:first-child {
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.psm-knotting-rail__understructure p:last-child {
+  margin-top: 8px;
+  color: #aaa69e;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.psm-knotting-rail__stitch {
+  display: block;
+  width: 4px;
+  height: 74px;
+  background: #d5ad5c;
+  box-shadow: 0 0 16px rgb(213 173 92 / 55%);
+}
+
+.psm-knotting-rail__note {
+  margin: 0;
+  padding: 18px 30px;
+  border-top: 2px solid var(--psm-steel-light);
+  color: #c7c2b8;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  line-height: 1.45;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* -----------------------------------------------------------------
+   Position 3 volumetric lawful quadranglement
+   ----------------------------------------------------------------- */
+
+.psm-position__field--quadranglement {
+  grid-template-columns:
+    var(--psm-pre-grounding-width)
+    var(--psm-center-chamber-width)
+    var(--psm-pre-readiness-width);
+}
+
+.psm-quadranglement-stage {
+  box-sizing: border-box;
+  display: flex;
+  min-height: 720px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  border: 2px solid var(--psm-steel);
+  background:
+    linear-gradient(rgb(255 255 255 / 16%), rgb(255 255 255 / 16%)),
+    var(--psm-paper-deep);
+}
+
+.psm-quadranglement-stage--inward {
+  align-items: stretch;
+  padding: 24px;
+}
+
+.psm-quadranglement-stage__outward {
+  display: flex;
+  min-height: 672px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.psm-projectioning-crossing-piton {
+  position: relative;
+  width: 520px;
+  height: 520px;
+}
+
+.psm-piton-volume {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 360px;
+  height: 96px;
+  transform: translate(-50%, -50%);
+}
+
+.psm-piton-volume__vertical,
+.psm-piton-volume__horizontal,
+.psm-piton-volume__depth,
+.psm-piton-volume__center {
+  position: absolute;
+  display: block;
+}
+
+.psm-piton-volume__vertical {
+  top: -188px;
+  bottom: -188px;
+  left: 50%;
+  width: 4px;
+  background: var(--psm-steel);
+  transform: translateX(-50%);
+}
+
+.psm-piton-volume__horizontal {
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: var(--psm-steel);
+  transform: translateY(-50%);
+}
+
+.psm-piton-volume__depth {
+  width: 132px;
+  height: 3px;
+  background: var(--psm-steel-light);
+}
+
+.psm-piton-volume__depth--a {
+  top: 10px;
+  left: 48px;
+  transform: rotate(32deg);
+}
+
+.psm-piton-volume__depth--b {
+  right: 48px;
+  bottom: 10px;
+  transform: rotate(32deg);
+}
+
+.psm-piton-volume__center {
+  inset: 0;
+  border: 4px solid var(--psm-steel);
+  background: rgb(241 235 223 / 38%);
+  box-shadow:
+    16px 16px 0 -4px var(--psm-paper-deep),
+    16px 16px 0 0 var(--psm-steel);
+}
+
+.psm-piton-label {
+  position: absolute;
+  margin: 0;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.psm-piton-label--foundation {
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.psm-piton-label--capstone {
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.psm-piton-label--xt {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.psm-piton-label--yt {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.psm-track-curve {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 132px;
+  height: 214px;
+  border: 5px solid var(--psm-steel);
+  transform: translateY(-50%);
+}
+
+.psm-track-curve--left {
+  left: 58px;
+  border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px;
+  border-right: 0;
+}
+
+.psm-track-curve--right {
+  right: 58px;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+  border-left: 0;
+}
+
+.psm-diagram-declaration {
+  margin-block: 38px !important;
+  padding: 24px 20px;
+  border-top: 3px solid var(--psm-steel);
+  border-bottom: 3px solid var(--psm-steel);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .psm-knotting-rail {
+    animation: none;
+  }
+}
+
 @media (max-width: 1535px) {
   body {
     overflow-x: auto;
