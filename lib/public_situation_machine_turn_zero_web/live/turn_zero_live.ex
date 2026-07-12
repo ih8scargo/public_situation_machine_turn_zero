@@ -7,6 +7,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
      assign(socket,
        page_title: "PUBLIC-SITUATION-MACHINE-TURN-ZERO",
        position_0_regard: :outward,
+       position_1_regard: :outward,
+       position_2_regard: :outward,
        unfolded_positions: MapSet.new([0])
      )}
   end
@@ -18,6 +20,22 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
   def handle_event("regard-outward", %{"position" => "0"}, socket) do
     {:noreply, assign(socket, position_0_regard: :outward)}
+  end
+
+  def handle_event("regard-inward", %{"position" => "1"}, socket) do
+    {:noreply, assign(socket, position_1_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "1"}, socket) do
+    {:noreply, assign(socket, position_1_regard: :outward)}
+  end
+
+  def handle_event("regard-inward", %{"position" => "2"}, socket) do
+    {:noreply, assign(socket, position_2_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "2"}, socket) do
+    {:noreply, assign(socket, position_2_regard: :outward)}
   end
 
   def handle_event("unfold-position", %{"position" => position}, socket) do
@@ -50,21 +68,21 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
       <section class="psm-identification" aria-label="Appliance identification">
         <div class="psm-identification__plate">
           <p class="psm-identification__label">
-            Public Situation Machine Appliance Tag
+            PUBLIC-SITUATION-MACHINE- Appliance Tag
           </p>
           <p class="psm-identification__value">PSM: 00000001</p>
         </div>
 
         <div class="psm-identification__plate">
           <p class="psm-identification__label">
-            -Coordinationing-Operationing-Bobbining Appliance Tag
+            -COORDINATIONING-OPERATIONING-BOBBINING Appliance Tag
           </p>
           <p class="psm-identification__value">COB: 00428173</p>
         </div>
 
         <div class="psm-identification__plate psm-identification__plate--relation">
           <p class="psm-identification__label">
-            Public-Situation-Machine-Coordinationing-Operationing-Bobbining-Relation-Tag
+            PUBLIC-SITUATION-MACHINE-COORDINATIONING-OPERATIONING-BOBBINING-Relation-Tag
           </p>
           <p class="psm-identification__value">
             PSM-COB: 00000001-00428173
@@ -73,7 +91,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
         <p class="psm-identification__relationing">
           These Appliance Tags now stand in Lawful Relationing through this
-          Public Situation Machine.
+          PUBLIC-SITUATION-MACHINE-.
         </p>
       </section>
 
@@ -174,7 +192,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 </p>
 
                 <p>
-                  The Public Situation Machine therefore begins not with movement,
+                  The PUBLIC-SITUATION-MACHINE- therefore begins not with movement,
                   but with Standing in Relationing to the center of This Post.
                 </p>
 
@@ -183,7 +201,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                 </p>
 
                 <p>
-                  The Public Situation Machine mounts the fullness of
+                  The PUBLIC-SITUATION-MACHINE- mounts the fullness of
                   Continuity-Opportunity-ing specified within the Suited Purpose
                   of This Present Situation.
                 </p>
@@ -387,47 +405,331 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
       </section>
 
       <%= if MapSet.member?(@unfolded_positions, 1) do %>
-        <section
-          id="tuple-position-1"
-          class="psm-position psm-position--newly-unfolded"
-          aria-labelledby="tuple-position-1-title"
-        >
-          <header class="psm-position__heading">
-            <p class="psm-position__ordinal">Tuple Position 1</p>
+        <.position_one
+          regard={@position_1_regard}
+          position_two_unfolded?={MapSet.member?(@unfolded_positions, 2)}
+        />
+      <% end %>
 
-            <h2 id="tuple-position-1-title">
-              Position One Now Stands Encounterable
-            </h2>
-          </header>
-
-          <div class="psm-position-shell">
-            <div class="psm-position-shell__grounding">
-              <p class="psm-region-label">Grounding</p>
-
-              <p>
-                Position One grounding awaits furnishing.
-              </p>
-            </div>
-
-            <div class="psm-position-shell__center">
-              <p class="psm-region-label">Constitutional Locality</p>
-
-              <div class="psm-position-shell__post" aria-hidden="true">
-                <span></span>
-              </div>
-            </div>
-
-            <div class="psm-position-shell__readiness">
-              <p class="psm-region-label">Readiness</p>
-
-              <p>
-                Position One consequence awaits furnishing.
-              </p>
-            </div>
-          </div>
-        </section>
+      <%= if MapSet.member?(@unfolded_positions, 2) do %>
+        <.position_two regard={@position_2_regard} />
       <% end %>
     </main>
+    """
+  end
+
+  attr :regard, :atom, required: true
+  attr :position_two_unfolded?, :boolean, required: true
+
+  defp position_one(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-1-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-1-oag-title">Regarded through Aperture</h2>
+      </div>
+    </section>
+
+    <section
+      id="tuple-position-1"
+      class="psm-position psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-1-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 1</p>
+        <h2 id="tuple-position-1-title">A Place Which Is No Longer Sealed</h2>
+      </header>
+
+      <div class="psm-position__field">
+        <aside class="psm-position__grounding" aria-labelledby="position-1-grounding">
+          <p class="psm-region-label" id="position-1-grounding">Grounding</p>
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_1_aperture.webp</code>
+          </div>
+          <div class="psm-prose">
+            <p>A Place Which Is No Longer Sealed</p>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-1-harbor-title">
+            <p class="psm-section-kicker">Harboring Image</p>
+            <h3 id="position-1-harbor-title">OPENING TO THE SHORE</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harboring Image: OPENING TO THE SHORE"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_1_opening_to_the_shore.webp</code>
+            </div>
+            <div class="psm-prose">
+              <p>The Post remains standing.</p>
+              <p>The Waters remain beyond encounter.</p>
+              <p>Yet This Constitutional Locality no longer stands closed.</p>
+              <p>A first Aperture has entered the world.</p>
+              <p>The Shore has not arrived.</p>
+              <p>The Shore was already here.</p>
+              <p>This Post simply now stands open to it.</p>
+              <p>Nothing has attached.</p>
+              <p>Nothing has departed.</p>
+              <p>The PUBLIC-SITUATION-MACHINE- now stands in readiness for Encounter.</p>
+              <p>Continuity has not yet become carried.</p>
+              <p>Yet Continuity may now become Encounteringmentable.</p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-1-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+            <h3 id="position-1-diagram-title">Position 1 Diagram Specification</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_1_attachment.webp</code>
+            </div>
+            <div
+              id="position-1-instrument-chamber"
+              class={["psm-post-stage", @regard == :inward && "psm-post-stage--inward"]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-post-stage__outward">
+                  <div class="psm-prose">
+                    <p>The Position Zero Stitch continues through this Constitutional Locality.</p>
+                    <p>This Post remains locally coincident with This Pier.</p>
+                    <p>The Position Zero Stitch continues through This Constitutional Locality.</p>
+                    <p>This Post remains locally coincident with This Pier.</p>
+                    <p>This Constitutional Locality now stands in readiness for lawful attachment.</p>
+                  </div>
+                  <button
+                    id="position-1-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="1"
+                  >Regard Inward</button>
+                </div>
+              <% else %>
+                <article
+                  id="position-1-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-1-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+                    <h4 id="position-1-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                    </h4>
+                  </header>
+                  <div class="psm-recital-chamber__recital" aria-label="Position One recital">
+                    <p>
+                      En-Attach-Ment-Able-En-Mint-ing-Able-En-Ment-ing-Able-En-Mint-ing-En-Ment-ing
+                    </p>
+                  </div>
+                  <button
+                    id="position-1-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="1"
+                  >Regard Outward</button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-1-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+            <div id="position-1-description-title" class="psm-prose">
+              <p>PSM continuity-ing begins from attachment.</p>
+              <p>A Line which is not tied carries nothing.</p>
+              <p>The attachment itself stands Mint-ing-ed.</p>
+              <p>
+                The resulting En-Ment stands En-Able-Ment-ed in readiness for Continuity Carriage.
+              </p>
+              <p>The Line is now lawful.</p>
+              <p>The Line is now tied.</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-1-readiness">
+          <p class="psm-region-label" id="position-1-readiness">Readiness for Tuple Position 2</p>
+          <p class="psm-readiness-outreading">
+            En-Attach-Ment-Able-En-Fixture-Mint-ing-En-Abled-Ment standinging.
+          </p>
+        </aside>
+      </div>
+
+      <%= unless @position_two_unfolded? do %>
+        <footer class="psm-unfolding-control">
+          <button
+            id="unfold-position-2"
+            type="button"
+            class="psm-unfold-control"
+            phx-click="unfold-position"
+            phx-value-position="2"
+          >Unfold</button>
+        </footer>
+      <% end %>
+    </section>
+    """
+  end
+
+  attr :regard, :atom, required: true
+
+  defp position_two(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-2-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-2-oag-title">Regarded in Weathering</h2>
+      </div>
+    </section>
+
+    <section
+      id="tuple-position-2"
+      class="psm-position psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-2-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 2</p>
+        <h2 id="tuple-position-2-title">
+          A Regard from Which Situationing Weather May First Become Visible
+        </h2>
+      </header>
+
+      <div class="psm-position__field">
+        <aside class="psm-position__grounding" aria-labelledby="position-2-grounding">
+          <p class="psm-region-label" id="position-2-grounding">Grounding</p>
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_2_weathering.webp</code>
+          </div>
+          <div class="psm-prose">
+            <p>A Regard from Which Situationing Weather May First Become Visible</p>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-2-harbor-title">
+            <p class="psm-section-kicker">Harboring Image</p>
+            <h3 id="position-2-harbor-title">THIS RAIL LINE</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harboring Image: THIS RAIL LINE"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_2_this_rail_line.webp</code>
+            </div>
+            <div class="psm-prose">
+              <p>This Tied Tide Line now acquires orientationing.</p>
+              <p>The PUBLIC-SITUATION-MACHINE first becomes capable of distinguishing:</p>
+              <p>XT</p><p>from</p><p>YT</p>
+              <p>XT remembers where to stand.</p>
+              <p>YT discovers where it might go.</p>
+              <p>
+                The Rail Line therefore furnishes the first Regard from which Situationing Weather may become visible.
+              </p>
+              <p>Posture first becomes possible.</p>
+              <p>Weather first becomes possible.</p>
+              <p>Drift first becomes possible.</p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-2-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+            <h3 id="position-2-diagram-title">Position 2 Diagram Specification</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_2_orientationing.webp</code>
+            </div>
+            <div
+              id="position-2-instrument-chamber"
+              class={["psm-post-stage", @regard == :inward && "psm-post-stage--inward"]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-post-stage__outward">
+                  <div class="psm-prose">
+                    <p>This Line remains attached to This Post.</p>
+                    <p>This Post remains locally coincident with This Pier.</p>
+                    <p>This Planar Crossing now furnishes orientationing between XT and YT.</p>
+                    <p>XT Shore and YT Waters now stand available to this Continuity Line.</p>
+                  </div>
+                  <button
+                    id="position-2-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="2"
+                  >Regard Inward</button>
+                </div>
+              <% else %>
+                <article
+                  id="position-2-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-2-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+                    <h4 id="position-2-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                    </h4>
+                  </header>
+                  <div class="psm-recital-chamber__recital" aria-label="Position Two recital">
+                    <p>En-Steady-Ment-ing-ly-En-Abled-Mint-ing-Ment-ing</p><p>of</p><p>
+                      En-Drift-Ment-Mint-ing
+                    </p><p>of</p><p>En-Steady-Ment-ing-ly-En-Able-ing-Mint-ing-Ment-ing</p><p>of</p><p>
+                      En-Drift-Ment-Mint-ing
+                    </p><p>of</p><p>En-Steady-Ment-ing-ly-En-Mint-ing-Ment-ing</p>
+                  </div>
+                  <button
+                    id="position-2-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="2"
+                  >Regard Outward</button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-2-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+            <div id="position-2-description-title" class="psm-prose">
+              <p>PSM continuity-ing first acquires Posture.</p>
+              <p>Posture determines the Regard from which This Thing may encounter the world.</p>
+              <p>Posture may become Situationing Weather.</p>
+              <p>The Rail Line stands as the first lawful infrastructure of Weathering.</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-2-readiness">
+          <p class="psm-region-label" id="position-2-readiness">Readiness for Tuple Position 3</p>
+          <p class="psm-readiness-outreading">
+            En-Quadranglement-Mint-ing-Able-En-Abled-Ment standinging.
+          </p>
+        </aside>
+      </div>
+    </section>
     """
   end
 end
