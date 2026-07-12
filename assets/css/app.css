@@ -1,0 +1,569 @@
+/* See the Tailwind configuration guide for advanced usage
+   https://tailwindcss.com/docs/configuration */
+
+@import "tailwindcss" source(none);
+@import "phoenix-colocated/public_situation_machine_turn_zero/colocated.css";
+@source "../css";
+@source "../js";
+@source "../../lib/public_situation_machine_turn_zero_web";
+/* Required for Tailwind to automatically pick up changes in colocated CSS files in dev */
+@source "../../_build/dev/phoenix-colocated/public_situation_machine_turn_zero/*/";
+
+/* A Tailwind plugin that makes "hero-#{ICON}" classes available.
+   The heroicons installation itself is managed by your mix.exs */
+@plugin "../vendor/heroicons";
+
+/* daisyUI Tailwind Plugin. */
+@plugin "daisyui/packages/bundle/daisyui" {
+  themes: false;
+}
+
+/* daisyUI theme plugin.
+  We ship with two themes, a light one inspired on Phoenix colors and a dark one inspired
+  on Elixir colors. Build your own at: https://daisyui.com/theme-generator/ */
+@plugin "daisyui/packages/bundle/daisyui-theme" {
+  name: "dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: oklch(30.33% 0.016 252.42);
+  --color-base-200: oklch(25.26% 0.014 253.1);
+  --color-base-300: oklch(20.15% 0.012 254.09);
+  --color-base-content: oklch(97.807% 0.029 256.847);
+  --color-primary: oklch(58% 0.233 277.117);
+  --color-primary-content: oklch(96% 0.018 272.314);
+  --color-secondary: oklch(58% 0.233 277.117);
+  --color-secondary-content: oklch(96% 0.018 272.314);
+  --color-accent: oklch(60% 0.25 292.717);
+  --color-accent-content: oklch(96% 0.016 293.756);
+  --color-neutral: oklch(37% 0.044 257.287);
+  --color-neutral-content: oklch(98% 0.003 247.858);
+  --color-info: oklch(58% 0.158 241.966);
+  --color-info-content: oklch(97% 0.013 236.62);
+  --color-success: oklch(60% 0.118 184.704);
+  --color-success-content: oklch(98% 0.014 180.72);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@plugin "daisyui/packages/bundle/daisyui-theme" {
+  name: "light";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(98% 0 0);
+  --color-base-200: oklch(96% 0.001 286.375);
+  --color-base-300: oklch(92% 0.004 286.32);
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: oklch(70% 0.213 47.604);
+  --color-primary-content: oklch(98% 0.016 73.684);
+  --color-secondary: oklch(55% 0.027 264.364);
+  --color-secondary-content: oklch(98% 0.002 247.839);
+  --color-accent: oklch(0% 0 0);
+  --color-accent-content: oklch(100% 0 0);
+  --color-neutral: oklch(44% 0.017 285.786);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(62% 0.214 259.815);
+  --color-info-content: oklch(97% 0.014 254.604);
+  --color-success: oklch(70% 0.14 182.503);
+  --color-success-content: oklch(98% 0.014 180.72);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.21875rem;
+  --size-field: 0.21875rem;
+  --border: 1.5px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* Add variants based on LiveView classes */
+@custom-variant phx-click-loading (.phx-click-loading&, .phx-click-loading &);
+@custom-variant phx-submit-loading (.phx-submit-loading&, .phx-submit-loading &);
+@custom-variant phx-change-loading (.phx-change-loading&, .phx-change-loading &);
+
+/* Use the data attribute for dark mode  */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Make LiveView wrapper divs transparent for layout */
+[data-phx-session], [data-phx-teleported-src] { display: contents }
+
+/* This file is for your main application CSS */
+
+:root {
+  --psm-intro-stage-width: 1536px;
+  --psm-intro-stage-gutter-x: 64px;
+  --psm-intro-field-width: 1408px;
+
+  --psm-pre-grounding-width: 416px;
+  --psm-center-chamber-width: 576px;
+  --psm-pre-readiness-width: 416px;
+
+  --psm-post-long: 576px;
+  --psm-post-short: 128px;
+
+  --psm-paper: #f1ebdf;
+  --psm-paper-deep: #e4dac8;
+  --psm-paper-light: #f8f4ec;
+  --psm-ink: #0c0d0d;
+  --psm-ink-soft: #454541;
+  --psm-steel: #202629;
+  --psm-steel-mid: #3d474b;
+  --psm-steel-light: #697377;
+  --psm-rule: #8c867b;
+  --psm-brass: #8c6a2f;
+}
+
+html {
+  background: var(--psm-paper);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    linear-gradient(rgb(255 255 255 / 15%), rgb(255 255 255 / 15%)),
+    var(--psm-paper);
+  color: var(--psm-ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.psm-intro {
+  box-sizing: border-box;
+  width: var(--psm-intro-stage-width);
+  min-height: 100vh;
+  margin-inline: auto;
+  padding: 32px var(--psm-intro-stage-gutter-x) 120px;
+}
+
+.psm-masthead {
+  width: var(--psm-intro-field-width);
+  margin-inline: auto;
+  border: 4px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+  box-shadow:
+    0 8px 0 var(--psm-steel),
+    0 12px 24px rgb(25 27 27 / 14%);
+}
+
+.psm-masthead__machine-name {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 28px 36px 24px;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 68px;
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.psm-masthead__lower {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 22px 30px 20px;
+}
+
+.psm-masthead__lower h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.psm-masthead__lower p {
+  margin: 0;
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.psm-identification {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: var(--psm-intro-field-width);
+  margin: 34px auto 0;
+  border: 2px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+}
+
+.psm-identification__plate {
+  box-sizing: border-box;
+  min-height: 108px;
+  padding: 20px 24px;
+  border-right: 1px solid var(--psm-steel);
+  border-bottom: 1px solid var(--psm-steel);
+}
+
+.psm-identification__plate:nth-child(2) {
+  border-right: 0;
+}
+
+.psm-identification__plate--relation {
+  grid-column: 1 / -1;
+  border-right: 0;
+}
+
+.psm-identification__label,
+.psm-identification__value,
+.psm-identification__relationing,
+.psm-oag__eyebrow,
+.psm-oag__reading,
+.psm-position__ordinal,
+.psm-region-label,
+.psm-section-kicker,
+.psm-image-placeholder,
+.psm-post-card {
+  font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+
+.psm-identification__label {
+  margin: 0;
+  color: var(--psm-steel-light);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.psm-identification__value {
+  margin: 12px 0 0;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.psm-identification__relationing {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 16px 24px;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.psm-oag {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  width: var(--psm-intro-field-width);
+  margin: 34px auto 0;
+  border: 3px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+}
+
+.psm-oag__instrument-plate {
+  padding: 28px 32px;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.psm-oag__eyebrow {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.psm-oag h2 {
+  margin: 12px 0 0;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.psm-oag__reading {
+  margin: 14px 0 0;
+  color: #dfc28c;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.psm-oag__description {
+  align-self: center;
+  margin: 0;
+  padding: 34px 46px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.psm-position {
+  width: var(--psm-intro-field-width);
+  margin: 58px auto 0;
+}
+
+.psm-position__heading {
+  padding: 26px 30px 28px;
+  border-top: 4px solid var(--psm-steel);
+  border-bottom: 2px solid var(--psm-steel);
+  text-align: center;
+}
+
+.psm-position__ordinal {
+  margin: 0;
+  color: var(--psm-steel-mid);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.psm-position__heading h2 {
+  margin: 12px 0 0;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.psm-position__field {
+  display: grid;
+  grid-template-columns:
+    var(--psm-pre-grounding-width)
+    var(--psm-center-chamber-width)
+    var(--psm-pre-readiness-width);
+  align-items: start;
+  width: var(--psm-intro-field-width);
+  border-bottom: 3px solid var(--psm-steel);
+}
+
+.psm-position__grounding,
+.psm-position__readiness {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 42px 34px 60px;
+}
+
+.psm-position__grounding {
+  border-right: 2px solid var(--psm-steel);
+}
+
+.psm-position__readiness {
+  border-left: 2px solid var(--psm-steel);
+}
+
+.psm-position__center {
+  min-width: 0;
+}
+
+.psm-region-label,
+.psm-section-kicker {
+  margin: 0;
+  color: var(--psm-steel-mid);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.psm-comparison {
+  margin-top: 38px;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.psm-comparison p {
+  margin: 0;
+}
+
+.psm-comparison blockquote {
+  margin: 15px 0 34px;
+  padding-left: 18px;
+  border-left: 5px solid var(--psm-steel);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.psm-comparison__machine {
+  font-weight: 700;
+}
+
+.psm-readiness-outreading {
+  overflow-wrap: anywhere;
+  margin: 34px 0 0;
+  color: var(--psm-brass);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.psm-harboring,
+.psm-diagram-section,
+.psm-diagram-description {
+  box-sizing: border-box;
+  padding: 40px 42px 48px;
+}
+
+.psm-diagram-section,
+.psm-diagram-description {
+  border-top: 2px solid var(--psm-steel);
+}
+
+.psm-harboring h3,
+.psm-diagram-section h3,
+.psm-diagram-description h3 {
+  margin: 10px 0 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.psm-prose {
+  margin-top: 32px;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+.psm-prose p {
+  margin: 0;
+}
+
+.psm-prose p + p {
+  margin-top: 22px;
+}
+
+.psm-image-placeholder {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
+  border: 2px dashed var(--psm-steel-light);
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      rgb(32 38 41 / 4%) 0,
+      rgb(32 38 41 / 4%) 10px,
+      transparent 10px,
+      transparent 20px
+    ),
+    var(--psm-paper-light);
+  color: var(--psm-steel-mid);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.psm-image-placeholder span {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.psm-image-placeholder code {
+  max-width: 90%;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 10px;
+  text-transform: none;
+}
+
+.psm-image-placeholder--observatory {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.psm-image-placeholder--harbor {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+}
+
+.psm-image-placeholder--instrument {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+}
+
+.psm-post-stage {
+  display: flex;
+  min-height: 672px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  border: 1px solid var(--psm-rule);
+  background:
+    linear-gradient(rgb(255 255 255 / 20%), rgb(255 255 255 / 20%)),
+    var(--psm-paper-deep);
+}
+
+.psm-post-card {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto 1fr auto 1fr auto;
+  width: var(--psm-post-short);
+  height: var(--psm-post-long);
+  padding: 18px 9px;
+  border: 4px solid var(--psm-steel);
+  background: var(--psm-paper-deep);
+  box-shadow:
+    0 0 0 2px rgb(255 255 255 / 35%) inset,
+    8px 10px 0 rgb(32 38 41 / 18%);
+  color: var(--psm-steel);
+}
+
+.psm-post-card p {
+  margin: 0;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 1.22;
+  text-align: center;
+}
+
+.psm-post-card__line {
+  width: 3px;
+  height: 100%;
+  margin-inline: auto;
+  background: var(--psm-steel);
+}
+
+.psm-post-card__cob-locality {
+  align-self: center;
+  font-size: 8px !important;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1535px) {
+  body {
+    overflow-x: auto;
+  }
+
+  .psm-intro {
+    margin-inline: 0;
+  }
+}
