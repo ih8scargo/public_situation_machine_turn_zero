@@ -10,6 +10,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
        position_1_regard: :outward,
        position_2_regard: :outward,
        position_3_regard: :outward,
+       position_4_regard: :outward,
+       position_5_regard: :outward,
+       position_6_regard: :outward,
        unfolded_positions: MapSet.new([0])
      )}
   end
@@ -47,6 +50,30 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
     {:noreply, assign(socket, position_3_regard: :outward)}
   end
 
+  def handle_event("regard-inward", %{"position" => "4"}, socket) do
+    {:noreply, assign(socket, position_4_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "4"}, socket) do
+    {:noreply, assign(socket, position_4_regard: :outward)}
+  end
+
+  def handle_event("regard-inward", %{"position" => "5"}, socket) do
+    {:noreply, assign(socket, position_5_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "5"}, socket) do
+    {:noreply, assign(socket, position_5_regard: :outward)}
+  end
+
+  def handle_event("regard-inward", %{"position" => "6"}, socket) do
+    {:noreply, assign(socket, position_6_regard: :inward)}
+  end
+
+  def handle_event("regard-outward", %{"position" => "6"}, socket) do
+    {:noreply, assign(socket, position_6_regard: :outward)}
+  end
+
   def handle_event("unfold-position", %{"position" => position}, socket) do
     position = String.to_integer(position)
 
@@ -77,21 +104,21 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
       <section class="psm-identification" aria-label="Appliance identification">
         <div class="psm-identification__plate">
           <p class="psm-identification__label">
-            PUBLIC-SITUATION-MACHINE- Appliance Tag
+            Appliance Tag: PUBLIC-SITUATION-MACHINE-
           </p>
           <p class="psm-identification__value">PSM: 00000001</p>
         </div>
 
         <div class="psm-identification__plate">
           <p class="psm-identification__label">
-            -COORDINATIONING-OPERATIONING-BOBBINING Appliance Tag
+            Appliance Tag: -COORDINATIONING-OPERATIONING-BOBBINING
           </p>
           <p class="psm-identification__value">COB: 00428173</p>
         </div>
 
         <div class="psm-identification__plate psm-identification__plate--relation">
           <p class="psm-identification__label">
-            PUBLIC-SITUATION-MACHINE-COORDINATIONING-OPERATIONING-BOBBINING-Relation-Tag
+            Appliance Tag: PUBLIC-SITUATION-MACHINE--COORDINATIONING-OPERATIONING-BOBBINING-Relation-Tag
           </p>
           <p class="psm-identification__value">
             PSM-COB: 00000001-00428173
@@ -429,7 +456,28 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
       <%= if MapSet.member?(@unfolded_positions, 3) do %>
         <.turn_zero_knotting_rail />
-        <.position_three regard={@position_3_regard} />
+        <.position_three
+          regard={@position_3_regard}
+          position_four_unfolded?={MapSet.member?(@unfolded_positions, 4)}
+        />
+      <% end %>
+
+      <%= if MapSet.member?(@unfolded_positions, 4) do %>
+        <.position_four
+          regard={@position_4_regard}
+          position_five_unfolded?={MapSet.member?(@unfolded_positions, 5)}
+        />
+      <% end %>
+
+      <%= if MapSet.member?(@unfolded_positions, 5) do %>
+        <.position_five
+          regard={@position_5_regard}
+          position_six_unfolded?={MapSet.member?(@unfolded_positions, 6)}
+        />
+      <% end %>
+
+      <%= if MapSet.member?(@unfolded_positions, 6) do %>
+        <.position_six regard={@position_6_regard} />
       <% end %>
     </main>
     """
@@ -831,6 +879,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
   end
 
   attr :regard, :atom, required: true
+  attr :position_four_unfolded?, :boolean, required: true
 
   defp position_three(assigns) do
     ~H"""
@@ -1066,6 +1115,530 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
           <p class="psm-readiness-outreading">
             En-Distinguish-Mint-ing-Able-En-Ment-ing-Able-En-Lining-Mint-ing-Ment
             standinging.
+          </p>
+        </aside>
+      </div>
+
+      <%= unless @position_four_unfolded? do %>
+        <footer class="psm-unfolding-control">
+          <p class="psm-unfolding-control__status">
+            Position Three now stands available for inheritance.
+          </p>
+
+          <button
+            id="unfold-position-4"
+            type="button"
+            class="psm-unfold-control"
+            phx-click="unfold-position"
+            phx-value-position="4"
+          >
+            Unfold
+          </button>
+        </footer>
+      <% end %>
+    </section>
+    """
+  end
+
+  attr :regard, :atom, required: true
+  attr :position_five_unfolded?, :boolean, required: true
+
+  defp position_four(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-4-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-4-oag-title">Regarded in Distinguishingment</h2>
+      </div>
+    </section>
+
+    <section
+      id="tuple-position-4"
+      class="psm-position psm-position--perspective psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-4-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 4</p>
+        <h2 id="tuple-position-4-title">A Perspective from Which Relation May Acquire Angle</h2>
+      </header>
+
+      <div class="psm-position__field psm-position__field--perspective">
+        <aside class="psm-position__grounding" aria-label="Position 4 observatory locality">
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved Position 4 observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_4_perspective.webp</code>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-4-harbor-title">
+            <p class="psm-section-kicker">Harboring Image</p>
+            <h3 id="position-4-harbor-title">THIS RE-STEP WALL</h3>
+
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harboring Image: THIS RE-STEP WALL"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_4_re_step_wall.webp</code>
+            </div>
+
+            <div class="psm-prose">
+              <p>The RE-Step Wall now stands foregrounded.</p>
+              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The Wall remains standing.</p>
+              <p>
+                The COB may now stand in Relationing to the Wall while traversaling within the YT
+                Waters.
+              </p>
+              <p>The RE-Step Wall does not move.</p>
+              <p>The RE-Step Wall does not traverse.</p>
+              <p>The RE-Step Wall furnishes perspective.</p>
+              <p>Angular displacement from the Wall now becomes distinguishable.</p>
+              <p>
+                The PUBLIC-SITUATION-MACHINE therefore first becomes capable of Perspective.
+              </p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-4-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+            <h3 id="position-4-diagram-title">Position 4 Diagram</h3>
+
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved Position 4 instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_4_re_step_wall.webp</code>
+            </div>
+
+            <div
+              id="position-4-instrument-chamber"
+              class={["psm-perspective-stage", @regard == :inward && "psm-perspective-stage--inward"]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-perspective-stage__outward">
+                  <div class="psm-re-step-geometry" aria-label="Fixed RE-Step Wall geometry">
+                    <div class="psm-re-step-geometry__background" aria-hidden="true">
+                      <span class="psm-re-step-geometry__piton"></span>
+                      <span class="psm-re-step-geometry__rail"></span>
+                      <span class="psm-re-step-geometry__curve psm-re-step-geometry__curve--left"></span>
+                      <span class="psm-re-step-geometry__curve psm-re-step-geometry__curve--right"></span>
+                    </div>
+                    <span class="psm-re-step-geometry__wall" aria-hidden="true"></span>
+                    <span class="psm-re-step-geometry__cob" aria-label="Displaced COB locality">COB</span>
+                    <span
+                      class="psm-re-step-geometry__trace psm-re-step-geometry__trace--one"
+                      aria-hidden="true"
+                    ></span>
+                    <span
+                      class="psm-re-step-geometry__trace psm-re-step-geometry__trace--two"
+                      aria-hidden="true"
+                    ></span>
+                    <span
+                      class="psm-re-step-geometry__trace psm-re-step-geometry__trace--three"
+                      aria-hidden="true"
+                    ></span>
+                  </div>
+
+                  <button
+                    id="position-4-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="4"
+                  >Regard Inward</button>
+                </div>
+              <% else %>
+                <article
+                  id="position-4-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-4-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+                    <h4 id="position-4-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                    </h4>
+                  </header>
+                  <div class="psm-recital-chamber__recital" aria-label="Position Four recital">
+                    <p>
+                      En-Distinguish-Mint-ing-Able-En-Ment-ing-Able-En-Lining-Mint-ing-Ment
+                    </p>
+                  </div>
+
+                  <button
+                    id="position-4-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="4"
+                  >Regard Outward</button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-4-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+            <div id="position-4-description-title" class="psm-prose">
+              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The RE-Step Wall remains standing.</p>
+              <p>The COB now occupies localities of Regard relative to the Wall.</p>
+              <p>The Wall furnishes Perspective.</p>
+              <p>The Waters furnish possible Regards.</p>
+              <p>The difference in angle between Wall and Regard locality becomes the source of:</p>
+              <p class="psm-diagram-declaration">
+                Bearingings,<br /> Drift,<br /> Weathering,<br /> Trajectory,<br /> Excursioning.
+              </p>
+              <p>Without the Wall there is only:</p>
+              <p class="psm-diagram-declaration">here</p>
+              <p>The Wall first makes possible:</p>
+              <p class="psm-diagram-declaration">there</p>
+              <p>and therefore:</p>
+              <p class="psm-diagram-declaration">again</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-4-readiness">
+          <p class="psm-region-label" id="position-4-readiness">Readiness for Position 5</p>
+          <p class="psm-readiness-outreading">
+            En-Traversal-Mint-ing-Ably-En-Ment-ing-Ably-En-Regard-Mint-ing-En-Ment standinging.
+          </p>
+        </aside>
+      </div>
+
+      <%= unless @position_five_unfolded? do %>
+        <footer class="psm-unfolding-control">
+          <button
+            id="unfold-position-5"
+            type="button"
+            class="psm-unfold-control"
+            phx-click="unfold-position"
+            phx-value-position="5"
+          >Unfold</button>
+        </footer>
+      <% end %>
+    </section>
+    """
+  end
+
+  attr :regard, :atom, required: true
+  attr :position_six_unfolded?, :boolean, required: true
+
+  defp position_five(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-5-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-5-oag-title">Regarded in Continuity-ing</h2>
+      </div>
+    </section>
+
+    <section
+      id="tuple-position-5"
+      class="psm-position psm-position--perspective psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-5-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 5</p>
+        <h2 id="tuple-position-5-title">A Means through Which Continuity May Become Carried</h2>
+      </header>
+
+      <div class="psm-position__field psm-position__field--perspective">
+        <aside class="psm-position__grounding" aria-label="Position 5 observatory locality">
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved Position 5 observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_5_continuity.webp</code>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-5-harbor-title">
+            <p class="psm-section-kicker">Harbor Image</p>
+            <h3 id="position-5-harbor-title">THIS RE-STEP</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harbor Image: THIS RE-STEP"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_5_re_step.webp</code>
+            </div>
+            <div class="psm-prose">
+              <p>The RE-Step now stands foregrounded.</p>
+              <p>The RE-Step Wall remains standing.</p>
+              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>Continuity may now become carried through Traversaling.</p>
+              <p>The PUBLIC-SITUATION-MACHINE first becomes capable of Excursioning.</p>
+              <p>
+                The COB may now venture from its original locality while preserving Relationing to
+                where it has been.
+              </p>
+              <p>Continuity does not remain behind.</p>
+              <p>Continuity travels.</p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-5-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+            <h3 id="position-5-diagram-title">Position 5 Diagram</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved Position 5 instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_5_re_step.webp</code>
+            </div>
+
+            <div
+              id="position-5-instrument-chamber"
+              class={["psm-perspective-stage", @regard == :inward && "psm-perspective-stage--inward"]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-perspective-stage__outward">
+                  <div class="psm-continuity-geometry" aria-label="RE-Step continuity geometry">
+                    <p class="psm-geometry-label psm-geometry-label--top">XT SHORE</p>
+                    <span class="psm-continuity-geometry__origin" aria-hidden="true"></span>
+                    <span class="psm-continuity-geometry__wall" aria-hidden="true"></span>
+                    <p class="psm-continuity-geometry__wall-label">RE-STEP WALL</p>
+                    <span class="psm-continuity-geometry__turn" aria-hidden="true"></span>
+                    <span class="psm-continuity-geometry__arrival" aria-hidden="true"></span>
+                    <p class="psm-geometry-label psm-geometry-label--bottom">YT WATERS</p>
+                  </div>
+                  <button
+                    id="position-5-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="5"
+                  >Regard Inward</button>
+                </div>
+              <% else %>
+                <article
+                  id="position-5-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-5-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+                    <h4 id="position-5-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                    </h4>
+                  </header>
+                  <div class="psm-recital-chamber__recital" aria-label="Position Five recital">
+                    <p>En-RE-Step-En-Ment-ing-Mint</p>
+                    <p>of</p><p>En-Ment-ing</p><p>of</p><p>En-Mint-ing</p><p>of</p>
+                    <p>En-Ment-ing</p><p>of</p><p>En-Mint-ing</p>
+                  </div>
+                  <button
+                    id="position-5-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="5"
+                  >Regard Outward</button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-5-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+            <div id="position-5-description-title" class="psm-prose">
+              <p>The original locality remains standing.</p>
+              <p>The traversingable locality now stands available.</p>
+              <p>The relationing stands carried.</p>
+              <p>The RE-Step does not sever relation to origin.</p>
+              <p>The RE-Step carries the Continuity Line forward through Traversaling.</p>
+              <p>Excursioning now stands available to this PUBLIC-SITUATION-MACHINE.</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-5-readiness">
+          <p class="psm-region-label" id="position-5-readiness">Readiness for Position 6</p>
+          <p class="psm-readiness-outreading">
+            En-Recursion-Mint-ing-Ably-En-Ment-ing-Ably-En-Return-Mint-ing-En-Ment standinging.
+          </p>
+        </aside>
+      </div>
+
+      <%= unless @position_six_unfolded? do %>
+        <footer class="psm-unfolding-control">
+          <button
+            id="unfold-position-6"
+            type="button"
+            class="psm-unfold-control"
+            phx-click="unfold-position"
+            phx-value-position="6"
+          >Unfold</button>
+        </footer>
+      <% end %>
+    </section>
+    """
+  end
+
+  attr :regard, :atom, required: true
+
+  defp position_six(assigns) do
+    ~H"""
+    <section class="psm-oag" aria-labelledby="position-6-oag-title">
+      <div class="psm-oag__instrument-plate">
+        <p class="psm-oag__eyebrow">OAG Outreadingment</p>
+        <h2 id="position-6-oag-title">Regarded in Returning</h2>
+      </div>
+    </section>
+
+    <section
+      id="tuple-position-6"
+      class="psm-position psm-position--perspective psm-position--newly-unfolded"
+      aria-labelledby="tuple-position-6-title"
+    >
+      <header class="psm-position__heading">
+        <p class="psm-position__ordinal">Tuple Position 6</p>
+        <h2 id="tuple-position-6-title">
+          A Means through Which This Thing May Become Like This Thing Again
+        </h2>
+      </header>
+
+      <div class="psm-position__field psm-position__field--perspective">
+        <aside class="psm-position__grounding" aria-label="Position 6 observatory locality">
+          <div
+            class="psm-image-placeholder psm-image-placeholder--observatory"
+            role="img"
+            aria-label="Reserved Position 6 observatory image locality"
+          >
+            <span>Observatory Image</span>
+            <code>observatory_position_6_returning.webp</code>
+          </div>
+        </aside>
+
+        <article class="psm-position__center">
+          <section class="psm-harboring" aria-labelledby="position-6-harbor-title">
+            <p class="psm-section-kicker">Harboring Image</p>
+            <h3 id="position-6-harbor-title">THIS RE-STEP-MENT MOMENT</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--harbor"
+              role="img"
+              aria-label="Reserved Harboring Image: THIS RE-STEP-MENT MOMENT"
+            >
+              <span>Harbor Image</span>
+              <code>harbor_position_6_re_step_ment_moment.webp</code>
+            </div>
+            <div class="psm-prose">
+              <p>The RE-Step-Ment Moment now stands foregrounded.</p>
+              <p>The RE-Step remains standing.</p>
+              <p>The RE-Step Wall remains standing.</p>
+              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The original locality remains standing.</p>
+              <p>The traversed locality remains standing.</p>
+              <p>The PUBLIC-SITUATION-MACHINE first becomes capable of Returning.</p>
+              <p>Returning is not repetition.</p>
+              <p>Returning is not restoration.</p>
+              <p>Returning is not reversal.</p>
+              <p>Returning is the possibility that:</p>
+              <p class="psm-diagram-declaration">This Thing</p>
+              <p>may become:</p>
+              <p class="psm-diagram-declaration">Like This Thing Again</p>
+              <p>through Lawful Continuity Carriage over Discrete Turns.</p>
+            </div>
+          </section>
+
+          <section class="psm-diagram-section" aria-labelledby="position-6-diagram-title">
+            <p class="psm-section-kicker">Instrument Diagram</p>
+            <h3 id="position-6-diagram-title">Tuple Position 6 Diagram</h3>
+            <div
+              class="psm-image-placeholder psm-image-placeholder--instrument"
+              role="img"
+              aria-label="Reserved Position 6 instrument image locality"
+            >
+              <span>Instrument Image</span>
+              <code>instrument_position_6_re_step_ment_moment.webp</code>
+            </div>
+
+            <div
+              id="position-6-instrument-chamber"
+              class={["psm-perspective-stage", @regard == :inward && "psm-perspective-stage--inward"]}
+            >
+              <%= if @regard == :outward do %>
+                <div class="psm-perspective-stage__outward">
+                  <div class="psm-return-geometry" aria-label="RE-Step-Ment Moment return geometry">
+                    <p>RE-STEP-MENT MOMENT</p>
+                    <span class="psm-return-geometry__locality psm-return-geometry__locality--origin"></span>
+                    <span class="psm-return-geometry__return" aria-hidden="true">↺</span>
+                    <span class="psm-return-geometry__locality psm-return-geometry__locality--arrival"></span>
+                    <strong>RE-STEP</strong>
+                  </div>
+                  <button
+                    id="position-6-regard-inward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-inward"
+                    phx-value-position="6"
+                  >Regard Inward</button>
+                </div>
+              <% else %>
+                <article
+                  id="position-6-recital"
+                  class="psm-recital-chamber"
+                  aria-labelledby="position-6-recital-title"
+                >
+                  <header class="psm-recital-chamber__header">
+                    <p class="psm-section-kicker">Inward Regard</p>
+                    <h4 id="position-6-recital-title">
+                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                    </h4>
+                  </header>
+                  <div class="psm-recital-chamber__recital" aria-label="Position Six recital">
+                    <p>En-RE-Step-En-Mint-ing-En-Ment</p>
+                  </div>
+                  <button
+                    id="position-6-regard-outward"
+                    type="button"
+                    class="psm-regard-control"
+                    phx-click="regard-outward"
+                    phx-value-position="6"
+                  >Regard Outward</button>
+                </article>
+              <% end %>
+            </div>
+          </section>
+
+          <section class="psm-diagram-description" aria-labelledby="position-6-description-title">
+            <p class="psm-section-kicker">Diagram Description</p>
+            <div id="position-6-description-title" class="psm-prose">
+              <p>The Moment stands simultaneously as:</p>
+              <p class="psm-diagram-declaration">
+                departure locality,<br /> arrival locality,<br /> and return locality.
+              </p>
+              <p>
+                The Moment therefore stands not as a coordinate but as a Continuity Relation carried
+                over Discrete Turns.
+              </p>
+              <p>The PUBLIC-SITUATION-MACHINE does not preserve sameness.</p>
+              <p>It preserves lawful becoming.</p>
+            </div>
+          </section>
+        </article>
+
+        <aside class="psm-position__readiness" aria-labelledby="position-6-readiness">
+          <p class="psm-region-label" id="position-6-readiness">Readiness for Tuple Position 0</p>
+          <p class="psm-readiness-outreading">
+            En-May-Be-Be-Coming-Like-This-Thing-Again-Mint-ing-Ably-En-Ment-ing-Ably-En-Mint-ing-Able-En-Ment-ing-Able-En-Mint-ing-ly-En-Ment-ing-ly-En-Mint-ing-En-Ment-ing
           </p>
         </aside>
       </div>

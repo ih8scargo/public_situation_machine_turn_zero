@@ -1263,6 +1263,231 @@ select {
   text-align: center;
 }
 
+/* -----------------------------------------------------------------
+   Turn Zero / Position 4 perspective
+   ----------------------------------------------------------------- */
+
+.psm-perspective-stage {
+  padding: 38px;
+  border: 3px solid var(--psm-steel);
+  background: #d9d5ca;
+}
+
+.psm-perspective-stage__outward {
+  display: grid;
+  gap: 30px;
+}
+
+.psm-re-step-geometry {
+  position: relative;
+  min-height: 540px;
+  overflow: hidden;
+  border: 2px solid #727a7d;
+  background:
+    linear-gradient(90deg, transparent 49.8%, rgb(43 49 51 / 12%) 50%, transparent 50.2%),
+    #c8c5bc;
+}
+
+.psm-re-step-geometry__background {
+  position: absolute;
+  z-index: 1;
+  inset: 56px 42px;
+  opacity: 0.28;
+}
+
+.psm-re-step-geometry__piton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 190px;
+  height: 190px;
+  border: 3px solid var(--psm-steel);
+  box-shadow: 22px 22px 0 -3px #777f81, 22px 22px 0 0 var(--psm-steel);
+  transform: translate(-50%, -50%);
+}
+
+.psm-re-step-geometry__piton::before,
+.psm-re-step-geometry__piton::after {
+  position: absolute;
+  content: "";
+  background: var(--psm-steel);
+}
+
+.psm-re-step-geometry__piton::before {
+  top: -74px;
+  bottom: -74px;
+  left: 50%;
+  width: 3px;
+}
+
+.psm-re-step-geometry__piton::after {
+  top: 50%;
+  right: -96px;
+  left: -96px;
+  height: 3px;
+}
+
+.psm-re-step-geometry__rail {
+  position: absolute;
+  top: 50%;
+  right: 42px;
+  left: 42px;
+  height: 5px;
+  background: var(--psm-steel);
+}
+
+.psm-re-step-geometry__curve {
+  position: absolute;
+  top: 50%;
+  width: 150px;
+  height: 260px;
+  border: 4px solid var(--psm-steel);
+  transform: translateY(-50%);
+}
+
+.psm-re-step-geometry__curve--left {
+  left: 12%;
+  border-right: 0;
+  border-radius: 150px 0 0 150px;
+}
+
+.psm-re-step-geometry__curve--right {
+  right: 12%;
+  border-left: 0;
+  border-radius: 0 150px 150px 0;
+}
+
+.psm-re-step-geometry__wall {
+  position: absolute;
+  z-index: 4;
+  top: 28px;
+  bottom: 28px;
+  left: 58%;
+  width: 38px;
+  border: 4px solid #191d1f;
+  background: #b69358;
+  box-shadow: 10px 0 0 rgb(25 29 31 / 22%);
+}
+
+.psm-re-step-geometry__cob {
+  position: absolute;
+  z-index: 3;
+  top: 67%;
+  left: 27%;
+  display: grid;
+  width: 76px;
+  height: 76px;
+  place-items: center;
+  border: 4px solid var(--psm-steel);
+  border-radius: 50%;
+  background: var(--psm-paper-light);
+  color: var(--psm-steel);
+  font-family: var(--psm-font-mono);
+  font-weight: 700;
+}
+
+.psm-re-step-geometry__trace {
+  position: absolute;
+  z-index: 3;
+  width: 11px;
+  height: 11px;
+  border: 2px solid var(--psm-steel);
+  border-radius: 50%;
+  background: #d9d5ca;
+}
+
+.psm-re-step-geometry__trace--one { top: 57%; left: 39%; }
+.psm-re-step-geometry__trace--two { top: 48%; left: 45%; }
+.psm-re-step-geometry__trace--three { top: 39%; left: 51%; }
+
+.psm-continuity-geometry,
+.psm-return-geometry {
+  position: relative;
+  min-height: 540px;
+  border: 2px solid #727a7d;
+  background: #c8c5bc;
+  color: var(--psm-steel);
+  font-family: var(--psm-font-mono);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.psm-geometry-label {
+  position: absolute;
+  left: 34px;
+  margin: 0;
+}
+
+.psm-geometry-label--top { top: 28px; }
+.psm-geometry-label--bottom { bottom: 28px; }
+
+.psm-continuity-geometry__origin,
+.psm-continuity-geometry__arrival {
+  position: absolute;
+  z-index: 3;
+  left: 42%;
+  width: 64px;
+  height: 64px;
+  border: 5px solid var(--psm-steel);
+  border-radius: 50%;
+  background: var(--psm-paper-light);
+}
+
+.psm-continuity-geometry__origin { top: 70px; }
+.psm-continuity-geometry__arrival { top: 345px; left: 61%; }
+
+.psm-continuity-geometry__wall {
+  position: absolute;
+  top: 134px;
+  left: calc(42% + 28px);
+  width: 8px;
+  height: 218px;
+  background: var(--psm-steel);
+  box-shadow: 9px 0 0 #b69358;
+}
+
+.psm-continuity-geometry__wall-label {
+  position: absolute;
+  top: 225px;
+  left: 14%;
+}
+
+.psm-continuity-geometry__turn {
+  position: absolute;
+  top: 344px;
+  left: calc(42% + 28px);
+  width: 22%;
+  height: 8px;
+  background: var(--psm-steel);
+}
+
+.psm-return-geometry {
+  display: grid;
+  grid-template-rows: auto 92px 92px 92px auto;
+  place-items: center;
+  padding: 54px;
+  text-align: center;
+}
+
+.psm-return-geometry p,
+.psm-return-geometry strong { margin: 0; }
+
+.psm-return-geometry__locality {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border: 5px solid var(--psm-steel);
+  border-radius: 50%;
+  background: var(--psm-paper-light);
+}
+
+.psm-return-geometry__return {
+  font-family: Georgia, serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .psm-knotting-rail {
     animation: none;
