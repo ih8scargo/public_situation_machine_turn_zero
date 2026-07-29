@@ -4,7 +4,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   import Phoenix.LiveViewTest
 
   test "changes Position Zero between outward and inward regard", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     assert has_element?(view, "#position-0-instrument-chamber")
     assert has_element?(view, "#position-0-regard-inward")
@@ -26,7 +26,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "unfolds Position One while preserving Position Zero", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     assert has_element?(view, "#tuple-position-0")
     assert has_element?(view, "#unfold-position-1")
@@ -47,7 +47,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "unfolds Position Two only from Position One", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     refute has_element?(view, "#unfold-position-2")
     refute has_element?(view, "#tuple-position-2")
@@ -63,7 +63,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "maintains independent persistent regard for all furnished positions", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -90,7 +90,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "unfolds the Knotting Rail tunnel and Position Three from Position Two", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -109,7 +109,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "maintains independent Position Three regard", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -129,7 +129,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "unfolds Position Four only after Position Three", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     refute has_element?(view, "#unfold-position-4")
     refute has_element?(view, "#tuple-position-4")
@@ -154,7 +154,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "maintains independent Position Four regard", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -178,7 +178,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "shows the Position Five control only after Position Four unfolds", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -193,7 +193,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "unfolds Positions Five and Six in sequence", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -217,7 +217,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "maintains independent regard for Positions Five and Six", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()
@@ -242,7 +242,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLiveTest do
   end
 
   test "renders the supplied Position Four through Six constitutional material", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/")
+    {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     view |> element("#unfold-position-1") |> render_click()
     view |> element("#unfold-position-2") |> render_click()

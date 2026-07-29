@@ -17,7 +17,12 @@ defmodule PublicSituationMachineTurnZeroWeb.Router do
   scope "/", PublicSituationMachineTurnZeroWeb do
     pipe_through :browser
 
-    live "/", TurnZeroLive, :index
+    live "/", LandingingLive, :index
+    live "/our-canonical-tuple", CanonicalTupleLive, :index
+    live "/the-appliance", ApplianceLive, :index
+    live "/this-tuple-ship-field", TupleShipFieldLive, :index
+    live "/constitutioning-foundations", ConstitutioningFoundationsLive, :index
+    live "/correspondencingments", CorrespondencingmentsLive, :index
   end
 
   # Other scopes may use custom stacks.

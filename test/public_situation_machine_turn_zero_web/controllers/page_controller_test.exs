@@ -3,6 +3,6 @@ defmodule PublicSituationMachineTurnZeroWeb.PageControllerTest do
 
   test "GET /", %{conn: conn} do
     conn = get(conn, ~p"/")
-    assert html_response(conn, 200) =~ "This Post Upon the Pier"
+    assert html_response(conn, 200) =~ "This Landinging Page"
   end
 end
