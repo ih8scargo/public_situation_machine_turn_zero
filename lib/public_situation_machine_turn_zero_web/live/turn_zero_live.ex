@@ -832,8 +832,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
         </h2>
 
         <p>
-          Passage through the planar Projection Cross toward volumetric lawful
-          quadranglement.
+          Passage through the planar Projection Cross toward volumetric Lawful
+          Quadranglement.
         </p>
       </header>
 
@@ -865,13 +865,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
           <div>
             <p>Knotting Rail</p>
-            <p>Inherited Stitching beneath present regard</p>
+            <p>Inherited Stitching beyond present Regard</p>
           </div>
         </div>
       </div>
 
       <p class="psm-knotting-rail__note">
-        The Tongue at the Threshold remains constitutionally present beneath the
+        The Tongue at the Threshold remains constitutioningfully present beneath the
         passage and is not depicted within this Intro Site geometry.
       </p>
     </section>
