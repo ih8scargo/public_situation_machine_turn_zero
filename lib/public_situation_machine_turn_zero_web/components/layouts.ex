@@ -31,29 +31,64 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
     default: nil,
     doc: "the current [scope](https://phoenix.hexdocs.pm/scopes.html)"
 
+  attr :active_locality, :atom, required: true
+
   slot :inner_block, required: true
 
   def app(assigns) do
     ~H"""
     <header id="site-navigation" class="site-navigation">
       <nav aria-label="Primary navigation" class="site-navigation__inner">
-        <.link navigate={~p"/"} class="site-navigation__link">This Landinging Page</.link>
-        <.link navigate={~p"/our-canonical-tuple"} class="site-navigation__link">
+        <.link
+          navigate={~p"/"}
+          class={["site-navigation__link", @active_locality == :landinging && "is-active"]}
+          aria-current={@active_locality == :landinging && "page"}
+        >
+          This Landinging Page
+        </.link>
+        <.link
+          navigate={~p"/our-canonical-tuple"}
+          class={["site-navigation__link", @active_locality == :canonical_tuple && "is-active"]}
+          aria-current={@active_locality == :canonical_tuple && "page"}
+        >
           Our Canonical Tuple
         </.link>
         <.link
           navigate={~p"/the-appliance"}
-          class={["site-navigation__link", "site-navigation__link--appliance"]}
+          class={[
+            "site-navigation__link",
+            "site-navigation__link--appliance",
+            @active_locality == :appliance && "is-active"
+          ]}
+          aria-current={@active_locality == :appliance && "page"}
         >
           THE APPLIANCE
         </.link>
-        <.link navigate={~p"/this-tuple-ship-field"} class="site-navigation__link">
+        <.link
+          navigate={~p"/this-tuple-ship-field"}
+          class={["site-navigation__link", @active_locality == :tuple_ship_field && "is-active"]}
+          aria-current={@active_locality == :tuple_ship_field && "page"}
+        >
           This Tuple Ship Field
         </.link>
-        <.link navigate={~p"/constitutioning-foundations"} class="site-navigation__link">
+        <.link
+          navigate={~p"/constitutioning-foundations"}
+          class={[
+            "site-navigation__link",
+            @active_locality == :constitutioning_foundations && "is-active"
+          ]}
+          aria-current={@active_locality == :constitutioning_foundations && "page"}
+        >
           Constitutioning Foundations
         </.link>
-        <.link navigate={~p"/correspondencingments"} class="site-navigation__link">
+        <.link
+          navigate={~p"/correspondencingments"}
+          class={[
+            "site-navigation__link",
+            @active_locality == :correspondencingments && "is-active"
+          ]}
+          aria-current={@active_locality == :correspondencingments && "page"}
+        >
           Correspondencingments
         </.link>
       </nav>

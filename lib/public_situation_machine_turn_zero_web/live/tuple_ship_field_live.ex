@@ -9,7 +9,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   @impl true
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} active_locality={:tuple_ship_field}>
       <main id="tuple-ship-field-page" class="site-page field-page">
         <header class="site-page__header">
           <p class="site-page__eyebrow">PUBLIC-SITUATION-MACHINE-</p>

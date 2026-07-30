@@ -86,7 +86,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
   @impl true
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} active_locality={:constitutioning_foundations}>
       <main class="psm-intro">
         <header class="psm-masthead">
           <p class="psm-masthead__machine-name">
@@ -101,6 +101,30 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             </p>
           </div>
         </header>
+
+        <section class="psm-oag" aria-labelledby="orientationing-panel-title">
+          <div class="psm-oag__instrument-plate">
+            <p class="psm-oag__eyebrow">
+              The Same General Civilizationalizing Constitutioningable Geometry
+            </p>
+
+            <h2 id="orientationing-panel-title">
+              Standinging in Regard
+            </h2>
+
+            <p class="psm-oag__reading">
+              The Bearinging of Continuity Possibility
+            </p>
+          </div>
+
+          <div class="psm-oag__description">
+            <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
+            <p>It may only ask what continues Holdinging.</p>
+            <p>
+              The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
+            </p>
+          </div>
+        </section>
 
         <section class="psm-identification" aria-label="Appliance identification">
           <div class="psm-identification__plate">
@@ -129,25 +153,6 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
           <p class="psm-identification__relationing">
             These Appliance Tags now stand in Lawful Relationing through this
             PUBLIC-SITUATION-MACHINE-.
-          </p>
-        </section>
-
-        <section class="psm-oag" aria-labelledby="oag-outreadingment-title">
-          <div class="psm-oag__instrument-plate">
-            <p class="psm-oag__eyebrow">Oscillationing Airiness Gauge</p>
-
-            <h2 id="oag-outreadingment-title">
-              OAG Outreadingment
-            </h2>
-
-            <p class="psm-oag__reading">
-              Regarded in En-Standinging-Ment
-            </p>
-          </div>
-
-          <p class="psm-oag__description">
-            The Oscillationing Airiness Gauge reports the Situational Weathering
-            Conditions presently available for Regard.
           </p>
         </section>
 

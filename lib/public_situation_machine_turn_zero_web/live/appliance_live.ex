@@ -9,7 +9,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
   @impl true
   def render(assigns) do
     ~H"""
-    <Layouts.app flash={@flash}>
+    <Layouts.app flash={@flash} active_locality={:appliance}>
       <main id="appliance-page" class="site-page site-page--placeholder">
         <header class="site-page__header">
           <p class="site-page__eyebrow">PUBLIC-SITUATION-MACHINE-</p>
