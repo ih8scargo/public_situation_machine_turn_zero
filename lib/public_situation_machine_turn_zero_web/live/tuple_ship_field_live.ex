@@ -11,10 +11,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:tuple_ship_field}>
       <main id="tuple-ship-field-page" class="site-page field-page">
-        <header class="site-page__header">
-          <p class="site-page__eyebrow">PUBLIC-SITUATION-MACHINE-</p>
-          <p class="site-page__subtitle">General Purpose Situationing Appliance</p>
-          <h1>This Tuple Ship Field</h1>
+        <Layouts.locality_threshold title="This Tuple Ship Field" id="tuple-ship-field-threshold" />
+        <header class="site-page__header site-page__header--orientation">
           <p class="site-page__orientation">
             This Locality presently furnishes regard toward This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
           </p>

@@ -21,10 +21,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:correspondencingments}>
       <main id="correspondencingments-page" class="site-page">
-        <header class="site-page__header">
-          <p class="site-page__eyebrow">PUBLIC-SITUATION-MACHINE-</p>
-          <p class="site-page__subtitle">General Purpose Situationing Appliance</p>
-          <h1>Correspondencingments</h1>
+        <Layouts.locality_threshold
+          title="Correspondencingments"
+          id="correspondencingments-threshold"
+        />
+        <header class="site-page__header site-page__header--orientation">
           <p class="site-page__orientation">Twople-Ship-to-Twople-Ship</p>
           <p class="site-page__orientation">Correspondencing from the Edge of the Field</p>
         </header>

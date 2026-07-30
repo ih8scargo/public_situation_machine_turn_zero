@@ -101,6 +101,44 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
   end
 
   @doc """
+  Renders the shared constitutional threshold used at the top of every locality.
+  """
+  attr :title, :string, required: true
+  attr :id, :string, required: true
+
+  def locality_threshold(assigns) do
+    ~H"""
+    <div id={@id} class="locality-threshold">
+      <header class="psm-masthead">
+        <p class="psm-masthead__machine-name">PUBLIC-SITUATION-MACHINE-</p>
+        <div class="psm-masthead__lower">
+          <h1>{@title}</h1>
+          <p>General Purpose Situationing Appliance</p>
+        </div>
+      </header>
+
+      <section class="psm-oag" aria-labelledby={"#{@id}-orientationing-title"}>
+        <div class="psm-oag__instrument-plate">
+          <p class="psm-oag__eyebrow">
+            The Same General Civilizationalizing Constitutioningable Geometry
+          </p>
+          <h2 id={"#{@id}-orientationing-title"}>Standinging in Regard</h2>
+          <p class="psm-oag__reading">The Bearinging of Continuity Possibility</p>
+        </div>
+
+        <div class="psm-oag__description">
+          <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
+          <p>It may only ask what continues Holdinging.</p>
+          <p>
+            The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
+          </p>
+        </div>
+      </section>
+    </div>
+    """
+  end
+
+  @doc """
   Shows the flash group with standard titles and content.
 
   ## Examples

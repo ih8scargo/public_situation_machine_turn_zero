@@ -93,32 +93,9 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:canonical_tuple}>
       <main id="canonical-tuple-page" class="canonical-reading">
-        <aside id="canonical-accompaniment" class="canonical-accompaniment">
-          <section class="canonical-orientation" aria-labelledby="canonical-orientation-title">
-            <p class="canonical-orientation__refrain">
-              The Same General Civilizationalizing Constitutioningable Geometry
-            </p>
-            <h2 id="canonical-orientation-title">Standinging in Regard</h2>
-            <p class="canonical-orientation__bearing">
-              The Bearinging of Continuity Possibility
-            </p>
-            <div class="canonical-orientation__statements">
-              <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
-              <p>It may only ask what continues Holdinging.</p>
-              <p>
-                The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
-              </p>
-            </div>
-          </section>
-        </aside>
+        <Layouts.locality_threshold title="Our Canonical Tuple" id="canonical-tuple-threshold" />
 
         <article id="canonical-narrative" class="canonical-narrative">
-          <header class="canonical-masthead">
-            <p>PUBLIC-SITUATION-MACHINE-</p>
-            <p>General Purpose Situationing Appliance</p>
-            <h1>Our Canonical Tuple</h1>
-          </header>
-
           <.appliance_ceremony />
           <.canonical_investituringment />
           <.canonical_some_one />
@@ -824,7 +801,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>Our Traversaling through This Situationing begins at:</p>
       <h2>TUPLE POSITION 0: ALONG</h2>
       <p>
-        This Office of Situational Staging, Division of Situationing Sleeving, Stewardly Captain COB Suiting Station now stands asking:
+        This Office of Situational Staginging, Division of Situationing Sleeving, Stewardly Captain COB Suiting Station now stands asking:
       </p>
       <blockquote>
         What is the Mattering to This Stewardly Captain COB Here, upon This One Piece of Time?
@@ -976,7 +953,9 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
       <.canonical_caterpillar_tunnel />
 
-      <p>Through this Caterpillar Tunnel, This RE-STEPPING ROOM is becoming Roomingly furnished.</p>
+      <p>
+        Through this Caterpillar Tunnel, This RE-STEPPING ROOM is becoming Roomingingly furnished.
+      </p>
       <p>
         Within this Caterpillar Tunnel, Tuple Position Three is furnishing This Approaching Landing.
       </p>

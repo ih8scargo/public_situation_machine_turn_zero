@@ -29,6 +29,9 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
       assert has_element?(view, "#site-navigation")
       assert has_element?(view, ~s|#site-navigation a.is-active[href="#{active_href}"]|)
+      assert has_element?(view, ".psm-masthead")
+      assert has_element?(view, ".psm-masthead__lower", "General Purpose Situationing Appliance")
+      assert has_element?(view, ".psm-oag", "Standinging in Regard")
 
       for {_locality_path, inactive_href} <- localities, inactive_href != active_href do
         refute has_element?(view, ~s|#site-navigation a.is-active[href="#{inactive_href}"]|)
@@ -57,11 +60,12 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert orientationing_index < identification_index
   end
 
-  test "Our Canonical Tuple is a two-column constitutional reading journey", %{conn: conn} do
+  test "Our Canonical Tuple is a single-column constitutional reading journey", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     assert has_element?(view, "#canonical-tuple-page")
-    assert has_element?(view, "#canonical-accompaniment")
+    refute has_element?(view, "#canonical-accompaniment")
+    assert has_element?(view, "#canonical-tuple-threshold")
     assert has_element?(view, "#canonical-narrative")
     assert has_element?(view, "#appliance-ceremony")
     assert has_element?(view, "#canonical-tuple-table")
@@ -115,6 +119,17 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#appliance-page")
     assert has_element?(view, ".site-navigation__link--appliance")
     refute has_element?(view, "#canonical-tuple-table")
+    assert has_element?(view, "#staginging-complex-title")
+    assert has_element?(view, "#dirt-tracks")
+    assert has_element?(view, "#re-step")
+    assert has_element?(view, "#appliance-readout-lane")
+    assert has_element?(view, "#situationing-stage-turn-zero")
+    assert has_element?(view, "#needle-region-weather-service")
+    assert has_element?(view, "#observationmintingmenting-title")
+    assert has_element?(view, "#navigationing-gallery")
+    assert has_element?(view, "#watchstead")
+    assert has_element?(view, "#cabinet-cellar-rooms")
+    assert has_element?(view, ~s|img[src="/images/appliance/situationing-stage.svg"]|)
   end
 
   test "Correspondencingment archive lists publications", %{conn: conn} do

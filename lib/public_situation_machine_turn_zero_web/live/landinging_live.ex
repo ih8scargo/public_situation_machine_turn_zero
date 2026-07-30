@@ -17,11 +17,7 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:landinging}>
       <main id="landinging-page" class="site-page">
-        <header class="site-page__header">
-          <p class="site-page__eyebrow">PUBLIC-SITUATION-MACHINE-</p>
-          <p class="site-page__subtitle">General Purpose Situationing Appliance</p>
-          <h1>This Landinging Page</h1>
-        </header>
+        <Layouts.locality_threshold title="This Landinging Page" id="landinging-threshold" />
 
         <section id="arriving-correspondencing" class="site-panel">
           <p class="site-page__eyebrow">PRESENTLY SOUNDINGING</p>
