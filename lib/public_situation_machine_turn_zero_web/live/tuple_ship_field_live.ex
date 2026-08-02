@@ -11,7 +11,37 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:tuple_ship_field}>
       <main id="tuple-ship-field-page" class="site-page field-page">
-        <Layouts.locality_threshold title="This Tuple Ship Field" id="tuple-ship-field-threshold" />
+        <Layouts.locality_threshold title="This Tuple Ship Field" id="tuple-ship-field-threshold">
+          <:description>
+            <p><strong>This Tuple Ship Field</strong></p>
+            <p>Welcome.</p>
+            <p>You've finally made it Here.</p>
+            <p>
+              This One Great Free Public Tuple Ship Field Parkinging Lot stands at the Opening to This Encounteringmenting Wharf.
+            </p>
+            <p>
+              From Here, Constitutioning Humans may freely reserve one Terrestrial Computer Parkinging Stand and begin taking hold of the Seat of the Stewardly Occupancyingship through This One Terrestrial Computer.
+            </p>
+            <p>This Furnishmenting Station will guide you through that Appointmenting.</p>
+          </:description>
+        </Layouts.locality_threshold>
+
+        <section
+          id="furnishmenting-station"
+          class="field-page__section field-page__furnishmenting-station"
+          aria-labelledby="furnishmenting-station-title"
+        >
+          <p class="site-page__eyebrow">CONSTITUTIONING HUMAN APPOINTMENTING</p>
+          <h2 id="furnishmenting-station-title">This Furnishmenting Station</h2>
+          <p><strong>Reserve One Free Terrestrial Computer Parkinging Stand</strong></p>
+          <p>
+            This Furnishmenting Station will guide Constitutioning Humans through taking hold of the Seat of the Stewardly Occupancyingship.
+          </p>
+          <p class="field-page__placeholder-notice">
+            [ Placeholder for future Appointmenting workflow ]
+          </p>
+        </section>
+
         <header class="site-page__header site-page__header--orientation">
           <p class="site-page__orientation">
             This Locality presently furnishes regard toward This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
@@ -23,9 +53,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining
           </h2>
           <p>
-            The Same General Civilizationalizing Constitutioningable Geometry furnishes the possibility of a civilization in which every neighborhood, watershed, classroom, workshop, archive, harbor, observatory, laboratory, council, organization, household, and place may steward its own lawful Continuity Line without surrendering it to a central authority.
+            The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes the possibility of a civilization in which every neighborhood, watershed, classroom, workshop, archive, harbor, observatory, laboratory, council, organization, household, and place may steward its own lawful Continuity Line without surrendering it to a central authority.
           </p>
-          <p>Each stands as its own established Locality.</p>
+          <p>Each stands as its own established Constitutional Locality.</p>
           <p>Each authors what continues holding there.</p>
           <p>
             Each determines the signals through which holdingness, repair, inheritance, correspondence, and stewardship may be recognized and revealed.
@@ -39,7 +69,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         <section class="field-page__section">
           <h2>Every Tuple Ship</h2>
           <p>
-            Each PUBLIC-SITUATION-MACHINE- together with its Stewardly Captain -COORDINATIONING-OPERATIONING-BOBBINING forms one Tuple Ship—one established Locality within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+            Each PUBLIC-SITUATION-MACHINE- together with its Stewardly Captain -COORDINATIONING-OPERATIONING-BOBBINING forms one Tuple Ship—one established Constitutional Locality within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
           </p>
           <p>A Tuple Ship is not merely software.</p>
           <p>It is not merely a record.</p>
@@ -63,7 +93,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           <p>They may furnish Bearingings.</p>
           <p>They may contribute instrumentation.</p>
           <p>They may share Encounteringments.</p>
-          <p>They may discover new constitutional geometry.</p>
+          <p>They may discover new Constitutioningable Reasoning Geometry.</p>
           <p>The Field grows not through centralization, but through lawful Correspondencing.</p>
           <p>
             Each Tuple Ship continues holding its own Continuity Line while enriching the Field shared by all.
@@ -78,7 +108,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             The Public Field grows by making that possible. Individuals should be able to inhabit one PUBLIC-SITUATION-MACHINE- freely, while organizations requiring stewardship of multiple Situationings furnish the shared infrastructure that enables universal access.
           </p>
           <p>The Propagationing is simple.</p>
-          <p>One machine for every one.</p>
+          <p>One machine for Every One.</p>
         </section>
 
         <section class="field-page__section">
@@ -90,10 +120,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           <p>It is an invitation.</p>
           <p>An invitation to steward places.</p>
           <p>To author Situationings.</p>
-          <p>To contribute constitutional geometry.</p>
+          <p>To contribute Constitutioningable Reasoning Geometry.</p>
           <p>To publish Correspondencingments.</p>
           <p>
-            To participate in the continued furnishing of a civilization whose Localities remain free to correspond without surrendering the lawful Continuity Lines that make each one distinct.
+            To participate in the continued furnishing of a civilization whose Constitutional Localities remain free to correspond without surrendering the lawful Continuity Lines that make each one distinct.
           </p>
           <p>This One Great Free Public Tuple Ship Field.</p>
           <p><em>A civilization holding with no center.</em></p>

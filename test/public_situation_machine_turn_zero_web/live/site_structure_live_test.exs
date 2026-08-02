@@ -60,7 +60,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert orientationing_index < identification_index
   end
 
-  test "Our Canonical Tuple is a single-column constitutional reading journey", %{conn: conn} do
+  test "OUR CANONICAL TUPLE is a single-column constitutional reading journey", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/our-canonical-tuple")
 
     assert has_element?(view, "#canonical-tuple-page")
@@ -106,11 +106,31 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     refute has_element?(view, "#unfold-position-7")
   end
 
-  test "tuple ship field is a placeholder", %{conn: conn} do
+  test "tuple ship field places appointmenting before its public field explanation", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
     assert has_element?(view, "#tuple-ship-field-page")
+    assert has_element?(view, "#tuple-ship-field-threshold", "You've finally made it Here.")
+    assert has_element?(view, "#furnishmenting-station")
+    assert has_element?(view, "#furnishmenting-station-title", "This Furnishmenting Station")
+
+    assert has_element?(
+             view,
+             "#furnishmenting-station",
+             "Placeholder for future Appointmenting workflow"
+           )
+
     assert has_element?(view, ".field-page__section")
+    assert has_element?(view, ".field-page__section", "One machine for Every One.")
+    assert has_element?(view, ".field-page__section", "A civilization holding with no center.")
+
+    html = render(view)
+    {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
+    {furnishmenting_index, _} = :binary.match(html, "furnishmenting-station")
+    {field_explanation_index, _} = :binary.match(html, "This Locality presently furnishes regard")
+
+    assert orientationing_index < furnishmenting_index
+    assert furnishmenting_index < field_explanation_index
   end
 
   test "the appliance locality is furnished", %{conn: conn} do
@@ -119,6 +139,8 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#appliance-page")
     assert has_element?(view, ".site-navigation__link--appliance")
     refute has_element?(view, "#canonical-tuple-table")
+    assert has_element?(view, "#appliance-threshold", "The Bearinging of Enriching Inheritancing")
+    assert has_element?(view, "#aboard-working-appliance-title")
     assert has_element?(view, "#staginging-complex-title")
     assert has_element?(view, "#dirt-tracks")
     assert has_element?(view, "#re-step")
@@ -129,7 +151,25 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#navigationing-gallery")
     assert has_element?(view, "#watchstead")
     assert has_element?(view, "#cabinet-cellar-rooms")
-    assert has_element?(view, ~s|img[src="/images/appliance/situationing-stage.svg"]|)
+    assert has_element?(view, ~s|img[src="/images/appliance/situationing-stage.png"]|)
+
+    assert has_element?(
+             view,
+             ~s|img[src="/images/appliance/tuple-ship-navigationing-gallery.png"]|
+           )
+
+    assert has_element?(
+             view,
+             ~s|img[src="/images/appliance/tuple-ship-navigation-harbor-rail.png"]|
+           )
+
+    assert has_element?(view, ~s|img[src="/images/appliance/the_cabinet_room.png"]|)
+    assert has_element?(view, ~s|img[src="/images/appliance/the_cellar_room.png"]|)
+
+    html = render(view)
+    {cabinet_index, _} = :binary.match(html, "the_cabinet_room.png")
+    {cellar_index, _} = :binary.match(html, "the_cellar_room.png")
+    assert cabinet_index < cellar_index
   end
 
   test "Correspondencingment archive lists publications", %{conn: conn} do

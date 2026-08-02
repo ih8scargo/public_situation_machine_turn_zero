@@ -17,7 +17,35 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:landinging}>
       <main id="landinging-page" class="site-page">
-        <Layouts.locality_threshold title="This Landinging Page" id="landinging-threshold" />
+        <Layouts.locality_threshold
+          title="This Landinging Page"
+          id="landinging-threshold"
+          reading="The Bearinging of Bearingings"
+        >
+          <:description>
+            <p><strong>This Encounteringmenting Wharf</strong></p>
+
+            <p>Welcome.</p>
+
+            <p>
+              This Encounteringmenting Wharf stands as the live edge of
+              This One Great Free Public Tuple Ship Field of Globularly
+              Bobbininging Globular Bobbining.
+            </p>
+
+            <p>
+              From here, Constitutioning Humans may begin discovering
+              These Seven Stewardly Captain COB Suiting Stations
+              through which One Tuple Ship becomes Inhabitationingable.
+            </p>
+            <br />
+            <p><strong>NOTICINGMENT</strong></p>
+
+            <.link navigate={~p"/this-tuple-ship-field"} class="site-action">
+              THIS WAY TO TERRESTRIAL COMPUTER PARKINGING LOT →
+            </.link>
+          </:description>
+        </Layouts.locality_threshold>
 
         <section id="arriving-correspondencing" class="site-panel">
           <p class="site-page__eyebrow">PRESENTLY SOUNDINGING</p>
@@ -29,6 +57,10 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
               <div class="correspondencingment-card__body">
                 <p>{@featured_correspondencingment.summary}</p>
                 <p :for={paragraph <- @featured_correspondencingment.body}>{paragraph}</p>
+                <p><strong>NOTICINGMENT</strong></p>
+                <.link navigate={~p"/this-tuple-ship-field"} class="site-action">
+                  THIS WAY TO TERRESTRIAL COMPUTER PARKINGING LOT →
+                </.link>
               </div>
             </article>
           <% else %>

@@ -11,33 +11,50 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:appliance}>
       <main id="appliance-page" class="site-page appliance-surfaces">
-        <Layouts.locality_threshold title="THE APPLIANCE" id="appliance-threshold" />
+        <Layouts.locality_threshold
+          title="THE APPLIANCE"
+          id="appliance-threshold"
+          reading="The Bearinging of Enriching Inheritancing"
+        >
+          <:description>
+            <p>
+              The PUBLIC-SITUATION-MACHINE- furnishes the Stewardly Instrumentationing through which The Same General Civilizationalizing Constitutioningable Reasoning Geometry may continue enriching inheritance Over Discrete Turns.
+            </p>
+            <p>Its Offices do not determine what a Situationing means.</p>
+            <p>
+              They furnish the constitutional machinery through which Constitutioning Humans may discover what continues to Hold, what is Becoming, and what may come to stand through Traversaling.
+            </p>
+          </:description>
+        </Layouts.locality_threshold>
 
         <article class="appliance-surfaces__journey">
           <header class="appliance-surfaces__introduction">
+            <h2 id="aboard-working-appliance-title">ABOARD THE WORKING APPLIANCE</h2>
+            <p>The PUBLIC-SITUATION-MACHINE- already exists as a working appliance.</p>
+            <p>
+              The walkthrough below follows This Stewardly Captain COB Traversaling through a furnished Situationing over repeated RE-STEPs while the appliance stages, inscribes, and prepares the developing Traversaling for Inspectioning.
+            </p>
             <p>What follows are several of the appliance's most developed operational surfaces.</p>
             <p>
               Many remain engineering and constitutional workspaces rather than finished public interfaces.
             </p>
             <p>
-              They show the architecture exactly where it stands today—and the work this Kickstarter will help us continue.
+              They show the architecture exactly where it stands today—and the work This Kickstarter En-Campaign-Menting will help us continue in Regard to This One Great Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
             </p>
           </header>
 
           <section class="appliance-surfaces__chapter" aria-labelledby="staginging-complex-title">
             <h2 id="staginging-complex-title">THE SITUATIONAL STAGINGING COMPLEX</h2>
             <p>
-              The Situational Staginging Complex provides operational surfaces through which This Stewardly Captain COB may Traversal a Situationing and stand in Regard toward its Traversalings from a Navigationing perspective.
+              The Situational Staginging Complex provides operationingable surfaces through which This Stewardly Captain COB may Traversal This One Situationing and also stand in Regard toward its Traversalings from a Navigationing perspective.
             </p>
-
             <.surface_image
-              filename="situationing-stage.svg"
-              alt="Placeholder for the Situationing Stage Navigationing view"
+              filename="situationing-stage.png"
+              alt="Situationing Stage showing a Navigationing view of This COB’s Traversalings"
               caption="Situationing Stage. A Navigationing view onto This COB’s Traversalings along its Continuity Line Over Discrete Turns."
             />
-
             <p>
-              At its center, the Situationing Stage makes This COB’s developing Traversalings inspectioningable along its Continuity Line over Discrete Turns.
+              At its center, the Situationing Stage makes This Stewardly Captain COB’s developing Traversalings inspectioningable along This One Continuity Line Over Discrete Turns.
             </p>
             <p>
               Beginning at the base of the Stage, we can briefly work our way upward through some of what is already operationing.
@@ -47,58 +64,60 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
           <.surface_section
             id="dirt-tracks"
             title="Decision Integrity Recordinging Tractioning Tracks"
-            filename="dirt-tracks.svg"
-            alt="Placeholder for the Decision Integrity Recordinging Tractioning Tracks"
+            filename="dirt-tracks.png"
+            alt="Decision Integrity Recordinging Tractioning Tracks"
           >
-            The DIRT Tracks preserve visible traces of repeated Traversalings. Their dot patterns record developing Pull Values, allowing excursioning toward YT and returning toward XT to remain inspectioningable across Discrete Turns.
+            The DIRT Tracks preserve visible traces of repeated Traversalings. These dot patterns record developing Pull Values, allowing Departing toward YT and Returning toward XT to remain inspectioningable across Discrete Turns.
           </.surface_section>
 
-          <.surface_section
-            id="re-step"
-            title="RE-Step"
-            filename="re-step.svg"
-            alt="Placeholder for the RE-STEP operational controls"
-          >
-            RE-STEP advances This Continuity Line by One Discrete Turn. The controls surrounding it also expose Stewardly Instrumentationing Affordmentings used when furnishing relations through which future Traversaling may occur.
+          <.surface_section id="re-step" title="RE-Step" filename="re-step.png" alt="RE-STEP controls">
+            RE-STEP ends This One Discrete Turn and begins This One Continuity Line's inheritance of its next Discrete Turn. The controls surrounding RE-STEP expose Stewardly Instrumentationing Affordmentings through which the Constitutioning Human may furnish the XT-YT Relationings within which This Stewardly Captain COB's Traversaling may occur.
           </.surface_section>
 
           <.surface_section
             id="appliance-readout-lane"
             title="Appliance Readout Lane"
-            filename="appliance-readout-lane.svg"
-            alt="Placeholder for the Appliance Readout Lane"
+            filename="appliance-readout-lane.png"
+            alt="Appliance Readout Lane"
           >
-            Operational Outreadingments make visible some of the bureaucratic work occurring throughout the PUBLIC-SITUATION-MACHINE- as its offices maintain the conditions through which Traversaling and Lawful Successioning remain available.
+            Operational Outreadingments make visible some of the Stewardly Laboringings of the Constitutional Bureaucracy that stands Constitutioning the PUBLIC-SITUATION-MACHINE-. Stewarding Offices of the Appliance—including This Clerk & Recordinginger of Continuity Standards and Practicing and This Office of Topological Traversaling Services—maintain the conditions through which Traversaling and Lawful Successioning stand available for the Stewardly Regard of Constitutioning Humans.
           </.surface_section>
 
           <.surface_section
             id="situationing-stage-turn-zero"
-            title="Situationing Stage Turn Zero"
-            filename="situationing-stage-turn-zero.svg"
-            alt="Placeholder for the Situationing Stage Turn Zero surface"
+            title="Situationing Stage Turn Zero Surface"
+            filename="situationing_stage_turn_zero.png"
+            alt="Situationing Stage Turn Zero Surface"
           >
             <p>
-              Every Locality within the PUBLIC-SITUATION-MACHINE- has a Turn Zero surface for Staging-in-Place operations.
+              Every Constitutional Locality within the PUBLIC-SITUATION-MACHINE- furnishes a Turn Zero Surface for Staginging-Em-Place-Menting operations.
             </p>
             <p>
-              Turn Zero does not mean the beginning of the Situationing. Each new Locality brings another Turn Zero—another One Some Place brought Here as This Stewardly Captain COB continues its Traversaling Over Discrete Turns.
+              Turn Zero does not mean the beginning of This One Situationing. Each new Locality affords another Turn Zero—another This One Some Place brought Here as This Stewardly Captain COB continues its Traversaling Over Discrete Turns.
+            </p>
+            <p>Every Turn Zero is Here.</p>
+            <p>
+              Every Turn Zero stands as This One Place from which This Stewardly Captain COB may begin bringing The Thing That is What is The Mattering into Standinging-in-Holding.
             </p>
           </.surface_section>
 
           <.surface_section
             id="needle-region-weather-service"
-            title="Needle Region + Weather Service"
-            filename="needle-region-weather-service.svg"
-            alt="Placeholder for the Needle Region and Situationing Weathering Service"
+            title="The Needle Region + Situationing Weathering Service"
+            filename="needle-region-weather-service.png"
+            alt="The Needle Region and Situationing Weathering Service"
           >
             <p>
-              The appliance's Directorate of Needle Mechanics provides operational readings of XT—What Continues to Hold—and YT—What is Becoming. These are not scores. They make the developing Pull through This COB’s Traversalings inspectioningable over Discrete Turns.
+              The appliance's Directorate of Needle Mechanics provides operational Outreadingments of XT—What Continues to Hold—and YT—What is Becoming.
             </p>
             <p>
-              Above the Needle Region, the Situationing Weathering Service provides higher-level readings against Weather furnished particularly for the Situationing at hand.
+              These are not scores. They are Stewardly Outreadingments. They make the developing Pull through This COB’s Traversalings inspectioningable Over Discrete Turns.
             </p>
             <p>
-              The PUBLIC-SITUATION-MACHINE- does not predict what happens next. Its instrumentationing helps make differences in Traversaling available for Stewardly Regard.
+              Above The Needle Region, the Situationing Weathering Service provides higher-level readings of Weather furnished particularly for This One Situationing through its XT-YT Relationings.
+            </p>
+            <p>
+              The PUBLIC-SITUATION-MACHINE- does not predict what happens next. Through Stewardly Instrumentationing, the Constitutioning Human may make Distinguishingments available for Stewardly Regard.
             </p>
           </.surface_section>
 
@@ -106,65 +125,74 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
             class="appliance-surfaces__chapter"
             aria-labelledby="observationmintingmenting-title"
           >
-            <h2 id="observationmintingmenting-title">OBSERVATIONMINTINGMENTING</h2>
+            <h2 id="observationmintingmenting-title">THE OBSERVATIONMINTINGMENTING ANNEX</h2>
             <p>
-              Traversaling is one of Three Canonical Postures available to This Stewardly Captain COB. This COB may also enter Observationmintingmenting Posture, where preserved Traversalings can be inspectioned without altering what was Encounteringmented through them.
+              Traversaling is the first of Three Canonical Postures available to This Stewardly Captain COB. This COB may also enter Observationmintingmenting Posture, where Embroidery-Stitched Traversalings may be inspectioned without altering what came to stand through them.
             </p>
             <p>
-              The Observationmintingmenting Annex is a substantial working region of the appliance devoted to these Stewardly Laborings.
+              The Observationmintingmenting Annex is a substantial working region of the PUBLIC-SITUATION-MACHINE- through which these Stewardly Laboringings are carried out.
             </p>
           </section>
 
           <.surface_section
             id="navigationing-gallery"
             title="Tuple Ship Navigationing Gallery + Observationing Harbor Rail"
-            filename="tuple-ship-navigationing-gallery.svg"
-            alt="Placeholder for the Tuple Ship Navigationing Gallery and Observationing Harbor Rail"
+            filename="tuple-ship-navigationing-gallery.png"
+            alt="Tuple Ship Navigationing Gallery"
           >
+            <:additional_images>
+              <.surface_image
+                filename="tuple-ship-navigation-harbor-rail.png"
+                alt="Observationing Harbor Rail"
+              />
+            </:additional_images>
             <p>
-              The Navigationing Gallery provides a working surface through which This Stewardly Captain COB may bring its Observationing Harbors and preserved Traversalings into Stewardly Regard.
+              The Appliance's Tuple Ship Navigationing Gallery furnishes instrumentationing through which This Stewardly Captain COB may bring its Observationing Harbors and preserved Traversalings together into Stewardly Regard.
+            </p>
+            <p>No One Traversaling tells the whole story of This One Situationing.</p>
+            <p>
+              Here, the Constitutioning Human may revisit and Re-Regard any number of This Stewardly Captain COB's Traversalings, all standing together in This One Place, without changing what was Encounteringmented through them.
             </p>
             <p>
-              One Traversaling does not tell the whole story of a Situationing. Here, repeated Traversalings may be revisited and regarded together without changing what was Encounteringmented through them.
+              The Observationing Harbor Rail provides Navigationing Affordmentings through which Observationing Harbors may be placed, focused, orientationed, and compared so that the Constitutioning Human may inspect the XT-YT Relationing becoming Distinguishingmentingable among These Traversalings Over Discrete Turns.
             </p>
             <p>
-              The Observationing Harbor Rail provides Navigationing affordmentings for working with those Regards. Observationing Harbors may be placed, focused, and orientationed so that This Stewardly Captain COB may inspect the Relations becoming Distinguishingmentingable among its Traversalings Over Discrete Turns.
-            </p>
-            <p>The Annex does not determine what those Traversalings mean.</p>
-            <p>
-              It furnishes This Stewardly Captain COB with ways of moving its Regard around what has been preserved.
+              The Observationmintingmenting Annex does not determine what those Traversalings mean. Rather, it furnishes This Stewardly Captain COB with Stewardly Affordmentings through which Regard itself may continue Traversaling.
             </p>
           </.surface_section>
 
           <.surface_section
             id="watchstead"
             title="The Watchstead"
-            filename="watchstead.svg"
-            alt="Placeholder for The Watchstead"
+            filename="watchstead-continuity-ward.png"
+            alt="The Watchstead Continuity Ward"
           >
             <p>The Watchstead is the Continuity Ward of the Observationmintingmenting Annex.</p>
             <p>
-              Here, This Stewardly Captain COB may steward what may become newly Encounteringmentingable without treating every possible new Relation as though it were already standing available.
+              Here, This Stewardly Captain COB may steward what is becoming newly Encounteringmentingable without treating every possible new Relationing as though it were already Holding-in-Standinging.
             </p>
             <p>
-              The Watchstead helps preserve Continuity as the field of Observationing changes—providing operational machinery through which new Encounteringments may be inspectioned and qualificationed before the field is allowed to widen.
+              The Watchstead helps preserve Continuity as the field of Observationing changes—providing operational machinery through which new Encounteringments may be inspectioned and qualificationed before those Encounteringments become available for the widening of the Continuity Field.
             </p>
           </.surface_section>
 
           <.surface_section
             id="cabinet-cellar-rooms"
             title="The Cabinet Room and The Cellar Room"
-            filename="cabinet-cellar-rooms.svg"
-            alt="Placeholder for The Cabinet Room and The Cellar Room"
+            filename="the_cabinet_room.png"
+            alt="The Cabinet Room"
           >
+            <:additional_images>
+              <.surface_image filename="the_cellar_room.png" alt="The Cellar Room" />
+            </:additional_images>
             <p>
-              The Cabinet Room and Cellar Room provide chambers aboard The Tuple Ship for the Stewardly Laborings of Retentioning and Cellaring.
+              The Cabinet Room and Cellar Room furnish chambers aboard The Tuple Ship for the Stewardly Laboringings of Retentioning and Cellaring.
             </p>
             <p>
-              Not everything made available through Traversaling and Observationmintingmenting needs to remain in active Regard forever. Some material may need to remain actively retained. Other material may be ready for Cellaring—preserved without remaining actively present within This COB’s ongoing Observationmintingmenting.
+              Not everything made available through Traversaling and Observationmintingmenting needs to remain in active Stewardly Regard forever. Some material may need to remain actively retained. Other material may be ready for Cellaring—preserved without remaining actively present within This Stewardly Captain COB’s ongoing Observationmintingmenting.
             </p>
             <p>
-              This allows the PUBLIC-SITUATION-MACHINE- to preserve Continuity without confusing Continuity with the permanent accumulation of Every Thing. What continues to hold may remain available in different ways, under different forms of Stewardly Custody, as the Situationing continues Over Discrete Turns.
+              This allows the PUBLIC-SITUATION-MACHINE- to preserve Continuity without confusing Continuity with the permanent accumulation of Every Thing. What continues to hold may remain available under different forms of Stewardly Custody as This One Situationing continues unfolding Over Discrete Turns.
             </p>
           </.surface_section>
         </article>
@@ -190,13 +218,17 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
   attr :title, :string, required: true
   attr :filename, :string, required: true
   attr :alt, :string, required: true
+  slot :additional_images
   slot :inner_block, required: true
 
   defp surface_section(assigns) do
     ~H"""
     <section id={@id} class="appliance-surfaces__surface">
       <h3>{@title}</h3>
-      <.surface_image filename={@filename} alt={@alt} />
+      <div class="appliance-surfaces__images">
+        <.surface_image filename={@filename} alt={@alt} />
+        {render_slot(@additional_images)}
+      </div>
       <div class="appliance-surfaces__prose">{render_slot(@inner_block)}</div>
     </section>
     """

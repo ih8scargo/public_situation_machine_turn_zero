@@ -7,7 +7,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
   def mount(_params, _session, socket) do
     {:ok,
      assign(socket,
-       page_title: "Our Canonical Tuple",
+       page_title: "OUR CANONICAL TUPLE",
        position_0_regard: :outward,
        position_1_regard: :outward,
        position_2_regard: :outward,
@@ -93,7 +93,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:canonical_tuple}>
       <main id="canonical-tuple-page" class="canonical-reading">
-        <Layouts.locality_threshold title="Our Canonical Tuple" id="canonical-tuple-threshold" />
+        <Layouts.locality_threshold
+          title="OUR CANONICAL TUPLE"
+          id="canonical-tuple-threshold"
+          reading="The Bearinging of the Precedence of Continuity Possibility"
+        />
 
         <article id="canonical-narrative" class="canonical-narrative">
           <.appliance_ceremony />
@@ -154,7 +158,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
           </p>
 
           <div class="psm-masthead__lower">
-            <h1>Our Canonical Tuple</h1>
+            <h1>OUR CANONICAL TUPLE</h1>
 
             <p>
               General Purpose Situationing Appliance
@@ -165,7 +169,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         <section class="psm-oag" aria-labelledby="orientationing-panel-title">
           <div class="psm-oag__instrument-plate">
             <p class="psm-oag__eyebrow">
-              The Same General Civilizationalizing Constitutioningable Geometry
+              The Same General Civilizationalizing Constitutioningable Reasoning Geometry
             </p>
 
             <h2 id="orientationing-panel-title">
@@ -173,7 +177,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
             </h2>
 
             <p class="psm-oag__reading">
-              The Bearinging of Continuity Possibility
+              The Bearinging of the Precedence of Continuity Possibility
             </p>
           </div>
 

@@ -105,7 +105,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
         <section class="psm-oag" aria-labelledby="orientationing-panel-title">
           <div class="psm-oag__instrument-plate">
             <p class="psm-oag__eyebrow">
-              The Same General Civilizationalizing Constitutioningable Geometry
+              The Same General Civilizationalizing Constitutioningable Reasoning Geometry
             </p>
 
             <h2 id="orientationing-panel-title">

@@ -313,6 +313,26 @@
   border-top: 1px solid rgba(32, 37, 38, 0.25);
 }
 
+.field-page__furnishmenting-station {
+  margin-top: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid rgba(32, 37, 38, 0.5);
+  background: rgba(238, 233, 223, 0.48);
+  box-shadow: inset 0 0 0 0.35rem rgba(32, 37, 38, 0.04);
+}
+
+.field-page__furnishmenting-station .site-page__eyebrow {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.field-page__placeholder-notice {
+  padding-top: 1.25rem;
+  border-top: 1px dashed rgba(32, 37, 38, 0.4);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
 /* Make LiveView wrapper divs transparent for layout */
 [data-phx-session], [data-phx-teleported-src] { display: contents }
 
@@ -1842,7 +1862,7 @@ select {
   }
 }
 
-/* Our Canonical Tuple constitutional reading locality */
+/* OUR CANONICAL TUPLE constitutional reading locality */
 .canonical-reading {
   --canonical-ink: #202526;
   --canonical-paper: #eee9df;
@@ -2337,6 +2357,13 @@ select {
   margin: 0;
 }
 
+.appliance-surfaces__introduction h2 {
+  margin: 0 0 clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(2.5rem, 5vw, 5.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+}
+
 .appliance-surfaces__introduction p + p {
   margin-top: 1.25rem;
 }
@@ -2394,8 +2421,13 @@ select {
   margin: clamp(2.5rem, 6vw, 5rem) 0;
 }
 
-.appliance-surfaces__surface .appliance-surface-image {
+.appliance-surfaces__images {
   grid-column: 1 / -1;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.appliance-surfaces__surface .appliance-surface-image {
   margin: 0;
 }
 

@@ -51,7 +51,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
           class={["site-navigation__link", @active_locality == :canonical_tuple && "is-active"]}
           aria-current={@active_locality == :canonical_tuple && "page"}
         >
-          Our Canonical Tuple
+          OUR CANONICAL TUPLE
         </.link>
         <.link
           navigate={~p"/the-appliance"}
@@ -105,6 +105,9 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
   """
   attr :title, :string, required: true
   attr :id, :string, required: true
+  attr :reading, :string, default: "The Bearinging of Continuity Possibility"
+
+  slot :description
 
   def locality_threshold(assigns) do
     ~H"""
@@ -120,18 +123,22 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
       <section class="psm-oag" aria-labelledby={"#{@id}-orientationing-title"}>
         <div class="psm-oag__instrument-plate">
           <p class="psm-oag__eyebrow">
-            The Same General Civilizationalizing Constitutioningable Geometry
+            The Same General Civilizationalizing Constitutioningable Reasoning Geometry
           </p>
           <h2 id={"#{@id}-orientationing-title"}>Standinging in Regard</h2>
-          <p class="psm-oag__reading">The Bearinging of Continuity Possibility</p>
+          <p class="psm-oag__reading">{@reading}</p>
         </div>
 
         <div class="psm-oag__description">
-          <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
-          <p>It may only ask what continues Holdinging.</p>
-          <p>
-            The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
-          </p>
+          <%= if @description != [] do %>
+            {render_slot(@description)}
+          <% else %>
+            <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
+            <p>It may only ask what continues Holdinging.</p>
+            <p>
+              The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
+            </p>
+          <% end %>
         </div>
       </section>
     </div>
