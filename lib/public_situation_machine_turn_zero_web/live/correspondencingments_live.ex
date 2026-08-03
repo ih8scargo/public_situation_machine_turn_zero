@@ -50,6 +50,14 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
               {Calendar.strftime(correspondencingment.publication_date, "%B %-d, %Y")}
             </time>
             <p>{correspondencingment.summary}</p>
+            <div :if={correspondencingment.video_id} class="video-embed">
+              <iframe
+                src={"https://www.youtube-nocookie.com/embed/#{correspondencingment.video_id}"}
+                title={correspondencingment.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
             <div class="correspondencingment-card__body">
               <p :for={paragraph <- correspondencingment.body}>{paragraph}</p>
             </div>

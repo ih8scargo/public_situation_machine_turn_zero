@@ -4,5 +4,14 @@ defmodule PublicSituationMachineTurnZero.Correspondencingment do
   """
 
   @enforce_keys [:number, :title, :publication_date, :summary]
-  defstruct [:number, :title, :subtitle, :publication_date, :summary, :body, featured: false]
+  defstruct [
+    :number,
+    :title,
+    :subtitle,
+    :publication_date,
+    :summary,
+    :body,
+    :video_id,
+    featured: false
+  ]
 end

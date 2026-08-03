@@ -10,8 +10,15 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#landinging-page")
     assert has_element?(view, "#arriving-correspondencing")
     assert has_element?(view, "#featured-correspondencingment")
+    assert has_element?(view, "#featured-correspondencingment", "Correspondencingment No. 2")
+    assert has_element?(view, ~s|#featured-correspondencingment iframe[src*="dqRX1nIuwDw"]|)
     assert has_element?(view, "#holding-correspondencingments")
-    assert has_element?(view, ~s|a[href="/correspondencingments"]|)
+    assert has_element?(view, "#holding-correspondencingments", "Correspondencingment No. 1")
+
+    assert has_element?(
+             view,
+             ~s|#holding-correspondencingments a[href="/correspondencingments#correspondencingment-1"]|
+           )
   end
 
   test "top-level destinations are persistently available", %{conn: conn} do
@@ -124,7 +131,6 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     view |> element("#unfold-position-3") |> render_click()
     assert has_element?(view, "#canonical-position-3")
     assert has_element?(view, "#canonical-caterpillar-tunnel")
-    assert has_element?(view, "#canonical-caterpillar-title", "Threshold of the Seam")
 
     assert has_element?(
              view,
@@ -163,12 +169,19 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#embodied-localities-station")
     assert has_element?(view, "#parkinging-stand")
     assert has_element?(view, "#shackling-pin")
+    assert has_element?(view, "#leash-title", "THE LEASH")
     assert has_element?(view, "#recovery-methods-form")
     assert has_element?(view, "#embodied-locality-form")
 
     assert has_element?(view, ".field-page__section")
     assert has_element?(view, ".field-page__section", "One machine for Every One.")
     assert has_element?(view, ".field-page__section", "A civilization holding with no center.")
+
+    assert has_element?(
+             view,
+             ~s|a[href="https://www.kickstarter.com/projects/situationmachine/the-public-situation-machine-inhabitationingable-computing"]|,
+             "Kickstarter story"
+           )
 
     html = render(view)
     {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")

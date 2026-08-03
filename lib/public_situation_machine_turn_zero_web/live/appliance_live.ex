@@ -22,7 +22,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
             </p>
             <p>Its Offices do not determine what a Situationing means.</p>
             <p>
-              They furnish the constitutional machinery through which Constitutioning Humans may discover what continues to Hold, what is Becoming, and what may come to stand through Traversaling.
+              They furnish the Constitutional Machinery through which Constitutioning Humans may discover what continues to Hold, what is Becoming, and what may come to stand through Traversaling.
             </p>
           </:description>
         </Layouts.locality_threshold>

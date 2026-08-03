@@ -10,6 +10,17 @@ defmodule PublicSituationMachineTurnZero.Correspondencingments do
 
   @correspondencingments [
     %Correspondencingment{
+      number: 2,
+      title: "Arrivinging at This Encounteringmenting Wharf",
+      subtitle: "",
+      publication_date: ~D[2026-08-03],
+      summary:
+        "A moving-image Correspondencingment arriving at the live edge of This One Great Free Public Tuple Ship Field.",
+      body: [],
+      video_id: "dqRX1nIuwDw",
+      featured: true
+    },
+    %Correspondencingment{
       number: 1,
       title: "Standing the PUBLIC-SITUATION-MACHINE- in Public Regard",
       subtitle: "",
@@ -43,7 +54,7 @@ defmodule PublicSituationMachineTurnZero.Correspondencingments do
         "It is seeking Stewards.",
         "Stewards standing ready for the discoveringmenting of what this kind of computing becomes when it finally comes to stand within the Public Field."
       ],
-      featured: true
+      featured: false
     }
   ]
 
@@ -53,5 +64,9 @@ defmodule PublicSituationMachineTurnZero.Correspondencingments do
 
   def featured do
     Enum.find(@correspondencingments, & &1.featured)
+  end
+
+  def get(number) do
+    Enum.find(@correspondencingments, &(&1.number == number))
   end
 end

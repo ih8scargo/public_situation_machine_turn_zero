@@ -8,6 +8,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, ~s|#parkinging-stand[data-value^="TCP-"]|)
     assert has_element?(view, ~s|#shackling-pin[data-digits="16"]|)
+    assert has_element?(view, ".field-page__leash", "Together these constitute The Leash.")
     refute has_element?(view, ~s|input[type="password"]|)
     refute has_element?(view, ~s|input[name="username"]|)
   end

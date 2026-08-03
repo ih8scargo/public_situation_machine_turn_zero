@@ -87,12 +87,14 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <p>Welcome.</p>
             <p>You've finally made it Here.</p>
             <p>
-              This Tuple Ship Field Parkinging Lot stands before the Opening to This Encounteringmenting Wharf.
+              This Tuple Ship Field Parkinging Lot stands before This Encounteringmenting Wharf.
             </p>
             <p>
-              From Here, Constitutioning Humans may freely reserve one Terrestrial Computer Parkinging Stand and begin taking hold of The Seat of the Stewardly Occupancyingship.
+              From Here, Constitutioning Humans may freely reserve This One Terrestrial Computer Parkinging Stand. In so doing, Constitutioning Humans take hold of The Leash that Leads toward The Seat of the Stewardly Co-Occupancyingship, thereby entering the Laboringings of Stewardshippery.
             </p>
-            <p>This Constitutional Furnishmenting Station will guide that Appointmenting.</p>
+            <p>
+              This Constitutional Furnishmenting Rail now commences The Zeroeth Appointmenting, through which The Seat of Stewardly Co-Occupancyingship may begin becoming into Standinging in Readiness Over Discrete Turns.
+            </p>
           </:description>
         </Layouts.locality_threshold>
 
@@ -124,46 +126,49 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             ]}
           >
             <:crew_statement>
+              <p>Welcome.</p>
               <p>
-                We keep one lawful Terrestrial Computer Parkinging Stand in Stewardly Continuity with one Constitutioning Human.
+                This Crew is here to help you reserve One Lawful Terrestrial Computer Parkinging Stand.
               </p>
               <p>
-                Your Parkinging Stand belongs with you—not with whichever computer you happen to use today.
+                Your Parkinging Stand belongs with you. It does not belong to any particular Terrestrial Computer.
               </p>
             </:crew_statement>
 
-            <div id="parkinging-credentials" class="field-page__credentials" aria-live="polite">
-              <div>
-                <span>YOUR PARKINGING STAND</span>
-                <strong id="parkinging-stand" data-value={@parking_stand}>{@parking_stand}</strong>
+            <section class="field-page__leash" aria-labelledby="leash-title">
+              <h4 id="leash-title">THE LEASH</h4>
+              <div id="parkinging-credentials" class="field-page__credentials" aria-live="polite">
+                <div>
+                  <span>This One Terrestrial Computer Parkinging Stand</span>
+                  <strong id="parkinging-stand" data-value={@parking_stand}>{@parking_stand}</strong>
+                </div>
+                <div>
+                  <span>This Shackling Pin</span>
+                  <strong id="shackling-pin" data-value={@shackling_pin} data-digits="16">
+                    {@shackling_pin}
+                  </strong>
+                </div>
               </div>
-              <div>
-                <span>YOUR 16-DIGIT SHACKLING PIN</span>
-                <strong id="shackling-pin" data-value={@shackling_pin} data-digits="16">
-                  {@shackling_pin}
-                </strong>
-              </div>
-            </div>
+              <p>Together these constitute The Leash.</p>
+              <p><strong>Please preserve your Shackling Pin in a safe Some Place.</strong></p>
+            </section>
 
             <div class="field-page__plain-notice">
-              <p><strong>Preserve both numbers somewhere safe.</strong></p>
               <p>
-                There is no username, password, or login. In a later pass, you may use this Parkinging Stand together with its Shackling Pin from another computer.
-              </p>
-              <p>
-                This Parkinging Stand reserves One Some Place for you within This One Great Free Public Tuple Ship Field.
-              </p>
-              <p>
-                You may return here for additional Appointmentings as new Constitutional Localities continue becoming available.
+                Your Parkinging Stand identifies your Place. Your Shackling Pin helps you take hold of The Leash again when you return.
               </p>
             </div>
 
             <section class="field-page__subcrew" aria-labelledby="lost-foundinging-title">
               <p class="site-page__eyebrow">WITHIN THE SAME DIVISION</p>
-              <h4 id="lost-foundinging-title">This Shackling Pin Lost and Foundinging Crew</h4>
+              <h4 id="lost-foundinging-title">This Shackling Pin Lost and Foundmenting Crew</h4>
               <p>
-                We can support future recovery if you choose to furnish an email address, a phone number, or both. These are optional and are not login credentials.
+                This Crew stands ready in Regard to a Situationing in which you may misplace The Leash now issued Here at This Constitutional Furnishmenting Rail.
               </p>
+              <p>
+                If you choose to furnish an email address, a phone number, or both, This Crew may later help you find The Leash again.
+              </p>
+              <p>These are entirely optional. They are not login credentials.</p>
               <.form
                 for={@recovery_form}
                 id="recovery-methods-form"
@@ -202,26 +207,29 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           <.furnishmenting_station
             id="embodied-localities-station"
             number="Station 02"
-            title="This Embodied Localities Station"
+            title="This Embodyingmented Localities Station"
             hierarchy={[
               "Office of Bearingings",
               "Bearinging Field Division",
-              "Department of Embodied Earthly Localities Mappinging",
+              "Department of Inhabitationing Earthly Localities Mappinging",
               "This One Place Crew"
             ]}
           >
             <:crew_statement>
               <p>
-                This One Place Crew stands serving This One Great Free Public Tuple Ship Field through Stewardly Observationings of Earthly Localities.
+                This One Place Crew stands serving This One Great Free Public Tuple Ship Field through Stewardly Observationings of where upon The Earth Constitutioning Humans stand inhabitationing within This Field.
               </p>
               <p>
-                Through This Crew's Laboringings, This One Great Free Public Tuple Ship Field may come to encounter itself through its embodiment upon Earth through Constitutioning Humans.
+                Through These Stewardly Observationings, This One Great Free Public Tuple Ship Field may increasingly come to encounter itself through its embodiment upon The Earth.
               </p>
             </:crew_statement>
 
             <p>
-              You may optionally furnish a broad Earthly Locality. We do not ask for a street address, GPS coordinates, or a precise location.
+              If you wish, you may tell us the broad Earthly Locality from which you are approaching This Encounteringmenting Wharf.
             </p>
+            <p>A Country, Region, and City are enough.</p>
+            <p>We do not ask for a street address or precise location.</p>
+            <p>This furnishing is entirely optional.</p>
             <.form
               for={@locality_form}
               id="embodied-locality-form"
@@ -265,7 +273,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               Your broad Earthly Locality stands furnished for this visit.
             </p>
             <p class="field-page__purpose-note">
-              One day, optional localities may help show where the Public Tuple Ship Field is becoming embodied upon Earth. No public visualization is included in this station today.
+              One day, These Stewardly Observationings may help everyone see where This One Great Free Public Tuple Ship Field is becoming embodied upon The Earth. That public map is not yet available.
             </p>
           </.furnishmenting_station>
         </section>
@@ -309,11 +317,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         </section>
 
         <section class="field-page__section">
-          <h2>Furnishing the Public Field Beyond this Campaign</h2>
+          <h2>Furnishing the Public Field</h2>
           <p>The long-term objective of the PUBLIC-SITUATION-MACHINE- is simple.</p>
           <p>Everyone should have free access to one PUBLIC-SITUATION-MACHINE- at a time.</p>
           <p>
             The Public Field grows by making that possible. Individuals should be able to inhabit one PUBLIC-SITUATION-MACHINE- freely, while organizations requiring stewardship of multiple Situationings furnish the shared infrastructure that enables universal access.
+          </p>
+          <p>
+            If you wish to learn more about helping furnish This One Great Free Public Tuple Ship Field, the
+            <a
+              href="https://www.kickstarter.com/projects/situationmachine/the-public-situation-machine-inhabitationingable-computing"
+              target="_blank"
+              rel="noreferrer"
+            >Kickstarter story</a>
+            describes the present public campaign and the constitutional journey now unfolding.
           </p>
           <p>The Propagationing is simple.</p>
           <p>One machine for Every One.</p>

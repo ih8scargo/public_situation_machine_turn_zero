@@ -8,7 +8,8 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
     {:ok,
      assign(socket,
        page_title: "This Landinging Page",
-       featured_correspondencingment: Correspondencingments.featured()
+       featured_correspondencingment: Correspondencingments.featured(),
+       holding_correspondencingment: Correspondencingments.get(1)
      )}
   end
 
@@ -56,11 +57,14 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
               <h3>{@featured_correspondencingment.title}</h3>
               <div class="correspondencingment-card__body">
                 <p>{@featured_correspondencingment.summary}</p>
-                <p :for={paragraph <- @featured_correspondencingment.body}>{paragraph}</p>
-                <p><strong>NOTICINGMENT</strong></p>
-                <.link navigate={~p"/this-tuple-ship-field"} class="site-action">
-                  THIS WAY TO TERRESTRIAL COMPUTER PARKINGING LOT →
-                </.link>
+                <div :if={@featured_correspondencingment.video_id} class="video-embed">
+                  <iframe
+                    src={"https://www.youtube-nocookie.com/embed/#{@featured_correspondencingment.video_id}"}
+                    title={@featured_correspondencingment.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
             </article>
           <% else %>
@@ -70,10 +74,22 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
 
         <section id="holding-correspondencingments" class="site-panel">
           <h2>Correspondencingments in Holdinging</h2>
-          <p>Correspondencingments presently standing in public Regard.</p>
-          <.link navigate={~p"/correspondencingments"} class="site-action">
-            Regard within This Holdinging
-          </.link>
+          <article :if={@holding_correspondencingment} class="correspondencingment-card">
+            <p>Correspondencingment No. {@holding_correspondencingment.number}</p>
+            <h3>{@holding_correspondencingment.title}</h3>
+            <div class="correspondencingment-card__body">
+              <p>{@holding_correspondencingment.summary}</p>
+              <p :for={paragraph <- Enum.take(@holding_correspondencingment.body, 3)}>
+                {paragraph}
+              </p>
+            </div>
+            <.link
+              navigate={~p"/correspondencingments#correspondencingment-1"}
+              class="site-action"
+            >
+              Regard within This Holdinging
+            </.link>
+          </article>
         </section>
       </main>
     </Layouts.app>

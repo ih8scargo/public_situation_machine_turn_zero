@@ -223,7 +223,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
 
                 <p>
                   At runtime, this -COORDINATIONING-OPERATIONING-BOBBINING enters
-                  Occupancy-ing at the center of this Constitutional Locality
+                  Co-Occupancy-ing at the center of this Constitutional Locality
                   through the Recital of This Mounted Statefullment.
                 </p>
 
@@ -327,12 +327,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                       <h4 id="position-0-recital-title">This Mounted Statefullment</h4>
 
                       <p>
-                        PSM-COB Orchestrationing Recital of Occupancy-ing within
+                        PSM-COB Orchestrationing Recital of Co-Occupancy-ing within
                         This Mounted Statefullment
                       </p>
                     </header>
 
-                    <div class="psm-recital-chamber__recital" aria-label="Position Zero recital">
+                    <div class="psm-recital-chamber__recital" aria-label="Position 0 recital">
                       <p>En-Steady-Mint-ing-ably</p>
                       <p>En-Steady-Ment-ing-ably</p>
                       <p>En-Fully-ing-ly-</p>
@@ -424,7 +424,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
         <%= unless MapSet.member?(@unfolded_positions, 1) do %>
           <footer class="psm-unfolding-control">
             <p class="psm-unfolding-control__status">
-              Position Zero now stands available for inheritance.
+              Position 0 now stands available for inheritance.
             </p>
 
             <button
@@ -567,9 +567,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
               <%= if @regard == :outward do %>
                 <div class="psm-post-stage__outward">
                   <div class="psm-prose">
-                    <p>The Position Zero Stitch continues through this Constitutional Locality.</p>
+                    <p>The Position 0 Stitch continues through this Constitutional Locality.</p>
                     <p>This Post remains locally coincident with This Pier.</p>
-                    <p>The Position Zero Stitch continues through This Constitutional Locality.</p>
+                    <p>The Position 0 Stitch continues through This Constitutional Locality.</p>
                     <p>This Post remains locally coincident with This Pier.</p>
                     <p>This Constitutional Locality now stands in readiness for lawful attachment.</p>
                   </div>
@@ -590,10 +590,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                   <header class="psm-recital-chamber__header">
                     <p class="psm-section-kicker">Inward Regard</p>
                     <h4 id="position-1-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within This Mounted Statefullment
                     </h4>
                   </header>
-                  <div class="psm-recital-chamber__recital" aria-label="Position One recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 1 recital">
                     <p>
                       En-Attach-Ment-Able-En-Mint-ing-Able-En-Ment-ing-Able-En-Mint-ing-En-Ment-ing
                     </p>
@@ -755,10 +755,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                   <header class="psm-recital-chamber__header">
                     <p class="psm-section-kicker">Inward Regard</p>
                     <h4 id="position-2-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within This Mounted Statefullment
                     </h4>
                   </header>
-                  <div class="psm-recital-chamber__recital" aria-label="Position Two recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 2 recital">
                     <p>En-Steady-Ment-ing-ly-En-Abled-Mint-ing-Ment-ing</p><p>of</p><p>
                       En-Drift-Ment-Mint-ing
                     </p><p>of</p><p>En-Steady-Ment-ing-ly-En-Able-ing-Mint-ing-Ment-ing</p><p>of</p><p>
@@ -1055,12 +1055,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                     <p class="psm-section-kicker">Inward Regard</p>
 
                     <h4 id="position-3-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within
                       This Mounted Statefullment
                     </h4>
                   </header>
 
-                  <div class="psm-recital-chamber__recital" aria-label="Position Three recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 3 recital">
                     <p>Em-Place-Ment-of-En-Relation-ing-Mint-ing-Ment</p>
                   </div>
 
@@ -1122,7 +1122,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
       <%= unless @position_four_unfolded? do %>
         <footer class="psm-unfolding-control">
           <p class="psm-unfolding-control__status">
-            Position Three now stands available for inheritance.
+            Position 3 now stands available for inheritance.
           </p>
 
           <button
@@ -1265,10 +1265,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                   <header class="psm-recital-chamber__header">
                     <p class="psm-section-kicker">Inward Regard</p>
                     <h4 id="position-4-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within This Mounted Statefullment
                     </h4>
                   </header>
-                  <div class="psm-recital-chamber__recital" aria-label="Position Four recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 4 recital">
                     <p>
                       En-Distinguish-Mint-ing-Able-En-Ment-ing-Able-En-Lining-Mint-ing-Ment
                     </p>
@@ -1436,10 +1436,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                   <header class="psm-recital-chamber__header">
                     <p class="psm-section-kicker">Inward Regard</p>
                     <h4 id="position-5-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within This Mounted Statefullment
                     </h4>
                   </header>
-                  <div class="psm-recital-chamber__recital" aria-label="Position Five recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 5 recital">
                     <p>En-RE-Step-En-Ment-ing-Mint</p>
                     <p>of</p><p>En-Ment-ing</p><p>of</p><p>En-Mint-ing</p><p>of</p>
                     <p>En-Ment-ing</p><p>of</p><p>En-Mint-ing</p>
@@ -1600,10 +1600,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
                   <header class="psm-recital-chamber__header">
                     <p class="psm-section-kicker">Inward Regard</p>
                     <h4 id="position-6-recital-title">
-                      PSM-COB Orchestrationing Recital of Occupancy-ing within This Mounted Statefullment
+                      PSM-COB Orchestrationing Recital of Co-Occupancy-ing within This Mounted Statefullment
                     </h4>
                   </header>
-                  <div class="psm-recital-chamber__recital" aria-label="Position Six recital">
+                  <div class="psm-recital-chamber__recital" aria-label="Position 6 recital">
                     <p>En-RE-Step-En-Mint-ing-En-Ment</p>
                   </div>
                   <button
