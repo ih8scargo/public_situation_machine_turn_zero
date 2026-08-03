@@ -158,14 +158,13 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
            )
 
     assert has_element?(view, "#tuple-ship-field-threshold", "You've finally made it Here.")
-    assert has_element?(view, "#furnishmenting-station")
-    assert has_element?(view, "#furnishmenting-station-title", "This Furnishmenting Station")
-
-    assert has_element?(
-             view,
-             "#furnishmenting-station",
-             "Placeholder for future Appointmenting workflow"
-           )
+    assert has_element?(view, "#constitutional-furnishmenting-rail")
+    assert has_element?(view, "#terrestrial-computer-parkinging-station")
+    assert has_element?(view, "#embodied-localities-station")
+    assert has_element?(view, "#parkinging-stand")
+    assert has_element?(view, "#shackling-pin")
+    assert has_element?(view, "#recovery-methods-form")
+    assert has_element?(view, "#embodied-locality-form")
 
     assert has_element?(view, ".field-page__section")
     assert has_element?(view, ".field-page__section", "One machine for Every One.")
@@ -173,7 +172,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     html = render(view)
     {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
-    {furnishmenting_index, _} = :binary.match(html, "furnishmenting-station")
+    {furnishmenting_index, _} = :binary.match(html, "constitutional-furnishmenting-rail")
     {field_explanation_index, _} = :binary.match(html, "By reserving one Terrestrial Computer")
 
     assert orientationing_index < furnishmenting_index

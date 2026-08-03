@@ -13,6 +13,7 @@ defmodule PublicSituationMachineTurnZero.Application do
        query:
          Application.get_env(:public_situation_machine_turn_zero, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: PublicSituationMachineTurnZero.PubSub},
+      Place,
       # Start a worker by calling: PublicSituationMachineTurnZero.Worker.start_link(arg)
       # {PublicSituationMachineTurnZero.Worker, arg},
       # Start to serve requests, typically the last entry
