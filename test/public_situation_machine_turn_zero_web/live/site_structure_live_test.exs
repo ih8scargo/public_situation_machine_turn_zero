@@ -66,9 +66,48 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#canonical-tuple-page")
     refute has_element?(view, "#canonical-accompaniment")
     assert has_element?(view, "#canonical-tuple-threshold")
+    assert has_element?(view, "#canonical-simple-discovery")
     assert has_element?(view, "#canonical-narrative")
     assert has_element?(view, "#appliance-ceremony")
     assert has_element?(view, "#canonical-tuple-table")
+
+    assert has_element?(
+             view,
+             "#canonical-tuple-table thead th:nth-child(1)",
+             "Constitutional Geometry Furnished"
+           )
+
+    assert has_element?(
+             view,
+             "#canonical-tuple-table thead th:nth-child(5)",
+             "Unfolding Toward Coherence"
+           )
+
+    refute has_element?(
+             view,
+             "#canonical-tuple-table thead th",
+             "One Soundinging of Stewardly Regard"
+           )
+
+    assert has_element?(view, "#embodying-canonical-tuple")
+
+    assert has_element?(
+             view,
+             "#embodying-canonical-tuple-table thead th:nth-child(2)",
+             "Embodying Inhabitationing"
+           )
+
+    assert has_element?(
+             view,
+             "#embodying-canonical-tuple-table thead th:nth-child(4)",
+             "One Soundinging of Stewardly Regard"
+           )
+
+    html = render(view)
+    {embodying_index, _} = :binary.match(html, "embodying-canonical-tuple")
+    {position_zero_index, _} = :binary.match(html, "canonical-position-0")
+    assert embodying_index < position_zero_index
+
     assert has_element?(view, "#canonical-position-0")
     assert has_element?(view, "#unfold-position-1", "UNFOLD POSITION 1")
     assert has_element?(view, ".appliance-ceremony__sealing", "THE SEALINGING OF THE")
@@ -85,17 +124,12 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     view |> element("#unfold-position-3") |> render_click()
     assert has_element?(view, "#canonical-position-3")
     assert has_element?(view, "#canonical-caterpillar-tunnel")
+    assert has_element?(view, "#canonical-caterpillar-title", "Threshold of the Seam")
 
-    for fold <- 1..6 do
-      fold_selector = ".canonical-caterpillar__fold:nth-child(#{fold})"
-      assert has_element?(view, fold_selector)
-      assert has_element?(view, "#{fold_selector} li:nth-child(1)", "Through")
-      assert has_element?(view, "#{fold_selector} li:nth-child(2)", "Across")
-      assert has_element?(view, "#{fold_selector} li:nth-child(3)", "Projectioning Crossing")
-      assert has_element?(view, "#{fold_selector} li:nth-child(4)", "Lean")
-      assert has_element?(view, "#{fold_selector} li:nth-child(5)", "This Moment of Purchase")
-      assert has_element?(view, "#{fold_selector} li:nth-child(6)", "Getting Stitched")
-    end
+    assert has_element?(
+             view,
+             ~s|#canonical-caterpillar-tunnel img[src="/images/tuple/Regarding_THE_RE-STEPPING-ROOM.png"]|
+           )
 
     view |> element("#unfold-position-4") |> render_click()
     assert has_element?(view, "#canonical-position-4")
@@ -110,6 +144,19 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
     assert has_element?(view, "#tuple-ship-field-page")
+
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "This Tuple Ship Field Parkinging Lot"
+           )
+
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "The Bearinging of Lawful Encounteringmenting"
+           )
+
     assert has_element?(view, "#tuple-ship-field-threshold", "You've finally made it Here.")
     assert has_element?(view, "#furnishmenting-station")
     assert has_element?(view, "#furnishmenting-station-title", "This Furnishmenting Station")
@@ -127,10 +174,11 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     html = render(view)
     {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
     {furnishmenting_index, _} = :binary.match(html, "furnishmenting-station")
-    {field_explanation_index, _} = :binary.match(html, "This Locality presently furnishes regard")
+    {field_explanation_index, _} = :binary.match(html, "By reserving one Terrestrial Computer")
 
     assert orientationing_index < furnishmenting_index
     assert furnishmenting_index < field_explanation_index
+    refute html =~ "This Locality presently furnishes regard"
   end
 
   test "the appliance locality is furnished", %{conn: conn} do

@@ -10,16 +10,16 @@ defmodule PublicSituationMachineTurnZero.TupleProjectioningTest do
     assert length(table.rows) == 7
 
     assert Enum.map(table.headers, & &1.text) == [
-             "Tuple Position",
              "Constitutional Geometry Furnished",
-             "Prepositional Labor",
-             "Constitutional Labor",
-             "Embodied Inhabitationing",
+             "Laboringing Prepositions",
+             "Tuple Position",
+             "Constitutioning Labor",
              "Unfolding Toward Coherence",
+             "Embodying Inhabitationing",
              "One Soundinging of Stewardly Regard"
            ]
 
-    assert Enum.map(table.rows, fn row -> hd(row).text end) == ~w(0 1 2 3 4 5 6)
+    assert Enum.map(table.rows, fn row -> Enum.at(row, 2).text end) == ~w(0 1 2 3 4 5 6)
     assert Enum.all?(table.rows, &(length(&1) == 7))
   end
 end

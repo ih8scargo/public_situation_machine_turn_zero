@@ -32,8 +32,24 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
             <h2 id="aboard-working-appliance-title">ABOARD THE WORKING APPLIANCE</h2>
             <p>The PUBLIC-SITUATION-MACHINE- already exists as a working appliance.</p>
             <p>
-              The walkthrough below follows This Stewardly Captain COB Traversaling through a furnished Situationing over repeated RE-STEPs while the appliance stages, inscribes, and prepares the developing Traversaling for Inspectioning.
-            </p>
+              Before continuing into the appliance surfaces, you may wish to watch this
+              short guided Traversaling of the PUBLIC-SITUATION-MACHINE-. It follows This
+              Stewardly Captain COB through one furnished Situationing while introducing
+              the geometry, RE-STEP, and the constitutional ideas developed in this
+              walkthrough.
+            </p><br />
+
+            <div class="video-embed">
+              <iframe
+                width="100%"
+                height="480"
+                src="https://www.youtube.com/embed/VKw0nNfBlXs"
+                title="Guided Traversaling Demonstration"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div><br />
             <p>What follows are several of the appliance's most developed operational surfaces.</p>
             <p>
               Many remain engineering and constitutional workspaces rather than finished public interfaces.

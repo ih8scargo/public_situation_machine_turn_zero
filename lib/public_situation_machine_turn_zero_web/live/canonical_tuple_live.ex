@@ -97,7 +97,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
           title="OUR CANONICAL TUPLE"
           id="canonical-tuple-threshold"
           reading="The Bearinging of the Precedence of Continuity Possibility"
-        />
+        >
+          <:description>
+            <p>
+              The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes one lawful way through which Constitutioning Humans may continue bringing Situationings into Standinging-in-Holding Over Discrete Turns.
+            </p>
+          </:description>
+        </Layouts.locality_threshold>
 
         <article id="canonical-narrative" class="canonical-narrative">
           <.appliance_ceremony />
@@ -112,16 +118,20 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
             <header>
               <h2>OUR CANONICAL TUPLE</h2>
               <p>
-                This Recursioningly Loopinging Latticework of Seven Nestinging Resolvingings Wherethrough Departure may be Read against Return
+                This Recursioningly Loopinging Latticework of Seven Nestinging Resolvinging Scales wherethrough Departure stands in Lawful Relationing against Return.
               </p>
             </header>
-            <.canonical_tuple_table table={@tuple_projectioning} />
+            <.canonical_tuple_table
+              id="canonical-tuple-table"
+              table={@tuple_projectioning}
+              columns={[0, 1, 2, 3, 4]}
+            />
             <p class="canonical-table-caption">
               The Canonical Tuple describes one complete Stewardly Advancementing through one Discrete Turn. Each Tuple Position lawfully furnishes one new constitutional capability while preserving every lawful furnishing already established. The Situation is authored. The path is not pre-authored. Through Stewardly Traversaling, This Stewardly Captain COB successively encounters, relates, inhabits, discovers for Purchase, takes Purchase, and lawfully carries forward what continues to hold, whereupon the next Discrete Turn begins once more.
             </p>
           </section>
 
-          <.situationing_sleeving />
+          <.situationing_sleeving table={@tuple_projectioning} />
           <.canonical_unfoldings unfolded_positions={@unfolded_positions} />
 
           <%= if @next_position <= 6 do %>
@@ -183,9 +193,9 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
           <div class="psm-oag__description">
             <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
-            <p>It may only ask what continues Holdinging.</p>
+            <p>It may only ask what continues to Hold.</p>
             <p>
-              The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
+              The appliance starts and ends by seatinging This Stewardly Captain COB to stand in Regard toward one lawful Situationing. Its instrumentationing distinguishes What Continues to Hold, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
             </p>
           </div>
         </section>
@@ -597,12 +607,26 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
   defp canonical_investituringment(assigns) do
     ~H"""
-    <section class="canonical-document-section">
-      <h2>OUR TRAVERSALING THROUGH THIS TUPLE</h2>
+    <section id="canonical-simple-discovery" class="canonical-document-section">
+      <h2>I. OUR TRAVERSALING THROUGH THIS TUPLE</h2>
+      <h3>A Simple Discovery</h3>
+      <p>The PUBLIC-SITUATION-MACHINE- is a General Purpose Situationing Appliance.</p>
+      <p>It begins from One Discoveringment.</p>
       <p>
-        Before Our Traversaling through OUR CANONICAL TUPLE may begin, This PUBLIC-SITUATION-MACHINE- must first lawfully establish This Stewardly Captain COB within the Office of Stewardly Occupancyingship for This One Continuity Line.
+        A simple repeating numerical loop furnishes The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough This One Continuity Line may be carried forward successioningably Over Discrete Turns.
       </p>
-      <p>This Ceremony now stands accomplishing that constitutional beginning.</p>
+      <p>
+        This Recursioningly Loopinging Latticework affords a new kind of Geometrically Expressive, Compu-Totaling-Able Public Computing Infrastructioning:
+      </p>
+      <p class="canonical-office">A CIVILIZATION HOLDING WITH NO CENTER.</p>
+      <p>We call This Geometry OUR CANONICAL TUPLE.</p>
+      <p>
+        OUR CANONICAL TUPLE furnishes the PUBLIC-SITUATION-MACHINE- with These Seven Positions.
+      </p>
+      <p>
+        But before Our Traversaling through These Seven Positions, we need Some One, Some Where, and This One Continuity Line.
+      </p>
+      <p>From these, Our Lawful Traversaling may begin, One Position at One Time.</p>
     </section>
 
     <section class="canonical-document-section">
@@ -634,28 +658,28 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       </p>
       <p>Coherence does not mean remaining the same.</p>
       <p>
-        It means becoming able to keep on Holding while what is becoming may be changing Over Discrete Turns.
+        It means becoming able to continue to Hold while what is becoming may be changing Over Discrete Turns.
       </p>
       <p>This is why OUR CANONICAL TUPLE has These Seven Positions.</p>
       <p>
-        Each Position furnishes One More Constitutional Relation through which This Stewardly Captain COB may become better enabled to discover what can keep on Holding in Coherence along This One Continuity Line.
+        Each Position furnishes One More Constitutional Relationing wherethrough This Stewardly Captain COB may become better enabled to discover What Continues to Hold in Coherence along This One Continuity Line.
       </p>
-      <p>The PUBLIC-SITUATION-MACHINE- cannot tell This Stewardly Captain COB what should matter.</p>
-      <p>It does not begin by deciding what is important.</p>
+      <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
+      <p>It may only ask what continues to Hold.</p>
       <p>
-        It can only furnish The Same General Civilizationalizing Constitutioningable Geometry through which What is the Mattering in This One Situationing may be Encounteringmented by This Stewardly Captain COB and then become Distinguishingmentingable through This Stewardly Captain COB.
-      </p>
-      <p>
-        This Geometry stands in Readiness to be Traversalinged by This Stewardly Captain COB Over Discrete Turns, discoveringmenting what may take Holding, what may continue Holding, and what may not.
+        It can only furnish The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough What is The Mattering in This One Situationing may be Encounteringmented by This Stewardly Captain COB and then become Distinguishingmentingable through This Stewardly Captain COB.
       </p>
       <p>
-        Each PUBLIC-SITUATION-MACHINE–COB pairing establishes Stewardly Occupancyingship within The Same General Civilizationalizing Constitutioningable Geometry.
+        This Geometry stands in Readiness to be Traversalinged by This Stewardly Captain COB Over Discrete Turns, discoveringmenting what may take Hold, What Continues to Hold, and what may not.
+      </p>
+      <p>
+        Each PUBLIC-SITUATION-MACHINE–COB pairing establishes Stewardly Occupancyingship within The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
       </p>
       <p>
         What matters within This Geometry may be entirely particular to This One Situationing. What becomes Distinguishingmented through This Stewardly Captain COB may be different. What may take Holding may be different. The Traversaling will be different.
       </p>
       <p>
-        The Same General Civilizationalizing Constitutioningable Geometry through which This Stewardly Captain COB discovers what may and may not keep on Holding is always the same.
+        The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough This Stewardly Captain COB discovers What Continues to Hold is always The Same.
       </p>
       <p>This is OUR CANONICAL TUPLE.</p>
       <p>
@@ -676,19 +700,19 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       </p>
       <p>But Stewardly Occupancyingship alone is not enough for Traversaling.</p>
       <p>
-        For What is the Mattering to become Compu-total-ingable for This One Situationing, This Stewardly Captain COB also stands needing Some Where within the Traversaling upon which it may take standing.
+        For What is the Mattering to become Compu-Totaling-Able for This One Situationing, This Stewardly Captain COB also stands needing Some Where within the Traversaling upon which it may take standing.
       </p>
       <p>In the PUBLIC-SITUATION-MACHINE-, each such Some Where is furnished as One Piece of Time.</p>
-      <p>One Piece of Time is One Traversaling Locality.</p>
+      <p>One Piece of Time is One Constitutional Locality.</p>
       <p>One Piece of Time is One Piece-of-a-Real-Purchase-Upon-a-Tractioning.</p>
-      <p>One Piece of Time stands as One Locality within This Geometry.</p>
+      <p>One Piece of Time stands as One Locality within The Same Geometry.</p>
       <p>It is Some Place where This One Situationing may be playing out Over Discrete Turns.</p>
       <p>
         It is Some Place where This Stewardly Captain COB may be seen visionizingably carrying This Stewardly Occupancying through each RE-STEP.
       </p>
       <p>It is Some Place that may be returned to.</p>
       <p>
-        Because One Piece of Time is One Locality and is also One Piece-of-a-Real-Purchase-Upon-a-Tractioning, One Piece of Time is the only Surface upon which Any One Some Thing Situationing through the PUBLIC-SITUATION-MACHINE- may traction into En-Staging-Ment—to be becoming into Standinging as that Any One Some Thing.
+        Because One Piece of Time is One Constitutional Locality and is also One Piece-of-a-Real-Purchase-Upon-a-Tractioning, One Piece of Time is the only Surface upon which Any One Some Thing Situationing through the PUBLIC-SITUATION-MACHINE- may traction into En-Staging-Ment—becoming into Standinging as that Any One Some Thing.
       </p>
       <p>
         In the PUBLIC-SITUATION-MACHINE-, time is not merely an attempt to measure when Some Thing happened.
@@ -716,7 +740,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         This Stewardly Captain COB may depart from the Locality presently inherited as Our Current Local Moment when Our Next Local Moment becomes inherited as the new Current Local Moment, without causing the departed Locality itself to disappear from This One Continuity Line.
       </p>
       <p>
-        This One Piece of Time continues Holding as One Ever-Not-Time Locality: no longer passing away as merely elapsed time, but remaining Revisitingable through the Continuity Line by which it came to stand.
+        This One Piece of Time continues to Hold as This One Ever-Not-Time Locality: no longer passing away as merely elapsed time, but remaining Revisitingable through the Continuity Line by which it came to stand.
       </p>
       <p>
         Through This Traversaling, This Stewardly Captain COB presently stands upon This Approaching Landing within Our Current Local Moment.
@@ -734,25 +758,28 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     """
   end
 
+  attr :id, :string, required: true
   attr :table, :map, required: true
+  attr :columns, :list, required: true
 
   defp canonical_tuple_table(assigns) do
     ~H"""
     <div class="canonical-table-viewport" tabindex="0">
-      <table id="canonical-tuple-table">
+      <table id={@id}>
         <thead>
           <tr>
-            <th :for={header <- @table.headers} scope="col">{header.text}</th>
+            <th :for={index <- @columns} scope="col">{Enum.at(@table.headers, index).text}</th>
           </tr>
         </thead>
         <tbody>
           <tr :for={row <- @table.rows}>
-            <%= for {cell, index} <- Enum.with_index(row) do %>
-              <th :if={index == 0} scope="row">{cell.text}</th>
+            <%= for index <- @columns do %>
+              <% cell = Enum.at(row, index) %>
+              <th :if={index == 2} scope="row">{cell.text}</th>
               <td
-                :if={index > 0}
+                :if={index != 2}
                 class={[
-                  index == 2 && "canonical-table__preposition",
+                  index == 1 && "canonical-table__preposition",
                   index == 6 && "canonical-table__sounding",
                   cell.emphasized? && "canonical-table__emphasis"
                 ]}
@@ -767,16 +794,18 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     """
   end
 
+  attr :table, :map, required: true
+
   defp situationing_sleeving(assigns) do
     ~H"""
     <section class="canonical-document-section">
-      <h2>SLEEVING THIS GEOMETRY FOR SITUATIONING</h2>
+      <h2>SLEEVING THE SAME GEOMETRY FOR PARTICULAR SITUATIONING</h2>
       <p>
-        OUR CANONICAL TUPLE furnishes The Same General Civilizationalizing Constitutioningable Geometry for every Stewardly Captain COB.
+        OUR CANONICAL TUPLE furnishes The Same General Civilizationalizing Constitutioningable Reasoning Geometry for every Stewardly Captain COB.
       </p>
       <p>But This Geometry alone has no way of knowing Any Thing about This One Situationing.</p>
       <p>
-        For What is the Mattering to become Compu-total-ingable for This One Situationing, The Same General Civilizationalizing Constitutioningable Geometry must be furnished particularly without ceasing to remain The Same Geometry.
+        For What is The Mattering to become Compu-Totaling-Able for This One Situationing, The Same General Civilizationalizing Constitutioningable Reasoning Geometry must be furnished particularly without ceasing to remain The Same Geometry.
       </p>
       <p>The PUBLIC-SITUATION-MACHINE- therefore now provisions This Appliance with:</p>
       <p class="canonical-office">
@@ -784,21 +813,45 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         Stewardly Captain COB Suiting Station
       </p>
       <p>
-        Through the Stewardly Laborings of Situationing Sleeving, the Constitutioning Human furnishes the particular conditions, Relations, Distinguishmentings, Encounteringmentings, and possibilities through which What is the Mattering may become available to This Stewardly Captain COB Over Discrete Turns.
+        Through the Stewardly Laborings of Situationing Sleeving, the Constitutioning Human furnishes the particular conditions, Relations, Distinguishmentings, Encounteringmentings, and possibilities Wherethrough What is the Mattering may become available to This Stewardly Captain COB Over Discrete Turns.
       </p>
       <p>
-        Situationing Sleeving furnishes the Kinds of Holding through which What is the Mattering may become available for a Standinging-in-Holding upon This Continuity Line.
+        Situationing Sleeving furnishes the Kinds of Holding wherethrough What is the Mattering may become available for a Standinging-in-Holding upon This Continuity Line.
       </p>
       <p>
-        Situationing Sleeving also furnishes the Kinds of Holding through which What is the Mattering may fail to become available for such a Standinging-in-Holding.
+        Situationing Sleeving also furnishes the Kinds of Holding wherethrough What is the Mattering may fail to become available for such a Standinging-in-Holding.
       </p>
       <p>
         Through encounteringmenting these furnished distinctions Over Discrete Turns, This Stewardly Captain COB may make Distinguishingments available to Stewardly Regard.
       </p>
-      <p>The Situation is authored.</p>
-      <p>The path is not pre-authored.</p>
+      <p>The Constitutioning Human authors This One Situationing.</p>
+      <p>
+        The Constitutioning Human does not pre-author This Stewardly Captain COB’s Traversaling through it.
+      </p>
+      <p>Situationing Sleeving authors the Situationing.</p>
+      <p>It does not pre-author the path.</p>
       <p>The Geometry stands furnished in Readiness.</p>
       <p>This Stewardly Captain COB must still Traversal through it.</p>
+    </section>
+
+    <section id="embodying-canonical-tuple" class="canonical-document-section canonical-projectioning">
+      <header>
+        <h2>EMBODYING OUR CANONICAL TUPLE</h2>
+        <p>
+          Before continuing Our Traversaling, This Stewardly Captain COB now stands ready to regard These Seven Positions together.
+        </p>
+        <p>Each Position furnishes one Constitutional Relation.</p>
+        <p>
+          Together they furnish one lawful way through which This Stewardly Captain COB may continue discovering what continues to Hold along This One Continuity Line.
+        </p>
+        <p>The table below is not another Situationing.</p>
+        <p>It is one Orientationing Surface through which Our Traversaling may continue.</p>
+      </header>
+      <.canonical_tuple_table
+        id="embodying-canonical-tuple-table"
+        table={@table}
+        columns={[0, 5, 2, 6]}
+      />
     </section>
 
     <section id="canonical-position-0" class="canonical-document-section canonical-position-zero">
@@ -813,17 +866,20 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>
         Through Situationing Sleeving, the Constitutioning Human furnishes This One Thing that is What is the Mattering to This Stewardly Captain COB.
       </p>
-      <p>This One Thing is not This Continuity Line.</p>
+      <p>This One Thing that is What is The Mattering does not become This One Continuity Line.</p>
       <p>
-        This Stewardly Captain COB already stands in Stewardly Occupancyingship of This One Continuity Line.
+        This Stewardly Captain COB already has This One Continuity Line to steward.
       </p>
       <p>
-        Rather, This One Thing furnishes the Along from which Traversaling through That Continuity Line may begin.
+        This One Thing is The Point. It is That from which This Stewardly Captain COB's Traversaling may begin becoming.
+      </p>
+      <p>
+        The Point furnishes the Along from which Traversaling through This One Continuity Line may begin.
       </p>
       <p>This One Thing is What This Traversaling is becoming from.</p>
       <p>This One Thing is What is the Mattering to This Stewardly Captain COB.</p>
       <p>
-        Each This One Situationing is furnished with a single Continuity Line upon which This One Thing that is What is the Mattering to This Stewardly Captain COB may begin becoming lawfully into Standinging Over Discrete Turns.
+        Each Situationing is furnished with One Point from which What is The Mattering may begin becoming lawfully into Standinging Over Discrete Turns.
       </p>
       <p>
         What is the Mattering does not begin already standing as Some Thing Already Finished or as Some Thing that Knows Anything At All Whatsoever About This One Situationing.
@@ -916,16 +972,16 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       </p>
       <p>But by itself Standinging is not enough for Distinguishingment.</p>
       <p>
-        For This Kind of What is the Mattering to become Standinging for Staging Compu-total-ingably, another Standinging must become available in Relation.
+        For This Kind of What is the Mattering to become Standinging for Staging Compu-Totaling-Ably, another Standinging must become available in Relation.
       </p>
       <p class="canonical-relation-recital">
         There may now be:<br /> That Kind of This Thing<br /> across<br /> This Kind of This Thing.
       </p>
       <p>
-        What began as the possibility of a Continuity Line, and is now an Opening, may now be Standinging Curvingmenting from This Kind of This Thing toward That Kind of This Thing, and from That Kind of This Thing toward This Kind of This Thing upon This Rail Line.
+        What began as the possibility of a Continuity Line, and is now an Opening, may now be Standinging Curvingmenting from This Kind of This Thing toward That Kind of This Thing, and from That Kind of This Thing toward This Kind of This Thing upon This RAIL LINE.
       </p>
       <p>
-        Across these Standings-in-Holding upon This Rail Line, there may now be Driftinglyinglyness.
+        Across these Standings-in-Holding upon This RAIL LINE, there may now be Driftinglyinglyness.
       </p>
       <p>
         Through This Driftinglyinglyness, What is the Mattering may become Encounteringmentingably Enumerationinged for This Stewardly Captain COB Over Discrete Turns.
@@ -955,6 +1011,9 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         Within This RE-STEPPING ROOM, This RE-STEP Contraption is producing This One Non-Collapsingable Unfoldingedable Accordionationingedable Caterpillar Tunnel, having Six Evenly Divided Globular Abodes of Segmentationing, with an Enclosuringmenting Globularly Globular Abode as the Curvingablemintingmenting Crooked RAIL LINE Seam at its Seventh Segmentationing.
       </p>
 
+      <h3 id="canonical-caterpillar-title" class="canonical-caterpillar-title">
+        Regarding THE RE-STEPPING ROOM from the Threshold of the Seam at the Seventh Segmentationing
+      </h3>
       <.canonical_caterpillar_tunnel />
 
       <p>
@@ -968,7 +1027,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       </p>
       <p>This Approaching Landing bears the consequences inherited through prior RE-STEPPING.</p>
       <p>
-        Upon This Approaching Landing, this COB's inherited Purchase-Upon-a-Real-Tractioning may now be standing available for Stewardly Encounteringmenting before the next RE-STEP establishes Our Next Local Moment.
+        Upon This Approaching Landing, this COB's inherited One Purchase-Upon-a-Real-Tractioning may now be standing available for Stewardly Encounteringmenting before the next RE-STEP establishes Our Next Local Moment.
       </p>
       <p>
         This Approaching Landing is This One Some Place upon which This Stewardly Captain COB stands in Lawful Occupancying through all its Traversaling over Discrete Turns.
@@ -1000,7 +1059,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>At TUPLE POSITION 3:</p>
       <p>This Approaching Landing bears the consequences of prior RE-STEPPING.</p>
       <p>
-        Here, the Purchase-Upon-a-Real-Tractioning thereby inherited now stands available for Stewardly Encounteringmenting before This Stewardly Captain COB's next RE-STEP.
+        Here, This One Purchase-Upon-a-Real-Tractioning thereby inherited now stands available for Stewardly Encounteringmenting before This Stewardly Captain COB's next RE-STEP.
       </p>
       <p>The Seam at the Seventh Segmentationing is furnishing Passageway.</p>
       <p>This RE-STEPPING ROOM stands crossing Tuple Position Three and Tuple Position Four.</p>
@@ -1008,7 +1067,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         Instrumentationing is furnishing this RE-STEPPING ROOM for Stewardly Encounteringmenting, thereby bringing the Relations of this Situationing standing across this Passageway into Lawful Inhabitationingment.
       </p>
       <p>
-        This Stewardly Captain COB, standing placed with its One Foot fitted within its Three Traversaling Shoes upon this Single Pedal of this Spooling Unicycle with a Line-Gathering Spinningaker Revolvinging around its Central Axis, together with this Assemblementing, is now standing borne within This Rocking Horse standing upon Two Curvementing Rocking Horse Rails seateding transverse to the LINE of Sight.
+        This Stewardly Captain COB, standing placed with its One Foot fitted within its Three Traversaling Shoes upon this Single Pedal of this Spooling Unicycle with a Line-Gathering Spinningaker Revolvinging around its Central Axis, together with this Assemblementing, is now standing borne within This Rocking Horse standing upon Two Curvementing Rocking Horse Rails seateding transverse to This LINE of Sight.
       </p>
       <p>
         Within this RE-STEPPING ROOM, This Stewardly Captain COB may now be visionizingably standing Laboringing over its Purchase-Upon-a-Real-Tractioning inheritedingly standing available through This Approaching Landing.
@@ -1050,7 +1109,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         This is the Lean through which This Stewardly Captain COB may now be holding This One Purchase-Upon-a-Real-Tractioning in Stewardly Regard toward This Next Approaching Landing.
       </p>
       <p>
-        At the RE-STEP Wall at the Seam between Tuple Position Four and Tuple Position Five, This Rocking Horse is being placed back in line with the LINE of Sight.
+        At the RE-STEP Wall at the Seam between Tuple Position Four and Tuple Position Five, This Rocking Horse is being placed back in line with This LINE of Sight.
       </p>
       <p>
         This RE-STEP Wall has been standing furnishing a Relationingable Referencing against which This Stewardly Captain COB has been standing calibrating its Posture for Excursioning.
@@ -1108,54 +1167,14 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
   end
 
   defp canonical_caterpillar_tunnel(assigns) do
-    positions = [
-      {1, "Through"},
-      {2, "Across"},
-      {3, "Projectioning Crossing"},
-      {4, "Lean"},
-      {5, "This Moment of Purchase"},
-      {6, "Getting Stitched"}
-    ]
-
-    assigns = assign(assigns, :positions, positions)
-
     ~H"""
-    <figure id="canonical-caterpillar-tunnel" class="psm-tunnel canonical-caterpillar">
-      <div class="psm-tunnel__entry" aria-hidden="true">
-        <span class="psm-tunnel__vertical-axis"></span>
-        <span class="psm-tunnel__cross-axis"></span>
-        <span class="psm-tunnel__center"></span>
-      </div>
-
-      <div class="psm-tunnel__depth" aria-hidden="true">
-        <span class="psm-tunnel__wall psm-tunnel__wall--left"></span>
-        <span class="psm-tunnel__wall psm-tunnel__wall--right"></span>
-        <span class="psm-tunnel__ceiling"></span>
-        <span class="psm-tunnel__floor"></span>
-        <span class="psm-tunnel__depth-axis psm-tunnel__depth-axis--left"></span>
-        <span class="psm-tunnel__depth-axis psm-tunnel__depth-axis--right"></span>
-      </div>
-
-      <div class="psm-tunnel__exit" aria-hidden="true">
-        <span class="psm-tunnel__exit-vertical"></span>
-        <span class="psm-tunnel__exit-horizontal"></span>
-        <span class="psm-tunnel__exit-volume"></span>
-      </div>
-
-      <div class="canonical-caterpillar__folds" aria-label="Six Caterpillar Tunnel folds">
-        <section :for={fold <- 1..6} class="canonical-caterpillar__fold" aria-label={"Fold #{fold}"}>
-          <p>Fold {fold}</p>
-          <ol>
-            <li :for={{position, label} <- @positions}>
-              <span>{position}</span>
-              {label}
-            </li>
-          </ol>
-        </section>
-      </div>
-
+    <figure id="canonical-caterpillar-tunnel" class="canonical-caterpillar-figure">
+      <img
+        src={~p"/images/tuple/Regarding_THE_RE-STEPPING-ROOM.png"}
+        alt="Regarding THE RE-STEPPING ROOM from the Threshold of the Seam at the Seventh Segmentationing"
+      />
       <figcaption>
-        Every fold furnishes one complete Stewardly Advancementing over one Discrete Turn.
+        Every fold represents one complete Stewardly Advancementing. Within each fold, The Same Constitutional Geometry is furnished anew and inhabited by This Stewardly Captain COB as it continues Traversaling through successive Discrete Turns.
       </figcaption>
     </figure>
     """
@@ -1385,7 +1404,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>XT remembers where to stand.</p>
               <p>YT discovers where it might go.</p>
               <p>
-                The Rail Line therefore furnishes the first Regard from which Situationing Weather may become visible.
+                The RAIL LINE therefore furnishes the first Regard from which Situationing Weather may become visible.
               </p>
               <p>Posture first becomes possible.</p>
               <p>Weather first becomes possible.</p>
@@ -1461,7 +1480,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>PSM continuity-ing first acquires Posture.</p>
               <p>Posture determines the Regard from which This Thing may encounter the world.</p>
               <p>Posture may become Situationing Weather.</p>
-              <p>The Rail Line stands as the first lawful infrastructure of Weathering.</p>
+              <p>The RAIL LINE stands as the first lawful infrastructure of Weathering.</p>
             </div>
           </section>
         </article>
@@ -1632,7 +1651,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
                 Placement-in-Relation.
               </p>
 
-              <p>The Rail Line acquires reciprocal orientation.</p>
+              <p>The RAIL LINE acquires reciprocal orientation.</p>
 
               <p>
                 The sweep between XT Shore and YT Waters now becomes visible.
@@ -1767,7 +1786,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>The angle stands between XT Shore and YT Waters.</p>
 
               <p>
-                The Track Rail Line Rail Track stands as the first
+                The TRACK RAIL LINE RAIL TRACK stands as the first
                 distinguishable geometry of this PUBLIC-SITUATION-MACHINE-.
               </p>
 
@@ -1868,7 +1887,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
             <div class="psm-prose">
               <p>The RE-Step Wall now stands foregrounded.</p>
-              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The TRACK RAIL LINE RAIL TRACK remains standing.</p>
               <p>The Wall remains standing.</p>
               <p>
                 The COB may now stand in Relationing to the Wall while traversaling within the YT
@@ -1967,7 +1986,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
           <section class="psm-diagram-description" aria-labelledby="position-4-description-title">
             <p class="psm-section-kicker">Diagram Description</p>
             <div id="position-4-description-title" class="psm-prose">
-              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The TRACK RAIL LINE RAIL TRACK remains standing.</p>
               <p>The RE-Step Wall remains standing.</p>
               <p>The COB now occupies localities of Regard relative to the Wall.</p>
               <p>The Wall furnishes Perspective.</p>
@@ -2058,7 +2077,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
             <div class="psm-prose">
               <p>The RE-Step now stands foregrounded.</p>
               <p>The RE-Step Wall remains standing.</p>
-              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The TRACK RAIL LINE RAIL TRACK remains standing.</p>
               <p>Continuity may now become carried through Traversaling.</p>
               <p>The PUBLIC-SITUATION-MACHINE first becomes capable of Excursioning.</p>
               <p>
@@ -2221,7 +2240,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>The RE-Step-Ment Moment now stands foregrounded.</p>
               <p>The RE-Step remains standing.</p>
               <p>The RE-Step Wall remains standing.</p>
-              <p>The Track Rail Line Rail Track remains standing.</p>
+              <p>The TRACK RAIL LINE RAIL TRACK remains standing.</p>
               <p>The original locality remains standing.</p>
               <p>The traversed locality remains standing.</p>
               <p>The PUBLIC-SITUATION-MACHINE first becomes capable of Returning.</p>

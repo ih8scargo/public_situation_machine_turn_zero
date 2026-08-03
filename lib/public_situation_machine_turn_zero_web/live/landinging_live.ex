@@ -35,7 +35,7 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
 
             <p>
               From here, Constitutioning Humans may begin discovering
-              These Seven Stewardly Captain COB Suiting Stations
+              These Seven Stewardly Captain COB Suiting Stations,
               through which One Tuple Ship becomes Inhabitationingable.
             </p>
             <br />

@@ -2221,6 +2221,40 @@ select {
   color: #f4efe5;
 }
 
+.canonical-inherited-position .canonical-caterpillar-title {
+  max-width: 28ch;
+  margin: clamp(4rem, 8vw, 7rem) 0 1.5rem;
+  color: var(--canonical-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 3.4vw, 3rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+
+.canonical-caterpillar-figure {
+  width: 100%;
+  margin: 0 0 clamp(3rem, 7vw, 6rem);
+}
+
+.canonical-caterpillar-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--canonical-ink);
+  box-shadow: 0 28px 80px rgba(32, 37, 38, 0.18);
+}
+
+.canonical-caterpillar-figure figcaption {
+  margin-top: 1rem;
+  color: rgba(32, 37, 38, 0.78);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  line-height: 1.55;
+  text-transform: uppercase;
+}
+
 .canonical-caterpillar__folds {
   position: absolute;
   z-index: 6;
@@ -2257,7 +2291,7 @@ select {
 
 .canonical-caterpillar__fold ol {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2272,7 +2306,7 @@ select {
   justify-content: center;
   color: rgba(244, 239, 229, 0.88);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: clamp(0.45rem, 0.65vw, 0.61rem);
+  font-size: clamp(0.42rem, 0.58vw, 0.56rem);
   letter-spacing: 0.02em;
   line-height: 1.25;
 }
@@ -2281,11 +2315,34 @@ select {
   border-right: 0;
 }
 
+.canonical-caterpillar__fold li strong,
+.canonical-caterpillar__fold li em {
+  display: block;
+  font-style: normal;
+}
+
+.canonical-caterpillar__fold li strong {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .canonical-caterpillar__fold li span {
-  margin-bottom: 0.2rem;
+  display: block;
+  margin-block: 0.3rem;
+  padding-block: 0.2rem;
+  border-block: 1px solid rgba(214, 189, 132, 0.42);
   color: #d6bd84;
-  font-size: 0.65rem;
-  font-weight: 900;
+  font-size: 0.42rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.canonical-caterpillar__fold li em {
+  color: #f4efe5;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(0.5rem, 0.72vw, 0.68rem);
+  line-height: 1.15;
 }
 
 .canonical-caterpillar figcaption {

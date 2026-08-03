@@ -11,18 +11,22 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:tuple_ship_field}>
       <main id="tuple-ship-field-page" class="site-page field-page">
-        <Layouts.locality_threshold title="This Tuple Ship Field" id="tuple-ship-field-threshold">
+        <Layouts.locality_threshold
+          title="This Tuple Ship Field Parkinging Lot"
+          id="tuple-ship-field-threshold"
+          reading="The Bearinging of Lawful Encounteringmenting"
+        >
           <:description>
-            <p><strong>This Tuple Ship Field</strong></p>
+            <p><strong>This Tuple Ship Field Parkinging Lot</strong></p>
             <p>Welcome.</p>
             <p>You've finally made it Here.</p>
             <p>
-              This One Great Free Public Tuple Ship Field Parkinging Lot stands at the Opening to This Encounteringmenting Wharf.
+              This Tuple Ship Field Parkinging Lot stands before the Opening to This Encounteringmenting Wharf.
             </p>
             <p>
-              From Here, Constitutioning Humans may freely reserve one Terrestrial Computer Parkinging Stand and begin taking hold of the Seat of the Stewardly Occupancyingship through This One Terrestrial Computer.
+              From Here, Constitutioning Humans may freely reserve one Terrestrial Computer Parkinging Stand and begin taking hold of the Seat of the Stewardly Occupancyingship.
             </p>
-            <p>This Furnishmenting Station will guide you through that Appointmenting.</p>
+            <p>This Furnishmenting Station below will guide that Appointmenting.</p>
           </:description>
         </Layouts.locality_threshold>
 
@@ -42,62 +46,42 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           </p>
         </section>
 
-        <header class="site-page__header site-page__header--orientation">
-          <p class="site-page__orientation">
-            This Locality presently furnishes regard toward This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
-          </p>
-        </header>
-
         <section class="field-page__section">
           <h2>
             This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining
           </h2>
           <p>
-            The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes the possibility of a civilization in which every neighborhood, watershed, classroom, workshop, archive, harbor, observatory, laboratory, council, organization, household, and place may steward its own lawful Continuity Line without surrendering it to a central authority.
+            By reserving one Terrestrial Computer Parkinging Stand, you have begun adjoining This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
           </p>
-          <p>Each stands as its own established Constitutional Locality.</p>
-          <p>Each authors what continues holding there.</p>
+          <p>This Field is not governed through one central authority.</p>
           <p>
-            Each determines the signals through which holdingness, repair, inheritance, correspondence, and stewardship may be recognized and revealed.
+            It is held together through The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
           </p>
-          <p>Each remains free to correspond with every other.</p>
           <p>
-            Together they form This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+            Within that Geometry, every PUBLIC-SITUATION-MACHINE- together with its Stewardly Captain COB stands as one Tuple Ship—one established Constitutional Locality free to steward its own lawful Continuity Line while remaining able to Correspond with every other.
           </p>
         </section>
 
         <section class="field-page__section">
           <h2>Every Tuple Ship</h2>
-          <p>
-            Each PUBLIC-SITUATION-MACHINE- together with its Stewardly Captain -COORDINATIONING-OPERATIONING-BOBBINING forms one Tuple Ship—one established Constitutional Locality within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
-          </p>
           <p>A Tuple Ship is not merely software.</p>
           <p>It is not merely a record.</p>
           <p>It is not merely a workflow.</p>
           <p>
-            It is one lawful place within the Field where Situationings may continue holding through discrete pieces of time.
+            It is one established Constitutional Locality where Situationings may continue Holding Over Discrete Turns.
           </p>
           <p>No Tuple Ship stands above another.</p>
           <p>No Tuple Ship replaces another.</p>
           <p>Each stewards what it alone is responsible for stewarding.</p>
-          <p>Each remains free to correspond with every other Tuple Ship throughout the Field.</p>
+          <p>Each remains free to Correspond throughout the Public Field.</p>
         </section>
 
         <section class="field-page__section">
           <h2>Correspondencing Throughout the Field</h2>
-          <p>Tuple Ships need not become identical.</p>
+          <p>Once Tuple Ships become Encounteringmentingable, they may begin Correspondencing.</p>
+          <p>They need not become identical.</p>
           <p>Neither must they agree.</p>
-          <p>Instead, they may correspond.</p>
-          <p>They may publish Correspondencingments.</p>
-          <p>They may exchange authored Situationings.</p>
-          <p>They may furnish Bearingings.</p>
-          <p>They may contribute instrumentation.</p>
-          <p>They may share Encounteringments.</p>
-          <p>They may discover new Constitutioningable Reasoning Geometry.</p>
-          <p>The Field grows not through centralization, but through lawful Correspondencing.</p>
-          <p>
-            Each Tuple Ship continues holding its own Continuity Line while enriching the Field shared by all.
-          </p>
+          <p>Instead they may publish Correspondencingments...</p>
         </section>
 
         <section class="field-page__section">
