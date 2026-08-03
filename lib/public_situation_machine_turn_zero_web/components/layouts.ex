@@ -72,14 +72,14 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
           This Tuple Ship Field
         </.link>
         <.link
-          navigate={~p"/constitutioning-foundations"}
+          navigate={~p"/constitutioning-bearingings"}
           class={[
             "site-navigation__link",
-            @active_locality == :constitutioning_foundations && "is-active"
+            @active_locality == :constitutioning_bearingings && "is-active"
           ]}
-          aria-current={@active_locality == :constitutioning_foundations && "page"}
+          aria-current={@active_locality == :constitutioning_bearingings && "page"}
         >
-          Constitutioning Foundations
+          Constitutioning Bearingings
         </.link>
         <.link
           navigate={~p"/correspondencingments"}

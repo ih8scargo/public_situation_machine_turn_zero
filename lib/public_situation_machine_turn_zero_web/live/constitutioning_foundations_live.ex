@@ -1,11 +1,26 @@
 defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
   use PublicSituationMachineTurnZeroWeb, :live_view
 
+  @observationing_harbors [
+    {"RESPIRATORY RECOVERY", "Ease of Breathing", "Work of Breathing"},
+    {"LEARNING PROGRESSION", "Learner Self-Confidence", "Self-Starting Learning"},
+    {"WATERSHED STEWARDSHIP", "Watershed Capacity", "Regenerating Alignmenting"},
+    {"NEW ROMANCE", "Chemistry", "Growing Mutual Trust"},
+    {"SCRAMBLED EGGS", "Pan Attention", "Developing Texture"},
+    {"HUMAN–CANINE CO-INHABITATION", "Human-Dog Connection",
+     "Mutually Confident Co-Explorationing"},
+    {"COMMUNITY GATHERING", "A Sense of Belonging", "Fresh Outlooking"},
+    {"PHYSICAL CONDITIONING", "Flow of Movement", "Intensifying Training"},
+    {"ENSEMBLE REHEARSAL", "Group Cohesion", "Interpretive Risk-Taking"},
+    {"VOLUNTEER ACTIVATION", "Shared Mission", "Stewardly Coordinationing"},
+    {"NOVEL WRITING", "Character Believability", "Plot Twistinging"}
+  ]
+
   @impl true
   def mount(_params, _session, socket) do
     {:ok,
      assign(socket,
-       page_title: "Constitutioning Foundations",
+       page_title: "Constitutioning Bearingings",
        position_0_regard: :outward,
        position_1_regard: :outward,
        position_2_regard: :outward,
@@ -85,8 +100,173 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
 
   @impl true
   def render(assigns) do
+    assigns = assign(assigns, :observationing_harbors, @observationing_harbors)
+
     ~H"""
-    <Layouts.app flash={@flash} active_locality={:constitutioning_foundations}>
+    <Layouts.app flash={@flash} active_locality={:constitutioning_bearingings}>
+      <main id="constitutioning-bearingings-page" class="site-page bearingings-public">
+        <Layouts.locality_threshold
+          title="Constitutioning Bearingings"
+          id="constitutioning-bearingings-threshold"
+          reading="The Bearinging of Discoveringmenting Distinguishingmenting"
+        >
+          <:description>
+            <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
+            <p>It may only ask what continues to hold.</p>
+            <p>
+              Through This Stewardly Captain COB, the appliance comes into Regard toward One Lawful Situationing. Its instrumentationing distinguishes what continues Holdinging, what is becoming, and what stands ready for Traversaling through the next Discrete Turn.
+            </p>
+          </:description>
+        </Layouts.locality_threshold>
+
+        <article id="bearingings-public-content" class="bearingings-public__content">
+          <section id="observationing-harbors" class="canonical-document-section">
+            <h2>ONE TUPLE, MANY SITUATIONINGS</h2>
+            <p>The Tuple remains the Tuple.</p>
+            <p>
+              Through Situationing Sleeving, The Same General Civilizationalizing Constitutioningable Reasoning Geometry may be furnished particularly for Any This One Situationing.
+            </p>
+            <p>
+              Over repeated Traversalings, more and more Distinguishingments may become Encounteringmentingable for Stewardly Regard.
+            </p>
+            <p>
+              We call a furnishmenting wherethrough Traversalings may be regarded together an Observationing Harbor.
+            </p>
+            <p>
+              Here are a few examples of how Observationing Harbors might be furnished for Stewardly Regard toward different Things that are What is The Mattering:
+            </p>
+
+            <div class="canonical-table-viewport bearingings-public__table" tabindex="0">
+              <table id="observationing-harbors-projectioning">
+                <thead>
+                  <tr>
+                    <th scope="col">OBSERVATIONING<br />HARBOR</th>
+                    <th scope="col">
+                      WHAT CONTINUES<br /> TO HOLD<br /> FROM<br /> THIS HARBOR
+                      <div class="projectioning-column-code">(XT)</div>
+                    </th>
+                    <th scope="col">
+                      WHAT IS<br /> BECOMING<br /> THROUGH<br /> THIS HARBOR
+                      <div class="projectioning-column-code">(YT)</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr :for={{harbor, xt, yt} <- @observationing_harbors}>
+                    <th scope="row">{harbor}</th>
+                    <td>{xt}</td>
+                    <td>{yt}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3>Reading the Observationing Harbors</h3>
+            <p>
+              Each Observationing Harbor portrays a different way in which This One Situationing may continue to hold over repeated Traversalings.
+            </p>
+            <p>
+              Within these examples, XT and YT furnish Stewardly Postures wherethrough This One Situationing may be regarded.
+            </p>
+            <p>XT primarily references what is already standing upon This One Continuity Line.</p>
+            <p>
+              YT primarily references what may become standing upon This One Continuity Line beyond the RE-STEP Wall as This Stewardly Captain COB continues inheriting Our Next Local Moment from Our Current Local Moment.
+            </p>
+            <p>XT always stands in Regard to YT, and YT always stands in Regard to XT.</p>
+            <p>Neither One stands above The Other One.</p>
+            <p>Neither One may hold without The Other One continuing to hold.</p>
+            <p>
+              Together XT and YT furnish This Stewardly Captain COB with Standinging-in-Holding—This One Lawful Relationing Field of This One Situationing within The Same General Civilizationalizing Constitutioningable Reasoning Geometry which is Becoming This One Great Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+            </p>
+            <p>
+              The Constitutioning Human may return to an Observationing Harbor at any time to Re-Regard how What is Becoming (YT) continues Departing from What Continues to Hold (XT), and continues Returning toward What Continues to Hold (XT), Over Discrete Turns.
+            </p>
+          </section>
+
+          <section id="embroidery-stitching" class="canonical-document-section">
+            <h2>EMBROIDERY STITCHING</h2>
+            <h3>Enriching Inheritance</h3>
+            <p>
+              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
+            </p>
+            <p>
+              Through Embroidery Stitching, each Traversaling also becomes able to furnish its next.
+            </p>
+            <p>
+              What comes to stand may be preserved through Embroidery Stitching, allowing each successive Discrete Turn to inherit what already continues to hold.
+            </p>
+            <p>
+              Each Embroidery Stitching preserves what came to stand through This One Traversaling.
+            </p>
+            <p>
+              Rather than merely recording that Some Event occurred, Each Embroidery Stitching preserves a human-readable, fully traceable inheritance from which later Traversalings may begin.
+            </p>
+            <p>
+              This One Continuity Line might therefore accumulate Embroidery Stitchings in its Observationing Harbor such as:
+            </p>
+            <ul class="bearingings-public__inheritances">
+              <li>What had only been possibility has now come to stand.</li>
+              <li>This One Distinguishingment now appears able to continue holding.</li>
+              <li>An emergent Standinging-in-Holding has become available for Stewardly Regard.</li>
+              <li>
+                What previously required repeated recovery now appears to furnish its own Continuationing.
+              </li>
+              <li>A formerly Local Distinguishingment now continues across Traversalings.</li>
+              <li>A previously Departed Relationing has returned with Greater Purchase.</li>
+              <li>This One Continuity Line now affords This One New Distinguishingment.</li>
+              <li>
+                What came to stand through This One Traversaling now furnishes another Traversaling.
+              </li>
+              <li>What has continued to hold now invites a different Stewardly Posture.</li>
+              <li>
+                This One Traversaling has brought forward Some One Thing now worthy of continued Regard.
+              </li>
+            </ul>
+            <p>
+              Each Embroidery Stitching stands placed along This One Continuity Line itself—not as an isolated record of Some Event, but as a preserved Holding-in-Standinging through which future Traversalings may inherit and continue from what has already come to stand.
+            </p>
+            <p>Different Situationings. One Tuple.</p>
+            <p>
+              That is why we call the PUBLIC-SITUATION-MACHINE- a General Purpose Situationing Appliance.
+            </p>
+          </section>
+
+          <section id="what-becomes-possible" class="canonical-document-section">
+            <h2>WHAT BECOMES POSSIBLE?</h2>
+            <p>
+              The PUBLIC-SITUATION-MACHINE- does not require an organization, community, or builder to replace the software systems they already use.
+            </p>
+            <p>
+              Existing systems already produce enormous numbers of snapshots of state: records from ERPs and manufacturing systems, spreadsheets, databases, sensors, learning systems, public operations, and countless other sources.
+            </p>
+            <p>
+              Imagine rotating those snapshots ninety degrees, granting them Standinging, and establishing a Stewardly Captain COB who may Regard them together along This One Continuity Line.
+            </p>
+            <p>
+              Through This Stewardly Captain COB's Traversaling, Distinguishingments may become available for Stewardly Regard as what continues to hold is inherited Over Discrete Turns.
+            </p>
+            <p>The Situation is authored.</p>
+            <p>The path is not pre-authored.</p>
+            <p>The Laborings of Stewardly Instrumentationing furnish the Situationing.</p>
+            <p>Traversaling discovers the path.</p>
+            <p>
+              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Reasoning Geometry. As new XT-YT Relationings become Encounteringmented, they may come to stand as a new Holding-in-Standinging. Embroidery Stitching preserves This One Traversaling wherethrough those Relationings came to stand. The next Discrete Turn begins from what continues to hold.
+            </p>
+            <p>The existing system can continue doing what it already does.</p>
+            <p>
+              The PUBLIC-SITUATION-MACHINE- furnishes successioning states with This One Place, a Standinging Constitutional Locality within The Same Geometry where they may continue holding together through Traversaling Over Discrete Turns.
+            </p>
+          </section>
+        </article>
+      </main>
+    </Layouts.app>
+    """
+  end
+
+  @doc false
+  def legacy_render(assigns) do
+    ~H"""
+    <Layouts.app flash={@flash} active_locality={:constitutioning_bearingings}>
       <main class="psm-intro">
         <header class="psm-masthead">
           <p class="psm-masthead__machine-name">
@@ -94,7 +274,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
           </p>
 
           <div class="psm-masthead__lower">
-            <h1>Constitutioning Foundations</h1>
+            <h1>Constitutioning Bearingings</h1>
 
             <p>
               General Purpose Situationing Appliance
@@ -113,7 +293,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             </h2>
 
             <p class="psm-oag__reading">
-              The Bearinging of Continuity Possibility
+              The Bearinging of Discoveringmenting Distinguishingmenting
             </p>
           </div>
 

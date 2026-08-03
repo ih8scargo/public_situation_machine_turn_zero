@@ -21,7 +21,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Router do
     live "/our-canonical-tuple", CanonicalTupleLive, :index
     live "/the-appliance", ApplianceLive, :index
     live "/this-tuple-ship-field", TupleShipFieldLive, :index
-    live "/constitutioning-foundations", ConstitutioningFoundationsLive, :index
+    live "/constitutioning-bearingings", ConstitutioningFoundationsLive, :index
     live "/correspondencingments", CorrespondencingmentsLive, :index
   end
 

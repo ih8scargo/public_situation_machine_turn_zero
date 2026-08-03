@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
-  <title id="title">Tuple Ship Navigationing Gallery</title>
-  <desc id="description">Reserved operational surface screenshot locality.</desc>
-  <rect width="1600" height="900" fill="#202629"/>
-  <rect x="42" y="42" width="1516" height="816" fill="none" stroke="#d6bd84" stroke-width="3"/>
-  <path d="M120 450H1480M800 120V780" stroke="#697377" stroke-width="2"/>
-  <text x="800" y="420" fill="#f4efe5" font-family="monospace" font-size="36" text-anchor="middle">Tuple Ship Navigationing Gallery</text>
-  <text x="800" y="484" fill="#d6bd84" font-family="monospace" font-size="22" text-anchor="middle">OPERATIONAL SURFACE IMAGE LOCALITY</text>
-</svg>

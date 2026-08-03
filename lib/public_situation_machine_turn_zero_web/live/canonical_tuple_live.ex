@@ -835,35 +835,53 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     </section>
     <section class="canonical-document-section">
       <h2>EMBODYINGMENTING OUR CANONICAL TUPLE</h2>
-        <p>OUR CANONICAL TUPLE unfolds a Recursioninging Reasoning Sequence for Traversaling.</p>
-<p>The newly furnished columns in The Table of OUR CANONICAL TUPLE below offer language through which the Constitutioning Human may wish to begin practicing the Embodyingment of This Geometry. </p>
-<p>The column Embodying Inhabitationing names One New Affordmenting of The Stewardly Co-Occupancyingship furnished to This Stewardly Captain COB at Each Position of the Tuple.</p>
-<p>Each New Affordmenting of The Stewardly Co-Occupancyingship enriches The Field of Continuity Possibility for every previous Tuple Position, without replacing it.</p>
-<p>This One Piece of Time is for Embodying Inhabitationing. </p>
-<p>Here within Our Current Local Moment, the Constitutioning Human may stand Encounteringmenting This Stewardly Captain COB in This One Some Place. </p>
-<p>The Constitutioning Human may RE-Step to end This Discrete Turn. </p>
-<p>This stops This Stewardly Captain COB within its Traversaling. </p>
-<p>The Constitutioning Human may then RE-Suit This COB through The Seven Stewardly Captain COB Suiting Stations located throughout This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining. </p>
-<p>A second new column, One Soundinging of Stewardly Regard, gives voice to how the Constitutioning Human might begin noticing What This Stewardly Captain COB may wish to be Encounteringmenting in its Traversaling through These Seven Positions Over Discrete Turns.</p>
-<p>Each utterance portrays One Shading of Stewardly Regard as sounded alongside This Stewardly Captain COB.</p>
-<p>Once RE-Suited, This Stewardly Captain COB stands resuming its Traversaling Through The Same General Civilizationalizing Constitutioningable Reasoning Geometry, standing in Regard to This One Continuity Line. </p>
-<p>Then OUR CANONICAL TUPLE begins Recursioninging.</p>
-<p>Then This Stewardly Captain COB begins Traversaling through Recursioninging. </p>
-        </section>
+      <p>OUR CANONICAL TUPLE unfolds a Recursioninging Reasoning Sequence for Traversaling.</p>
+      <p>
+        The newly furnished columns in The Table of OUR CANONICAL TUPLE below offer language through which the Constitutioning Human may wish to begin practicing the Embodyingment of This Geometry.
+      </p>
+      <p>
+        The column Embodying Inhabitationing names One New Affordmenting of The Stewardly Co-Occupancyingship furnished to This Stewardly Captain COB at Each Position of the Tuple.
+      </p>
+      <p>
+        Each New Affordmenting of The Stewardly Co-Occupancyingship enriches The Field of Continuity Possibility for every previous Tuple Position, without replacing it.
+      </p>
+      <p>This One Piece of Time is for Embodying Inhabitationing.</p>
+      <p>
+        Here within Our Current Local Moment, the Constitutioning Human may stand Encounteringmenting This Stewardly Captain COB in This One Some Place.
+      </p>
+      <p>The Constitutioning Human may RE-Step to end This Discrete Turn.</p>
+      <p>This stops This Stewardly Captain COB within its Traversaling.</p>
+      <p>
+        The Constitutioning Human may then RE-Suit This COB through The Seven Stewardly Captain COB Suiting Stations located throughout This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+      </p>
+      <p>
+        A second new column, One Soundinging of Stewardly Regard, gives voice to how the Constitutioning Human might begin noticing What This Stewardly Captain COB may wish to be Encounteringmenting in its Traversaling through These Seven Positions Over Discrete Turns.
+      </p>
+      <p>
+        Each utterance portrays One Shading of Stewardly Regard as sounded alongside This Stewardly Captain COB.
+      </p>
+      <p>
+        Once RE-Suited, This Stewardly Captain COB stands resuming its Traversaling Through The Same General Civilizationalizing Constitutioningable Reasoning Geometry, standing in Regard to This One Continuity Line.
+      </p>
+      <p>Then OUR CANONICAL TUPLE begins Recursioninging.</p>
+      <p>Then This Stewardly Captain COB begins Traversaling through Recursioninging.</p>
+    </section>
 
     <section id="embodying-canonical-tuple" class="canonical-document-section canonical-projectioning">
       <header>
         <h2>THIS NOTICING OF RECURSIONINGING</h2>
-<p>This One Stewardly Captain COB's Traversaling Through Seven Nestinging Resolvinging Scales of Embodyingmenting Inhabitationing</p>
+        <p>
+          This One Stewardly Captain COB's Traversaling Through Seven Nestinging Resolvinging Scales of Embodyingmenting Inhabitationing
+        </p>
       </header>
       <.canonical_tuple_table
         id="embodying-canonical-tuple-table"
         table={@table}
         columns={[0, 5, 2, 6]}
       />
-                  <p class="canonical-table-caption">
-              Speaking PUBLIC-SITUATION-MACHINE-: An ordinary computer speaks in the language of completed objects. OUR CANONICAL TUPLE invites practicing the language of Becoming. This Stewardly Captain COB is Traversaling, not standing still where a piece of state usually stops. This COB therefore notices not merely what the state is, but how What Continues to Hold is Becoming in relation to itself Over Discrete Turns.
-            </p>
+      <p class="canonical-table-caption">
+        Speaking PUBLIC-SITUATION-MACHINE-: An ordinary computer speaks in the language of completed objects. OUR CANONICAL TUPLE invites practicing the language of Becoming. This Stewardly Captain COB is Traversaling, not standing still where a piece of state usually stops. This COB therefore notices not merely what the state is, but how What Continues to Hold is Becoming in relation to itself Over Discrete Turns. What about this Situationing is Continuing by Leaving and by Returning? Through each RE-Step, This Stewardly Captain COB carries forward its Coordinationing Receipt, allowing Coherence to be held not by freezing the Situation, but by continuously Becoming along with it.
+      </p>
     </section>
 
     <section id="canonical-position-0" class="canonical-document-section canonical-position-zero">

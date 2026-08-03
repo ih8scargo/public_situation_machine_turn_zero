@@ -14,13 +14,13 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
         <Layouts.locality_threshold
           title="THE APPLIANCE"
           id="appliance-threshold"
-          reading="The Bearinging of Enriching Inheritancing"
+          reading="The Bearinging of Enrichingmenting Inheritancing"
         >
           <:description>
             <p>
-              The PUBLIC-SITUATION-MACHINE- furnishes the Stewardly Instrumentationing through which The Same General Civilizationalizing Constitutioningable Reasoning Geometry may continue enriching inheritance Over Discrete Turns.
+              The PUBLIC-SITUATION-MACHINE- furnishes the Stewardly Instrumentationing through which The Same General Civilizationalizing Constitutioningable Reasoning Geometry may continue enrichmenting inheritance Over Discrete Turns.
             </p>
-            <p>Its Offices do not determine what a Situationing means.</p>
+            <p>Its Offices do not determine what This One Situationing means.</p>
             <p>
               They furnish the Constitutional Machinery through which Constitutioning Humans may discover what continues to Hold, what is Becoming, and what may come to stand through Traversaling.
             </p>

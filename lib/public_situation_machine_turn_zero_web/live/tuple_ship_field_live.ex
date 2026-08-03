@@ -220,12 +220,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 This One Place Crew stands serving This One Great Free Public Tuple Ship Field through Stewardly Observationings of where upon The Earth Constitutioning Humans stand inhabitationing within This Field.
               </p>
               <p>
-                Through These Stewardly Observationings, This One Great Free Public Tuple Ship Field may increasingly come to encounter itself through its embodiment upon The Earth.
+                Through These Stewardly Observationings, This One Great Free Public Tuple Ship Field may increasingly come to encounteringment itself through its embodyingmenting upon The Earth.
               </p>
             </:crew_statement>
 
             <p>
-              If you wish, you may tell us the broad Earthly Locality from which you are approaching This Encounteringmenting Wharf.
+              If you wish, you may tell us the broad Earthly Locality from which you stand approaching This Encounteringmenting Wharf.
             </p>
             <p>A Country, Region, and City are enough.</p>
             <p>We do not ask for a street address or precise location.</p>
@@ -273,7 +273,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               Your broad Earthly Locality stands furnished for this visit.
             </p>
             <p class="field-page__purpose-note">
-              One day, These Stewardly Observationings may help everyone see where This One Great Free Public Tuple Ship Field is becoming embodied upon The Earth. That public map is not yet available.
+              One day, These Stewardly Observationings may help Every One see where This One Great Free Public Tuple Ship Field is becoming embodied upon The Earth. That Public Tuple Ship Field Mappinging may soon begin coming into Standing here.
             </p>
           </.furnishmenting_station>
         </section>
@@ -283,11 +283,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining
           </h2>
           <p>
-            By reserving one Terrestrial Computer Parkinging Stand, you have begun adjoining This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+            By reserving This One Terrestrial Computer Parkinging Stand, you have begun adjoining This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
           </p>
-          <p>This Field is not governed through one central authority.</p>
+          <p>No One Central Authority holds This One Great Free Public Tuple Ship Field together.</p>
           <p>
-            It is held together through The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
+            The Field holds together through The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
           </p>
           <p>
             Within that Geometry, every PUBLIC-SITUATION-MACHINE- together with its Stewardly Captain COB stands as one Tuple Ship—one established Constitutional Locality free to steward its own lawful Continuity Line while remaining able to Correspond with every other.

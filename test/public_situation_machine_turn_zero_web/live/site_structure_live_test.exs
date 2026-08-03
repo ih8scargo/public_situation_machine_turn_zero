@@ -27,7 +27,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
       {~p"/our-canonical-tuple", "/our-canonical-tuple"},
       {~p"/the-appliance", "/the-appliance"},
       {~p"/this-tuple-ship-field", "/this-tuple-ship-field"},
-      {~p"/constitutioning-foundations", "/constitutioning-foundations"},
+      {~p"/constitutioning-bearingings", "/constitutioning-bearingings"},
       {~p"/correspondencingments", "/correspondencingments"}
     ]
 
@@ -48,23 +48,32 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
       assert has_element?(view, ~s|a[href="/our-canonical-tuple"]|)
       assert has_element?(view, ~s|a[href="/the-appliance"]|)
       assert has_element?(view, ~s|a[href="/this-tuple-ship-field"]|)
-      assert has_element?(view, ~s|a[href="/constitutioning-foundations"]|)
+      assert has_element?(view, ~s|a[href="/constitutioning-bearingings"]|)
       assert has_element?(view, ~s|a[href="/correspondencingments"]|)
     end
   end
 
-  test "Constitutioning Foundations retains the Turn Zero experience", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/constitutioning-foundations")
+  test "Constitutioning Bearingings presents the public constitutional material", %{conn: conn} do
+    {:ok, view, _html} = live(conn, ~p"/constitutioning-bearingings")
 
-    assert has_element?(view, "#tuple-position-0")
-    assert has_element?(view, "#position-0-regard-inward")
-    assert has_element?(view, "#unfold-position-1")
-    assert has_element?(view, "#orientationing-panel-title")
+    assert has_element?(view, "#constitutioning-bearingings-page")
+    assert has_element?(view, "#constitutioning-bearingings-threshold-orientationing-title")
+    assert has_element?(view, "#observationing-harbors")
+    assert has_element?(view, "#embroidery-stitching")
+    assert has_element?(view, "#what-becomes-possible")
+    assert has_element?(view, "#observationing-harbors-projectioning")
 
-    html = render(view)
-    {orientationing_index, _} = :binary.match(html, "orientationing-panel-title")
-    {identification_index, _} = :binary.match(html, "psm-identification")
-    assert orientationing_index < identification_index
+    for row <- 1..11 do
+      assert has_element?(
+               view,
+               "#observationing-harbors-projectioning tbody tr:nth-child(#{row})"
+             )
+    end
+
+    refute has_element?(view, "#tuple-position-0")
+    refute has_element?(view, "#position-0-regard-inward")
+    refute has_element?(view, "#unfold-position-1")
+    refute has_element?(view, ".psm-knotting-rail")
   end
 
   test "OUR CANONICAL TUPLE is a single-column constitutional reading journey", %{conn: conn} do
@@ -186,7 +195,9 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     html = render(view)
     {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
     {furnishmenting_index, _} = :binary.match(html, "constitutional-furnishmenting-rail")
-    {field_explanation_index, _} = :binary.match(html, "By reserving one Terrestrial Computer")
+
+    {field_explanation_index, _} =
+      :binary.match(html, "By reserving This One Terrestrial Computer")
 
     assert orientationing_index < furnishmenting_index
     assert furnishmenting_index < field_explanation_index
@@ -199,7 +210,13 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#appliance-page")
     assert has_element?(view, ".site-navigation__link--appliance")
     refute has_element?(view, "#canonical-tuple-table")
-    assert has_element?(view, "#appliance-threshold", "The Bearinging of Enriching Inheritancing")
+
+    assert has_element?(
+             view,
+             "#appliance-threshold",
+             "The Bearinging of Enrichingmenting Inheritancing"
+           )
+
     assert has_element?(view, "#aboard-working-appliance-title")
     assert has_element?(view, "#staginging-complex-title")
     assert has_element?(view, "#dirt-tracks")
