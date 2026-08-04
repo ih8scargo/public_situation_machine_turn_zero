@@ -192,7 +192,7 @@
   margin-top: 34px;
 }
 
-#tuple-ship-field-threshold .psm-oag__description p:last-child {
+#tuple-ship-field-threshold .psm-oag__description p:nth-last-child(-n + 3) {
   font-size: 27px;
   font-weight: 700;
   line-height: 1.2;
@@ -469,6 +469,10 @@
   text-align: center;
 }
 
+.field-page__station-header--opening {
+  margin-bottom: 0;
+}
+
 .field-page__opening-ceremony p {
   margin: 0;
   font-size: clamp(1.15rem, 2.1vw, 1.55rem);
@@ -504,6 +508,20 @@
   background: rgba(214, 189, 132, 0.1);
 }
 
+.field-page__stewardship-split {
+  display: block;
+  width: 100%;
+  height: clamp(4rem, 8vw, 7rem);
+  overflow: visible;
+}
+
+.field-page__stewardship-split path {
+  fill: none;
+  stroke: var(--psm-brass);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
 .field-page__stewardship-headings,
 .field-page__stewardship-pair {
   display: grid;
@@ -531,8 +549,33 @@
 }
 
 .field-page__stewardship-pairs {
+  position: relative;
   display: grid;
   gap: 1.4rem;
+}
+
+.field-page__stewardship-pairs::before,
+.field-page__stewardship-pairs::after {
+  position: absolute;
+  z-index: 0;
+  top: -1.5rem;
+  bottom: -1.5rem;
+  width: 1px;
+  background: var(--psm-brass);
+  content: "";
+}
+
+.field-page__stewardship-pairs::before {
+  left: 24%;
+}
+
+.field-page__stewardship-pairs::after {
+  right: 24%;
+}
+
+.field-page__stewardship-pair {
+  position: relative;
+  z-index: 1;
 }
 
 .field-page__stewardship-pair > div {
@@ -676,6 +719,33 @@
 .field-page__crew-statement p + p,
 .field-page__plain-notice p + p {
   margin-top: 0.9rem;
+}
+
+.field-page__constitutional-voices {
+  display: grid;
+  gap: 1px;
+  max-width: none;
+  padding: 1px;
+  background: rgba(32, 37, 38, 0.28);
+}
+
+.field-page__constitutional-voices section {
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  background: var(--psm-paper-light);
+}
+
+.field-page__constitutional-voices h5 {
+  margin: 0 0 0.75rem;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.field-page__constitutional-voices p {
+  margin: 0;
 }
 
 .field-page__credentials {
@@ -899,6 +969,125 @@
   margin-bottom: 1rem;
 }
 
+.field-page__station-02-choices {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.field-page__station-opening {
+  overflow: hidden;
+  border: 1px solid rgba(32, 37, 38, 0.58);
+  background: rgba(248, 244, 236, 0.7);
+  box-shadow: 0 24px 70px rgba(32, 37, 38, 0.1);
+}
+
+.field-page__station-opening .field-page__station-regard {
+  width: calc(100% - clamp(2rem, 6vw, 6rem));
+  margin: clamp(2rem, 5vw, 4rem) auto;
+}
+
+.field-page__station-unfold-action {
+  display: block;
+  min-width: 10rem;
+  margin: 0 auto clamp(2rem, 5vw, 4rem);
+}
+
+.field-page__appointmenting-header {
+  margin-bottom: 2rem;
+}
+
+.field-page__appointmenting-header h4,
+.field-page__proto-appointmentings h4 {
+  margin: 0.6rem 0 1rem;
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+}
+
+.field-page__proto-appointmentings {
+  margin-top: clamp(3rem, 7vw, 6rem);
+  padding-top: clamp(2rem, 5vw, 4rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__proto-appointmenting-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.field-page__proto-appointmenting-grid article {
+  display: flex;
+  min-height: 19rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: var(--psm-paper-light);
+  flex-direction: column;
+}
+
+.field-page__proto-appointmenting-grid h5 {
+  margin: 1.5rem 0 0.7rem;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  line-height: 1.1;
+}
+
+.field-page__proto-appointmenting-grid .field-page__action,
+.field-page__proto-appointmenting-grid .field-page__confirmation {
+  width: 100%;
+  margin-top: auto;
+}
+
+.field-page__station-completion {
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(214, 189, 132, 0.15);
+}
+
+.field-page__station-completion p {
+  margin: 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 700;
+}
+
+.field-page__station-completion p + p {
+  margin-top: 1rem;
+}
+
+#earthly-locality-form {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.4);
+  background: var(--psm-paper-light);
+}
+
+.field-page__extension-readiness {
+  width: min(100%, 58rem);
+  margin: clamp(4rem, 9vw, 8rem) auto;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 2px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__extension-readiness h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+}
+
+.field-page__extension-readiness p {
+  margin: 1rem 0 0;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+}
+
+.field-page__terminus-harbor {
+  width: 100%;
+  margin-block: clamp(4rem, 9vw, 8rem);
+}
+
+#correspondence_destination:focus::placeholder {
+  color: transparent;
+}
+
 .field-page__credentials > div {
   padding: clamp(1.2rem, 3vw, 2rem);
   background: var(--psm-paper-light);
@@ -923,6 +1112,66 @@
   color: #765b2d;
   font-size: clamp(1.15rem, 2.8vw, 2rem);
   letter-spacing: 0.08em;
+}
+
+.field-page__credentials [data-copy],
+.field-page__re-shackling-result [data-copy] {
+  margin-top: 0.8rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+[data-copy-status] {
+  grid-column: 1 / -1;
+  min-height: 1.2rem;
+  margin: 0;
+  padding: 0.35rem 0.75rem;
+  background: var(--psm-paper-light);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+.field-page__pet-name-history {
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: rgba(214, 189, 132, 0.1);
+}
+
+.field-page__pet-name-history h5 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
+}
+
+.field-page__pet-name-history ol {
+  margin: 1.5rem 0;
+  padding: 0;
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+  list-style: none;
+}
+
+.field-page__pet-name-history li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__pet-name-history time {
+  color: rgba(32, 37, 38, 0.68);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+}
+
+#refurbish-pet-name-form {
+  margin-top: 1rem;
 }
 
 .field-page__plain-notice,
@@ -997,6 +1246,7 @@
   .field-page__naming-choices,
   .field-page__re-shackling-choices,
   .field-page__re-shackling-result dl,
+  .field-page__proto-appointmenting-grid,
   .field-page__correspondence-fields,
   .field-page__credentials,
   .field-page__form-grid,

@@ -32,6 +32,29 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistryTest do
 
     assert named.name == "A Persistent Leashing"
 
+    assert {:ok, renamed} =
+             ParkingingStandRegistry.furnish_pet_name(
+               first.parkinging_stand,
+               first_pin,
+               "A Newer Pet Name",
+               piece_of_time
+             )
+
+    assert Enum.map(renamed.pet_name_history, & &1.name) == [
+             "A Newer Pet Name",
+             "A Persistent Leashing"
+           ]
+
+    assert {:ok, appointed} =
+             ParkingingStandRegistry.furnish_appointmenting(
+               first.parkinging_stand,
+               first_pin,
+               :lanterning,
+               piece_of_time
+             )
+
+    assert appointed.appointmentings == %{lanterning: piece_of_time}
+
     assert {:ok, located} =
              ParkingingStandRegistry.furnish_earthly_locality(
                first.parkinging_stand,
@@ -43,7 +66,7 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistryTest do
 
     assert {:ok,
             %{
-              name: "A Persistent Leashing",
+              name: "A Newer Pet Name",
               earthly_locality: %{country: "US", region: "CA", city: "Oakland"}
             }} =
              ParkingingStandRegistry.re_shackle(first.parkinging_stand, first_pin)

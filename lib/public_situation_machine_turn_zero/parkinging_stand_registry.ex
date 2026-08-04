@@ -23,7 +23,21 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   end
 
   def furnish_name(parkinging_stand, shackling_pin, name) do
-    GenServer.call(__MODULE__, {:furnish_name, parkinging_stand, shackling_pin, name})
+    furnish_pet_name(parkinging_stand, shackling_pin, name, DateTime.utc_now())
+  end
+
+  def furnish_pet_name(parkinging_stand, shackling_pin, name, furnished_at) do
+    GenServer.call(
+      __MODULE__,
+      {:furnish_pet_name, parkinging_stand, shackling_pin, name, furnished_at}
+    )
+  end
+
+  def furnish_appointmenting(parkinging_stand, shackling_pin, appointmenting, furnished_at) do
+    GenServer.call(
+      __MODULE__,
+      {:furnish_appointmenting, parkinging_stand, shackling_pin, appointmenting, furnished_at}
+    )
   end
 
   def furnish_earthly_locality(parkinging_stand, shackling_pin, earthly_locality) do
@@ -67,7 +81,9 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
       shackling_pin: shackling_pin,
       ceremony_time: ceremony_time,
       name: nil,
-      earthly_locality: nil
+      pet_name_history: [],
+      earthly_locality: nil,
+      appointmentings: %{}
     }
 
     :ok = :dets.insert(state.table, {parkinging_stand, leashing})
@@ -79,7 +95,8 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   def handle_call({:re_shackle, parkinging_stand, shackling_pin}, _from, state) do
     reply =
       case :dets.lookup(state.table, parkinging_stand) do
-        [{^parkinging_stand, leashing}] ->
+        [{^parkinging_stand, stored_leashing}] ->
+          leashing = normalize_leashing(stored_leashing)
           if pins_match?(leashing.shackling_pin, shackling_pin), do: {:ok, leashing}, else: :error
 
         [] ->
@@ -89,8 +106,36 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
     {:reply, reply, state}
   end
 
-  def handle_call({:furnish_name, parkinging_stand, shackling_pin, name}, _from, state) do
-    {:reply, update_leashing(state.table, parkinging_stand, shackling_pin, :name, name), state}
+  def handle_call(
+        {:furnish_pet_name, parkinging_stand, shackling_pin, name, furnished_at},
+        _from,
+        state
+      ) do
+    reply =
+      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
+        history_entry = %{name: name, furnished_at: furnished_at}
+
+        leashing
+        |> Map.put(:name, name)
+        |> Map.update!(:pet_name_history, &[history_entry | &1])
+      end)
+
+    {:reply, reply, state}
+  end
+
+  def handle_call(
+        {:furnish_appointmenting, parkinging_stand, shackling_pin, appointmenting, furnished_at},
+        _from,
+        state
+      ) do
+    reply =
+      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
+        Map.update!(leashing, :appointmentings, fn appointmentings ->
+          Map.put(appointmentings, appointmenting, furnished_at)
+        end)
+      end)
+
+    {:reply, reply, state}
   end
 
   def handle_call(
@@ -99,23 +144,21 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
         state
       ) do
     reply =
-      update_leashing(
-        state.table,
-        parkinging_stand,
-        shackling_pin,
-        :earthly_locality,
-        earthly_locality
-      )
+      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
+        Map.put(leashing, :earthly_locality, earthly_locality)
+      end)
 
     {:reply, reply, state}
   end
 
-  defp update_leashing(table, parkinging_stand, shackling_pin, field, value) do
+  defp update_leashing(table, parkinging_stand, shackling_pin, update) do
     reply =
       case :dets.lookup(table, parkinging_stand) do
-        [{^parkinging_stand, leashing}] ->
+        [{^parkinging_stand, stored_leashing}] ->
+          leashing = normalize_leashing(stored_leashing)
+
           if pins_match?(leashing.shackling_pin, shackling_pin) do
-            updated_leashing = Map.put(leashing, field, value)
+            updated_leashing = update.(leashing)
             :ok = :dets.insert(table, {parkinging_stand, updated_leashing})
             :ok = :dets.sync(table)
             {:ok, updated_leashing}
@@ -129,6 +172,19 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
 
     reply
   end
+
+  defp normalize_leashing(leashing) do
+    leashing
+    |> Map.put_new(:pet_name_history, legacy_pet_name_history(leashing))
+    |> Map.put_new(:appointmentings, %{})
+    |> Map.put_new(:earthly_locality, nil)
+  end
+
+  defp legacy_pet_name_history(%{name: name, ceremony_time: ceremony_time})
+       when is_binary(name),
+       do: [%{name: name, furnished_at: ceremony_time}]
+
+  defp legacy_pet_name_history(_leashing), do: []
 
   defp pins_match?(stored_pin, supplied_pin)
        when byte_size(stored_pin) == byte_size(supplied_pin),

@@ -1,5 +1,12 @@
 import Config
 
+config :public_situation_machine_turn_zero,
+  parkinging_stand_registry_path:
+    Path.join(
+      System.tmp_dir!(),
+      "public_situation_machine_turn_zero/parkinging_stands_test_#{System.pid()}.dets"
+    )
+
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
 config :public_situation_machine_turn_zero, PublicSituationMachineTurnZeroWeb.Endpoint,
