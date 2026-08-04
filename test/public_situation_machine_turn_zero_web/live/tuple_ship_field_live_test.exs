@@ -3,47 +3,73 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
   import Phoenix.LiveViewTest
 
-  test "assigns visit credentials without login credentials", %{conn: conn} do
+  test "unfolds horizontally paired stewardships into the Crew", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
-    assert has_element?(view, ~s|#parkinging-stand[data-value^="TCP-"]|)
-    assert has_element?(view, ~s|#shackling-pin[data-digits="16"]|)
-    assert has_element?(view, ".field-page__leash", "Together these constitute The Leash.")
-    refute has_element?(view, ~s|input[type="password"]|)
-    refute has_element?(view, ~s|input[name="username"]|)
+    assert has_element?(view, "#unfold-constitutional-rail-line", "Unfold")
+    refute has_element?(view, "#terrestrial-computer-parkinging-station")
+
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+
+    assert has_element?(view, "#dual-stewardship-geometry")
+    assert has_element?(view, ".field-page__stewardship-pair:nth-child(5)")
+    assert has_element?(view, "#dual-stewardship-geometry", "House of Shackling Pin Furnishings")
+    assert has_element?(view, "#stewardship-crew-convergence")
+    refute has_element?(view, ".field-page__stewardship-correspondence")
+
+    assert has_element?(
+             view,
+             "#leashing-crew-conjunction",
+             "Terrestrial Computer Leashinging Crew"
+           )
   end
 
-  test "accepts optional recovery methods for the visit", %{conn: conn} do
+  test "persists a furnished Name and practices lawful return", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    view |> element("#take-holdinging-of-leashing") |> render_click()
+
+    parkinging_stand = credential_value(view, "parkinging-stand")
+    shackling_pin = credential_value(view, "shackling-pin")
+
+    view |> element("#begin-furnishing-leashing-name") |> render_click()
+
     view
-    |> form("#recovery-methods-form", recovery: %{email: "steward@example.test", phone: ""})
+    |> form("#leashing-name-form", leashing: %{name: "The Harboring Leashing"})
     |> render_submit()
 
-    assert has_element?(view, "#recovery-methods-confirmation")
-  end
-
-  test "uses Place data for cascading optional locality controls", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
+    assert has_element?(view, "#re-shackling-practice-station")
+    refute has_element?(view, "#self-correspondencing-crew")
 
     view
-    |> form("#embodied-locality-form", locality: %{country: "US"})
-    |> render_change()
-
-    assert has_element?(view, ~s|#locality_region option[value="CA"]|, "California")
-
-    view
-    |> form("#embodied-locality-form", locality: %{country: "US", region: "CA"})
-    |> render_change()
-
-    assert has_element?(view, ~s|#locality_city option[value="Los Angeles"]|, "Los Angeles")
-
-    view
-    |> form("#embodied-locality-form",
-      locality: %{country: "US", region: "CA", city: "Los Angeles"}
+    |> form("#re-shackling-form",
+      re_shackling: %{parkinging_stand: parkinging_stand, shackling_pin: shackling_pin}
     )
     |> render_submit()
 
-    assert has_element?(view, "#embodied-locality-confirmation")
+    assert has_element?(view, "#re-shackling-success", "The Harboring Leashing")
+    assert has_element?(view, "#re-shackling-success", "This One Leashing continues standing")
+    assert has_element?(view, "#self-correspondencing-crew")
+    assert has_element?(view, "#hail-this-one-leashing")
+  end
+
+  test "continues without naming or RE-Shackling as equal choices", %{conn: conn} do
+    {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
+
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    view |> element("#take-holdinging-of-leashing") |> render_click()
+    view |> element("#continue-without-leashing-name") |> render_click()
+
+    assert has_element?(view, "#re-shackling-practice-station")
+    view |> element("#continue-beyond-re-shackling") |> render_click()
+
+    assert has_element?(view, "#self-correspondencing-crew")
+    assert has_element?(view, "#tuple-field-after-leashing-ceremony")
+  end
+
+  defp credential_value(view, id) do
+    [_, value] = Regex.run(~r/data-value="([^"]+)"/, render(element(view, "##{id}")))
+    value
   end
 end

@@ -1,5 +1,10 @@
 import Config
 
+if parkinging_registry_path = System.get_env("PARKINGING_STAND_REGISTRY_PATH") do
+  config :public_situation_machine_turn_zero,
+    parkinging_stand_registry_path: parkinging_registry_path
+end
+
 # config/runtime.exs is executed for all environments, including
 # during releases. It is executed after compilation and before the
 # system starts, so it is typically used to load production configuration

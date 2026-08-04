@@ -172,15 +172,27 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
              "The Bearinging of Lawful Encounteringmenting"
            )
 
-    assert has_element?(view, "#tuple-ship-field-threshold", "You've finally made it Here.")
+    assert has_element?(view, "#tuple-ship-field-threshold", "You've made it Here.")
     assert has_element?(view, "#constitutional-furnishmenting-rail")
-    assert has_element?(view, "#terrestrial-computer-parkinging-station")
-    assert has_element?(view, "#embodied-localities-station")
+    assert has_element?(view, "#rail-line-opening-ceremony")
+    assert has_element?(view, "#unfold-constitutional-rail-line")
+    refute has_element?(view, "#terrestrial-computer-parkinging-station")
+    refute has_element?(view, "#parkinging-stand")
+    refute has_element?(view, "#shackling-pin")
+    refute has_element?(view, "#recovery-methods-form")
+    refute has_element?(view, ".field-page__section")
+
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+
+    view |> element("#take-holdinging-of-leashing") |> render_click()
+
     assert has_element?(view, "#parkinging-stand")
     assert has_element?(view, "#shackling-pin")
-    assert has_element?(view, "#leash-title", "THE LEASH")
-    assert has_element?(view, "#recovery-methods-form")
-    assert has_element?(view, "#embodied-locality-form")
+    assert has_element?(view, "#leashing-ceremony-time")
+    assert has_element?(view, "#leashing-naming")
+
+    view |> element("#continue-without-leashing-name") |> render_click()
+    view |> element("#continue-beyond-re-shackling") |> render_click()
 
     assert has_element?(view, ".field-page__section")
     assert has_element?(view, ".field-page__section", "One machine for Every One.")

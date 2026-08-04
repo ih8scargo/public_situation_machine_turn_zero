@@ -192,6 +192,12 @@
   margin-top: 34px;
 }
 
+#tuple-ship-field-threshold .psm-oag__description p:last-child {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .site-page__header {
   padding-bottom: clamp(2.5rem, 6vw, 5rem);
 }
@@ -454,6 +460,150 @@
   background: var(--psm-brass);
 }
 
+.field-page__opening-ceremony {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+  padding: clamp(2rem, 5vw, 4rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__opening-ceremony p {
+  margin: 0;
+  font-size: clamp(1.15rem, 2.1vw, 1.55rem);
+  line-height: 1.65;
+}
+
+.field-page__opening-action {
+  min-width: 10rem;
+  margin-top: 2rem;
+  border-color: var(--psm-paper-light);
+}
+
+#constitutional-rail-line-unfolded {
+  animation: constitutional-rail-unfold 320ms ease-out both;
+}
+
+@keyframes constitutional-rail-unfold {
+  from {
+    opacity: 0;
+    transform: translateY(-0.75rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.field-page__dual-stewardship {
+  position: relative;
+  padding: clamp(2rem, 5vw, 4rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.3);
+  background: rgba(214, 189, 132, 0.1);
+}
+
+.field-page__stewardship-headings,
+.field-page__stewardship-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(2rem, 8vw, 7rem) minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.field-page__stewardship-headings h4 {
+  margin: 0 0 1.5rem;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field-page__stewardship-headings h4:first-child {
+  grid-column: 1;
+}
+
+.field-page__stewardship-headings h4:last-child {
+  grid-column: 3;
+}
+
+.field-page__stewardship-pairs {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.field-page__stewardship-pair > div {
+  display: grid;
+  min-height: 6rem;
+  padding: 1rem;
+  border: 1px solid rgba(32, 37, 38, 0.35);
+  background: var(--psm-paper-light);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(0.7rem, 1.2vw, 0.86rem);
+  font-weight: 800;
+  line-height: 1.45;
+  place-items: center;
+  text-align: center;
+}
+
+.field-page__stewardship-pair > span {
+  align-self: center;
+  height: 1px;
+  background: var(--psm-brass);
+}
+
+.field-page__shared-operational-box {
+  gap: 0.65rem;
+}
+
+.field-page__shared-operational-box p {
+  width: 100%;
+  margin: 0;
+  padding: 0.7rem;
+  border: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__stewardship-convergence {
+  display: block;
+  width: 100%;
+  height: clamp(4rem, 8vw, 7rem);
+  overflow: visible;
+}
+
+.field-page__stewardship-convergence path {
+  fill: none;
+  stroke: var(--psm-brass);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.field-page__stewardship-convergence marker path {
+  fill: var(--psm-brass);
+  stroke: none;
+}
+
+.field-page__crew-conjunction {
+  width: min(calc(100% - 3rem), 42rem);
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 2px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__crew-conjunction h4 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.field-page__crew-conjunction p {
+  margin: 1rem 0 0;
+}
+
 .field-page__station {
   overflow: hidden;
   border: 1px solid rgba(32, 37, 38, 0.58);
@@ -560,6 +710,195 @@
   margin-top: 0.5rem;
 }
 
+.field-page__ceremony-action {
+  display: block;
+  width: min(100%, 34rem);
+  margin: 1rem auto;
+  padding-block: 1.15rem;
+}
+
+.field-page__ceremony-time {
+  margin: -0.25rem 0 1.5rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__ceremony-time span,
+.field-page__ceremony-time time {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.field-page__ceremony-time span {
+  color: #d6bd84;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.field-page__ceremony-time time {
+  margin-top: 0.7rem;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  letter-spacing: 0.05em;
+}
+
+.field-page__ceremony-time p {
+  margin: 1rem 0 0;
+  color: rgba(248, 244, 236, 0.82);
+}
+
+.field-page__naming-placeholder {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px dashed rgba(32, 37, 38, 0.5);
+  color: rgba(32, 37, 38, 0.76);
+  font-style: italic;
+}
+
+.field-page__completion-statement {
+  margin-block: 1.5rem;
+  padding-block: 1.5rem;
+  border-block: 1px solid rgba(32, 37, 38, 0.35);
+}
+
+.field-page__completion-statement p {
+  margin: 0;
+}
+
+.field-page__completion-statement p + p {
+  margin-top: 0.65rem;
+}
+
+.field-page__naming {
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: var(--psm-paper-light);
+}
+
+.field-page__naming h5 {
+  margin: 0;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.45;
+}
+
+.field-page__naming-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.field-page__naming-choices .field-page__action {
+  width: 100%;
+}
+
+#leashing-name-form {
+  margin-top: 1.5rem;
+}
+
+.field-page__ceremony-closing,
+.field-page__next-labor > p {
+  width: min(100%, 58rem);
+  margin-inline: auto;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.45);
+  background: rgba(214, 189, 132, 0.13);
+  text-align: center;
+}
+
+.field-page__ceremony-closing p {
+  margin: 0;
+}
+
+.field-page__ceremony-closing p + p {
+  margin-top: 1rem;
+}
+
+.field-page__re-shackling-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+#re-shackling-form,
+.field-page__continue-option {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.4);
+  background: var(--psm-paper-light);
+}
+
+#re-shackling-form > * + *,
+.field-page__continue-option > * + * {
+  margin-top: 1rem;
+}
+
+#re-shackling-form .field-page__action,
+.field-page__continue-option .field-page__action {
+  width: 100%;
+}
+
+.field-page__re-shackling-result {
+  margin-top: 2rem;
+  border: 1px solid var(--psm-steel);
+  background: var(--psm-paper-light);
+}
+
+.field-page__re-shackling-result dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.field-page__re-shackling-result dl > div {
+  padding: 1.25rem;
+  border-right: 1px solid rgba(32, 37, 38, 0.25);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__re-shackling-result dt {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.field-page__re-shackling-result dd {
+  margin: 0.6rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.field-page__re-shackling-result > p {
+  margin: 0;
+  padding: 1.25rem;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__self-correspondencing {
+  max-width: 58rem;
+  margin-inline: auto;
+}
+
+#self-correspondencing-form {
+  margin-block: 2rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.4);
+  background: var(--psm-paper-light);
+}
+
+.field-page__correspondence-fields {
+  display: grid;
+  grid-template-columns: minmax(10rem, 0.6fr) minmax(0, 1.4fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
 .field-page__credentials > div {
   padding: clamp(1.2rem, 3vw, 2rem);
   background: var(--psm-paper-light);
@@ -655,10 +994,25 @@
 }
 
 @media (max-width: 760px) {
+  .field-page__naming-choices,
+  .field-page__re-shackling-choices,
+  .field-page__re-shackling-result dl,
+  .field-page__correspondence-fields,
   .field-page__credentials,
   .field-page__form-grid,
   .field-page__locality-grid {
     grid-template-columns: 1fr;
+  }
+
+  .field-page__stewardship-headings,
+  .field-page__stewardship-pair {
+    grid-template-columns: minmax(0, 1fr) 1.25rem minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #constitutional-rail-line-unfolded {
+    animation: none;
   }
 }
 
