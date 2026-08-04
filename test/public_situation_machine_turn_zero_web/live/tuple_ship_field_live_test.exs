@@ -8,7 +8,29 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   test "unfolds horizontally paired stewardships into the Crew", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
+    assert has_element?(
+             view,
+             "#terrestrial-computer-standinging-landing",
+             "Inquire Within"
+           )
+
+    refute has_element?(view, "#constitutional-furnishmenting-rail")
+    view |> element("#inquire-within") |> render_click()
+
+    assert has_element?(
+             view,
+             "#constitutional-furnishmenting-rail-title",
+             "This Constitutional Furnishmenting Rail Line"
+           )
+
     assert has_element?(view, ".field-page__station-header--opening", "STATION 01")
+
+    assert has_element?(
+             view,
+             "#rail-line-opening-ceremony",
+             "The Bearinging of Stewardly Co-Occupancyingship"
+           )
+
     assert has_element?(view, "#unfold-constitutional-rail-line", "Unfold")
     refute has_element?(view, "#terrestrial-computer-parkinging-station")
 
@@ -28,15 +50,26 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
            )
 
     assert has_element?(view, "#appliance-narration-voice", "Appliance Narration")
-    assert has_element?(view, "#institutional-action-voice", "Institutional Action")
-    assert has_element?(view, "#crew-voice", "Crew Voice")
+
+    assert has_element?(
+             view,
+             "#appliance-narration-voice + p",
+             "may now stand choosing to Take Holdinging"
+           )
+
+    assert has_element?(view, "#institutional-standing-voice", "Institutional Standing")
+    assert has_element?(view, "#stewardly-guidance-voice", "Stewardly Guidance")
+    assert has_element?(view, "#leashing-crew-conjunction", "ready to receive")
   end
 
   test "persists a furnished Name and practices lawful return", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
-    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    inquire_and_unfold_station_01(view)
     view |> element("#take-holdinging-of-leashing") |> render_click()
+
+    assert has_element?(view, "#parkinging-credentials #leashing-ceremony-time")
+    assert has_element?(view, ".field-page__credentials-ground", "THIS ONE PIECE OF TIME")
 
     parkinging_stand = credential_value(view, "parkinging-stand")
     shackling_pin = credential_value(view, "shackling-pin")
@@ -73,9 +106,17 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, "#re-shackling-success", "The Lantern Leashing")
     assert has_element?(view, "#re-shackling-success", "This One Leashing continues standing")
+
+    assert has_element?(
+             view,
+             "#re-shackling-success .field-page__re-shackling-time-ground",
+             "This One Piece of Time"
+           )
+
     assert has_element?(view, "#self-correspondencing-crew")
     assert has_element?(view, "#hail-this-one-leashing")
     assert has_element?(view, "#station-02-opening")
+    assert has_element?(view, "#station-02-opening", "The Bearinging of Embodyingmenting")
     refute has_element?(view, "#earthly-localities-station")
 
     assert has_element?(
@@ -116,7 +157,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   test "continues without naming or RE-Shackling as equal choices", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
-    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    inquire_and_unfold_station_01(view)
     view |> element("#take-holdinging-of-leashing") |> render_click()
     view |> element("#continue-without-leashing-name") |> render_click()
 
@@ -139,7 +180,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   test "furnishes and persists This One Place", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
-    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    inquire_and_unfold_station_01(view)
     view |> element("#take-holdinging-of-leashing") |> render_click()
 
     parkinging_stand = credential_value(view, "parkinging-stand")
@@ -181,6 +222,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   defp credential_value(view, id) do
     [_, value] = Regex.run(~r/data-value="([^"]+)"/, render(element(view, "##{id}")))
     value
+  end
+
+  defp inquire_and_unfold_station_01(view) do
+    view |> element("#inquire-within") |> render_click()
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
   end
 
   defp unfold_station_02(view) do

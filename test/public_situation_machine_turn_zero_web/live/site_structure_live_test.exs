@@ -163,7 +163,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "This Tuple Ship Field Parkinging Lot"
+             "This Tuple Ship Field Public Parkinging Lot"
            )
 
     assert has_element?(
@@ -173,6 +173,21 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
            )
 
     assert has_element?(view, "#tuple-ship-field-threshold", "You've made it Here.")
+
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "This Constitutioning Human may approach This One Terrestrial Computer Standinging Landing."
+           )
+
+    refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
+    refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
+    assert has_element?(view, "#terrestrial-computer-standinging-landing")
+    assert has_element?(view, "#inquire-within", "Inquire Within")
+    refute has_element?(view, "#constitutional-furnishmenting-rail")
+
+    view |> element("#inquire-within") |> render_click()
+
     assert has_element?(view, "#constitutional-furnishmenting-rail")
     assert has_element?(view, "#rail-line-opening-ceremony")
     assert has_element?(view, "#unfold-constitutional-rail-line")

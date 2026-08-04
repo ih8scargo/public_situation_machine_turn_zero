@@ -431,12 +431,41 @@
 
 .field-page__furnishmenting-rail {
   position: relative;
-  padding-block: clamp(4rem, 9vw, 8rem);
+  width: 100%;
+  padding-block: clamp(2.5rem, 5vw, 5rem);
+  animation: rail-entrance-reveal 420ms ease-out both;
+}
+
+.field-page__standinging-landing {
+  margin: clamp(5rem, 11vw, 10rem) 0 clamp(2rem, 5vw, 4rem);
+  padding: clamp(2.5rem, 6vw, 5rem);
+  border: 1px solid rgba(32, 37, 38, 0.42);
+  background: rgba(248, 244, 236, 0.72);
+  box-shadow: 0 24px 70px rgba(32, 37, 38, 0.08);
+}
+
+.field-page__standinging-landing h2 {
+  max-width: 20ch;
+  margin: 0.8rem 0 1.5rem;
+  font-size: clamp(2.4rem, 5.5vw, 5.25rem);
+  letter-spacing: -0.04em;
+  line-height: 0.96;
+}
+
+.field-page__standinging-landing > p:last-child {
+  max-width: 46rem;
+  margin: 0;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  line-height: 1.65;
+}
+
+.field-page__landing-action {
+  margin-top: 2rem;
 }
 
 .field-page__rail-header {
   max-width: 54rem;
-  margin-bottom: clamp(3rem, 7vw, 6rem);
+  margin-bottom: clamp(2.25rem, 5vw, 4.5rem);
 }
 
 .field-page__rail-header h2 {
@@ -451,6 +480,22 @@
   max-width: 46rem;
   font-size: clamp(1.05rem, 1.7vw, 1.25rem);
   line-height: 1.7;
+}
+
+.field-page__rail-header > p + p {
+  margin-top: 1.25rem;
+}
+
+@keyframes rail-entrance-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .field-page__rail-line {
@@ -483,6 +528,29 @@
   min-width: 10rem;
   margin-top: 2rem;
   border-color: var(--psm-paper-light);
+}
+
+.field-page__furnishmenting-rail .field-page__station-regard--station-01 {
+  grid-template-columns: minmax(17rem, 0.8fr) minmax(0, 1.2fr);
+  width: 100%;
+  margin: clamp(2.5rem, 5vw, 4.5rem) 0;
+}
+
+.field-page__station-regard--station-01 .field-page__opening-action {
+  margin-top: 1.5rem;
+  border-color: var(--psm-steel);
+}
+
+.field-page__station-regard--station-01 .psm-oag__description {
+  min-width: 0;
+  padding: clamp(1.5rem, 3.5vw, 2.75rem);
+  overflow-wrap: anywhere;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+}
+
+.field-page__station-regard--station-01 .psm-oag__description p:first-child {
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  line-height: 1.45;
 }
 
 #constitutional-rail-line-unfolded {
@@ -559,7 +627,7 @@
   position: absolute;
   z-index: 0;
   top: -1.5rem;
-  bottom: -1.5rem;
+  bottom: 0;
   width: 1px;
   background: var(--psm-brass);
   content: "";
@@ -799,19 +867,22 @@
 .field-page__ceremony-time time {
   display: block;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  text-align: center;
 }
 
 .field-page__ceremony-time span {
-  color: #d6bd84;
-  font-size: 0.68rem;
+  color: var(--psm-paper-light);
+  font-size: clamp(1rem, 2.2vw, 1.45rem);
   font-weight: 900;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
 .field-page__ceremony-time time {
-  margin-top: 0.7rem;
-  font-size: clamp(1rem, 2vw, 1.35rem);
+  margin-top: 1rem;
+  color: #f4dca8;
+  font-size: clamp(1.15rem, 2.5vw, 1.65rem);
+  font-weight: 800;
   letter-spacing: 0.05em;
 }
 
@@ -927,6 +998,14 @@
   padding: 1.25rem;
   border-right: 1px solid rgba(32, 37, 38, 0.25);
   border-bottom: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__re-shackling-result dl > .field-page__re-shackling-time-ground {
+  grid-column: 1 / -1;
+  border-right: 0;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
 }
 
 .field-page__re-shackling-result dt {
@@ -1090,6 +1169,19 @@
 
 .field-page__credentials > div {
   padding: clamp(1.2rem, 3vw, 2rem);
+  background: var(--psm-paper-light);
+}
+
+.field-page__credentials > .field-page__credentials-ground {
+  grid-column: 1 / -1;
+  margin: 0;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__credentials > [data-copy-status] {
+  grid-column: 1 / -1;
+  margin: 0;
   background: var(--psm-paper-light);
 }
 
@@ -1261,6 +1353,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .field-page__furnishmenting-rail,
   #constitutional-rail-line-unfolded {
     animation: none;
   }
@@ -3461,6 +3554,10 @@ select {
   }
 
   .locality-threshold .psm-oag {
+    grid-template-columns: 1fr;
+  }
+
+  .field-page__station-regard {
     grid-template-columns: 1fr;
   }
 
