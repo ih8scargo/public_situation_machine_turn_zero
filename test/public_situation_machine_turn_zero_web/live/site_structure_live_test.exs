@@ -227,12 +227,18 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     html = render(view)
     {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
     {furnishmenting_index, _} = :binary.match(html, "constitutional-furnishmenting-rail")
+    {terminus_index, _} = :binary.match(html, "tuple-field-terminus-harbor")
+
+    {public_field_harbor_index, _} =
+      :binary.match(html, "public-field-discoveringmenting-harbor")
 
     {field_explanation_index, _} =
       :binary.match(html, "By reserving This One Terrestrial Computer")
 
     assert orientationing_index < furnishmenting_index
-    assert furnishmenting_index < field_explanation_index
+    assert furnishmenting_index < terminus_index
+    assert terminus_index < public_field_harbor_index
+    assert public_field_harbor_index < field_explanation_index
     refute html =~ "This Locality presently furnishes regard"
   end
 
@@ -282,10 +288,42 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
   end
 
   test "Correspondencingment archive lists publications", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/correspondencingments")
+    {:ok, view, html} = live(conn, ~p"/correspondencingments")
 
     assert has_element?(view, "#correspondencingments-page")
+
+    assert has_element?(
+             view,
+             "#correspondencingments-threshold",
+             "The Bearinging of Lawful Correspondencing"
+           )
+
+    assert has_element?(
+             view,
+             "#correspondencingments-threshold",
+             "arrive from the Edge of the Field"
+           )
+
+    assert has_element?(
+             view,
+             "#correspondencingments-publication-title",
+             "Twople-Ship-to-Twople-Ship"
+           )
+
+    assert has_element?(
+             view,
+             "#correspondencingment-2",
+             "Aboard The Tuple Ship: The Sittinging Room"
+           )
+
     assert has_element?(view, "#correspondencingments[phx-update=stream]")
     assert has_element?(view, "#correspondencingments article")
+
+    {threshold_index, _} = :binary.match(html, "correspondencingments-threshold")
+    {publication_index, _} = :binary.match(html, "correspondencingments-publication-title")
+    {list_index, _} = :binary.match(html, ~s|id="correspondencingments"|)
+
+    assert threshold_index < publication_index
+    assert publication_index < list_index
   end
 end

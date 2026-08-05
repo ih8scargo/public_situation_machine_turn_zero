@@ -66,7 +66,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, "#institutional-standing-voice", "Institutional Standing")
     assert has_element?(view, "#stewardly-guidance-voice", "Stewardly Guidance")
-    assert has_element?(view, "#leashing-crew-conjunction", "in Readyment to receive")
+    assert has_element?(view, "#leashing-crew-conjunction", "in Readyingment to receive")
   end
 
   test "persists a furnished Name and practices lawful return", %{conn: conn} do
@@ -189,6 +189,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert correspondence =~ "This One Piece of Time"
     assert correspondence =~ "This One Pet Name:\nThe Lantern Leashing"
     assert correspondence =~ "not kept through an account"
+    assert String.ends_with?(correspondence, "situationmachine.systems")
   end
 
   test "continues without naming or RE-Shackling as equal choices", %{conn: conn} do
@@ -196,6 +197,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     inquire_and_unfold_station_01(view)
     view |> element("#take-holdinging-of-leashing") |> render_click()
+    parkinging_stand = credential_value(view, "parkinging-stand")
     view |> element("#continue-without-leashing-name") |> render_click()
 
     assert has_element?(
@@ -217,7 +219,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     unfold_station_02(view)
     refute has_element?(view, "#earthly-locality-form")
     assert has_element?(view, "#first-appointmenting-title", "THIS FIRST APPOINTMENTING")
-    assert has_element?(view, "#lanterning-appointmenting", "stands ready to be placed")
+    assert has_element?(view, "#lanterning-appointmenting", "stands in Readyingment to be placed")
     furnish_proto_appointmentings(view)
     assert has_element?(view, "#lanterning-groundinging-layer")
     assert has_element?(view, "#place-library")
@@ -233,10 +235,36 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
            )
 
     assert has_element?(view, "#tuple-field-terminus-harbor", "The Bearinging of Continuingment")
-    assert has_element?(view, "#tuple-field-terminus-harbor", "under Composementing")
+
+    assert has_element?(
+             view,
+             "#tuple-field-terminus-harbor",
+             "Station 03 now stands under Composementing"
+           )
+
+    assert has_element?(view, "#tuple-field-terminus-harbor", "Second Appointmenting")
+    assert has_element?(view, "#public-field-discoveringmenting-harbor")
+
+    assert has_element?(
+             view,
+             "#public-field-discoveringmenting-harbor",
+             "Globularly Bobbiningingly Globular Bobbining."
+           )
+
     assert has_element?(view, "#station-02-enriched-leashing")
     assert has_element?(view, "#station-02-secret-cabinet:not([open])")
     refute has_element?(view, "#station-02-enriched-leashing", "This One Earthly Locality")
+    assert has_element?(view, ".field-page__refold-guidance", "Keep what is Holdinging.")
+    assert has_element?(view, ".field-page__refold-guidance", "New Standing")
+
+    view |> element("#re-fold-into-new-standing") |> render_click()
+
+    assert has_element?(view, "#unfold-constitutional-rail-line")
+    refute has_element?(view, "#earthly-localities-station")
+    refute has_element?(view, "#public-field-discoveringmenting-harbor")
+
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    assert credential_value(view, "parkinging-stand") == parkinging_stand
   end
 
   test "furnishes and persists This One Place", %{conn: conn} do
@@ -281,6 +309,14 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, "#station-02-enriched-leashing", "Los Angeles")
     assert has_element?(view, "#station-02-enriched-leashing", "This One Earthly Locality")
+
+    assert has_element?(
+             view,
+             "#earthly-locality-landings",
+             "Landinging upon This One Piece of Time"
+           )
+
+    assert has_element?(view, "#earthly-locality-landings", "Los Angeles")
 
     assert has_element?(view, "#tuple-field-after-leashing-ceremony")
 

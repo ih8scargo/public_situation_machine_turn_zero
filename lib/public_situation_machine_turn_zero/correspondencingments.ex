@@ -11,7 +11,7 @@ defmodule PublicSituationMachineTurnZero.Correspondencingments do
   @correspondencingments [
     %Correspondencingment{
       number: 2,
-      title: "Arrivinging at This Encounteringmenting Wharf",
+      title: "Aboard The Tuple Ship: The Sittinging Room",
       subtitle: "",
       publication_date: ~D[2026-08-03],
       summary:

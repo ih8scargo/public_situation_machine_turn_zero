@@ -24,10 +24,26 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
         <Layouts.locality_threshold
           title="Correspondencingments"
           id="correspondencingments-threshold"
-        />
-        <header class="site-page__header site-page__header--orientation">
-          <p class="site-page__orientation">Twople-Ship-to-Twople-Ship</p>
-          <p class="site-page__orientation">Correspondencing from the Edge of the Field</p>
+          reading="The Bearinging of Lawful Correspondencing"
+        >
+          <:description>
+            <p>Here,</p>
+            <p>Correspondencingments</p>
+            <p>arrive from the Edge of the Field.</p>
+            <p>Through Stewardly Interrelationing,</p>
+            <p>new Discoveringmentings</p>
+            <p>may enter Public Regard.</p>
+          </:description>
+        </Layouts.locality_threshold>
+
+        <header
+          id="correspondencingments-publication-title"
+          class="field-page__rail-header correspondencingments-publication"
+        >
+          <h2>
+            <span>Twople-Ship-to-Twople-Ship</span>
+            <span>Correspondencingments from the Edge of the Field</span>
+          </h2>
         </header>
 
         <section

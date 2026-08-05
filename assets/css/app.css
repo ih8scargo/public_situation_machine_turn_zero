@@ -285,6 +285,18 @@
   gap: 1rem;
 }
 
+.correspondencingments-publication {
+  padding-top: clamp(3rem, 7vw, 6rem);
+}
+
+.correspondencingments-publication h2 {
+  max-width: 18ch;
+}
+
+.correspondencingments-publication h2 span {
+  display: block;
+}
+
 .correspondencingment-card h2,
 .correspondencingment-card h3 {
   margin-bottom: 0.75rem;
@@ -1178,6 +1190,56 @@
   margin-block: clamp(4rem, 9vw, 8rem);
 }
 
+.field-page__refold-standing {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: clamp(3rem, 7vw, 6rem);
+  flex-direction: column;
+  text-align: center;
+}
+
+.field-page__refold-guidance p {
+  margin: 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+}
+
+.field-page__refold-guidance p + p {
+  margin-top: 0.5rem;
+}
+
+#public-field-discoveringmenting-harbor {
+  width: 100%;
+  margin: clamp(4rem, 9vw, 8rem) 0;
+}
+
+.field-page__continuity-landings {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__continuity-landings ol {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.field-page__continuity-landings li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__continuity-landings time {
+  color: rgba(32, 37, 38, 0.68);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+}
+
 .field-page__secret-cabinet {
   display: flex;
   gap: 1rem;
@@ -1447,6 +1509,11 @@
 
   .field-page__secret-cabinet {
     align-items: stretch;
+    flex-direction: column;
+  }
+
+  .field-page__continuity-landings li {
+    align-items: flex-start;
     flex-direction: column;
   }
 

@@ -41,9 +41,23 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   end
 
   def furnish_earthly_locality(parkinging_stand, shackling_pin, earthly_locality) do
+    furnish_earthly_locality(
+      parkinging_stand,
+      shackling_pin,
+      earthly_locality,
+      DateTime.utc_now() |> DateTime.truncate(:second)
+    )
+  end
+
+  def furnish_earthly_locality(
+        parkinging_stand,
+        shackling_pin,
+        earthly_locality,
+        furnished_at
+      ) do
     GenServer.call(
       __MODULE__,
-      {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality}
+      {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality, furnished_at}
     )
   end
 
@@ -83,6 +97,7 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
       name: nil,
       pet_name_history: [],
       earthly_locality: nil,
+      earthly_locality_history: [],
       appointmentings: %{}
     }
 
@@ -139,13 +154,18 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   end
 
   def handle_call(
-        {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality},
+        {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality,
+         furnished_at},
         _from,
         state
       ) do
     reply =
       update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
-        Map.put(leashing, :earthly_locality, earthly_locality)
+        history_entry = %{earthly_locality: earthly_locality, furnished_at: furnished_at}
+
+        leashing
+        |> Map.put(:earthly_locality, earthly_locality)
+        |> Map.update!(:earthly_locality_history, &[history_entry | &1])
       end)
 
     {:reply, reply, state}
@@ -178,6 +198,7 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
     |> Map.put_new(:pet_name_history, legacy_pet_name_history(leashing))
     |> Map.put_new(:appointmentings, %{})
     |> Map.put_new(:earthly_locality, nil)
+    |> Map.put_new(:earthly_locality_history, legacy_earthly_locality_history(leashing))
   end
 
   defp legacy_pet_name_history(%{name: name, ceremony_time: ceremony_time})
@@ -185,6 +206,15 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
        do: [%{name: name, furnished_at: ceremony_time}]
 
   defp legacy_pet_name_history(_leashing), do: []
+
+  defp legacy_earthly_locality_history(%{
+         earthly_locality: earthly_locality,
+         ceremony_time: ceremony_time
+       })
+       when is_map(earthly_locality),
+       do: [%{earthly_locality: earthly_locality, furnished_at: ceremony_time}]
+
+  defp legacy_earthly_locality_history(_leashing), do: []
 
   defp pins_match?(stored_pin, supplied_pin)
        when byte_size(stored_pin) == byte_size(supplied_pin),

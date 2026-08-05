@@ -59,15 +59,31 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistryTest do
              ParkingingStandRegistry.furnish_earthly_locality(
                first.parkinging_stand,
                first_pin,
-               %{country: "US", region: "CA", city: "Oakland"}
+               %{country: "US", region: "CA", city: "Oakland"},
+               piece_of_time
              )
 
     assert located.earthly_locality == %{country: "US", region: "CA", city: "Oakland"}
+    assert [%{earthly_locality: %{city: "Oakland"}}] = located.earthly_locality_history
+
+    later_piece_of_time = DateTime.add(piece_of_time, 60, :second)
+
+    assert {:ok, relocated} =
+             ParkingingStandRegistry.furnish_earthly_locality(
+               first.parkinging_stand,
+               first_pin,
+               %{country: "US", region: "CA", city: "Berkeley"},
+               later_piece_of_time
+             )
+
+    assert Enum.map(relocated.earthly_locality_history, fn entry ->
+             {entry.earthly_locality.city, entry.furnished_at}
+           end) == [{"Berkeley", later_piece_of_time}, {"Oakland", piece_of_time}]
 
     assert {:ok,
             %{
               name: "A Newer Pet Name",
-              earthly_locality: %{country: "US", region: "CA", city: "Oakland"}
+              earthly_locality: %{country: "US", region: "CA", city: "Berkeley"}
             }} =
              ParkingingStandRegistry.re_shackle(first.parkinging_stand, first_pin)
   end
