@@ -177,7 +177,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "This Constitutioning Human may approach This One Terrestrial Computer Standinging Landing."
+             "Constitutioning Humans may approach This One Terrestrial Computer Standinging Landing."
            )
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
@@ -209,9 +209,10 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     view |> element("#continue-without-leashing-name") |> render_click()
     view |> element("#continue-beyond-re-shackling") |> render_click()
     view |> element("#unfold-station-02") |> render_click()
-    view |> element("#continue-without-earthly-locality") |> render_click()
+    refute has_element?(view, "#earthly-locality-form")
     view |> element(~s|button[phx-value-appointmenting="lanterning"]|) |> render_click()
-    view |> element(~s|button[phx-value-appointmenting="sounding_bell"]|) |> render_click()
+    assert has_element?(view, "#place-library")
+    view |> element("#continue-without-earthly-locality") |> render_click()
 
     assert has_element?(view, ".field-page__section")
     assert has_element?(view, ".field-page__section", "One machine for Every One.")

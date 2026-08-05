@@ -39,6 +39,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(view, "#dual-stewardship-geometry")
     assert has_element?(view, "#stewardship-rail-split")
     assert has_element?(view, ".field-page__stewardship-pair:nth-child(5)")
+
+    assert has_element?(
+             view,
+             "#dual-stewardship-geometry",
+             "This One Piece of Time Unitting Selectioning"
+           )
+
     assert has_element?(view, "#dual-stewardship-geometry", "House of Shackling Pin Furnishings")
     assert has_element?(view, "#stewardship-crew-convergence")
     refute has_element?(view, ".field-page__stewardship-correspondence")
@@ -59,7 +66,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, "#institutional-standing-voice", "Institutional Standing")
     assert has_element?(view, "#stewardly-guidance-voice", "Stewardly Guidance")
-    assert has_element?(view, "#leashing-crew-conjunction", "ready to receive")
+    assert has_element?(view, "#leashing-crew-conjunction", "in Readyment to receive")
   end
 
   test "persists a furnished Name and practices lawful return", %{conn: conn} do
@@ -70,6 +77,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(view, "#parkinging-credentials #leashing-ceremony-time")
     assert has_element?(view, ".field-page__credentials-ground", "THIS ONE PIECE OF TIME")
+    assert has_element?(view, "#station-01-secret-cabinet:not([open])", "This One Secret Cabinet")
+    assert has_element?(view, "#parkinging-credentials", "Copy Shackling Pin")
+    assert has_element?(view, "#leashing-naming-title", "This One Pet Name for This One Leashing")
+
+    assert has_element?(
+             view,
+             "#leashing-naming",
+             "This One Pet Name goes with This One Leashing."
+           )
 
     parkinging_stand = credential_value(view, "parkinging-stand")
     shackling_pin = credential_value(view, "shackling-pin")
@@ -88,6 +104,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     |> render_submit()
 
     assert has_element?(view, "#pet-name-continuity-line li:first-child", "The Lantern Leashing")
+    refute has_element?(view, "#pet-name-continuity-line", "Pet Name Continuity Line")
 
     assert has_element?(
              view,
@@ -105,7 +122,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     |> render_submit()
 
     assert has_element?(view, "#re-shackling-success", "The Lantern Leashing")
-    assert has_element?(view, "#re-shackling-success", "This One Leashing continues standing")
+
+    assert has_element?(
+             view,
+             "#leashing-stewardly-standing",
+             "Our Combined Stewardly Laboringings"
+           )
+
+    assert has_element?(
+             view,
+             "#leashing-constitutional-declaration",
+             "This One Leashing now stands named The Lantern Leashing."
+           )
+
+    assert has_element?(
+             view,
+             "#re-shackling-success",
+             "This One Leashing continues standing in lawful Holdinging."
+           )
+
+    assert has_element?(view, "#re-shackling-secret-cabinet:not([open])")
+    assert has_element?(view, "#re-shackling-success", "Copy Shackling Pin")
 
     assert has_element?(
              view,
@@ -147,7 +184,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert correspondence =~
              "Self-Correspondencingment Dispatched from\nThe PUBLIC-SITUATION-MACHINE-"
 
-    assert correspondence =~ "This One Terrestrial Computer Parkinging Stand Number:"
+    assert correspondence =~ "This One Terrestrial Computer Free Parkinging Stand Number:"
     assert correspondence =~ "This One Shackling Pin:"
     assert correspondence =~ "This One Piece of Time"
     assert correspondence =~ "This One Pet Name:\nThe Lantern Leashing"
@@ -161,20 +198,45 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     view |> element("#take-holdinging-of-leashing") |> render_click()
     view |> element("#continue-without-leashing-name") |> render_click()
 
+    assert has_element?(
+             view,
+             "#leashing-stewardly-standing",
+             "Our Combined Stewardly Laboringings"
+           )
+
+    refute has_element?(view, "#leashing-constitutional-declaration")
     assert has_element?(view, "#re-shackling-practice-station")
     view |> element("#continue-beyond-re-shackling") |> render_click()
 
     assert has_element?(view, "#self-correspondencing-crew")
     assert has_element?(view, "#station-02-opening")
+    assert has_element?(view, "#station-02-opening", "This One Some Place Station")
+    refute has_element?(view, "#station-02-opening", "Lanterning Appointmenting may now")
     refute has_element?(view, "#tuple-field-after-leashing-ceremony")
 
     unfold_station_02(view)
-    view |> element("#continue-without-earthly-locality") |> render_click()
+    refute has_element?(view, "#earthly-locality-form")
+    assert has_element?(view, "#first-appointmenting-title", "THIS FIRST APPOINTMENTING")
+    assert has_element?(view, "#lanterning-appointmenting", "stands ready to be placed")
     furnish_proto_appointmentings(view)
+    assert has_element?(view, "#lanterning-groundinging-layer")
+    assert has_element?(view, "#place-library")
+    view |> element("#continue-without-earthly-locality") |> render_click()
 
     assert has_element?(view, "#tuple-field-after-leashing-ceremony")
-    assert has_element?(view, "#rail-line-extension-readiness", "Future Stations")
-    assert has_element?(view, "#tuple-field-terminus-harbor")
+    refute has_element?(view, "#rail-line-extension-readiness")
+
+    assert has_element?(
+             view,
+             "#station-02-completion",
+             "standing in This One Some Place upon The Earth"
+           )
+
+    assert has_element?(view, "#tuple-field-terminus-harbor", "The Bearinging of Continuingment")
+    assert has_element?(view, "#tuple-field-terminus-harbor", "under Composementing")
+    assert has_element?(view, "#station-02-enriched-leashing")
+    assert has_element?(view, "#station-02-secret-cabinet:not([open])")
+    refute has_element?(view, "#station-02-enriched-leashing", "This One Earthly Locality")
   end
 
   test "furnishes and persists This One Place", %{conn: conn} do
@@ -189,6 +251,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     view |> element("#continue-without-leashing-name") |> render_click()
     view |> element("#continue-beyond-re-shackling") |> render_click()
     unfold_station_02(view)
+    refute has_element?(view, "#earthly-locality-form")
+    furnish_proto_appointmentings(view)
+    assert has_element?(view, "#earthly-locality-form")
 
     view
     |> form("#earthly-locality-form", locality: %{country: "US"})
@@ -208,9 +273,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     )
     |> render_submit()
 
-    furnish_proto_appointmentings(view)
+    assert has_element?(
+             view,
+             "#station-02-completion",
+             "stands Visionizinging through Relationing"
+           )
 
-    assert has_element?(view, "#station-02-completion", "lawful Placement upon The Earth")
+    assert has_element?(view, "#station-02-enriched-leashing", "Los Angeles")
+    assert has_element?(view, "#station-02-enriched-leashing", "This One Earthly Locality")
+
     assert has_element?(view, "#tuple-field-after-leashing-ceremony")
 
     assert {:ok, %{earthly_locality: locality}} =
@@ -237,6 +308,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   end
 
   defp furnish_proto_appointmentings(view) do
+    refute has_element?(view, "#sounding-bell-appointmenting")
+
     view
     |> element(~s|#lanterning-appointmenting button[phx-value-appointmenting="lanterning"]|)
     |> render_click()
@@ -245,9 +318,5 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              view,
              ~s|#lanterning-appointmenting button[phx-value-appointmenting="lanterning"]|
            )
-
-    view
-    |> element(~s|#sounding-bell-appointmenting button[phx-value-appointmenting="sounding_bell"]|)
-    |> render_click()
   end
 end

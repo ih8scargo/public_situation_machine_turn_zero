@@ -16,6 +16,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
        rail_unfolded?: false,
        naming_decision: :pending,
        leashing_name: nil,
+       earthly_locality: nil,
        pet_name_history: [],
        pet_name_refurbishing?: false,
        naming_form: to_form(%{"name" => ""}, as: :leashing),
@@ -178,6 +179,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
            shackling_pin: leashing.shackling_pin,
            ceremony_time: leashing.ceremony_time,
            leashing_name: leashing.name,
+           earthly_locality: leashing.earthly_locality,
            pet_name_history: leashing.pet_name_history,
            proto_appointmentings: leashing.appointmentings |> Map.keys() |> MapSet.new(),
            re_shackling_result: leashing,
@@ -264,14 +266,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         %{"appointmenting" => appointmenting},
         %{assigns: %{station_02_unfolded?: true}} = socket
       )
-      when appointmenting in ["lanterning", "sounding_bell"] do
-    appointmenting = String.to_existing_atom(appointmenting)
-
+      when appointmenting == "lanterning" do
     {:ok, _leashing} =
       ParkingingStandRegistry.furnish_appointmenting(
         socket.assigns.parkinging_stand,
         socket.assigns.shackling_pin,
-        appointmenting,
+        :lanterning,
         DateTime.utc_now() |> DateTime.truncate(:second)
       )
 
@@ -279,7 +279,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
       socket
       |> assign(
         :proto_appointmentings,
-        MapSet.put(socket.assigns.proto_appointmentings, appointmenting)
+        MapSet.put(socket.assigns.proto_appointmentings, :lanterning)
       )
       |> maybe_complete_station_02()
 
@@ -350,6 +350,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         socket
         |> assign(
           station_02_decision: :completed,
+          earthly_locality: earthly_locality,
           locality_form: to_form(locality_params, as: :locality)
         )
         |> maybe_complete_station_02()
@@ -433,10 +434,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               This Constitutional Furnishmenting Rail Line
             </h2>
             <p>
-              This Constitutional Furnishmenting Rail Line stands Constitutioning from its first Station onward while standing in Readiness for Extension through the lawful Appointmenting of future Furnishmenting Stations Commencementing Here.
+              This Constitutional Furnishmenting Rail Line stands Constitutioning from its first Station onward while standing in Readyment for Extension through the lawful Appointmenting of future Furnishmenting Stations Commencementing Here.
             </p>
             <p>
-              This Constitutional Furnishmenting Rail Line now stands ready for its first lawful Unfoldingmenting.
+              This Constitutional Furnishmenting Rail Line now stands in Readyment for its first lawful Unfoldingmenting.
             </p>
           </header>
 
@@ -461,7 +462,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </div>
             <div class="psm-oag__description">
               <p>
-                With Stewardly Regard toward This Constitutioning Human's approaching Constitutional Appointmenting, These Offices of the Appliance now stand in Readiness for the Unfoldingmenting of This Constitutional Furnishmenting Rail Line.
+                With Stewardly Regard toward This Constitutioning Human's approaching Constitutional Appointmenting, These Offices of the Appliance now stand in Readyment for the Unfoldingmenting of This Constitutional Furnishmenting Rail Line.
               </p>
               <button
                 :if={!@rail_unfolded?}
@@ -516,7 +517,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     <div>Department of This Approaching Landingmenting</div>
                   </div>
                   <div class="field-page__stewardship-pair">
-                    <div>This One Piece of Time Unitting</div>
+                    <div>This One Piece of Time Unitting Selectioning</div>
                     <span aria-hidden="true"></span>
                     <div>Rail Line Furnishingments Unit</div>
                   </div>
@@ -560,7 +561,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 <p>
                   This One Crew stands inhabitationing Their Combined Laboringings through These Interrelationing Officerly Stewardships.
                 </p>
-                <p>They now stand ready to receive This Constitutioning Human.</p>
+                <p>
+                  These Offices of the Appliance now stand in Readyment to receive This Constitutioning Human through The Zeroeth Appointmenting.
+                </p>
               </div>
 
               <div
@@ -576,13 +579,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 <section aria-labelledby="institutional-standing-voice">
                   <h5 id="institutional-standing-voice">Institutional Standing</h5>
                   <p>
-                    <em>This One Terrestrial Computer Leashinging Crew now stands in Readiness for the fashioning of This One Leashing.</em>
+                    <em>This One Terrestrial Computer Leashinging Crew now stands in Readyment for the fashioning of This One Leashing.</em>
                   </p>
                 </section>
                 <section aria-labelledby="stewardly-guidance-voice">
                   <h5 id="stewardly-guidance-voice">Stewardly Guidance</h5>
                   <p>
-                    You will receive This One Terrestrial Computer Parkinging Stand Number together with This One Shackling Pin that belongs with it.
+                    You will receive This One Terrestrial Computer Free Parkinging Stand Number together with This One Shackling Pin that belongs with it.
                   </p>
                   <p>
                     Through This One Leashing, you may later shackle any Terrestrial Computer to This One Free Parkinging Stand.
@@ -602,24 +605,33 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         phx-hook=".CopyFurnishing"
                       >
                         <div>
-                          <span>This One Terrestrial Computer Parkinging Stand Number</span>
+                          <span>This One Terrestrial Computer Free Parkinging Stand Number</span>
                           <strong id="parkinging-stand" data-value={@parkinging_stand}>
                             {@parkinging_stand}
                           </strong>
                           <button type="button" data-copy={@parkinging_stand}>Copy</button>
                         </div>
-                        <div>
-                          <span>This One Shackling Pin</span>
-                          <strong id="shackling-pin" data-value={@shackling_pin}>
-                            {@shackling_pin}
-                          </strong>
-                          <button type="button" data-copy={@shackling_pin}>Copy</button>
+                        <div class="field-page__secret-cabinet">
+                          <details id="station-01-secret-cabinet">
+                            <summary>▸ This One Secret Cabinet</summary>
+                            <div class="field-page__secret-cabinet-interior">
+                              <span>This One Shackling Pin</span>
+                              <strong id="shackling-pin" data-value={@shackling_pin}>
+                                {@shackling_pin}
+                              </strong>
+                            </div>
+                          </details>
+                          <button type="button" data-copy={@shackling_pin}>
+                            Copy Shackling Pin
+                          </button>
                         </div>
                         <div
                           id="leashing-ceremony-time"
                           class="field-page__ceremony-time field-page__credentials-ground"
                         >
-                          <span>THIS ONE PIECE OF TIME</span>
+                          <span class="field-page__ceremony-ground-title">
+                            THIS ONE PIECE OF TIME
+                          </span>
                           <time datetime={DateTime.to_iso8601(@ceremony_time)}>
                             {Calendar.strftime(@ceremony_time, "%Y-%m-%d %H:%M:%S UTC")}
                           </time>
@@ -631,7 +643,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         <p>Together, These Relationings now stand as This One Leashing.</p>
                         <p>This One Leashing stands upon This One Constitutional Locality.</p>
                         <p>
-                          This One Terrestrial Computer Parkinging Stand Number need not be kept secret.
+                          This One Terrestrial Computer Free Parkinging Stand Number need not be kept secret.
                         </p>
                         <p>This One Shackling Pin should be preserved in a Secret Some Place.</p>
                       </div>
@@ -643,8 +655,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         aria-labelledby="leashing-naming-title"
                       >
                         <h5 id="leashing-naming-title">
-                          Furnish This One Pet Name
+                          This One Pet Name for This One Leashing
                         </h5>
+                        <p>This One Pet Name goes with This One Leashing.</p>
+                        <p>This One Pet Name belongs to This Constitutioning Human.</p>
+                        <p>
+                          It may be held in an Open Place, a Secret Some Place, or any Some Place in between.
+                        </p>
 
                         <div :if={@naming_decision == :pending} class="field-page__naming-choices">
                           <button
@@ -690,7 +707,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         id="pet-name-continuity-line"
                         class="field-page__pet-name-history"
                       >
-                        <h5>This One Pet Name Continuity Line</h5>
+                        <h5>This One Pet Name for This One Leashing</h5>
+                        <p>This One Pet Name goes with This One Leashing.</p>
                         <p>This One Pet Name belongs to This Constitutioning Human.</p>
                         <p>
                           It may be held in an Open Place, a Secret Some Place, or any Some Place in between.
@@ -750,12 +768,21 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   id="leashing-ceremony-closing"
                   class="field-page__ceremony-closing"
                 >
-                  <p :if={@naming_decision == :named} id="furnished-leashing-name">
-                    This One Leashing now stands named <strong>{@leashing_name}</strong>.
-                  </p>
-                  <p>
-                    Through the combined Laboringings of This One Crew, This One Leashingmenting comes into Lawful Beginning.
-                  </p>
+                  <section id="leashing-stewardly-standing">
+                    <h5>Stewardly Standing</h5>
+                    <p>
+                      Through Our Combined Stewardly Laboringings, This One Leashingmenting now stands becoming into lawful Beginning.
+                    </p>
+                  </section>
+                  <section
+                    :if={@naming_decision == :named}
+                    id="leashing-constitutional-declaration"
+                  >
+                    <h5>Constitutional Declaration</h5>
+                    <p id="furnished-leashing-name">
+                      This One Leashing now stands named <strong>{@leashing_name}</strong>.
+                    </p>
+                  </section>
                 </div>
               </div>
             </article>
@@ -769,13 +796,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 aria-labelledby="re-shackling-practice-title"
               >
                 <header class="field-page__station-header">
-                  <p class="site-page__eyebrow">OPTIONAL PRACTICE LOCALITY</p>
+                  <p class="site-page__eyebrow">
+                    OPTIONAL STOPPING: Practice Locality for RE-Shackling
+                  </p>
                   <h3 id="re-shackling-practice-title">RE-Shackle This One Leashing</h3>
                 </header>
 
                 <div class="field-page__crew-statement">
                   <p>
-                    Through This Station, This Constitutioning Human may practice returning to This One Great Free Public Tuple Ship Field Parkinging Lot through This One Leashing whenever desired.
+                    Through This Stopping Locality, This Constitutioning Human may practice returning to This One Great Free Public Tuple Ship Field Parkinging Lot through This One Leashing.
                   </p>
                   <p>
                     This is a voluntary practice of lawful Return. It is not authentication or account access.
@@ -792,7 +821,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       <.input
                         field={@re_shackling_form[:parkinging_stand]}
                         type="text"
-                        label="This One Terrestrial Computer Parkinging Stand Number"
+                        label="This One Terrestrial Computer Free Parkinging Stand Number"
                         inputmode="numeric"
                         maxlength="12"
                         autocomplete="off"
@@ -811,7 +840,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     </.form>
 
                     <div class="field-page__continue-option">
-                      <p>RE-Shackling is optional.</p>
+                      <p>RE-Shackling Practicing is optional.</p>
                       <button
                         id="continue-beyond-re-shackling"
                         type="button"
@@ -839,19 +868,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   >
                     <dl>
                       <div>
-                        <dt>This One Terrestrial Computer Parkinging Stand Number</dt>
+                        <dt>This One Terrestrial Computer Free Parkinging Stand Number</dt>
                         <dd>
                           {@re_shackling_result.parkinging_stand}
                           <button type="button" data-copy={@re_shackling_result.parkinging_stand}>
                             Copy
                           </button>
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>This One Shackling Pin</dt>
-                        <dd>
-                          {@shackling_pin}
-                          <button type="button" data-copy={@shackling_pin}>Copy</button>
                         </dd>
                       </div>
                       <div class="field-page__re-shackling-time-ground">
@@ -867,8 +889,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         <dd>{earthly_locality_text(@re_shackling_result.earthly_locality)}</dd>
                       </div>
                     </dl>
+                    <div class="field-page__secret-cabinet field-page__secret-cabinet--return">
+                      <details id="re-shackling-secret-cabinet">
+                        <summary>▸ This One Secret Cabinet</summary>
+                        <div class="field-page__secret-cabinet-interior">
+                          <span>This One Shackling Pin</span>
+                          <strong>{@shackling_pin}</strong>
+                        </div>
+                      </details>
+                      <button type="button" data-copy={@shackling_pin}>Copy Shackling Pin</button>
+                    </div>
                     <span data-copy-status aria-live="polite"></span>
-                    <p>This One Leashing continues standing in lawful Holding.</p>
+                    <p>This One Leashing continues standing in lawful Holdinging.</p>
                   </div>
                 </div>
               </article>
@@ -885,7 +917,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             class="field-page__self-correspondencing field-page__section"
             aria-labelledby="self-correspondencing-title"
           >
-            <p class="site-page__eyebrow">OPTIONAL SELF-CORRESPONDENCING</p>
+            <p class="site-page__eyebrow">OPTIONAL STOPPING: Self-Correspondencing</p>
             <h2 id="self-correspondencing-title">Take This One Leashing With You</h2>
             <p>
               Dispatch One Correspondencingment bearing This One Leashing to a Some Place of your choosing.
@@ -922,7 +954,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </.form>
 
             <p>
-              Return Here through This One Leashing whenever This Constitutional Furnishmenting Rail Line stands ready to continue.
+              Return Here through This One Leashing whenever This Constitutional Furnishmenting Rail Line stands in Readyment to continue.
             </p>
             <p>
               Every future Correspondencing stands beginning through lawful Self-Correspondencing.
@@ -934,7 +966,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           <section id="station-02-opening" class="field-page__station-opening">
             <header class="field-page__station-header">
               <p class="site-page__eyebrow">STATION 02</p>
-              <h3 id="earthly-localities-station-title">This One Place</h3>
+              <h3 id="earthly-localities-station-title">This One Some Place Station</h3>
             </header>
 
             <section
@@ -949,10 +981,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 <p class="psm-oag__reading">The Bearinging of Embodyingmenting</p>
               </div>
               <div class="psm-oag__description">
-                <p>This One Place stands approaching Stewardly Regard.</p>
-                <p>One Lanterning Appointmenting may now become available.</p>
+                <p>This One Some Place stands approaching Stewardly Regard.</p>
                 <p>
-                  The Rail Line stands ready to unfold toward another constitutional beginning.
+                  Here, This Constitutioning Human may become Discoveringmenting toward This Encounteringmenting Wharf, standing in Regard to the Opening of This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+                </p>
+                <p>
+                  Through Our Combined Stewardly Laboringings, the lawful conditions for opening This Encounteringmenting Wharf may begin standing in Readyment.
                 </p>
               </div>
             </section>
@@ -997,12 +1031,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   <div>Department of This Approaching Landingmenting</div>
                 </div>
                 <div class="field-page__stewardship-pair">
-                  <div>Membrane-Oriented Constitutional Locality — Unit Title in Preparation</div>
+                  <div>Department of Constitutioningable Membraninging</div>
                   <span aria-hidden="true"></span>
                   <div>Rail Line Furnishingments Unit</div>
                 </div>
                 <div class="field-page__stewardship-pair">
-                  <div>This One Place Observationmintingmenting</div>
+                  <div>This One Some Place Observationmintingmenting</div>
                   <span aria-hidden="true"></span>
                   <div>House of Slumbering Lanterning Bug Colonial Bunk House Furnishings</div>
                 </div>
@@ -1033,140 +1067,123 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </div>
 
             <div id="this-one-place-crew" class="field-page__crew-conjunction">
-              <h4>This One Place Crew</h4>
-              <p>This Crew stands ready to help This One Place come gently into Regard.</p>
-            </div>
-
-            <div class="field-page__crew-statement">
+              <h4>This One Some Place Crew</h4>
               <p>
-                This One Place Crew furnishes Stewardly Observationings of where upon The Earth Constitutioning Humans stand inhabitationing.
-              </p>
-              <p>
-                This One Great Free Public Tuple Ship Field may begin encounteringmenting itself through these Observationings.
-              </p>
-              <p>This Constitutioning Human is invited to furnish This One Place.</p>
-              <p>
-                A broad Earthly Locality is enough.
-              </p>
-              <p>No precise location is requested.</p>
-              <p>
-                Future Observationings may help the Public Tuple Ship Field become Visionizingable upon The Earth.
+                These Offices of the Appliance now stand in Readyment to steward This First Appointmenting together with This Constitutioning Human.
               </p>
             </div>
 
             <div class="field-page__interaction">
-              <header class="field-page__appointmenting-header">
-                <p class="site-page__eyebrow">ONE LANTERNING APPOINTMENTING</p>
-                <h4>Lanterning Bug Appointmenting</h4>
-                <p>
-                  The House of Slumbering Lanterning Bug Colonial Bunk House Furnishings stands ready to furnish one Lanterning Bug Appointmenting.
-                </p>
-              </header>
-
-              <div
-                :if={@station_02_decision == :pending}
-                class="field-page__station-02-choices"
+              <section
+                id="lanterning-appointmenting"
+                class="field-page__appointmenting-ceremony"
+                aria-labelledby="first-appointmenting-title"
               >
-                <.form
-                  for={@locality_form}
-                  id="earthly-locality-form"
-                  phx-change="locality-changed"
-                  phx-submit="furnish-earthly-locality"
-                >
-                  <div class="field-page__locality-grid">
-                    <.input
-                      field={@locality_form[:country]}
-                      type="select"
-                      label="Country"
-                      prompt="Choose a country"
-                      options={@countries}
-                    />
-                    <.input
-                      field={@locality_form[:region]}
-                      type="select"
-                      label="Region / State / Province"
-                      prompt="Choose a region"
-                      options={@regions}
-                      disabled={@regions == []}
-                    />
-                    <.input
-                      field={@locality_form[:city]}
-                      type="select"
-                      label="City / Locality"
-                      prompt="Choose a city or locality"
-                      options={@cities}
-                      disabled={@cities == []}
-                    />
-                  </div>
-                  <button type="submit" class="field-page__action">
-                    Furnish This One Place
-                  </button>
-                </.form>
-
+                <h4 id="first-appointmenting-title">
+                  THIS FIRST APPOINTMENTING OF ENCOUNTERINGMENTINGABLENESS
+                </h4>
+                <p>
+                  This One Lanterning Bug Assemblement now stands ready to be placed upon This One Free Parkinging Stand.
+                </p>
                 <button
-                  id="continue-without-earthly-locality"
+                  :if={!MapSet.member?(@proto_appointmentings, :lanterning)}
                   type="button"
                   class="field-page__action"
-                  phx-click="continue-without-earthly-locality"
+                  phx-click="furnish-proto-appointmenting"
+                  phx-value-appointmenting="lanterning"
                 >
-                  Continue Without Furnishing an Earthly Locality
+                  Place This One Lanterning Bug Assemblementing
                 </button>
-              </div>
+                <p
+                  :if={MapSet.member?(@proto_appointmentings, :lanterning)}
+                  class="field-page__confirmation"
+                >
+                  This First Appointmenting now stands in lawful beginning.
+                </p>
+              </section>
 
               <section
-                id="proto-encounteringmenting-appointmentings"
-                class="field-page__proto-appointmentings"
-                aria-labelledby="proto-appointmentings-title"
+                :if={MapSet.member?(@proto_appointmentings, :lanterning)}
+                id="lanterning-groundinging-layer"
+                class="field-page__groundinging-layer"
+                aria-labelledby="lanterning-groundinging-title"
               >
-                <header>
-                  <p class="site-page__eyebrow">PROTO ENCOUNTERINGMENTING</p>
-                  <h4 id="proto-appointmentings-title">Two Independent Appointmentings</h4>
-                  <p>Neither Appointmenting depends upon the other.</p>
-                  <p>Neither Appointmenting creates communication.</p>
-                </header>
+                <h4 id="lanterning-groundinging-title">
+                  This One Lanterning Bug Assemblementing
+                </h4>
+                <p>
+                  This One Lanterning Bug Assemblementing now stands in Readyment for illuminationing This One Terrestrial Computer Free Parkinging Stand within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+                </p>
+                <p>
+                  This One Free Parkinging Stand may now stand Visionizingable through Relationing to This One Some Place upon The Earth.
+                </p>
+              </section>
 
-                <div class="field-page__proto-appointmenting-grid">
-                  <article id="lanterning-appointmenting">
-                    <p>APPOINTMENTING A</p>
-                    <h5>Lanterning upon</h5>
-                    <strong>This One Free Parkinging Stand</strong>
-                    <button
-                      :if={!MapSet.member?(@proto_appointmentings, :lanterning)}
-                      type="button"
-                      class="field-page__action"
-                      phx-click="furnish-proto-appointmenting"
-                      phx-value-appointmenting="lanterning"
-                    >
-                      Begin This Appointmenting
-                    </button>
-                    <p
-                      :if={MapSet.member?(@proto_appointmentings, :lanterning)}
-                      class="field-page__confirmation"
-                    >
-                      This Appointmenting now stands in lawful beginning.
-                    </p>
-                  </article>
+              <section
+                :if={MapSet.member?(@proto_appointmentings, :lanterning)}
+                id="place-library"
+                class="field-page__place-library"
+                aria-labelledby="place-library-title"
+              >
+                <h4 id="place-library-title">This One Some Place Library of Localities</h4>
+                <p>
+                  This One Some Place Library of Localities stands as a Furnishmenting through which Embodymenting may be regarded through Relationings of Inhabitationing Localities.
+                </p>
+                <h5>Stewardly Guidance</h5>
+                <p>
+                  Toward which Some Place upon The Earth would This One Lanterning stand Visionizingable?
+                </p>
+                <p>A broad Earthly Locality is enough.</p>
+                <p>No precise location is requested.</p>
 
-                  <article id="sounding-bell-appointmenting">
-                    <p>APPOINTMENTING B</p>
-                    <h5>Observationing-Class-is-in-Sessioning Soundinging Bell</h5>
-                    <strong>upon This One Pet Name</strong>
-                    <button
-                      :if={!MapSet.member?(@proto_appointmentings, :sounding_bell)}
-                      type="button"
-                      class="field-page__action"
-                      phx-click="furnish-proto-appointmenting"
-                      phx-value-appointmenting="sounding_bell"
-                    >
-                      Begin This Appointmenting
+                <div
+                  :if={@station_02_decision == :pending}
+                  class="field-page__station-02-choices"
+                >
+                  <.form
+                    for={@locality_form}
+                    id="earthly-locality-form"
+                    phx-change="locality-changed"
+                    phx-submit="furnish-earthly-locality"
+                  >
+                    <div class="field-page__locality-grid">
+                      <.input
+                        field={@locality_form[:country]}
+                        type="select"
+                        label="Country"
+                        prompt="Choose a country"
+                        options={@countries}
+                      />
+                      <.input
+                        field={@locality_form[:region]}
+                        type="select"
+                        label="Region / State / Province"
+                        prompt="Choose a region"
+                        options={@regions}
+                        disabled={@regions == []}
+                      />
+                      <.input
+                        field={@locality_form[:city]}
+                        type="select"
+                        label="City / Locality"
+                        prompt="Choose a city or locality"
+                        options={@cities}
+                        disabled={@cities == []}
+                      />
+                    </div>
+                    <button type="submit" class="field-page__action">
+                      Furnish This One Some Place
                     </button>
-                    <p
-                      :if={MapSet.member?(@proto_appointmentings, :sounding_bell)}
-                      class="field-page__confirmation"
-                    >
-                      This Appointmenting now stands in lawful beginning.
-                    </p>
-                  </article>
+                  </.form>
+
+                  <button
+                    id="continue-without-earthly-locality"
+                    type="button"
+                    class="field-page__action"
+                    phx-click="continue-without-earthly-locality"
+                  >
+                    Continue Without Furnishing an Earthly Locality
+                  </button>
                 </div>
               </section>
 
@@ -1176,26 +1193,57 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 class="field-page__station-completion"
               >
                 <p :if={@station_02_decision == :completed}>
-                  This One Place now stands in lawful Placement upon The Earth.
+                  This One Lanterning Bug Assemblementing now stands Visionizinging through Relationing to This One Some Place upon The Earth within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
                 </p>
                 <p>
-                  This One Lanterning now stands illuminationing the way toward This Encounteringmenting Wharf from This One Free Terrestrial Computer Parkinging Stand.
+                  This One Lanterning now stands illuminationing the way toward This Encounteringmenting Wharf from This One Terrestrial Computer Free Parkinging Stand standing in This One Some Place upon The Earth.
                 </p>
               </div>
+
+              <section
+                :if={@station_02_completed?}
+                id="station-02-enriched-leashing"
+                class="field-page__enriched-leashing"
+                phx-hook=".CopyFurnishing"
+                aria-labelledby="station-02-enriched-leashing-title"
+              >
+                <h4 id="station-02-enriched-leashing-title">This One Leashing</h4>
+                <dl>
+                  <div>
+                    <dt>This One Terrestrial Computer Free Parkinging Stand</dt>
+                    <dd>{@parkinging_stand}</dd>
+                  </div>
+                  <div>
+                    <dt>This One Piece of Time</dt>
+                    <dd>{format_piece_of_time(@ceremony_time)}</dd>
+                  </div>
+                  <div :if={@leashing_name}>
+                    <dt>This One Pet Name</dt>
+                    <dd>{@leashing_name}</dd>
+                  </div>
+                  <div>
+                    <dt>This One Lanterning Bug Assemblementing</dt>
+                    <dd>This First Appointmenting stands furnished.</dd>
+                  </div>
+                  <div :if={@earthly_locality}>
+                    <dt>This One Earthly Locality</dt>
+                    <dd>{earthly_locality_text(@earthly_locality)}</dd>
+                  </div>
+                </dl>
+                <div class="field-page__secret-cabinet field-page__secret-cabinet--enriched">
+                  <details id="station-02-secret-cabinet">
+                    <summary>▸ This One Secret Cabinet</summary>
+                    <div class="field-page__secret-cabinet-interior">
+                      <span>This One Shackling Pin</span>
+                      <strong>{@shackling_pin}</strong>
+                    </div>
+                  </details>
+                  <button type="button" data-copy={@shackling_pin}>Copy Shackling Pin</button>
+                </div>
+                <p data-copy-status aria-live="polite"></p>
+              </section>
             </div>
           </article>
-
-          <div
-            :if={@station_02_completed?}
-            id="rail-line-extension-readiness"
-            class="field-page__extension-readiness"
-          >
-            <h2>
-              This Constitutional Furnishmenting Rail Line has reached its present Constitutional Terminusmenting.
-            </h2>
-            <p>This Constitutional Furnishmenting Rail Line stands ready for further Extension.</p>
-            <p>Future Stations may come into lawful Unfoldingmenting.</p>
-          </div>
 
           <section
             :if={@station_02_completed?}
@@ -1208,13 +1256,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 The Same General Civilizationalizing Constitutioningable Reasoning Geometry
               </p>
               <h2 id="tuple-field-terminus-harbor-title">Standinging in Regard</h2>
-              <p class="psm-oag__reading">The Bearinging of Lawful Encounteringmenting</p>
+              <p class="psm-oag__reading">The Bearinging of Continuingment</p>
             </div>
             <div class="psm-oag__description">
-              <p>You now stand at the present Constitutional Terminusmenting.</p>
-              <p>This Constitutional Furnishmenting Rail Line continues Holdinging behind you.</p>
               <p>
-                Before you, This One Great Free Public Tuple Ship Field stands available for Stewardly Regard as future Stations may come into lawful Unfoldingmenting.
+                This Constitutional Furnishmenting Rail Line presently stands at its lawful Terminusmenting.
+              </p>
+              <p>Further Stations now stand under Composementing.</p>
+              <p>
+                This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining continues becoming.
               </p>
             </div>
           </section>
@@ -1228,7 +1278,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining
               </h2>
               <p>
-                By reserving This One Terrestrial Computer Parkinging Stand, you have begun adjoining This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+                By reserving This One Terrestrial Computer Free Parkinging Stand, you have begun adjoining This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
               </p>
               <p>
                 No One Central Authority holds This One Great Free Public Tuple Ship Field together.
@@ -1374,9 +1424,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
       This One Leashing
 
-      This One Leashing stands hailing to This One Some Place at your request so that it may stand here in Readiness for future Stewardly Laboringings of Continuitying.
+      This One Leashing stands hailing to This One Some Place at your request so that it may stand here in Readyment for future Stewardly Laboringings of Continuitying.
 
-      This One Terrestrial Computer Parkinging Stand Number:
+      This One Terrestrial Computer Free Parkinging Stand Number:
       #{assigns.parkinging_stand}
 
       This One Shackling Pin:
@@ -1389,7 +1439,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
       It is exercised through lawful Correspondencing.
 
-      Return Here through This One Leashing whenever This Constitutional Furnishmenting Rail Line stands ready to continue.
+      Return Here through This One Leashing whenever This Constitutional Furnishmenting Rail Line stands in Readyment to continue.
       """
       |> String.trim()
 
@@ -1465,8 +1515,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   defp maybe_complete_station_02(socket) do
     completed? =
       socket.assigns.station_02_decision in [:completed, :declined] and
-        MapSet.member?(socket.assigns.proto_appointmentings, :lanterning) and
-        MapSet.member?(socket.assigns.proto_appointmentings, :sounding_bell)
+        MapSet.member?(socket.assigns.proto_appointmentings, :lanterning)
 
     assign(socket, :station_02_completed?, completed?)
   end

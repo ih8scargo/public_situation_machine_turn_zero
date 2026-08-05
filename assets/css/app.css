@@ -533,7 +533,7 @@
 .field-page__furnishmenting-rail .field-page__station-regard--station-01 {
   grid-template-columns: minmax(17rem, 0.8fr) minmax(0, 1.2fr);
   width: 100%;
-  margin: clamp(2.5rem, 5vw, 4.5rem) 0;
+  margin: clamp(2.5rem, 5vw, 4.5rem) 0 0;
 }
 
 .field-page__station-regard--station-01 .field-page__opening-action {
@@ -863,15 +863,15 @@
   color: var(--psm-paper-light);
 }
 
-.field-page__ceremony-time span,
-.field-page__ceremony-time time {
+.field-page__ceremony-time time,
+.field-page__ceremony-time .field-page__ceremony-ground-title {
   display: block;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   text-align: center;
 }
 
-.field-page__ceremony-time span {
-  color: var(--psm-paper-light);
+.field-page__ceremony-time .field-page__ceremony-ground-title {
+  color: #f4dca8;
   font-size: clamp(1rem, 2.2vw, 1.45rem);
   font-weight: 900;
   letter-spacing: 0.14em;
@@ -955,8 +955,18 @@
   margin: 0;
 }
 
-.field-page__ceremony-closing p + p {
+.field-page__ceremony-closing section + section {
   margin-top: 1rem;
+}
+
+.field-page__ceremony-closing h5 {
+  margin: 0 0 0.65rem;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .field-page__re-shackling-choices {
@@ -1071,48 +1081,73 @@
   margin: 0 auto clamp(2rem, 5vw, 4rem);
 }
 
-.field-page__appointmenting-header {
-  margin-bottom: 2rem;
-}
-
-.field-page__appointmenting-header h4,
-.field-page__proto-appointmentings h4 {
-  margin: 0.6rem 0 1rem;
-  font-size: clamp(1.6rem, 3vw, 2.5rem);
-}
-
-.field-page__proto-appointmentings {
-  margin-top: clamp(3rem, 7vw, 6rem);
-  padding-top: clamp(2rem, 5vw, 4rem);
-  border-top: 1px solid rgba(32, 37, 38, 0.3);
-}
-
-.field-page__proto-appointmenting-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.field-page__proto-appointmenting-grid article {
-  display: flex;
-  min-height: 19rem;
+.field-page__appointmenting-ceremony {
+  width: min(100%, 56rem);
+  margin-inline: auto;
   padding: clamp(1.25rem, 3vw, 2rem);
-  border: 1px solid rgba(32, 37, 38, 0.45);
-  background: var(--psm-paper-light);
-  flex-direction: column;
+  border: 2px solid var(--psm-steel);
+  background: rgba(214, 189, 132, 0.12);
+  text-align: center;
 }
 
-.field-page__proto-appointmenting-grid h5 {
-  margin: 1.5rem 0 0.7rem;
+.field-page__appointmenting-ceremony h4,
+.field-page__groundinging-layer h4,
+.field-page__place-library h4 {
+  margin: 0 0 1rem;
   font-size: clamp(1.3rem, 2.5vw, 2rem);
   line-height: 1.1;
 }
 
-.field-page__proto-appointmenting-grid .field-page__action,
-.field-page__proto-appointmenting-grid .field-page__confirmation {
-  width: 100%;
-  margin-top: auto;
+.field-page__appointmenting-ceremony > p {
+  margin: 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+}
+
+.field-page__appointmenting-ceremony .field-page__action,
+.field-page__appointmenting-ceremony .field-page__confirmation {
+  margin: 1.5rem auto 0;
+}
+
+.field-page__groundinging-layer {
+  width: min(100%, 56rem);
+  margin: clamp(2rem, 5vw, 4rem) auto 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__groundinging-layer p {
+  margin: 0;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+}
+
+.field-page__groundinging-layer p + p {
+  margin-top: 1rem;
+}
+
+.field-page__place-library {
+  margin-top: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__place-library > p {
+  max-width: 48rem;
+  margin: 0;
+}
+
+.field-page__place-library > p + p {
+  margin-top: 0.75rem;
+}
+
+.field-page__place-library h5 {
+  margin: 2rem 0 0.75rem;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .field-page__station-completion {
@@ -1138,29 +1173,92 @@
   background: var(--psm-paper-light);
 }
 
-.field-page__extension-readiness {
-  width: min(100%, 58rem);
-  margin: clamp(4rem, 9vw, 8rem) auto;
-  padding: clamp(2rem, 5vw, 4rem);
-  border: 2px solid var(--psm-steel);
-  background: var(--psm-paper-light);
-  text-align: center;
-}
-
-.field-page__extension-readiness h2 {
-  margin: 0;
-  font-size: clamp(2rem, 4vw, 3.5rem);
-  line-height: 1;
-}
-
-.field-page__extension-readiness p {
-  margin: 1rem 0 0;
-  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
-}
-
-.field-page__terminus-harbor {
+.field-page__furnishmenting-rail .field-page__terminus-harbor {
   width: 100%;
   margin-block: clamp(4rem, 9vw, 8rem);
+}
+
+.field-page__secret-cabinet {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field-page__secret-cabinet details {
+  min-width: 0;
+  flex: 1;
+}
+
+.field-page__secret-cabinet summary {
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.field-page__secret-cabinet summary::-webkit-details-marker {
+  display: none;
+}
+
+.field-page__secret-cabinet-interior {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__secret-cabinet--return,
+.field-page__secret-cabinet--enriched {
+  padding: 1.25rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.25);
+  background: var(--psm-paper-light);
+}
+
+.field-page__enriched-leashing {
+  margin-top: clamp(2rem, 5vw, 4rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.72);
+}
+
+.field-page__enriched-leashing > h4 {
+  margin: 0;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-size: clamp(1.8rem, 4vw, 3.25rem);
+}
+
+.field-page__enriched-leashing dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.field-page__enriched-leashing dl > div {
+  padding: 1.25rem;
+  border-right: 1px solid rgba(32, 37, 38, 0.25);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__enriched-leashing dt {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.field-page__enriched-leashing dd {
+  margin: 0.65rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.field-page__enriched-leashing > [data-copy-status] {
+  margin: 0;
+  padding-inline: 1.25rem;
 }
 
 #correspondence_destination:focus::placeholder {
@@ -1338,12 +1436,18 @@
   .field-page__naming-choices,
   .field-page__re-shackling-choices,
   .field-page__re-shackling-result dl,
+  .field-page__enriched-leashing dl,
   .field-page__proto-appointmenting-grid,
   .field-page__correspondence-fields,
   .field-page__credentials,
   .field-page__form-grid,
   .field-page__locality-grid {
     grid-template-columns: 1fr;
+  }
+
+  .field-page__secret-cabinet {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .field-page__stewardship-headings,
