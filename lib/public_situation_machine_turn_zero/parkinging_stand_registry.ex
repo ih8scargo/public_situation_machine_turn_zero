@@ -22,6 +22,21 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
     GenServer.call(__MODULE__, {:re_shackle, parkinging_stand, shackling_pin})
   end
 
+  def normalize_parkinging_stand(parkinging_stand) do
+    parkinging_stand
+    |> String.replace(~r/\D/u, "")
+    |> String.pad_leading(12, "0")
+  end
+
+  def normalize_shackling_pin(shackling_pin) do
+    shackling_pin
+    |> String.replace(~r/\s/u, "")
+    |> String.upcase()
+    |> String.graphemes()
+    |> Enum.chunk_every(4)
+    |> Enum.map_join(" ", &Enum.join/1)
+  end
+
   def furnish_name(parkinging_stand, shackling_pin, name) do
     furnish_pet_name(parkinging_stand, shackling_pin, name, DateTime.utc_now())
   end

@@ -3,11 +3,19 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
   import Phoenix.LiveViewTest
 
+  alias PublicSituationMachineTurnZero.ParkingingStandRegistry
+
   test "root presents the landing sections and archive action", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/")
 
     assert has_element?(view, "#site-navigation")
     assert has_element?(view, "#landinging-page")
+    assert page_title(view) =~ "This Landinging Page"
+    assert has_element?(view, "#landinging-threshold", "This Approaching Landinging Page")
+    assert has_element?(view, "#landinging-threshold", "The Bearinging of Bearingings")
+    assert has_element?(view, "#landinging-threshold", "may begin situating")
+    refute has_element?(view, "#landinging-threshold", "Seven Stewardly Captain COB")
+    assert has_element?(view, "#landinging-re-shackling-form")
     assert has_element?(view, "#arriving-correspondencing")
     assert has_element?(view, "#featured-correspondencingment")
     assert has_element?(view, "#featured-correspondencingment", "Correspondencingment No. 2")
@@ -19,6 +27,18 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
              view,
              ~s|#holding-correspondencingments a[href="/correspondencingments#correspondencingment-1"]|
            )
+
+    pin = "ABCD EFGH IJKL MNOP QRST UVWX YZ12 3456"
+    leashing = ParkingingStandRegistry.furnish_leashing(pin, ~U[2026-08-04 12:00:00Z])
+
+    view
+    |> form("#landinging-re-shackling-form",
+      re_shackling: %{parkinging_stand: leashing.parkinging_stand, shackling_pin: pin}
+    )
+    |> render_submit()
+
+    assert has_element?(view, "#landinging-re-shackling-standing", leashing.parkinging_stand)
+    assert has_element?(view, "#landinging-secret-cabinet:not([open])")
   end
 
   test "top-level destinations are persistently available", %{conn: conn} do
@@ -318,6 +338,12 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(view, "#correspondencingments[phx-update=stream]")
     assert has_element?(view, "#correspondencingments article")
+
+    assert has_element?(
+             view,
+             ~s|#correspondencingment-1-parkinging-noticingment a[href="/this-tuple-ship-field"]|,
+             "THIS WAY TO TERRESTRIAL COMPUTER PARKINGING LOT"
+           )
 
     {threshold_index, _} = :binary.match(html, "correspondencingments-threshold")
     {publication_index, _} = :binary.match(html, "correspondencingments-publication-title")

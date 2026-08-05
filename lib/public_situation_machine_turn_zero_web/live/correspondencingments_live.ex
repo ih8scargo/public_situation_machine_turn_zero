@@ -42,7 +42,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
         >
           <h2>
             <span>Twople-Ship-to-Twople-Ship</span>
-            <span>Correspondencingments from the Edge of the Field</span>
+            <span>Correspondencingments<br />from the Edge of the Field</span>
           </h2>
         </header>
 
@@ -77,6 +77,16 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
             <div class="correspondencingment-card__body">
               <p :for={paragraph <- correspondencingment.body}>{paragraph}</p>
             </div>
+            <aside
+              :if={correspondencingment.number == 1}
+              id="correspondencingment-1-parkinging-noticingment"
+              class="correspondencingment-noticingment"
+            >
+              <p>NOTICINGMENT</p>
+              <.link navigate={~p"/this-tuple-ship-field"}>
+                THIS WAY TO TERRESTRIAL COMPUTER PARKINGING LOT →
+              </.link>
+            </aside>
           </article>
         </section>
       </main>

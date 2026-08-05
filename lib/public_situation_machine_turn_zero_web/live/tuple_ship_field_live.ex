@@ -169,8 +169,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         %{assigns: %{naming_decision: naming_decision}} = socket
       )
       when naming_decision in [:named, :declined] do
-    parkinging_stand = normalize_parkinging_stand(parkinging_stand)
-    shackling_pin = normalize_shackling_pin(shackling_pin)
+    parkinging_stand = ParkingingStandRegistry.normalize_parkinging_stand(parkinging_stand)
+    shackling_pin = ParkingingStandRegistry.normalize_shackling_pin(shackling_pin)
 
     case ParkingingStandRegistry.re_shackle(parkinging_stand, shackling_pin) do
       {:ok, leashing} ->
@@ -1476,21 +1476,6 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     16
     |> :crypto.strong_rand_bytes()
     |> Base.encode16(case: :upper)
-    |> String.graphemes()
-    |> Enum.chunk_every(4)
-    |> Enum.map_join(" ", &Enum.join/1)
-  end
-
-  defp normalize_parkinging_stand(parkinging_stand) do
-    parkinging_stand
-    |> String.replace(~r/\D/u, "")
-    |> String.pad_leading(12, "0")
-  end
-
-  defp normalize_shackling_pin(shackling_pin) do
-    shackling_pin
-    |> String.replace(~r/\s/u, "")
-    |> String.upcase()
     |> String.graphemes()
     |> Enum.chunk_every(4)
     |> Enum.map_join(" ", &Enum.join/1)

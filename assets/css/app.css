@@ -286,15 +286,101 @@
 }
 
 .correspondencingments-publication {
-  padding-top: clamp(3rem, 7vw, 6rem);
+  max-width: 62rem;
+  margin: clamp(3rem, 7vw, 6rem) auto;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.72);
 }
 
 .correspondencingments-publication h2 {
-  max-width: 18ch;
+  max-width: none;
+  margin: 0;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  text-align: center;
 }
 
 .correspondencingments-publication h2 span {
   display: block;
+}
+
+.correspondencingments-publication h2 span:first-child {
+  margin-bottom: 1.5rem;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.correspondencingments-publication h2 span:last-child {
+  font-size: clamp(2rem, 4.5vw, 4rem);
+}
+
+#correspondencingments-threshold .psm-oag__description p:last-child {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.correspondencingment-noticingment {
+  margin-top: clamp(2rem, 5vw, 4rem);
+  padding: 1.5rem;
+  border: 2px solid var(--psm-steel);
+  background: rgba(214, 189, 132, 0.12);
+  text-align: center;
+}
+
+.correspondencingment-noticingment p {
+  margin: 0 0 0.75rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.correspondencingment-noticingment a {
+  color: #765b2d;
+  font-weight: 900;
+}
+
+.landinging-re-shackling {
+  width: min(100%, 58rem);
+  margin: clamp(3rem, 7vw, 6rem) auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.72);
+}
+
+.landinging-re-shackling > h2 {
+  margin: 0.75rem 0 1rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+}
+
+.landinging-re-shackling > p {
+  margin: 0;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+}
+
+.landinging-re-shackling > p + p {
+  margin-top: 0.5rem;
+}
+
+#landinging-re-shackling-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.field-page__enriched-leashing > h3 {
+  margin: 0;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-size: clamp(1.8rem, 4vw, 3.25rem);
 }
 
 .correspondencingment-card h2,
