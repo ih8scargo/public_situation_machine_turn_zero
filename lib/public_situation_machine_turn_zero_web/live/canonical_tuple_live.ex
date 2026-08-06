@@ -1296,7 +1296,9 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
                     <p>This Post remains locally coincident with This Pier.</p>
                     <p>The Position 0 Stitch continues through This Constitutional Locality.</p>
                     <p>This Post remains locally coincident with This Pier.</p>
-                    <p>This Constitutional Locality now stands in Readyingment for lawful attachment.</p>
+                    <p>
+                      This Constitutional Locality now stands in Readyingment for lawful attachment.
+                    </p>
                   </div>
                   <button
                     id="position-1-regard-inward"
