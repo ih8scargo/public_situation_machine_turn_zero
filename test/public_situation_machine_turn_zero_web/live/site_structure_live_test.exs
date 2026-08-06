@@ -3,8 +3,6 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
   import Phoenix.LiveViewTest
 
-  alias PublicSituationMachineTurnZero.ParkingingStandRegistry
-
   test "root presents the landing sections and archive action", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/")
 
@@ -13,9 +11,16 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert page_title(view) =~ "This Landinging Page"
     assert has_element?(view, "#landinging-threshold", "This Approaching Landinging Page")
     assert has_element?(view, "#landinging-threshold", "The Bearinging of Bearingings")
-    assert has_element?(view, "#landinging-threshold", "may begin situating")
+    assert has_element?(view, "#landinging-threshold", "may begin situationing")
+
+    assert has_element?(
+             view,
+             ~s|#tuple-ship-field-harbor-noticingment[href="/this-tuple-ship-field"]|,
+             "THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING"
+           )
+
     refute has_element?(view, "#landinging-threshold", "Seven Stewardly Captain COB")
-    assert has_element?(view, "#landinging-re-shackling-form")
+    refute has_element?(view, "#landinging-re-shackling-form")
     assert has_element?(view, "#arriving-correspondencing")
     assert has_element?(view, "#featured-correspondencingment")
     assert has_element?(view, "#featured-correspondencingment", "Correspondencingment No. 2")
@@ -27,18 +32,6 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
              view,
              ~s|#holding-correspondencingments a[href="/correspondencingments#correspondencingment-1"]|
            )
-
-    pin = "ABCD EFGH IJKL MNOP QRST UVWX YZ12 3456"
-    leashing = ParkingingStandRegistry.furnish_leashing(pin, ~U[2026-08-04 12:00:00Z])
-
-    view
-    |> form("#landinging-re-shackling-form",
-      re_shackling: %{parkinging_stand: leashing.parkinging_stand, shackling_pin: pin}
-    )
-    |> render_submit()
-
-    assert has_element?(view, "#landinging-re-shackling-standing", leashing.parkinging_stand)
-    assert has_element?(view, "#landinging-secret-cabinet:not([open])")
   end
 
   test "top-level destinations are persistently available", %{conn: conn} do
@@ -183,7 +176,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "This Tuple Ship Field Public Parkinging Lot"
+             "THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING"
            )
 
     assert has_element?(
@@ -197,18 +190,55 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "Constitutioning Humans may approach This One Terrestrial Computer Standinging Landing."
+             "Constitutioning Humans may approach This Division of Constitutioning Humans through This Terrestrial Computer Free Public Parkinging Standinging Landinging."
            )
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
     refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
     assert has_element?(view, "#terrestrial-computer-standinging-landing")
-    assert has_element?(view, "#inquire-within", "Inquire Within")
+
+    assert has_element?(
+             view,
+             ".field-page__entrance-constitutional-header",
+             "THIS CONSTITUTIONAL ENTRANCE ONTO THIS TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING"
+           )
+
+    assert has_element?(
+             view,
+             "#terrestrial-computer-standinging-landing-title",
+             "THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING"
+           )
+
+    assert has_element?(
+             view,
+             ".field-page__entrance-division-title",
+             "This Division of Constitutioning Humans"
+           )
+
+    assert has_element?(view, "#inquire-within", "Inquire into The Zeroeth Appointmenting")
+    assert has_element?(view, "#constitutional-reception-form")
+    assert has_element?(view, "#first-arrival-path[aria-label='XT']")
+    assert has_element?(view, "#returning-constitutioning-human-path", "YT")
+
+    assert has_element?(
+             view,
+             "#entrance-rail-line-orientation",
+             "stands Constitutioning from its first Station"
+           )
+
     refute has_element?(view, "#constitutional-furnishmenting-rail")
 
     view |> element("#inquire-within") |> render_click()
 
     assert has_element?(view, "#constitutional-furnishmenting-rail")
+    refute has_element?(view, "#entrance-rail-line-orientation")
+
+    assert has_element?(
+             view,
+             "#constitutional-furnishmenting-rail",
+             "now stands in Readyingment for lawful Unfoldingmenting"
+           )
+
     assert has_element?(view, "#rail-line-opening-ceremony")
     assert has_element?(view, "#unfold-constitutional-rail-line")
     refute has_element?(view, "#terrestrial-computer-parkinging-station")
@@ -226,8 +256,10 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#leashing-ceremony-time")
     assert has_element?(view, "#leashing-naming")
 
-    view |> element("#continue-without-leashing-name") |> render_click()
-    view |> element("#continue-beyond-re-shackling") |> render_click()
+    view
+    |> form("#leashing-name-form", leashing: %{name: "The Structure Situationing"})
+    |> render_submit()
+
     view |> element("#unfold-station-02") |> render_click()
     refute has_element?(view, "#earthly-locality-form")
     view |> element(~s|button[phx-value-appointmenting="lanterning"]|) |> render_click()

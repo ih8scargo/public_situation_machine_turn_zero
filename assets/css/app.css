@@ -495,19 +495,32 @@
 }
 
 #observationing-harbors-projectioning thead th:first-child {
-  width: 34%;
-  font-size: 1.3rem;
+  width: 20%;
+  font-size: 1rem;
   letter-spacing: 0.06em;
   line-height: 1.15;
 }
 
 #observationing-harbors-projectioning thead th:nth-child(2),
 #observationing-harbors-projectioning thead th:nth-child(3) {
-  width: 33%;
+  width: 40%;
 }
 
 #observationing-harbors-projectioning tbody th {
-  width: 34%;
+  width: 20%;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.bearingings-public__table.canonical-table-viewport {
+  width: min(92vw, 88rem);
+  max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.bearingings-public__table.canonical-table-viewport table {
+  min-width: 0;
 }
 
 .bearingings-public__inheritances {
@@ -542,12 +555,39 @@
   box-shadow: 0 24px 70px rgba(32, 37, 38, 0.08);
 }
 
+.field-page__entrance-constitutional-header {
+  margin: calc(clamp(2.5rem, 6vw, 5rem) * -1) calc(clamp(2.5rem, 6vw, 5rem) * -1) 2.5rem;
+  padding: 1rem clamp(1.25rem, 3vw, 2rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .field-page__standinging-landing h2 {
   max-width: 20ch;
   margin: 0.8rem 0 1.5rem;
   font-size: clamp(2.4rem, 5.5vw, 5.25rem);
   letter-spacing: -0.04em;
   line-height: 0.96;
+}
+
+.field-page__entrance-division-title {
+  margin: 0 0 2rem;
+  font-size: clamp(1.3rem, 2.8vw, 2.25rem);
+  font-weight: 800;
+}
+
+#entrance-rail-line-orientation {
+  max-width: 58rem;
+  margin: 2.5rem 0 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  line-height: 1.65;
 }
 
 .field-page__standinging-landing > p:last-child {
@@ -559,6 +599,108 @@
 
 .field-page__landing-action {
   margin-top: 2rem;
+}
+
+.field-page__division-geometry {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 2rem;
+  border: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__arrival-path {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 24rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.field-page__arrival-path:first-child {
+  border-right: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__arrival-path h3 {
+  margin: 0.5rem 0 1rem;
+  font-size: clamp(1.55rem, 3vw, 2.6rem);
+}
+
+.field-page__relation-label {
+  margin: 0;
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.field-page__station-affordmentings {
+  position: relative;
+  margin-top: clamp(3rem, 7vw, 6rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.72);
+}
+
+.field-page__station-affordmentings > header h2 {
+  margin: 0.5rem 0 2rem;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+}
+
+.field-page__station-affordmentings-geometry {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(14rem, 1fr);
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__station-affordmentings-track {
+  position: relative;
+  padding: 2rem 2rem 2rem 3rem;
+  border-right: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__station-affordmentings-track::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.2rem;
+  width: 2px;
+  background: var(--psm-steel);
+  content: "";
+}
+
+.field-page__station-affordmenting {
+  position: relative;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.3);
+  background: var(--psm-paper-light);
+}
+
+.field-page__station-affordmenting + .field-page__station-affordmenting {
+  margin-top: 2rem;
+}
+
+.field-page__station-affordmenting h3 {
+  margin-top: 0;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.field-page__station-affordmentings-orientation {
+  display: flex;
+  min-height: 24rem;
+  padding: 3rem 1.5rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.field-page__station-affordmentings-orientation span {
+  font-size: 3rem;
+}
+
+.field-page__station-affordmentings-orientation p {
+  max-width: 18ch;
+  font-weight: 800;
 }
 
 .field-page__rail-header {
@@ -1409,6 +1551,302 @@
   padding-inline: 1.25rem;
 }
 
+.field-page__leashing-locality {
+  margin-top: clamp(2rem, 5vw, 4rem);
+  overflow: hidden;
+  border: 2px solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.78);
+}
+
+.field-page__leashing-locality > h4 {
+  margin: 0;
+  padding: clamp(0.8rem, 2vw, 1.2rem) clamp(1rem, 3vw, 1.5rem);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  font-size: clamp(0.95rem, 2.2vw, 1.4rem);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.field-page__leashing-instruments {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field-page__locality-commencement {
+  padding: clamp(2rem, 5vw, 4rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.3);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__locality-commencement span,
+.field-page__locality-commencement strong {
+  display: block;
+}
+
+.field-page__locality-commencement span {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.field-page__locality-commencement strong {
+  margin-top: 0.85rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+}
+
+.field-page__instrument,
+.field-page__secret-cabinet--fixed {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 12rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__instrument--stand {
+  border-right: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__instrument--time {
+  grid-column: 1 / -1;
+  min-height: auto;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__instrument > span,
+.field-page__secret-cabinet-interior > span {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.field-page__instrument > strong,
+.field-page__secret-cabinet-interior > strong {
+  display: block;
+  margin-top: 0.8rem;
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+  letter-spacing: 0.04em;
+}
+
+.field-page__secret-cabinet--fixed {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  align-items: stretch;
+}
+
+.field-page__secret-cabinet--fixed details {
+  min-height: 7rem;
+}
+
+.field-page__artifact-relation {
+  margin-bottom: 0.8rem;
+  color: #765b2d;
+}
+
+.field-page__constitutional-locality-heading {
+  padding: clamp(3rem, 7vw, 6rem) 1.5rem;
+  text-align: center;
+}
+
+.field-page__constitutional-locality-heading p {
+  margin: 0;
+  font-size: clamp(1.8rem, 4.5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 1.08;
+}
+
+.field-page__constitutional-locality-heading span {
+  display: block;
+  margin-top: 1.25rem;
+  color: rgba(32, 37, 38, 0.7);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.field-page__constitutional-divider,
+.field-page__ceremonial-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(32, 37, 38, 0.62), transparent);
+}
+
+.field-page__constitutional-divider {
+  margin-inline: clamp(1.5rem, 6vw, 5rem);
+}
+
+.field-page__tuple-becoming-proclamation {
+  margin-block: clamp(2rem, 5vw, 4rem) !important;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-weight: 800;
+}
+
+.field-page__ceremony-crew-subtitle,
+.field-page__ceremony-recital-heading {
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 800;
+}
+
+.field-page__ceremonial-divider {
+  margin-block: clamp(2.5rem, 6vw, 5rem);
+}
+
+.field-page__ceremony-title {
+  max-width: 22ch;
+  margin: clamp(2.5rem, 6vw, 5rem) auto;
+  font-size: clamp(2rem, 5vw, 4.75rem);
+  line-height: 1.05;
+  text-align: center;
+}
+
+.field-page__ceremony-title--station-01 {
+  max-width: 30ch;
+  font-size: clamp(1.55rem, 3.6vw, 3.25rem);
+  overflow-wrap: anywhere;
+}
+
+.field-page__ceremony-recital-heading {
+  margin-bottom: 1.25rem;
+}
+
+.field-page__captain-shelves > h5 {
+  margin: 0;
+  padding: clamp(3rem, 7vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.3);
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(1.25rem, 3vw, 2.35rem);
+  letter-spacing: 0.14em;
+  line-height: 1.35;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field-page__shelf-column-headings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-bottom: 2px solid var(--psm-steel);
+  background: rgba(118, 91, 45, 0.09);
+}
+
+.field-page__shelf-column-headings section {
+  min-width: 0;
+  padding: 1rem 1.15rem;
+}
+
+.field-page__shelf-column-headings section:first-child {
+  border-right: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__shelf-column-headings strong,
+.field-page__shelf-column-headings span {
+  display: block;
+}
+
+.field-page__shelf-column-headings strong {
+  color: #765b2d;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+}
+
+.field-page__shelf-column-headings span {
+  margin-top: 0.3rem;
+  font-weight: 800;
+}
+
+.field-page__captain-shelves ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.field-page__constitutional-shelf {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-bottom: 1px solid rgba(32, 37, 38, 0.22);
+}
+
+.field-page__shelf-half {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: minmax(2.75rem, auto) minmax(1.5rem, auto) auto minmax(3.75rem, auto);
+  min-width: 0;
+  min-height: 10rem;
+  padding: 1.15rem;
+}
+
+.field-page__shelf-half:first-child {
+  border-right: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__shelf-half strong,
+.field-page__shelf-half span {
+  display: block;
+}
+
+.field-page__shelf-half > span {
+  margin-top: 0.55rem;
+  color: rgba(32, 37, 38, 0.72);
+  font-size: 0.92rem;
+}
+
+.field-page__shelf-time {
+  align-self: end;
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.16);
+}
+
+.field-page__shelf-time span,
+.field-page__shelf-time time {
+  display: block;
+  color: rgba(32, 37, 38, 0.68);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.68rem;
+  line-height: 1.45;
+}
+
+.field-page__shelf-time time {
+  margin-top: 0.35rem;
+  color: var(--psm-steel);
+  font-weight: 800;
+}
+
+.field-page__shelf-status {
+  align-self: end;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem !important;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.field-page__leashing-locality > [data-copy-status] {
+  margin: 0;
+  padding-inline: 1.25rem;
+}
+
+.field-page__leashing-standing-copy {
+  margin: 0;
+  padding: 1.25rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.25);
+  font-weight: 700;
+}
+
 #correspondence_destination:focus::placeholder {
   color: transparent;
 }
@@ -1545,6 +1983,68 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.field-page__turn-zero-staging,
+.field-page__turn-zero-readout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field-page__turn-zero-staging {
+  margin-block: 1.5rem;
+  border: 1px solid rgba(32, 37, 38, 0.32);
+}
+
+.field-page__turn-zero-staging > section,
+.field-page__turn-zero-readout > section {
+  min-width: 0;
+  padding: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.field-page__turn-zero-staging > section + section,
+.field-page__turn-zero-readout > section + section {
+  border-left: 1px solid rgba(32, 37, 38, 0.32);
+}
+
+.field-page__turn-zero-staging h6,
+.field-page__turn-zero-readout strong,
+.field-page__turn-zero-voice {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.field-page__turn-zero-staging .field-page__locality-grid {
+  grid-template-columns: 1fr;
+  margin-bottom: 0;
+}
+
+.field-page__turn-zero-surface {
+  margin-block: 1.5rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 2px solid var(--psm-steel);
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.field-page__turn-zero-surface h5 {
+  margin-top: 0;
+}
+
+.field-page__turn-zero-readout {
+  margin-block: 1rem;
+  border-block: 1px solid rgba(32, 37, 38, 0.32);
+}
+
+.field-page__turn-zero-readout span {
+  display: block;
+  font-weight: 800;
+}
+
+.field-page__station-02-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .field-page__action {
   min-height: 3.25rem;
   padding: 0.85rem 1.25rem;
@@ -1589,13 +2089,58 @@
   .field-page__correspondence-fields,
   .field-page__credentials,
   .field-page__form-grid,
-  .field-page__locality-grid {
+  .field-page__locality-grid,
+  .field-page__turn-zero-staging,
+  .field-page__turn-zero-readout {
     grid-template-columns: 1fr;
+  }
+
+  .field-page__turn-zero-staging > section + section,
+  .field-page__turn-zero-readout > section + section {
+    border-left: 0;
+    border-top: 1px solid rgba(32, 37, 38, 0.32);
   }
 
   .field-page__secret-cabinet {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .field-page__leashing-instruments,
+  .field-page__division-geometry,
+  .field-page__station-affordmentings-geometry,
+  .field-page__shelf-column-headings,
+  .field-page__constitutional-shelf {
+    grid-template-columns: 1fr;
+  }
+
+  .field-page__instrument--stand,
+  .field-page__arrival-path:first-child,
+  .field-page__station-affordmentings-track,
+  .field-page__shelf-column-headings section:first-child,
+  .field-page__shelf-half:first-child {
+    border-right: 0;
+  }
+
+  .field-page__arrival-path:first-child,
+  .field-page__station-affordmentings-track {
+    border-bottom: 1px solid rgba(32, 37, 38, 0.22);
+  }
+
+  .field-page__shelf-half:first-child {
+    border-bottom: 1px solid rgba(32, 37, 38, 0.22);
+  }
+
+  .field-page__shelf-column-headings section:first-child {
+    border-bottom: 1px solid rgba(32, 37, 38, 0.22);
+  }
+
+  .field-page__instrument--time {
+    grid-column: 1;
+  }
+
+  .bearingings-public__table.canonical-table-viewport table {
+    min-width: 720px;
   }
 
   .field-page__continuity-landings li {

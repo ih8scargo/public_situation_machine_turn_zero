@@ -27,6 +27,216 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
 
   """
   use Phoenix.Component
+
+  attr :id, :string, required: true
+  attr :parkinging_stand, :string, required: true
+  attr :shackling_pin, :string, required: true
+  attr :piece_of_time, :string, required: true
+  attr :situationing_piece_of_time, :string, default: nil
+  attr :first_appointmenting_piece_of_time, :string, default: nil
+  attr :earthly_locality_piece_of_time, :string, default: nil
+  attr :pet_name, :string, default: nil
+  attr :lanterning_furnished?, :boolean, default: false
+  attr :earthly_locality, :string, default: nil
+  attr :cabinet_id, :string, default: nil
+  attr :stand_id, :string, default: nil
+  attr :pin_id, :string, default: nil
+  attr :time_id, :string, default: nil
+  attr :standing_copy, :string, default: nil
+
+  def leashing_locality(assigns) do
+    ~H"""
+    <section
+      id={@id}
+      class="field-page__leashing-locality"
+      phx-hook=".CopyFurnishing"
+      aria-labelledby={"#{@id}-title"}
+    >
+      <h4 id={"#{@id}-title"}>This One Constitutional Locality</h4>
+
+      <section
+        id={@time_id}
+        class="field-page__locality-commencement field-page__credentials-ground field-page__re-shackling-time-ground"
+      >
+        <span>THIS ONE PIECE OF TIME</span>
+        <strong>{@piece_of_time}</strong>
+      </section>
+
+      <div class="field-page__leashing-instruments">
+        <section class="field-page__instrument field-page__instrument--stand" aria-label="XT">
+          <span class="field-page__artifact-relation">XT</span>
+          <span>Parkinging Stand Number</span>
+          <strong id={@stand_id} data-value={@parkinging_stand}>{@parkinging_stand}</strong>
+          <button
+            type="button"
+            data-copy={@parkinging_stand}
+            aria-label="Copy Parkinging Stand Number"
+            title="Copy Parkinging Stand Number"
+          >
+            <.icon name="hero-document-duplicate" class="size-4" />
+          </button>
+          <p data-copy-status aria-live="polite"></p>
+        </section>
+
+        <section
+          class="field-page__secret-cabinet field-page__secret-cabinet--fixed"
+          aria-label="YT"
+        >
+          <span class="field-page__artifact-relation">YT</span>
+          <details id={@cabinet_id || "#{@id}-secret-cabinet"}>
+            <summary>▸ This One Secret Cabinet</summary>
+            <div class="field-page__secret-cabinet-interior">
+              <span>This One Shackling Pin</span>
+              <strong id={@pin_id} data-value={@shackling_pin}>{@shackling_pin}</strong>
+            </div>
+          </details>
+          <button
+            type="button"
+            data-copy={@shackling_pin}
+            aria-label="Copy Shackling Pin"
+            title="Copy Shackling Pin"
+          >
+            <.icon name="hero-document-duplicate" class="size-4" />
+          </button>
+          <p data-copy-status aria-live="polite"></p>
+        </section>
+      </div>
+
+      <header class="field-page__constitutional-locality-heading">
+        <p>This One Tuple Ship</p>
+        <span>Standing within OUR CANONICAL TUPLE</span>
+      </header>
+      <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+
+      <div class="field-page__captain-shelves" aria-labelledby={"#{@id}-shelving-title"}>
+        <h5 id={"#{@id}-shelving-title"}>THIS STEWARDLY CAPTAIN COB'S SHELVES</h5>
+        <div class="field-page__shelf-column-headings">
+          <section>
+            <strong>XT</strong>
+            <span>Constitutional Standinging</span>
+          </section>
+          <section>
+            <strong>YT</strong>
+            <span>Stewardly Furnishingment</span>
+          </section>
+        </div>
+        <ol>
+          <li class="field-page__constitutional-shelf">
+            <section class="field-page__shelf-half" aria-label="XT">
+              <strong>The Mattering to This Stewardly Captain COB</strong>
+              <span>The Zeroeth Appointmenting into The Seat of Stewardly Co-Occupancyingship</span>
+              <span class="field-page__shelf-status">Standing Furnished</span>
+              <div class="field-page__shelf-time">
+                <span>When did this Holding come into Standinging?</span>
+                <time>{@piece_of_time}</time>
+              </div>
+            </section>
+            <section class="field-page__shelf-half" aria-label="YT">
+              <strong>This One Situationing</strong>
+              <span :if={@pet_name} class="field-page__shelf-furnishing">{@pet_name}</span>
+              <span class="field-page__shelf-status">
+                {if @pet_name, do: "Standing Furnished", else: "Awaiting Furnishingment"}
+              </span>
+              <div class="field-page__shelf-time">
+                <span>When did this Standinging come into Holding?</span>
+                <time :if={@situationing_piece_of_time}>{@situationing_piece_of_time}</time>
+              </div>
+            </section>
+          </li>
+          <li class="field-page__constitutional-shelf">
+            <section class="field-page__shelf-half" aria-label="XT">
+              <strong>This One Some Place</strong>
+              <span>This First Appointmenting of Encounteringmentablement</span>
+              <span class="field-page__shelf-status">
+                {if @lanterning_furnished?,
+                  do: "Standing Furnished",
+                  else: "Awaiting Furnishingment"}
+              </span>
+              <div class="field-page__shelf-time">
+                <span>When did this Holding come into Standinging?</span>
+                <time :if={@first_appointmenting_piece_of_time}>
+                  {@first_appointmenting_piece_of_time}
+                </time>
+              </div>
+            </section>
+            <section class="field-page__shelf-half" aria-label="YT">
+              <strong :if={@earthly_locality}>Visionizingmentablement</strong>
+              <span :if={@earthly_locality} class="field-page__shelf-furnishing">{@earthly_locality}</span>
+              <span :if={@earthly_locality} class="field-page__shelf-status">
+                Standing Furnished
+              </span>
+              <div :if={@earthly_locality} class="field-page__shelf-time">
+                <span>When did this Standinging come into Holding?</span>
+                <time :if={@earthly_locality_piece_of_time}>
+                  {@earthly_locality_piece_of_time}
+                </time>
+              </div>
+            </section>
+          </li>
+          <li
+            :for={
+              {ordinal, locality} <- [
+                {"Second",
+                 "A Regard toward Situationings through Which Driftinginglyment May Become Available"},
+                {"Third",
+                 "Affordmentings of the Caterpillar Tunnel through Which Relationings May Become Distinguishingmentingable Over Discrete Turns"},
+                {"Fourth",
+                 "A Perspective from Which Wobble-Wobbling Relationings May Reveal Their Anglings Over Discrete Turns"},
+                {"Fifth",
+                 "A Purchase Surface Over Through Which Continuingmentingable Relationings May Become Holding-in-Standinging"},
+                {"Sixth",
+                 "An Embroidery Stitching through Which This Thing May Begin Becoming Like This Thing Again"}
+              ]
+            }
+            class="field-page__constitutional-shelf"
+          >
+            <section class="field-page__shelf-half" aria-label="XT">
+              <strong>{locality}</strong>
+              <span>This {ordinal} Appointmenting</span>
+              <span class="field-page__shelf-status">
+                {if ordinal == "Second",
+                  do: "Standing Under Composementing",
+                  else: "Awaiting Furnishingment"}
+              </span>
+              <div class="field-page__shelf-time">
+                <span>When did this Holding come into Standinging?</span>
+              </div>
+            </section>
+            <section class="field-page__shelf-half" aria-label="YT">
+              <strong aria-hidden="true"></strong>
+              <span aria-hidden="true"></span>
+              <span class="field-page__shelf-status" aria-hidden="true"></span>
+              <div class="field-page__shelf-time" aria-hidden="true"></div>
+            </section>
+          </li>
+        </ol>
+      </div>
+      <p :if={@standing_copy} class="field-page__leashing-standing-copy">{@standing_copy}</p>
+
+      <script :type={Phoenix.LiveView.ColocatedHook} name=".CopyFurnishing">
+        export default {
+          mounted() {
+            this.el.addEventListener("click", async (event) => {
+              const button = event.target.closest("[data-copy]")
+              if (!button) return
+
+              const locality = button.closest(".field-page__instrument, .field-page__secret-cabinet")
+              const status = locality?.querySelector("[data-copy-status]")
+
+              try {
+                await navigator.clipboard.writeText(button.dataset.copy)
+                if (status) status.textContent = "Copiedmenting ✓"
+              } catch (_error) {
+                if (status) status.textContent = "Copy unavailable."
+              }
+            })
+          }
+        }
+      </script>
+    </section>
+    """
+  end
+
   use Gettext, backend: PublicSituationMachineTurnZeroWeb.Gettext
 
   alias Phoenix.LiveView.JS
