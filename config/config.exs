@@ -8,6 +8,7 @@
 import Config
 
 config :public_situation_machine_turn_zero,
+  ecto_repos: [PublicSituationMachineTurnZero.Repo],
   generators: [timestamp_type: :utc_datetime]
 
 # Configure the endpoint

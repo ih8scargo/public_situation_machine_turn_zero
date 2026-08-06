@@ -1,25 +1,52 @@
 defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   @moduledoc """
-  Furnishes durable, sequential Parkinging Stand Numbers.
+  Furnishes durable, sequential Parkinging Stand Numbers and reconstructs the
+  constitutional Standing held through each Leashing.
 
   Parkinging Stand #1 predates the public allotmenting registry, so public
   furnishing begins with 000000000002.
   """
 
-  use GenServer
+  import Ecto.Query
 
-  @table __MODULE__
-
-  def start_link(options) do
-    GenServer.start_link(__MODULE__, options, name: __MODULE__)
-  end
+  alias PublicSituationMachineTurnZero.Appointmenting
+  alias PublicSituationMachineTurnZero.ParkingingStand
+  alias PublicSituationMachineTurnZero.Repo
+  alias PublicSituationMachineTurnZero.Shackling
+  alias PublicSituationMachineTurnZero.SituationingName
+  alias PublicSituationMachineTurnZero.TupleShip
+  alias PublicSituationMachineTurnZero.XtYtInterrelationing
 
   def furnish_leashing(shackling_pin, ceremony_time) do
-    GenServer.call(__MODULE__, {:furnish_leashing, shackling_pin, ceremony_time})
+    {:ok, leashing} =
+      Repo.transaction(fn ->
+        tuple_ship = Repo.insert!(%TupleShip{furnished_at: ceremony_time})
+
+        parkinging_stand =
+          Repo.insert!(%ParkingingStand{
+            tuple_ship_id: tuple_ship.id,
+            allotted_at: ceremony_time
+          })
+
+        Repo.insert!(%Shackling{
+          tuple_ship_id: tuple_ship.id,
+          pin: shackling_pin,
+          furnished_at: ceremony_time
+        })
+
+        build_leashing(tuple_ship, parkinging_stand.number, shackling_pin)
+      end)
+
+    leashing
   end
 
   def re_shackle(parkinging_stand, shackling_pin) do
-    GenServer.call(__MODULE__, {:re_shackle, parkinging_stand, shackling_pin})
+    with {:ok, tuple_ship, stand_number, stored_pin} <- find_leashing(parkinging_stand),
+         true <- pins_match?(stored_pin, shackling_pin) do
+      {:ok, build_leashing(tuple_ship, stand_number, stored_pin)}
+    else
+      _ -> :error
+    end
   end
 
   def normalize_parkinging_stand(parkinging_stand) do
@@ -38,21 +65,32 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
   end
 
   def furnish_name(parkinging_stand, shackling_pin, name) do
-    furnish_pet_name(parkinging_stand, shackling_pin, name, DateTime.utc_now())
+    furnish_pet_name(
+      parkinging_stand,
+      shackling_pin,
+      name,
+      DateTime.utc_now() |> DateTime.truncate(:second)
+    )
   end
 
   def furnish_pet_name(parkinging_stand, shackling_pin, name, furnished_at) do
-    GenServer.call(
-      __MODULE__,
-      {:furnish_pet_name, parkinging_stand, shackling_pin, name, furnished_at}
-    )
+    update_leashing(parkinging_stand, shackling_pin, fn tuple_ship ->
+      Repo.insert!(%SituationingName{
+        tuple_ship_id: tuple_ship.id,
+        name: name,
+        furnished_at: furnished_at
+      })
+    end)
   end
 
   def furnish_appointmenting(parkinging_stand, shackling_pin, appointmenting, furnished_at) do
-    GenServer.call(
-      __MODULE__,
-      {:furnish_appointmenting, parkinging_stand, shackling_pin, appointmenting, furnished_at}
-    )
+    update_leashing(parkinging_stand, shackling_pin, fn tuple_ship ->
+      Repo.insert!(%Appointmenting{
+        tuple_ship_id: tuple_ship.id,
+        kind: Atom.to_string(appointmenting),
+        furnished_at: furnished_at
+      })
+    end)
   end
 
   def furnish_earthly_locality(parkinging_stand, shackling_pin, earthly_locality) do
@@ -70,175 +108,131 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistry do
         earthly_locality,
         furnished_at
       ) do
-    GenServer.call(
-      __MODULE__,
-      {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality, furnished_at}
-    )
+    update_leashing(parkinging_stand, shackling_pin, fn tuple_ship ->
+      Repo.insert!(%XtYtInterrelationing{
+        tuple_ship_id: tuple_ship.id,
+        country: Map.get(earthly_locality, :country, ""),
+        region: Map.get(earthly_locality, :region, ""),
+        city: Map.get(earthly_locality, :city, ""),
+        visionizing_scope: Map.get(earthly_locality, :visionizing_scope),
+        constitutional_default: Map.get(earthly_locality, :constitutional_default, false),
+        furnished_at: furnished_at
+      })
+    end)
   end
 
-  @impl true
-  def init(options) do
-    path = Keyword.fetch!(options, :path)
-    :ok = path |> Path.dirname() |> File.mkdir_p()
-
-    {:ok, @table} =
-      :dets.open_file(@table,
-        file: String.to_charlist(path),
-        type: :set,
-        repair: true
-      )
-
-    case :dets.lookup(@table, :last_number) do
-      [] -> :ok = :dets.insert(@table, {:last_number, 1})
-      [{:last_number, _number}] -> :ok
+  defp update_leashing(parkinging_stand, shackling_pin, update) do
+    Repo.transaction(fn ->
+      with {:ok, tuple_ship, stand_number, stored_pin} <- find_leashing(parkinging_stand),
+           true <- pins_match?(stored_pin, shackling_pin) do
+        update.(tuple_ship)
+        {:ok, build_leashing(tuple_ship, stand_number, stored_pin)}
+      else
+        _ -> :error
+      end
+    end)
+    |> case do
+      {:ok, result} -> result
+      {:error, reason} -> raise reason
     end
-
-    {:ok, %{table: @table}}
   end
 
-  @impl true
-  def handle_call({:furnish_leashing, shackling_pin, ceremony_time}, _from, state) do
-    number = :dets.update_counter(state.table, :last_number, 1)
+  defp find_leashing(parkinging_stand) do
+    case Integer.parse(parkinging_stand) do
+      {stand_number, ""} ->
+        query =
+          from parkinging_stand in ParkingingStand,
+            join: tuple_ship in TupleShip,
+            on: tuple_ship.id == parkinging_stand.tuple_ship_id,
+            join: shackling in Shackling,
+            on: shackling.tuple_ship_id == tuple_ship.id,
+            where: parkinging_stand.number == ^stand_number,
+            where: is_nil(shackling.retired_at),
+            select: {tuple_ship, parkinging_stand.number, shackling.pin}
 
-    parkinging_stand =
-      number
-      |> Integer.to_string()
-      |> String.pad_leading(12, "0")
+        case Repo.one(query) do
+          {tuple_ship, number, pin} -> {:ok, tuple_ship, number, pin}
+          nil -> :error
+        end
 
-    leashing = %{
-      parkinging_stand: parkinging_stand,
+      _ ->
+        :error
+    end
+  end
+
+  defp build_leashing(tuple_ship, stand_number, shackling_pin) do
+    name_history =
+      SituationingName
+      |> where([name], name.tuple_ship_id == ^tuple_ship.id)
+      |> order_by([name], desc: name.id)
+      |> Repo.all()
+      |> Enum.map(&%{name: &1.name, furnished_at: &1.furnished_at})
+
+    appointmentings =
+      Appointmenting
+      |> where([appointmenting], appointmenting.tuple_ship_id == ^tuple_ship.id)
+      |> order_by([appointmenting], asc: appointmenting.id)
+      |> Repo.all()
+      |> Map.new(fn appointmenting ->
+        {String.to_existing_atom(appointmenting.kind), appointmenting.furnished_at}
+      end)
+
+    earthly_locality_history =
+      XtYtInterrelationing
+      |> where([interrelationing], interrelationing.tuple_ship_id == ^tuple_ship.id)
+      |> order_by([interrelationing], desc: interrelationing.id)
+      |> Repo.all()
+      |> Enum.map(&%{earthly_locality: earthly_locality(&1), furnished_at: &1.furnished_at})
+
+    %{
+      parkinging_stand: format_parkinging_stand(stand_number),
       shackling_pin: shackling_pin,
-      ceremony_time: ceremony_time,
-      name: nil,
-      pet_name_history: [],
-      earthly_locality: nil,
-      earthly_locality_history: [],
-      appointmentings: %{}
+      ceremony_time: tuple_ship.furnished_at,
+      name: name_history |> List.first() |> current_name(),
+      pet_name_history: name_history,
+      earthly_locality: earthly_locality_history |> List.first() |> current_earthly_locality(),
+      earthly_locality_history: earthly_locality_history,
+      appointmentings: appointmentings
+    }
+  end
+
+  defp earthly_locality(%{constitutional_default: true}) do
+    %{
+      country: "",
+      region: "",
+      city: "",
+      visionizing_scope: "earth",
+      constitutional_default: true
+    }
+  end
+
+  defp earthly_locality(interrelationing) do
+    locality = %{
+      country: interrelationing.country,
+      region: interrelationing.region,
+      city: interrelationing.city
     }
 
-    :ok = :dets.insert(state.table, {parkinging_stand, leashing})
-    :ok = :dets.sync(state.table)
-
-    {:reply, leashing, state}
+    if interrelationing.visionizing_scope,
+      do: Map.put(locality, :visionizing_scope, interrelationing.visionizing_scope),
+      else: locality
   end
 
-  def handle_call({:re_shackle, parkinging_stand, shackling_pin}, _from, state) do
-    reply =
-      case :dets.lookup(state.table, parkinging_stand) do
-        [{^parkinging_stand, stored_leashing}] ->
-          leashing = normalize_leashing(stored_leashing)
-          if pins_match?(leashing.shackling_pin, shackling_pin), do: {:ok, leashing}, else: :error
+  defp current_name(nil), do: nil
+  defp current_name(%{name: name}), do: name
 
-        [] ->
-          :error
-      end
+  defp current_earthly_locality(nil), do: nil
+  defp current_earthly_locality(%{earthly_locality: earthly_locality}), do: earthly_locality
 
-    {:reply, reply, state}
+  defp format_parkinging_stand(number) do
+    number
+    |> Integer.to_string()
+    |> String.pad_leading(12, "0")
   end
-
-  def handle_call(
-        {:furnish_pet_name, parkinging_stand, shackling_pin, name, furnished_at},
-        _from,
-        state
-      ) do
-    reply =
-      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
-        history_entry = %{name: name, furnished_at: furnished_at}
-
-        leashing
-        |> Map.put(:name, name)
-        |> Map.update!(:pet_name_history, &[history_entry | &1])
-      end)
-
-    {:reply, reply, state}
-  end
-
-  def handle_call(
-        {:furnish_appointmenting, parkinging_stand, shackling_pin, appointmenting, furnished_at},
-        _from,
-        state
-      ) do
-    reply =
-      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
-        Map.update!(leashing, :appointmentings, fn appointmentings ->
-          Map.put(appointmentings, appointmenting, furnished_at)
-        end)
-      end)
-
-    {:reply, reply, state}
-  end
-
-  def handle_call(
-        {:furnish_earthly_locality, parkinging_stand, shackling_pin, earthly_locality,
-         furnished_at},
-        _from,
-        state
-      ) do
-    reply =
-      update_leashing(state.table, parkinging_stand, shackling_pin, fn leashing ->
-        history_entry = %{earthly_locality: earthly_locality, furnished_at: furnished_at}
-
-        leashing
-        |> Map.put(:earthly_locality, earthly_locality)
-        |> Map.update!(:earthly_locality_history, &[history_entry | &1])
-      end)
-
-    {:reply, reply, state}
-  end
-
-  defp update_leashing(table, parkinging_stand, shackling_pin, update) do
-    reply =
-      case :dets.lookup(table, parkinging_stand) do
-        [{^parkinging_stand, stored_leashing}] ->
-          leashing = normalize_leashing(stored_leashing)
-
-          if pins_match?(leashing.shackling_pin, shackling_pin) do
-            updated_leashing = update.(leashing)
-            :ok = :dets.insert(table, {parkinging_stand, updated_leashing})
-            :ok = :dets.sync(table)
-            {:ok, updated_leashing}
-          else
-            :error
-          end
-
-        [] ->
-          :error
-      end
-
-    reply
-  end
-
-  defp normalize_leashing(leashing) do
-    leashing
-    |> Map.put_new(:pet_name_history, legacy_pet_name_history(leashing))
-    |> Map.put_new(:appointmentings, %{})
-    |> Map.put_new(:earthly_locality, nil)
-    |> Map.put_new(:earthly_locality_history, legacy_earthly_locality_history(leashing))
-  end
-
-  defp legacy_pet_name_history(%{name: name, ceremony_time: ceremony_time})
-       when is_binary(name),
-       do: [%{name: name, furnished_at: ceremony_time}]
-
-  defp legacy_pet_name_history(_leashing), do: []
-
-  defp legacy_earthly_locality_history(%{
-         earthly_locality: earthly_locality,
-         ceremony_time: ceremony_time
-       })
-       when is_map(earthly_locality),
-       do: [%{earthly_locality: earthly_locality, furnished_at: ceremony_time}]
-
-  defp legacy_earthly_locality_history(_leashing), do: []
 
   defp pins_match?(stored_pin, supplied_pin)
        when byte_size(stored_pin) == byte_size(supplied_pin),
        do: Plug.Crypto.secure_compare(stored_pin, supplied_pin)
 
   defp pins_match?(_stored_pin, _supplied_pin), do: false
-
-  @impl true
-  def terminate(_reason, state) do
-    :dets.close(state.table)
-  end
 end

@@ -500,7 +500,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#public-field-discoveringmenting-harbor",
-             "Globularly Bobbiningingly Globular Bobbining."
+             "within This Civilization Holding with No Center."
            )
 
     assert has_element?(view, "#station-02-enriched-leashing")

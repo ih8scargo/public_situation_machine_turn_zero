@@ -3,6 +3,13 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistryTest do
 
   alias PublicSituationMachineTurnZero.ParkingingStandRegistry
 
+  setup do
+    owner =
+      Ecto.Adapters.SQL.Sandbox.start_owner!(PublicSituationMachineTurnZero.Repo, shared: true)
+
+    on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(owner) end)
+  end
+
   test "persists sequential Leashings for lawful return" do
     first_pin = "AAAA BBBB CCCC DDDD"
     second_pin = "EEEE FFFF 0000 1111"
@@ -86,5 +93,66 @@ defmodule PublicSituationMachineTurnZero.ParkingingStandRegistryTest do
               earthly_locality: %{country: "US", region: "CA", city: "Berkeley"}
             }} =
              ParkingingStandRegistry.re_shackle(first.parkinging_stand, first_pin)
+  end
+
+  @tag :tmp_dir
+  test "imports constitutional history from the former DETS registry", %{tmp_dir: tmp_dir} do
+    path = Path.join(tmp_dir, "parkinging_stands.dets")
+    source_table = :parkinging_stand_registry_import_source
+    piece_of_time = ~U[2026-08-05 12:00:00Z]
+    later_piece_of_time = DateTime.add(piece_of_time, 60, :second)
+
+    {:ok, ^source_table} = :dets.open_file(source_table, file: String.to_charlist(path))
+
+    :ok =
+      :dets.insert(source_table, [
+        {:last_number, 40},
+        {"000000000038",
+         %{
+           parkinging_stand: "000000000038",
+           shackling_pin: "AAAA BBBB CCCC DDDD",
+           ceremony_time: piece_of_time,
+           name: "The Imported Situationing",
+           pet_name_history: [
+             %{name: "The Imported Situationing", furnished_at: later_piece_of_time}
+           ],
+           appointmentings: %{lanterning: later_piece_of_time},
+           earthly_locality: %{
+             country: "United States",
+             region: "California",
+             city: "Oakland",
+             visionizing_scope: "city"
+           },
+           earthly_locality_history: [
+             %{
+               earthly_locality: %{
+                 country: "United States",
+                 region: "California",
+                 city: "Oakland",
+                 visionizing_scope: "city"
+               },
+               furnished_at: later_piece_of_time
+             }
+           ]
+         }}
+      ])
+
+    :ok = :dets.close(source_table)
+
+    assert %{imported: 1, last_number: 40} =
+             PublicSituationMachineTurnZero.DetsRegistryImporter.import(path)
+
+    assert {:ok, imported} =
+             ParkingingStandRegistry.re_shackle(
+               "000000000038",
+               "AAAA BBBB CCCC DDDD"
+             )
+
+    assert imported.name == "The Imported Situationing"
+    assert imported.appointmentings == %{lanterning: later_piece_of_time}
+    assert imported.earthly_locality.city == "Oakland"
+
+    next = ParkingingStandRegistry.furnish_leashing("EEEE FFFF 0000 1111", piece_of_time)
+    assert next.parkinging_stand == "000000000041"
   end
 end

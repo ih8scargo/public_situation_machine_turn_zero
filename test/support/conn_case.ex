@@ -31,7 +31,14 @@ defmodule PublicSituationMachineTurnZeroWeb.ConnCase do
     end
   end
 
-  setup _tags do
+  setup tags do
+    owner =
+      Ecto.Adapters.SQL.Sandbox.start_owner!(PublicSituationMachineTurnZero.Repo,
+        shared: not tags[:async]
+      )
+
+    on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(owner) end)
+
     {:ok, conn: Phoenix.ConnTest.build_conn()}
   end
 end

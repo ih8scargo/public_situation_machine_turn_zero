@@ -16,7 +16,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              ~s|#tuple-ship-field-harbor-noticingment[href="/this-tuple-ship-field"]|,
-             "THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING"
+             "TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING THIS WAY"
            )
 
     refute has_element?(view, "#landinging-threshold", "Seven Stewardly Captain COB")
@@ -190,7 +190,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "Constitutioning Humans may approach This Division of Constitutioning Humans through This Terrestrial Computer Free Public Parkinging Standinging Landinging."
+             "From Here, Constitutioning Humans may approach This Division of Constitutioning Humans through The Terrestrial Computer Free Public Parkinging Standinging Landinging."
            )
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
@@ -200,7 +200,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              ".field-page__entrance-constitutional-header",
-             "THIS CONSTITUTIONAL ENTRANCE ONTO THIS TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING"
+             "THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE"
            )
 
     assert has_element?(
@@ -359,7 +359,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#correspondencingments-publication-title",
-             "Twople-Ship-to-Twople-Ship"
+             "Tuple-Ship-to-Tuple-Ship"
            )
 
     assert has_element?(

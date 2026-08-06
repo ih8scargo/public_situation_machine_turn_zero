@@ -7,21 +7,14 @@ defmodule PublicSituationMachineTurnZero.Application do
 
   @impl true
   def start(_type, _args) do
-    parkinging_registry_path =
-      Application.get_env(
-        :public_situation_machine_turn_zero,
-        :parkinging_stand_registry_path,
-        Path.join(System.tmp_dir!(), "public_situation_machine_turn_zero/parkinging_stands.dets")
-      )
-
     children = [
       PublicSituationMachineTurnZeroWeb.Telemetry,
+      PublicSituationMachineTurnZero.Repo,
       {DNSCluster,
        query:
          Application.get_env(:public_situation_machine_turn_zero, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: PublicSituationMachineTurnZero.PubSub},
       Place,
-      {PublicSituationMachineTurnZero.ParkingingStandRegistry, path: parkinging_registry_path},
       # Start a worker by calling: PublicSituationMachineTurnZero.Worker.start_link(arg)
       # {PublicSituationMachineTurnZero.Worker, arg},
       # Start to serve requests, typically the last entry

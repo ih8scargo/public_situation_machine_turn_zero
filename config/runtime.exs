@@ -1,10 +1,5 @@
 import Config
 
-if parkinging_registry_path = System.get_env("PARKINGING_STAND_REGISTRY_PATH") do
-  config :public_situation_machine_turn_zero,
-    parkinging_stand_registry_path: parkinging_registry_path
-end
-
 # config/runtime.exs is executed for all environments, including
 # during releases. It is executed after compilation and before the
 # system starts, so it is typically used to load production configuration
@@ -47,6 +42,17 @@ if config_env() == :dev do
 end
 
 if config_env() == :prod do
+  database_url =
+    System.get_env("DATABASE_URL") ||
+      raise """
+      environment variable DATABASE_URL is missing.
+      """
+
+  config :public_situation_machine_turn_zero, PublicSituationMachineTurnZero.Repo,
+    url: database_url,
+    pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
+    ssl: System.get_env("DATABASE_SSL", "true") != "false"
+
   # The secret key base is used to sign/encrypt cookies and other secrets.
   # A default value is used in config/dev.exs and config/test.exs but you
   # want to use a different value for prod and you most likely don't want

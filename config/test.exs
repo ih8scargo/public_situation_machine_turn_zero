@@ -1,11 +1,13 @@
 import Config
 
-config :public_situation_machine_turn_zero,
-  parkinging_stand_registry_path:
-    Path.join(
-      System.tmp_dir!(),
-      "public_situation_machine_turn_zero/parkinging_stands_test_#{System.pid()}.dets"
-    )
+config :public_situation_machine_turn_zero, PublicSituationMachineTurnZero.Repo,
+  username: "postgres",
+  password: "postgres",
+  hostname: "localhost",
+  port: String.to_integer(System.get_env("PGPORT") || "5432"),
+  database: "public_situation_machine_turn_zero_test",
+  pool: Ecto.Adapters.SQL.Sandbox,
+  pool_size: System.schedulers_online() * 2
 
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
