@@ -414,11 +414,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              "Together, these stand as This First Appointmenting."
            )
 
-    assert has_element?(
-             view,
-             "#lanterning-appointmenting",
-             "constitutional Furnishmenting through which This One Tuple Ship first becomes capable of lawful Encounteringmentablement through Visionizingmentablement"
-           )
+    refute has_element?(view, "#lanterning-appointmenting")
 
     furnish_proto_appointmentings(view)
 
@@ -459,13 +455,22 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#station-02-enriched-leashing",
-             "Visionizingmenting through Relationing to This One Some Place upon The Earth. Encounteringmenting from within This One Some Place upon The Earth."
+             "This One Some Place presently stands left Undistinguishingmented."
            )
 
     assert has_element?(
              view,
-             "#turn-zero-surface-undistinguishingmented",
+             "#turn-zero-surface",
              "This One Some Place presently stands left Undistinguishingmented."
+           )
+
+    assert has_element?(view, "#earthly-locality-form")
+    assert has_element?(view, "#lawful-xt-yt-interrelationing")
+
+    assert has_element?(
+             view,
+             "#earthly-locality-landings",
+             "XT–YT INTERRELATIONING CONTINUITY LINE"
            )
 
     assert has_element?(view, "#tuple-field-after-leashing-ceremony")
@@ -474,7 +479,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#station-02-completion",
-             "standing in This One Some Place upon The Earth"
+             "current lawful Place of Encounteringmentablement"
            )
 
     assert has_element?(
@@ -602,7 +607,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#earthly-locality-landings",
-             "Landinging upon This One Piece of Time"
+             "THIS XT–YT INTERRELATIONING CONTINUITY LINE"
            )
 
     assert has_element?(view, "#earthly-locality-landings", "Los Angeles")
@@ -619,11 +624,43 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              visionizing_scope: "city"
            }
 
+    view
+    |> form("#earthly-locality-form",
+      locality: %{
+        country: "US",
+        region: "CA",
+        city: "San Francisco",
+        visionizing_scope: "country"
+      }
+    )
+    |> render_change()
+
+    assert has_element?(view, "#turn-zero-xt-readout", "San Francisco")
+    assert has_element?(view, "#lawful-xt-yt-interrelationing", "Los Angeles")
+    refute has_element?(view, "#lawful-xt-yt-interrelationing", "San Francisco")
+
+    view
+    |> form("#earthly-locality-form",
+      locality: %{
+        country: "US",
+        region: "CA",
+        city: "San Francisco",
+        visionizing_scope: "country"
+      }
+    )
+    |> render_submit()
+
+    assert has_element?(view, "#lawful-xt-yt-interrelationing", "San Francisco")
+    assert has_element?(view, "#lawful-xt-yt-interrelationing", "United States")
+    assert has_element?(view, "#earthly-locality-landings", "Los Angeles")
+    assert has_element?(view, "#earthly-locality-landings", "San Francisco")
+
     view |> element("#re-fold-into-new-standing") |> render_click()
     view |> element("#unfold-constitutional-rail-line") |> render_click()
 
     assert has_element?(view, "#parkinging-credentials", "Visionizingmentablement")
-    assert has_element?(view, "#parkinging-credentials", "Los Angeles")
+    assert has_element?(view, "#parkinging-credentials", "San Francisco")
+    refute has_element?(view, "#parkinging-credentials", "Los Angeles")
   end
 
   test "reconstructs a returning constitutional locality from the Parkinging Landinging", %{
@@ -689,12 +726,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     refute has_element?(view, "#sounding-bell-appointmenting")
 
     view
-    |> element(~s|#lanterning-appointmenting button[phx-value-appointmenting="lanterning"]|)
+    |> element(~s|#this-one-place-crew button[phx-value-appointmenting="lanterning"]|)
     |> render_click()
 
     refute has_element?(
              view,
-             ~s|#lanterning-appointmenting button[phx-value-appointmenting="lanterning"]|
+             ~s|#this-one-place-crew button[phx-value-appointmenting="lanterning"]|
            )
   end
 

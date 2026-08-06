@@ -495,7 +495,7 @@
 }
 
 #observationing-harbors-projectioning thead th:first-child {
-  width: 20%;
+  width: 25%;
   font-size: 1rem;
   letter-spacing: 0.06em;
   line-height: 1.15;
@@ -503,24 +503,24 @@
 
 #observationing-harbors-projectioning thead th:nth-child(2),
 #observationing-harbors-projectioning thead th:nth-child(3) {
-  width: 40%;
+  width: 37.5%;
 }
 
 #observationing-harbors-projectioning tbody th {
-  width: 20%;
+  width: 25%;
   font-size: 0.9rem;
   line-height: 1.35;
 }
 
 .bearingings-public__table.canonical-table-viewport {
-  width: min(92vw, 88rem);
-  max-width: none;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  width: min(100%, 46rem);
+  max-width: 46rem;
+  margin-inline: auto;
 }
 
 .bearingings-public__table.canonical-table-viewport table {
-  min-width: 0;
+  width: 46rem;
+  min-width: 46rem;
 }
 
 .bearingings-public__inheritances {
@@ -1455,11 +1455,15 @@
 }
 
 .field-page__continuity-landings li {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) auto;
   gap: 1rem;
   padding: 0.85rem 0;
   border-bottom: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__continuity-landings li section span {
+  display: block;
 }
 
 .field-page__continuity-landings time {
@@ -2140,12 +2144,12 @@
   }
 
   .bearingings-public__table.canonical-table-viewport table {
-    min-width: 720px;
+    min-width: 46rem;
   }
 
   .field-page__continuity-landings li {
     align-items: flex-start;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .field-page__stewardship-headings,

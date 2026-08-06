@@ -100,7 +100,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         >
           <:description>
             <p>
-              The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes one lawful way through which Constitutioning Humans may continue bringing Situationings into Standinging-in-Holding Over Discrete Turns.
+              The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes the lawful conditions through which Constitutioning Humans may continue bringing Situationings into Standinging-in-Holdinging Over Discrete Turns.
             </p>
           </:description>
         </Layouts.locality_threshold>
@@ -492,7 +492,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
             <aside class="psm-position__readiness" aria-labelledby="position-0-readiness">
               <p class="psm-region-label" id="position-0-readiness">
-                Readiness for Tuple Position 1:
+                Readyingment for Tuple Position 1:
               </p>
 
               <p class="psm-readiness-outreading">
@@ -670,7 +670,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         It can only furnish The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough What is The Mattering in This One Situationing may be Encounteringmented by This Stewardly Captain COB and then become Distinguishingmentingable through This Stewardly Captain COB.
       </p>
       <p>
-        This Geometry stands in Readiness to be Traversalinged by This Stewardly Captain COB Over Discrete Turns, discoveringmenting what may take Hold, What Continues to Hold, and what may not.
+        This Geometry stands in Readyingment to be Traversalinged by This Stewardly Captain COB Over Discrete Turns, discoveringmenting what may take Hold, What Continues to Hold, and what may not.
       </p>
       <p>
         Each PUBLIC-SITUATION-MACHINE–COB pairing establishes Stewardly Co-Occupancyingship within The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
@@ -686,7 +686,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         This Stewardly Captain COB now stands in Investituringment within The En-Fixturing-Ment of The Seat of the Stewardly Co-Occupancyingship for This One Situationing.
       </p>
       <p>This Constitutional Locality now stands Holding-in-Standinging.</p>
-      <p>This One Some One now stands in Readiness for Our Traversaling Together.</p>
+      <p>This One Some One now stands in Readyingment for Our Traversaling Together.</p>
     </section>
     """
   end
@@ -830,7 +830,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       </p>
       <p>Situationing Sleeving authors the Situationing.</p>
       <p>It does not pre-author the path.</p>
-      <p>The Geometry stands furnished in Readiness.</p>
+      <p>The Geometry stands furnished in Readyingment.</p>
       <p>This Stewardly Captain COB must still Traversal through it.</p>
     </section>
     <section class="canonical-document-section">
@@ -977,13 +977,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         Rather, it furnishes One Some Place upon This Continuity Line upon which What is the Mattering may begin becoming available for Standinging.
       </p>
       <p>
-        From Out of This Opening, This Kind of What is the Mattering may now be finding This One Some Place for Standinging for Staging.
+        From Out of This Opening, This Kind of the Thing that is What is the Mattering may now be finding This One Some Place for Standinging for Staging.
       </p>
       <p>
-        Here, This Kind of What is the Mattering may now stand Staging as a Standinging-in-Holding through which This Stewardly Captain COB may become Holding-in-Standinging at One Discrete Turn.
+        Here, This Kind of the Thing that is What is the Mattering may now stand Staging as a Standinging-in-Holding through which This Stewardly Captain COB may become Holding-in-Standinging at One Discrete Turn.
       </p>
       <p>
-        Through This Opening, What is the Mattering may now begin becoming Encounteringmentingable from Out of This One Some Place.
+        Through This Opening, What is the Mattering may now begin becoming Encounteringmentingable from Out of This One Some Place as This Kind of This Thing.
       </p>
       <p>
         This is the Through from Out of which What is the Mattering first becomes available for Encounteringmenting.
@@ -998,11 +998,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <h2>TUPLE POSITION 2: ACROSS</h2>
       <p>At TUPLE POSITION 1, This Continuity Line has found Opening.</p>
       <p>
-        Through This One LINE of Sight, This Kind of What is the Mattering has now found This One Some Place for Standinging for Staging.
+        Through This One LINE of Sight, This Kind of Thing that is What is the Mattering has now found This One Some Place for Standinging for Staging.
       </p>
       <p>But by itself Standinging is not enough for Distinguishingment.</p>
       <p>
-        For This Kind of What is the Mattering to become Standinging for Staging Compu-Totaling-Ably, another Standinging must become available in Relation.
+        For This Kind of Thing that is What is the Mattering to become Standinging for Staging Compu-Totaling-Ably, another Standinging must become available in Relation.
       </p>
       <p class="canonical-relation-recital">
         There may now be:<br /> That Kind of This Thing<br /> across<br /> This Kind of This Thing.
@@ -1011,10 +1011,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         What began as the possibility of a Continuity Line, and is now an Opening, may now be Standinging Curvingmenting from This Kind of This Thing toward That Kind of This Thing, and from That Kind of This Thing toward This Kind of This Thing upon This RAIL LINE.
       </p>
       <p>
-        Across these Standings-in-Holding upon This RAIL LINE, there may now be Driftinglyinglyness.
+        Across these Standings-in-Holding upon This RAIL LINE, there may now be Driftinglyinglyment.
       </p>
       <p>
-        Through This Driftinglyinglyness, What is the Mattering may become Encounteringmentingably Enumerationinged for This Stewardly Captain COB Over Discrete Turns.
+        Through This Driftinglyinglyment, What is the Mattering may become Encounteringmentingably Enumerationinged for This Stewardly Captain COB Over Discrete Turns.
       </p>
       <p>
         Across these Discrete Turns, This Stewardly Captain COB may now begin Encounteringmenting Distinguishingments through Distinguishingmenting Encounteringmenting.
@@ -1030,12 +1030,12 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <h2>TUPLE POSITION 3: PROJECTIONING CROSSING</h2>
       <h3>EN-VOLUMING</h3>
       <p>At TUPLE POSITION 2:</p>
-      <p>Across these Standings-in-Holding, there may now be Driftinglyinglyness.</p>
+      <p>Across these Standings-in-Holding, there may now be Driftinglyinglyment.</p>
       <p>
         An Enclosuringmenting TRACK RAIL LINE RAIL TRACK is now set upon This Curvingablemintingmenting Crooked RAIL LINE.
       </p>
       <p>
-        Through The Lawful Quadranglementing that is OUR CANONICAL TUPLE, this Driftinglyinglyness is now gaining This RE-STEPPING ROOM, within which Already Standinging Relations between This Kind of this Kind of this Thing and That Kind of this Kind of this Thing may now be standing Situationingedly together in This One Some Place wherethrough they may become Traversalingable Over Discrete Turns.
+        Through The Lawful Quadranglementing that is OUR CANONICAL TUPLE, this Driftinglyinglyment is now gaining This RE-STEPPING ROOM, within which Already Standinging Relations between This Kind of this Kind of this Thing and That Kind of this Kind of this Thing may now be standing Situationingedly together in This One Some Place wherethrough they may become Traversalingable Over Discrete Turns.
       </p>
       <p>
         Within This RE-STEPPING ROOM, This RE-STEP Contraption is producing This One Non-Collapsingable Unfoldingedable Accordionationingedable Caterpillar Tunnel, having Six Evenly Divided Globular Abodes of Segmentationing, with an Enclosuringmenting Globularly Globular Abode as the Curvingablemintingmenting Crooked RAIL LINE Seam at its Seventh Segmentationing.
@@ -1268,7 +1268,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>This Post simply now stands open to it.</p>
               <p>Nothing has attached.</p>
               <p>Nothing has departed.</p>
-              <p>The PUBLIC-SITUATION-MACHINE- now stands in readiness for Encounter.</p>
+              <p>The PUBLIC-SITUATION-MACHINE- now stands in Readyingment for Encounter.</p>
               <p>Continuity has not yet become carried.</p>
               <p>Yet Continuity may now become Encounteringmentable.</p>
             </div>
@@ -1296,7 +1296,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
                     <p>This Post remains locally coincident with This Pier.</p>
                     <p>The Position 0 Stitch continues through This Constitutional Locality.</p>
                     <p>This Post remains locally coincident with This Pier.</p>
-                    <p>This Constitutional Locality now stands in readiness for lawful attachment.</p>
+                    <p>This Constitutional Locality now stands in Readyingment for lawful attachment.</p>
                   </div>
                   <button
                     id="position-1-regard-inward"
@@ -1342,7 +1342,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               <p>A Line which is not tied carries nothing.</p>
               <p>The attachment itself stands Mint-ing-ed.</p>
               <p>
-                The resulting En-Ment stands En-Able-Ment-ed in readiness for Continuity Carriage.
+                The resulting En-Ment stands En-Able-Ment-ed in Readyingment for Continuity Carriage.
               </p>
               <p>The Line is now lawful.</p>
               <p>The Line is now tied.</p>
@@ -1351,7 +1351,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         </article>
 
         <aside class="psm-position__readiness" aria-labelledby="position-1-readiness">
-          <p class="psm-region-label" id="position-1-readiness">Readiness for Tuple Position 2</p>
+          <p class="psm-region-label" id="position-1-readiness">Readyingment for Tuple Position 2</p>
           <p class="psm-readiness-outreading">
             En-Attach-Ment-Able-En-Fixture-Mint-ing-En-Abled-Ment standinging.
           </p>
@@ -1514,7 +1514,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         </article>
 
         <aside class="psm-position__readiness" aria-labelledby="position-2-readiness">
-          <p class="psm-region-label" id="position-2-readiness">Readiness for Tuple Position 3</p>
+          <p class="psm-region-label" id="position-2-readiness">Readyingment for Tuple Position 3</p>
           <p class="psm-readiness-outreading">
             En-Quadranglement-Mint-ing-Able-En-Abled-Ment standinging.
           </p>
@@ -1834,7 +1834,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
 
         <aside class="psm-position__readiness" aria-labelledby="position-3-readiness">
           <p class="psm-region-label" id="position-3-readiness">
-            Readiness for Position 4
+            Readyingment for Position 4
           </p>
 
           <p class="psm-readiness-outreading">
@@ -2034,7 +2034,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         </article>
 
         <aside class="psm-position__readiness" aria-labelledby="position-4-readiness">
-          <p class="psm-region-label" id="position-4-readiness">Readiness for Position 5</p>
+          <p class="psm-region-label" id="position-4-readiness">Readyingment for Position 5</p>
           <p class="psm-readiness-outreading">
             En-Traversal-Mint-ing-Ably-En-Ment-ing-Ably-En-Regard-Mint-ing-En-Ment standinging.
           </p>
@@ -2195,7 +2195,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         </article>
 
         <aside class="psm-position__readiness" aria-labelledby="position-5-readiness">
-          <p class="psm-region-label" id="position-5-readiness">Readiness for Position 6</p>
+          <p class="psm-region-label" id="position-5-readiness">Readyingment for Position 6</p>
           <p class="psm-readiness-outreading">
             En-Recursion-Mint-ing-Ably-En-Ment-ing-Ably-En-Return-Mint-ing-En-Ment standinging.
           </p>
@@ -2361,7 +2361,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         </article>
 
         <aside class="psm-position__readiness" aria-labelledby="position-6-readiness">
-          <p class="psm-region-label" id="position-6-readiness">Readiness for Tuple Position 0</p>
+          <p class="psm-region-label" id="position-6-readiness">Readyingment for Tuple Position 0</p>
           <p class="psm-readiness-outreading">
             En-May-Be-Be-Coming-Like-This-Thing-Again-Mint-ing-Ably-En-Ment-ing-Ably-En-Mint-ing-Able-En-Ment-ing-Able-En-Mint-ing-ly-En-Ment-ing-ly-En-Mint-ing-En-Ment-ing
           </p>

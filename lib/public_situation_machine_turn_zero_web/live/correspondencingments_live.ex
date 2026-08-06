@@ -41,7 +41,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
           class="field-page__rail-header correspondencingments-publication"
         >
           <h2>
-            <span>Twople-Ship-to-Twople-Ship</span>
+            <span>Tuple-Ship-to-Tuple-Ship</span>
             <span>Correspondencingments<br />from the Edge of the Field</span>
           </h2>
         </header>

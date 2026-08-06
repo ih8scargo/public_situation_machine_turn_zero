@@ -480,7 +480,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               This Harbor stands before This Encounteringmenting Wharf.
             </p>
             <p>
-              From Here, Constitutioning Humans may approach This Division of Constitutioning Humans through This Terrestrial Computer Free Public Parkinging Standinging Landinging.
+              From Here, Constitutioning Humans may approach This Division of Constitutioning Humans through The Terrestrial Computer Free Public Parkinging Standinging Landinging.
             </p>
           </:description>
         </Layouts.locality_threshold>
@@ -491,7 +491,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           aria-labelledby="terrestrial-computer-standinging-landing-title"
         >
           <header class="field-page__entrance-constitutional-header">
-            THIS CONSTITUTIONAL ENTRANCE ONTO THIS TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
+            THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE
           </header>
           <h2 id="terrestrial-computer-standinging-landing-title">
             THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
@@ -1167,7 +1167,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     This One Crew stands inhabitationing Their Interrelationing Laboringings through These Particular Stewarding Offices.
                   </p>
                   <section id="station-01-institutional-standing">
-                    <h5>Institutional Standing</h5>
+                    <br />
+                    <h5>INSTITUTIONAL STANDING</h5>
                     <p>
                       This One Some Place Crew now stands in Readyingment for the lawful Placement of This Slumbering Lanterning Bug Colonial Bunk House along This One Continuity Line of This Thing that is What is the Mattering in This One Situationing.
                     </p>
@@ -1188,7 +1189,16 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   <p>
                     Through This First Appointmenting, This One Tuple Ship first becomes capable of lawful Encounteringmentablement through Visionizingmentablement, and lawful Visionizingmentablement through Encounteringmentablement.
                   </p>
-                  <p>Together, these stand as This First Appointmenting.</p>
+                  <p>Together, these stand as This First Appointmenting.</p><br />
+                  <button
+                    :if={!MapSet.member?(@proto_appointmentings, :lanterning)}
+                    type="button"
+                    class="field-page__action"
+                    phx-click="furnish-proto-appointmenting"
+                    phx-value-appointmenting="lanterning"
+                  >
+                    Place This One Lanterning Bug Assemblementing
+                  </button>
                   <p
                     :if={MapSet.member?(@proto_appointmentings, :lanterning)}
                     id="first-appointmenting-standing"
@@ -1200,27 +1210,6 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
                 <div class="field-page__interaction">
                   <section
-                    id="lanterning-appointmenting"
-                    class="field-page__appointmenting-ceremony"
-                    aria-labelledby="lanterning-furnishing-title"
-                  >
-                    <h4 id="lanterning-furnishing-title">This One Lanterning Bug Assemblement</h4>
-                    <p>
-                      Through This First Appointmenting, This One Lanterning Bug Assemblement becomes the constitutional Furnishmenting through which This One Tuple Ship first becomes capable of lawful Encounteringmentablement through Visionizingmentablement, and lawful Visionizingmentablement through Encounteringmentablement.
-                    </p>
-                    <p>Together, these stand as This First Appointmenting.</p>
-                    <button
-                      :if={!MapSet.member?(@proto_appointmentings, :lanterning)}
-                      type="button"
-                      class="field-page__action"
-                      phx-click="furnish-proto-appointmenting"
-                      phx-value-appointmenting="lanterning"
-                    >
-                      Place This One Lanterning Bug Assemblementing
-                    </button>
-                  </section>
-
-                  <section
                     :if={MapSet.member?(@proto_appointmentings, :lanterning)}
                     id="lanterning-groundinging-layer"
                     class="field-page__groundinging-layer"
@@ -1230,13 +1219,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       This One Lanterning Bug Assemblementing
                     </h4>
                     <p>
-                      Through This First Appointmenting, This One Lanterning Bug Assemblement becomes the constitutional Furnishmenting through which This Stewardly Captain COB first becomes Encounteringmentable.
+                      This One Lanterning Bug Assemblement now stands upon This Stewardly Captain COB's This One Situationing.
                     </p>
                     <p>
-                      This One Lanterning Bug Assemblement now stands upon This Stewardly Captain COB's This One Situationing, accomplishing lawful Visionizingmentablement through Encounteringmentablement and lawful Encounteringmentablement through Visionizingmentablement.
+                      Through lawful Relationing to This One Some Place upon The Earth, This One Situationing now stands Visionizingmentable within This One Great Free Public Tuple Ship Field.
                     </p>
                     <p>
-                      Through lawful Relationing to This One Some Place upon The Earth, This Stewardly Captain COB's This One Situationing now stands Visionizingmentable according to the constitutional Interrelationings furnished below.
+                      This One Lanterning now stands establishing This Stewardly Captain COB's current lawful Constitutional Locality of Encounteringmentablement.
                     </p>
                   </section>
 
@@ -1253,12 +1242,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       This Library stands furnishing lawful Interrelationings through which This Stewardly Captain COB's This One Situationing may become Visionizingmentable together with This One Some Place upon The Earth.
                     </p>
                     <h5>Stewardly Guidance</h5>
-                    <p>Stage one lawful XT / YT Interrelationing below.</p>
+                    <p>Stage one lawful XT–YT Interrelationing below.</p>
 
-                    <div
-                      :if={@station_02_decision == :pending}
-                      class="field-page__station-02-choices"
-                    >
+                    <div class="field-page__station-02-choices">
                       <.form
                         for={@locality_form}
                         id="earthly-locality-form"
@@ -1338,8 +1324,21 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                               </span>
                             </section>
                           </div>
-                          <p>Nothing has yet been furnished.</p>
-                          <p>These constitutional Interrelationings remain under Composementing.</p>
+                          <p :if={@earthly_locality_history == []}>
+                            This Turn Zero Surface stands proving lawful XT–YT Interrelationings.<br />Nothing has yet been furnished.
+                          </p>
+                          <p :if={@earthly_locality_history != []}>
+                            The Turn Zero Surface stages lawful XT–YT Interrelationings without altering the presently furnished Constitutional Locality.
+                          </p>
+                          <p>
+                            Only a furnished XT–YT Interrelationing comes into Constitutional Standing.
+                          </p>
+                          <div :if={constitutional_default?(@earthly_locality)}>
+                            <p>This One Some Place presently stands left Undistinguishingmented.</p>
+                            <p>
+                              This Stewardly Captain COB now stands Relationing toward This One Great Free Public Tuple Ship Field from This One Some Place upon The Earth, and This One Situationing now stands Visionizingmentable together with This One Some Place upon The Earth.
+                            </p>
+                          </div>
                         </section>
 
                         <div class="field-page__station-02-actions">
@@ -1359,21 +1358,35 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     </div>
 
                     <section
-                      :if={
-                        @station_02_decision == :completed &&
-                          constitutional_default?(@earthly_locality)
-                      }
-                      id="turn-zero-surface-undistinguishingmented"
+                      :if={@earthly_locality}
+                      id="lawful-xt-yt-interrelationing"
                       class="field-page__turn-zero-surface"
-                      aria-labelledby="turn-zero-surface-undistinguishingmented-title"
+                      aria-labelledby="lawful-xt-yt-interrelationing-title"
                     >
-                      <h5 id="turn-zero-surface-undistinguishingmented-title">
-                        TURN ZERO SURFACE
+                      <h5 id="lawful-xt-yt-interrelationing-title">
+                        THIS LAWFUL XT–YT INTERRELATIONING
                       </h5>
-                      <p>This One Some Place presently stands left Undistinguishingmented.</p>
-                      <p>
-                        This Stewardly Captain COB now stands Relationing toward This One Great Free Public Tuple Ship Field from This One Some Place upon The Earth, and This One Situationing now stands Visionizingmentable together with This One Some Place upon The Earth.
-                      </p>
+                      <div class="field-page__turn-zero-readout">
+                        <section>
+                          <strong>XT</strong>
+                          <p>
+                            This Stewardly Captain COB stands Relationing toward This One Great Free Public Tuple Ship Field from:
+                          </p>
+                          <span :for={line <- furnished_origin_lines(@earthly_locality)}>
+                            {line}
+                          </span>
+                        </section>
+                        <section>
+                          <strong>YT</strong>
+                          <p>This One Situationing now stands Visionizingmentable within:</p>
+                          <span>{visionizing_locality_text(@earthly_locality)}</span>
+                        </section>
+                      </div>
+                      <p><strong>Furnished</strong></p>
+                      <p>This One Piece of Time</p>
+                      <time :if={history_piece_of_time(@earthly_locality_history)}>
+                        {history_piece_of_time(@earthly_locality_history)}
+                      </time>
                     </section>
 
                     <section
@@ -1383,11 +1396,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       aria-labelledby="earthly-locality-landings-title"
                     >
                       <h5 id="earthly-locality-landings-title">
-                        Landinging upon This One Piece of Time
+                        THIS XT–YT INTERRELATIONING CONTINUITY LINE
                       </h5>
                       <ol>
                         <li :for={entry <- @earthly_locality_history}>
-                          <strong>{earthly_locality_text(entry.earthly_locality)}</strong>
+                          <section>
+                            <strong>XT</strong>
+                            <span :for={line <- furnished_origin_lines(entry.earthly_locality)}>
+                              {line}
+                            </span>
+                          </section>
+                          <section>
+                            <strong>YT</strong>
+                            <span>{visionizing_locality_text(entry.earthly_locality)}</span>
+                          </section>
                           <time datetime={DateTime.to_iso8601(entry.furnished_at)}>
                             {format_piece_of_time(entry.furnished_at)}
                           </time>
@@ -1405,7 +1427,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       This One Lanterning Bug Assemblementing now stands Visionizinging through Relationing to This One Some Place upon The Earth within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
                     </p>
                     <p>
-                      This One Lanterning now stands illuminationing the way toward This Encounteringmenting Wharf from This One Terrestrial Computer Free Parkinging Stand standing in This One Some Place upon The Earth.
+                      This One Lanterning now stands establishing This Stewardly Captain COB's current lawful Place of Encounteringmentablement.
                     </p>
                   </div>
 
@@ -1452,7 +1474,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     This Soundinging Bell Station presently stands at the Terminusmenting of the current Rail Line and remains under Composementing.
                   </p>
                   <p>
-                    The Second Appointmenting of Encounteringmentablement is becoming toward Furnishmenting.
+                    The Second Appointmenting of Distinguishingmentablement now stands becoming toward Furnishmenting.
                   </p>
                   <p>
                     This Constitutional Furnishmenting Rail Line continues standing in Readyingment for its next lawful Unfoldingmenting.
@@ -1494,11 +1516,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </p>
           </div>
           <div class="psm-oag__description">
-            <p>Here,</p>
-            <p>Stewardly Continuity Lines may begin</p>
-            <p>Globularly Bobbiningingly Globular Bobbining.</p>
-            <p>Through Our Interrelationing Stewardly Laboringings,</p>
-            <p>new Relationings may become Discoveringmentingable.</p>
+            <p>Welcome to the Opening of This Encounteringmenting Wharf.</p>
+            <p>Here, This Stewardly Captain COB may stand Encounteringmentable</p>
+            <p>within This Civilization Holding with No Center.</p>
+            <p>Through Our Interrelationing Stewardly Laboringings,
+              new Relationings may become Discoveringmentingable.</p>
           </div>
         </section>
 
@@ -1625,7 +1647,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
       <p>
         Rather, it faithfully keeps holding onto the naming of That which is What is the Mattering through which This Stewardly Captain COB may begin Traversaling.
       </p>
-      <p>The Situationing names the Along from which Traversaling begins.</p>
+      <p>This One Situationing names the Along from which Traversaling begins.</p>
     </section>
     """
   end
@@ -1709,16 +1731,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
   defp interrelationing_locality_text(%{constitutional_default: true}),
     do:
-      "Visionizingmenting through Relationing to This One Some Place upon The Earth. Encounteringmenting from within This One Some Place upon The Earth."
+      "This One Some Place presently stands left Undistinguishingmented. This Stewardly Captain COB now stands Relationing toward This One Great Free Public Tuple Ship Field from This One Some Place upon The Earth, and This One Situationing now stands Visionizingmentable together with This One Some Place upon The Earth."
 
   defp interrelationing_locality_text(locality) do
-    place = visionizing_locality_text(locality)
+    origin = locality |> furnished_origin_lines() |> Enum.join(", ")
+    visionizing_locality = visionizing_locality_text(locality)
 
-    "Visionizingmenting through Relationing to #{place}. Encounteringmenting from within #{place}."
+    "Visionizingmenting from #{origin}. Encounteringmentingable within #{visionizing_locality}."
   end
 
   defp constitutional_default?(%{constitutional_default: true}), do: true
   defp constitutional_default?(_locality), do: false
+
+  defp furnished_origin_lines(%{constitutional_default: true}),
+    do: ["This One Some Place upon The Earth"]
+
+  defp furnished_origin_lines(%{country: country, region: region, city: city}) do
+    case Enum.reject([city, region, country], &(&1 in [nil, ""])) do
+      [] -> ["This One Some Place upon The Earth"]
+      lines -> lines
+    end
+  end
 
   defp visionizing_locality_text(%{visionizing_scope: "city", city: city}) when city != "",
     do: city

@@ -35,7 +35,7 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
               navigate={~p"/this-tuple-ship-field"}
               class="site-action"
             >
-              THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING
+              TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING THIS WAY &rarr;
             </.link>
           </:description>
         </Layouts.locality_threshold>
