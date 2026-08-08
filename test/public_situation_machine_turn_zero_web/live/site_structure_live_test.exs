@@ -195,6 +195,13 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
     refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
+    assert has_element?(view, "#resonancing-snail-station-house")
+    refute has_element?(view, "#terrestrial-computer-standinging-landing")
+
+    view |> element("#enter-opening-passageway") |> render_click()
+    view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
+    view |> element("#unfold-existing-rail-line") |> render_click()
+
     assert has_element?(view, "#terrestrial-computer-standinging-landing")
 
     assert has_element?(

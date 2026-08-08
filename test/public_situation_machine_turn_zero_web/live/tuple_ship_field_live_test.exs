@@ -5,8 +5,71 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
   alias PublicSituationMachineTurnZero.ParkingingStandRegistry
 
+  test "prepends the Station House, Passageway, and skeletal Sittinging-In Room", %{conn: conn} do
+    {:ok, view, html} = live(conn, ~p"/this-tuple-ship-field")
+
+    assert has_element?(view, "#tuple-ship-field-threshold")
+    assert has_element?(view, "#resonancing-snail-station-house")
+    refute has_element?(view, "#opening-passageway")
+    refute has_element?(view, "#turn-zero-sittinging-in-room")
+    refute has_element?(view, "#terrestrial-computer-standinging-landing")
+
+    {harbor_index, _} = :binary.match(html, "tuple-ship-field-threshold")
+    {station_house_index, _} = :binary.match(html, "resonancing-snail-station-house")
+    assert harbor_index < station_house_index
+
+    view |> element("#enter-opening-passageway") |> render_click()
+
+    assert has_element?(view, "#opening-passageway")
+    assert has_element?(view, "#restfullyinglyment-harbor-sign", "Standinging in Regard")
+
+    assert has_element?(
+             view,
+             "#restfullyinglyment-harbor-sign",
+             "The Bearinging of Restfullyinglyment"
+           )
+
+    assert has_element?(view, "#restfullyinglyment-harbor-sign", "Rite of Passageway")
+
+    assert has_element?(
+             view,
+             "#restfullyinglyment-harbor-sign",
+             "Investituringment of the Seat of Stewardly Co-Occupancyingship"
+           )
+
+    refute has_element?(view, "#turn-zero-sittinging-in-room")
+    view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
+
+    assert has_element?(view, "#turn-zero-sittinging-in-room", "THIS ONE PIECE OF TIME")
+    assert has_element?(view, "#turn-zero-sittinging-in-room", "This One Would-Be Tuple Ship")
+    refute has_element?(view, "#turn-zero-sittinging-in-room", "This One Constitutional Locality")
+    refute has_element?(view, "#turn-zero-sittinging-in-room time")
+    refute has_element?(view, "#terrestrial-computer-standinging-landing")
+
+    assert has_element?(view, ~s|#toggle-sittinging-xt-cabinet[aria-expanded="false"]|)
+    assert has_element?(view, ~s|#toggle-sittinging-yt-cabinet[aria-expanded="false"]|)
+    view |> element("#toggle-sittinging-xt-cabinet") |> render_click()
+    assert has_element?(view, "#sittinging-xt-cabinet", "What is feeling Present to me Here?")
+    view |> element("#toggle-sittinging-yt-cabinet") |> render_click()
+    assert has_element?(view, "#sittinging-yt-cabinet", "What is feeling Absent to me Here?")
+
+    assert has_element?(
+             view,
+             "#proto-stewardly-captain-cob-shelving",
+             "The Zeroeth Appointmenting"
+           )
+
+    assert has_element?(view, "#proto-stewardly-captain-cob-shelving", "Intentionally empty")
+
+    view |> element("#unfold-existing-rail-line") |> render_click()
+    assert has_element?(view, "#terrestrial-computer-standinging-landing")
+    refute has_element?(view, "#constitutional-furnishmenting-rail")
+  end
+
   test "unfolds horizontally paired stewardships into the Crew", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
+
+    unfold_entrance(view)
 
     assert has_element?(
              view,
@@ -679,6 +742,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
+    unfold_entrance(view)
+
     assert has_element?(view, "#returning-constitutioning-human-path")
     refute has_element?(view, "#constitutional-furnishmenting-rail")
 
@@ -711,8 +776,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   end
 
   defp inquire_and_unfold_station_01(view) do
+    unfold_entrance(view)
     view |> element("#inquire-within") |> render_click()
     view |> element("#unfold-constitutional-rail-line") |> render_click()
+  end
+
+  defp unfold_entrance(view) do
+    view |> element("#enter-opening-passageway") |> render_click()
+    view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
+    view |> element("#unfold-existing-rail-line") |> render_click()
   end
 
   defp unfold_station_02(view) do
