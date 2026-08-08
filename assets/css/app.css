@@ -572,6 +572,10 @@
   max-width: 100% !important;
 }
 
+.constitutional-rail__harbor-station {
+  background-color: #eee9df;
+}
+
 .field-page__furnishmenting-rail {
   background-image:
     linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color)),
@@ -588,9 +592,11 @@
 .field-page__furnishmenting-rail .field-page__station-opening {
   position: relative;
   isolation: isolate;
+  overflow: visible;
   width: 100%;
   max-width: none;
   margin-inline: 0;
+  background-color: #f8f4ec;
 }
 
 .constitutional-rail__station::before,
@@ -614,7 +620,7 @@
 .constitutional-rail__station::before,
 .field-page__furnishmenting-rail .field-page__station::before,
 .field-page__furnishmenting-rail .field-page__station-opening::before {
-  top: 0;
+  top: -1.5rem;
   background-image:
     linear-gradient(to bottom right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
     linear-gradient(to bottom left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
@@ -623,7 +629,7 @@
 .constitutional-rail__station::after,
 .field-page__furnishmenting-rail .field-page__station::after,
 .field-page__furnishmenting-rail .field-page__station-opening::after {
-  bottom: 0;
+  bottom: -1.5rem;
   background-image:
     linear-gradient(to top right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
     linear-gradient(to top left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
@@ -633,8 +639,13 @@
   margin: clamp(5rem, 11vw, 10rem) auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2.5rem, 6vw, 5rem);
   border: 1px solid rgba(32, 37, 38, 0.42);
-  background: rgba(248, 244, 236, 0.72);
+  background: #f8f4ec;
   box-shadow: 0 24px 70px rgba(32, 37, 38, 0.08);
+}
+
+.field-page__division-harbor-sign {
+  margin-top: clamp(3rem, 8vw, 7rem);
+  background-color: #f8f4ec;
 }
 
 .field-page__snail-station-house,
@@ -646,7 +657,7 @@
 
 .field-page__snail-station-house {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: clamp(2rem, 6vw, 5rem);
   border: 1px solid rgba(32, 37, 38, 0.38);
   border-top: 0.6rem solid #202526;
@@ -654,24 +665,6 @@
     linear-gradient(90deg, transparent 49.8%, rgba(32, 37, 38, 0.12) 50%, transparent 50.2%),
     #f4f0e6;
   text-align: center;
-}
-
-.field-page__snail-station-house::before,
-.field-page__snail-station-house::after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: clamp(1rem, 5vw, 4rem);
-  border-inline: 1px solid rgba(32, 37, 38, 0.18);
-  content: "";
-}
-
-.field-page__snail-station-house::before {
-  left: 4%;
-}
-
-.field-page__snail-station-house::after {
-  right: 4%;
 }
 
 .field-page__snail-station-portico,
@@ -695,7 +688,7 @@
     rgba(255, 255, 255, 0.45) 5rem,
     rgba(32, 37, 38, 0.035) 5rem,
     rgba(32, 37, 38, 0.035) 10rem
-  );
+  ), #eee9df;
 }
 
 .field-page__opening-passageway > header {
@@ -739,7 +732,7 @@
 }
 
 .field-page__sittinging-in-room {
-  overflow: hidden;
+  overflow: visible;
   padding: 0;
   border: 1px solid rgba(32, 37, 38, 0.34);
   background: #f4f0e6;
@@ -913,6 +906,20 @@
 
 .constitutional-voice--appliance_narration {
   background: rgba(248, 244, 236, 0.7);
+}
+
+.constitutional-voice--inquiringmenting_appliance {
+  border: 0.2rem double rgba(32, 37, 38, 0.58);
+  background: #f8f4ec;
+  text-align: center;
+}
+
+.constitutional-voice--inquiringmenting_appliance .constitutional-voice__kind {
+  color: #765b2d;
+}
+
+.constitutional-voice--inquiringmenting_appliance .constitutional-voice__body {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .constitutional-voice--appliance_narration .constitutional-voice__body {
@@ -1129,10 +1136,17 @@
 }
 
 .field-page__rail-line {
-  width: 1px;
+  width: 100%;
   height: clamp(3rem, 8vw, 7rem);
-  margin-left: clamp(1.5rem, 4vw, 3rem);
-  background: var(--psm-brass);
+  margin-left: 0;
+  background-image:
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color)),
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color));
+  background-position:
+    calc(50% - var(--constitutional-rail-separation)) 0,
+    calc(50% + var(--constitutional-rail-separation)) 0;
+  background-repeat: no-repeat;
+  background-size: 1px 100%;
 }
 
 .field-page__opening-ceremony {

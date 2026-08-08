@@ -38,11 +38,12 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       :general_stewarding_offices,
       :institutional_standing,
       :appliance_narration,
+      :inquiringmenting_appliance,
       :stewardly_guidance
     ],
     required: true
 
-  attr :title, :string, required: true
+  attr :title, :string, default: nil
   slot :inner_block, required: true
 
   def constitutional_voice(assigns) do
@@ -50,11 +51,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
     <section
       id={@id}
       class={["constitutional-voice", "constitutional-voice--#{@voice}"]}
-      aria-labelledby={"#{@id}-title"}
+      aria-labelledby={if(@title, do: "#{@id}-title", else: "#{@id}-kind")}
     >
       <header>
-        <p class="constitutional-voice__kind">{constitutional_voice_kind(@voice)}</p>
-        <h3 id={"#{@id}-title"}>{@title}</h3>
+        <p id={"#{@id}-kind"} class="constitutional-voice__kind">
+          {constitutional_voice_kind(@voice)}
+        </p>
+        <h3 :if={@title} id={"#{@id}-title"}>{@title}</h3>
       </header>
       <div class="constitutional-voice__body">{render_slot(@inner_block)}</div>
     </section>
@@ -62,10 +65,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   end
 
   defp constitutional_voice_kind(:general_stewarding_offices),
-    do: "The General Offices of the Appliance"
+    do: "The General Stewarding Offices of the Appliance"
 
   defp constitutional_voice_kind(:institutional_standing), do: "Institutional Standing"
   defp constitutional_voice_kind(:appliance_narration), do: "Appliance Narrationing"
+  defp constitutional_voice_kind(:inquiringmenting_appliance), do: "Inquiringmenting Appliance"
   defp constitutional_voice_kind(:stewardly_guidance), do: "Stewardly Guidance"
 
   attr :id, :string, required: true
@@ -92,8 +96,6 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       phx-hook=".CopyFurnishing"
       aria-labelledby={"#{@id}-title"}
     >
-      <h4 id={"#{@id}-title"}>This One Constitutional Locality</h4>
-
       <section
         id={@time_id}
         class="field-page__locality-commencement field-page__credentials-ground field-page__re-shackling-time-ground"
@@ -101,6 +103,17 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         <span>THIS ONE PIECE OF TIME</span>
         <strong>{@piece_of_time}</strong>
       </section>
+
+      <header class="field-page__sittinging-heading">
+        <h2 id={"#{@id}-title"}>The Sittinging-In Room</h2>
+        <p class="field-page__sittinging-subtitle">
+          The Constitutional Locality of Stewardly Availability
+        </p>
+      </header>
+
+      <h3 class="field-page__human-affordmentings-title">
+        This Constitutioning Human's Stewardly Affordmentings
+      </h3>
 
       <div class="field-page__leashing-instruments">
         <section class="field-page__instrument field-page__instrument--stand" aria-label="XT">
