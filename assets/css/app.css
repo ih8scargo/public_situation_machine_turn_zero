@@ -18,6 +18,187 @@
   themes: false;
 }
 
+/* Constitutional Furnishmenting Rail Line */
+.constitutional-rail {
+  --rail-ink: #162c2a;
+  --rail-green: #315e52;
+  --rail-brass: #b8893f;
+  --rail-paper: #f5f0e4;
+  --rail-line: rgba(22, 44, 42, 0.32);
+}
+
+.constitutional-rail__harbor,
+.constitutional-rail__placement,
+.constitutional-rail__future {
+  position: relative;
+  margin-inline: auto;
+  max-width: 74rem;
+  padding: clamp(2rem, 6vw, 5rem);
+  border: 1px solid var(--rail-line);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.76), rgba(245, 240, 228, 0.9));
+  box-shadow: 0 1.5rem 4rem rgba(22, 44, 42, 0.08);
+}
+
+.constitutional-rail__harbor {
+  overflow: hidden;
+  border-top: 0.45rem solid var(--rail-brass);
+}
+
+.constitutional-rail__harbor::after {
+  position: absolute;
+  right: -4rem;
+  bottom: -5rem;
+  width: 16rem;
+  height: 16rem;
+  border: 1px solid var(--rail-line);
+  border-radius: 50%;
+  content: "";
+}
+
+.constitutional-rail__harbor + .constitutional-rail__placement,
+.constitutional-rail__placement + .constitutional-rail__placement,
+.constitutional-rail__placement + .constitutional-rail__future {
+  margin-top: 4rem;
+}
+
+.constitutional-rail__placement::before {
+  position: absolute;
+  top: -4rem;
+  left: 50%;
+  width: 1px;
+  height: 4rem;
+  background: var(--rail-green);
+  content: "";
+}
+
+.constitutional-rail__placement--room {
+  border-radius: 5rem 5rem 0.5rem 0.5rem;
+  background: radial-gradient(circle at 50% 0, #fffdf6, var(--rail-paper) 66%);
+}
+
+.constitutional-rail__placement--ceremony {
+  border-color: var(--rail-brass);
+  background: linear-gradient(135deg, #fffdf6, #eee1c7);
+}
+
+.constitutional-rail__placement--station {
+  border-left: 0.5rem solid var(--rail-green);
+}
+
+.constitutional-rail__placement--terminus {
+  border-bottom: 0.5rem solid var(--rail-brass);
+}
+
+.constitutional-rail__bearing,
+.constitutional-rail__guidance {
+  max-width: 62rem;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 0.25rem solid var(--rail-brass);
+  background: rgba(184, 137, 63, 0.08);
+}
+
+.constitutional-rail__placement-header dl,
+.constitutional-rail__furnishings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 1.5rem 0;
+  background: var(--rail-line);
+}
+
+.constitutional-rail__placement-header dl div,
+.constitutional-rail__furnishings div {
+  padding: 1rem;
+  background: var(--rail-paper);
+}
+
+.constitutional-rail dt {
+  margin-bottom: 0.35rem;
+  font: 700 0.68rem/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.constitutional-rail dd {
+  margin: 0;
+}
+
+.constitutional-rail__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.constitutional-rail__inheritance,
+.constitutional-rail__fixed-affordment {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px dashed var(--rail-green);
+}
+
+.constitutional-rail__cross {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 18rem;
+  margin: 2rem 0;
+  background:
+    linear-gradient(var(--rail-green), var(--rail-green)) center / 2px 88% no-repeat,
+    linear-gradient(90deg, var(--rail-brass), var(--rail-brass)) center / 88% 2px no-repeat;
+}
+
+.constitutional-rail__cross-along,
+.constitutional-rail__cross-across {
+  position: absolute;
+  padding: 0.4rem 0.7rem;
+  background: var(--rail-paper);
+  font: 700 0.72rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.constitutional-rail__cross-along {
+  top: 0;
+}
+
+.constitutional-rail__cross-across {
+  right: 0;
+  top: 50%;
+}
+
+.constitutional-rail__shoes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.constitutional-rail__shoes article {
+  min-height: 9rem;
+  padding: 1.25rem;
+  border: 1px solid var(--rail-line);
+  border-radius: 50% 50% 0.75rem 0.75rem;
+  background: #fffdf6;
+  text-align: center;
+}
+
+.constitutional-rail__future {
+  border-style: dashed;
+  box-shadow: none;
+}
+
+.constitutional-rail__future li + li {
+  margin-top: 0.65rem;
+}
+
+@media (max-width: 48rem) {
+  .constitutional-rail__placement-header dl,
+  .constitutional-rail__furnishings,
+  .constitutional-rail__shoes {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* daisyUI theme plugin.
   We ship with two themes, a light one inspired on Phoenix colors and a dark one inspired
   on Elixir colors. Build your own at: https://daisyui.com/theme-generator/ */
