@@ -548,7 +548,7 @@
 }
 
 .field-page__standinging-landing {
-  margin: clamp(5rem, 11vw, 10rem) 0 clamp(2rem, 5vw, 4rem);
+  margin: clamp(5rem, 11vw, 10rem) auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2.5rem, 6vw, 5rem);
   border: 1px solid rgba(32, 37, 38, 0.42);
   background: rgba(248, 244, 236, 0.72);
@@ -559,9 +559,7 @@
 .field-page__opening-passageway,
 .field-page__sittinging-upper-unfold,
 .field-page__sittinging-in-room {
-  width: 100%;
-  max-width: 70rem;
-  margin: clamp(2rem, 6vw, 5rem) auto 0;
+  margin-top: clamp(2rem, 6vw, 5rem);
 }
 
 .field-page__snail-station-house {
@@ -667,6 +665,21 @@
   margin-inline: auto;
 }
 
+.field-page__sittinging-subtitle {
+  margin-top: 0.8rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(0.72rem, 1.6vw, 0.9rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.field-page__sittinging-heading h3 {
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 4vw, 2.75rem);
+}
+
 #turn-zero-sittinging-inquiry {
   max-width: 54rem;
   margin: 2rem auto 0;
@@ -675,8 +688,7 @@
   line-height: 1.35;
 }
 
-.field-page__sittinging-cabinets,
-.field-page__proto-shelf-halves {
+.field-page__sittinging-cabinets {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -687,8 +699,7 @@
   text-align: center;
 }
 
-.field-page__sittinging-cabinet + .field-page__sittinging-cabinet,
-.field-page__proto-shelf-halves > section + section {
+.field-page__sittinging-cabinet + .field-page__sittinging-cabinet {
   border-left: 1px solid rgba(32, 37, 38, 0.28);
 }
 
@@ -721,42 +732,17 @@
   margin: 0 clamp(1.5rem, 5vw, 4rem);
 }
 
-.field-page__proto-shelving > header {
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.field-page__proto-shelf-halves > section {
-  padding: 1.5rem;
-}
-
-.field-page__proto-shelf-halves ol {
-  margin-top: 1rem;
-  padding: 0;
-  list-style: none;
-}
-
-.field-page__proto-shelf-halves li,
-.field-page__empty-shelf {
-  display: flex;
-  min-height: 4rem;
-  align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid rgba(32, 37, 38, 0.32);
-}
-
-.field-page__empty-shelf {
-  color: transparent;
+.field-page__proto-shelving .field-page__shelf-half {
+  min-height: 5.5rem;
+  grid-template-rows: 1fr;
 }
 
 @media (max-width: 48rem) {
-  .field-page__sittinging-cabinets,
-  .field-page__proto-shelf-halves {
+  .field-page__sittinging-cabinets {
     grid-template-columns: 1fr;
   }
 
-  .field-page__sittinging-cabinet + .field-page__sittinging-cabinet,
-  .field-page__proto-shelf-halves > section + section {
+  .field-page__sittinging-cabinet + .field-page__sittinging-cabinet {
     border-left: 0;
     border-top: 1px solid rgba(32, 37, 38, 0.28);
   }

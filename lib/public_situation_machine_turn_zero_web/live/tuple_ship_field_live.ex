@@ -577,12 +577,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               <p class="psm-oag__reading">The Bearinging of Restfullyinglyment</p>
             </div>
             <div class="psm-oag__description">
-              <p>
-                Constitutioning Human, you now begin an inquiry into the Investituringment of the Seat of Stewardly Co-Occupancyingship.
-              </p>
-              <p>
-                Pass restfullyingly through this Rite of Passageway. The first constitutional locality waits beyond this Harbor Sign and opens only through your ceremonial UN-FOLD.
-              </p>
+              <p>From Here, inquiry may begin from rest.</p>
+              <p>Nothing need yet be furnished.</p>
+              <p>Nothing need yet be resolved.</p>
+              <p>The Sittinging-In Room stands prepared to receive what is already present.</p>
             </div>
           </section>
         </section>
@@ -610,7 +608,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         >
           <div class="field-page__sittinging-time-band">THIS ONE PIECE OF TIME</div>
           <header class="field-page__sittinging-heading">
-            <h2 id="turn-zero-sittinging-in-room-title">This One Would-Be Tuple Ship</h2>
+            <h2 id="turn-zero-sittinging-in-room-title">The Sittinging-In Room</h2>
+            <p class="field-page__sittinging-subtitle">
+              The Constitutional Locality of Stewardly Availability
+            </p>
+            <h3>This One Would-Be Tuple Ship</h3>
             <p id="turn-zero-sittinging-inquiry">
               As a Constitutioning Human, what am I Sittinging-In with in my Situationings Here, upon This One Piece of Time?
             </p>
@@ -668,42 +670,37 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
           <section
             id="proto-stewardly-captain-cob-shelving"
-            class="field-page__constitutional-shelf field-page__proto-shelving"
+            class="field-page__captain-shelves field-page__proto-shelving"
             aria-labelledby="proto-shelving-title"
           >
-            <header>
-              <h3 id="proto-shelving-title">This Stewardly Captain COB's Shelves</h3>
-            </header>
-            <div class="field-page__proto-shelf-halves">
-              <section id="proto-xt-shelves" aria-labelledby="proto-xt-shelves-title">
-                <h4 id="proto-xt-shelves-title">XT — Constitutional Standinging</h4>
-                <ol>
-                  <li>The Zeroeth Appointmenting</li>
-                  <li>The First Appointmenting</li>
-                  <li>The Second Appointmenting</li>
-                  <li>The Third Appointmenting</li>
-                  <li>The Fourth Appointmenting</li>
-                  <li>The Fifth Appointmenting</li>
-                  <li>The Sixth Appointmenting</li>
-                </ol>
+            <h5 id="proto-shelving-title">This Stewardly Captain COB's Shelves</h5>
+            <div class="field-page__shelf-column-headings">
+              <section id="proto-xt-shelves-title">
+                <strong>XT</strong>
+                <span>Constitutional Standinging</span>
               </section>
-              <section id="proto-yt-shelves" aria-labelledby="proto-yt-shelves-title">
-                <h4 id="proto-yt-shelves-title">YT — Stewardly Furnishingment</h4>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
-                <div class="field-page__empty-shelf" aria-hidden="true"></div>
+              <section id="proto-yt-shelves-title">
+                <strong>YT</strong>
+                <span>Stewardly Furnishingment</span>
               </section>
             </div>
+            <ol id="proto-paired-shelves">
+              <li
+                :for={appointmenting <- sittinging_appointmentings()}
+                class="field-page__constitutional-shelf"
+              >
+                <section class="field-page__shelf-half" aria-label="XT">
+                  <strong>{appointmenting}</strong>
+                </section>
+                <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true"></section>
+              </li>
+            </ol>
           </section>
 
           <footer class="field-page__sittinging-departure">
             <h3>Stewardly Guidance</h3>
             <p>
-              Sit for as long as your inquiry asks. When you choose, you may continue toward inquiry into the Investituringment of the Seat of Stewardly Co-Occupancyingship.
+              Inquiry may remain Here for as long as it needs. If this Constitutioning Human wishes to continue, inquiry may proceed toward the Investituringment of The Seat of Stewardly Co-Occupancyingship.
             </p>
             <button
               :if={@entrance_stage == :sittinging_room}
@@ -1892,6 +1889,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     |> String.graphemes()
     |> Enum.chunk_every(4)
     |> Enum.map_join(" ", &Enum.join/1)
+  end
+
+  defp sittinging_appointmentings do
+    [
+      "The Zeroeth Appointmenting",
+      "The First Appointmenting",
+      "The Second Appointmenting",
+      "The Third Appointmenting",
+      "The Fourth Appointmenting",
+      "The Fifth Appointmenting",
+      "The Sixth Appointmenting"
+    ]
   end
 
   defp correspondence_href(channel, destination, assigns) do
