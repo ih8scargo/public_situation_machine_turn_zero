@@ -547,6 +547,88 @@
   animation: rail-entrance-reveal 420ms ease-out both;
 }
 
+.constitutional-rail-line {
+  --constitutional-rail-color: rgba(118, 91, 45, 0.72);
+  --constitutional-rail-separation: 0.75rem;
+  background-color: #eee9df;
+  background-image:
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color)),
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color));
+  background-position:
+    calc(50% - var(--constitutional-rail-separation)) 0,
+    calc(50% + var(--constitutional-rail-separation)) 0;
+  background-repeat: no-repeat;
+  background-size: 1px 100%;
+}
+
+.constitutional-rail-line > * {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 70rem;
+  margin-inline: auto;
+}
+
+#tuple-ship-field-threshold {
+  max-width: 100% !important;
+}
+
+.field-page__furnishmenting-rail {
+  background-image:
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color)),
+    linear-gradient(var(--constitutional-rail-color), var(--constitutional-rail-color));
+  background-position:
+    calc(50% - var(--constitutional-rail-separation)) 0,
+    calc(50% + var(--constitutional-rail-separation)) 0;
+  background-repeat: no-repeat;
+  background-size: 1px 100%;
+}
+
+.constitutional-rail__station,
+.field-page__furnishmenting-rail .field-page__station,
+.field-page__furnishmenting-rail .field-page__station-opening {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+}
+
+.constitutional-rail__station::before,
+.constitutional-rail__station::after,
+.field-page__furnishmenting-rail .field-page__station::before,
+.field-page__furnishmenting-rail .field-page__station::after,
+.field-page__furnishmenting-rail .field-page__station-opening::before,
+.field-page__furnishmenting-rail .field-page__station-opening::after {
+  position: absolute;
+  z-index: 5;
+  left: calc(50% - 1.5rem);
+  width: 3rem;
+  height: 1.5rem;
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  content: "";
+  pointer-events: none;
+}
+
+.constitutional-rail__station::before,
+.field-page__furnishmenting-rail .field-page__station::before,
+.field-page__furnishmenting-rail .field-page__station-opening::before {
+  top: 0;
+  background-image:
+    linear-gradient(to bottom right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
+    linear-gradient(to bottom left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
+}
+
+.constitutional-rail__station::after,
+.field-page__furnishmenting-rail .field-page__station::after,
+.field-page__furnishmenting-rail .field-page__station-opening::after {
+  bottom: 0;
+  background-image:
+    linear-gradient(to top right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
+    linear-gradient(to top left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
+}
+
 .field-page__standinging-landing {
   margin: clamp(5rem, 11vw, 10rem) auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2.5rem, 6vw, 5rem);
@@ -593,7 +675,7 @@
 }
 
 .field-page__snail-station-portico,
-.field-page__snail-station-notice {
+.field-page__snail-station-house > .constitutional-voice {
   position: relative;
   z-index: 1;
   max-width: 52rem;
@@ -602,13 +684,6 @@
 
 .field-page__snail-station-portico h2 span {
   display: block;
-}
-
-.field-page__snail-station-notice {
-  margin-top: 2rem;
-  padding: 1rem;
-  border-block: 1px solid rgba(32, 37, 38, 0.28);
-  font-family: Georgia, "Times New Roman", serif;
 }
 
 .field-page__opening-passageway {
@@ -629,6 +704,32 @@
 
 .field-page__passageway-harbor-sign {
   margin-top: 2rem;
+}
+
+.field-page__prepositioning-marker {
+  display: grid;
+  width: 100%;
+  min-height: 7rem;
+  margin-top: clamp(2rem, 6vw, 5rem);
+  place-items: center;
+  border-block: 1px solid rgba(32, 37, 38, 0.38);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__prepositioning-marker p {
+  align-self: end;
+  font: 700 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.12em;
+}
+
+.field-page__prepositioning-marker strong {
+  align-self: start;
+  margin-top: 0.5rem;
+  color: var(--psm-brass);
+  font: 900 clamp(1.5rem, 4vw, 2.5rem)/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.18em;
 }
 
 .field-page__sittinging-upper-unfold {
@@ -678,6 +779,16 @@
   margin-top: clamp(2rem, 5vw, 3.5rem);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.6rem, 4vw, 2.75rem);
+}
+
+.field-page__human-affordmentings-title {
+  margin: 0;
+  padding: 1.25rem clamp(1.5rem, 4vw, 3rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.28);
+  background: rgba(215, 204, 183, 0.55);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  text-align: center;
 }
 
 #turn-zero-sittinging-inquiry {
@@ -732,9 +843,95 @@
   margin: 0 clamp(1.5rem, 5vw, 4rem);
 }
 
+.field-page__sittinging-divider {
+  height: clamp(1.25rem, 3vw, 2rem);
+  margin: clamp(2rem, 5vw, 4rem) 0;
+  border-block: 1px solid rgba(32, 37, 38, 0.3);
+  background: var(--psm-steel);
+}
+
+.field-page__reserved-affordmenting-shelves,
+.field-page__sittinging-voices {
+  margin-inline: clamp(1.5rem, 5vw, 4rem);
+}
+
+.field-page__reserved-affordmenting-shelves .field-page__shelf-half {
+  min-height: 3.5rem;
+  grid-template-rows: 1fr;
+}
+
+.field-page__sittinging-voices {
+  display: grid;
+  gap: 1.25rem;
+  margin-block: clamp(2rem, 5vw, 4rem);
+}
+
+.field-page__would-be-tuple-heading {
+  margin-top: clamp(2rem, 5vw, 4rem);
+}
+
 .field-page__proto-shelving .field-page__shelf-half {
   min-height: 5.5rem;
   grid-template-rows: 1fr;
+}
+
+/* Reusable constitutional voices */
+.constitutional-voice {
+  position: relative;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.constitutional-voice__kind {
+  font: 800 0.68rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.constitutional-voice h3 {
+  margin-top: 0.65rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.25rem, 2.8vw, 1.85rem);
+}
+
+.constitutional-voice__body {
+  margin-top: 1rem;
+  line-height: 1.65;
+}
+
+.constitutional-voice--general_stewarding_offices {
+  margin-top: 2rem;
+  border-block: 1px solid rgba(32, 37, 38, 0.34);
+  background: rgba(244, 240, 230, 0.82);
+  text-align: center;
+}
+
+.constitutional-voice--institutional_standing {
+  border-left: 0.35rem solid var(--psm-steel);
+  background: rgba(32, 37, 38, 0.055);
+}
+
+.constitutional-voice--appliance_narration {
+  background: rgba(248, 244, 236, 0.7);
+}
+
+.constitutional-voice--appliance_narration .constitutional-voice__body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.88rem;
+}
+
+.constitutional-voice--stewardly_guidance {
+  border-color: rgba(118, 91, 45, 0.55);
+  background: linear-gradient(135deg, rgba(238, 231, 217, 0.92), rgba(248, 244, 236, 0.78));
+}
+
+.constitutional-voice--stewardly_guidance::before {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.75rem;
+  color: #765b2d;
+  content: "◆";
+  font-size: 0.65rem;
 }
 
 @media (max-width: 48rem) {

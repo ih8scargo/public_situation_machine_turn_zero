@@ -28,6 +28,46 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   """
   use Phoenix.Component
 
+  @doc """
+  Renders one of the recurring constitutional voices used throughout the appliance.
+  """
+  attr :id, :string, required: true
+
+  attr :voice, :atom,
+    values: [
+      :general_stewarding_offices,
+      :institutional_standing,
+      :appliance_narration,
+      :stewardly_guidance
+    ],
+    required: true
+
+  attr :title, :string, required: true
+  slot :inner_block, required: true
+
+  def constitutional_voice(assigns) do
+    ~H"""
+    <section
+      id={@id}
+      class={["constitutional-voice", "constitutional-voice--#{@voice}"]}
+      aria-labelledby={"#{@id}-title"}
+    >
+      <header>
+        <p class="constitutional-voice__kind">{constitutional_voice_kind(@voice)}</p>
+        <h3 id={"#{@id}-title"}>{@title}</h3>
+      </header>
+      <div class="constitutional-voice__body">{render_slot(@inner_block)}</div>
+    </section>
+    """
+  end
+
+  defp constitutional_voice_kind(:general_stewarding_offices),
+    do: "The General Offices of the Appliance"
+
+  defp constitutional_voice_kind(:institutional_standing), do: "Institutional Standing"
+  defp constitutional_voice_kind(:appliance_narration), do: "Appliance Narrationing"
+  defp constitutional_voice_kind(:stewardly_guidance), do: "Stewardly Guidance"
+
   attr :id, :string, required: true
   attr :parkinging_stand, :string, required: true
   attr :shackling_pin, :string, required: true

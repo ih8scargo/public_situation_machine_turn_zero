@@ -8,8 +8,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   test "prepends the Station House, Passageway, and skeletal Sittinging-In Room", %{conn: conn} do
     {:ok, view, html} = live(conn, ~p"/this-tuple-ship-field")
 
+    assert has_element?(view, "#tuple-ship-field-page.constitutional-rail-line")
+
+    assert has_element?(
+             view,
+             ".constitutional-rail__harbor-station > #tuple-ship-field-threshold"
+           )
+
     assert has_element?(view, "#tuple-ship-field-threshold")
-    assert has_element?(view, "#resonancing-snail-station-house")
+    assert has_element?(view, "#resonancing-snail-station-house.constitutional-rail__station")
+
+    assert has_element?(
+             view,
+             "#station-house-general-offices-welcome.constitutional-voice--general_stewarding_offices",
+             "Welcoming Constitutioning Humans."
+           )
+
+    assert has_element?(
+             view,
+             "#station-house-general-offices-welcome",
+             "This One Common Wheeling of the Same General Civilizationalizing Constitutioningable Geometry"
+           )
 
     assert has_element?(
              view,
@@ -33,7 +52,16 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     view |> element("#enter-opening-passageway") |> render_click()
 
-    assert has_element?(view, "#opening-passageway")
+    assert has_element?(view, "#opening-passageway.constitutional-rail__station")
+    assert has_element?(view, "#opening-passageway-title", "The Opening Rite of Passageway")
+
+    assert has_element?(
+             view,
+             "#before-prepositioning-marker",
+             "Segmentationing through Prepositioning"
+           )
+
+    assert has_element?(view, "#before-prepositioning-marker", "BEFORE")
     assert has_element?(view, "#restfullyinglyment-harbor-sign", "Standinging in Regard")
 
     assert has_element?(
@@ -69,6 +97,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
 
     assert has_element?(view, "#turn-zero-sittinging-in-room", "THIS ONE PIECE OF TIME")
+    assert has_element?(view, "#turn-zero-sittinging-in-room.constitutional-rail__station")
     assert has_element?(view, "#turn-zero-sittinging-in-room-title", "The Sittinging-In Room")
 
     assert has_element?(
@@ -90,7 +119,47 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(view, "#sittinging-xt-cabinet", "What is feeling Present to me Here?")
     view |> element("#toggle-sittinging-yt-cabinet") |> render_click()
     assert has_element?(view, "#sittinging-yt-cabinet-title", "This One Absence Cabinet")
-    assert has_element?(view, "#sittinging-yt-cabinet", "What is feeling Absent to me Here?")
+
+    assert has_element?(
+             view,
+             "#sittinging-yt-cabinet",
+             "What is feeling Absent to me Here within what is Present to me Here?"
+           )
+
+    assert has_element?(
+             view,
+             "#turn-zero-sittinging-in-room",
+             "This Constitutioning Human's Stewardly Affordmentings"
+           )
+
+    assert has_element?(view, "#constitutioning-human-reserved-shelves")
+    assert has_element?(view, "#constitutioning-human-reserved-shelves > ol > li:nth-child(7)")
+    refute has_element?(view, "#constitutioning-human-reserved-shelves", "Appointmenting")
+
+    assert has_element?(
+             view,
+             "#sittinging-room-stewardly-question.constitutional-voice--appliance_narration"
+           )
+
+    assert has_element?(
+             view,
+             "#sittinging-room-stewardly-guidance.constitutional-voice--stewardly_guidance"
+           )
+
+    assert has_element?(
+             view,
+             ".field-page__would-be-tuple-heading",
+             "Standing within OUR CANONICAL TUPLE"
+           )
+
+    room_html = render(view)
+    {human_shelves_index, _} = :binary.match(room_html, "constitutioning-human-reserved-shelves")
+    {stewardly_question_index, _} = :binary.match(room_html, "sittinging-room-stewardly-question")
+    {would_be_tuple_index, _} = :binary.match(room_html, "field-page__would-be-tuple-heading")
+    {captain_shelves_index, _} = :binary.match(room_html, "proto-stewardly-captain-cob-shelving")
+    assert human_shelves_index < stewardly_question_index
+    assert stewardly_question_index < would_be_tuple_index
+    assert would_be_tuple_index < captain_shelves_index
 
     assert has_element?(
              view,
@@ -130,6 +199,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     view |> element("#unfold-existing-rail-line") |> render_click()
     assert has_element?(view, "#terrestrial-computer-standinging-landing")
+
+    assert has_element?(
+             view,
+             "#terrestrial-computer-standinging-landing.constitutional-rail__station"
+           )
+
     refute has_element?(view, "#constitutional-furnishmenting-rail")
   end
 
@@ -166,6 +241,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     view |> element("#unfold-constitutional-rail-line") |> render_click()
 
+    assert has_element?(view, "#constitutional-furnishmenting-rail .field-page__station")
     assert has_element?(view, "#dual-stewardship-geometry")
     assert has_element?(view, "#stewardship-rail-split")
     assert has_element?(view, ".field-page__stewardship-pair:nth-child(5)")
@@ -202,12 +278,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(
              view,
+             ".constitutional-voice--appliance_narration[aria-labelledby=appliance-narration-voice]"
+           )
+
+    assert has_element?(
+             view,
              "#appliance-narration-voice + p",
              "may now stand choosing to Take Holdinging"
            )
 
     assert has_element?(view, "#institutional-standing-voice", "Institutional Standing")
     assert has_element?(view, "#stewardly-guidance-voice", "Stewardly Guidance")
+
+    assert has_element?(
+             view,
+             ".constitutional-voice--institutional_standing[aria-labelledby=institutional-standing-voice]"
+           )
+
+    assert has_element?(
+             view,
+             ".constitutional-voice--stewardly_guidance[aria-labelledby=stewardly-guidance-voice]"
+           )
 
     assert has_element?(
              view,
