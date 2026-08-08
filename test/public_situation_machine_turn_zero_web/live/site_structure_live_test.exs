@@ -168,74 +168,130 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     refute has_element?(view, "#unfold-position-7")
   end
 
-  test "tuple ship field unfolds constitutionally through Position Two", %{conn: conn} do
+  test "tuple ship field places appointmenting before its public field explanation", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
 
     assert has_element?(view, "#tuple-ship-field-page")
-    assert has_element?(view, "#harbor-sign")
-    refute has_element?(view, "#resonancing-snail-house-entrance")
 
-    view |> element("#enter-resonancing-snail-house") |> render_click()
-    assert has_element?(view, "#resonancing-snail-house-entrance", "first destination")
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING"
+           )
 
-    view |> element("#approach-sittinging-in-room") |> render_click()
-    assert has_element?(view, "#sittinging-in-room", "first constitutional locality")
-    assert has_element?(view, "#sittinging-in-room", "The Bearinging of Restfullyinglyment")
-    refute has_element?(view, "#division-of-constitutioning-humans")
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "The Bearinging of Lawful Encounteringmenting"
+           )
 
-    view |> element("#un-fold-sittinging-in-room") |> render_click()
-    assert has_element?(view, "#sittinging-in-room-unfolded")
-    assert has_element?(view, "#re-fold-sittinging-in-room")
+    assert has_element?(view, "#tuple-ship-field-threshold", "You've made it Here.")
 
-    view |> element("#continue-to-division") |> render_click()
-    assert has_element?(view, "#division-of-constitutioning-humans")
-    refute has_element?(view, "#parkinging-standinging-landinging")
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "From Here, Constitutioning Humans may approach This Division of Constitutioning Humans through The Terrestrial Computer Free Public Parkinging Standinging Landinging."
+           )
 
-    view |> element("#continue-to-investiturement") |> render_click()
-    assert has_element?(view, "#stewardly-co-occupancyingship-investiturement")
-    refute has_element?(view, "#parkinging-standinging-landinging")
+    refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
+    refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
+    assert has_element?(view, "#terrestrial-computer-standinging-landing")
 
-    view |> element("#accept-stewardly-investiturement") |> render_click()
-    assert has_element?(view, "#parkinging-standinging-landinging")
-    view |> element("#park-terrestrial-computer") |> render_click()
+    assert has_element?(
+             view,
+             ".field-page__entrance-constitutional-header",
+             "THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE"
+           )
+
+    assert has_element?(
+             view,
+             "#terrestrial-computer-standinging-landing-title",
+             "THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING"
+           )
+
+    assert has_element?(
+             view,
+             ".field-page__entrance-division-title",
+             "This Division of Constitutioning Humans"
+           )
+
+    assert has_element?(view, "#inquire-within", "Inquire into The Zeroeth Appointmenting")
+    assert has_element?(view, "#constitutional-reception-form")
+    assert has_element?(view, "#first-arrival-path[aria-label='XT']")
+    assert has_element?(view, "#returning-constitutioning-human-path", "YT")
+
+    assert has_element?(
+             view,
+             "#entrance-rail-line-orientation",
+             "stands Constitutioning from its first Station"
+           )
+
+    refute has_element?(view, "#constitutional-furnishmenting-rail")
+
+    view |> element("#inquire-within") |> render_click()
+
+    assert has_element?(view, "#constitutional-furnishmenting-rail")
+    refute has_element?(view, "#entrance-rail-line-orientation")
+
+    assert has_element?(
+             view,
+             "#constitutional-furnishmenting-rail",
+             "now stands in Readyingment for lawful Unfoldingmenting"
+           )
+
+    assert has_element?(view, "#rail-line-opening-ceremony")
+    assert has_element?(view, "#unfold-constitutional-rail-line")
+    refute has_element?(view, "#terrestrial-computer-parkinging-station")
+    refute has_element?(view, "#parkinging-stand")
+    refute has_element?(view, "#shackling-pin")
+    refute has_element?(view, "#recovery-methods-form")
+    refute has_element?(view, ".field-page__section")
+
+    view |> element("#unfold-constitutional-rail-line") |> render_click()
+
+    view |> element("#take-holdinging-of-leashing") |> render_click()
+
     assert has_element?(view, "#parkinging-stand")
     assert has_element?(view, "#shackling-pin")
-    assert has_element?(view, "#position-zero-traversaling-station")
-
-    view |> element("#complete-zeroeth-appointmenting") |> render_click()
-    assert has_element?(view, "#position-one-traversaling-station")
+    assert has_element?(view, "#leashing-ceremony-time")
+    assert has_element?(view, "#leashing-naming")
 
     view
-    |> form("#first-appointmenting-form",
-      first_appointmenting: %{
-        subject: "This One Watershed",
-        situationing_kind: "Watershed Stewardship"
-      }
-    )
+    |> form("#leashing-name-form", leashing: %{name: "The Structure Situationing"})
     |> render_submit()
 
-    assert has_element?(view, "#position-two-soundinging-bell-station")
-    assert has_element?(view, "#projectioning-cross", "Across")
-    assert has_element?(view, "#three-traversaling-shoes article:nth-child(1)")
-    assert has_element?(view, "#three-traversaling-shoes article:nth-child(2)")
-    assert has_element?(view, "#three-traversaling-shoes article:nth-child(3)")
-    assert has_element?(view, "#subsequent-build-rounds", "RE-Stepping Room")
-    refute has_element?(view, "#re-stepping-room")
-    refute has_element?(view, "#turn-index-navigation")
-  end
+    view |> element("#unfold-station-02") |> render_click()
+    refute has_element?(view, "#earthly-locality-form")
+    view |> element(~s|button[phx-value-appointmenting="lanterning"]|) |> render_click()
+    assert has_element?(view, "#place-library")
+    view |> element("#continue-without-earthly-locality") |> render_click()
 
-  test "Sittinging-In Room may RE-FOLD to its inherited entrance", %{conn: conn} do
-    {:ok, view, _html} = live(conn, ~p"/this-tuple-ship-field")
+    assert has_element?(view, ".field-page__section")
+    assert has_element?(view, ".field-page__section", "One machine for Every One.")
+    assert has_element?(view, ".field-page__section", "A civilization holding with no center.")
 
-    view |> element("#enter-resonancing-snail-house") |> render_click()
-    view |> element("#approach-sittinging-in-room") |> render_click()
-    view |> element("#un-fold-sittinging-in-room") |> render_click()
-    view |> element("#re-fold-sittinging-in-room") |> render_click()
+    assert has_element?(
+             view,
+             ~s|a[href="https://www.kickstarter.com/projects/situationmachine/the-public-situation-machine-inhabitationingable-computing"]|,
+             "Kickstarter story"
+           )
 
-    assert has_element?(view, "#resonancing-snail-house-entrance")
-    assert has_element?(view, "#approach-sittinging-in-room")
-    refute has_element?(view, "#sittinging-in-room")
-    refute has_element?(view, "#division-of-constitutioning-humans")
+    html = render(view)
+    {orientationing_index, _} = :binary.match(html, "tuple-ship-field-threshold")
+    {furnishmenting_index, _} = :binary.match(html, "constitutional-furnishmenting-rail")
+    {terminus_index, _} = :binary.match(html, "tuple-field-terminus-harbor")
+
+    {public_field_harbor_index, _} =
+      :binary.match(html, "public-field-discoveringmenting-harbor")
+
+    {field_explanation_index, _} =
+      :binary.match(html, "By reserving This One Terrestrial Computer")
+
+    assert orientationing_index < furnishmenting_index
+    assert furnishmenting_index < terminus_index
+    assert terminus_index < public_field_harbor_index
+    assert public_field_harbor_index < field_explanation_index
+    refute html =~ "This Locality presently furnishes regard"
   end
 
   test "the appliance locality is furnished", %{conn: conn} do
