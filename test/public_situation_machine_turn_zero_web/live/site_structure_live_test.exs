@@ -185,13 +185,21 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
              "The Bearinging of Lawful Encounteringmenting"
            )
 
-    assert has_element?(view, "#tuple-ship-field-threshold", "You've made it Here.")
+    assert has_element?(view, "#tuple-ship-field-threshold", "Welcome.")
 
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "From Here, Constitutioning Humans may approach This Division of Constitutioning Humans through The Terrestrial Computer Free Public Parkinging Standinging Landinging."
+             "From Here, Constitutioning Humans may approach the Opening Passageway through its public entrance:"
            )
+
+    assert has_element?(
+             view,
+             "#tuple-ship-field-threshold",
+             "The Resonancing Snail Station House."
+           )
+
+    refute has_element?(view, "#tuple-ship-field-threshold", "Division of Constitutioning Humans")
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
     refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
