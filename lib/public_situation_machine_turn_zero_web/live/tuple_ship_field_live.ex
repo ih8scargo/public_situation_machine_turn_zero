@@ -506,6 +506,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         id="tuple-ship-field-page"
         class="site-page field-page constitutional-rail-line"
         data-turn-zero-established={to_string(@entrance_stage in [:sittinging_room, :rail])}
+        data-zeroeth-appointed={to_string(@ceremony_completed?)}
         phx-hook=".ConstitutionalReturn"
       >
         <div class="constitutional-rail__station constitutional-rail__harbor-station">
@@ -517,384 +518,478 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <:description>
               <p>Welcome.</p>
               <p>
-                This Harbor stands before This Encounteringmenting Wharf.
+                The Harbor stands before This Encounteringmenting Wharf.
               </p>
               <p>
-                From Here, Constitutioning Humans may approach The Opening Rite of Passageway through its public entrance, The Resonancing Snail Station House.
+                From Here, Constitutioning Humans may approach The Opening Rite of Passageway through its public entrance, The Resonancing Snail Shellmenting Station House.
               </p>
             </:description>
           </Layouts.locality_threshold>
         </div>
 
-        <section
-          id="resonancing-snail-station-house"
-          class="field-page__snail-station-house constitutional-rail__station"
-          aria-labelledby="resonancing-snail-station-house-title"
-        >
-          <header class="field-page__snail-station-portico">
-            <p class="site-page__eyebrow">
-              Public Entrance · Constitutional Furnishmenting Rail Line
-            </p>
-            <h2 id="resonancing-snail-station-house-title">
-              <span>The Resonancing Snail</span>
-              <span>Station House</span>
-            </h2>
-            <p>
-              This Grand Civic Station House stands furnished for stewardly arrival, quiet inquiringmenting, and Lawful Passageway into the Constitutional Furnishmenting Rail Line.
-            </p>
-            <p>From Here, approaching becomes inquiringmenting.</p>
-          </header>
-
-          <.constitutional_voice
-            id="station-house-general-offices-welcome"
-            voice={:general_stewarding_offices}
-            title="Welcoming Constitutioning Humans."
+        <section id="station-tz-region" class="field-page__station-tz-region">
+          <section
+            id="resonancing-snail-station-house"
+            class="field-page__snail-station-house constitutional-rail__station"
+            aria-labelledby="resonancing-snail-station-house-title"
           >
-            <p>
-              From Here, we may enter This One Common Wheeling of the Same General Civilizationalizing Constitutioningable Geometry, wherethrough Stewardly Inhabitationingment becomes established by Lawful Passageway over Discrete Turns.
-            </p>
-          </.constitutional_voice>
+            <header class="field-page__snail-station-portico">
+              <p class="site-page__eyebrow">
+                Public Entrance · Constitutional Furnishmenting Rail Line
+              </p>
+              <h2 id="resonancing-snail-station-house-title">
+                <span>The Resonancing Snail</span>
+                <span>Shellmenting Station House</span>
+              </h2>
+              <p class="field-page__station-house-aspect">Exterior</p>
+              <p>
+                The Resonancing Snail Shellmenting Station House stands at the Harbor Mouth, its great spiraling shell roof rising above This Encounteringmenting Wharf in lawful welcome toward Arrival and Return.
+              </p>
+              <p>
+                Here, Constitutioning Humans gather beneath one common civic roof before entering upon This Constitutional Furnishmenting Rail Line.
+              </p>
+              <p class="field-page__station-house-aspect">Interior</p>
+              <p>
+                Within, warm chambers stand furnished for quiet Stewardly Inhabitationing.
+              </p>
+              <p>
+                Conversation, inquiry, and constitutional laboringings stand resonancing gently throughout the Shellmenting as Constitutioning Humans arrive, return, and continue Stewardly Passageway over Discrete Turns.
+              </p>
+            </header>
 
-          <button
-            :if={@entrance_stage == :station_house}
-            id="enter-opening-passageway"
-            type="button"
-            class="field-page__action"
-            phx-click="enter-opening-passageway"
-          >
-            Enter The Opening Rite of Passageway
-          </button>
-        </section>
+            <.constitutional_voice
+              id="station-house-general-offices-welcome"
+              voice={:general_stewarding_offices}
+              title="Welcoming Constitutioning Humans."
+            >
+              <p>
+                From Here, we may enter This One Common Wheeling of the Same General Civilizationalizing Constitutioningable Geometry, wherethrough Stewardly Inhabitationingment becomes established by Lawful Passageway over Discrete Turns.
+              </p>
+            </.constitutional_voice>
 
-        <section
-          :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
-          id="opening-passageway"
-          class="field-page__opening-passageway constitutional-rail__station"
-          aria-labelledby="opening-passageway-title"
-        >
-          <header>
-            <p class="site-page__eyebrow">The Ceremonial Threshold</p>
-            <h2 id="opening-passageway-title">The Opening Rite of Passageway</h2>
-          </header>
+            <button
+              :if={@entrance_stage == :station_house}
+              id="enter-opening-passageway"
+              type="button"
+              class="field-page__action"
+              phx-click="enter-opening-passageway"
+            >
+              Enter The Opening Rite of Passageway
+            </button>
+          </section>
 
           <section
-            id="restfullyinglyment-harbor-sign"
-            class="psm-oag field-page__passageway-harbor-sign"
-            aria-labelledby="restfullyinglyment-harbor-sign-title"
+            :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
+            id="opening-passageway"
+            class="field-page__opening-passageway constitutional-rail__station"
+            aria-labelledby="opening-passageway-title"
           >
-            <div class="psm-oag__instrument-plate">
-              <p class="psm-oag__eyebrow">The General Stewarding Offices of the Appliance</p>
-              <h2 id="restfullyinglyment-harbor-sign-title">Standinging in Regard</h2>
-              <p class="psm-oag__reading">The Bearinging of Restfullyinglyment</p>
-            </div>
-            <div class="psm-oag__description">
-              <p>From Here, inquiry may begin from rest.</p>
-              <p>Nothing need yet be furnished.</p>
-              <p>Nothing need yet be resolved.</p>
-              <p>What is already present may simply be held in Stewardly Regard.</p>
-            </div>
+            <header>
+              <p class="site-page__eyebrow">The Ceremonial Threshold</p>
+              <h2 id="opening-passageway-title">The Opening Rite of Passageway</h2>
+            </header>
+
+            <section
+              id="restfullyinglyment-harbor-sign"
+              class="psm-oag field-page__passageway-harbor-sign"
+              aria-labelledby="restfullyinglyment-harbor-sign-title"
+            >
+              <div class="psm-oag__instrument-plate">
+                <p class="psm-oag__eyebrow">The General Stewarding Offices of the Appliance</p>
+                <h2 id="restfullyinglyment-harbor-sign-title">Standinging in Regard</h2>
+                <p class="psm-oag__reading">The Bearinging of Restfullyinglyment</p>
+              </div>
+              <div class="psm-oag__description">
+                <p>
+                  The Sittinging-In Room stands furnished as the first Constitutional Locality of Stewardly Inhabitationing.
+                </p>
+                <p>
+                  Constitutioning Humans may come Here to rest within their Situationings, standing upon This One Piece of Time.
+                </p>
+                <p>
+                  Here, Stewardly Inquiry first comes into lawful Availability through Passageway over Discrete Turns.
+                </p>
+              </div>
+            </section>
           </section>
-        </section>
 
-        <section
-          :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
-          id="before-prepositioning-marker"
-          class="field-page__prepositioning-marker"
-          aria-labelledby="before-prepositioning-marker-title"
-        >
-          <p id="before-prepositioning-marker-title">Segmentationing through Prepositioning</p>
-          <strong>BEFORE</strong>
-        </section>
-
-        <div
-          :if={@entrance_stage == :passageway}
-          id="sittinging-in-room-upper-unfold"
-          class="field-page__sittinging-upper-unfold"
-        >
-          <button
-            id="unfold-turn-zero-sittinging-in-room"
-            type="button"
-            class="field-page__action"
-            phx-click="unfold-sittinging-in-room"
-          >
-            UN-FOLD into The Sittinging-In Room
-          </button>
-        </div>
-
-        <article
-          :if={@entrance_stage == :sittinging_room}
-          id="turn-zero-sittinging-in-room"
-          class="field-page__sittinging-in-room field-page__leashing-locality constitutional-rail__station"
-          aria-labelledby="turn-zero-sittinging-in-room-title"
-        >
-          <div class="field-page__sittinging-time-band">THIS ONE PIECE OF TIME</div>
-          <header class="field-page__sittinging-heading">
-            <h2 id="turn-zero-sittinging-in-room-title">The Sittinging-In Room</h2>
-            <p class="field-page__sittinging-subtitle">
-              The Constitutional Locality of Stewardly Availability
+          <header :if={@entrance_stage == :rail} class="field-page__rail-header">
+            <h2 id="constitutional-furnishmenting-rail-title">
+              This Constitutional Furnishmenting Rail Line
+            </h2>
+            <p>
+              This Constitutional Furnishmenting Rail Line now stands in Readyingment for lawful Unfoldingmenting.
             </p>
+            <p>This Constitutional Furnishmenting Rail Line begins at The Chapel-by-the-Sea.</p>
           </header>
 
-          <div class="field-page__sittinging-voices field-page__sittinging-inquiry-voice">
-            <.constitutional_voice
-              id="sittinging-room-stewardly-question"
-              voice={:inquiringmenting_appliance}
+          <div id="before-prepositioning-stitch" class="field-page__prepositioning-stitch">
+            <section
+              :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
+              id="before-prepositioning-marker"
+              class="field-page__prepositioning-marker"
+              aria-labelledby="before-prepositioning-marker-title"
             >
-              <p id="turn-zero-sittinging-inquiry">
-                As a Constitutioning Human, what am I Sittinging-In with in my Situationings Here, upon This One Piece of Time?
+              <p id="before-prepositioning-marker-title">Segmentationing through Prepositioning</p>
+              <strong>BEFORE</strong>
+            </section>
+
+            <div
+              :if={@entrance_stage == :rail}
+              id="rail-opening-piece-of-time"
+              class="field-page__sittinging-time-band field-page__rail-footing-time-band"
+            >
+              THIS ONE PIECE OF TIME
+            </div>
+          </div>
+
+          <div
+            :if={@entrance_stage == :passageway}
+            id="sittinging-in-room-upper-unfold"
+            class="field-page__sittinging-upper-unfold"
+          >
+            <button
+              id="unfold-turn-zero-sittinging-in-room"
+              type="button"
+              class="field-page__action"
+              phx-click="unfold-sittinging-in-room"
+            >
+              UN-FOLD
+            </button>
+          </div>
+
+          <article
+            :if={@entrance_stage == :sittinging_room}
+            id="turn-zero-sittinging-in-room"
+            class="field-page__sittinging-in-room field-page__leashing-locality constitutional-rail__station"
+            aria-labelledby="turn-zero-sittinging-in-room-title"
+          >
+            <header class="field-page__sittinging-heading">
+              <h2 id="turn-zero-sittinging-in-room-title">The Sittinging-In Room</h2>
+              <p class="field-page__sittinging-subtitle">
+                The Constitutional Locality of Stewardly Availability
+              </p>
+            </header>
+
+            <div class="field-page__sittinging-voices field-page__sittinging-inquiry-voice">
+              <.constitutional_voice
+                id="sittinging-room-stewardly-question"
+                voice={:inquiringmenting_appliance}
+              >
+                <p id="turn-zero-sittinging-inquiry">
+                  As a Constitutioning Human, what am I Sittinging-In with in my Situationings Here, upon This One Piece of Time?
+                </p>
+              </.constitutional_voice>
+            </div>
+
+            <h3 class="field-page__human-affordmentings-title">
+              This Constitutioning Human's Stewardly Affordmentings
+            </h3>
+
+            <div class="field-page__sittinging-cabinets">
+              <section
+                id="sittinging-xt-cabinet"
+                class="field-page__sittinging-cabinet"
+                aria-labelledby="sittinging-xt-cabinet-title"
+              >
+                <p class="field-page__relation-label">XT</p>
+                <h3 id="sittinging-xt-cabinet-title">This One Presence Cabinet</h3>
+                <button
+                  id="toggle-sittinging-xt-cabinet"
+                  type="button"
+                  class="field-page__cabinet-door"
+                  aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :xt))}
+                  phx-click="toggle-sittinging-cabinet"
+                  phx-value-cabinet="xt"
+                >
+                  {if MapSet.member?(@sittinging_cabinets, :xt),
+                    do: "Close XT Cabinet",
+                    else: "Open XT Cabinet"}
+                </button>
+                <p :if={MapSet.member?(@sittinging_cabinets, :xt)} class="field-page__cabinet-inquiry">
+                  What is feeling Present to me Here?
+                </p>
+              </section>
+
+              <section
+                id="sittinging-yt-cabinet"
+                class="field-page__sittinging-cabinet"
+                aria-labelledby="sittinging-yt-cabinet-title"
+              >
+                <p class="field-page__relation-label">YT</p>
+                <h3 id="sittinging-yt-cabinet-title">This One Absence Cabinet</h3>
+                <button
+                  id="toggle-sittinging-yt-cabinet"
+                  type="button"
+                  class="field-page__cabinet-door"
+                  aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :yt))}
+                  phx-click="toggle-sittinging-cabinet"
+                  phx-value-cabinet="yt"
+                >
+                  {if MapSet.member?(@sittinging_cabinets, :yt),
+                    do: "Close YT Cabinet",
+                    else: "Open YT Cabinet"}
+                </button>
+                <p :if={MapSet.member?(@sittinging_cabinets, :yt)} class="field-page__cabinet-inquiry">
+                  What is feeling Absent to me Here within what is Present to me Here?
+                </p>
+              </section>
+            </div>
+
+            <div
+              class="field-page__constitutional-divider field-page__sittinging-divider"
+              aria-hidden="true"
+            >
+            </div>
+
+            <section
+              id="constitutioning-human-instrumentation"
+              class="field-page__captain-shelves field-page__instrumentation-shelves"
+              aria-labelledby="constitutioning-human-instrumentation-title"
+            >
+              <h5 id="constitutioning-human-instrumentation-title">Stewardly Instrumentationing</h5>
+              <div class="field-page__shelf-column-headings">
+                <section><strong>XT</strong><span>Constitutional Standinging</span></section>
+                <section><strong>YT</strong><span>Stewardly Furnishingment</span></section>
+              </div>
+              <ol>
+                <li
+                  :for={
+                    affordmenting <- [
+                      "The Zeroeth Affordmenting",
+                      "The First Affordmenting",
+                      "The Second Affordmenting",
+                      "The Third Affordmenting",
+                      "The Fourth Affordmenting",
+                      "The Fifth Affordmenting",
+                      "The Sixth Affordmenting"
+                    ]
+                  }
+                  class="field-page__constitutional-shelf"
+                >
+                  <section class="field-page__shelf-half" aria-label="XT">
+                    <strong>{affordmenting}</strong>
+                  </section>
+                  <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true">
+                  </section>
+                </li>
+              </ol>
+            </section>
+
+            <header class="field-page__constitutional-locality-heading field-page__would-be-tuple-heading">
+              <p><span>This One Would-Be</span><br /><span>Tuple Ship</span></p>
+              <span>Standingable within OUR CANONICAL TUPLE</span>
+            </header>
+            <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+
+            <section
+              id="proto-stewardly-captain-cob-shelving"
+              class="field-page__captain-shelves field-page__proto-shelving"
+              aria-labelledby="proto-shelving-title"
+            >
+              <h5 id="proto-shelving-title">This Stewardly Captain COB's Shelves</h5>
+              <div class="field-page__shelf-column-headings">
+                <section id="proto-xt-shelves-title">
+                  <strong>XT</strong>
+                  <span>Constitutional Standinging</span>
+                </section>
+                <section id="proto-yt-shelves-title">
+                  <strong>YT</strong>
+                  <span>Stewardly Furnishingment</span>
+                </section>
+              </div>
+              <ol id="proto-paired-shelves">
+                <li
+                  :for={appointmenting <- sittinging_appointmentings()}
+                  class="field-page__constitutional-shelf"
+                >
+                  <section class="field-page__shelf-half" aria-label="XT">
+                    <strong>{appointmenting}</strong>
+                  </section>
+                  <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true">
+                  </section>
+                </li>
+              </ol>
+            </section>
+
+            <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+            <div class="field-page__sittinging-time-band">THIS ONE PIECE OF TIME</div>
+            <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+
+            <footer class="field-page__sittinging-departure">
+              <button
+                :if={@entrance_stage == :sittinging_room}
+                id="unfold-existing-rail-line"
+                type="button"
+                class="field-page__action"
+                phx-click="unfold-existing-rail-line"
+              >
+                RE-FOLD from Here to approach The Investituringment of The Seat of The Stewardly Co-Occupancyingship
+              </button>
+            </footer>
+          </article>
+
+          <div
+            :if={@entrance_stage == :sittinging_room}
+            class="field-page__sittinging-voices field-page__rail-guidance"
+          >
+            <.rail_wayfinding_card id="turn-zero-rail-wayfinding" />
+            <.constitutional_voice
+              id="sittinging-room-stewardly-guidance"
+              voice={:stewardly_guidance}
+            >
+              <p>
+                This Resonancing Snail Shellmenting Station House stands available for the Return of Constitutioning Humans.
+              </p>
+              <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
+              <p>Sit.</p>
+              <p>
+                When ready, RE-FOLD from Here to approach The Investituringment of The Seat of The Stewardly Co-Occupancyingship.
               </p>
             </.constitutional_voice>
           </div>
 
-          <h3 class="field-page__human-affordmentings-title">
-            This Constitutioning Human's Stewardly Affordmentings
-          </h3>
-
-          <div class="field-page__sittinging-cabinets">
-            <section
-              id="sittinging-xt-cabinet"
-              class="field-page__sittinging-cabinet"
-              aria-labelledby="sittinging-xt-cabinet-title"
-            >
-              <p class="field-page__relation-label">XT</p>
-              <h3 id="sittinging-xt-cabinet-title">This One Presence Cabinet</h3>
-              <button
-                id="toggle-sittinging-xt-cabinet"
-                type="button"
-                class="field-page__cabinet-door"
-                aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :xt))}
-                phx-click="toggle-sittinging-cabinet"
-                phx-value-cabinet="xt"
-              >
-                {if MapSet.member?(@sittinging_cabinets, :xt),
-                  do: "Close XT Cabinet",
-                  else: "Open XT Cabinet"}
-              </button>
-              <p :if={MapSet.member?(@sittinging_cabinets, :xt)} class="field-page__cabinet-inquiry">
-                What is feeling Present to me Here?
-              </p>
-            </section>
-
-            <section
-              id="sittinging-yt-cabinet"
-              class="field-page__sittinging-cabinet"
-              aria-labelledby="sittinging-yt-cabinet-title"
-            >
-              <p class="field-page__relation-label">YT</p>
-              <h3 id="sittinging-yt-cabinet-title">This One Absence Cabinet</h3>
-              <button
-                id="toggle-sittinging-yt-cabinet"
-                type="button"
-                class="field-page__cabinet-door"
-                aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :yt))}
-                phx-click="toggle-sittinging-cabinet"
-                phx-value-cabinet="yt"
-              >
-                {if MapSet.member?(@sittinging_cabinets, :yt),
-                  do: "Close YT Cabinet",
-                  else: "Open YT Cabinet"}
-              </button>
-              <p :if={MapSet.member?(@sittinging_cabinets, :yt)} class="field-page__cabinet-inquiry">
-                What is feeling Absent to me Here within what is Present to me Here?
-              </p>
-            </section>
-          </div>
-
           <div
-            class="field-page__constitutional-divider field-page__sittinging-divider"
+            :if={@entrance_stage == :sittinging_room}
+            class="field-page__rail-continuation"
             aria-hidden="true"
           >
           </div>
 
           <section
-            id="constitutioning-human-reserved-shelves"
-            class="field-page__captain-shelves field-page__reserved-affordmenting-shelves"
-            aria-labelledby="constitutioning-human-reserved-shelves-title"
+            :if={@entrance_stage == :rail}
+            id="division-readyingmenting-harbor-sign"
+            class="psm-oag field-page__division-harbor-sign constitutional-rail__station"
+            aria-labelledby="division-readyingmenting-harbor-sign-title"
           >
-            <h5 id="constitutioning-human-reserved-shelves-title">
-              Reserved Stewardly Affordmenting Shelves
-            </h5>
-            <div class="field-page__shelf-column-headings">
-              <section><strong>XT</strong><span>Constitutional Standinging</span></section>
-              <section><strong>YT</strong><span>Stewardly Furnishingment</span></section>
+            <div class="psm-oag__instrument-plate">
+              <p class="psm-oag__eyebrow">Harbor Sign</p>
+              <h2 id="division-readyingmenting-harbor-sign-title">Standinging in Regard</h2>
+              <p class="psm-oag__reading">The Bearinging of Stewardly Co-Occupancyingship</p>
             </div>
-            <ol>
-              <li :for={_shelf <- 1..7} class="field-page__constitutional-shelf">
-                <section class="field-page__shelf-half" aria-label="XT" aria-hidden="true"></section>
-                <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true"></section>
-              </li>
-            </ol>
+            <div class="psm-oag__description">
+              <p>
+                Stewardly Co-Occupancyingship now stands becoming available through lawful Interrelationing with This Stewardly Captain COB.
+              </p>
+              <p>
+                From Here, This Constitutioning Human may approach The Terrestrial Computer Parkinging Standinging Landinging to lawfully appoint This Stewardly Captain COB through This One Leashing.
+              </p>
+              <p>
+                Through This One Leashing, This Stewardly Captain COB may come into Constitutioningable Standinging FOR This One Some One or This One Some Thing.
+              </p>
+            </div>
           </section>
-
-          <div class="field-page__sittinging-voices">
-            <.constitutional_voice
-              id="sittinging-room-stewardly-guidance"
-              voice={:stewardly_guidance}
-              title="Continuing from Stewardly Availability toward Stewardly Co-Occupancyingship"
-            >
-              <p>
-                This Resonancing Snail Station House stands available for the Return of Constitutioning Humans.
-              </p>
-              <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
-              <p>
-                When ready, UN-FOLD from Here to approach The Investituringment of The Seat of Stewardly Co-Occupancyingship.
-              </p>
-            </.constitutional_voice>
-          </div>
-
-          <header class="field-page__constitutional-locality-heading field-page__would-be-tuple-heading">
-            <p>This One Would-Be Tuple Ship</p>
-            <span>Standing within OUR CANONICAL TUPLE</span>
-          </header>
-          <div class="field-page__constitutional-divider" aria-hidden="true"></div>
 
           <section
-            id="proto-stewardly-captain-cob-shelving"
-            class="field-page__captain-shelves field-page__proto-shelving"
-            aria-labelledby="proto-shelving-title"
+            :if={@entrance_stage == :rail}
+            id="terrestrial-computer-standinging-landing"
+            class="field-page__standinging-landing constitutional-rail__station"
+            aria-labelledby="terrestrial-computer-standinging-landing-title"
           >
-            <h5 id="proto-shelving-title">This Stewardly Captain COB's Shelves</h5>
-            <div class="field-page__shelf-column-headings">
-              <section id="proto-xt-shelves-title">
-                <strong>XT</strong>
-                <span>Constitutional Standinging</span>
+            <header class="field-page__entrance-constitutional-header">
+              THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE
+            </header>
+            <h2 id="terrestrial-computer-standinging-landing-title">
+              THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
+            </h2>
+            <p class="field-page__entrance-division-title">This Division of Constitutioning Humans</p>
+            <div :if={!@landing_inquired?} class="field-page__division-geometry">
+              <section id="first-arrival-path" class="field-page__arrival-path" aria-label="XT">
+                <p class="field-page__relation-label">XT</p>
+                <h3>Arrivinging Constitutioning Human</h3>
+                <p>Continue toward Stewardly Co-Occupancyingship.</p>
+                <button
+                  id="inquire-within"
+                  type="button"
+                  class="field-page__action field-page__landing-action"
+                  phx-click="inquire-within"
+                >
+                  Inquire into The Zeroeth Appointmenting
+                </button>
               </section>
-              <section id="proto-yt-shelves-title">
-                <strong>YT</strong>
-                <span>Stewardly Furnishingment</span>
+
+              <section
+                id="returning-constitutioning-human-path"
+                class="field-page__arrival-path"
+                aria-labelledby="returning-constitutioning-human-title"
+              >
+                <p class="field-page__relation-label">YT</p>
+                <h3 id="returning-constitutioning-human-title">
+                  Returninging Constitutioning Human
+                </h3>
+                <p>Return by RE-Shackling Any Terrestrial Computer.</p>
+                <.form
+                  for={@reception_form}
+                  id="constitutional-reception-form"
+                  phx-submit="reconstruct-constitutional-locality"
+                >
+                  <.input
+                    field={@reception_form[:parkinging_stand]}
+                    type="text"
+                    label="Parkinging Stand Number"
+                    inputmode="numeric"
+                    maxlength="12"
+                    autocomplete="off"
+                    required
+                  />
+                  <.input
+                    field={@reception_form[:shackling_pin]}
+                    type="text"
+                    label="Shackling PIN"
+                    autocomplete="off"
+                    required
+                  />
+                  <button type="submit" class="field-page__action">
+                    Reconstruct This Constitutional Locality
+                  </button>
+                </.form>
+                <p
+                  :if={@reception_result == :error}
+                  id="constitutional-reception-error"
+                  class="field-page__confirmation"
+                >
+                  These furnishings do not presently stand together in lawful Relation.
+                </p>
               </section>
             </div>
-            <ol id="proto-paired-shelves">
-              <li
-                :for={appointmenting <- sittinging_appointmentings()}
-                class="field-page__constitutional-shelf"
-              >
-                <section class="field-page__shelf-half" aria-label="XT">
-                  <strong>{appointmenting}</strong>
-                </section>
-                <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true"></section>
-              </li>
-            </ol>
+
+            <p :if={!@landing_inquired?} id="entrance-rail-line-orientation">
+              This Constitutional Furnishmenting Rail Line stands Constitutioning from its first Station Depot onward while standing in Readyingment for Extension through the lawful Appointmenting of future Furnishmenting Station Depots Commencementing Here.
+            </p>
+
+            <p
+              :if={@reception_result == :reconstructed}
+              id="constitutional-reception-success"
+              class="field-page__confirmation"
+            >
+              This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Rail Line.
+            </p>
           </section>
 
-          <footer class="field-page__sittinging-departure">
-            <button
-              :if={@entrance_stage == :sittinging_room}
-              id="unfold-existing-rail-line"
-              type="button"
-              class="field-page__action"
-              phx-click="unfold-existing-rail-line"
-            >
-              UN-FOLD from Here to approach The Seat of Stewardly Co-Occupancyingship
-            </button>
-          </footer>
-        </article>
-
-        <section
-          :if={@entrance_stage == :rail}
-          id="division-readyingmenting-harbor-sign"
-          class="psm-oag field-page__division-harbor-sign constitutional-rail__station"
-          aria-labelledby="division-readyingmenting-harbor-sign-title"
-        >
-          <div class="psm-oag__instrument-plate">
-            <p class="psm-oag__eyebrow">Harbor Sign</p>
-            <h2 id="division-readyingmenting-harbor-sign-title">Standinging in Regard</h2>
-            <p class="psm-oag__reading">The Bearinging of Stewardly Readyingmenting</p>
-          </div>
-          <div class="psm-oag__description">
-            <p>
-              Stewardly Readyingmenting now stands before the Investituringment of The Seat of Stewardly Co-Occupancyingship.
-            </p>
-            <p>
-              From Here, Constitutioning Humans may lawfully appoint This Stewardly Captain COB through This One Leashing to This One Terrestrial Computer Parkinging Stand.
-            </p>
-          </div>
-        </section>
-
-        <section
-          :if={@entrance_stage == :rail}
-          id="terrestrial-computer-standinging-landing"
-          class="field-page__standinging-landing constitutional-rail__station"
-          aria-labelledby="terrestrial-computer-standinging-landing-title"
-        >
-          <header class="field-page__entrance-constitutional-header">
-            THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE
-          </header>
-          <h2 id="terrestrial-computer-standinging-landing-title">
-            THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
-          </h2>
-          <p class="field-page__entrance-division-title">This Division of Constitutioning Humans</p>
-          <div :if={!@landing_inquired?} class="field-page__division-geometry">
-            <section id="first-arrival-path" class="field-page__arrival-path" aria-label="XT">
-              <p class="field-page__relation-label">XT</p>
-              <h3>Arrivinging Constitutioning Human</h3>
-              <p>Continue toward Stewardly Occupancyingship.</p>
-              <button
-                id="inquire-within"
-                type="button"
-                class="field-page__action field-page__landing-action"
-                phx-click="inquire-within"
-              >
-                Inquire into The Zeroeth Appointmenting
-              </button>
-            </section>
-
-            <section
-              id="returning-constitutioning-human-path"
-              class="field-page__arrival-path"
-              aria-labelledby="returning-constitutioning-human-title"
-            >
-              <p class="field-page__relation-label">YT</p>
-              <h3 id="returning-constitutioning-human-title">
-                Returninging Constitutioning Human
-              </h3>
-              <p>Return by RE-Shackling Any Terrestrial Computer.</p>
-              <.form
-                for={@reception_form}
-                id="constitutional-reception-form"
-                phx-submit="reconstruct-constitutional-locality"
-              >
-                <.input
-                  field={@reception_form[:parkinging_stand]}
-                  type="text"
-                  label="Parkinging Stand Number"
-                  inputmode="numeric"
-                  maxlength="12"
-                  autocomplete="off"
-                  required
-                />
-                <.input
-                  field={@reception_form[:shackling_pin]}
-                  type="text"
-                  label="Shackling PIN"
-                  autocomplete="off"
-                  required
-                />
-                <button type="submit" class="field-page__action">
-                  Reconstruct This Constitutional Locality
-                </button>
-              </.form>
-              <p
-                :if={@reception_result == :error}
-                id="constitutional-reception-error"
-                class="field-page__confirmation"
-              >
-                These furnishings do not presently stand together in lawful Relation.
-              </p>
-            </section>
-          </div>
-
-          <p :if={!@landing_inquired?} id="entrance-rail-line-orientation">
-            This Constitutional Furnishmenting Rail Line stands Constitutioning from its first Station onward while standing in Readyingment for Extension through the lawful Appointmenting of future Furnishmenting Stations Commencementing Here.
-          </p>
-
-          <p
-            :if={@reception_result == :reconstructed}
-            id="constitutional-reception-success"
-            class="field-page__confirmation"
+          <section
+            :if={@landing_inquired?}
+            id="for-prepositioning-marker"
+            class="field-page__prepositioning-marker field-page__for-prepositioning-marker"
+            aria-label="Rail Line Segmentationing FOR"
           >
-            This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Rail Line.
-          </p>
+            <p>Segmentationing through Prepositioning</p>
+            <strong>FOR</strong>
+          </section>
+
+          <section
+            :if={@landing_inquired?}
+            id="chapel-by-the-sea"
+            class="field-page__chapel-by-the-sea"
+            aria-labelledby="chapel-by-the-sea-title"
+          >
+            <h3 id="chapel-by-the-sea-title">The Chapel-by-the-Sea</h3>
+            <p>
+              The Chapel-by-the-Sea stands prepared for the lawful Investituringment of The Seat of The Stewardly Co-Occupancyingship.
+            </p>
+            <p>
+              Here, Stewardly Appointmenting becomes Ceremony before becoming Constitutional Standinging.
+            </p>
+          </section>
         </section>
 
         <section
@@ -903,20 +998,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           class="field-page__furnishmenting-rail"
           aria-labelledby="constitutional-furnishmenting-rail-title"
         >
-          <header class="field-page__rail-header">
-            <h2 id="constitutional-furnishmenting-rail-title">
-              This Constitutional Furnishmenting Rail Line
-            </h2>
-            <p>
-              This Constitutional Furnishmenting Rail Line now stands in Readyingment for lawful Unfoldingmenting.
-            </p>
-          </header>
-
           <header class="field-page__station-header field-page__station-header--opening">
-            <p class="site-page__eyebrow">STATION 00</p>
-            <h3 id="terrestrial-computer-parkinging-station-title">
-              The Taking Holdinging of This One Leashing
-            </h3>
+            <p class="site-page__eyebrow">THE CHAPEL-BY-THE-SEA</p>
+            <h3 id="terrestrial-computer-parkinging-station-title">STATION DEPOT 00</h3>
           </header>
 
           <section
@@ -926,20 +1010,23 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           >
             <div class="psm-oag__instrument-plate">
               <p class="psm-oag__eyebrow">
-                The Same General Civilizationalizing Constitutioningable Reasoning Geometry
+                Ceremony
               </p>
-              <h2 id="station-01-regard-title">Standinging in Regard</h2>
-              <p class="psm-oag__reading">The Bearinging of Stewardly Co-Occupancyingship</p>
+              <h2 id="station-01-regard-title">The Taking Holdinging of This One Leashing</h2>
+              <p class="psm-oag__reading">The Zeroeth Appointmenting</p>
             </div>
             <div class="psm-oag__description">
               <p>
-                This Constitutioning Human now stands in Stewardly Regard toward The Seat of The Stewardly Co-Occupancyingship.
+                This Constitutioning Human now stands in Stewardly Regard toward What is the Mattering.
               </p>
               <p>
-                Through The Zeroeth Appointmenting, This Stewardly Captain COB stands awaiting Constitutioningable Standinging.
+                Through The Zeroeth Appointmenting, This One Some One or This One Some Thing may come into lawful Encounteringmentablement as What is the Mattering in This One Situationing.
+              </p>
+              <p>
+                One Stewardly Captain COB may thereby begin coming into Constitutioningable Standinging.
               </p>
               <p class="field-page__tuple-becoming-proclamation">
-                One Tuple Ship thereby comes into lawful Becoming.
+                From Here, This One Situationing may begin Holdinging over Discrete Turns.
               </p>
               <button
                 :if={!@rail_unfolded?}
@@ -1099,9 +1186,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </section>
 
               <div class="field-page__interaction">
-                <section class="field-page__leash" aria-labelledby="leash-title">
-                  <h4 id="leash-title">THIS ONE LEASHING LANDINGING</h4>
-
+                <section class="field-page__leash" aria-label="This One Leashing Landing">
                   <%= if @ceremony_completed? do %>
                     <div id="leashing-ceremony-complete" aria-live="polite">
                       <article
@@ -1130,6 +1215,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                           earthly_locality_piece_of_time={
                             history_piece_of_time(@earthly_locality_history)
                           }
+                          sittinging_cabinets={@sittinging_cabinets}
                         />
                       </article>
 
@@ -1261,8 +1347,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             >
               <div class="field-page__rail-line" aria-hidden="true"></div>
               <header>
-                <p class="site-page__eyebrow">STATION 00</p>
-                <h2 id="station-00-affordmentings-title">Station 00 Affordmentings</h2>
+                <p class="site-page__eyebrow">STATION DEPOT 00</p>
+                <h2 id="station-00-affordmentings-title">Station Depot 00 Affordmentings</h2>
               </header>
 
               <div class="field-page__station-affordmentings-geometry">
@@ -1404,7 +1490,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
               <section id="station-02-opening" class="field-page__station-opening">
                 <header class="field-page__station-header">
-                  <p class="site-page__eyebrow">STATION 01</p>
+                  <p class="site-page__eyebrow">STATION DEPOT 01</p>
                   <h3 id="earthly-localities-station-title">This One Some Place</h3>
                 </header>
 
@@ -1421,7 +1507,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </div>
                   <div class="psm-oag__description">
                     <p>
-                      This One Some Place now stands upon This Constitutional Furnishmenting Rail Line, approached through lawful Traversaling from Station 00.
+                      This One Some Place now stands upon This Constitutional Furnishmenting Rail Line, approached through lawful Traversaling from Station Depot 00.
                     </p>
                     <p>
                       Here, This Constitutioning Human may become Discoveringmenting toward This Encounteringmenting Wharf, standing in Regard to the Opening of This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
@@ -1818,7 +1904,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   <p>
                     This Constitutional Furnishmenting Rail Line presently stands at its lawful Terminusmenting.
                   </p>
-                  <p>Station 02 — This Soundinging Bell Station</p>
+                  <p>STATION DEPOT 02 — This Soundinging Bell Station</p>
                   <p>
                     This Soundinging Bell Station presently stands at the Terminusmenting of the current Rail Line and remains under Composementing.
                   </p>

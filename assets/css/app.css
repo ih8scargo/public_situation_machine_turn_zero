@@ -561,11 +561,29 @@
   background-size: 1px 100%;
 }
 
+.field-page[data-zeroeth-appointed="true"],
+.field-page[data-zeroeth-appointed="true"] * {
+  cursor:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cellipse cx='12' cy='5' rx='6' ry='3' fill='%23dfc28c' stroke='%23202526' stroke-width='1.5'/%3E%3Cpath d='M8 5v14M16 5v14' stroke='%23202526' stroke-width='1.5'/%3E%3Cellipse cx='12' cy='19' rx='6' ry='3' fill='%23dfc28c' stroke='%23202526' stroke-width='1.5'/%3E%3Cpath d='M9 9c2 1 4 1 6 0M9 12c2 1 4 1 6 0M9 15c2 1 4 1 6 0' stroke='%23765b2d' stroke-width='1.2' fill='none'/%3E%3C/svg%3E") 12 12,
+    auto !important;
+}
+
+.field-page__station-tz-region {
+  position: relative;
+  display: flow-root;
+  width: 100%;
+}
+
 .constitutional-rail-line > * {
   box-sizing: border-box;
   width: 100%;
   max-width: 70rem;
   margin-inline: auto;
+}
+
+.field-page__station-tz-region > * {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 #tuple-ship-field-threshold {
@@ -599,42 +617,6 @@
   background-color: #f8f4ec;
 }
 
-.constitutional-rail__station::before,
-.constitutional-rail__station::after,
-.field-page__furnishmenting-rail .field-page__station::before,
-.field-page__furnishmenting-rail .field-page__station::after,
-.field-page__furnishmenting-rail .field-page__station-opening::before,
-.field-page__furnishmenting-rail .field-page__station-opening::after {
-  position: absolute;
-  z-index: 5;
-  left: calc(50% - 1.5rem);
-  width: 3rem;
-  height: 1.5rem;
-  background-position: left, right;
-  background-repeat: no-repeat;
-  background-size: 50% 100%;
-  content: "";
-  pointer-events: none;
-}
-
-.constitutional-rail__station::before,
-.field-page__furnishmenting-rail .field-page__station::before,
-.field-page__furnishmenting-rail .field-page__station-opening::before {
-  top: -1.5rem;
-  background-image:
-    linear-gradient(to bottom right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
-    linear-gradient(to bottom left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
-}
-
-.constitutional-rail__station::after,
-.field-page__furnishmenting-rail .field-page__station::after,
-.field-page__furnishmenting-rail .field-page__station-opening::after {
-  bottom: -1.5rem;
-  background-image:
-    linear-gradient(to top right, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%),
-    linear-gradient(to top left, transparent 47%, var(--constitutional-rail-color) 48% 52%, transparent 53%);
-}
-
 .field-page__standinging-landing {
   margin: clamp(5rem, 11vw, 10rem) auto clamp(2rem, 5vw, 4rem);
   padding: clamp(2.5rem, 6vw, 5rem);
@@ -661,9 +643,7 @@
   padding: clamp(2rem, 6vw, 5rem);
   border: 1px solid rgba(32, 37, 38, 0.38);
   border-top: 0.6rem solid #202526;
-  background:
-    linear-gradient(90deg, transparent 49.8%, rgba(32, 37, 38, 0.12) 50%, transparent 50.2%),
-    #f4f0e6;
+  background: #f4f0e6;
   text-align: center;
 }
 
@@ -679,8 +659,15 @@
   display: block;
 }
 
+.field-page__station-house-aspect {
+  margin-top: 1.75rem;
+  font: 800 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .field-page__opening-passageway {
-  padding: clamp(1.5rem, 4vw, 3rem);
+  padding-block: clamp(1.5rem, 4vw, 3rem);
   border-inline: 1px solid rgba(32, 37, 38, 0.25);
   background: repeating-linear-gradient(
     90deg,
@@ -692,10 +679,13 @@
 }
 
 .field-page__opening-passageway > header {
+  padding-inline: clamp(1.5rem, 4vw, 3rem);
   text-align: center;
 }
 
-.field-page__passageway-harbor-sign {
+.field-page__opening-passageway > .field-page__passageway-harbor-sign {
+  width: 100%;
+  max-width: 100%;
   margin-top: 2rem;
 }
 
@@ -725,10 +715,113 @@
   letter-spacing: 0.18em;
 }
 
+.field-page__prepositioning-stitch .field-page__prepositioning-marker {
+  margin-bottom: 0;
+}
+
 .field-page__sittinging-upper-unfold {
   padding-top: 1rem;
   border-inline: 1px solid rgba(32, 37, 38, 0.25);
   text-align: center;
+}
+
+.field-page__rail-guidance {
+  position: relative;
+  z-index: 1;
+  margin-top: clamp(2rem, 5vw, 4rem);
+  padding-block: clamp(1.5rem, 4vw, 3rem);
+  border-block: 1px solid rgba(32, 37, 38, 0.3);
+  background: rgba(238, 233, 223, 0.92);
+}
+
+.field-page__rail-wayfinding-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.38);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__rail-wayfinding-card h3 {
+  margin: 0;
+  color: inherit;
+  font: 800 clamp(0.85rem, 2vw, 1.1rem)/1.35 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+}
+
+.field-page__rail-wayfinding-card dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0 0;
+  gap: 1rem;
+}
+
+.field-page__rail-wayfinding-card dt {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.field-page__rail-wayfinding-card dl strong {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: var(--psm-brass);
+  font: 900 0.78rem/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.14em;
+}
+
+.field-page__rail-wayfinding-card dd {
+  margin: 0.4rem 0 0;
+  color: var(--psm-brass);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.05rem, 2.5vw, 1.45rem);
+}
+
+.field-page__rail-guidance > .constitutional-voice,
+.field-page__station-tz-region > .psm-oag,
+.field-page__furnishmenting-rail > .psm-oag,
+.field-page__furnishmenting-rail .field-page__station-regard,
+.field-page__furnishmenting-rail .field-page__opening-ceremony,
+.field-page__furnishmenting-rail .field-page__station-affordmentings {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+.field-page__chapel-by-the-sea {
+  position: relative;
+  z-index: 1;
+  margin-block: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.32);
+  background: rgba(248, 244, 236, 0.92);
+  text-align: center;
+}
+
+.field-page__chapel-by-the-sea h3 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+  letter-spacing: -0.025em;
+}
+
+.field-page__chapel-by-the-sea p {
+  max-width: 54rem;
+  margin: 1rem auto 0;
+  line-height: 1.65;
+}
+
+.field-page__rail-footing-time-band {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+.field-page__for-prepositioning-marker {
+  margin-bottom: clamp(2rem, 5vw, 4rem);
+}
+
+.field-page__rail-continuation {
+  min-height: clamp(8rem, 18vw, 14rem);
 }
 
 .field-page__sittinging-in-room {
@@ -843,12 +936,12 @@
   background: var(--psm-steel);
 }
 
-.field-page__reserved-affordmenting-shelves,
+.field-page__instrumentation-shelves,
 .field-page__sittinging-voices {
   margin-inline: clamp(1.5rem, 5vw, 4rem);
 }
 
-.field-page__reserved-affordmenting-shelves .field-page__shelf-half {
+.field-page__instrumentation-shelves .field-page__shelf-half {
   min-height: 3.5rem;
   grid-template-rows: 1fr;
 }
@@ -863,9 +956,36 @@
   margin-top: clamp(2rem, 5vw, 4rem);
 }
 
+.field-page__would-be-tuple-heading p > span {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.field-page__would-be-tuple-heading p > span:last-child {
+  white-space: nowrap;
+}
+
 .field-page__proto-shelving .field-page__shelf-half {
   min-height: 5.5rem;
   grid-template-rows: 1fr;
+}
+
+.field-page__formed-tuple-relations {
+  margin: 0 clamp(1.5rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid rgba(32, 37, 38, 0.25);
+  text-align: center;
+}
+
+.field-page__formed-tuple-relations p {
+  margin: 0;
+}
+
+.field-page__formed-tuple-relations div {
+  margin-top: 1rem;
 }
 
 /* Reusable constitutional voices */
@@ -1966,14 +2086,20 @@
   background: rgba(248, 244, 236, 0.78);
 }
 
-.field-page__leashing-locality > h4 {
+.field-page__leashing-landing-heading {
   margin: 0;
   padding: clamp(0.8rem, 2vw, 1.2rem) clamp(1rem, 3vw, 1.5rem);
   background: var(--psm-steel);
   color: var(--psm-paper-light);
+  text-align: center;
+}
+
+.field-page__leashing-landing-heading h3 {
+  margin: 0;
+  color: inherit;
   font-size: clamp(0.95rem, 2.2vw, 1.4rem);
-  letter-spacing: 0.03em;
-  white-space: nowrap;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .field-page__leashing-instruments {

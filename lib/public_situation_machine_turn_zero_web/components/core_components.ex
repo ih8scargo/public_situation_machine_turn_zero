@@ -73,6 +73,32 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   defp constitutional_voice_kind(:stewardly_guidance), do: "Stewardly Guidance"
 
   attr :id, :string, required: true
+
+  def rail_wayfinding_card(assigns) do
+    ~H"""
+    <section
+      id={@id}
+      class="field-page__rail-wayfinding-card"
+      aria-labelledby={"#{@id}-title"}
+    >
+      <h3 id={"#{@id}-title"}>The Constitutional Furnishmenting Rail Line</h3>
+      <dl>
+        <div>
+          <strong>XT</strong>
+          <dt>Continuing from:</dt>
+          <dd>Stewardly Co-Occupancyingship</dd>
+        </div>
+        <div>
+          <strong>YT</strong>
+          <dt>Continuing toward:</dt>
+          <dd>Encounteringmentablement</dd>
+        </div>
+      </dl>
+    </section>
+    """
+  end
+
+  attr :id, :string, required: true
   attr :parkinging_stand, :string, required: true
   attr :shackling_pin, :string, required: true
   attr :piece_of_time, :string, required: true
@@ -87,6 +113,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   attr :pin_id, :string, default: nil
   attr :time_id, :string, default: nil
   attr :standing_copy, :string, default: nil
+  attr :sittinging_cabinets, :any, default: MapSet.new()
 
   def leashing_locality(assigns) do
     ~H"""
@@ -103,7 +130,6 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         <span>THIS ONE PIECE OF TIME</span>
         <strong>{@piece_of_time}</strong>
       </section>
-
       <header class="field-page__sittinging-heading">
         <h2 id={"#{@id}-title"}>The Sittinging-In Room</h2>
         <p class="field-page__sittinging-subtitle">
@@ -111,9 +137,168 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         </p>
       </header>
 
+      <div class="field-page__sittinging-voices field-page__sittinging-inquiry-voice">
+        <.constitutional_voice
+          id={"#{@id}-inquiringmenting-appliance"}
+          voice={:inquiringmenting_appliance}
+        >
+          <p>
+            As a Constitutioning Human, what am I Sittinging-In with in my Situationings Here, upon This One Piece of Time?
+          </p>
+        </.constitutional_voice>
+      </div>
+
       <h3 class="field-page__human-affordmentings-title">
         This Constitutioning Human's Stewardly Affordmentings
       </h3>
+
+      <div class="field-page__sittinging-cabinets">
+        <section
+          id={"#{@id}-sittinging-xt-cabinet"}
+          class="field-page__sittinging-cabinet"
+          aria-labelledby={"#{@id}-sittinging-xt-cabinet-title"}
+        >
+          <p class="field-page__relation-label">XT</p>
+          <h3 id={"#{@id}-sittinging-xt-cabinet-title"}>This One Presence Cabinet</h3>
+          <button
+            id={"#{@id}-toggle-sittinging-xt-cabinet"}
+            type="button"
+            class="field-page__cabinet-door"
+            aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :xt))}
+            phx-click="toggle-sittinging-cabinet"
+            phx-value-cabinet="xt"
+          >
+            {if MapSet.member?(@sittinging_cabinets, :xt),
+              do: "Close XT Cabinet",
+              else: "Open XT Cabinet"}
+          </button>
+          <p
+            :if={MapSet.member?(@sittinging_cabinets, :xt)}
+            class="field-page__cabinet-inquiry"
+          >
+            What is feeling Present to me Here?
+          </p>
+        </section>
+
+        <section
+          id={"#{@id}-sittinging-yt-cabinet"}
+          class="field-page__sittinging-cabinet"
+          aria-labelledby={"#{@id}-sittinging-yt-cabinet-title"}
+        >
+          <p class="field-page__relation-label">YT</p>
+          <h3 id={"#{@id}-sittinging-yt-cabinet-title"}>This One Absence Cabinet</h3>
+          <button
+            id={"#{@id}-toggle-sittinging-yt-cabinet"}
+            type="button"
+            class="field-page__cabinet-door"
+            aria-expanded={to_string(MapSet.member?(@sittinging_cabinets, :yt))}
+            phx-click="toggle-sittinging-cabinet"
+            phx-value-cabinet="yt"
+          >
+            {if MapSet.member?(@sittinging_cabinets, :yt),
+              do: "Close YT Cabinet",
+              else: "Open YT Cabinet"}
+          </button>
+          <p
+            :if={MapSet.member?(@sittinging_cabinets, :yt)}
+            class="field-page__cabinet-inquiry"
+          >
+            What is feeling Absent to me Here within what is Present to me Here?
+          </p>
+        </section>
+      </div>
+
+      <div
+        class="field-page__constitutional-divider field-page__sittinging-divider"
+        aria-hidden="true"
+      >
+      </div>
+
+      <section
+        id={"#{@id}-instrumentation"}
+        class="field-page__captain-shelves field-page__instrumentation-shelves"
+        aria-labelledby={"#{@id}-instrumentation-title"}
+      >
+        <h5 id={"#{@id}-instrumentation-title"}>Stewardly Instrumentationing</h5>
+        <div class="field-page__shelf-column-headings">
+          <section><strong>XT</strong><span>Constitutional Standinging</span></section>
+          <section><strong>YT</strong><span>Stewardly Furnishingment</span></section>
+        </div>
+        <ol>
+          <li
+            :for={{appointmenting, index} <- Enum.with_index(formed_tuple_appointmentings())}
+            class="field-page__constitutional-shelf"
+          >
+            <section class="field-page__shelf-half" aria-label="XT">
+              <strong>{if index == 0, do: "This Stewardly Captain COB", else: appointmenting}</strong>
+            </section>
+            <section class="field-page__shelf-half" aria-label="YT">
+              <strong>{appointmenting}</strong>
+            </section>
+          </li>
+        </ol>
+      </section>
+
+      <header class="field-page__constitutional-locality-heading">
+        <p>This One Tuple Ship</p>
+        <span>Standing within OUR CANONICAL TUPLE</span>
+      </header>
+      <section :if={@pet_name || @earthly_locality} class="field-page__formed-tuple-relations">
+        <p :if={@pet_name}>{@pet_name}</p>
+        <div :if={@earthly_locality}>
+          <strong>Visionizingmentablement</strong>
+          <p>{@earthly_locality}</p>
+        </div>
+      </section>
+      <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+
+      <div class="field-page__captain-shelves" aria-labelledby={"#{@id}-shelving-title"}>
+        <h5 id={"#{@id}-shelving-title"}>THIS STEWARDLY CAPTAIN COB'S SHELVES</h5>
+        <div class="field-page__shelf-column-headings">
+          <section>
+            <strong>XT</strong>
+            <span>Constitutional Standinging</span>
+          </section>
+          <section>
+            <strong>YT</strong>
+            <span>Stewardly Furnishingment</span>
+          </section>
+        </div>
+        <ol>
+          <li
+            :for={{appointmenting, index} <- Enum.with_index(formed_tuple_appointmentings())}
+            class="field-page__constitutional-shelf"
+          >
+            <section class="field-page__shelf-half" aria-label="XT">
+              <strong>{appointmenting}</strong>
+            </section>
+            <section class="field-page__shelf-half" aria-label="YT">
+              <strong>{if index == 0, do: "This One Situationing", else: appointmenting}</strong>
+            </section>
+          </li>
+        </ol>
+      </div>
+      <p :if={@standing_copy} class="field-page__leashing-standing-copy">{@standing_copy}</p>
+
+      <div class="field-page__sittinging-voices">
+        <.constitutional_voice
+          id={"#{@id}-stewardly-guidance"}
+          voice={:stewardly_guidance}
+          title="Continuing from Stewardly Availability toward Stewardly Co-Occupancyingship"
+        >
+          <p>
+            This Resonancing Snail Shellmenting Station House stands available for the Return of Constitutioning Humans.
+          </p>
+          <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
+          <p>
+            When ready, RE-FOLD from Here to approach The Investituringment of The Seat of The Stewardly Co-Occupancyingship.
+          </p>
+        </.constitutional_voice>
+      </div>
+
+      <header class="field-page__leashing-landing-heading">
+        <h3>This One Leashing Landing</h3>
+      </header>
 
       <div class="field-page__leashing-instruments">
         <section class="field-page__instrument field-page__instrument--stand" aria-label="XT">
@@ -155,117 +340,6 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         </section>
       </div>
 
-      <header class="field-page__constitutional-locality-heading">
-        <p>This One Tuple Ship</p>
-        <span>Standing within OUR CANONICAL TUPLE</span>
-      </header>
-      <div class="field-page__constitutional-divider" aria-hidden="true"></div>
-
-      <div class="field-page__captain-shelves" aria-labelledby={"#{@id}-shelving-title"}>
-        <h5 id={"#{@id}-shelving-title"}>THIS STEWARDLY CAPTAIN COB'S SHELVES</h5>
-        <div class="field-page__shelf-column-headings">
-          <section>
-            <strong>XT</strong>
-            <span>Constitutional Standinging</span>
-          </section>
-          <section>
-            <strong>YT</strong>
-            <span>Stewardly Furnishingment</span>
-          </section>
-        </div>
-        <ol>
-          <li class="field-page__constitutional-shelf">
-            <section class="field-page__shelf-half" aria-label="XT">
-              <strong>The Mattering to This Stewardly Captain COB</strong>
-              <span>The Zeroeth Appointmenting into The Seat of Stewardly Co-Occupancyingship</span>
-              <span class="field-page__shelf-status">Standing Furnished</span>
-              <div class="field-page__shelf-time">
-                <span>When did this Holding come into Standinging?</span>
-                <time>{@piece_of_time}</time>
-              </div>
-            </section>
-            <section class="field-page__shelf-half" aria-label="YT">
-              <strong>This One Situationing</strong>
-              <span :if={@pet_name} class="field-page__shelf-furnishing">{@pet_name}</span>
-              <span class="field-page__shelf-status">
-                {if @pet_name, do: "Standing Furnished", else: "Awaiting Furnishingment"}
-              </span>
-              <div class="field-page__shelf-time">
-                <span>When did this Standinging come into Holding?</span>
-                <time :if={@situationing_piece_of_time}>{@situationing_piece_of_time}</time>
-              </div>
-            </section>
-          </li>
-          <li class="field-page__constitutional-shelf">
-            <section class="field-page__shelf-half" aria-label="XT">
-              <strong>This One Some Place</strong>
-              <span>This First Appointmenting of Encounteringmentablement</span>
-              <span class="field-page__shelf-status">
-                {if @lanterning_furnished?,
-                  do: "Standing Furnished",
-                  else: "Awaiting Furnishingment"}
-              </span>
-              <div class="field-page__shelf-time">
-                <span>When did this Holding come into Standinging?</span>
-                <time :if={@first_appointmenting_piece_of_time}>
-                  {@first_appointmenting_piece_of_time}
-                </time>
-              </div>
-            </section>
-            <section class="field-page__shelf-half" aria-label="YT">
-              <strong :if={@earthly_locality}>Visionizingmentablement</strong>
-              <span :if={@earthly_locality} class="field-page__shelf-furnishing">{@earthly_locality}</span>
-              <span :if={@earthly_locality} class="field-page__shelf-status">
-                Standing Furnished
-              </span>
-              <div :if={@earthly_locality} class="field-page__shelf-time">
-                <span>When did this Standinging come into Holding?</span>
-                <time :if={@earthly_locality_piece_of_time}>
-                  {@earthly_locality_piece_of_time}
-                </time>
-              </div>
-            </section>
-          </li>
-          <li
-            :for={
-              {ordinal, locality} <- [
-                {"Second",
-                 "A Regard toward Situationings through Which Driftinginglyment May Become Available"},
-                {"Third",
-                 "Affordmentings of the Caterpillar Tunnel through Which Relationings May Become Distinguishingmentingable Over Discrete Turns"},
-                {"Fourth",
-                 "A Perspective from Which Wobble-Wobbling Relationings May Reveal Their Anglings Over Discrete Turns"},
-                {"Fifth",
-                 "A Purchase Surface Over Through Which Continuingmentingable Relationings May Become Holding-in-Standinging"},
-                {"Sixth",
-                 "An Embroidery Stitching through Which This Thing May Begin Becoming Like This Thing Again"}
-              ]
-            }
-            class="field-page__constitutional-shelf"
-          >
-            <section class="field-page__shelf-half" aria-label="XT">
-              <strong>{locality}</strong>
-              <span>This {ordinal} Appointmenting</span>
-              <span class="field-page__shelf-status">
-                {if ordinal == "Second",
-                  do: "Standing Under Composementing",
-                  else: "Awaiting Furnishingment"}
-              </span>
-              <div class="field-page__shelf-time">
-                <span>When did this Holding come into Standinging?</span>
-              </div>
-            </section>
-            <section class="field-page__shelf-half" aria-label="YT">
-              <strong aria-hidden="true"></strong>
-              <span aria-hidden="true"></span>
-              <span class="field-page__shelf-status" aria-hidden="true"></span>
-              <div class="field-page__shelf-time" aria-hidden="true"></div>
-            </section>
-          </li>
-        </ol>
-      </div>
-      <p :if={@standing_copy} class="field-page__leashing-standing-copy">{@standing_copy}</p>
-
       <script :type={Phoenix.LiveView.ColocatedHook} name=".CopyFurnishing">
         export default {
           mounted() {
@@ -288,6 +362,18 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       </script>
     </section>
     """
+  end
+
+  defp formed_tuple_appointmentings do
+    [
+      "The Zeroeth Appointmenting",
+      "The First Appointmenting",
+      "The Second Appointmenting",
+      "The Third Appointmenting",
+      "The Fourth Appointmenting",
+      "The Fifth Appointmenting",
+      "The Sixth Appointmenting"
+    ]
   end
 
   use Gettext, backend: PublicSituationMachineTurnZeroWeb.Gettext

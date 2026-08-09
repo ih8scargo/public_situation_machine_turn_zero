@@ -190,7 +190,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "From Here, Constitutioning Humans may approach The Opening Rite of Passageway through its public entrance, The Resonancing Snail Station House."
+             "From Here, Constitutioning Humans may approach The Opening Rite of Passageway through its public entrance, The Resonancing Snail Shellmenting Station House."
            )
 
     refute has_element?(view, "#tuple-ship-field-threshold", "Division of Constitutioning Humans")
@@ -244,7 +244,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(
              view,
-             "#constitutional-furnishmenting-rail",
+             "#station-tz-region .field-page__rail-header",
              "now stands in Readyingment for lawful Unfoldingmenting"
            )
 
