@@ -49,7 +49,7 @@ defmodule PublicSituationMachineTurnZero.Correspondencingments do
         "Its continued development cannot be.",
         "It must make contact with the Purchase Surface of the Public Field.",
         "The present Kickstarter campaign is helping establish that first public contact.",
-        "Whether you arrived here from the campaign or by another path, The Same General Civilizationalizing Constitutioningable Reasoning Geometry stands ready to be encountered.",
+        "Whether you arrived here from the campaign or by another path, The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment stands ready to be encountered.",
         "The PUBLIC-SITUATION-MACHINE- is not seeking \"users.\"",
         "It is seeking Stewards.",
         "Stewards standing ready for the discoveringmenting of what this kind of computing becomes when it finally comes to stand within the Public Field."

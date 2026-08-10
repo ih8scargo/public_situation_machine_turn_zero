@@ -100,7 +100,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         >
           <:description>
             <p>
-              The Same General Civilizationalizing Constitutioningable Reasoning Geometry furnishes the lawful conditions through which Constitutioning Humans may continue bringing Situationings into Standinging-in-Holdinging Over Discrete Turns.
+              The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment furnishes the lawful conditions through which Constitutioning Humans may continue bringing Situationings into Standinging-in-Holdinging Over Discrete Turns.
             </p>
           </:description>
         </Layouts.locality_threshold>
@@ -179,7 +179,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         <section class="psm-oag" aria-labelledby="orientationing-panel-title">
           <div class="psm-oag__instrument-plate">
             <p class="psm-oag__eyebrow">
-              The Same General Civilizationalizing Constitutioningable Reasoning Geometry
+              The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment
             </p>
 
             <h2 id="orientationing-panel-title">
@@ -613,7 +613,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>The PUBLIC-SITUATION-MACHINE- is a General Purpose Situationing Appliance.</p>
       <p>It begins from One Discoveringment.</p>
       <p>
-        A simple repeating numerical loop furnishes The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough This One Continuity Line may be carried forward successioningably Over Discrete Turns.
+        A simple repeating numerical loop furnishes The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment wherethrough This One Continuity Line may be carried forward successioningably Over Discrete Turns.
       </p>
       <p>
         This Recursioningly Loopinging Latticework affords a new kind of Geometrically Expressive, Compu-Totaling-Able Public Computing Infrastructioning:
@@ -667,19 +667,19 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
       <p>It may only ask what continues to Hold.</p>
       <p>
-        It can only furnish The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough What is The Mattering in This One Situationing may be Encounteringmented by This Stewardly Captain COB and then become Distinguishingmentingable through This Stewardly Captain COB.
+        It can only furnish The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment wherethrough What is The Mattering in This One Situationing may be Encounteringmented by This Stewardly Captain COB and then become Distinguishingmentingable through This Stewardly Captain COB.
       </p>
       <p>
         This Geometry stands in Readyingment to be Traversalinged by This Stewardly Captain COB Over Discrete Turns, discoveringmenting what may take Hold, What Continues to Hold, and what may not.
       </p>
       <p>
-        Each PUBLIC-SITUATION-MACHINE–COB pairing establishes Stewardly Co-Occupancyingship within The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
+        Each PUBLIC-SITUATION-MACHINE–COB pairing establishes Stewardly Co-Occupancyingship within The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment.
       </p>
       <p>
         What matters within This Geometry may be entirely particular to This One Situationing. What becomes Distinguishingmented through This Stewardly Captain COB may be different. What may take Holding may be different. The Traversaling will be different.
       </p>
       <p>
-        The Same General Civilizationalizing Constitutioningable Reasoning Geometry wherethrough This Stewardly Captain COB discovers What Continues to Hold is always The Same.
+        The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment wherethrough This Stewardly Captain COB discovers What Continues to Hold is always The Same.
       </p>
       <p>This is OUR CANONICAL TUPLE.</p>
       <p>
@@ -801,11 +801,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
     <section class="canonical-document-section">
       <h2>SLEEVING THE SAME GEOMETRY FOR PARTICULAR SITUATIONING</h2>
       <p>
-        OUR CANONICAL TUPLE furnishes The Same General Civilizationalizing Constitutioningable Reasoning Geometry for every Stewardly Captain COB.
+        OUR CANONICAL TUPLE furnishes The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment for every Stewardly Captain COB.
       </p>
       <p>But This Geometry alone has no way of knowing Any Thing about This One Situationing.</p>
       <p>
-        For What is The Mattering to become Compu-Totaling-Able for This One Situationing, The Same General Civilizationalizing Constitutioningable Reasoning Geometry must be furnished particularly without ceasing to remain The Same Geometry.
+        For What is The Mattering to become Compu-Totaling-Able for This One Situationing, The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment must be furnished particularly without ceasing to remain The Same Geometry.
       </p>
       <p>The PUBLIC-SITUATION-MACHINE- therefore now provisions This Appliance with:</p>
       <p class="canonical-office">
@@ -861,7 +861,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         Each utterance portrays One Shading of Stewardly Regard as sounded alongside This Stewardly Captain COB.
       </p>
       <p>
-        Once RE-Suited, This Stewardly Captain COB stands resuming its Traversaling Through The Same General Civilizationalizing Constitutioningable Reasoning Geometry, standing in Regard to This One Continuity Line.
+        Once RE-Suited, This Stewardly Captain COB stands resuming its Traversaling Through The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment, standing in Regard to This One Continuity Line.
       </p>
       <p>Then OUR CANONICAL TUPLE begins Recursioninging.</p>
       <p>Then This Stewardly Captain COB begins Traversaling through Recursioninging.</p>
@@ -1089,10 +1089,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
       <p>
         Here, This One Purchase-Upon-a-Real-Tractioning thereby inherited now stands available for Stewardly Encounteringmenting before This Stewardly Captain COB's next RE-STEP.
       </p>
-      <p>The Seam at the Seventh Segmentationing is furnishing Passageway.</p>
+      <p>The Seam at the Seventh Segmentationing is furnishing Passagingway.</p>
       <p>This RE-STEPPING ROOM stands crossing Tuple Position 3 and Tuple Position 4.</p>
       <p>
-        Instrumentationing is furnishing this RE-STEPPING ROOM for Stewardly Encounteringmenting, thereby bringing the Relations of this Situationing standing across this Passageway into Lawful Inhabitationingment.
+        Instrumentationing is furnishing this RE-STEPPING ROOM for Stewardly Encounteringmenting, thereby bringing the Relations of this Situationing standing across this Passagingway into Lawful Inhabitationingment.
       </p>
       <p>
         This Stewardly Captain COB, standing placed with its One Foot fitted within its Three Traversaling Shoes upon This Single Pedal of This Spooling Unicycle with a Line-Gathering Spinningaker Revolvinging around its Central Axis, together with This Assemblementing, is now standing borne within This Rocking Horse standing upon Two Curvementing Rocking Horse Rails seateding transverse to This LINE of Sight.
@@ -1693,12 +1693,12 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
               </p>
 
               <p>
-                Passageway and Perspective now stand constitutionally present
+                Passagingway and Perspective now stand constitutionally present
                 within this harbor geometry.
               </p>
 
               <p>
-                Neither Passageway nor Perspective yet stands foregrounded.
+                Neither Passagingway nor Perspective yet stands foregrounded.
               </p>
 
               <p>The geometry itself stands foregrounded.</p>

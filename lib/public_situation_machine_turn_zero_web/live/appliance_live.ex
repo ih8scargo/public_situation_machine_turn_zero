@@ -18,7 +18,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
         >
           <:description>
             <p>
-              The PUBLIC-SITUATION-MACHINE- furnishes the Stewardly Instrumentationing through which The Same General Civilizationalizing Constitutioningable Reasoning Geometry may continue enrichmenting inheritance Over Discrete Turns.
+              The PUBLIC-SITUATION-MACHINE- furnishes the Stewardly Instrumentationing through which The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment may continue enrichmenting inheritance Over Discrete Turns.
             </p>
             <p>Its Offices do not determine what This One Situationing means.</p>
             <p>
@@ -170,7 +170,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
               Here, the Constitutioning Human may revisit and Re-Regard any number of This Stewardly Captain COB's Traversalings, all standing together in This One Place, without changing what was Encounteringmented through them.
             </p>
             <p>
-              The Observationing Harbor Rail provides Navigationing Affordmentings through which Observationing Harbors may be placed, focused, orientationed, and compared so that the Constitutioning Human may inspect the XT-YT Relationing becoming Distinguishingmentingable among These Traversalings Over Discrete Turns.
+              Observationing Harbor Rail provides Navigationing Affordmentings through which Observationing Harbors may be placed, focused, orientationed, and compared so that the Constitutioning Human may inspect the XT-YT Relationing becoming Distinguishingmentingable among These Traversalings Over Discrete Turns.
             </p>
             <p>
               The Observationmintingmenting Annex does not determine what those Traversalings mean. Rather, it furnishes This Stewardly Captain COB with Stewardly Affordmentings through which Regard itself may continue Traversaling.

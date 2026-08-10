@@ -966,12 +966,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TurnZeroLive do
               </p>
 
               <p>
-                Passageway and Perspective now stand constitutionally present
+                Passagingway and Perspective now stand constitutionally present
                 within this harbor geometry.
               </p>
 
               <p>
-                Neither Passageway nor Perspective yet stands foregrounded.
+                Neither Passagingway nor Perspective yet stands foregrounded.
               </p>
 
               <p>The geometry itself stands foregrounded.</p>

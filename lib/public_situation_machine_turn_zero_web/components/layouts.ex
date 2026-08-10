@@ -123,7 +123,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
       <section class="psm-oag" aria-labelledby={"#{@id}-orientationing-title"}>
         <div class="psm-oag__instrument-plate">
           <p class="psm-oag__eyebrow">
-            The Same General Civilizationalizing Constitutioningable Reasoning Geometry
+            The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment
           </p>
           <h2 id={"#{@id}-orientationing-title"}>Standinging in Regard</h2>
           <p class="psm-oag__reading">{@reading}</p>

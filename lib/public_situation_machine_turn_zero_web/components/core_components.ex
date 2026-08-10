@@ -44,6 +44,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
     required: true
 
   attr :title, :string, default: nil
+  attr :pretitle, :string, default: nil
   slot :inner_block, required: true
 
   def constitutional_voice(assigns) do
@@ -57,6 +58,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         <p id={"#{@id}-kind"} class="constitutional-voice__kind">
           {constitutional_voice_kind(@voice)}
         </p>
+        <p :if={@pretitle} class="constitutional-voice__pretitle">{@pretitle}</p>
         <h3 :if={@title} id={"#{@id}-title"}>{@title}</h3>
       </header>
       <div class="constitutional-voice__body">{render_slot(@inner_block)}</div>
@@ -65,7 +67,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   end
 
   defp constitutional_voice_kind(:general_stewarding_offices),
-    do: "The General Stewarding Offices of the Appliance"
+    do: "The General Stewarding Offices of This Stewardshipmenting Appliance"
 
   defp constitutional_voice_kind(:institutional_standing), do: "Institutional Standing"
   defp constitutional_voice_kind(:appliance_narration), do: "Appliance Narrationing"
@@ -73,6 +75,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
   defp constitutional_voice_kind(:stewardly_guidance), do: "Stewardly Guidance"
 
   attr :id, :string, required: true
+  attr :from, :string, default: "Stewardly Availability"
+  attr :toward, :string, default: "Stewardly Co-Occupancyingship"
+  attr :from_label, :string, default: "Continuing from:"
+  attr :toward_label, :string, default: "Continuing toward:"
 
   def rail_wayfinding_card(assigns) do
     ~H"""
@@ -85,13 +91,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       <dl>
         <div>
           <strong>XT</strong>
-          <dt>Continuing from:</dt>
-          <dd>Stewardly Co-Occupancyingship</dd>
+          <dt>{@from_label}</dt>
+          <dd>{@from}</dd>
         </div>
         <div>
           <strong>YT</strong>
-          <dt>Continuing toward:</dt>
-          <dd>Encounteringmentablement</dd>
+          <dt>{@toward_label}</dt>
+          <dd>{@toward}</dd>
         </div>
       </dl>
     </section>
@@ -226,14 +232,18 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         </div>
         <ol>
           <li
-            :for={{appointmenting, index} <- Enum.with_index(formed_tuple_appointmentings())}
+            :for={
+              {{appointmenting, purpose}, index} <- Enum.with_index(formed_tuple_appointmentings())
+            }
             class="field-page__constitutional-shelf"
           >
             <section class="field-page__shelf-half" aria-label="XT">
               <strong>{if index == 0, do: "This Stewardly Captain COB", else: appointmenting}</strong>
+              <span :if={index > 0} class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
             <section class="field-page__shelf-half" aria-label="YT">
               <strong>{appointmenting}</strong>
+              <span class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
           </li>
         </ol>
@@ -266,35 +276,23 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         </div>
         <ol>
           <li
-            :for={{appointmenting, index} <- Enum.with_index(formed_tuple_appointmentings())}
+            :for={
+              {{appointmenting, purpose}, index} <- Enum.with_index(formed_tuple_appointmentings())
+            }
             class="field-page__constitutional-shelf"
           >
             <section class="field-page__shelf-half" aria-label="XT">
               <strong>{appointmenting}</strong>
+              <span class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
             <section class="field-page__shelf-half" aria-label="YT">
               <strong>{if index == 0, do: "This One Situationing", else: appointmenting}</strong>
+              <span :if={index > 0} class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
           </li>
         </ol>
       </div>
       <p :if={@standing_copy} class="field-page__leashing-standing-copy">{@standing_copy}</p>
-
-      <div class="field-page__sittinging-voices">
-        <.constitutional_voice
-          id={"#{@id}-stewardly-guidance"}
-          voice={:stewardly_guidance}
-          title="Continuing from Stewardly Availability toward Stewardly Co-Occupancyingship"
-        >
-          <p>
-            This Resonancing Snail Shellmenting Station House stands available for the Return of Constitutioning Humans.
-          </p>
-          <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
-          <p>
-            When ready, RE-FOLD from Here to approach The Investituringment of The Seat of The Stewardly Co-Occupancyingship.
-          </p>
-        </.constitutional_voice>
-      </div>
 
       <header class="field-page__leashing-landing-heading">
         <h3>This One Leashing Landing</h3>
@@ -366,13 +364,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
 
   defp formed_tuple_appointmentings do
     [
-      "The Zeroeth Appointmenting",
-      "The First Appointmenting",
-      "The Second Appointmenting",
-      "The Third Appointmenting",
-      "The Fourth Appointmenting",
-      "The Fifth Appointmenting",
-      "The Sixth Appointmenting"
+      {"The Zeroeth Appointmenting", "This One Situationing"},
+      {"The First Appointmenting", "Encounteringmentablement"},
+      {"The Second Appointmenting", "Distinguishingmenting"},
+      {"The Third Appointmenting", "Roomingmentingableroomingablement"},
+      {"The Fourth Appointmenting", "This One Purchase Surface"},
+      {"The Fifth Appointmenting", "Excursioningmenting"},
+      {"The Sixth Appointmenting", "Embroideringmentingenablementingedably"}
     ]
   end
 

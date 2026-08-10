@@ -190,7 +190,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "From Here, Constitutioning Humans may approach The Opening Rite of Passageway through its public entrance, The Resonancing Snail Shellmenting Station House."
+             "From Here, Constitutioning Humans may approach The Opening Rite of Passagingway through its public entrance, The Snail House."
            )
 
     refute has_element?(view, "#tuple-ship-field-threshold", "Division of Constitutioning Humans")
@@ -256,7 +256,9 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     refute has_element?(view, "#recovery-methods-form")
     refute has_element?(view, ".field-page__section")
 
-    view |> element("#unfold-constitutional-rail-line") |> render_click()
+    view
+    |> form("#zeroeth-mattering-form", zeroeth_inquiry: %{mattering: "The Structure Mattering"})
+    |> render_submit()
 
     view |> element("#take-holdinging-of-leashing") |> render_click()
 

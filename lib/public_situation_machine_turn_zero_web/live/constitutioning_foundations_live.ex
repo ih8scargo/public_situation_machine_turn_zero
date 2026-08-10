@@ -124,7 +124,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             <h2>ONE TUPLE, MANY SITUATIONINGS</h2>
             <p>The Tuple remains the Tuple.</p>
             <p>
-              Through Situationing Sleeving, The Same General Civilizationalizing Constitutioningable Reasoning Geometry may be furnished particularly for Any This One Situationing.
+              Through Situationing Sleeving, The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment may be furnished particularly for Any This One Situationing.
             </p>
             <p>
               Over repeated Traversalings, more and more Distinguishingments may become Encounteringmentingable for Stewardly Regard.
@@ -176,7 +176,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             <p>Neither One stands above The Other One.</p>
             <p>Neither One may hold without The Other One continuing to hold.</p>
             <p>
-              Together XT and YT furnish This Stewardly Captain COB with Standinging-in-Holding—This One Lawful Relationing Field of This One Situationing within The Same General Civilizationalizing Constitutioningable Reasoning Geometry which is Becoming This One Great Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+              Together XT and YT furnish This Stewardly Captain COB with Standinging-in-Holding—This One Lawful Relationing Field of This One Situationing within The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment which is Becoming This One Great Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
             </p>
             <p>
               The Constitutioning Human may return to an Observationing Harbor at any time to Re-Regard how What is Becoming (YT) continues Departing from What Continues to Hold (XT), and continues Returning toward What Continues to Hold (XT), Over Discrete Turns.
@@ -187,7 +187,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             <h2>EMBROIDERY STITCHING</h2>
             <h3>Enriching Inheritance</h3>
             <p>
-              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Reasoning Geometry.
+              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment.
             </p>
             <p>
               Through Embroidery Stitching, each Traversaling also becomes able to furnish its next.
@@ -250,7 +250,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             <p>The Laborings of Stewardly Instrumentationing furnish the Situationing.</p>
             <p>Traversaling discovers the path.</p>
             <p>
-              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Reasoning Geometry. As new XT-YT Relationings become Encounteringmented, they may come to stand as a new Holding-in-Standinging. Embroidery Stitching preserves This One Traversaling wherethrough those Relationings came to stand. The next Discrete Turn begins from what continues to hold.
+              Each Traversaling passes through The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment. As new XT-YT Relationings become Encounteringmented, they may come to stand as a new Holding-in-Standinging. Embroidery Stitching preserves This One Traversaling wherethrough those Relationings came to stand. The next Discrete Turn begins from what continues to hold.
             </p>
             <p>The existing system can continue doing what it already does.</p>
             <p>
@@ -285,7 +285,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
         <section class="psm-oag" aria-labelledby="orientationing-panel-title">
           <div class="psm-oag__instrument-plate">
             <p class="psm-oag__eyebrow">
-              The Same General Civilizationalizing Constitutioningable Reasoning Geometry
+              The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment
             </p>
 
             <h2 id="orientationing-panel-title">
@@ -1153,12 +1153,12 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
               </p>
 
               <p>
-                Passageway and Perspective now stand constitutionally present
+                Passagingway and Perspective now stand constitutionally present
                 within this harbor geometry.
               </p>
 
               <p>
-                Neither Passageway nor Perspective yet stands foregrounded.
+                Neither Passagingway nor Perspective yet stands foregrounded.
               </p>
 
               <p>The geometry itself stands foregrounded.</p>
