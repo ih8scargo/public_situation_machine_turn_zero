@@ -1124,6 +1124,67 @@
   font-weight: 800;
 }
 
+.field-page__civic-notices {
+  display: grid;
+  gap: clamp(1rem, 3vw, 1.75rem);
+  margin-top: 1rem;
+}
+
+.field-page__public-noticingments {
+  margin-top: clamp(1.25rem, 3vw, 2rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.3);
+  padding-top: 1rem;
+}
+
+.field-page__public-noticingments summary {
+  width: fit-content;
+  cursor: pointer;
+  font: 800 0.78rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.field-page__civic-notice {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.3);
+  background: rgba(248, 244, 236, 0.88);
+  text-align: center;
+}
+
+.field-page__civic-notice h2,
+.field-page__civic-notice h3,
+.field-page__civic-notice h4,
+.field-page__civic-notice p {
+  margin: 0;
+}
+
+.field-page__civic-notice > * + * {
+  margin-top: 0.75rem;
+}
+
+.field-page__civic-notice h2,
+.field-page__civic-notice h4 {
+  font-size: clamp(1rem, 2.6vw, 1.45rem);
+  line-height: 1.25;
+}
+
+#constitutional-reception-form .label {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 1.15;
+}
+
+#constitutional-reception-form input {
+  min-height: clamp(3.5rem, 7vw, 5rem);
+  padding: 0.8rem 1rem;
+  border-width: 2px;
+  font-size: clamp(1.15rem, 2.5vw, 1.65rem);
+}
+
 #entrance-rail-line-orientation {
   max-width: 58rem;
   margin: 2.5rem 0 0;

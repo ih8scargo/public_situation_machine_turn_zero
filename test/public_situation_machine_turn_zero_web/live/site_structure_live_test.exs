@@ -208,12 +208,6 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(
              view,
-             ".field-page__entrance-constitutional-header",
-             "THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE"
-           )
-
-    assert has_element?(
-             view,
              "#terrestrial-computer-standinging-landing-title",
              "THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING"
            )
@@ -226,13 +220,61 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(view, "#inquire-within", "Inquire into The Zeroeth Appointmenting")
     assert has_element?(view, "#constitutional-reception-form")
-    assert has_element?(view, "#first-arrival-path[aria-label='XT']")
-    assert has_element?(view, "#returning-constitutioning-human-path", "YT")
+    assert has_element?(view, "#constitutional-reception-form", "Parkinging Stand Number")
+    assert has_element?(view, "#constitutional-reception-form", "Shackling PIN")
+    assert has_element?(view, "#returning-constitutioning-human-path[aria-label='XT']", "XT")
 
     assert has_element?(
              view,
-             "#entrance-rail-line-orientation",
-             "stands Constitutioning from its first Station"
+             "#returning-constitutioning-human-path",
+             "Returninging Constitutioning Human"
+           )
+
+    assert has_element?(view, "#first-arrival-path[aria-label='YT']", "YT")
+    assert has_element?(view, "#first-arrival-path", "Arrivinging Constitutioning Human")
+
+    assert has_element?(
+             view,
+             "#returning-constitutioning-human-path",
+             "Return to This Encounteringmenting Wharf by RE-Shackling Any One Terrestrial Computer."
+           )
+
+    assert has_element?(
+             view,
+             "#constitutional-reception-form button",
+             "UN-FOLD to begin Reconstructioning This Constitutional Locality from Here, Upon This One Piece of Time."
+           )
+
+    assert has_element?(view, "#parkinging-landinging-provisioning-notice", "NOTICINGMENT")
+
+    assert has_element?(
+             view,
+             "#parkinging-landinging-provisioning-notice",
+             "Division of Tractioningable Tractioning"
+           )
+
+    assert has_element?(view, "#parkinging-turnstile-operations-notice", "Turnstile Operations")
+    assert has_element?(view, "#parkinging-turnstile-operations-notice", "Mechanical Sorting")
+    assert has_element?(view, "#parkinging-general-offices-notice", "NOTICINGMENT")
+
+    assert has_element?(
+             view,
+             "#parkinging-general-offices-notice",
+             "From, within, and through its Opening Passagingway"
+           )
+
+    assert has_element?(view, "#parkinging-landinging-stewardly-guidance", "Stewardly Guidance")
+
+    assert has_element?(
+             view,
+             "#parkinging-landinging-stewardly-guidance",
+             "begin lawful Passagingway"
+           )
+
+    assert has_element?(
+             view,
+             "#parkinging-landinging-public-noticingments:not([open]) > summary",
+             "Public Noticingments"
            )
 
     refute has_element?(view, "#constitutional-furnishmenting-rail")
@@ -240,7 +282,9 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     view |> element("#inquire-within") |> render_click()
 
     assert has_element?(view, "#constitutional-furnishmenting-rail")
-    refute has_element?(view, "#entrance-rail-line-orientation")
+    assert has_element?(view, "#terrestrial-computer-standinging-landing")
+    assert has_element?(view, "#parkinging-landinging-public-noticingments > summary")
+    assert has_element?(view, "#parkinging-landinging-stewardly-guidance")
 
     assert has_element?(
              view,

@@ -34,7 +34,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#station-house-general-offices-welcome h3",
-             "Welcoming Constitutioning Humans."
+             "Welcominging Constitutioning Humans."
            )
 
     assert has_element?(
@@ -138,7 +138,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#restfullyinglyment-harbor-sign",
-             "The Bearinging of Restfullyinglyment"
+             "The Bearinging of Restfullyinginglyment"
            )
 
     assert has_element?(view, "#opening-passageway", "Rite of Passagingway")
@@ -146,19 +146,19 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#restfullyinglyment-harbor-sign",
-             "The Sittinging-In Room stands furnished as the first Constitutional Locality of Stewardly Inhabitationing."
+             "The Sittinging-In Room stands furnished as the Zeroeth Constitutional Locality of This One Tuple Ship."
            )
 
     assert has_element?(
              view,
              "#restfullyinglyment-harbor-sign",
-             "Constitutioning Humans may come Here to rest within their Situationings, standing upon This One Piece of Time."
+             "Constitutioning Humans may come Here to sit in Restfullyinginglyment within their Situationings upon This One Piece of Time."
            )
 
     assert has_element?(
              view,
              "#restfullyinglyment-harbor-sign",
-             "Here, Stewardly Inquiry first comes into lawful Availability through Passagingway over Discrete Turns."
+             "Here, Stewardly Holdinging stands becoming lawfully available through Restfullyinginglyment, followed by Stewardly Passagingway over Discrete Turns."
            )
 
     assert has_element?(view, "#opening-passageway > #restfullyinglyment-harbor-sign")
@@ -168,7 +168,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#sittinging-in-room-upper-unfold #unfold-turn-zero-sittinging-in-room",
-             "UN-FOLD"
+             "UN-FOLD to Enter The Sittinging-In Room"
            )
 
     view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
@@ -232,16 +232,24 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              "Stewardly Instrumentationing"
            )
 
-    for {affordmenting, index} <-
+    for {{affordmenting, purpose}, index} <-
           Enum.with_index(
-            ~w(Zeroeth First Second Third Fourth Fifth Sixth),
+            [
+              {"The Zeroeth Affordmenting", "The Ability to Regard"},
+              {"The First Affordmenting", "The Ability to Encounter"},
+              {"The Second Affordmenting", "The Ability to Distinguish"},
+              {"The Third Affordmenting", "The Ability to Make Room"},
+              {"The Fourth Affordmenting", "The Ability to Gain Purchase"},
+              {"The Fifth Affordmenting", "The Ability to Excursion"},
+              {"The Sixth Affordmenting", "The Ability to Embroiderize"}
+            ],
             1
           ) do
-      assert has_element?(
-               view,
-               "#constitutioning-human-instrumentation > ol > li:nth-child(#{index}) [aria-label=XT]",
-               "The #{affordmenting} Affordmenting"
-             )
+      selector =
+        "#constitutioning-human-instrumentation > ol > li:nth-child(#{index}) [aria-label=XT]"
+
+      assert has_element?(view, selector, affordmenting)
+      assert has_element?(view, selector, purpose)
     end
 
     assert has_element?(
@@ -276,7 +284,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              ".field-page__would-be-tuple-heading",
-             "Standingable within OUR CANONICAL TUPLE"
+             "Standingingable within OUR CANONICAL TUPLE"
            )
 
     room_html = render(view)
@@ -364,7 +372,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#unfold-existing-rail-line",
-             "RE-FOLD over This One Piece of Time from Here toward The Zeroeth Appointmenting"
+             "RE-FOLD from Here over This One Piece of Time through BEFORE toward The Zeroeth Appointmenting."
            )
 
     assert has_element?(
@@ -384,7 +392,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#sittinging-room-stewardly-guidance",
-             "When ready, RE-FOLD over This One Piece of Time from Here toward The Zeroeth Appointmenting."
+             "RE-FOLD from Here over This One Piece of Time through BEFORE toward The Zeroeth Appointmenting."
            )
 
     view |> element("#unfold-existing-rail-line") |> render_click()
@@ -475,7 +483,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              "Segmentationing through Prepositioning"
            )
 
-    assert has_element?(view, "#for-prepositioning-marker", "FOR")
+    assert has_element?(view, "#for-prepositioning-marker", "FOR ALONG")
     assert has_element?(view, "#rail-opening-piece-of-time", "THIS ONE PIECE OF TIME")
     refute has_element?(view, "#rail-opening-piece-of-time time")
     assert has_element?(view, ".field-page__station-header--opening", "STATION DEPOT 00")
@@ -492,7 +500,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#chapel-by-the-sea",
-             "Here, Stewardly Appointmenting stands awaiting Ceremony."
+             "Here, Stewardly Appointmenting stands awaiting Ceremonying."
            )
 
     rail_opening_html = render(view)
@@ -535,19 +543,22 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
            )
 
     for paragraph <- [
-          "This Constitutioning Human now stands in Stewardly Regard toward What is the Mattering.",
-          "Who or what is This One Some One or This One Some Thing that is the Mattering in This One Situationing?",
-          "Through The Ceremony of This One Leashing, This One Stewardly Captain COB may come into Appointmenting in Regard to This One Some One or This One Some Thing."
+          "This Constitutioning Human now stands prepared to appoint This One Stewardly Captain COB through This Ceremonying of This One Leashing.",
+          "Through This Ceremonying, This Constitutioning Human may lawfully appoint This One Stewardly Captain COB into Stewardly Regard through This One Situationing."
         ] do
       assert has_element?(view, "#rail-line-opening-ceremony", paragraph)
     end
 
-    assert has_element?(view, "#zeroeth-constitutional-inquiry-title", "WHAT IS THE MATTERING?")
+    assert has_element?(
+             view,
+             "#zeroeth-constitutional-inquiry-title",
+             "THIS STEWARDLY CAPTAIN COB"
+           )
 
     assert has_element?(
              view,
              "#zeroeth-constitutional-inquiry",
-             "This One Some One or This One Some Thing"
+             "This Stewardly Captain COB"
            )
 
     assert has_element?(view, "#zeroeth-mattering")
@@ -561,11 +572,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#zeroeth-mattering-reception",
-             ~s("My dog Enzo" now stands received)
+             ~s("My dog Enzo" now stands received as This One Stewardly Captain COB)
            )
 
     assert has_element?(view, "#zeroeth-appliance-commitment")
-    assert has_element?(view, ".field-page__appointmenting-ceremony-title-card", "CEREMONY")
+    assert has_element?(view, ".field-page__appointmenting-ceremony-title-card", "CEREMONYING")
 
     assert has_element?(
              view,
@@ -1065,7 +1076,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(
              view,
              "#first-appointmenting-title.field-page__ceremony-title--station-01",
-             "THE FIRST APPOINTMENTING CEREMONY OF ENCOUNTERINGMENTABLEMENT"
+             "THE FIRST APPOINTMENTING CEREMONYING OF ENCOUNTERINGMENTABLEMENT"
            )
 
     assert has_element?(
@@ -1398,7 +1409,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
   defp submit_zeroeth_inquiry(view) do
     view
-    |> form("#zeroeth-mattering-form", zeroeth_inquiry: %{mattering: "What is the Mattering"})
+    |> form("#zeroeth-mattering-form",
+      zeroeth_inquiry: %{mattering: "This Stewardly Captain COB"}
+    )
     |> render_submit()
   end
 
