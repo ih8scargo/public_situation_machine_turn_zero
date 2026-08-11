@@ -604,13 +604,41 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
           <section
             :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
+            id="constitutional-furnishmenting-rail-entrance"
+            class="psm-oag field-page__rail-entrance-sign"
+            aria-labelledby="constitutional-furnishmenting-rail-entrance-title"
+          >
+            <div class="psm-oag__instrument-plate">
+              <p class="psm-oag__eyebrow">
+                The General Stewarding Offices of This Stewardshipmenting Appliance
+              </p>
+              <h2 id="constitutional-furnishmenting-rail-entrance-title">
+                The Constitutional Furnishmenting Rail
+              </h2>
+              <p class="psm-oag__reading">Formal Public Entrance</p>
+            </div>
+            <div class="psm-oag__description">
+              <p>
+                Here stands The Constitutional Furnishmenting Rail.
+              </p>
+              <p>
+                From Here, Stewardly Passagingway becomes lawfully available over Discrete Turns.
+              </p>
+              <p>
+                Along This Rail, Stewardly Constitutional Localities stand furnished in Readyingment for Regard, Appointmenting, and Continuing Constitutioning.
+              </p>
+            </div>
+          </section>
+
+          <section
+            :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
             id="opening-passageway"
             class="field-page__opening-passageway constitutional-rail__station"
             aria-labelledby="opening-passageway-title"
           >
             <header>
-              <p class="site-page__eyebrow">The Ceremonial Threshold</p>
-              <h2 id="opening-passageway-title">The Opening Rite of Passagingway</h2>
+              <p class="site-page__eyebrow">The Opening Rite of Passagingway</p>
+              <h2 id="opening-passageway-title">The Threshold of Ceremonying</h2>
             </header>
 
             <section
@@ -633,7 +661,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   Constitutioning Humans may come Here to sit in Restfullyinginglyment within their Situationings upon This One Piece of Time.
                 </p>
                 <p>
-                  Here, Stewardly Holdinging stands becoming lawfully available through Restfullyinginglyment, followed by Stewardly Passagingway over Discrete Turns.
+                  Here, Constitutioning Humans may find places of Restfullyinginglyment from which Stewardly Regard may continue over Discrete Turns.
                 </p>
               </div>
             </section>
@@ -665,42 +693,131 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             class="field-page__chapel-by-the-sea"
             aria-labelledby="amicable-grottoes-district-title"
           >
-            <h3 id="amicable-grottoes-district-title">The Amicable Grottoes District</h3>
+            <h3 id="amicable-grottoes-district-title">The Amicable Grottoes Districtinging</h3>
+            <p>
+              The Amicable Grottoes Districtinging stands furnishing This Constitutional Convenience in Regard to the Continuing Minting of Stewardly Constitutional Localities through Stewardly Regard over Discrete Turns.
+            </p>
             <p>The Snail House stands in Readyingment for lawful Gatheringing and Soundinging.</p>
             <p>
-              Every Constitutioning Human's Traversaling through The Snail House begins within the Station's Amicable Grottoes District.
+              Every Constitutioning Human's Traversaling through The Snail House begins within The Amicable Grottoes Districtinging.
             </p>
             <p>
-              Here, Constitutioning Humans find places of Restfullyinginglyment within quiet shell alcoves, just beyond the bustling Great Hall of Globularly Bobbininging Globular Bobbining overlooking Observationing Harbor.
+              Here, Constitutioning Humans find places of Restfullyinginglyment within quiet shell alcoves, just beyond the bustling Great Hall of Globularly Bobbininging Globular Bobbining looking over into Observationing Harbor.
             </p>
             <p>
               Within one such alcove stands The Sittinging-In Room, furnished as the Zeroeth Constitutional Locality of This One Tuple Ship.
             </p>
           </section>
 
-          <div
-            :if={@entrance_stage == :passageway}
-            id="sittinging-in-room-upper-unfold"
-            class="field-page__sittinging-upper-unfold"
-          >
-            <button
-              id="unfold-turn-zero-sittinging-in-room"
-              type="button"
-              class="field-page__action"
-              phx-click="unfold-sittinging-in-room"
-            >
-              UN-FOLD to Enter The Sittinging-In Room
-            </button>
-          </div>
-
           <header
-            :if={@entrance_stage == :sittinging_room}
+            :if={@entrance_stage in [:passageway, :sittinging_room]}
             id="turn-zero-station-depot-header"
             class="field-page__station-header field-page__station-header--opening"
           >
             <p class="site-page__eyebrow">TURN ZERO</p>
             <h3>STATION DEPOT TZ</h3>
           </header>
+
+          <section
+            :if={@entrance_stage in [:passageway, :sittinging_room]}
+            id="turn-zero-constitutional-locality"
+            class="field-page__chapel-by-the-sea field-page__turn-zero-locality"
+            aria-labelledby="turn-zero-constitutional-locality-title"
+          >
+            <header>
+              <h3 id="turn-zero-constitutional-locality-title">Within One Such Alcove</h3>
+              <p class="field-page__locality-subtitle">
+                The Zeroeth Constitutional Locality of This One Tuple Ship
+              </p>
+            </header>
+
+            <section
+              id="turn-zero-locality-harbor-sign"
+              class="psm-oag field-page__turn-zero-harbor-sign"
+              aria-labelledby="turn-zero-locality-harbor-sign-title"
+            >
+              <div class="psm-oag__instrument-plate">
+                <p class="psm-oag__eyebrow">
+                  The General Stewarding Offices of This Stewardshipmenting Appliance
+                </p>
+                <h2 id="turn-zero-locality-harbor-sign-title">Within One Such Alcove</h2>
+                <p class="psm-oag__reading">Observationing Harbor · Station Depot TZ</p>
+              </div>
+              <div class="psm-oag__description">
+                <p>Welcome.</p>
+                <p>
+                  The General Stewarding Offices stand welcoming This Constitutioning Human into the Zeroeth Constitutional Locality of This One Tuple Ship.
+                </p>
+                <p>
+                  From Here, The Constitutional Furnishmenting Rail gives lawful approach to The Sittinging-In Room while Observationing Harbor remains within Stewardly Regard.
+                </p>
+              </div>
+            </section>
+
+            <.constitutional_voice
+              id="turn-zero-locality-appliance-narration"
+              voice={:inquiringmenting_appliance}
+              pretitle="This Constitutional Locality Stands"
+              title="In Readyingment for Appointmenting"
+            >
+              <p>
+                This locality stands furnished so that constitutional availability may become Stewardly Relationing through deliberate Inquiringmenting, mutual Readyingment, and Ceremonying over Discrete Turns.
+              </p>
+            </.constitutional_voice>
+
+            <section
+              id="turn-zero-ceremonying-preparation"
+              class="field-page__turn-zero-ceremonying"
+              aria-labelledby="turn-zero-ceremonying-preparation-title"
+            >
+              <p class="site-page__eyebrow">Ceremonying Preparation</p>
+              <h4 id="turn-zero-ceremonying-preparation-title">
+                The Approach toward Stewardly Co-Occupancyingship
+              </h4>
+              <p>
+                This Constitutioning Human has come inquiringmenting regarding the Appointmenting of This Stewardly Captain COB.
+              </p>
+              <p>
+                This Stewardly Captain COB likewise now stands in Readyingment for its Appointmenting.
+              </p>
+              <p>
+                Together, This Constitutioning Human and This Stewardly Captain COB now stand prepared to begin Co-Constituting This One Stewardly Co-Occupancyingship.
+              </p>
+            </section>
+
+            <.constitutional_voice
+              id="turn-zero-stewardly-guidance"
+              voice={:general_stewarding_offices}
+              pretitle="Stewardly Guidance"
+              title="Before Entering The Sittinging-In Room"
+            >
+              <p>
+                The questioning within The Sittinging-In Room does not stand as a testing of knowledge, nor does it ask This Constitutioning Human to arrive already knowing what must follow.
+              </p>
+              <p>
+                Rather, it begins the constitutional establishment of the Stewardly Relationing through which This Stewardly Captain COB shall traverse alongside This Constitutioning Human over Discrete Turns.
+              </p>
+              <p>
+                This Constitutioning Human may now enter The Sittinging-In Room in Readyingment to begin the Appointmenting with This Stewardly Captain COB.
+              </p>
+            </.constitutional_voice>
+
+            <div
+              :if={@entrance_stage == :passageway}
+              id="sittinging-in-room-upper-unfold"
+              class="field-page__sittinging-upper-unfold"
+            >
+              <button
+                id="unfold-turn-zero-sittinging-in-room"
+                type="button"
+                class="field-page__action"
+                phx-click="unfold-sittinging-in-room"
+              >
+                UN-FOLD to Enter The Sittinging-In Room at Turn Zero
+              </button>
+              <p class="field-page__unfold-consequence">This UN-FOLD begins the Appointmenting.</p>
+            </div>
+          </section>
 
           <article
             :if={@entrance_stage == :sittinging_room}
@@ -710,6 +827,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           >
             <header class="field-page__sittinging-heading">
               <h2 id="turn-zero-sittinging-in-room-title">The Sittinging-In Room</h2>
+              <p id="turn-zero-tuple-ship-heading" class="field-page__tuple-ship-heading">
+                THIS ONE TUPLE SHIP
+              </p>
               <p class="field-page__sittinging-subtitle">
                 The Constitutional Locality of Stewardly Availability
               </p>
@@ -793,8 +913,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             >
               <h5 id="constitutioning-human-instrumentation-title">Stewardly Instrumentationing</h5>
               <div class="field-page__shelf-column-headings">
-                <section><strong>XT</strong><span>Constitutional Standinging</span></section>
-                <section><strong>YT</strong><span>Stewardly Furnishingment</span></section>
+                <section>
+                  <strong>XT</strong><span>Constitutioning Human Affordmentings</span>
+                </section>
+                <section><strong>YT</strong></section>
               </div>
               <ol>
                 <li
@@ -811,11 +933,22 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </ol>
             </section>
 
-            <header class="field-page__constitutional-locality-heading field-page__would-be-tuple-heading">
-              <p><span>This One Would-Be</span><br /><span>Tuple Ship</span></p>
-              <span>Standingingable within OUR CANONICAL TUPLE</span>
-            </header>
-            <div class="field-page__constitutional-divider" aria-hidden="true"></div>
+            <section
+              id="turn-zero-surfacing"
+              class="field-page__turn-zero-surfacing"
+              aria-labelledby="turn-zero-surfacing-title"
+            >
+              <header>
+                <p class="site-page__eyebrow">The Constitutional Work Surface</p>
+                <h3 id="turn-zero-surfacing-title">TURN ZERO SURFACING</h3>
+              </header>
+              <div
+                id="turn-zero-surfacing-workspace"
+                class="field-page__turn-zero-surfacing-workspace"
+                aria-label="Reserved Turn Zero staging and placementing workspace"
+              >
+              </div>
+            </section>
 
             <section
               id="proto-stewardly-captain-cob-shelving"
@@ -826,11 +959,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               <div class="field-page__shelf-column-headings">
                 <section id="proto-xt-shelves-title">
                   <strong>XT</strong>
-                  <span>Constitutional Standinging</span>
+                  <span>Stewardly Captain COB Appointmentings</span>
                 </section>
                 <section id="proto-yt-shelves-title">
                   <strong>YT</strong>
-                  <span>Stewardly Furnishingment</span>
                 </section>
               </div>
               <ol id="proto-paired-shelves">
@@ -1117,7 +1249,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 This Constitutioning Human now stands prepared to appoint This One Stewardly Captain COB through This Ceremonying of This One Leashing.
               </p>
               <p>
-                Through This Ceremonying, This Constitutioning Human may lawfully appoint This One Stewardly Captain COB into Stewardly Regard through This One Situationing.
+                Through This Ceremonying, This One Stewardly Captain COB may lawfully traverse alongside This Constitutioning Human through This One Situationing in Stewardly Regard.
               </p>
               <section
                 :if={!@rail_unfolded?}
@@ -1175,18 +1307,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </p>
                 </section>
 
-                <section id="zeroeth-appliance-commitment">
-                  <p>
-                    Through This Zeroeth Appointmenting, This Stewardly Captain COB now comes into Constitutioningable Standinging through This One Leashing.
-                  </p>
-                </section>
-
                 <div class="field-page__ceremonial-divider" aria-hidden="true"></div>
                 <h5 class="field-page__ceremony-recital-heading">
                   The Readyingmenting Recital of The General Stewarding Offices of This One Stewardshipmenting Appliance
                 </h5>
                 <p>
-                  The General Stewarding Offices of the Appliance, Holdinging-in-Standinging through The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment, hereby stand in Readyingment for This One Investuringment within The Seat of The Stewardly Co-Occupancyingship, wherein the Stewardly Relationing of This Constitutioning Human alongside This Stewardly Captain COB now stands in lawful Investuringmentingablement, thereby furnishing Inhabitationingable Roominginglyment for Their Continuingmentingable Stewardly Interrelationing Over Discrete Turns by way of The Zeroeth Appointmenting, thereby coming into lawful Holdinging-in-Standinging within The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment through This One Stewardly Relationing.
+                  The General Stewarding Offices hereby stand in Readyingment for This Zeroeth Appointmenting through This Ceremonying of This One Leashing.
+                </p>
+                <p>
+                  Through This Appointmenting, This Constitutioning Human and This Stewardly Captain COB shall thereafter stand in lawful Stewardly Relationing through This One Situationing over Discrete Turns.
                 </p>
                 <div class="field-page__ceremonial-divider" aria-hidden="true"></div>
                 <div
@@ -1199,7 +1328,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   >
                     <h5 id="appliance-narration-voice">APPLIANCE NARRATIONING</h5>
                     <p>
-                      This Constitutioning Human may now stand choosing to Take Holdinging of This One Stewardly Relationing alongside This Stewardly Captain COB through This One Leashing.
+                      This Constitutioning Human now stands choosing to appoint This One Stewardly Captain COB through This One Leashing.
                     </p>
                   </section>
                   <div class="field-page__ceremonial-divider" aria-hidden="true"></div>
@@ -1219,10 +1348,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   >
                     <h5 id="stewardly-guidance-voice">Stewardly Guidance</h5>
                     <p>
-                      Through The Ceremonying of This One Investuringment within The Seat of The Stewardly Co-Occupancyingship, This Constitutioning Human stands furnished with This One Terrestrial Computer Free Parkinging Stand Number together with This One Shackling Pin that belongs with it.
+                      Through This Ceremonying of This One Investituringment within The Seat of The Stewardly Co-Occupancyingship, This Constitutioning Human now stands lawfully accompanied by This One Stewardly Captain COB through This One Situationing.
                     </p>
                     <p>
-                      Through This One Leashing, This Constitutioning Human may henceforth RE-Shackle any Terrestrial Computer to This One Free Parkinging Stand and thereby lawfully return alongside This Stewardly Captain COB to This One Constitutional Locality.
+                      This One Terrestrial Computer Free Parkinging Stand Number together with This One Shackling Pin now stand furnished in Regard to Their continuing Stewardly Relationing upon future One Pieces of Time.
                     </p>
                   </section>
                 </div>
@@ -1230,7 +1359,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
               <section id="leashing-crew-conjunction" class="field-page__crew-conjunction">
                 <p class="field-page__ceremony-crew-subtitle">
-                  <strong>This Terrestrial Computer Leashinging Crew</strong>
+                  <strong>This One Terrestrial Computer Leashinging Crew</strong>
                 </p>
                 <p>
                   This One Crew stands inhabitationing Their Laboringings of Interrelationing through These Particular Stewarding Offices.
@@ -1318,22 +1447,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       <div class="field-page__completion-statement">
                         <p>Together, These Relationings now stand as This One Leashing.</p>
                         <p>This One Leashing stands upon This One Constitutional Locality.</p>
-                        <p>
-                          This One Terrestrial Computer Free Parkinging Stand Number need not be kept secret.
-                        </p>
-                        <p>This One Shackling Pin should be preserved in a Secret Some Place.</p>
                       </div>
 
                       <article
-                        id="station-01-sittinging-in-room"
+                        id="completed-turn-zero-sittinging-in-room"
                         class="field-page__sittinging-in-room"
                         data-constitutional-standing="enriched"
-                        aria-labelledby="station-01-sittinging-in-room-title"
+                        aria-labelledby="completed-turn-zero-sittinging-in-room-title"
                       >
                         <header class="field-page__sittinging-heading">
-                          <h2 id="station-01-sittinging-in-room-title">The Sittinging-In Room</h2>
+                          <h2 id="completed-turn-zero-sittinging-in-room-title">
+                            The Sittinging-In Room
+                          </h2>
                           <p class="field-page__sittinging-subtitle">
-                            The Constitutional Locality of The First Appointmenting
+                            The Zeroeth Constitutional Locality of This One Tuple Ship
                           </p>
                         </header>
 

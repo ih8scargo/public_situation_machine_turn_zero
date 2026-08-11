@@ -129,17 +129,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       phx-hook=".CopyFurnishing"
       aria-labelledby={"#{@id}-title"}
     >
-      <section
-        id={@time_id}
-        class="field-page__locality-commencement field-page__credentials-ground field-page__re-shackling-time-ground"
-      >
-        <span>THIS ONE PIECE OF TIME</span>
-        <strong>{@piece_of_time}</strong>
-      </section>
       <header class="field-page__sittinging-heading">
         <h2 id={"#{@id}-title"}>The Sittinging-In Room</h2>
         <p class="field-page__sittinging-subtitle">
-          The Constitutional Locality of Stewardly Availability
+          The Zeroeth Constitutional Locality of This One Tuple Ship
         </p>
       </header>
 
@@ -227,23 +220,23 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       >
         <h5 id={"#{@id}-instrumentation-title"}>Stewardly Instrumentationing</h5>
         <div class="field-page__shelf-column-headings">
-          <section><strong>XT</strong><span>Constitutional Standinging</span></section>
-          <section><strong>YT</strong><span>Stewardly Furnishingment</span></section>
+          <section><strong>XT</strong><span>Constitutioning Human Affordmentings</span></section>
+          <section><strong>YT</strong><span>Stewardly Furnishingments</span></section>
         </div>
         <ol>
           <li
-            :for={
-              {{appointmenting, purpose}, index} <- Enum.with_index(formed_tuple_appointmentings())
-            }
+            :for={{{affordmenting, purpose}, index} <- Enum.with_index(formed_human_affordmentings())}
             class="field-page__constitutional-shelf"
           >
             <section class="field-page__shelf-half" aria-label="XT">
-              <strong>{if index == 0, do: "This Stewardly Captain COB", else: appointmenting}</strong>
-              <span :if={index > 0} class="field-page__appointmenting-purpose">{purpose}</span>
+              <strong>{affordmenting}</strong>
+              <span class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
             <section class="field-page__shelf-half" aria-label="YT">
-              <strong>{appointmenting}</strong>
-              <span class="field-page__appointmenting-purpose">{purpose}</span>
+              <strong :if={index == 0}>The Zeroeth Stewardly Furnishingment</strong>
+              <span :if={index == 0} class="field-page__appointmenting-purpose">
+                This Stewardly Captain COB
+              </span>
             </section>
           </li>
         </ol>
@@ -267,11 +260,11 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         <div class="field-page__shelf-column-headings">
           <section>
             <strong>XT</strong>
-            <span>Constitutional Standinging</span>
+            <span>Stewardly Captain COB Appointmentings</span>
           </section>
           <section>
             <strong>YT</strong>
-            <span>Stewardly Furnishingment</span>
+            <span>Stewardly Furnishingments</span>
           </section>
         </div>
         <ol>
@@ -286,13 +279,23 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
               <span class="field-page__appointmenting-purpose">{purpose}</span>
             </section>
             <section class="field-page__shelf-half" aria-label="YT">
-              <strong>{if index == 0, do: "This One Situationing", else: appointmenting}</strong>
-              <span :if={index > 0} class="field-page__appointmenting-purpose">{purpose}</span>
+              <strong :if={index == 0}>The Zeroeth Stewardly Furnishingment</strong>
+              <span :if={index == 0} class="field-page__appointmenting-purpose">
+                This One Spoolinging Ratchetingable Unicycle with a Single Pedal Revolvinging about its Central Axis
+              </span>
             </section>
           </li>
         </ol>
       </div>
       <p :if={@standing_copy} class="field-page__leashing-standing-copy">{@standing_copy}</p>
+
+      <section
+        id={@time_id}
+        class="field-page__locality-commencement field-page__credentials-ground field-page__re-shackling-time-ground"
+      >
+        <span>THIS ONE PIECE OF TIME</span>
+        <strong>{@piece_of_time}</strong>
+      </section>
 
       <header class="field-page__leashing-landing-heading">
         <h3>This One Leashing Landing</h3>
@@ -338,6 +341,16 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         </section>
       </div>
 
+      <details id={"#{@id}-utility"} class="field-page__leashing-utility">
+        <summary>Utility</summary>
+        <div>
+          <p>
+            This One Terrestrial Computer Free Parkinging Stand Number need not be kept secret.
+          </p>
+          <p>This One Shackling Pin should be preserved in a Secret Some Place.</p>
+        </div>
+      </details>
+
       <script :type={Phoenix.LiveView.ColocatedHook} name=".CopyFurnishing">
         export default {
           mounted() {
@@ -371,6 +384,18 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       {"The Fourth Appointmenting", "This One Purchase Surface"},
       {"The Fifth Appointmenting", "Excursioningmenting"},
       {"The Sixth Appointmenting", "Embroideringmentingenablementingedably"}
+    ]
+  end
+
+  defp formed_human_affordmentings do
+    [
+      {"The Zeroeth Affordmenting", "The Ability to Regard"},
+      {"The First Affordmenting", "The Ability to Encounter"},
+      {"The Second Affordmenting", "The Ability to Distinguish"},
+      {"The Third Affordmenting", "The Ability to Make Room"},
+      {"The Fourth Affordmenting", "The Ability to Gain Purchase"},
+      {"The Fifth Affordmenting", "The Ability to Excursion"},
+      {"The Sixth Affordmenting", "The Ability to Embroiderize"}
     ]
   end
 
