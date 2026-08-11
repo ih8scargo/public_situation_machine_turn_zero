@@ -1094,8 +1094,24 @@
   letter-spacing: 0.12em;
 }
 
+.field-page__wing-inspection-toggle {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--psm-steel);
+  background: transparent;
+  font: 800 0.7rem/1.35 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.field-page__wing-inspection-toggle:hover,
+.field-page__wing-inspection-toggle:focus-visible {
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
 .field-page__stitching-needle-furnishment,
-.field-page__turn-zero-for-appointmenting,
 .field-page__departure-ceremonying {
   margin: clamp(2rem, 5vw, 4rem);
   padding: clamp(1.5rem, 4vw, 3rem);
@@ -1108,7 +1124,6 @@
 }
 
 .field-page__stitching-needle-furnishment h4,
-.field-page__turn-zero-for-appointmenting h3,
 .field-page__departure-ceremonying h3 {
   margin: 0.65rem 0 1rem;
   font-family: Georgia, "Times New Roman", serif;
@@ -1116,8 +1131,24 @@
   line-height: 1.2;
 }
 
-.field-page__turn-zero-for-appointmenting > .field-page__action {
-  margin-top: 1rem;
+.field-page__turn-zero-ceremony-offer {
+  display: flex;
+  margin: 1.5rem clamp(1.5rem, 5vw, 4rem);
+  padding: 1rem clamp(1rem, 3vw, 1.75rem);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid rgba(32, 37, 38, 0.36);
+  background: rgba(248, 244, 236, 0.82);
+}
+
+.field-page__turn-zero-ceremony-offer > * {
+  margin: 0;
+}
+
+.field-page__turn-zero-ceremony-offer h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 2.2vw, 1.45rem);
 }
 
 .field-page__cob-wardrobe {
@@ -1260,6 +1291,29 @@
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.5rem, 4vw, 3rem);
   line-height: 1.2;
+  transition: margin 220ms ease, padding 220ms ease, box-shadow 220ms ease;
+}
+
+.field-page__turn-zero-surfacing.is-folded {
+  margin-block: clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(1.1rem, 2.5vw, 1.75rem);
+  box-shadow: inset 0 0 0 0.25rem rgba(215, 204, 183, 0.44);
+}
+
+.field-page__turn-zero-surfacing.is-folded header {
+  padding-bottom: 0.75rem;
+}
+
+.field-page__turn-zero-surfacing.is-folded h3 {
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+}
+
+.field-page__surfacing-folded-status {
+  margin: 0;
+  color: rgba(32, 37, 38, 0.72);
+  font: 800 0.72rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .field-page__surfacing-region-awaiting {
@@ -1364,6 +1418,25 @@
   color: var(--psm-brass);
   font: 900 clamp(0.7rem, 1.5vw, 0.88rem)/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   letter-spacing: 0.12em;
+}
+
+.field-page__constitutional-shelf.is-folded-tuple-position {
+  border-bottom: 0;
+}
+
+.field-page__constitutional-shelf.is-folded-tuple-position > .field-page__shelf-half {
+  display: none;
+}
+
+.field-page__constitutional-shelf.is-folded-tuple-position > .field-page__tuple-position {
+  min-height: 1.7rem;
+  opacity: 0.72;
+  font-size: 0.66rem;
+}
+
+.field-page__constitutional-shelf.is-active-tuple-position > .field-page__tuple-position {
+  min-height: 2.8rem;
+  box-shadow: inset 0 -0.2rem 0 var(--psm-brass);
 }
 
 .field-page__shelf-grid--cob > .field-page__shelf-half:nth-child(2) {
@@ -3332,6 +3405,11 @@ section.field-page__standinging-marker {
 }
 
 @media (max-width: 760px) {
+  .field-page__turn-zero-ceremony-offer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .field-page__naming-choices,
   .field-page__re-shackling-choices,
   .field-page__re-shackling-result dl,

@@ -461,16 +461,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              "This Constitutioning Work Surface"
            )
 
-    assert has_element?(view, "#turn-zero-active-interrelationing", "What Is Being Worked With")
-    refute has_element?(view, "#turn-zero-coordinate-readout")
-    refute has_element?(view, "#turn-zero-staging-regions")
-    assert has_element?(view, "#turn-zero-staging-result", "THIS XT–YT RELATIONING")
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="folded"]|)
 
     assert has_element?(
              view,
-             "#turn-zero-staging-result",
-             "No XT–YT Relationing presently stands staged upon This Work Surface."
+             "#turn-zero-surfacing-folded-status",
+             "No Interrelationing Presently Stands under Active Regard"
            )
+
+    refute has_element?(view, "#turn-zero-surfacing-instrument")
+    refute has_element?(view, "#turn-zero-coordinate-readout")
+    refute has_element?(view, "#turn-zero-staging-regions")
+    refute has_element?(view, "#turn-zero-staging-result")
 
     assert has_element?(view, "#turn-zero-holdinging-in-standinging")
     refute has_element?(view, "#turn-zero-surfacing #turn-zero-holdinging-in-standinging")
@@ -526,6 +528,34 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              "#cob-shelvinging-title",
              "This Stewardly Captain COB's Shelvinging"
            )
+
+    assert has_element?(
+             view,
+             ~s|#constitutioning-human-instrumentation [data-tuple-position="TZ"][data-folded="false"]|
+           )
+
+    assert has_element?(
+             view,
+             ~s|#constitutioning-human-instrumentation [data-tuple-position="00"][data-folded="true"]|
+           )
+
+    assert has_element?(
+             view,
+             ~s|#proto-paired-shelves [data-tuple-position="06"][data-folded="true"]|
+           )
+
+    view |> element("#toggle-turn-zero-wing-inspection") |> render_click()
+    assert has_element?(view, ~s|#toggle-turn-zero-wing-inspection[aria-expanded="true"]|)
+
+    assert has_element?(
+             view,
+             ~s|#constitutioning-human-instrumentation [data-tuple-position="00"][data-folded="false"]|
+           )
+
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="folded"]|)
+    assert has_element?(view, "#turn-zero-sittinging-in-room")
+    view |> element("#toggle-turn-zero-wing-inspection") |> render_click()
+    assert has_element?(view, ~s|#toggle-turn-zero-wing-inspection[aria-expanded="false"]|)
 
     refute has_element?(view, "#unfold-existing-rail-line")
 
@@ -792,6 +822,16 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     refute has_element?(view, "#turn-zero-inquiring-humaning")
     refute has_element?(view, "#turn-zero-human-name-staging-form-second")
+    refute has_element?(view, "#turn-zero-for-offer")
+    refute has_element?(view, "#unfold-human-calls-cob-interrelationing")
+    assert has_element?(view, "#unfold-cob-calls-human-interrelationing")
+
+    assert has_element?(
+             view,
+             ~s|#stewarding-instrumentationing-menting-haus[data-available-interaction="cob_calls_human"]|
+           )
+
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="folded"]|)
 
     assert has_element?(
              view,
@@ -815,6 +855,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
            )
 
     view |> element("#unfold-cob-calls-human-interrelationing") |> render_click()
+
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="unfolded"]|)
+    assert has_element?(view, "#turn-zero-surfacing-instrument")
 
     assert has_element?(
              view,
@@ -895,8 +938,54 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(
              view,
-             "#turn-zero-active-interrelationing",
+             "#turn-zero-surfacing-folded-status",
              "No Interrelationing Presently Stands under Active Regard"
+           )
+
+    assert has_element?(
+             view,
+             "#turn-zero-for-offer",
+             "THIS ONE THING THAT IS WHAT IS THE MATTERING"
+           )
+
+    assert has_element?(
+             view,
+             ~s|#stewarding-instrumentationing-menting-haus[data-available-interaction="turn_zero_for"]|
+           )
+
+    refute has_element?(view, "#turn-zero-for-inquiry")
+    refute has_element?(view, "#unfold-human-calls-cob-interrelationing")
+
+    view |> element("#unfold-turn-zero-for-appointmenting") |> render_click()
+
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="unfolded"]|)
+
+    assert has_element?(
+             view,
+             "#turn-zero-encounteringmenting-capability",
+             "Through our Stewardly Co-Occupancyingship, I may be suited to become Encounteringmenting as our Traversaling together unfolds over Discrete Turns."
+           )
+
+    assert has_element?(
+             view,
+             "#turn-zero-cob-standing-in-waiting",
+             "stands in waiting to be appointed"
+           )
+
+    view
+    |> form("#turn-zero-mattering-staging-form",
+      turn_zero_mattering: %{mattering: "The river becoming safely crossable"}
+    )
+    |> render_change()
+
+    view |> element("#refold-turn-zero-for-into-standinging") |> render_click()
+    assert has_element?(view, "#turn-zero-for-standing", "The river becoming safely crossable")
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="folded"]|)
+    assert has_element?(view, "#unfold-human-calls-cob-interrelationing")
+
+    assert has_element?(
+             view,
+             ~s|#stewarding-instrumentationing-menting-haus[data-available-interaction="human_calls_cob"]|
            )
 
     view |> element("#unfold-human-calls-cob-interrelationing") |> render_click()
@@ -951,6 +1040,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
     assert has_element?(view, "#cob-calls-human-shelved-standing", "Magical Cement Fairy")
     refute has_element?(view, "#turn-zero-holdinging-in-standinging", "Bob the COB")
     refute has_element?(view, "#turn-zero-coordinate-readout")
+    assert has_element?(view, ~s|#turn-zero-surfacing[data-surface-state="folded"]|)
+
+    assert has_element?(
+             view,
+             ~s|#stewarding-instrumentationing-menting-haus[data-available-interaction="complete"]|
+           )
 
     view |> element("#unfold-cob-calls-human-interrelationing") |> render_click()
 
@@ -977,39 +1072,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
              ~s|#turn-zero-surfacing[data-initial-naming-guidance="false"]|
            )
 
-    refute has_element?(view, "#unfold-existing-rail-line")
-
-    assert has_element?(
-             view,
-             "#turn-zero-encounteringmenting-capability",
-             "Through our Stewardly Co-Occupancyingship, I may be suited to become Encounteringmenting as our Traversaling together unfolds over Discrete Turns."
-           )
-
-    assert has_element?(
-             view,
-             "#turn-zero-cob-standing-in-waiting",
-             "stands in waiting to be appointed"
-           )
-
-    view |> element("#unfold-turn-zero-for-appointmenting") |> render_click()
-
-    assert has_element?(
-             view,
-             "#turn-zero-for-inquiry",
-             "I am This Stewardly Captain COB. What may I now begin looking for, starting Here, upon This One Piece of Time?"
-           )
-
-    assert has_element?(view, "#turn-zero-for-human-origin", "My Stewarding Officer")
-    assert has_element?(view, "#turn-zero-for-cob-origin", "This Stewardly Captain COB")
-
-    view
-    |> form("#turn-zero-mattering-staging-form",
-      turn_zero_mattering: %{mattering: "The river becoming safely crossable"}
-    )
-    |> render_change()
-
-    refute has_element?(view, "#turn-zero-for-standing")
-    view |> element("#refold-turn-zero-for-into-standinging") |> render_click()
+    assert has_element?(view, "#unfold-existing-rail-line")
 
     assert has_element?(
              view,
@@ -1033,7 +1096,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
 
     assert has_element?(
              view,
-             "#turn-zero-active-interrelationing",
+             "#turn-zero-surfacing-folded-status",
              "No Interrelationing Presently Stands under Active Regard"
            )
 
@@ -2144,6 +2207,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLiveTest do
   end
 
   defp establish_turn_zero_for(view) do
+    if has_element?(view, "#unfold-cob-calls-human-interrelationing") do
+      view |> element("#unfold-cob-calls-human-interrelationing") |> render_click()
+
+      view
+      |> form("#turn-zero-human-name-staging-form-second",
+        turn_zero_human_name: %{name: "My Stewarding Officer"}
+      )
+      |> render_change()
+
+      view |> element("#refold-turn-zero-relationing-into-standinging") |> render_click()
+    end
+
     view |> element("#unfold-turn-zero-for-appointmenting") |> render_click()
 
     view
