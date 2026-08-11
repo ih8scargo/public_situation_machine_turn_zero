@@ -20,7 +20,7 @@ defmodule PublicSituationMachineTurnZeroWeb.LandingingLive do
         <Layouts.locality_threshold
           title="This Approaching Landinging Page"
           id="landinging-threshold"
-          reading="The Bearinging of Bearingings"
+          reading="Bearinging toward Bearingings"
         >
           <:description>
             <p>Welcome.</p>

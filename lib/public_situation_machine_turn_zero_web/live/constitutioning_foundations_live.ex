@@ -108,7 +108,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
         <Layouts.locality_threshold
           title="Constitutioning Bearingings"
           id="constitutioning-bearingings-threshold"
-          reading="The Bearinging of Discoveringmenting Distinguishingmenting"
+          reading="Bearinging toward Discoveringmenting Distinguishingmenting"
         >
           <:description>
             <p>By itself, the PUBLIC-SITUATION-MACHINE- cannot tell what is true.</p>
@@ -293,7 +293,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ConstitutioningFoundationsLive do
             </h2>
 
             <p class="psm-oag__reading">
-              The Bearinging of Discoveringmenting Distinguishingmenting
+              Bearinging toward Discoveringmenting Distinguishingmenting
             </p>
           </div>
 

@@ -24,7 +24,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CorrespondencingmentsLive do
         <Layouts.locality_threshold
           title="Correspondencingments"
           id="correspondencingments-threshold"
-          reading="The Bearinging of Lawful Correspondencing"
+          reading="Bearinging toward Lawful Correspondencing"
         >
           <:description>
             <p>Here,</p>

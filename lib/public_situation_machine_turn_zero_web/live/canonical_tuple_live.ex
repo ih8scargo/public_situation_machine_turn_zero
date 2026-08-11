@@ -96,7 +96,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
         <Layouts.locality_threshold
           title="OUR CANONICAL TUPLE"
           id="canonical-tuple-threshold"
-          reading="The Bearinging of the Precedence of Continuity Possibility"
+          reading="Bearinging toward the Precedence of Continuity Possibility"
         >
           <:description>
             <p>
@@ -187,7 +187,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CanonicalTupleLive do
             </h2>
 
             <p class="psm-oag__reading">
-              The Bearinging of the Precedence of Continuity Possibility
+              Bearinging toward the Precedence of Continuity Possibility
             </p>
           </div>
 

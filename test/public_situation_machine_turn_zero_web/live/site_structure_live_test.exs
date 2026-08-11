@@ -10,7 +10,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(view, "#landinging-page")
     assert page_title(view) =~ "This Landinging Page"
     assert has_element?(view, "#landinging-threshold", "This Approaching Landinging Page")
-    assert has_element?(view, "#landinging-threshold", "The Bearinging of Bearingings")
+    assert has_element?(view, "#landinging-threshold", "Bearinging toward Bearingings")
     assert has_element?(view, "#landinging-threshold", "may begin situationing")
 
     assert has_element?(
@@ -94,7 +94,13 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(view, "#canonical-tuple-page")
     refute has_element?(view, "#canonical-accompaniment")
-    assert has_element?(view, "#canonical-tuple-threshold")
+
+    assert has_element?(
+             view,
+             "#canonical-tuple-threshold",
+             "Bearinging toward the Precedence of Continuity Possibility"
+           )
+
     assert has_element?(view, "#canonical-simple-discovery")
     assert has_element?(view, "#canonical-narrative")
     assert has_element?(view, "#appliance-ceremony")
@@ -182,7 +188,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "The Bearinging of Lawful Encounteringmenting"
+             "Bearinging toward Lawful Encounteringmenting"
            )
 
     assert has_element?(view, "#tuple-ship-field-threshold", "Welcome.")
@@ -202,6 +208,15 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     view |> element("#enter-opening-passageway") |> render_click()
     view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
+    view |> element("#unfold-turn-zero-for-appointmenting") |> render_click()
+
+    view
+    |> form("#turn-zero-mattering-staging-form",
+      turn_zero_mattering: %{mattering: "A lawful One Thing"}
+    )
+    |> render_change()
+
+    view |> element("#refold-turn-zero-for-into-standinging") |> render_click()
     view |> element("#unfold-existing-rail-line") |> render_click()
 
     assert has_element?(view, "#terrestrial-computer-standinging-landing")
@@ -292,6 +307,14 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
              "now stands in Readyingment for lawful Unfoldingmenting"
            )
 
+    assert has_element?(view, "#station-depot-00-marker")
+    assert has_element?(view, "#chapel-by-the-sea")
+    assert has_element?(view, "#unfold-station-00")
+    refute has_element?(view, "#rail-line-opening-ceremony")
+    refute has_element?(view, "#unfold-constitutional-rail-line")
+
+    view |> element("#unfold-station-00") |> render_click()
+
     assert has_element?(view, "#rail-line-opening-ceremony")
     assert has_element?(view, "#unfold-constitutional-rail-line")
     refute has_element?(view, "#terrestrial-computer-parkinging-station")
@@ -315,7 +338,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     |> form("#leashing-name-form", leashing: %{name: "The Structure Situationing"})
     |> render_submit()
 
-    view |> element("#unfold-station-02") |> render_click()
+    view |> element("#unfold-station-01") |> render_click()
     refute has_element?(view, "#earthly-locality-form")
     view |> element(~s|button[phx-value-appointmenting="lanterning"]|) |> render_click()
     assert has_element?(view, "#place-library")
@@ -349,6 +372,16 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     refute html =~ "This Locality presently furnishes regard"
   end
 
+  test "constitutioning bearingings uses the directional Harbor Sign grammar", %{conn: conn} do
+    {:ok, view, _html} = live(conn, ~p"/constitutioning-bearingings")
+
+    assert has_element?(
+             view,
+             "#constitutioning-bearingings-threshold",
+             "Bearinging toward Discoveringmenting Distinguishingmenting"
+           )
+  end
+
   test "the appliance locality is furnished", %{conn: conn} do
     {:ok, view, _html} = live(conn, ~p"/the-appliance")
 
@@ -359,7 +392,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#appliance-threshold",
-             "The Bearinging of Enrichingmenting Inheritancing"
+             "Bearinging toward Enrichingmenting Inheritancing"
            )
 
     assert has_element?(view, "#aboard-working-appliance-title")
@@ -402,7 +435,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#correspondencingments-threshold",
-             "The Bearinging of Lawful Correspondencing"
+             "Bearinging toward Lawful Correspondencing"
            )
 
     assert has_element?(

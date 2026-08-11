@@ -10,6 +10,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
        page_title: "This Tuple Ship Field",
        entrance_stage: :station_house,
        sittinging_cabinets: MapSet.new(),
+       active_turn_zero_interrelationing: nil,
+       turn_zero_human_name_form: to_form(%{"name" => ""}, as: :turn_zero_human_name),
+       turn_zero_cob_name_form: to_form(%{"name" => ""}, as: :turn_zero_cob_name),
+       staged_constitutioning_human_name: "",
+       staged_stewardly_captain_name: "This Stewardly Captain COB",
+       constitutioning_human_constitutional_xt: "My Stewarding Officer",
+       stewardly_captain_constitutional_xt: "This Stewardly Captain COB",
+       stewardly_captain_furnished_name: "This Stewardly Captain COB",
+       turn_zero_projection: :xt_first,
+       turn_zero_cob_naming_choice: nil,
+       cob_calls_human_standing: nil,
+       human_calls_cob_standing: nil,
+       initial_naming_guidance?: true,
+       stitching_needle: %{
+         name: "The Stitching Needle",
+         furnished?: true,
+         full_strength?: true
+       },
+       turn_zero_mattering_form: to_form(%{"mattering" => ""}, as: :turn_zero_mattering),
+       staged_turn_zero_mattering: "",
+       turn_zero_for_standing: nil,
        parkinging_stand: nil,
        shackling_pin: nil,
        ceremony_time: nil,
@@ -42,11 +63,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
        countries: country_options(),
        regions: [],
        cities: [],
-       station_02_unfolded?: false,
-       station_02_decision: :pending,
+       station_00_unfolded?: false,
+       station_01_unfolded?: false,
+       station_01_decision: :pending,
        proto_appointmentings: MapSet.new(),
        appointmenting_times: %{},
-       station_02_completed?: false
+       station_01_completed?: false
      )}
   end
 
@@ -75,8 +97,191 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
      end)}
   end
 
+  def handle_event("unfold-cob-calls-human-interrelationing", _params, socket) do
+    name = standing_name(socket.assigns.cob_calls_human_standing)
+
+    {:noreply,
+     assign(socket,
+       active_turn_zero_interrelationing: :cob_calls_human,
+       staged_constitutioning_human_name: name,
+       turn_zero_human_name_form: to_form(%{"name" => name}, as: :turn_zero_human_name),
+       turn_zero_projection: :xt_first
+     )}
+  end
+
+  def handle_event(
+        "stage-turn-zero-human-name",
+        %{"turn_zero_human_name" => %{"name" => name}},
+        socket
+      ) do
+    {:noreply,
+     assign(socket,
+       staged_constitutioning_human_name: name,
+       turn_zero_human_name_form: to_form(%{"name" => name}, as: :turn_zero_human_name)
+     )}
+  end
+
+  def handle_event("stage-turn-zero-human-name", _params, socket), do: {:noreply, socket}
+
+  def handle_event("unfold-human-calls-cob-interrelationing", _params, socket) do
+    name =
+      standing_name(socket.assigns.human_calls_cob_standing) ||
+        socket.assigns.stewardly_captain_furnished_name
+
+    {:noreply,
+     assign(socket,
+       active_turn_zero_interrelationing: :human_calls_cob,
+       staged_stewardly_captain_name: name,
+       turn_zero_cob_name_form: to_form(%{"name" => name}, as: :turn_zero_cob_name),
+       turn_zero_cob_naming_choice: if(socket.assigns.human_calls_cob_standing, do: :alternate),
+       turn_zero_projection: :xt_second
+     )}
+  end
+
+  def handle_event("unfold-turn-zero-for-appointmenting", _params, socket) do
+    mattering = turn_zero_mattering(socket.assigns.turn_zero_for_standing)
+
+    {:noreply,
+     assign(socket,
+       active_turn_zero_interrelationing: :turn_zero_for,
+       staged_turn_zero_mattering: mattering,
+       turn_zero_mattering_form: to_form(%{"mattering" => mattering}, as: :turn_zero_mattering)
+     )}
+  end
+
+  def handle_event(
+        "stage-turn-zero-mattering",
+        %{"turn_zero_mattering" => %{"mattering" => mattering}},
+        socket
+      ) do
+    {:noreply,
+     assign(socket,
+       staged_turn_zero_mattering: mattering,
+       turn_zero_mattering_form: to_form(%{"mattering" => mattering}, as: :turn_zero_mattering)
+     )}
+  end
+
+  def handle_event("stage-turn-zero-mattering", _params, socket), do: {:noreply, socket}
+
+  def handle_event("choose-furnished-cob-name", _params, socket) do
+    name = socket.assigns.stewardly_captain_furnished_name
+
+    {:noreply,
+     assign(socket,
+       turn_zero_cob_naming_choice: :furnished,
+       staged_stewardly_captain_name: name,
+       turn_zero_cob_name_form: to_form(%{"name" => name}, as: :turn_zero_cob_name)
+     )}
+  end
+
+  def handle_event("choose-alternate-cob-name", _params, socket) do
+    {:noreply, assign(socket, :turn_zero_cob_naming_choice, :alternate)}
+  end
+
+  def handle_event(
+        "stage-turn-zero-cob-name",
+        %{"turn_zero_cob_name" => %{"name" => name}},
+        socket
+      ) do
+    {:noreply,
+     assign(socket,
+       staged_stewardly_captain_name: name,
+       turn_zero_cob_name_form: to_form(%{"name" => name}, as: :turn_zero_cob_name)
+     )}
+  end
+
+  def handle_event("stage-turn-zero-cob-name", _params, socket), do: {:noreply, socket}
+
+  def handle_event(
+        "refold-turn-zero-relationing-into-standinging",
+        _params,
+        %{assigns: %{active_turn_zero_interrelationing: :cob_calls_human}} = socket
+      ) do
+    case String.trim(socket.assigns.staged_constitutioning_human_name) do
+      "" ->
+        {:noreply, socket}
+
+      name ->
+        standing = %{
+          appointmenting: :turn_zero,
+          interrelationing: :cob_calls_human,
+          constitutional_xt: socket.assigns.constitutioning_human_constitutional_xt,
+          yt: name
+        }
+
+        {:noreply,
+         socket
+         |> assign(:cob_calls_human_standing, standing)
+         |> clear_turn_zero_surfacing()}
+    end
+  end
+
+  def handle_event(
+        "refold-turn-zero-relationing-into-standinging",
+        _params,
+        %{assigns: %{active_turn_zero_interrelationing: :human_calls_cob}} = socket
+      ) do
+    case String.trim(socket.assigns.staged_stewardly_captain_name) do
+      "" ->
+        {:noreply, socket}
+
+      name ->
+        standing = %{
+          appointmenting: :turn_zero,
+          interrelationing: :human_calls_cob,
+          furnished_cob_name: socket.assigns.stewardly_captain_furnished_name,
+          constitutional_xt: socket.assigns.stewardly_captain_constitutional_xt,
+          yt: name
+        }
+
+        {:noreply,
+         socket
+         |> assign(
+           human_calls_cob_standing: standing,
+           initial_naming_guidance?: is_nil(socket.assigns.cob_calls_human_standing)
+         )
+         |> clear_turn_zero_surfacing()}
+    end
+  end
+
+  def handle_event(
+        "refold-turn-zero-for-into-standinging",
+        _params,
+        %{assigns: %{active_turn_zero_interrelationing: :turn_zero_for}} = socket
+      ) do
+    case String.trim(socket.assigns.staged_turn_zero_mattering) do
+      "" ->
+        {:noreply, socket}
+
+      mattering ->
+        standing = %{
+          appointmenting: :turn_zero_for,
+          one_thing: mattering,
+          human_furnishment: %{
+            constitutional_xt: socket.assigns.constitutioning_human_constitutional_xt,
+            furnished_one_thing: mattering
+          },
+          cob_appointmenting: %{
+            constitutional_xt: socket.assigns.stewardly_captain_constitutional_xt,
+            appointed_toward: :looking_for,
+            one_thing: mattering
+          },
+          crosses_middle_seam?: true
+        }
+
+        {:noreply,
+         socket
+         |> assign(:turn_zero_for_standing, standing)
+         |> clear_turn_zero_surfacing()}
+    end
+  end
+
+  def handle_event("refold-turn-zero-relationing-into-standinging", _params, socket),
+    do: {:noreply, socket}
+
   def handle_event("unfold-existing-rail-line", _params, socket) do
-    if socket.assigns.entrance_stage == :sittinging_room do
+    if socket.assigns.entrance_stage == :sittinging_room &&
+         socket.assigns.turn_zero_for_standing do
       {:noreply, assign(socket, :entrance_stage, :rail)}
     else
       {:noreply, socket}
@@ -85,8 +290,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
   @impl true
   def handle_event("inquire-within", _params, socket) do
-    {:noreply, assign(socket, :landing_inquired?, true)}
+    {:noreply, assign(socket, landing_inquired?: true, station_00_unfolded?: false)}
   end
+
+  def handle_event(
+        "unfold-station-00",
+        _params,
+        %{assigns: %{landing_inquired?: true}} = socket
+      ) do
+    {:noreply, assign(socket, :station_00_unfolded?, true)}
+  end
+
+  def handle_event("unfold-station-00", _params, socket), do: {:noreply, socket}
 
   @impl true
   def handle_event(
@@ -186,6 +401,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         {:noreply,
          assign(socket,
            landing_inquired?: true,
+           station_00_unfolded?: true,
            rail_unfolded?: true,
            reception_result: :reconstructed,
            parkinging_stand: leashing.parkinging_stand,
@@ -350,20 +566,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   def handle_event("correspondence-changed", _params, socket), do: {:noreply, socket}
 
   def handle_event(
-        "unfold-station-02",
+        "unfold-station-01",
         _params,
         %{assigns: %{re_shackling_decision: decision}} = socket
       )
       when decision in [:completed, :continued] do
-    {:noreply, assign(socket, :station_02_unfolded?, true)}
+    {:noreply, assign(socket, :station_01_unfolded?, true)}
   end
 
-  def handle_event("unfold-station-02", _params, socket), do: {:noreply, socket}
+  def handle_event("unfold-station-01", _params, socket), do: {:noreply, socket}
 
   def handle_event(
         "furnish-proto-appointmenting",
         %{"appointmenting" => appointmenting},
-        %{assigns: %{station_02_unfolded?: true}} = socket
+        %{assigns: %{station_01_unfolded?: true}} = socket
       )
       when appointmenting == "lanterning" do
     {:ok, leashing} =
@@ -381,7 +597,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         MapSet.put(socket.assigns.proto_appointmentings, :lanterning)
       )
       |> assign(:appointmenting_times, leashing.appointmentings)
-      |> maybe_complete_station_02()
+      |> maybe_complete_station_01()
 
     {:noreply, socket}
   end
@@ -451,12 +667,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
       socket =
         socket
         |> assign(
-          station_02_decision: :completed,
+          station_01_decision: :completed,
           earthly_locality: earthly_locality,
           earthly_locality_history: leashing.earthly_locality_history,
           locality_form: to_form(locality_params, as: :locality)
         )
-        |> maybe_complete_station_02()
+        |> maybe_complete_station_01()
 
       {:noreply, socket}
     end
@@ -489,11 +705,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     {:noreply,
      socket
      |> assign(
-       station_02_decision: :completed,
+       station_01_decision: :completed,
        earthly_locality: earthly_locality,
        earthly_locality_history: leashing.earthly_locality_history
      )
-     |> maybe_complete_station_02()}
+     |> maybe_complete_station_01()}
   end
 
   def handle_event("continue-without-earthly-locality", _params, socket),
@@ -502,16 +718,17 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   def handle_event(
         "re-fold-into-new-standing",
         _params,
-        %{assigns: %{station_02_completed?: true}} = socket
+        %{assigns: %{station_01_completed?: true}} = socket
       ) do
     naming_decision = if socket.assigns.leashing_name, do: :named, else: :furnishing
 
     {:noreply,
      assign(socket,
        rail_unfolded?: false,
-       station_02_unfolded?: false,
-       station_02_decision: :pending,
-       station_02_completed?: false,
+       station_00_unfolded?: false,
+       station_01_unfolded?: false,
+       station_01_decision: :pending,
+       station_01_completed?: false,
        naming_decision: naming_decision,
        pet_name_refurbishing?: false
      )}
@@ -534,7 +751,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           <Layouts.locality_threshold
             title="THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING"
             id="tuple-ship-field-threshold"
-            reading="The Bearinging of Lawful Encounteringmenting"
+            reading="Bearinging toward Lawful Encounteringmenting"
           >
             <:description>
               <p>Welcome.</p>
@@ -651,11 +868,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   The General Stewarding Offices of This Stewardshipmenting Appliance
                 </p>
                 <h2 id="restfullyinglyment-harbor-sign-title">Standinging in Regard</h2>
-                <p class="psm-oag__reading">The Bearinging of Restfullyinginglyment</p>
+                <p class="psm-oag__reading">Bearinging toward Restfullyinginglyment</p>
               </div>
               <div class="psm-oag__description">
                 <p>
-                  The Sittinging-In Room stands furnished as the Zeroeth Constitutional Locality of This One Tuple Ship.
+                  The Sittinging-In Room stands furnished as The Constitutional Locality of This One Tuple Ship.
                 </p>
                 <p>
                   Constitutioning Humans may come Here to sit in Restfullyinginglyment within their Situationings upon This One Piece of Time.
@@ -705,17 +922,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               Here, Constitutioning Humans find places of Restfullyinginglyment within quiet shell alcoves, just beyond the bustling Great Hall of Globularly Bobbininging Globular Bobbining looking over into Observationing Harbor.
             </p>
             <p>
-              Within one such alcove stands The Sittinging-In Room, furnished as the Zeroeth Constitutional Locality of This One Tuple Ship.
+              Within one such alcove stands The Sittinging-In Room, furnished as the Turn-Zeroeth Constitutional Locality of This One Tuple Ship.
             </p>
           </section>
 
           <header
             :if={@entrance_stage in [:passageway, :sittinging_room]}
             id="turn-zero-station-depot-header"
-            class="field-page__station-header field-page__station-header--opening"
+            class="field-page__station-header field-page__station-header--opening field-page__station-depot-marker"
+            aria-labelledby="station-depot-tz-title"
           >
             <p class="site-page__eyebrow">TURN ZERO</p>
-            <h3>STATION DEPOT TZ</h3>
+            <h3 id="station-depot-tz-title">STATION DEPOT TZ</h3>
           </header>
 
           <section
@@ -727,7 +945,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <header>
               <h3 id="turn-zero-constitutional-locality-title">Within One Such Alcove</h3>
               <p class="field-page__locality-subtitle">
-                The Zeroeth Constitutional Locality of This One Tuple Ship
+                The Turn-Zeroeth Constitutional Locality of This One Tuple Ship
               </p>
             </header>
 
@@ -746,7 +964,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               <div class="psm-oag__description">
                 <p>Welcome.</p>
                 <p>
-                  The General Stewarding Offices stand welcoming This Constitutioning Human into the Zeroeth Constitutional Locality of This One Tuple Ship.
+                  The Sittinging-In Room stands furnished as The Constitutional Locality of This One Tuple Ship.
                 </p>
                 <p>
                   From Here, The Constitutional Furnishmenting Rail gives lawful approach to The Sittinging-In Room while Observationing Harbor remains within Stewardly Regard.
@@ -907,86 +1125,572 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </div>
 
             <section
-              id="constitutioning-human-instrumentation"
-              class="field-page__captain-shelves field-page__instrumentation-shelves"
-              aria-labelledby="constitutioning-human-instrumentation-title"
+              id="stewarding-instrumentationing-menting-haus"
+              class="field-page__menting-haus"
+              aria-labelledby="stewarding-instrumentationing-menting-haus-title"
             >
-              <h5 id="constitutioning-human-instrumentation-title">Stewardly Instrumentationing</h5>
-              <div class="field-page__shelf-column-headings">
-                <section>
-                  <strong>XT</strong><span>Constitutioning Human Affordmentings</span>
-                </section>
-                <section><strong>YT</strong></section>
-              </div>
-              <ol>
-                <li
-                  :for={{affordmenting, purpose} <- sittinging_affordmentings()}
-                  class="field-page__constitutional-shelf"
-                >
-                  <section class="field-page__shelf-half" aria-label="XT">
-                    <strong>{affordmenting}</strong>
-                    <span class="field-page__appointmenting-purpose">{purpose}</span>
-                  </section>
-                  <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true">
-                  </section>
-                </li>
-              </ol>
-            </section>
-
-            <section
-              id="turn-zero-surfacing"
-              class="field-page__turn-zero-surfacing"
-              aria-labelledby="turn-zero-surfacing-title"
-            >
-              <header>
-                <p class="site-page__eyebrow">The Constitutional Work Surface</p>
-                <h3 id="turn-zero-surfacing-title">TURN ZERO SURFACING</h3>
+              <header class="field-page__menting-haus-heading">
+                <h3 id="stewarding-instrumentationing-menting-haus-title">
+                  STEWARDING INSTRUMENTATIONING<br /> MENTING HAUS
+                </h3>
               </header>
-              <div
-                id="turn-zero-surfacing-workspace"
-                class="field-page__turn-zero-surfacing-workspace"
-                aria-label="Reserved Turn Zero staging and placementing workspace"
-              >
-              </div>
-            </section>
 
-            <section
-              id="proto-stewardly-captain-cob-shelving"
-              class="field-page__captain-shelves field-page__proto-shelving"
-              aria-labelledby="proto-shelving-title"
-            >
-              <h5 id="proto-shelving-title">This Stewardly Captain COB's Shelves</h5>
-              <div class="field-page__shelf-column-headings">
-                <section id="proto-xt-shelves-title">
-                  <strong>XT</strong>
-                  <span>Stewardly Captain COB Appointmentings</span>
-                </section>
-                <section id="proto-yt-shelves-title">
-                  <strong>YT</strong>
-                </section>
-              </div>
-              <ol id="proto-paired-shelves">
-                <li
-                  :for={{appointmenting, purpose} <- sittinging_appointmentings()}
-                  class="field-page__constitutional-shelf"
+              <section
+                id="turn-zero-stitching-needle-furnishment"
+                class="field-page__stitching-needle-furnishment"
+                data-furnished={to_string(@stitching_needle.furnished?)}
+                data-full-strength={to_string(@stitching_needle.full_strength?)}
+                aria-labelledby="turn-zero-stitching-needle-title"
+              >
+                <p class="site-page__eyebrow">A Gifting for Stewardly Co-Occupancyingship</p>
+                <h4 id="turn-zero-stitching-needle-title">THE STITCHING NEEDLE</h4>
+                <p>The Stitching Needle may be used for Appointmenting.</p>
+              </section>
+
+              <section
+                id="constitutioning-human-instrumentation"
+                class="field-page__captain-shelves field-page__instrumentation-shelves"
+                aria-labelledby="constitutioning-human-instrumentation-title"
+              >
+                <header class="field-page__outer-shelving-label field-page__outer-shelving-label--human">
+                  <h5 id="constitutioning-human-instrumentation-title">
+                    <span>STEWARDLY</span>
+                    <span>INSTRUMENTATIONINGMENTINGS</span>
+                  </h5>
+                  <div class="field-page__shelving-arrows" aria-hidden="true">
+                    <span>↓</span><span>↓</span>
+                  </div>
+                </header>
+                <div class="field-page__shelf-column-headings field-page__shelf-grid--human">
+                  <section><strong>YT</strong></section>
+                  <section>
+                    <strong>XT</strong><span>Constitutioning Human Affordmentings</span>
+                  </section>
+                </div>
+                <ol>
+                  <li
+                    :for={{position, affordmenting, purpose} <- sittinging_affordmentings()}
+                    class="field-page__constitutional-shelf field-page__shelf-grid--human"
+                  >
+                    <header
+                      class="field-page__tuple-position"
+                      aria-label={"Tuple Position #{position}"}
+                    >
+                      <span>{position}</span><span>{position}</span>
+                    </header>
+                    <section
+                      class="field-page__shelf-half"
+                      aria-label="YT"
+                      aria-hidden={to_string(affordmenting != "The Turn-Zeroeth Affordmenting")}
+                    >
+                      <div
+                        :if={
+                          affordmenting == "The Turn-Zeroeth Affordmenting" &&
+                            @cob_calls_human_standing
+                        }
+                        id="cob-calls-human-shelved-standing"
+                        class="field-page__shelved-standing"
+                        data-coordinate="YT"
+                        data-constitutional-xt={@cob_calls_human_standing.constitutional_xt}
+                      >
+                        <strong>WHAT THIS COB MAY BE CALLING ME</strong>
+                        <span>{@cob_calls_human_standing.yt}</span>
+                      </div>
+                    </section>
+                    <section class="field-page__shelf-half" aria-label="XT">
+                      <strong>{affordmenting}</strong>
+                      <span class="field-page__appointmenting-purpose">{purpose}</span>
+                      <p
+                        :if={affordmenting == "The Turn-Zeroeth Affordmenting"}
+                        id="constitutioning-human-constitutional-xt"
+                        class="field-page__constitutional-origin"
+                      >
+                        {@constitutioning_human_constitutional_xt}
+                      </p>
+                      <button
+                        :if={affordmenting == "The Turn-Zeroeth Affordmenting"}
+                        id="unfold-cob-calls-human-interrelationing"
+                        type="button"
+                        class="field-page__shelf-affordmenting-action"
+                        phx-click="unfold-cob-calls-human-interrelationing"
+                      >
+                        UN-FOLD WHAT THIS COB MAY BE CALLING ME
+                      </button>
+                    </section>
+                  </li>
+                </ol>
+              </section>
+
+              <section
+                id="turn-zero-for-appointmenting"
+                class="field-page__turn-zero-for-appointmenting"
+                aria-labelledby="turn-zero-for-appointmenting-title"
+              >
+                <p class="site-page__eyebrow">The Turn-Zeroeth Appointmenting</p>
+                <h3 id="turn-zero-for-appointmenting-title">
+                  THIS ONE THING THAT IS WHAT IS THE MATTERING
+                </h3>
+                <p id="turn-zero-cob-standing-in-waiting">
+                  This Stewardly Captain COB stands in waiting to be appointed to look for THIS ONE THING THAT IS WHAT IS THE MATTERING while Traversaling alongside This Stewarding Officer through This One Situationing over Discrete Turns.
+                </p>
+                <p id="turn-zero-encounteringmenting-capability">
+                  Through our Stewardly Co-Occupancyingship, I may be suited to become Encounteringmenting as our Traversaling together unfolds over Discrete Turns.
+                </p>
+                <button
+                  id="unfold-turn-zero-for-appointmenting"
+                  type="button"
+                  class="field-page__action"
+                  phx-click="unfold-turn-zero-for-appointmenting"
                 >
-                  <section class="field-page__shelf-half" aria-label="XT">
-                    <strong>{appointmenting}</strong>
-                    <span class="field-page__appointmenting-purpose">{purpose}</span>
+                  UN-FOLD THIS ONE THING THAT IS WHAT IS THE MATTERING
+                </button>
+              </section>
+
+              <section
+                id="turn-zero-surfacing"
+                class="field-page__turn-zero-surfacing"
+                aria-labelledby="turn-zero-surfacing-title"
+                data-active-interrelationing={@active_turn_zero_interrelationing}
+                data-initial-naming-guidance={to_string(@initial_naming_guidance?)}
+              >
+                <header>
+                  <p class="site-page__eyebrow">This Constitutioning Work Surface</p>
+                  <h3 id="turn-zero-surfacing-title">TURN ZERO SURFACING</h3>
+                </header>
+
+                <section
+                  id="turn-zero-active-interrelationing"
+                  class="field-page__surfacing-active-work"
+                  aria-labelledby="turn-zero-active-interrelationing-title"
+                >
+                  <p class="site-page__eyebrow">What Is Being Worked With</p>
+                  <h4 id="turn-zero-active-interrelationing-title">
+                    {turn_zero_active_interrelationing_title(@active_turn_zero_interrelationing)}
+                  </h4>
+                </section>
+
+                <section
+                  :if={@active_turn_zero_interrelationing == :cob_calls_human}
+                  id="turn-zero-inquiring-humaning"
+                  class="field-page__surfacing-inquiring-humaning"
+                  aria-labelledby="turn-zero-inquiring-humaning-title"
+                >
+                  <p class="site-page__eyebrow">This Stewardly Captain COB's Inquiring Humaning</p>
+                  <h4 id="turn-zero-inquiring-humaning-title">
+                    What may I be calling you as we are Traversaling alongside each other over Discrete Turns?
+                  </h4>
+                </section>
+
+                <section
+                  :if={@active_turn_zero_interrelationing == :human_calls_cob}
+                  id="turn-zero-cob-naming-guidance"
+                  class="field-page__surfacing-inquiring-humaning"
+                  aria-labelledby="turn-zero-cob-naming-guidance-title"
+                >
+                  <p class="site-page__eyebrow">This Stewardly Captain COB's Inquiring Humaning</p>
+                  <h4 id="turn-zero-cob-naming-guidance-title">
+                    My name is This Stewardly Captain COB. You are free to begin calling me a name of your choice as we are Traversaling alongside each other over Discrete Turns.
+                  </h4>
+                  <div
+                    :if={is_nil(@turn_zero_cob_naming_choice) && is_nil(@human_calls_cob_standing)}
+                    id="turn-zero-cob-naming-choices"
+                    class="field-page__surfacing-choice-actions"
+                  >
+                    <button
+                      id="choose-alternate-cob-name"
+                      type="button"
+                      class="field-page__action"
+                      phx-click="choose-alternate-cob-name"
+                    >
+                      CALL ME SOMETHING ELSE
+                    </button>
+                    <button
+                      id="choose-furnished-cob-name"
+                      type="button"
+                      class="field-page__action"
+                      phx-click="choose-furnished-cob-name"
+                    >
+                      CALL ME THIS STEWARDLY CAPTAIN COB
+                    </button>
+                  </div>
+                </section>
+
+                <section
+                  :if={@active_turn_zero_interrelationing == :turn_zero_for}
+                  id="turn-zero-for-inquiry"
+                  class="field-page__surfacing-inquiring-humaning"
+                  aria-labelledby="turn-zero-for-inquiry-title"
+                >
+                  <p class="site-page__eyebrow">This Stewardly Captain COB's Inquiring Humaning</p>
+                  <h4 id="turn-zero-for-inquiry-title">
+                    I am This Stewardly Captain COB. What may I now begin looking for, starting Here, upon This One Piece of Time?
+                  </h4>
+                </section>
+
+                <section
+                  :if={@active_turn_zero_interrelationing in [:cob_calls_human, :human_calls_cob]}
+                  id="turn-zero-coordinate-readout"
+                  class="field-page__surfacing-coordinate-readout"
+                  aria-label="Active XT and YT coordinate projection"
+                  data-projection={@turn_zero_projection}
+                >
+                  <span>{turn_zero_coordinate(@turn_zero_projection, :first)}</span>
+                  <strong aria-label="Relationing direction">
+                    {turn_zero_projection_arrow(@turn_zero_projection)}
+                  </strong>
+                  <span>{turn_zero_coordinate(@turn_zero_projection, :second)}</span>
+                </section>
+
+                <div
+                  :if={@active_turn_zero_interrelationing in [:cob_calls_human, :human_calls_cob]}
+                  id="turn-zero-staging-regions"
+                  class="field-page__surfacing-staging-regions"
+                >
+                  <section
+                    :for={region <- [:first, :second]}
+                    id={"turn-zero-staging-region-#{region}"}
+                    class="field-page__surfacing-staging-region"
+                    data-physical-region={region}
+                    data-coordinate={turn_zero_coordinate(@turn_zero_projection, region)}
+                    aria-label={
+                    "Neutral physical staging region presently holding #{turn_zero_coordinate(@turn_zero_projection, region)}"
+                  }
+                  >
+                    <strong class="field-page__surfacing-coordinate">
+                      {turn_zero_coordinate(@turn_zero_projection, region)}
+                    </strong>
+
+                    <%= if @active_turn_zero_interrelationing == :cob_calls_human do %>
+                      <%= if turn_zero_coordinate(@turn_zero_projection, region) == "YT" do %>
+                        <.form
+                          for={@turn_zero_human_name_form}
+                          id={"turn-zero-human-name-staging-form-#{region}"}
+                          phx-change="stage-turn-zero-human-name"
+                        >
+                          <.input
+                            field={@turn_zero_human_name_form[:name]}
+                            id={"turn-zero-staged-human-name-#{region}"}
+                            type="text"
+                            label="The name This Stewardly Captain COB may call This Constitutioning Human"
+                            autocomplete="off"
+                          />
+                        </.form>
+                      <% else %>
+                        <p class="field-page__surfacing-live-reading">
+                          {@constitutioning_human_constitutional_xt}
+                        </p>
+                      <% end %>
+                    <% end %>
+
+                    <%= if @active_turn_zero_interrelationing == :human_calls_cob do %>
+                      <%= if turn_zero_coordinate(@turn_zero_projection, region) == "YT" do %>
+                        <%= if @turn_zero_cob_naming_choice == :alternate || @human_calls_cob_standing do %>
+                          <.form
+                            for={@turn_zero_cob_name_form}
+                            id={"turn-zero-cob-name-staging-form-#{region}"}
+                            phx-change="stage-turn-zero-cob-name"
+                          >
+                            <.input
+                              field={@turn_zero_cob_name_form[:name]}
+                              id={"turn-zero-staged-cob-name-#{region}"}
+                              type="text"
+                              label="The name This Constitutioning Human may call This Stewardly Captain COB"
+                              autocomplete="off"
+                            />
+                          </.form>
+                        <% else %>
+                          <p class="field-page__surfacing-region-awaiting">
+                            Choose how you may be calling This Stewardly Captain COB.
+                          </p>
+                        <% end %>
+                      <% else %>
+                        <p class="field-page__surfacing-live-reading">
+                          {@stewardly_captain_constitutional_xt}
+                        </p>
+                      <% end %>
+                    <% end %>
+
+                    <%= if is_nil(@active_turn_zero_interrelationing) do %>
+                      <p class="field-page__surfacing-region-awaiting">Awaiting Affordmenting</p>
+                    <% end %>
                   </section>
-                  <section class="field-page__shelf-half" aria-label="YT" aria-hidden="true">
-                  </section>
-                </li>
-              </ol>
+                </div>
+
+                <section
+                  :if={@active_turn_zero_interrelationing == :turn_zero_for}
+                  id="turn-zero-for-cross-seam-staging"
+                  class="field-page__for-cross-seam-staging"
+                  aria-label="The FOR crossing the Constitutioning Human and Stewardly Captain COB wings"
+                >
+                  <div id="turn-zero-for-human-origin">
+                    <span>XT</span>
+                    <strong>{@constitutioning_human_constitutional_xt}</strong>
+                    <p>furnishes One Thing that is What is the Mattering</p>
+                  </div>
+                  <.form
+                    for={@turn_zero_mattering_form}
+                    id="turn-zero-mattering-staging-form"
+                    phx-change="stage-turn-zero-mattering"
+                  >
+                    <.input
+                      field={@turn_zero_mattering_form[:mattering]}
+                      id="turn-zero-staged-mattering"
+                      type="text"
+                      label="THIS ONE THING THAT IS WHAT IS THE MATTERING"
+                      autocomplete="off"
+                    />
+                  </.form>
+                  <div id="turn-zero-for-cob-origin">
+                    <span>XT</span>
+                    <strong>{@stewardly_captain_constitutional_xt}</strong>
+                    <p>receives the Appointmenting toward looking for it</p>
+                  </div>
+                </section>
+
+                <p
+                  :if={@active_turn_zero_interrelationing in [:cob_calls_human, :human_calls_cob]}
+                  id="turn-zero-conversational-projection"
+                  class="field-page__surfacing-live-reading field-page__surfacing-conversational-projection"
+                >
+                  {turn_zero_conversational_projection(
+                    @active_turn_zero_interrelationing,
+                    @staged_constitutioning_human_name,
+                    @staged_stewardly_captain_name
+                  )}
+                </p>
+
+                <section
+                  id="turn-zero-staging-result"
+                  class="field-page__surfacing-staging-result"
+                  aria-labelledby="turn-zero-staging-result-title"
+                >
+                  <h4 id="turn-zero-staging-result-title">
+                    {turn_zero_staging_result_title(@active_turn_zero_interrelationing)}
+                  </h4>
+                  <%= if @active_turn_zero_interrelationing in [:cob_calls_human, :human_calls_cob] do %>
+                    <dl>
+                      <div>
+                        <dt>XT</dt>
+                        <dd>
+                          {turn_zero_staged_xt(
+                            @active_turn_zero_interrelationing,
+                            @staged_constitutioning_human_name,
+                            @staged_stewardly_captain_name,
+                            @constitutioning_human_constitutional_xt,
+                            @stewardly_captain_constitutional_xt
+                          )}
+                        </dd>
+                      </div>
+                      <div>
+                        <dt>YT</dt>
+                        <dd>
+                          {turn_zero_staged_yt(
+                            @active_turn_zero_interrelationing,
+                            @staged_constitutioning_human_name,
+                            @staged_stewardly_captain_name
+                          )}
+                        </dd>
+                      </div>
+                    </dl>
+                    <button
+                      id="refold-turn-zero-relationing-into-standinging"
+                      type="button"
+                      class="field-page__action"
+                      phx-click="refold-turn-zero-relationing-into-standinging"
+                      disabled={
+                        turn_zero_staging_empty?(
+                          @active_turn_zero_interrelationing,
+                          @staged_constitutioning_human_name,
+                          @staged_stewardly_captain_name,
+                          @turn_zero_cob_naming_choice,
+                          @human_calls_cob_standing
+                        )
+                      }
+                    >
+                      RE-FOLD This XT–YT Relationing into Standinging
+                    </button>
+                  <% else %>
+                    <%= if @active_turn_zero_interrelationing == :turn_zero_for do %>
+                      <dl id="turn-zero-for-staging-result">
+                        <div>
+                          <dt>FOR</dt>
+                          <dd>{staged_turn_zero_name(@staged_turn_zero_mattering)}</dd>
+                        </div>
+                      </dl>
+                      <button
+                        id="refold-turn-zero-for-into-standinging"
+                        type="button"
+                        class="field-page__action"
+                        phx-click="refold-turn-zero-for-into-standinging"
+                        disabled={String.trim(@staged_turn_zero_mattering) == ""}
+                      >
+                        RE-FOLD This FOR into Holdinging-in-Standinging
+                      </button>
+                    <% else %>
+                      <p>No XT–YT Relationing presently stands staged upon This Work Surface.</p>
+                    <% end %>
+                  <% end %>
+                </section>
+              </section>
+
+              <section
+                id="turn-zero-holdinging-in-standinging"
+                class="field-page__holdinging-in-standinging"
+                aria-labelledby="turn-zero-holdinging-in-standinging-title"
+                data-appointmenting="turn-zero"
+              >
+                <h3 id="turn-zero-holdinging-in-standinging-title">
+                  Holdinging-in-Standinging
+                </h3>
+                <%= if @turn_zero_for_standing do %>
+                  <article
+                    id="turn-zero-for-standing"
+                    class="field-page__standinging-marker field-page__cross-seam-standing"
+                    data-appointmenting="turn_zero_for"
+                    data-crosses-middle-seam={to_string(@turn_zero_for_standing.crosses_middle_seam?)}
+                  >
+                    <h4>FOR / THIS ONE THING THAT IS WHAT IS THE MATTERING</h4>
+                    <div class="field-page__cross-seam-standing-origins">
+                      <p id="turn-zero-for-human-provenance">
+                        <strong>{@turn_zero_for_standing.human_furnishment.constitutional_xt}</strong>
+                        furnished
+                      </p>
+                      <p id="turn-zero-for-cob-provenance">
+                        <strong>{@turn_zero_for_standing.cob_appointmenting.constitutional_xt}</strong>
+                        stands appointed toward looking for it
+                      </p>
+                    </div>
+                    <p class="field-page__cross-seam-standing-mattering">
+                      {@turn_zero_for_standing.one_thing}
+                    </p>
+                    <p>
+                      This Stewardly Captain COB stands appointed to look for
+                      <strong>{@turn_zero_for_standing.one_thing}</strong>
+                      while Traversaling alongside This Stewarding Officer through This One Situationing over Discrete Turns.
+                    </p>
+                  </article>
+                <% else %>
+                  <p>No cross-seam Appointmenting presently stands Holdinging-in-Standinging.</p>
+                <% end %>
+              </section>
+
+              <section
+                id="stewardly-captain-cob-wardrobe"
+                class="field-page__cob-wardrobe"
+                aria-labelledby="stewardly-captain-cob-wardrobe-title"
+              >
+                <section
+                  id="proto-stewardly-captain-cob-shelving"
+                  class="field-page__captain-shelves field-page__proto-shelving"
+                  aria-labelledby="cob-shelvinging-title"
+                >
+                  <p id="cob-shelvinging-title" class="field-page__wardrobe-shelvinging-title">
+                    This Stewardly Captain COB's Shelvinging
+                  </p>
+                  <div class="field-page__shelf-column-headings field-page__shelf-grid--cob">
+                    <section id="proto-xt-shelves-title">
+                      <strong>XT</strong>
+                      <span>Stewardly Captain COB Appointmentings</span>
+                    </section>
+                    <section id="proto-yt-shelves-title">
+                      <strong>YT</strong>
+                    </section>
+                  </div>
+                  <ol id="proto-paired-shelves">
+                    <li
+                      :for={{position, appointmenting, purpose} <- sittinging_appointmentings()}
+                      class="field-page__constitutional-shelf field-page__shelf-grid--cob"
+                    >
+                      <header
+                        class="field-page__tuple-position"
+                        aria-label={"Tuple Position #{position}"}
+                      >
+                        <span>{position}</span><span>{position}</span>
+                      </header>
+                      <section class="field-page__shelf-half" aria-label="XT">
+                        <strong>{appointmenting}</strong>
+                        <span class="field-page__appointmenting-purpose">{purpose}</span>
+                        <p
+                          :if={appointmenting == "The Turn-Zeroeth Appointmenting"}
+                          id="stewardly-captain-furnished-name"
+                        >
+                          This Stewardly Captain COB already stands named
+                          <strong>{@stewardly_captain_furnished_name}</strong>
+                        </p>
+                        <button
+                          :if={appointmenting == "The Turn-Zeroeth Appointmenting"}
+                          id="unfold-human-calls-cob-interrelationing"
+                          type="button"
+                          class="field-page__shelf-affordmenting-action"
+                          phx-click="unfold-human-calls-cob-interrelationing"
+                        >
+                          UN-FOLD WHAT I MAY BE CALLING THIS COB
+                        </button>
+                      </section>
+                      <section
+                        class="field-page__shelf-half"
+                        aria-label="YT"
+                        aria-hidden={to_string(appointmenting != "The Turn-Zeroeth Appointmenting")}
+                      >
+                        <div
+                          :if={
+                            appointmenting == "The Turn-Zeroeth Appointmenting" &&
+                              @human_calls_cob_standing
+                          }
+                          id="human-calls-cob-shelved-standing"
+                          class="field-page__shelved-standing"
+                          data-coordinate="YT"
+                          data-constitutional-xt={@human_calls_cob_standing.constitutional_xt}
+                        >
+                          <strong>WHAT I MAY BE CALLING THIS COB</strong>
+                          <span>{@human_calls_cob_standing.yt}</span>
+                        </div>
+                      </section>
+                    </li>
+                  </ol>
+                </section>
+                <footer class="field-page__outer-shelving-label field-page__outer-shelving-label--cob">
+                  <div class="field-page__shelving-arrows" aria-hidden="true">
+                    <span>↑</span><span>↑</span>
+                  </div>
+                  <h5 id="stewardly-captain-cob-wardrobe-title">
+                    This Stewardly Captain COB's Wardrobe within This STEWARDING INSTRUMENTATIONING MENTING HAUS
+                  </h5>
+                </footer>
+              </section>
             </section>
 
             <div class="field-page__constitutional-divider" aria-hidden="true"></div>
             <div class="field-page__sittinging-time-band">THIS ONE PIECE OF TIME</div>
             <div class="field-page__constitutional-divider" aria-hidden="true"></div>
 
+            <section
+              id="turn-zero-departure-wayfinding"
+              class="field-page__sittinging-departure-wayfinding"
+              aria-label="Turn Zero departure wayfinding"
+            >
+              <.rail_wayfinding_card id="turn-zero-rail-wayfinding" />
+            </section>
+
+            <section
+              :if={@turn_zero_for_standing}
+              id="turn-zero-departure-ceremonying"
+              class="field-page__departure-ceremonying"
+              aria-labelledby="turn-zero-departure-ceremonying-title"
+            >
+              <p class="site-page__eyebrow">The Stitching Needle across the Larger Seam</p>
+              <h3 id="turn-zero-departure-ceremonying-title">
+                My Stewarding Officer, I am noticing something about The Stitching Needle.
+              </h3>
+              <p>
+                The Stitching Needle with which these Appointmentings have been made may also stitch from Here upon This One Piece of Time through BEFORE toward The Zeroeth Appointmenting.
+              </p>
+              <p>I will be standing in waiting There when you Return Here.</p>
+            </section>
+
             <footer class="field-page__sittinging-departure">
               <button
-                :if={@entrance_stage == :sittinging_room}
+                :if={@entrance_stage == :sittinging_room && @turn_zero_for_standing}
                 id="unfold-existing-rail-line"
                 type="button"
                 class="field-page__action"
@@ -998,10 +1702,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           </article>
 
           <div
-            :if={@entrance_stage == :sittinging_room}
+            :if={@entrance_stage == :sittinging_room && is_nil(@turn_zero_for_standing)}
             class="field-page__sittinging-voices field-page__rail-guidance"
           >
-            <.rail_wayfinding_card id="turn-zero-rail-wayfinding" />
             <.constitutional_voice
               id="sittinging-room-stewardly-guidance"
               voice={:stewardly_guidance}
@@ -1011,9 +1714,6 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </p>
               <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
               <p>Sit.</p>
-              <p>
-                RE-FOLD from Here over This One Piece of Time through BEFORE toward The Zeroeth Appointmenting.
-              </p>
             </.constitutional_voice>
           </div>
 
@@ -1033,7 +1733,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <div class="psm-oag__instrument-plate">
               <p class="psm-oag__eyebrow">Harbor Sign</p>
               <h2 id="division-readyingmenting-harbor-sign-title">Standinging in Regard</h2>
-              <p class="psm-oag__reading">The Bearinging of Stewardly Co-Occupancyingship</p>
+              <p class="psm-oag__reading">Bearinging toward Stewardly Co-Occupancyingship</p>
             </div>
             <div class="psm-oag__description">
               <p>
@@ -1204,11 +1904,26 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </p>
             <p>This Constitutional Furnishmenting Rail Line begins at The Chapel-along-the-Sea.</p>
           </header>
+        </section>
+
+        <section
+          :if={@landing_inquired?}
+          id="constitutional-furnishmenting-rail"
+          class="field-page__furnishmenting-rail"
+          aria-labelledby="constitutional-furnishmenting-rail-title"
+        >
+          <header
+            id="station-depot-00-marker"
+            class="field-page__station-header field-page__station-header--opening field-page__station-depot-marker"
+            aria-labelledby="station-depot-00-title"
+          >
+            <p class="site-page__eyebrow">THE CHAPEL-ALONG-THE-SEA</p>
+            <h3 id="station-depot-00-title">STATION DEPOT 00</h3>
+          </header>
 
           <section
-            :if={@landing_inquired?}
             id="chapel-by-the-sea"
-            class="field-page__chapel-by-the-sea"
+            class="field-page__chapel-by-the-sea field-page__station-locality-marker"
             aria-labelledby="chapel-by-the-sea-title"
           >
             <h3 id="chapel-by-the-sea-title">The Chapel-along-the-Sea</h3>
@@ -1219,29 +1934,29 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               Here, Stewardly Appointmenting stands awaiting Ceremonying.
             </p>
           </section>
-        </section>
 
-        <section
-          :if={@landing_inquired?}
-          id="constitutional-furnishmenting-rail"
-          class="field-page__furnishmenting-rail"
-          aria-labelledby="constitutional-furnishmenting-rail-title"
-        >
-          <header class="field-page__station-header field-page__station-header--opening">
-            <p class="site-page__eyebrow">THE CHAPEL-ALONG-THE-SEA</p>
-            <h3 id="terrestrial-computer-parkinging-station-title">STATION DEPOT 00</h3>
-          </header>
+          <button
+            :if={!@station_00_unfolded?}
+            id="unfold-station-00"
+            type="button"
+            class="field-page__action field-page__station-unfold-action"
+            phx-click="unfold-station-00"
+          >
+            UN-FOLD Station Depot 00 Interior
+          </button>
 
           <section
+            :if={@station_00_unfolded?}
             id="rail-line-opening-ceremony"
-            class="psm-oag field-page__station-regard field-page__station-regard--station-01"
-            aria-labelledby="station-01-regard-title"
+            class="psm-oag field-page__station-regard field-page__station-regard--station-00 field-page__ceremonying-declaration field-page__station-interior--newly-unfolded"
+            aria-labelledby="station-00-ceremonying-title"
+            data-constitutional-furnishing="ceremonying-declaration"
           >
             <div class="psm-oag__instrument-plate">
               <p class="psm-oag__eyebrow">
                 Ceremonying
               </p>
-              <h2 id="station-01-regard-title">The Taking Holdinging of This One Leashing</h2>
+              <h2 id="station-00-ceremonying-title">The Taking Holdinging of This One Leashing</h2>
               <p class="psm-oag__reading">The Zeroeth Appointmenting</p>
             </div>
             <div class="psm-oag__description">
@@ -1287,7 +2002,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <article
               id="terrestrial-computer-parkinging-station"
               class="field-page__station"
-              aria-labelledby="terrestrial-computer-parkinging-station-title"
+              aria-labelledby="station-depot-00-title"
             >
               <section
                 id="leashing-investituringment-ceremony"
@@ -1319,7 +2034,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </p>
                 <div class="field-page__ceremonial-divider" aria-hidden="true"></div>
                 <div
-                  id="station-01-constitutional-voices"
+                  id="station-00-constitutional-voices"
                   class="field-page__crew-statement field-page__constitutional-voices"
                 >
                   <section
@@ -1444,7 +2159,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 <section class="field-page__leash" aria-label="This One Leashing Landing">
                   <%= if @ceremony_completed? do %>
                     <div id="leashing-ceremony-complete" aria-live="polite">
-                      <div class="field-page__completion-statement">
+                      <div class="field-page__completion-statement field-page__standinging-marker">
                         <p>Together, These Relationings now stand as This One Leashing.</p>
                         <p>This One Leashing stands upon This One Constitutional Locality.</p>
                       </div>
@@ -1544,7 +2259,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
                         <.leashing_locality
                           id="parkinging-credentials"
-                          cabinet_id="station-01-secret-cabinet"
+                          cabinet_id="station-00-secret-cabinet"
                           stand_id="parkinging-stand"
                           pin_id="shackling-pin"
                           time_id="leashing-ceremony-time"
@@ -1569,14 +2284,14 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
                       <div class="field-page__sittinging-voices field-page__rail-guidance">
                         <.rail_wayfinding_card
-                          id="station-01-rail-wayfinding"
+                          id="station-00-rail-wayfinding"
                           from="Encounteringmentablement"
                           toward="Distinguishingmenting"
                           from_label="Continuing From"
                           toward_label="Continuing Toward"
                         />
                         <.constitutional_voice
-                          id="station-01-stewardly-guidance"
+                          id="station-00-stewardly-guidance"
                           voice={:stewardly_guidance}
                         >
                           <p>
@@ -1608,7 +2323,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   id="leashing-ceremony-closing"
                   class="field-page__ceremony-closing"
                 >
-                  <section id="leashing-stewardly-standing">
+                  <section
+                    id="leashing-stewardly-standing"
+                    class="field-page__standinging-marker"
+                  >
                     <h5>Stewardly Standing</h5>
                     <p id="tuple-ship-lawful-beginning-proclamation">
                       THIS ONE TUPLE SHIP NOW STANDS IN LAWFUL BEGINNING CONTINUINGMENTING.
@@ -1769,26 +2487,30 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
             <div
               :if={@re_shackling_decision in [:completed, :continued]}
-              id="rail-line-after-station-01"
+              id="rail-line-toward-station-01"
             >
               <div class="field-page__rail-line" aria-hidden="true"></div>
 
-              <section id="station-02-opening" class="field-page__station-opening">
-                <header class="field-page__station-header">
-                  <p class="site-page__eyebrow">STATION DEPOT 01</p>
-                  <h3 id="earthly-localities-station-title">This One Some Place</h3>
+              <section id="station-01-opening" class="field-page__station-opening">
+                <header
+                  id="station-depot-01-marker"
+                  class="field-page__station-header field-page__station-depot-marker"
+                  aria-labelledby="station-depot-01-title"
+                >
+                  <p class="site-page__eyebrow">This One Some Place</p>
+                  <h3 id="station-depot-01-title">STATION DEPOT 01</h3>
                 </header>
 
                 <section
                   class="psm-oag field-page__station-regard"
-                  aria-labelledby="station-02-regard-title"
+                  aria-labelledby="station-01-regard-title"
                 >
                   <div class="psm-oag__instrument-plate">
                     <p class="psm-oag__eyebrow">
                       The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment
                     </p>
-                    <h2 id="station-02-regard-title">Standinging in Regard</h2>
-                    <p class="psm-oag__reading">The Bearinging of Embodyingmenting</p>
+                    <h2 id="station-01-regard-title">Standinging in Regard</h2>
+                    <p class="psm-oag__reading">Bearinging toward Embodyingmenting</p>
                   </div>
                   <div class="psm-oag__description">
                     <p>
@@ -1804,23 +2526,23 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </section>
 
                 <button
-                  :if={!@station_02_unfolded?}
-                  id="unfold-station-02"
+                  :if={!@station_01_unfolded?}
+                  id="unfold-station-01"
                   type="button"
                   class="field-page__action field-page__station-unfold-action"
-                  phx-click="unfold-station-02"
+                  phx-click="unfold-station-01"
                 >
                   UN-FOLD from Here toward The Zeroeth Appointmenting
                 </button>
               </section>
 
               <article
-                :if={@station_02_unfolded?}
+                :if={@station_01_unfolded?}
                 id="earthly-localities-station"
-                class="field-page__station"
-                aria-labelledby="earthly-localities-station-title"
+                class="field-page__station field-page__station-interior--newly-unfolded"
+                aria-labelledby="station-depot-01-title"
               >
-                <div id="station-02-stewardship-geometry" class="field-page__dual-stewardship">
+                <div id="station-01-stewardship-geometry" class="field-page__dual-stewardship">
                   <div class="field-page__stewardship-headings">
                     <h4>Constitutioning</h4>
                     <h4>Furnished Through</h4>
@@ -1862,7 +2584,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   >
                     <defs>
                       <marker
-                        id="station-02-arrowhead"
+                        id="station-01-arrowhead"
                         markerWidth="5"
                         markerHeight="5"
                         refX="4"
@@ -1872,9 +2594,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         <path d="M0,0 L5,2.5 L0,5 Z"></path>
                       </marker>
                     </defs>
-                    <path d="M24 0 L50 25" marker-end="url(#station-02-arrowhead)"></path>
-                    <path d="M76 0 L50 25" marker-end="url(#station-02-arrowhead)"></path>
-                    <path d="M50 25 L50 48" marker-end="url(#station-02-arrowhead)"></path>
+                    <path d="M24 0 L50 25" marker-end="url(#station-01-arrowhead)"></path>
+                    <path d="M76 0 L50 25" marker-end="url(#station-01-arrowhead)"></path>
+                    <path d="M50 25 L50 48" marker-end="url(#station-01-arrowhead)"></path>
                   </svg>
                 </div>
 
@@ -1922,7 +2644,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   <p
                     :if={MapSet.member?(@proto_appointmentings, :lanterning)}
                     id="first-appointmenting-standing"
-                    class="field-page__confirmation"
+                    class="field-page__standinging-marker"
                   >
                     This First Appointmenting now stands in lawful Beginning.
                   </p>
@@ -1964,7 +2686,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     <h5>Stewardly Guidance</h5>
                     <p>Stage one lawful XT–YT Interrelationing below.</p>
 
-                    <div class="field-page__station-02-choices">
+                    <div class="field-page__station-01-choices">
                       <.form
                         for={@locality_form}
                         id="earthly-locality-form"
@@ -2012,11 +2734,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         </div>
 
                         <section
-                          id="turn-zero-surface"
-                          class="field-page__turn-zero-surface"
-                          aria-labelledby="turn-zero-surface-title"
+                          id="station-01-turn-zero-surfacing"
+                          class="field-page__operational-surface field-page__station-01-turn-zero-surfacing"
+                          aria-labelledby="station-01-turn-zero-surfacing-title"
                         >
-                          <h5 id="turn-zero-surface-title">TURN ZERO SURFACE</h5>
+                          <h5 id="station-01-turn-zero-surfacing-title">TURN ZERO SURFACING</h5>
                           <p class="field-page__turn-zero-voice">Stewardly Guidance</p>
                           <div class="field-page__turn-zero-readout">
                             <section id="turn-zero-xt-readout">
@@ -2045,10 +2767,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                             </section>
                           </div>
                           <p :if={@earthly_locality_history == []}>
-                            This Turn Zero Surface stands proving lawful XT–YT Interrelationings.<br />Nothing has yet been furnished.
+                            This Turn Zero Surfacing stands proving lawful XT–YT Interrelationings.<br />Nothing has yet been furnished.
                           </p>
                           <p :if={@earthly_locality_history != []}>
-                            The Turn Zero Surface stages lawful XT–YT Interrelationings without altering the presently furnished Constitutional Locality.
+                            The Turn Zero Surfacing stages lawful XT–YT Interrelationings without altering the presently furnished Constitutional Locality.
                           </p>
                           <p>
                             Only a furnished XT–YT Interrelationing comes into Constitutional Standing.
@@ -2061,7 +2783,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                           </div>
                         </section>
 
-                        <div class="field-page__station-02-actions">
+                        <div class="field-page__station-01-actions">
                           <button type="submit" class="field-page__action">
                             Furnish This One Interrelationing
                           </button>
@@ -2080,7 +2802,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     <section
                       :if={@earthly_locality}
                       id="lawful-xt-yt-interrelationing"
-                      class="field-page__turn-zero-surface"
+                      class="field-page__operational-surface"
                       aria-labelledby="lawful-xt-yt-interrelationing-title"
                     >
                       <h5 id="lawful-xt-yt-interrelationing-title">
@@ -2139,11 +2861,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </section>
 
                   <div
-                    :if={@station_02_completed?}
-                    id="station-02-completion"
+                    :if={@station_01_completed?}
+                    id="station-01-completion"
                     class="field-page__station-completion"
                   >
-                    <p :if={@station_02_decision == :completed}>
+                    <p :if={@station_01_decision == :completed}>
                       This One Lanterning Bug Assemblementing now stands Visionizinging through Relationing to This One Some Place upon The Earth within This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
                     </p>
                     <p>
@@ -2152,9 +2874,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </div>
 
                   <.leashing_locality
-                    :if={@station_02_completed?}
-                    id="station-02-enriched-leashing"
-                    cabinet_id="station-02-secret-cabinet"
+                    :if={@station_01_completed?}
+                    id="station-01-enriched-leashing"
+                    cabinet_id="station-01-secret-cabinet"
                     parkinging_stand={@parkinging_stand}
                     shackling_pin={@shackling_pin}
                     piece_of_time={format_piece_of_time(@ceremony_time)}
@@ -2173,7 +2895,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </article>
 
               <section
-                :if={@station_02_completed?}
+                :if={@station_01_completed?}
                 id="tuple-field-terminus-harbor"
                 class="psm-oag field-page__terminus-harbor"
                 aria-labelledby="tuple-field-terminus-harbor-title"
@@ -2183,7 +2905,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     The Same General Civilizationalizing Constitutioningable Geometry of Stewardly Inhabitationingment
                   </p>
                   <h2 id="tuple-field-terminus-harbor-title">Standinging in Regard</h2>
-                  <p class="psm-oag__reading">The Bearinging of Continuingmenting</p>
+                  <p class="psm-oag__reading">Bearinging toward Continuingmenting</p>
                 </div>
                 <div class="psm-oag__description">
                   <p>
@@ -2202,7 +2924,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </div>
               </section>
 
-              <div :if={@station_02_completed?} class="field-page__refold-standing">
+              <div :if={@station_01_completed?} class="field-page__refold-standing">
                 <div class="field-page__refold-guidance">
                   <p>Keep what is Holdinging.</p>
                   <p>Become Discoveringmenting through a New Standing.</p>
@@ -2221,7 +2943,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         </section>
 
         <section
-          :if={@station_02_completed?}
+          :if={@station_01_completed?}
           id="public-field-discoveringmenting-harbor"
           class="psm-oag field-page__public-field-harbor"
           aria-labelledby="public-field-discoveringmenting-harbor-title"
@@ -2232,7 +2954,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </p>
             <h2 id="public-field-discoveringmenting-harbor-title">Standinging in Regard</h2>
             <p class="psm-oag__reading">
-              The Bearinging of Discoveringmenting through Stewardly Interrelationing
+              Bearinging toward Discoveringmenting through Stewardly Interrelationing
             </p>
           </div>
           <div class="psm-oag__description">
@@ -2245,7 +2967,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         </section>
 
         <div
-          :if={@station_02_completed?}
+          :if={@station_01_completed?}
           id="tuple-field-after-leashing-ceremony"
         >
           <section class="field-page__section">
@@ -2397,26 +3119,147 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
   defp sittinging_appointmentings do
     [
-      {"The Zeroeth Appointmenting", "This One Situationing"},
-      {"The First Appointmenting", "Encounteringmentablement"},
-      {"The Second Appointmenting", "Distinguishingmenting"},
-      {"The Third Appointmenting", "Roomingmentingableroomingablement"},
-      {"The Fourth Appointmenting", "This One Purchase Surface"},
-      {"The Fifth Appointmenting", "Excursioningmenting"},
-      {"The Sixth Appointmenting", "Embroideringmentingenablementingedably"}
+      {"TZ", "The Turn-Zeroeth Appointmenting", "WHAT I MAY BE CALLING THIS COB"},
+      {"00", "The Zeroeth Appointmenting", "This One Situationing"},
+      {"01", "The First Appointmenting", "Encounteringmentablement"},
+      {"02", "The Second Appointmenting", "Distinguishingmenting"},
+      {"03", "The Third Appointmenting", "Roomingmentingableroomingablement"},
+      {"04", "The Fourth Appointmenting", "This One Purchase Surface"},
+      {"05", "The Fifth Appointmenting", "Excursioningmenting"},
+      {"06", "The Sixth Appointmenting", "Embroideringmentingenablementingedably"}
     ]
   end
 
   defp sittinging_affordmentings do
     [
-      {"The Zeroeth Affordmenting", "The Ability to Regard"},
-      {"The First Affordmenting", "The Ability to Encounter"},
-      {"The Second Affordmenting", "The Ability to Distinguish"},
-      {"The Third Affordmenting", "The Ability to Make Room"},
-      {"The Fourth Affordmenting", "The Ability to Gain Purchase"},
-      {"The Fifth Affordmenting", "The Ability to Excursion"},
-      {"The Sixth Affordmenting", "The Ability to Embroiderize"}
+      {"06", "The Sixth Affordmenting", "The Ability to Embroiderize"},
+      {"05", "The Fifth Affordmenting", "The Ability to Excursion"},
+      {"04", "The Fourth Affordmenting", "The Ability to Gain Purchase"},
+      {"03", "The Third Affordmenting", "The Ability to Make Room"},
+      {"02", "The Second Affordmenting", "The Ability to Distinguish"},
+      {"01", "The First Affordmenting", "The Ability to Encounter"},
+      {"00", "The Zeroeth Affordmenting", "The Ability to Regard"},
+      {"TZ", "The Turn-Zeroeth Affordmenting", "WHAT THIS COB MAY BE CALLING ME"}
     ]
+  end
+
+  defp turn_zero_active_interrelationing_title(:cob_calls_human),
+    do: "WHAT THIS COB MAY BE CALLING ME"
+
+  defp turn_zero_active_interrelationing_title(:human_calls_cob),
+    do: "WHAT I MAY BE CALLING THIS COB"
+
+  defp turn_zero_active_interrelationing_title(:turn_zero_for),
+    do: "THIS ONE THING THAT IS WHAT IS THE MATTERING"
+
+  defp turn_zero_active_interrelationing_title(_active_interrelationing),
+    do: "No Interrelationing Presently Stands under Active Regard"
+
+  defp turn_zero_staging_result_title(:turn_zero_for), do: "THIS CROSS-SEAM FOR"
+  defp turn_zero_staging_result_title(_active_interrelationing), do: "THIS XT–YT RELATIONING"
+
+  defp turn_zero_coordinate(:xt_first, :first), do: "XT"
+  defp turn_zero_coordinate(:xt_first, :second), do: "YT"
+  defp turn_zero_coordinate(:xt_second, :first), do: "YT"
+  defp turn_zero_coordinate(:xt_second, :second), do: "XT"
+
+  defp turn_zero_projection_arrow(:xt_first), do: "XT → YT"
+  defp turn_zero_projection_arrow(:xt_second), do: "YT ← XT"
+
+  defp turn_zero_name_greeting(name) do
+    case String.trim(name) do
+      "" -> "My Stewarding Officer"
+      staged_name -> "#{staged_name}, My Stewarding Officer"
+    end
+  end
+
+  defp turn_zero_cob_calling(name) do
+    case String.trim(name) do
+      "" -> "No calling presently stands staged."
+      staged_name -> "You may be calling me #{staged_name}."
+    end
+  end
+
+  defp turn_zero_staged_xt(
+         :cob_calls_human,
+         _human_name,
+         _cob_name,
+         human_constitutional_xt,
+         _cob_constitutional_xt
+       ),
+       do: human_constitutional_xt
+
+  defp turn_zero_staged_xt(
+         :human_calls_cob,
+         _human_name,
+         _cob_name,
+         _human_constitutional_xt,
+         cob_constitutional_xt
+       ),
+       do: cob_constitutional_xt
+
+  defp turn_zero_staged_yt(:cob_calls_human, human_name, _cob_name),
+    do: staged_turn_zero_name(human_name)
+
+  defp turn_zero_staged_yt(:human_calls_cob, _human_name, cob_name),
+    do: staged_turn_zero_name(cob_name)
+
+  defp turn_zero_conversational_projection(:cob_calls_human, human_name, _cob_name),
+    do: turn_zero_name_greeting(human_name)
+
+  defp turn_zero_conversational_projection(:human_calls_cob, _human_name, cob_name),
+    do: turn_zero_cob_calling(cob_name)
+
+  defp turn_zero_staging_empty?(
+         :cob_calls_human,
+         human_name,
+         _cob_name,
+         _choice,
+         _standing
+       ),
+       do: String.trim(human_name) == ""
+
+  defp turn_zero_staging_empty?(
+         :human_calls_cob,
+         _human_name,
+         cob_name,
+         choice,
+         standing
+       ),
+       do: String.trim(cob_name) == "" or (is_nil(choice) and is_nil(standing))
+
+  defp turn_zero_staging_empty?(_active, _human_name, _cob_name, _choice, _standing),
+    do: true
+
+  defp standing_name(nil), do: ""
+  defp standing_name(standing), do: standing.yt
+
+  defp turn_zero_mattering(nil), do: ""
+  defp turn_zero_mattering(standing), do: standing.one_thing
+
+  defp clear_turn_zero_surfacing(socket) do
+    assign(socket,
+      active_turn_zero_interrelationing: nil,
+      staged_constitutioning_human_name: "",
+      staged_stewardly_captain_name: socket.assigns.stewardly_captain_furnished_name,
+      staged_turn_zero_mattering: "",
+      turn_zero_human_name_form: to_form(%{"name" => ""}, as: :turn_zero_human_name),
+      turn_zero_cob_name_form:
+        to_form(
+          %{"name" => socket.assigns.stewardly_captain_furnished_name},
+          as: :turn_zero_cob_name
+        ),
+      turn_zero_mattering_form: to_form(%{"mattering" => ""}, as: :turn_zero_mattering),
+      turn_zero_cob_naming_choice: nil,
+      turn_zero_projection: :xt_first
+    )
+  end
+
+  defp staged_turn_zero_name(name) do
+    case String.trim(name) do
+      "" -> "No name presently stands staged."
+      staged_name -> staged_name
+    end
   end
 
   defp correspondence_href(channel, destination, assigns) do
@@ -2607,11 +3450,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   defp correspondence_placeholder(_channel),
     do: "ThisStewardlyCaptainCOB@ThisOneEmailAddress.com"
 
-  defp maybe_complete_station_02(socket) do
+  defp maybe_complete_station_01(socket) do
     completed? =
-      socket.assigns.station_02_decision in [:completed, :declined] and
+      socket.assigns.station_01_decision in [:completed, :declined] and
         MapSet.member?(socket.assigns.proto_appointmentings, :lanterning)
 
-    assign(socket, :station_02_completed?, completed?)
+    assign(socket, :station_01_completed?, completed?)
   end
 end

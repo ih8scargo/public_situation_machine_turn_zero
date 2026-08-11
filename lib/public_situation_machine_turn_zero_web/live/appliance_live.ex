@@ -14,7 +14,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ApplianceLive do
         <Layouts.locality_threshold
           title="THE APPLIANCE"
           id="appliance-threshold"
-          reading="The Bearinging of Enrichingmenting Inheritancing"
+          reading="Bearinging toward Enrichingmenting Inheritancing"
         >
           <:description>
             <p>

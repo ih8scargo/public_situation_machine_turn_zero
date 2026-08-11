@@ -105,7 +105,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
   """
   attr :title, :string, required: true
   attr :id, :string, required: true
-  attr :reading, :string, default: "The Bearinging of Continuity Possibility"
+  attr :reading, :string, default: "Bearinging toward Continuity Possibility"
 
   slot :description
 
