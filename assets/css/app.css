@@ -964,6 +964,112 @@
   font-size: clamp(1.6rem, 4vw, 2.75rem);
 }
 
+.field-page__quiet-threshold {
+  margin: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid rgba(32, 37, 38, 0.42);
+  border-top: 0.45rem solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.96);
+  text-align: center;
+}
+
+.field-page__quiet-threshold h3 {
+  margin: 0.5rem 0 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+}
+
+.field-page__quiet-threshold p:not(.site-page__eyebrow) {
+  max-width: 42rem;
+  margin: 0 auto 1.5rem;
+}
+
+.field-page__occupant-surfacing {
+  margin: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 5vw, 4rem) 0;
+  border: 1px solid rgba(32, 37, 38, 0.5);
+  background: rgba(248, 244, 236, 0.96);
+}
+
+.field-page__occupant-surfacing > header,
+.field-page__cob-consoling > .field-page__relation-label,
+.field-page__cob-consoling > h3 {
+  padding-inline: clamp(1.5rem, 4vw, 3rem);
+  text-align: center;
+}
+
+.field-page__occupant-surfacing > header {
+  padding-block: clamp(1.25rem, 3vw, 2rem);
+}
+
+.field-page__occupant-surfacing > header h3 {
+  margin: 0.4rem 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.field-page__occupant-workspace,
+.field-page__occupant-readout {
+  padding: clamp(1rem, 3vw, 2rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.4);
+}
+
+.field-page__occupant-workspace form {
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+.field-page__conditioning-register {
+  display: grid;
+  padding: clamp(0.85rem, 2vw, 1.4rem) 0;
+  gap: 0.75rem;
+}
+
+.field-page__conditioning-register + .field-page__conditioning-register {
+  border-top: 1px solid rgba(32, 37, 38, 0.25);
+}
+
+.field-page__conditioning-register h4,
+.field-page__conditioning-register p {
+  margin: 0;
+}
+
+.field-page__conditioning-register h4 {
+  font: 800 0.75rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.field-page__instrumentationing-readout {
+  grid-template-columns: minmax(0, auto) 1fr;
+  align-items: baseline;
+  color: #685632;
+}
+
+.field-page__active-appointmenting-work > form {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.field-page__cob-consoling {
+  border-inline-width: 0.45rem;
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__cob-consoling h3 {
+  margin: 0.5rem 0 1.5rem;
+  color: inherit;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.field-page__cob-consoling .field-page__occupant-readout {
+  border-color: rgba(248, 244, 236, 0.35);
+}
+
+.field-page__cob-consoling .field-page__surfacing-inquiring-humaning {
+  margin: 0;
+}
+
 .field-page__human-affordmentings-title {
   margin: 0;
   padding: 1.25rem clamp(1.5rem, 4vw, 3rem);
@@ -1111,7 +1217,6 @@
   color: var(--psm-paper-light);
 }
 
-.field-page__stitching-needle-furnishment,
 .field-page__departure-ceremonying {
   margin: clamp(2rem, 5vw, 4rem);
   padding: clamp(1.5rem, 4vw, 3rem);
@@ -1119,16 +1224,91 @@
   background: rgba(248, 244, 236, 0.88);
 }
 
-.field-page__stitching-needle-furnishment {
-  text-align: center;
-}
-
-.field-page__stitching-needle-furnishment h4,
 .field-page__departure-ceremonying h3 {
   margin: 0.65rem 0 1rem;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.45rem, 3.5vw, 2.6rem);
   line-height: 1.2;
+}
+
+.field-page__tz-furnishings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.32);
+  background: rgba(215, 204, 183, 0.34);
+}
+
+.field-page__fitted-instrumentationing,
+.field-page__available-appointmenting {
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.field-page__fitted-instrumentationing {
+  border: 0.35rem double rgba(32, 37, 38, 0.55);
+  background: #e7decc;
+}
+
+.field-page__available-appointmenting {
+  border: 1px solid rgba(32, 37, 38, 0.42);
+  border-left: 0.45rem solid var(--psm-steel);
+  background: rgba(248, 244, 236, 0.94);
+}
+
+.field-page__fitted-instrumentationing h4,
+.field-page__available-appointmenting h4 {
+  margin: 0.5rem 0 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.15rem, 2.5vw, 1.7rem);
+}
+
+.field-page__positional-standing {
+  display: grid;
+  border-bottom: 1px solid rgba(32, 37, 38, 0.34);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__positional-standing > div {
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 1.75rem);
+}
+
+.field-page__positional-standing > .field-page__tuple-position {
+  min-height: 2.1rem;
+  border-bottom-color: rgba(248, 244, 236, 0.24);
+}
+
+.field-page__positional-standing-readout {
+  grid-column: 1 / -1;
+}
+
+.field-page__positional-standing-readout > strong {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--psm-brass);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 2.4vw, 1.4rem);
+}
+
+.field-page__positional-standing > div + div {
+  border-left: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__positional-standing h6 {
+  margin: 0 0 0.75rem;
+  font: 800 0.75rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.field-page__cob-appointmenting-operation {
+  margin: 1rem;
+}
+
+#constitutioning-human-future-position-rows,
+#proto-paired-shelves {
+  margin: 0;
 }
 
 .field-page__turn-zero-ceremony-offer {
@@ -1180,19 +1360,24 @@
   margin-block: clamp(2rem, 5vw, 4rem);
 }
 
+.field-page__relationing-chassis {
+  margin: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 5vw, 4rem);
+  border: 2px solid var(--psm-steel);
+  box-shadow: 0 20px 44px rgba(32, 37, 38, 0.12);
+}
+
 .field-page__turn-zero-surfacing {
   position: relative;
-  margin: clamp(3rem, 7vw, 6rem) clamp(1.5rem, 5vw, 4rem);
+  margin: 0;
   padding: clamp(2rem, 5vw, 4rem);
-  border: 2px solid var(--psm-steel);
+  border: 0;
   background:
     linear-gradient(rgba(32, 37, 38, 0.055) 1px, transparent 1px),
     linear-gradient(90deg, rgba(32, 37, 38, 0.055) 1px, transparent 1px),
     rgba(248, 244, 236, 0.92);
   background-size: 2rem 2rem;
   box-shadow:
-    inset 0 0 0 0.5rem rgba(215, 204, 183, 0.5),
-    0 20px 44px rgba(32, 37, 38, 0.12);
+    inset 0 0 0 0.5rem rgba(215, 204, 183, 0.5);
   text-align: center;
 }
 
@@ -1295,7 +1480,7 @@
 }
 
 .field-page__turn-zero-surfacing.is-folded {
-  margin-block: clamp(1.5rem, 3vw, 2.5rem);
+  margin: 0;
   padding: clamp(1.1rem, 2.5vw, 1.75rem);
   box-shadow: inset 0 0 0 0.25rem rgba(215, 204, 183, 0.44);
 }
@@ -1357,17 +1542,40 @@
 }
 
 .field-page__holdinging-in-standinging {
-  margin: 0 clamp(1.5rem, 5vw, 4rem) clamp(3rem, 7vw, 6rem);
-  padding: clamp(2rem, 5vw, 4rem);
-  border: 0.45rem double var(--psm-steel);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 0.45rem double var(--psm-steel);
   background: #e7decc;
   text-align: center;
 }
 
 .field-page__holdinging-in-standinging > h3 {
   margin: 0;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
   font: 900 clamp(1.5rem, 4vw, 2.8rem)/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   letter-spacing: 0.08em;
+}
+
+.field-page__holdinging-regions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid rgba(32, 37, 38, 0.35);
+}
+
+.field-page__holdinging-regions > section {
+  min-width: 0;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.field-page__holdinging-regions > section + section {
+  border-left: 1px solid rgba(32, 37, 38, 0.35);
+}
+
+@media (max-width: 640px) {
+  .field-page__tz-furnishings {
+    grid-template-columns: 1fr;
+  }
 }
 
 .field-page__holdinging-in-standinging .field-page__standinging-marker {
