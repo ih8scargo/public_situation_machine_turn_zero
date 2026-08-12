@@ -697,6 +697,72 @@
   box-shadow: 0 18px 42px rgba(32, 37, 38, 0.12);
 }
 
+.field-page__composementing-noticingment {
+  width: min(68rem, calc(100% - clamp(2rem, 8vw, 7rem)));
+  margin: clamp(2rem, 6vw, 5rem) auto 0;
+  border: 0.3rem double rgba(32, 37, 38, 0.72);
+  background: #f4f0e6;
+  box-shadow: 0 18px 46px rgba(32, 37, 38, 0.11);
+  color: var(--psm-steel);
+}
+
+.field-page__composementing-noticingment-office {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 3vw, 1.75rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.42);
+  font: 800 0.7rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.field-page__composementing-noticingment-office p {
+  margin: 0;
+}
+
+.field-page__composementing-noticingment-body {
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.field-page__composementing-noticingment h2 {
+  margin: 0 auto clamp(1.5rem, 3vw, 2.25rem);
+  font-size: clamp(1.65rem, 4.2vw, 3.5rem);
+  line-height: 1.02;
+  text-align: center;
+}
+
+.field-page__composementing-noticingment h2 span {
+  display: block;
+}
+
+.field-page__composementing-noticingment h2 span + span {
+  margin-top: 0.7rem;
+  font: 900 0.5em/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.12em;
+}
+
+.field-page__composementing-noticingment-body > p {
+  max-width: 56rem;
+  margin-inline: auto;
+}
+
+.field-page__composementing-noticingment footer {
+  padding: 0.9rem clamp(1rem, 3vw, 1.75rem);
+  border-top: 1px solid rgba(32, 37, 38, 0.32);
+  background: rgba(215, 204, 183, 0.36);
+  font: 700 0.68rem/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+@media (max-width: 42rem) {
+  .field-page__composementing-noticingment-office {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .field-page__opening-passageway > header {
   padding-inline: clamp(1.5rem, 4vw, 3rem);
   text-align: center;
@@ -1041,6 +1107,16 @@
   font-size: clamp(1.5rem, 3vw, 2.4rem);
 }
 
+.field-page__occupant-surfacing h3 > span {
+  display: block;
+}
+
+.field-page__occupant-surfacing h3 > span + span {
+  margin-top: 0.35rem;
+  font-size: 0.72em;
+  letter-spacing: 0.08em;
+}
+
 .field-page__occupant-workspace,
 .field-page__occupant-readout {
   padding: clamp(1rem, 3vw, 2rem);
@@ -1166,6 +1242,24 @@
 .field-page__cob-transcript-entry {
   margin: 0;
   padding: 0.45rem 0;
+}
+
+.field-page__cob-transcript-episode + .field-page__cob-transcript-episode {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 0.3rem double rgba(32, 37, 38, 0.35);
+}
+
+.field-page__cob-transcript-episode > .field-page__shelf-affordmenting-action {
+  width: 100%;
+}
+
+.field-page__cob-transcript-entry > p {
+  margin: 0;
+}
+
+.field-page__cob-transcript-entry > p + p {
+  margin-top: 0.75rem;
 }
 
 .field-page__cob-transcript-entry.is-direction,
@@ -1311,7 +1405,7 @@
 }
 
 .field-page__menting-haus {
-  margin: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2.5rem);
+  margin: clamp(1.2rem, 3vw, 2.2rem) clamp(1rem, 3vw, 2.5rem);
   border: 0.3rem double rgba(32, 37, 38, 0.5);
   background: rgba(238, 233, 223, 0.42);
 }
@@ -1404,8 +1498,14 @@
 }
 
 .field-page__positional-standing > .field-page__tuple-position {
-  min-height: 2.1rem;
-  border-bottom-color: rgba(248, 244, 236, 0.24);
+  min-height: 2.7rem;
+  border-block: 0;
+  box-shadow: inset 0 -1px 0 rgba(248, 244, 236, 0.28);
+}
+
+.field-page__positional-standing[data-standing-integrated="true"] {
+  border: 0.35rem solid var(--psm-steel);
+  box-shadow: inset 0 0 0 1px rgba(228, 201, 127, 0.3);
 }
 
 .field-page__positional-standing-readout {
@@ -1485,7 +1585,7 @@
 }
 
 .field-page__cob-wardrobe {
-  margin: clamp(2rem, 5vw, 4rem);
+  margin: clamp(1.2rem, 3vw, 2.2rem) clamp(1.5rem, 5vw, 4rem);
   border: 1px solid rgba(32, 37, 38, 0.36);
   background: rgba(248, 244, 236, 0.45);
 }
@@ -1514,9 +1614,41 @@
 }
 
 .field-page__relationing-chassis {
-  margin: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 5vw, 4rem);
+  margin: clamp(1rem, 2.5vw, 1.75rem) clamp(1.5rem, 5vw, 4rem);
   border: 2px solid var(--psm-steel);
   box-shadow: 0 20px 44px rgba(32, 37, 38, 0.12);
+}
+
+.field-page__big-appointmenting-architecture {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 clamp(1rem, 3vw, 2rem) clamp(1rem, 3vw, 2rem);
+  border: 1px solid rgba(32, 37, 38, 0.42);
+  background: rgba(248, 244, 236, 0.82);
+}
+
+.field-page__big-appointmenting-architecture > h3 {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid rgba(32, 37, 38, 0.36);
+  font: 900 clamp(1rem, 2.2vw, 1.4rem)/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.field-page__big-appointmenting-architecture > article {
+  min-width: 0;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.field-page__big-appointmenting-architecture > article + article {
+  border-left: 1px solid rgba(32, 37, 38, 0.3);
+}
+
+.field-page__big-appointmenting-architecture [data-construction-state="dormant"] {
+  background: rgba(215, 204, 183, 0.38);
+  color: rgba(32, 37, 38, 0.72);
 }
 
 .field-page__turn-zero-surfacing {
@@ -3811,7 +3943,8 @@ section.field-page__standinging-marker {
   .field-page__surfacing-staging-regions,
   .field-page__surfacing-staging-result dl,
   .field-page__for-cross-seam-staging,
-  .field-page__cross-seam-standing-origins {
+  .field-page__cross-seam-standing-origins,
+  .field-page__big-appointmenting-architecture {
     grid-template-columns: 1fr;
   }
 
@@ -3826,6 +3959,11 @@ section.field-page__standinging-marker {
   .field-page__surfacing-staging-result dl > div + div {
     border-left: 0;
     border-top: 1px solid rgba(32, 37, 38, 0.32);
+  }
+
+  .field-page__big-appointmenting-architecture > article + article {
+    border-left: 0;
+    border-top: 1px solid rgba(32, 37, 38, 0.3);
   }
 
   .field-page__secret-cabinet {

@@ -209,6 +209,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     view |> element("#enter-opening-passageway") |> render_click()
     view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
     view |> element("#unfold-sittinging-room-to-stand-together") |> render_click()
+    view |> element("#unfold-cob-naming-guidance") |> render_click()
     view |> element("#unfold-cob-calls-human-interrelationing") |> render_click()
 
     view
