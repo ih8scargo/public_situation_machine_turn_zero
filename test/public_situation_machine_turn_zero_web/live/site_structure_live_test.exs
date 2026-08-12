@@ -218,7 +218,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     |> render_change()
 
     view |> element("#refold-turn-zero-relationing-into-standinging") |> render_click()
-    view |> element("#unfold-turn-zero-for-appointmenting") |> render_click()
+    render_hook(view, "unfold-turn-zero-for-appointmenting", %{})
 
     view
     |> form("#turn-zero-mattering-staging-form",

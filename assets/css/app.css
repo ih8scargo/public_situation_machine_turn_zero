@@ -905,6 +905,26 @@
   min-height: clamp(8rem, 18vw, 14rem);
 }
 
+.field-page__intervening-rail-line {
+  min-height: clamp(7rem, 14vw, 11rem);
+  border-block: 1px solid rgba(32, 37, 38, 0.32);
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0 12%,
+      rgba(32, 37, 38, 0.7) 12% 13%,
+      transparent 13% 87%,
+      rgba(32, 37, 38, 0.7) 87% 88%,
+      transparent 88%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 1.4rem,
+      rgba(32, 37, 38, 0.24) 1.4rem 1.55rem
+    ),
+    rgba(238, 233, 223, 0.72);
+}
+
 .field-page__sittinging-in-room {
   overflow: visible;
   padding: 0;
@@ -913,6 +933,8 @@
 }
 
 .field-page__sittinging-time-band {
+  display: grid;
+  gap: 0.35rem;
   padding: 0.9rem;
   background: #111;
   color: #fff;
@@ -921,6 +943,12 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-align: center;
+}
+
+.field-page__sittinging-time-band time {
+  color: #e4c97f;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
 }
 
 .field-page__sittinging-heading,
@@ -984,6 +1012,12 @@
   margin: 0 auto 1.5rem;
 }
 
+.field-page__quiet-threshold-cue {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(32, 37, 38, 0.28);
+  font-weight: 700;
+}
+
 .field-page__occupant-surfacing {
   margin: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 5vw, 4rem) 0;
   border: 1px solid rgba(32, 37, 38, 0.5);
@@ -1011,6 +1045,57 @@
 .field-page__occupant-readout {
   padding: clamp(1rem, 3vw, 2rem);
   border-top: 1px solid rgba(32, 37, 38, 0.4);
+}
+
+.field-page__officer-conditioningmenting .field-page__occupant-workspace {
+  display: grid;
+  gap: 0;
+  padding: 0;
+}
+
+.field-page__instrumentation-register {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba(32, 37, 38, 0.5);
+  list-style: none;
+}
+
+.field-page__instrumentation-register > li {
+  min-width: 0;
+  min-height: 4.8rem;
+  padding: 0.55rem;
+  background: rgba(215, 204, 183, 0.28);
+  color: rgba(32, 37, 38, 0.62);
+  font: 800 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.field-page__instrumentation-register > li + li {
+  border-left: 1px solid rgba(32, 37, 38, 0.28);
+}
+
+.field-page__instrumentation-register > li[data-furnished="true"] {
+  background: #d6bd84;
+  color: #202526;
+}
+
+.field-page__instrumentation-register strong,
+.field-page__instrumentation-register p {
+  display: block;
+  margin: 0.35rem 0 0;
+  overflow-wrap: anywhere;
+  color: inherit;
+  letter-spacing: 0;
+}
+
+.field-page__instrumentation-register p {
+  font: 600 0.68rem/1.25 Georgia, "Times New Roman", serif;
+}
+
+.field-page__officer-conditioningmenting .field-page__conditioning-register {
+  padding: 1rem clamp(1rem, 3vw, 2rem);
 }
 
 .field-page__occupant-workspace form {
@@ -1051,8 +1136,8 @@
 
 .field-page__cob-consoling {
   border-inline-width: 0.45rem;
-  background: var(--psm-steel);
-  color: var(--psm-paper-light);
+  background: #f8f4ec;
+  color: #202526;
 }
 
 .field-page__cob-consoling h3 {
@@ -1063,11 +1148,54 @@
 }
 
 .field-page__cob-consoling .field-page__occupant-readout {
-  border-color: rgba(248, 244, 236, 0.35);
+  border-color: rgba(32, 37, 38, 0.35);
+  background: #fffdf8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 2vw, 1.18rem);
+  line-height: 1.65;
+}
+
+.field-page__cob-transcript {
+  max-height: min(30rem, 58vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+.field-page__cob-transcript-entry {
+  margin: 0;
+  padding: 0.45rem 0;
+}
+
+.field-page__cob-transcript-entry.is-direction,
+.field-page__cob-transcript-entry.is-question,
+.field-page__cob-transcript-entry.is-acknowledgment {
+  margin-top: 0.75rem;
+  padding: 0.8rem 1rem;
+  border-left: 0.3rem solid #9a7836;
+  background: #f1e7d3;
+  font-weight: 700;
+}
+
+.field-page__cob-transcript-entry.is-question {
+  border-left-color: #202526;
+  background: #e7decc;
+  font-size: clamp(1.1rem, 2.4vw, 1.4rem);
 }
 
 .field-page__cob-consoling .field-page__surfacing-inquiring-humaning {
-  margin: 0;
+  margin: 1rem 0 0;
+  border-left: 0.35rem solid #9a7836;
+  background: #f1e7d3;
+}
+
+.field-page__cob-spatial-cue,
+#turn-zero-cob-acknowledgment {
+  padding: 0.75rem 1rem;
+  border-left: 0.25rem solid #9a7836;
+  background: #f1e7d3;
+  font-weight: 700;
 }
 
 .field-page__human-affordmentings-title {
@@ -1267,7 +1395,7 @@
   display: grid;
   border-bottom: 1px solid rgba(32, 37, 38, 0.34);
   background: var(--psm-steel);
-  color: var(--psm-paper-light);
+  color: #fffdf8;
 }
 
 .field-page__positional-standing > div {
@@ -1282,12 +1410,32 @@
 
 .field-page__positional-standing-readout {
   grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 !important;
 }
 
-.field-page__positional-standing-readout > strong {
+.field-page__positional-standing-readout > section {
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.field-page__positional-standing-readout > section + section {
+  border-left: 1px solid rgba(255, 253, 248, 0.35);
+}
+
+.field-page__positional-standing-readout > section > span {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: #e4c97f;
+  font: 900 0.75rem/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.14em;
+}
+
+.field-page__positional-standing-readout strong {
   display: block;
   margin-top: 0.25rem;
-  color: var(--psm-brass);
+  color: #ffe39a;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1rem, 2.4vw, 1.4rem);
 }
@@ -1300,6 +1448,11 @@
   margin: 0 0 0.75rem;
   font: 800 0.75rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   letter-spacing: 0.08em;
+}
+
+.field-page__positional-standing p {
+  margin: 0.35rem 0 0;
+  color: #fffdf8;
 }
 
 .field-page__cob-appointmenting-operation {
@@ -1369,7 +1522,7 @@
 .field-page__turn-zero-surfacing {
   position: relative;
   margin: 0;
-  padding: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1rem, 2.5vw, 1.75rem);
   border: 0;
   background:
     linear-gradient(rgba(32, 37, 38, 0.055) 1px, transparent 1px),
@@ -1410,6 +1563,12 @@
   letter-spacing: 0.1em;
 }
 
+.field-page__live-relationing > h4 {
+  margin: 0 0 0.75rem;
+  font: 900 0.78rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.12em;
+}
+
 .field-page__surfacing-active-work,
 .field-page__surfacing-inquiring-humaning,
 .field-page__surfacing-staging-result {
@@ -1448,14 +1607,13 @@
 .field-page__surfacing-staging-regions {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  min-height: clamp(16rem, 35vw, 28rem);
+  min-height: 8rem;
   border: 2px solid var(--psm-steel);
-  border-top: 0;
 }
 
 .field-page__surfacing-staging-region {
   min-width: 0;
-  padding: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1rem, 2.5vw, 1.5rem);
   background: rgba(248, 244, 236, 0.72);
 }
 
@@ -1465,18 +1623,39 @@
 
 .field-page__surfacing-coordinate {
   display: block;
-  margin-bottom: clamp(1.5rem, 4vw, 3rem);
+  margin-bottom: 1rem;
   color: #765b2d;
   font: 900 0.82rem/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   letter-spacing: 0.16em;
 }
 
 .field-page__surfacing-live-reading {
-  margin-top: clamp(3rem, 8vw, 7rem);
+  margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-size: clamp(1.25rem, 3vw, 2rem);
   line-height: 1.2;
   transition: margin 220ms ease, padding 220ms ease, box-shadow 220ms ease;
+}
+
+.field-page__live-relationing > .field-page__action {
+  margin-top: 0.75rem;
+}
+
+.field-page__surfacing-nameplate {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem 0;
+  border-top: 1px solid rgba(32, 37, 38, 0.4);
+}
+
+.field-page__surfacing-nameplate p {
+  margin: 0;
+  font: 700 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.08em;
+}
+
+.field-page__surfacing-nameplate h3 {
+  margin-top: 0.35rem;
+  font-size: clamp(1.1rem, 2.4vw, 1.65rem);
 }
 
 .field-page__turn-zero-surfacing.is-folded {
@@ -1552,8 +1731,8 @@
 
 .field-page__holdinging-in-standinging > h3 {
   margin: 0;
-  padding: clamp(1.5rem, 4vw, 2.5rem);
-  font: 900 clamp(1.5rem, 4vw, 2.8rem)/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  padding: clamp(0.85rem, 2vw, 1.25rem);
+  font: 900 clamp(1.15rem, 3vw, 1.8rem)/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   letter-spacing: 0.08em;
 }
 
@@ -1565,7 +1744,7 @@
 
 .field-page__holdinging-regions > section {
   min-width: 0;
-  padding: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .field-page__holdinging-regions > section + section {
