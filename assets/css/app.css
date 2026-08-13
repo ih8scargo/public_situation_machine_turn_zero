@@ -1231,6 +1231,24 @@
   line-height: 1.65;
 }
 
+.field-page__opening-cob-consoling {
+  max-width: 48rem;
+  margin: clamp(1.5rem, 4vw, 3rem) auto;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 0.3rem double rgba(32, 37, 38, 0.55);
+  box-shadow: 0 18px 44px rgba(32, 37, 38, 0.12);
+  text-align: left;
+}
+
+.field-page__opening-cob-consoling h3 span {
+  display: block;
+}
+
+.field-page__opening-cob-consoling .field-page__cob-transcript {
+  max-height: none;
+  overflow: visible;
+}
+
 .field-page__cob-transcript {
   max-height: min(30rem, 58vh);
   overflow-y: auto;
@@ -1303,8 +1321,8 @@
 }
 
 #turn-zero-sittinging-inquiry {
-  max-width: 54rem;
-  margin: 2rem auto 0;
+  max-width: 32rem;
+  margin: 1rem auto 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.25rem, 3vw, 2rem);
   line-height: 1.35;
@@ -1313,6 +1331,8 @@
 .field-page__sittinging-cabinets {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-inline: clamp(1rem, 3vw, 2.5rem);
+  border-inline: 1px solid rgba(32, 37, 38, 0.28);
 }
 
 .field-page__sittinging-cabinet {
@@ -1348,6 +1368,29 @@
   margin-top: 1rem;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.15rem;
+}
+
+.field-page__cabinet-appliance-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #765b2d;
+  font: 900 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.14em;
+}
+
+.field-page__sittinging-cabinet--interrelationing {
+  grid-column: 1 / -1;
+  background: rgba(238, 233, 223, 0.62);
+}
+
+.field-page__sittinging-cabinet--interrelationing + .field-page__sittinging-cabinet {
+  border-left: 0;
+}
+
+.field-page__centered-working-locality h5 {
+  margin: 0.5rem 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
 }
 
 .field-page__proto-shelving {
@@ -1387,6 +1430,122 @@
   display: block;
 }
 
+#turn-zero-xt-wing-title,
+#turn-zero-yt-wing-title {
+  margin: 0 0 1rem;
+  color: var(--psm-steel);
+  font: 900 clamp(1.7rem, 5vw, 3.8rem)/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.18em;
+}
+
+.field-page__inner-rail {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-bottom: 1px solid rgba(32, 37, 38, 0.32);
+  background: var(--psm-steel);
+  color: var(--psm-paper-light);
+}
+
+.field-page__inner-rail > p,
+.field-page__centered-working-locality p {
+  margin: 0;
+  font: 900 0.7rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.16em;
+}
+
+.field-page__inner-rail ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.field-page__inner-rail li {
+  min-width: 0;
+  padding: 0.8rem 1rem;
+  border-top: 2px solid var(--psm-brass);
+}
+
+.field-page__inner-rail li + li {
+  border-left: 1px solid rgba(248, 244, 236, 0.35);
+}
+
+.field-page__inner-rail button {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.field-page__inner-rail span,
+.field-page__inner-rail strong {
+  display: block;
+}
+
+.field-page__inner-rail strong {
+  margin-top: 0.35rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+.field-page__inner-rail [data-station-state="unfurnished"] {
+  opacity: 0.55;
+}
+
+.field-page__centered-working-locality {
+  max-width: 58rem;
+  margin: clamp(1.25rem, 3vw, 2rem) auto;
+  padding: 1rem clamp(1rem, 3vw, 2rem);
+  border: 0.3rem double rgba(32, 37, 38, 0.5);
+  background: #f8f4ec;
+  text-align: center;
+}
+
+.field-page__centered-working-locality h4 {
+  margin: 0.5rem 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+}
+
+.field-page__little-station-continuity {
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border-top: 0.3rem double rgba(32, 37, 38, 0.42);
+  background: rgba(215, 204, 183, 0.34);
+}
+
+.field-page__little-station-continuity header {
+  text-align: center;
+}
+
+.field-page__little-station-continuity header p,
+.field-page__little-station-continuity header h3 {
+  margin: 0.35rem 0;
+}
+
+#name-appointmenting-continuity article {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 0.35rem solid #9a7836;
+  background: #fffdf8;
+}
+
+#name-appointmenting-continuity article strong {
+  grid-column: 1 / -1;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+
+.field-page__little-station-return-note {
+  margin: 1rem 0 0;
+  font-style: italic;
+}
+
 .field-page__shelving-arrows {
   display: flex;
   justify-content: center;
@@ -1405,15 +1564,109 @@
 }
 
 .field-page__menting-haus {
+  display: flex;
+  flex-direction: column;
   margin: clamp(1.2rem, 3vw, 2.2rem) clamp(1rem, 3vw, 2.5rem);
-  border: 0.3rem double rgba(32, 37, 38, 0.5);
-  background: rgba(238, 233, 223, 0.42);
+  border: 0;
+  background: transparent;
+}
+
+.field-page__menting-haus > .field-page__menting-haus-heading { order: 1; }
+.field-page__menting-haus > #mentinghaus-appointmenting-harbor-sign { order: 2; }
+.field-page__menting-haus > #inner-rail-before-little-station-01 { order: 3; }
+.field-page__menting-haus > #turn-zero-inner-rail { order: 4; }
+.field-page__menting-haus > #turn-zero-centered-working-emplacementing-locality { order: 5; }
+.field-page__menting-haus > #constitutioning-human-instrumentation { order: 6; }
+.field-page__menting-haus > #stewardly-captain-cob-consoling { order: 7; }
+.field-page__menting-haus > #stewarding-officer-conditioningmenting { order: 8; }
+.field-page__menting-haus > #turn-zero-for-offer { order: 9; }
+.field-page__menting-haus > #turn-zero-relationing-chassis { order: 10; }
+.field-page__menting-haus > #turn-zero-appointmenting-stateful-control { order: 11; }
+.field-page__menting-haus > #stewardly-captain-cob-wardrobe { order: 12; }
+
+.field-page__menting-haus > section,
+.field-page__menting-haus > nav,
+.field-page__menting-haus > header {
+  flex: 0 0 auto;
 }
 
 .field-page__menting-haus-heading {
   padding: clamp(2rem, 5vw, 4rem);
   border-bottom: 1px solid rgba(32, 37, 38, 0.3);
   text-align: center;
+}
+
+.field-page__menting-haus-heading > p {
+  margin: 0.8rem 0 0;
+  font: 800 0.75rem/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.field-page__menting-haus-heading h3 > span {
+  display: block;
+}
+
+.field-page__menting-haus-heading h3 > span:first-child {
+  font-size: clamp(0.95rem, 4vw, 3.25rem);
+  white-space: nowrap;
+}
+
+#observationingmintingmenting-annex-locality-sign,
+#mentinghaus-appointmenting-harbor-sign {
+  grid-template-columns: minmax(15rem, 35%) minmax(0, 1fr);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+#observationingmintingmenting-annex-locality-sign > *,
+#mentinghaus-appointmenting-harbor-sign > * {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+#observationingmintingmenting-annex-locality-sign .psm-oag__description,
+#mentinghaus-appointmenting-harbor-sign .psm-oag__description {
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+#observationingmintingmenting-annex-locality-sign .psm-oag__description p,
+#mentinghaus-appointmenting-harbor-sign .psm-oag__description p {
+  max-width: 100%;
+}
+
+.field-page__inner-rail-continuation {
+  position: relative;
+  min-height: clamp(5rem, 10vw, 8rem);
+  margin-inline: clamp(1rem, 5vw, 4rem);
+  background:
+    linear-gradient(90deg, transparent calc(50% - 0.6rem), var(--psm-steel) calc(50% - 0.6rem), var(--psm-steel) calc(50% - 0.42rem), transparent calc(50% - 0.42rem)),
+    linear-gradient(90deg, transparent calc(50% + 0.42rem), var(--psm-steel) calc(50% + 0.42rem), var(--psm-steel) calc(50% + 0.6rem), transparent calc(50% + 0.6rem));
+}
+
+.field-page__inner-rail-continuation > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.5rem 0.75rem;
+  background: var(--psm-paper-light);
+  font: 900 0.68rem/1.3 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.1em;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#turn-zero-appointmenting-stateful-control {
+  margin: 0 clamp(1.5rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem);
+}
+
+#turn-zero-appointmenting-stateful-control > button {
+  width: 100%;
 }
 
 .field-page__menting-haus-heading h3 {
@@ -2182,6 +2435,11 @@
 }
 
 @media (max-width: 48rem) {
+  #observationingmintingmenting-annex-locality-sign,
+  #mentinghaus-appointmenting-harbor-sign {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .field-page__sittinging-cabinets {
     grid-template-columns: 1fr;
   }
