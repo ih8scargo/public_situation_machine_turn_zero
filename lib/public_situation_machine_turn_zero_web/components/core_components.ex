@@ -87,7 +87,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       class="field-page__rail-wayfinding-card"
       aria-labelledby={"#{@id}-title"}
     >
-      <h3 id={"#{@id}-title"}>The Constitutional Furnishmenting Rail Line</h3>
+      <h3 id={"#{@id}-title"}>The Constitutional Furnishmenting Outer Rail Line</h3>
       <dl>
         <div>
           <strong>XT</strong>
@@ -304,13 +304,13 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
       <div class="field-page__leashing-instruments">
         <section class="field-page__instrument field-page__instrument--stand" aria-label="XT">
           <span class="field-page__artifact-relation">XT</span>
-          <span>Parkinging Stand Number</span>
+          <span>Parkinginging Stand Number</span>
           <strong id={@stand_id} data-value={@parkinging_stand}>{@parkinging_stand}</strong>
           <button
             type="button"
             data-copy={@parkinging_stand}
-            aria-label="Copy Parkinging Stand Number"
-            title="Copy Parkinging Stand Number"
+            aria-label="Copy Parkinginging Stand Number"
+            title="Copy Parkinginging Stand Number"
           >
             <.icon name="hero-document-duplicate" class="size-4" />
           </button>
@@ -345,7 +345,7 @@ defmodule PublicSituationMachineTurnZeroWeb.CoreComponents do
         <summary>Utility</summary>
         <div>
           <p>
-            This One Terrestrial Computer Free Parkinging Stand Number need not be kept secret.
+            This One Terrestrial Computer Free Parkinginging Stand Number need not be kept secret.
           </p>
           <p>This One Shackling Pin should be preserved in a Secret Some Place.</p>
         </div>

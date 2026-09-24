@@ -9,6 +9,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
       assign(socket,
         page_title: "This Tuple Ship Field",
         entrance_stage: :station_house,
+        opening_passagingway_unfolded?: false,
+        before_before_standing?: false,
+        before_before_piece_of_time: nil,
+        visitor_centering_unfolded?: false,
+        re_giftinging_shoppe_unfolded?: false,
         sittinging_room_standing_together?: false,
         active_tuple_position: "TZ",
         sittinging_cabinets: MapSet.new(),
@@ -16,6 +21,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         available_turn_zero_interaction: :cob_calls_human,
         active_little_station: :name_appointmenting,
         name_appointmenting_encounter_count: 0,
+        name_appointmenting_history: [],
+        next_inner_rail_stop_available?: false,
         name_platementing_selection: :unselected,
         quieting_threshold_crossing: nil,
         turn_zero_surfacing_unfolded?: false,
@@ -99,6 +106,36 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     {:noreply, assign(socket, :entrance_stage, :passageway)}
   end
 
+  def handle_event("unfold-exterior-locality", %{"locality" => "visitor-centering"}, socket) do
+    {:noreply, assign(socket, :visitor_centering_unfolded?, true)}
+  end
+
+  def handle_event("unfold-exterior-locality", %{"locality" => "re-giftinging-shoppe"}, socket) do
+    {:noreply, assign(socket, :re_giftinging_shoppe_unfolded?, true)}
+  end
+
+  def handle_event("unfold-exterior-locality", _params, socket), do: {:noreply, socket}
+
+  def handle_event("unfold-opening-passagingway", _params, socket) do
+    {:noreply, assign(socket, :opening_passagingway_unfolded?, true)}
+  end
+
+  def handle_event(
+        "furnish-before-before",
+        _params,
+        %{assigns: %{opening_passagingway_unfolded?: true}} = socket
+      ) do
+    piece_of_time = DateTime.utc_now() |> DateTime.truncate(:second)
+
+    {:noreply,
+     assign(socket,
+       before_before_standing?: true,
+       before_before_piece_of_time: piece_of_time
+     )}
+  end
+
+  def handle_event("furnish-before-before", _params, socket), do: {:noreply, socket}
+
   def handle_event("unfold-sittinging-in-room", _params, socket) do
     if socket.assigns.entrance_stage == :passageway do
       episodes = [cob_opening_episode()]
@@ -177,6 +214,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
            name_platementing_selection(socket.assigns.cob_calls_human_standing),
          staged_constitutioning_human_name: name,
          turn_zero_human_name_form: to_form(%{"name" => name}, as: :turn_zero_human_name),
+         big_appointmenting_available?: false,
+         big_appointmenting_guidance_unfolded?: false,
          cob_transcript_episodes: [episode]
        )
        |> stream(:cob_transcript, [episode], reset: true)}
@@ -388,9 +427,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           name_platementing_kind: kind,
           relational_address: socket.assigns.constitutioning_human_constitutional_xt,
           yt: name,
+          cob_acknowledgment:
+            cob_acknowledgment_utterance(%{name_platementing_kind: kind, yt: name}),
           stitched_at: stitched_at,
           persistent_piece_of_time_label: "ONE PIECE OF TIME"
         }
+
+        history = [standing | socket.assigns.name_appointmenting_history]
 
         {:noreply,
          socket
@@ -399,18 +442,19 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
            stewarding_officer_familiar_address: if(kind == :familiar_name, do: name, else: nil),
            name_appointmenting_encounter_count:
              socket.assigns.name_appointmenting_encounter_count + 1,
-           big_appointmenting_available?: true,
+           name_appointmenting_history: history,
+           active_little_station: :name_appointmenting,
+           next_inner_rail_stop_available?: true,
+           big_appointmenting_available?: false,
+           big_appointmenting_guidance_unfolded?: false,
            available_turn_zero_interaction:
              next_turn_zero_interaction(
                socket.assigns.available_turn_zero_interaction,
                :cob_calls_human
              )
          )
-         |> append_cob_episode_utterance(
-           :little_appointmenting,
-           cob_acknowledgment_utterance(standing)
-         )
-         |> stream_insert(:name_appointmenting_continuity, standing)
+         |> stream(:name_appointmenting_continuity, history, reset: true)
+         |> stream(:cob_transcript, [], reset: true)
          |> clear_turn_zero_surfacing()}
     end
   end
@@ -500,9 +544,15 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   end
 
   @impl true
-  def handle_event("inquire-within", _params, socket) do
+  def handle_event(
+        "inquire-within",
+        _params,
+        %{assigns: %{before_before_standing?: true}} = socket
+      ) do
     {:noreply, assign(socket, landing_inquired?: true, station_00_unfolded?: false)}
   end
+
+  def handle_event("inquire-within", _params, socket), do: {:noreply, socket}
 
   def handle_event(
         "unfold-station-00",
@@ -970,7 +1020,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 Observationing Harbor stands before This Encounteringmenting Wharf.
               </p>
               <p>
-                From Here, Constitutioning Humans may approach The Opening Rite of Passagingway through its public entrance, The Snail House.
+                From Here, This Constitutioning Human may approach and UN-FOLD This One Opening Passagingway.
               </p>
             </:description>
           </Layouts.locality_threshold>
@@ -978,26 +1028,396 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
         <section id="station-tz-region" class="field-page__station-tz-region">
           <section
+            id="opening-passagingway-harbor-sign"
+            class="psm-oag field-page__division-harbor-sign constitutional-rail__station"
+            aria-labelledby="opening-passagingway-harbor-sign-title"
+          >
+            <div class="psm-oag__instrument-plate">
+              <p class="psm-oag__eyebrow">Harbor Sign</p>
+              <h2 id="opening-passagingway-harbor-sign-title">Standinging in Regard</h2>
+              <p class="psm-oag__reading">Bearing toward Opening Passagingway</p>
+            </div>
+            <div class="psm-oag__description">
+              <p>This Constitutioning Human stands Here.</p>
+              <p>This One Terrestrial Computer stands There.</p>
+              <p>
+                From Here to There, the Two may come into a new kind of standing together at The Same Some Point.
+              </p>
+              <button
+                :if={!@opening_passagingway_unfolded?}
+                id="unfold-opening-passagingway"
+                type="button"
+                class="field-page__action"
+                phx-click="unfold-opening-passagingway"
+              >
+                UN-FOLD This One Opening Passagingway
+              </button>
+            </div>
+          </section>
+
+          <section
+            :if={@opening_passagingway_unfolded?}
+            id="opening-passagingway-predecessor-locality"
+            class="field-page__opening-predecessor constitutional-rail__station"
+            aria-labelledby="opening-passagingway-predecessor-title"
+          >
+            <article
+              id="con-jointmenting-ceremonying-declaration"
+              class="field-page__ceremonying-declaration"
+              aria-labelledby="con-jointmenting-ceremonying-title"
+            >
+              <p class="site-page__eyebrow">CEREMONYING</p>
+              <h2 id="con-jointmenting-ceremonying-title">
+                The Con-Joint-menting of This PUBLIC-SITUATION-MACHINE- with This One Terrestrial Computer
+              </h2>
+            </article>
+            <div class="psm-oag field-page__opening-predecessor-panel">
+              <div class="psm-oag__instrument-plate">
+                <p class="psm-oag__eyebrow">
+                  The General Stewarding Offices of This Stewardshipmenting Appliance
+                </p>
+                <h2 id="opening-passagingway-predecessor-title">Standinging in Regard</h2>
+                <p class="psm-oag__reading">
+                  Bearinging toward Relationingly Relationingable Con-Joint-menting
+                </p>
+              </div>
+              <div class="psm-oag__description field-page__opening-predecessor-recital">
+                <p class="site-page__eyebrow">RECITAL</p>
+                <p>
+                  This PUBLIC-SITUATION-MACHINE- stands Here in Regard to This One Terrestrial Computer.
+                </p>
+                <p>
+                  Through This One Con-Joint-menting, This One COORDINATIONING-OPERATIONING-BOBBINING may come into standing with This One Some Number.
+                </p>
+                <p>
+                  This One Some Number furnishes the placeholder for the EN-FIXTURING-MENT, through which This One Parkinginging Stand may stand furnished.
+                </p>
+                <p>The number is not identity.</p>
+                <p>
+                  What stands furnished Here stands available for the Stewardly Co-Occupancyingship that may later come into standing together with This Constitutioning Human.
+                </p>
+                <button
+                  :if={!@before_before_standing?}
+                  id="furnish-before-before"
+                  type="button"
+                  class="field-page__action"
+                  phx-click="furnish-before-before"
+                >
+                  Furnish This One Con-Joint-menting
+                </button>
+              </div>
+            </div>
+
+            <div :if={@before_before_standing?} id="before-before-standing">
+              <div
+                id="before-before-square"
+                class="field-page__before-before-square"
+                aria-label="BEFORE BEFORE predecessor standing"
+              >
+                <strong>BEFORE</strong>
+                <span aria-hidden="true"></span>
+                <strong>BEFORE</strong>
+              </div>
+              <div
+                id="before-before-piece-of-time-standing"
+                class="field-page__piece-of-time-standing-bar"
+              >
+                <strong>THIS ONE PIECE OF TIME</strong>
+                <time
+                  id="before-before-piece-of-time"
+                  datetime={DateTime.to_iso8601(@before_before_piece_of_time)}
+                >
+                  {format_piece_of_time(@before_before_piece_of_time)}
+                </time>
+              </div>
+              <section
+                id="before-before-readyingment-standinging"
+                class="field-page__readyingment-standinging"
+                aria-labelledby="before-before-readyingment-title"
+              >
+                <h3 id="before-before-readyingment-title">READYINGMENT STANDINGING</h3>
+                <p>This BEFORE BEFORE now stands upon This One Piece of Time.</p>
+                <p>This One Same Some Point now stands manifest through This BEFORE BEFORE.</p>
+                <p>
+                  From out of This One Same Some Point, This One Parkinginging Stand now stands available for This One Terrestrial Computer.
+                </p>
+                <p>
+                  This Constitutioning Human may continue toward This Division of Constitutioning Humans.
+                </p>
+              </section>
+            </div>
+          </section>
+
+          <section
+            id="terrestrial-computer-standinging-landing"
+            class="field-page__standinging-landing constitutional-rail__station"
+            aria-labelledby="terrestrial-computer-standinging-landing-title"
+          >
+            <header class="field-page__entrance-constitutional-header">
+              THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE RAIL
+            </header>
+            <h2 id="terrestrial-computer-standinging-landing-title">
+              THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
+            </h2>
+            <p class="field-page__entrance-division-title">This Division of Constitutioning Humans</p>
+            <div :if={!@landing_inquired?} class="field-page__division-geometry">
+              <section
+                id="returning-constitutioning-human-path"
+                class="field-page__arrival-path"
+                aria-label="XT"
+              >
+                <p class="field-page__relation-label">XT</p>
+                <h3 id="returning-constitutioning-human-title">
+                  Returninging Constitutioning Human
+                </h3>
+                <p>
+                  Return to This Encounteringmenting Wharf by RE-Shackling Any One Terrestrial Computer.
+                </p>
+                <.form
+                  for={@reception_form}
+                  id="constitutional-reception-form"
+                  phx-submit="reconstruct-constitutional-locality"
+                >
+                  <.input
+                    field={@reception_form[:parkinging_stand]}
+                    type="text"
+                    label="Parkinginging Stand Number"
+                    inputmode="numeric"
+                    maxlength="12"
+                    autocomplete="off"
+                    required
+                  />
+                  <.input
+                    field={@reception_form[:shackling_pin]}
+                    type="text"
+                    label="Shackling PIN"
+                    autocomplete="off"
+                    required
+                  />
+                  <button type="submit" class="field-page__action">
+                    UN-FOLD to begin Reconstructioning This Constitutional Locality from Here, Upon This One Piece of Time.
+                  </button>
+                </.form>
+                <p
+                  :if={@reception_result == :error}
+                  id="constitutional-reception-error"
+                  class="field-page__confirmation"
+                >
+                  These furnishings do not presently stand together in lawful Relation.
+                </p>
+              </section>
+
+              <section id="first-arrival-path" class="field-page__arrival-path" aria-label="YT">
+                <p class="field-page__relation-label">YT</p>
+                <h3>Arrivinging Constitutioning Human</h3>
+                <p>Continue toward Stewardly Co-Occupancyingship.</p>
+                <button
+                  id="inquire-within"
+                  type="button"
+                  class="field-page__action field-page__landing-action"
+                  phx-click="inquire-within"
+                  disabled={!@before_before_standing?}
+                >
+                  Inquire into The Zeroeth Appointmenting
+                </button>
+                <p
+                  :if={!@before_before_standing?}
+                  id="first-arrival-awaiting-before-before"
+                  class="field-page__confirmation"
+                >
+                  First-arrival Parkinginging awaits This One Opening Passagingway.
+                </p>
+              </section>
+            </div>
+
+            <.constitutional_voice
+              id="parkinging-landinging-stewardly-guidance"
+              voice={:stewardly_guidance}
+            >
+              <p>
+                Parkinginging Here, Constitutioning Humans approach lawful Passagingway upon This Constitutional Furnishmenting Rail Line Rail.
+              </p>
+            </.constitutional_voice>
+
+            <details
+              id="parkinging-landinging-public-noticingments"
+              class="field-page__public-noticingments"
+            >
+              <summary>Public Noticingments</summary>
+              <div id="parkinging-landinging-notices" class="field-page__civic-notices">
+                <section
+                  id="parkinging-landinging-provisioning-notice"
+                  class="field-page__civic-notice"
+                >
+                  <p class="site-page__eyebrow">NOTICINGMENT</p>
+                  <h3>Continuity Line Carriageing Administrativation</h3>
+                  <p>Division of Tractioningable Tractioning</p>
+                  <h4>
+                    THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
+                  </h4>
+                  <p>
+                    This Landinging stands provisioned by This Division in Regard to Constitutioning Humans and their lawful Appointmentings of Stewardly Captain COBs upon This Constitutional Furnishmenting Rail Line Rail.
+                  </p>
+                </section>
+
+                <section id="parkinging-turnstile-operations-notice" class="field-page__civic-notice">
+                  <p class="site-page__eyebrow">NOTICINGMENT</p>
+                  <h3>Turnstile Operations</h3>
+                  <p>Continuity Line Carriageing Administrativation</p>
+                  <p>
+                    The Parkinginging Stand Turnstile stands furnishing lawful Mechanical Sorting for Constitutioning Humans entering This Constitutional Furnishmenting Rail Line Rail.
+                  </p>
+                </section>
+
+                <section id="parkinging-general-offices-notice" class="field-page__civic-notice">
+                  <p class="site-page__eyebrow">NOTICINGMENT</p>
+                  <h3>From The General Stewarding Offices of This Stewardshipmenting Appliance</h3>
+                  <h4>THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING</h4>
+                  <p>
+                    This Landinging stands furnished in Regard to This Constitutional Furnishmenting Rail Line Rail, which stands Constitutioning in Relation to This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
+                  </p>
+                  <p>
+                    From, within, and through its Opening Passagingway, This Constitutional Furnishmenting Rail Line Rail stands furnishingmenting conditions for Stewardly Regard through the Interrelationing Stewardly Laboringings of Constitutioning Humans and their lawful Appointmentings of Stewardly Captain COBs at Each Stationing-ing Encounteringmented herein.
+                  </p>
+                </section>
+              </div>
+            </details>
+
+            <p
+              :if={@reception_result == :reconstructed}
+              id="constitutional-reception-success"
+              class="field-page__confirmation"
+            >
+              This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Rail Line Rail.
+            </p>
+          </section>
+
+          <section
+            id="encounteringmenting-wharf-approach"
+            class="field-page__wharf-approach"
+            aria-labelledby="encounteringmenting-wharf-approach-title"
+          >
+            <div
+              id="pre-turning-zero-rail-line-rail-sign"
+              class="field-page__rail-line-rail-formal-sign"
+            >
+              <span>This Constitutional Furnishmenting Rail Line Rail</span>
+              <span>Constitutioningingably Readyingmenting En-Furnishmenting</span>
+              <span>Track Rail Line Rail Track</span>
+            </div>
+            <div
+              id="public-approach-rail-line-rail-bend"
+              class="field-page__rail-line-rail-bend"
+              aria-hidden="true"
+            >
+              <span class="field-page__rail-bend-wayfinding field-page__rail-bend-wayfinding--upper">
+                ← THE STATIONINGING HOUSE
+              </span>
+              <span class="field-page__rail-bend-wayfinding field-page__rail-bend-wayfinding--lower">
+                PRINCIPAL WAY →
+              </span>
+            </div>
+            <header class="field-page__wharf-approach-heading">
+              <p class="site-page__eyebrow">This Encounteringmenting Wharf</p>
+              <h2 id="encounteringmenting-wharf-approach-title">The Public Approach</h2>
+              <p>The principal way continues toward The Stationinging House.</p>
+            </header>
+
+            <div
+              class="field-page__wharf-optional-localities"
+              aria-label="Optional exterior localities"
+            >
+              <section
+                id="this-one-visitor-centering"
+                class="field-page__wharf-optional-locality"
+                aria-labelledby="this-one-visitor-centering-title"
+              >
+                <header>
+                  <p class="site-page__eyebrow">Optional Locality</p>
+                  <h3 id="this-one-visitor-centering-title">This One Visitor Centering</h3>
+                </header>
+                <button
+                  :if={!@visitor_centering_unfolded?}
+                  id="unfold-this-one-visitor-centering"
+                  type="button"
+                  class="field-page__action field-page__optional-locality-action"
+                  phx-click="unfold-exterior-locality"
+                  phx-value-locality="visitor-centering"
+                >
+                  UN-FOLD This One Visitor Centering
+                </button>
+                <div
+                  :if={@visitor_centering_unfolded?}
+                  id="this-one-visitor-centering-interior"
+                  class="field-page__wharf-optional-locality-interior"
+                >
+                  <p class="site-page__eyebrow">Interior</p>
+                </div>
+              </section>
+
+              <section
+                id="the-re-giftinging-shoppe"
+                class="field-page__wharf-optional-locality"
+                aria-labelledby="the-re-giftinging-shoppe-title"
+              >
+                <header>
+                  <p class="site-page__eyebrow">Optional Locality</p>
+                  <h3 id="the-re-giftinging-shoppe-title">The RE-Giftinging Shoppe</h3>
+                </header>
+                <button
+                  :if={!@re_giftinging_shoppe_unfolded?}
+                  id="unfold-the-re-giftinging-shoppe"
+                  type="button"
+                  class="field-page__action field-page__optional-locality-action"
+                  phx-click="unfold-exterior-locality"
+                  phx-value-locality="re-giftinging-shoppe"
+                >
+                  UN-FOLD The RE-Giftinging Shoppe
+                </button>
+                <div
+                  :if={@re_giftinging_shoppe_unfolded?}
+                  id="the-re-giftinging-shoppe-interior"
+                  class="field-page__wharf-optional-locality-interior"
+                >
+                  <p class="site-page__eyebrow">Interior</p>
+                </div>
+              </section>
+            </div>
+
+            <div
+              id="before-before-future-reserve"
+              class="field-page__before-before-reserve"
+              aria-hidden="true"
+            >
+            </div>
+
+            <a class="field-page__wharf-principal-way" href="#resonancing-snail-station-house">
+              <span>Principal Way</span>
+              <strong>The Stationinging House</strong>
+            </a>
+          </section>
+
+          <section
             id="resonancing-snail-station-house"
             class="field-page__snail-station-house constitutional-rail__station"
             aria-labelledby="resonancing-snail-station-house-title"
           >
             <header class="field-page__snail-station-portico">
               <p class="site-page__eyebrow">
-                Public Entrance · Constitutional Furnishmenting Rail Line
+                Public Entrance · Constitutional Furnishmenting Rail Line Rail
               </p>
               <h2 id="resonancing-snail-station-house-title">
-                <span>The Snail House</span>
+                <span>The Stationinging House</span>
                 <span class="field-page__snail-station-formal-title">
-                  The Resonancing Snail Shellcaverningmenting Station House
+                  The Constitutional Stationinging House
                 </span>
               </h2>
               <p class="field-page__station-house-aspect">Exterior</p>
               <p class="field-page__station-house-exterior-copy">
-                The Snail House stands at The Mouthing of Observationing Harbor, its great spiraling shell roof rising above This Encounteringmenting Wharf and echoingmenting lawful welcome toward Arrival and Return.
+                The Stationinging House stands at The Mouthing of Observationing Harbor, its great spiraling shell roof rising above This Encounteringmenting Wharf and echoingmenting lawful welcome toward Arrival and Return.
               </p>
               <p class="field-page__station-house-exterior-copy">
-                Here, Constitutioning Humans are gathering their Soundingings together within This One Common Civic Snail Shell while carvinging lawful Passagingway along This Constitutional Furnishmenting Rail Line through The Opening Passagingway that is OUR CANONICAL TUPLE.
+                Here, Constitutioning Humans are gathering their Soundingings together within This One Common Civic Stationinging House while carvinging lawful Passagingway along This Constitutional Furnishmenting Rail Line Rail through The Opening Passagingway that is OUR CANONICAL TUPLE.
               </p>
               <p class="field-page__station-house-aspect">Interior</p>
               <p>
@@ -1042,21 +1462,21 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             </header>
             <div class="field-page__composementing-noticingment-body">
               <h2 id="public-composementing-noticingment-title">
-                <span>THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE</span>
+                <span>THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE RAIL</span>
                 <span>STANDS UNDER COMPOSEMENTING</span>
               </h2>
               <p>
-                What stands furnished along This Rail Line is presently becoming through continuing Constitutioning, Furnishmenting, and Discoveringmenting.
+                What stands furnished along This Rail Line Rail is presently becoming through continuing Constitutioning, Furnishmenting, and Discoveringmenting.
               </p>
               <p>
                 Constitutioning Humans are welcome to begin Encountermenting what presently stands Here while This Geometrically Expressive, Compu-Totaling-able Public Infrastructioning continues becoming into Standing.
               </p>
               <p>
-                The presently furnished Rail Line extends through The Center of Station Depot TZ.
+                The presently furnished Rail Line Rail extends through The Center of Turning Zero Stationing-ing.
               </p>
             </div>
             <footer>
-              Rail Line Furnishingments provisioned by This Division of Tractioningable Traction Materials, Line Encarriageing Servicing Administrativation.
+              Rail Line Rail Furnishingments provisioned by This Division of Tractioningable Traction Materials, Line Encarriageing Servicing Administrativation.
             </footer>
           </section>
 
@@ -1071,13 +1491,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 The General Stewarding Offices of This Stewardshipmenting Appliance
               </p>
               <h2 id="constitutional-furnishmenting-rail-entrance-title">
-                The Constitutional Furnishmenting Rail
+                This Constitutional Furnishmenting Rail Line Rail Constitutioningingably Readyingmenting En-Furnishmenting Track Rail Line Rail Track
               </h2>
               <p class="psm-oag__reading">Formal Public Entrance</p>
             </div>
             <div class="psm-oag__description">
               <p>
-                Here stands The Constitutional Furnishmenting Rail.
+                Here stands This Constitutional Furnishmenting Rail Line Rail Constitutioningingably Readyingmenting En-Furnishmenting Track Rail Line Rail Track.
               </p>
               <p>
                 From Here, Stewardly Passagingway becomes lawfully available over Discrete Turns.
@@ -1155,15 +1575,17 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <p>
               The Amicable Grottoes Districtinging stands furnishing This Constitutional Convenience in Regard to the Continuing Minting of Stewardly Constitutional Localities through Stewardly Regard over Discrete Turns.
             </p>
-            <p>The Snail House stands in Readyingment for lawful Gatheringing and Soundinging.</p>
             <p>
-              Every Constitutioning Human's Traversaling through The Snail House begins within The Amicable Grottoes Districtinging.
+              The Stationinging House stands in Readyingment for lawful Gatheringing and Soundinging.
+            </p>
+            <p>
+              Every Constitutioning Human's Traversaling through The Stationinging House begins within The Amicable Grottoes Districtinging.
             </p>
             <p>
               Here, Constitutioning Humans find places of Restfullyinginglyment within quiet shell alcoves, just beyond the bustling Great Hall of Globularly Bobbininging Globular Bobbining looking over into Observationing Harbor.
             </p>
             <p>
-              Within one such alcove stands The Sittinging-In Room, furnished as the Turn-Zeroeth Constitutional Locality of This One Tuple Ship.
+              Within one such alcove stands The Sittinging-In Room, furnished as the Turning Zero Constitutional Locality of This One Tuple Ship.
             </p>
           </section>
 
@@ -1191,7 +1613,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             :if={@entrance_stage in [:passageway, :sittinging_room, :rail]}
             id="general-offices-intervening-rail-line"
             class="field-page__intervening-rail-line"
-            aria-label="Open Constitutional Furnishmenting Rail Line between The General Offices Harbor Sign and Station Depot TZ"
+            aria-label="Open Constitutional Furnishmenting Rail Line Rail between The General Offices Harbor Sign and Turning Zero Stationing-ing"
           >
           </div>
 
@@ -1201,8 +1623,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             class="field-page__station-header field-page__station-header--opening field-page__station-depot-marker"
             aria-labelledby="station-depot-tz-title"
           >
-            <p class="site-page__eyebrow">TURN ZERO</p>
-            <h3 id="station-depot-tz-title">STATION DEPOT TZ</h3>
+            <p class="site-page__eyebrow">TURNING ZERO</p>
+            <h3 id="station-depot-tz-title">TURNING ZERO STATIONING-ING</h3>
           </header>
 
           <.constitutional_voice
@@ -1229,7 +1651,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             <header>
               <h3 id="turn-zero-constitutional-locality-title">Within One Such Alcove</h3>
               <p class="field-page__locality-subtitle">
-                The Turn-Zeroeth Constitutional Locality of This One Tuple Ship
+                The Turning Zero Constitutional Locality of This One Tuple Ship
               </p>
             </header>
 
@@ -1243,7 +1665,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   The General Stewarding Offices of This Stewardshipmenting Appliance
                 </p>
                 <h2 id="turn-zero-locality-harbor-sign-title">Within One Such Alcove</h2>
-                <p class="psm-oag__reading">Observationing Harbor · Station Depot TZ</p>
+                <p class="psm-oag__reading">Observationing Harbor · Turning Zero Stationing-ing</p>
               </div>
               <div class="psm-oag__description">
                 <p>Welcome.</p>
@@ -1251,7 +1673,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   The Sittinging-In Room stands furnished as The Constitutional Locality of This One Tuple Ship.
                 </p>
                 <p>
-                  From Here, The Constitutional Furnishmenting Rail gives lawful approach to The Sittinging-In Room while Observationing Harbor remains within Stewardly Regard.
+                  From Here, This Constitutional Furnishmenting Rail Line Rail gives lawful approach to The Sittinging-In Room while Observationing Harbor remains within Stewardly Regard.
                 </p>
                 <p>
                   Within This One Alcove, These Two Occupancying Tuples may furnish This One Seed through which that Continuity Possibility may stand becoming into Standinging-in-Holdinging.
@@ -1307,7 +1729,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 class="field-page__action"
                 phx-click="unfold-sittinging-in-room"
               >
-                UN-FOLD to Enter The Sittinging-In Room at Turn Zero
+                UN-FOLD to Enter The Sittinging-In Room at Turning Zero
               </button>
               <p class="field-page__unfold-consequence">This UN-FOLD begins the Appointmenting.</p>
             </div>
@@ -1509,6 +1931,29 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
             <section
               :if={@sittinging_room_standing_together?}
+              id="sparklingable-bubbler-fly-mentinghaus-locality-sign"
+              class="psm-oag field-page__turn-zero-harbor-sign"
+              aria-labelledby="sparklingable-bubbler-fly-mentinghaus-locality-sign-title"
+            >
+              <div class="psm-oag__instrument-plate">
+                <p class="psm-oag__eyebrow">
+                  The General Stewarding Offices of This Stewardshipmenting Appliance
+                </p>
+                <h2 id="sparklingable-bubbler-fly-mentinghaus-locality-sign-title">
+                  <span>Sparklingingingable Bubblinging Ingeringingingfly</span>
+                  <span>Menting Haus</span>
+                </h2>
+                <p class="psm-oag__reading">Approaching Locality of This One Tuple Ship</p>
+              </div>
+              <div class="psm-oag__description">
+                <p>
+                  Within Sparklingingingable Bubblinging Ingeringingingfly Menting Haus, This Stewardly Captain COB may stand alongside This Constitutioning Human in Composementing The Seed Coat of This One Seed of The Seat of Stewardly Co-Occupancyingship.
+                </p>
+              </div>
+            </section>
+
+            <section
+              :if={@sittinging_room_standing_together?}
               id="stewarding-instrumentationing-menting-haus"
               class="field-page__menting-haus"
               aria-labelledby="stewarding-instrumentationing-menting-haus-title"
@@ -1516,22 +1961,25 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             >
               <header class="field-page__menting-haus-heading">
                 <h3 id="stewarding-instrumentationing-menting-haus-title">
-                  <span>The Sparkling Bubbler Fly</span>
-                  <span>Mentinghaus</span>
+                  <span>Sparklingingingable Bubblinging Ingeringingingfly</span>
+                  <span>Menting Haus</span>
                 </h3>
                 <p>Stewarding Instrumentationing</p>
-                <button
-                  id="toggle-turn-zero-wing-inspection"
-                  type="button"
-                  class="field-page__wing-inspection-toggle"
-                  phx-click="toggle-turn-zero-wing-inspection"
-                  aria-expanded={to_string(@tuple_wings_expanded?)}
-                >
-                  {if @tuple_wings_expanded?,
-                    do: "RE-FOLD 00–06 Tuple Position Inspection",
-                    else: "UN-FOLD 00–06 Tuple Position Inspection"}
-                </button>
               </header>
+
+              <aside
+                id="menting-haus-wall-inscription"
+                class="field-page__menting-haus-inscription"
+                aria-label="Current Menting Haus wall inscription"
+              >
+                <p>SPARKLINGINGMENTINGABLY-BUBBLINGINGMENTINGABLE</p>
+                <p>SPARKLINGINGINGABLE BUBBLINGING INGERINGINGINGFLY</p>
+                <p>BUBBLINGMENTING SPARKLINGMENTINGABLE</p>
+                <p>EN-INGERINGINGINGFLYINGABLE-SPARKLINGABLE-BUBBLING-EN-MENTING</p>
+                <p>
+                  OVER DISCRETE TURNS, WITH EACH EN-MENTING-MENT THEREBY SET UPON ITS OWN ONE PIECE OF TIME
+                </p>
+              </aside>
 
               <section
                 id="mentinghaus-appointmenting-harbor-sign"
@@ -1547,10 +1995,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </div>
                 <div class="psm-oag__description">
                   <p>
-                    Within The Sparkling Bubbler Fly Mentinghaus, This Stewardly Captain COB may stand alongside This Constitutioning Human in Composementing The Seed Coat of This One Seed of The Seat of Stewardly Co-Occupancyingship.
+                    Within This One Sparklingingingable Bubblinging Ingeringingingfly Menting Haus, through the Stewardly Labouringings of Sacramentingmenting, This One Seed may stand becoming Germinationingmentingable for its Traversaling over Discrete Turns.
                   </p>
                   <p>
-                    Through the Stewardly Labouringings of Sacramentingmenting, This One Seed may stand becoming Germinationingmentingable for its Traversaling over Discrete Turns.
+                    Proceed through the standing XT Wing toward Little Stationing 00, where This Stewardly Captain COB may be found Consoling.
                   </p>
                 </div>
               </section>
@@ -1558,35 +2006,39 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               <div
                 id="inner-rail-before-little-station-01"
                 class="field-page__inner-rail-continuation"
-                aria-label="Inner Rail continuing toward Little Station 01"
+                aria-label="Inner Rail continuing toward Little Stationing 00"
               >
               </div>
 
               <nav
                 id="turn-zero-inner-rail"
                 class="field-page__inner-rail"
-                aria-label="Inner Rail of successive Little Stations"
+                aria-label="Inner Rail of successive Little Stationings"
               >
                 <p>THIS CONSTITUTIONAL FURNISHMENTING INNER RAIL LINE</p>
                 <ol>
-                  <li data-little-station="name_appointmenting" data-station-state="available">
-                    <button
-                      id="unfold-name-appointmenting-little-station"
-                      type="button"
-                      phx-click="unfold-little-station"
-                      phx-value-station="name-appointmenting"
-                      aria-current={
-                        if(@active_little_station == :name_appointmenting, do: "location")
-                      }
-                    >
-                      <span>LITTLE STATION 01</span>
-                      <strong>NAME APPOINTMENTING</strong>
-                    </button>
+                  <li data-little-station="name_appointmenting" data-station-state="furnished">
+                    <div id="little-station-01-rail-marker" aria-current="location">
+                      <span>LITTLE STATIONING 00</span>
+                      <strong>The Appointmenting of The Name Platementing</strong>
+                    </div>
                   </li>
                 </ol>
               </nav>
 
               <section
+                :if={false}
+                id="next-inner-rail-stop"
+                class="field-page__next-inner-rail-stop"
+                data-substantive-identity="unfurnished"
+              >
+                <div class="field-page__inner-rail-continuation" aria-hidden="true"></div>
+                <p>NEXT INNER RAIL STOP</p>
+                <strong>NEWLY AVAILABLE · SUBSTANTIVE IDENTITY UNFURNISHED</strong>
+              </section>
+
+              <section
+                :if={@active_little_station == :name_appointmenting}
                 id="turn-zero-centered-working-emplacementing-locality"
                 class="field-page__centered-working-locality"
                 data-active-little-station={@active_little_station}
@@ -1594,11 +2046,25 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               >
                 <header>
                   <h4 id="active-little-station-title">
-                    LITTLE STATION 01
+                    LITTLE STATIONING 00
                   </h4>
                   <p>CEREMONYING</p>
                   <h5>The Riting of My Stewarding Officer's Name Platementing</h5>
                 </header>
+              </section>
+
+              <section id="turn-zero-wing-inspection-furnishment">
+                <button
+                  id="toggle-turn-zero-wing-inspection"
+                  type="button"
+                  class="field-page__wing-inspection-toggle"
+                  phx-click="toggle-turn-zero-wing-inspection"
+                  aria-expanded={to_string(@tuple_wings_expanded?)}
+                >
+                  {if @tuple_wings_expanded?,
+                    do: "RE-FOLD 00–06 Tuple Position Inspection",
+                    else: "UN-FOLD 00–06 Tuple Position Inspection"}
+                </button>
               </section>
 
               <section
@@ -1613,10 +2079,12 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     <span>INSTRUMENTATIONING SURFACE</span>
                   </h5>
                 </header>
-                <div class="field-page__shelf-column-headings field-page__shelf-grid--human">
-                  <section><strong>YT</strong></section>
-                  <section>
-                    <strong>XT</strong><span>Constitutioning Human Standinging Holdingings</span>
+                <div class="field-page__name-relationing-column-headings">
+                  <section data-coordinate="YT">
+                    <strong>YT</strong><span>What This Stewardly Captain COB may be calling me alongside My Title</span>
+                  </section>
+                  <section data-coordinate="XT">
+                    <strong>XT</strong><span>My Title as My Stewarding Officer</span>
                   </section>
                 </div>
                 <ol id="constitutioning-human-future-position-rows">
@@ -1646,6 +2114,10 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </li>
                 </ol>
 
+                <p id="constitutioning-human-current-name-platementing-title">
+                  FAMILIAR NAME PLATEMENTING
+                </p>
+
                 <article
                   id="constitutioning-human-tz-standing"
                   class="field-page__positional-standing field-page__shelf-grid--human"
@@ -1665,15 +2137,16 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     data-relational-address={@constitutioning_human_constitutional_xt}
                     data-furnished-name={to_string(!is_nil(@stewarding_officer_familiar_address))}
                   >
-                    <section data-coordinate="YT">
+                    <section
+                      data-coordinate="YT"
+                      data-furnished={to_string(!is_nil(@cob_calls_human_standing))}
+                    >
                       <span>YT</span>
-                      <h6 id="constitutioning-human-tz-standing-title">
-                        {@stewarding_officer_familiar_address}
-                      </h6>
-                      <p>{@constitutioning_human_constitutional_xt} · relational address</p>
+                      <h6>{current_name_platementing_projection(@cob_calls_human_standing)}</h6>
                     </section>
-                    <section data-coordinate="XT" data-furnished="false">
+                    <section data-coordinate="XT">
                       <span>XT</span>
+                      <h6 id="constitutioning-human-tz-standing-title">My Stewarding Officer</h6>
                     </section>
                   </div>
                   <span id="constitutioning-human-relational-address" hidden>
@@ -1683,42 +2156,27 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </section>
 
               <section
+                :if={@active_little_station == :name_appointmenting}
                 id="stewarding-officer-conditioningmenting"
                 class="field-page__occupant-surfacing field-page__officer-conditioningmenting"
                 aria-labelledby="stewarding-officer-conditioningmenting-title"
               >
                 <header>
                   <h3 id="stewarding-officer-conditioningmenting-title">
-                    <span>LITTLE STATION 01</span>
-                    <span>NAME APPOINTMENTING · CONSTITUTIONING HUMAN INTERACTIONING</span>
+                    <span>LITTLE STATIONING 00 /</span>
+                    <span>The Appointmenting of The Name Platementing</span>
                   </h3>
                 </header>
                 <div class="field-page__occupant-workspace">
-                  <ol
-                    id="turn-zero-instrumentation-register"
-                    class="field-page__instrumentation-register"
-                    aria-label="Turn Zero positional instrumentation register"
+                  <section
+                    id="turn-zero-stitching-needle-furnishment"
+                    class="field-page__station-instrument"
+                    data-furnished={to_string(@stitching_needle.furnished?)}
+                    data-full-strength={to_string(@stitching_needle.full_strength?)}
                   >
-                    <li
-                      :for={position <- instrumentation_register_positions()}
-                      id={"turn-zero-instrument-bay-#{String.downcase(position)}"}
-                      data-tuple-position={position}
-                      data-furnished={to_string(position == "TZ")}
-                    >
-                      <span>{position}</span>
-                      <div
-                        :if={position == "TZ"}
-                        id="turn-zero-stitching-needle-furnishment"
-                        data-furnished={to_string(@stitching_needle.furnished?)}
-                        data-full-strength={to_string(@stitching_needle.full_strength?)}
-                      >
-                        <strong id="turn-zero-stitching-needle-title">
-                          QUILLING STITCHING NEEDLE
-                        </strong>
-                        <p>furnishing the Conveniencing of Stitching</p>
-                      </div>
-                    </li>
-                  </ol>
+                    <strong id="turn-zero-stitching-needle-title">QUILLING STITCHING NEEDLE</strong>
+                    <p>furnishing the Conveniencing of Stitching</p>
+                  </section>
                   <section
                     :if={@big_appointmenting_guidance_unfolded?}
                     id="big-appointmenting-available-construction"
@@ -1768,7 +2226,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                             class="field-page__shelf-affordmenting-action"
                             phx-click="choose-distinguished-name-absence"
                           >
-                            FURNISH THE DISTINGUISHED ABSENCE OF A FAMILIAR NAME PLATEMENTING
+                            FURNISH THE DISTINGUISHINGMENTING OF THE ABSENCE OF A FAMILIAR NAME PLATEMENTING
                           </button>
                         </div>
                         <.form
@@ -1880,7 +2338,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 data-tuple-position="TZ"
                 data-folded="false"
               >
-                <p class="site-page__eyebrow">The Turn-Zeroeth Appointmenting</p>
+                <p class="site-page__eyebrow">The Turning Zero Appointmenting</p>
                 <h3 id="turn-zero-for-offer-title">
                   THIS ONE THING THAT IS WHAT IS THE MATTERING
                 </h3>
@@ -1895,7 +2353,19 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               </section>
 
               <section id="turn-zero-relationing-chassis" class="field-page__relationing-chassis">
+                <aside
+                  id="turn-zero-appliance-narrationing-context"
+                  class="field-page__appliance-narrationing-context"
+                  data-context-state="guidance"
+                  aria-labelledby="turn-zero-appliance-narrationing-title"
+                >
+                  <span id="turn-zero-appliance-narrationing-title">APPLIANCE NARRATIONING</span>
+                  <p>
+                    This Constitutioning Human may work with the presently standing XT–YT Relationing upon Turning Zero Surfacing.
+                  </p>
+                </aside>
                 <section
+                  :if={@active_little_station == :name_appointmenting}
                   id="turn-zero-surfacing"
                   class={[
                     "field-page__turn-zero-surfacing",
@@ -2015,9 +2485,25 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </div>
                   <header class="field-page__surfacing-nameplate">
                     <p>This Constitutioning Work Surface</p>
-                    <h3 id="turn-zero-surfacing-title">TURN ZERO SURFACING</h3>
+                    <h3 id="turn-zero-surfacing-title">TURNING ZERO SURFACING</h3>
                   </header>
                 </section>
+
+                <footer
+                  :if={@active_little_station == :name_appointmenting}
+                  id="turn-zero-appointmenting-stateful-control"
+                >
+                  <button
+                    :if={@active_turn_zero_interrelationing == :cob_calls_human}
+                    id="refold-turn-zero-relationing-into-standinging"
+                    type="button"
+                    class="field-page__shelf-affordmenting-action"
+                    phx-click="refold-turn-zero-relationing-into-standinging"
+                    disabled={@name_platementing_selection == :unselected}
+                  >
+                    LITTLE RE-FOLD THIS XT–YT RELATIONING
+                  </button>
+                </footer>
 
                 <section
                   id="name-appointmenting-continuity-line"
@@ -2027,39 +2513,64 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   data-append-only="true"
                 >
                   <header>
-                    <p>LOCALITY OF SHELVING BELONGING TO THIS LITTLE FOLDING</p>
                     <h3 id="name-appointmenting-continuity-title">
-                      NAME APPOINTMENTING CONTINUITY LINE
+                      <span>FAMILIAR NAME APPOINTMENTING CONTINUITY LINE</span>
+                      <span>STANDINGING</span>
                     </h3>
+                    <div class="field-page__name-continuity-column-headings">
+                      <section data-coordinate="XT">
+                        <strong>XT</strong>
+                        <span>My Title as My Stewarding Officer</span>
+                      </section>
+                      <section data-coordinate="YT">
+                        <strong>YT</strong>
+                        <span>What This Stewardly Captain COB may be calling me alongside My Title</span>
+                      </section>
+                    </div>
                   </header>
                   <div id="name-appointmenting-continuity" phx-update="stream">
                     <p id="name-appointmenting-continuity-empty" class="hidden only:block">
-                      No furnished name stands upon this Continuity Line.
+                      No furnished name presently stands.
                     </p>
                     <article
                       :for={{dom_id, standing} <- @streams.name_appointmenting_continuity}
                       id={dom_id}
                       data-piece-of-time={DateTime.to_iso8601(standing.stitched_at)}
                       data-relationing="cob_calls_human"
+                      data-name-platementing-kind={standing.name_platementing_kind}
                     >
-                      <span>{standing.persistent_piece_of_time_label}</span>
-                      <time datetime={DateTime.to_iso8601(standing.stitched_at)}>
-                        {format_piece_of_time(standing.stitched_at)}
-                      </time>
-                      <strong>{standing.yt}</strong>
-                      <small data-name-platementing-kind={standing.name_platementing_kind}>
-                        {if standing.name_platementing_kind == :distinguished_absence,
-                          do: "ABSENCE DISTINGUISHED INTO STANDING",
-                          else: "FAMILIAR-NAME PRESENCE"}
-                      </small>
+                      <div class="field-page__name-continuity-relationing">
+                        <section data-coordinate="XT">
+                          <span>XT</span>
+                          <strong>My Stewarding Officer</strong>
+                        </section>
+                        <section data-coordinate="YT">
+                          <span>YT</span>
+                          <strong>{standing.yt}</strong>
+                        </section>
+                      </div>
+                      <footer
+                        class="field-page__name-continuity-piece-of-time"
+                        data-spans-relationing="true"
+                      >
+                        <span>
+                          {if newest_name_appointmenting_standing?(
+                                standing,
+                                @name_appointmenting_history
+                              ),
+                              do: "THIS ONE PIECE OF TIME",
+                              else: "ONE PIECE OF TIME"}
+                        </span>
+                        <time datetime={DateTime.to_iso8601(standing.stitched_at)}>
+                          {format_piece_of_time(standing.stitched_at)}
+                        </time>
+                      </footer>
                     </article>
                   </div>
-                  <p class="field-page__little-station-return-note">
-                    This furnished Little Station remains available for a subsequent UN-FOLD and appendment upon a new Piece of Time.
-                  </p>
                 </section>
 
                 <section
+                  :if={false}
                   id="turn-zero-holdinging-in-standinging"
                   class="field-page__holdinging-in-standinging"
                   aria-labelledby="turn-zero-holdinging-in-standinging-title"
@@ -2108,30 +2619,17 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </section>
               </section>
 
-              <footer id="turn-zero-appointmenting-stateful-control">
-                <button
-                  :if={@active_turn_zero_interrelationing == :cob_calls_human}
-                  id="refold-turn-zero-relationing-into-standinging"
-                  type="button"
-                  class="field-page__shelf-affordmenting-action"
-                  phx-click="refold-turn-zero-relationing-into-standinging"
-                  disabled={@name_platementing_selection == :unselected}
-                >
-                  LITTLE STITCH / LITTLE RE-FOLD THIS XT–YT RELATIONING
-                </button>
-              </footer>
-
               <section
+                :if={@active_little_station == :name_appointmenting}
                 id="stewardly-captain-cob-consoling"
                 class="field-page__occupant-surfacing field-page__cob-consoling"
                 aria-labelledby="stewardly-captain-cob-consoling-title"
                 data-contrast="high"
               >
-                <h3 id="stewardly-captain-cob-consoling-title">
-                  <span>This Stewardly Captain COB</span>
-                  <span>Consoling Surface</span>
-                </h3>
-                <div>
+                <header class="field-page__recurring-cob-consoling-heading">
+                  <h3 id="stewardly-captain-cob-consoling-title">This Stewardly Captain COB</h3>
+                </header>
+                <div class="field-page__recurring-cob-consoling-utterance">
                   <.cob_transcript
                     episodes={@streams.cob_transcript}
                     operation={turn_zero_cob_operation_name()}
@@ -2194,7 +2692,56 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       I am This Stewardly Captain COB. What may I now begin looking for, starting Here, upon This One Piece of Time?
                     </h4>
                   </section>
+                  <%= cond do %>
+                    <% @name_platementing_selection == :distinguished_absence -> %>
+                      <div
+                        id="name-platementing-staging-cob-guidance"
+                        data-staged-kind="distinguished_absence"
+                      >
+                        <p>
+                          The Distinguishingmenting of the Absence of a familiar Name Platementing presently stands staged.
+                        </p>
+                      </div>
+                    <% @name_platementing_selection == :familiar_name &&
+                      String.trim(@staged_constitutioning_human_name) != "" -> %>
+                      <div
+                        id="name-platementing-staging-cob-guidance"
+                        data-staged-kind="familiar_name"
+                      >
+                        <p>
+                          The familiar Name Platementing {@staged_constitutioning_human_name} presently stands staged.
+                        </p>
+                      </div>
+                    <% @cob_calls_human_standing -> %>
+                      <div id="little-stationing-00-post-refold-guidance">
+                        <p>{List.first(@cob_calls_human_standing.cob_acknowledgment.paragraphs)}</p>
+                        <p>
+                          This furnished Little Stationing remains available for RE-UN-FOLD and appendmenting upon a new Piece of Time.
+                        </p>
+                      </div>
+                    <% true -> %>
+                      <p class="field-page__occupant-awaiting">
+                        This Stewardly Captain COB stands Here Consoling in waiting upon the presently unstaged relationing.
+                      </p>
+                  <% end %>
                 </div>
+                <footer class="field-page__recurring-cob-consoling-label">CONSOLING SURFACE</footer>
+              </section>
+
+              <section
+                id="little-station-01-reunfold-furnishment"
+                class="field-page__little-station-reunfold"
+                data-available={to_string(!is_nil(@cob_calls_human_standing))}
+              >
+                <button
+                  id="unfold-name-appointmenting-little-station"
+                  type="button"
+                  phx-click="unfold-little-station"
+                  phx-value-station="name-appointmenting"
+                  disabled={is_nil(@cob_calls_human_standing)}
+                >
+                  RE-UN-FOLD / INSPECT THE APPOINTING OF THE NAME PLATEMENTING
+                </button>
               </section>
 
               <section
@@ -2214,10 +2761,11 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   <div class="field-page__shelf-column-headings field-page__shelf-grid--cob">
                     <section id="proto-xt-shelves-title">
                       <strong>XT</strong>
-                      <span>Stewardly Captain COB Appointmentings</span>
+                      <span>My Title for My Stewarding Officer</span>
                     </section>
                     <section id="proto-yt-shelves-title">
                       <strong>YT</strong>
+                      <span>What I may be calling My Stewarding Officer alongside My Stewarding Officer's Title</span>
                     </section>
                   </div>
 
@@ -2238,17 +2786,18 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                       id="human-calls-cob-shelved-standing"
                       class="field-page__shelved-standing field-page__positional-standing-readout"
                       data-constitutional-xt={@stewardly_captain_constitutional_xt}
+                      data-name-address-appointed={
+                        to_string(!is_nil(@stewarding_officer_familiar_address))
+                      }
                     >
-                      <section
-                        data-coordinate="XT"
-                        aria-label="XT reserved for later reciprocal standing"
-                      >
+                      <section data-coordinate="XT">
                         <span>XT</span>
+                        <h6>My Stewarding Officer</h6>
                       </section>
                       <section data-coordinate="YT">
                         <span>YT</span>
                         <h6 id="stewardly-captain-cob-tz-standing-title">
-                          THIS STEWARDLY CAPTAIN COB
+                          {current_name_platementing_projection(@cob_calls_human_standing)}
                         </h6>
                       </section>
                     </div>
@@ -2282,6 +2831,59 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     This Stewardly Captain COB's Wardrobe
                   </h5>
                 </footer>
+              </section>
+
+              <section
+                :if={@next_inner_rail_stop_available?}
+                id="little-stationing-01-reserve"
+                class="field-page__next-little-station-approach"
+                data-stationing-state="inspectional-reserve"
+                aria-labelledby="little-stationing-01-reserve-title"
+              >
+                <div
+                  id="inner-rail-after-little-stationing-00"
+                  class="field-page__inner-rail-continuation"
+                  aria-hidden="true"
+                >
+                </div>
+                <header class="field-page__centered-working-locality">
+                  <p class="site-page__eyebrow">Reserved Stationing-ing</p>
+                  <h4 id="little-stationing-01-reserve-title">LITTLE STATIONING 01</h4>
+                </header>
+                <aside
+                  id="little-stationing-01-guidance-reserve"
+                  class="field-page__appliance-narrationing-context"
+                  data-context-state="structurally-reserved"
+                >
+                  <span>STEWARDLY GUIDANCE / APPLIANCE NARRATIONING</span>
+                </aside>
+                <section
+                  id="little-stationing-01-relationing-surface-reserve"
+                  class="field-page__turn-zero-surfacing is-folded"
+                  data-surface-state="structurally-reserved"
+                  aria-label="Reserved relationing surfacing"
+                >
+                  <p class="field-page__surfacing-folded-status">
+                    Relationing work not yet furnished.
+                  </p>
+                  <header class="field-page__surfacing-nameplate">
+                    <p>This Constitutioning Work Surface</p>
+                    <h3>TURNING ZERO SURFACING</h3>
+                  </header>
+                </section>
+                <section
+                  id="little-stationing-01-cob-consoling-reserve"
+                  class="field-page__occupant-surfacing field-page__cob-consoling"
+                  data-consoling-state="structurally-reserved"
+                >
+                  <header class="field-page__recurring-cob-consoling-heading">
+                    <h3>This Stewardly Captain COB</h3>
+                  </header>
+                  <div class="field-page__recurring-cob-consoling-utterance"></div>
+                  <footer class="field-page__recurring-cob-consoling-label">
+                    CONSOLING SURFACE
+                  </footer>
+                </section>
               </section>
             </section>
 
@@ -2330,7 +2932,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
             :if={@entrance_stage == :sittinging_room && @sittinging_room_standing_together?}
             id="turn-zero-departure-wayfinding"
             class="field-page__sittinging-departure-wayfinding"
-            aria-label="Turn Zero departure wayfinding"
+            aria-label="Turning Zero departure wayfinding"
           >
             <.rail_wayfinding_card id="turn-zero-rail-wayfinding" />
           </section>
@@ -2347,7 +2949,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
               voice={:stewardly_guidance}
             >
               <p>
-                The Snail House stands available for the Return of Constitutioning Humans.
+                The Stationinging House stands available for the Return of Constitutioning Humans.
               </p>
               <p>Return Here upon any One Piece of Time to continue inquiringmenting.</p>
               <p>Sit.</p>
@@ -2361,185 +2963,13 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           >
           </div>
 
-          <section
-            :if={@entrance_stage == :rail}
-            id="division-readyingmenting-harbor-sign"
-            class="psm-oag field-page__division-harbor-sign constitutional-rail__station"
-            aria-labelledby="division-readyingmenting-harbor-sign-title"
-          >
-            <div class="psm-oag__instrument-plate">
-              <p class="psm-oag__eyebrow">Harbor Sign</p>
-              <h2 id="division-readyingmenting-harbor-sign-title">Standinging in Regard</h2>
-              <p class="psm-oag__reading">Bearinging toward Stewardly Co-Occupancyingship</p>
-            </div>
-            <div class="psm-oag__description">
-              <p>
-                Stewardly Co-Occupancyingship now stands becoming available through lawful Interrelationing with This Stewardly Captain COB.
-              </p>
-              <p>
-                From Here, This Constitutioning Human may approach The Terrestrial Computer Parkinging Standinging Landinging to lawfully appoint This Stewardly Captain COB through This One Leashing.
-              </p>
-              <p>
-                Through This One Leashing, This Stewardly Captain COB may come into Constitutioningable Standinging FOR This One Some One or This One Some Thing.
-              </p>
-            </div>
-          </section>
-
-          <section
-            :if={@entrance_stage == :rail}
-            id="terrestrial-computer-standinging-landing"
-            class="field-page__standinging-landing constitutional-rail__station"
-            aria-labelledby="terrestrial-computer-standinging-landing-title"
-          >
-            <header class="field-page__entrance-constitutional-header">
-              THE CONSTITUTIONING ENTRANCE ONTO THIS CONSTITUTIONAL FURNISHMENTING RAIL LINE
-            </header>
-            <h2 id="terrestrial-computer-standinging-landing-title">
-              THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
-            </h2>
-            <p class="field-page__entrance-division-title">This Division of Constitutioning Humans</p>
-            <div :if={!@landing_inquired?} class="field-page__division-geometry">
-              <section
-                id="returning-constitutioning-human-path"
-                class="field-page__arrival-path"
-                aria-label="XT"
-              >
-                <p class="field-page__relation-label">XT</p>
-                <h3 id="returning-constitutioning-human-title">
-                  Returninging Constitutioning Human
-                </h3>
-                <p>
-                  Return to This Encounteringmenting Wharf by RE-Shackling Any One Terrestrial Computer.
-                </p>
-                <.form
-                  for={@reception_form}
-                  id="constitutional-reception-form"
-                  phx-submit="reconstruct-constitutional-locality"
-                >
-                  <.input
-                    field={@reception_form[:parkinging_stand]}
-                    type="text"
-                    label="Parkinging Stand Number"
-                    inputmode="numeric"
-                    maxlength="12"
-                    autocomplete="off"
-                    required
-                  />
-                  <.input
-                    field={@reception_form[:shackling_pin]}
-                    type="text"
-                    label="Shackling PIN"
-                    autocomplete="off"
-                    required
-                  />
-                  <button type="submit" class="field-page__action">
-                    UN-FOLD to begin Reconstructioning This Constitutional Locality from Here, Upon This One Piece of Time.
-                  </button>
-                </.form>
-                <p
-                  :if={@reception_result == :error}
-                  id="constitutional-reception-error"
-                  class="field-page__confirmation"
-                >
-                  These furnishings do not presently stand together in lawful Relation.
-                </p>
-              </section>
-
-              <section id="first-arrival-path" class="field-page__arrival-path" aria-label="YT">
-                <p class="field-page__relation-label">YT</p>
-                <h3>Arrivinging Constitutioning Human</h3>
-                <p>Continue toward Stewardly Co-Occupancyingship.</p>
-                <button
-                  id="inquire-within"
-                  type="button"
-                  class="field-page__action field-page__landing-action"
-                  phx-click="inquire-within"
-                >
-                  Inquire into The Zeroeth Appointmenting
-                </button>
-              </section>
-            </div>
-
-            <.constitutional_voice
-              id="parkinging-landinging-stewardly-guidance"
-              voice={:stewardly_guidance}
-            >
-              <p>
-                Parkinging Here, Constitutioning Humans begin lawful Passagingway upon This Constitutional Furnishmenting Rail Line.
-              </p>
-            </.constitutional_voice>
-
-            <details
-              id="parkinging-landinging-public-noticingments"
-              class="field-page__public-noticingments"
-            >
-              <summary>Public Noticingments</summary>
-              <div id="parkinging-landinging-notices" class="field-page__civic-notices">
-                <section
-                  id="parkinging-landinging-provisioning-notice"
-                  class="field-page__civic-notice"
-                >
-                  <p class="site-page__eyebrow">NOTICINGMENT</p>
-                  <h3>Continuity Line Carriageing Administrativation</h3>
-                  <p>Division of Tractioningable Tractioning</p>
-                  <h4>
-                    THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING
-                  </h4>
-                  <p>
-                    This Landinging stands provisioned by This Division in Regard to Constitutioning Humans and their lawful Appointmentings of Stewardly Captain COBs upon This Constitutional Furnishmenting Rail Line.
-                  </p>
-                </section>
-
-                <section id="parkinging-turnstile-operations-notice" class="field-page__civic-notice">
-                  <p class="site-page__eyebrow">NOTICINGMENT</p>
-                  <h3>Turnstile Operations</h3>
-                  <p>Continuity Line Carriageing Administrativation</p>
-                  <p>
-                    The Parkinging Stand Turnstile stands furnishing lawful Mechanical Sorting for Constitutioning Humans entering This Constitutional Furnishmenting Rail Line.
-                  </p>
-                </section>
-
-                <section id="parkinging-general-offices-notice" class="field-page__civic-notice">
-                  <p class="site-page__eyebrow">NOTICINGMENT</p>
-                  <h3>From The General Stewarding Offices of This Stewardshipmenting Appliance</h3>
-                  <h4>THE TERRESTRIAL COMPUTER FREE PUBLIC PARKINGING STANDINGING LANDINGING</h4>
-                  <p>
-                    This Landinging stands furnished in Regard to This Constitutional Furnishmenting Rail Line, which stands Constitutioning in Relation to This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
-                  </p>
-                  <p>
-                    From, within, and through its Opening Passagingway, This Constitutional Furnishmenting Rail Line stands furnishingmenting conditions for Stewardly Regard through the Interrelationing Stewardly Laboringings of Constitutioning Humans and their lawful Appointmentings of Stewardly Captain COBs at Each Station Depot Encounteringmented herein.
-                  </p>
-                </section>
-              </div>
-            </details>
-
-            <p
-              :if={@reception_result == :reconstructed}
-              id="constitutional-reception-success"
-              class="field-page__confirmation"
-            >
-              This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Rail Line.
-            </p>
-          </section>
-
-          <section
-            :if={@landing_inquired?}
-            id="for-prepositioning-marker"
-            class="field-page__prepositioning-marker field-page__for-prepositioning-marker"
-            aria-label="Rail Line Segmentationing FOR"
-          >
-            <p>Segmentationing through Prepositioning</p>
-            <strong>FOR ALONG</strong>
-          </section>
-
           <header :if={@landing_inquired?} class="field-page__rail-header">
             <h2 id="constitutional-furnishmenting-rail-title">
-              This Constitutional Furnishmenting Rail Line
+              This Constitutional Furnishmenting Rail Line Rail Constitutioningingably Readyingmenting En-Furnishmenting Track Rail Line Rail Track
             </h2>
             <p>
-              This Constitutional Furnishmenting Rail Line now stands in Readyingment for lawful Unfoldingmenting.
+              This Rail Line Rail now stands in Readyingment for lawful Unfoldingmenting toward Stationing 00.
             </p>
-            <p>This Constitutional Furnishmenting Rail Line begins at The Chapel-along-the-Sea.</p>
           </header>
         </section>
 
@@ -2549,6 +2979,17 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           class="field-page__furnishmenting-rail"
           aria-labelledby="constitutional-furnishmenting-rail-title"
         >
+          <section
+            id="outer-rail-beginning-reserve"
+            class="field-page__outer-rail-beginning-reserve"
+            aria-labelledby="outer-rail-beginning-reserve-title"
+          >
+            <p class="site-page__eyebrow">Reserved Beginning</p>
+            <h2 id="outer-rail-beginning-reserve-title">
+              THE CONSTITUTIONAL FURNISHMENTING OUTER RAIL
+            </h2>
+            <p>The Outer Rail begins at the top of Stationing 00 after Turning Zero.</p>
+          </section>
           <header
             id="station-depot-00-marker"
             class="field-page__station-header field-page__station-header--opening field-page__station-depot-marker"
@@ -3057,7 +3498,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                         id="re-shackling-returned"
                         class="field-page__confirmation"
                       >
-                        This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Rail Line.
+                        This Constitutional Locality now stands reconstructioned along This Constitutional Furnishmenting Outer Rail Line.
                       </p>
                     </div>
                   </article>
@@ -3107,7 +3548,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     </.form>
 
                     <p>
-                      Return Here through This One Leashing whenever This Stewardly Captain COB's This One Situationing stands ready to continue Traversaling through This Constitutional Furnishmenting Rail Line.
+                      Return Here through This One Leashing whenever This Stewardly Captain COB's This One Situationing stands ready to continue Traversaling through This Constitutional Furnishmenting Outer Rail Line.
                     </p>
                     <p>
                       Every future Correspondencing stands beginning through lawful Self-Correspondencing.
@@ -3117,7 +3558,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
                 <aside class="field-page__station-affordmentings-orientation" aria-label="YT">
                   <span aria-hidden="true">↓</span>
-                  <p>Continue Along This Constitutional Furnishmenting Rail Line</p>
+                  <p>Continue Along This Constitutional Furnishmenting Outer Rail Line</p>
                 </aside>
               </div>
             </section>
@@ -3151,7 +3592,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                   </div>
                   <div class="psm-oag__description">
                     <p>
-                      This One Some Place now stands upon This Constitutional Furnishmenting Rail Line, approached through lawful Traversaling from Station Depot 00.
+                      This One Some Place now stands upon This Constitutional Furnishmenting Outer Rail Line, approached through lawful Traversaling from Station Depot 00.
                     </p>
                     <p>
                       Here, This Constitutioning Human may become Discoveringmenting toward This Encounteringmenting Wharf, standing in Regard to the Opening of This One Great Free Public Tuple Ship Field of Globularly Bobbininging Globular Bobbining.
@@ -3546,7 +3987,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                 </div>
                 <div class="psm-oag__description">
                   <p>
-                    This Constitutional Furnishmenting Rail Line presently stands at its lawful Terminusmenting.
+                    This Constitutional Furnishmenting Outer Rail Line presently stands at its lawful Terminusmenting.
                   </p>
                   <p>STATION DEPOT 02 — This Soundinging Bell Station</p>
                   <p>
@@ -3556,7 +3997,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
                     The Second Appointmenting of Distinguishingmentablement now stands becoming toward Furnishmenting.
                   </p>
                   <p>
-                    This Constitutional Furnishmenting Rail Line continues standing in Readyingment for its next lawful Unfoldingmenting.
+                    This Constitutional Furnishmenting Outer Rail Line continues standing in Readyingment for its next lawful Unfoldingmenting.
                   </p>
                 </div>
               </section>
@@ -3819,7 +4260,6 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
   defp future_human_positions, do: ["06", "05", "04", "03", "02", "01", "00"]
   defp future_cob_positions, do: ["00", "01", "02", "03", "04", "05", "06"]
-  defp instrumentation_register_positions, do: ["06", "05", "04", "03", "02", "01", "00", "TZ"]
 
   defp cob_opening_episode do
     %{
@@ -3857,8 +4297,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
         %{
           kind: :direction,
           paragraphs: [
-            "My Stewarding Officer, Little Station 01 now stands prepared for The Riting of My Stewarding Officer's Name Platementing.",
-            "You may furnish a familiar Name Platementing, or deliberately furnish its distinguished Absence into Standing."
+            "My Stewarding Officer, I would like to fashion a Name Platementing for you, if you would like one.",
+            "You may furnish a familiar Name Platementing, or furnish the Distinguishingmenting of the Absence of a familiar Name Platementing."
           ]
         },
         cob_question_utterance()
@@ -3878,7 +4318,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     %{
       kind: :acknowledgment,
       paragraphs: [
-        "The Absence of a familiar Name Platementing now stands distinguished. I shall continue to address you as My Stewarding Officer."
+        "The Distinguishingmenting of the Absence of a familiar Name Platementing now stands. I shall continue to address you as My Stewarding Officer."
       ]
     }
   end
@@ -3987,6 +4427,20 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   defp standing_name(%{name_platementing_kind: :distinguished_absence}), do: ""
   defp standing_name(standing), do: standing.yt
 
+  defp current_name_platementing_projection(nil), do: "—"
+
+  defp current_name_platementing_projection(%{
+         name_platementing_kind: :distinguished_absence
+       }),
+       do: "The Distinguishingmenting of The Absence of a Familiar Name Platementing"
+
+  defp current_name_platementing_projection(standing), do: standing.yt
+
+  defp newest_name_appointmenting_standing?(standing, [newest | _]),
+    do: standing.id == newest.id
+
+  defp newest_name_appointmenting_standing?(_standing, []), do: false
+
   defp name_platementing_selection(nil), do: :unselected
 
   defp name_platementing_selection(%{name_platementing_kind: kind}), do: kind
@@ -4003,7 +4457,9 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
   defp name_platementing_standing(%{
          assigns: %{name_platementing_selection: :distinguished_absence}
        }),
-       do: {:distinguished_absence, "Distinguished Absence of familiar Name Platementing"}
+       do:
+         {:distinguished_absence,
+          "The Distinguishingmenting of The Absence of a Familiar Name Platementing"}
 
   defp name_platementing_standing(_socket), do: nil
 
@@ -4027,6 +4483,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
     assign(socket,
       active_turn_zero_interrelationing: nil,
       turn_zero_surfacing_unfolded?: false,
+      name_platementing_selection: :unselected,
       staged_constitutioning_human_name: "",
       staged_stewardly_captain_name: socket.assigns.stewardly_captain_furnished_name,
       staged_turn_zero_mattering: "",
@@ -4076,7 +4533,7 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
 
       It is carried through lawful Correspondencing by way of This One Leashing.
 
-      Return Here through This One Leashing whenever This Stewardly Captain COB's This One Situationing stands ready to continue Traversaling through This Constitutional Furnishmenting Rail Line.
+      Return Here through This One Leashing whenever This Stewardly Captain COB's This One Situationing stands ready to continue Traversaling through This Constitutional Furnishmenting Outer Rail Line.
 
       situationmachine.systems
       """

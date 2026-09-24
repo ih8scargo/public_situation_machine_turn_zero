@@ -196,15 +196,13 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#tuple-ship-field-threshold",
-             "From Here, Constitutioning Humans may approach The Opening Rite of Passagingway through its public entrance, The Snail House."
+             "From Here, This Constitutioning Human may approach and UN-FOLD This One Opening Passagingway."
            )
-
-    refute has_element?(view, "#tuple-ship-field-threshold", "Division of Constitutioning Humans")
 
     refute has_element?(view, "#tuple-ship-field-threshold", "This One Leashing")
     refute has_element?(view, "#tuple-ship-field-threshold", "Traversaling")
     assert has_element?(view, "#resonancing-snail-station-house")
-    refute has_element?(view, "#terrestrial-computer-standinging-landing")
+    assert has_element?(view, "#terrestrial-computer-standinging-landing")
 
     view |> element("#enter-opening-passageway") |> render_click()
     view |> element("#unfold-turn-zero-sittinging-in-room") |> render_click()
@@ -217,6 +215,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     |> render_change()
 
     view |> element("#refold-turn-zero-relationing-into-standinging") |> render_click()
+    view |> element("#unfold-name-appointmenting-little-station") |> render_click()
     render_hook(view, "unfold-turn-zero-for-appointmenting", %{})
 
     view
@@ -244,7 +243,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert has_element?(view, "#inquire-within", "Inquire into The Zeroeth Appointmenting")
     assert has_element?(view, "#constitutional-reception-form")
-    assert has_element?(view, "#constitutional-reception-form", "Parkinging Stand Number")
+    assert has_element?(view, "#constitutional-reception-form", "Parkinginging Stand Number")
     assert has_element?(view, "#constitutional-reception-form", "Shackling PIN")
     assert has_element?(view, "#returning-constitutioning-human-path[aria-label='XT']", "XT")
 
@@ -292,7 +291,7 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
     assert has_element?(
              view,
              "#parkinging-landinging-stewardly-guidance",
-             "begin lawful Passagingway"
+             "approach lawful Passagingway"
            )
 
     assert has_element?(
@@ -302,6 +301,8 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
            )
 
     refute has_element?(view, "#constitutional-furnishmenting-rail")
+
+    furnish_before_before(view)
 
     view |> element("#inquire-within") |> render_click()
 
@@ -480,5 +481,10 @@ defmodule PublicSituationMachineTurnZeroWeb.SiteStructureLiveTest do
 
     assert threshold_index < publication_index
     assert publication_index < list_index
+  end
+
+  defp furnish_before_before(view) do
+    view |> element("#unfold-opening-passagingway") |> render_click()
+    view |> element("#furnish-before-before") |> render_click()
   end
 end
