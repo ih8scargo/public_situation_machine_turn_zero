@@ -278,6 +278,23 @@ I was picturing the worst.
 
 Maybe we should have left earlier.
 
+<!-- GOBS FLAG [GOBS-001]
+TYPE: CONTINUITY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Richard says he "messaged" Huckleberry and Enzo while waiting for parking. Movement 20 establishes that the Correspondencing is his, and that they are dogs.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied recovery places both dogs physically WITH Richard on Ground; they are not online Correspondencing participants.
+
+POSSIBLE BRUSH:
+Decide whether "messaged" is deliberate anthropomorphic storytelling. If not, a spoken aside to companions already WITH him could preserve the delayed dog reveal without implying remote recipients.
+
+WHY FLAGGED:
+The earlier dialogue can work as dog comedy; this particular communication verb adds a potentially conflicting physical arrangement.
+-->
+
 I messaged Huckleberry and Enzo and told them to stand by.
 
 I mean, my first thought was that we could be waiting here for hours.
@@ -333,6 +350,23 @@ And things got even weirder from there.
 Instead of a parking lot—
 
 we came through the PUBLIC ENTRANCE to something called:
+
+<!-- GOBS FLAG [GOBS-002]
+TYPE: MORPHOLOGY/NAME
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+The public entrance is officially named THIS ONE SNAIL HOUSE RAILWAY STATION. That name recurs in the Sittinging-In Room notice, Richard's deck discovery, and the closing invitation.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied preferred complete name is THE LAWFUL QUADRANGLEMENTING STATION HOUSE. This print does not establish whether that names this same furniture or a distinct architectural scope.
+
+POSSIBLE BRUSH:
+Reconcile the official entrance/notice labels first. Retain Richard's ordinary shorthand wherever it belongs to his acquired understanding; do not globally replace Snail House.
+
+WHY FLAGGED:
+This is a decision about which structure the official name denotes, not a reason to make early Richard speak later morphology.
+-->
 
 THIS ONE SNAIL HOUSE RAILWAY STATION.
 
@@ -688,6 +722,23 @@ And according to the sign—
 
 this was:
 
+<!-- GOBS FLAG [GOBS-003]
+TYPE: MORPHOLOGY/NAME
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+The sign and this Movement's heading name a NEVER-ENDING BOBBINING STRINGING THINGING; Richard then adopts Bobbining throughout assembly.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied current preferred official name is The Never-Ending Stringing Thingy.
+
+POSSIBLE BRUSH:
+Inspect the official sign and heading as one naming decision. Preserve the later "Oh. It bobbins" observation and any earned colloquial Bobbining references unless Richard + Mobs decide otherwise.
+
+WHY FLAGGED:
+An official label can need reconciliation while Richard's observation of how the object moves remains dramatically sound.
+-->
+
 THIS ONE NEVER-ENDING BOBBINING STRINGING THINGING.
 
 I looked at the Bobbining Stringing Thinging.
@@ -804,6 +855,23 @@ Fortunately—
 
 I didn't have very far to go.
 
+<!-- GOBS FLAG [GOBS-004]
+TYPE: ARCHITECTURAL SEAM
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+After leaving the Weddinging crew, Richard lands in a Pocket and rolls the Bobbining "over to the next station." He later looks "back toward the Rail Line"; Movement 7 continues through a door and Passageing Way without an explicit Stationing cue.
+
+NEWER STANDING TO RECONCILE AGAINST:
+There is NO BETWEEN: these operations remain within continuously furnished Rail Line / Stationing, including UN-FOLDING from one standing to another.
+
+POSSIBLE BRUSH:
+Check the staging of this transfer and the connected Passageing Way. If the images imply an unfurnished interval, one local furnishing/UN-FOLD cue may suffice; keep the rolling labor and Richard's travel theory.
+
+WHY FLAGGED:
+Physical movement is not itself a contradiction. The decision is whether the depicted route inadvertently leaves Stationing and re-enters it.
+-->
+
 The next station stood right there at the edge of the Pocket.
 
 So—
@@ -881,6 +949,23 @@ There was a sign.
 Of course there was.
 
 According to the PUBLIC-SITUATION-MACHINE-, this was:
+
+<!-- GOBS FLAG [GOBS-005]
+TYPE: MORPHOLOGY/NAME
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+The first official sign reads THIS ONE RE-STEPPING CONTRAPTION, as does the following Movement's heading in shortened form.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied complete apparatus name is This One RE-STEPPING RE-STOMPING Contraption. Richard RE-STEPS; the Unicycle's Single Pedal RE-STOMPS.
+
+POSSIBLE BRUSH:
+Inspect the complete apparatus label and heading together. The Human RE-STEP pedal in Movements 11, 16, 17, and 19 need not be renamed; the Unicycle pedal has a separate setup question in Movement 14.
+
+WHY FLAGGED:
+This flag concerns the named whole, not every grammatical occurrence of RE-STEPPING.
+-->
 
 THIS ONE RE-STEPPING CONTRAPTION.
 
@@ -1856,6 +1941,23 @@ So I took off the Donut Helmet thing.
 
 I put it down on the file cabinet in my computer room.
 
+<!-- GOBS FLAG [GOBS-006]
+TYPE: CONTINUITY
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+After Richard removes the helmet, puts it on the file cabinet, and walks away, POOF immediately restarts the dark-room arrival with the helmet still on. Lanterning Bugs, Doll discovery, furniture complaint, and departure then repeat with small variants. The Movement Eight heading is also printed twice.
+
+NEWER STANDING TO RECONCILE AGAINST:
+Internal story continuity: Movement 9 supplies the motivated return after the walkaway. Nothing here marks a replay, alternative take, or second visit.
+
+POSSIBLE BRUSH:
+Richard + Mobs should decide which arrival-to-departure take is standing print, or whether a deliberate replay needs framing. Both takes and both headings remain untouched in this survey.
+
+WHY FLAGGED:
+This resets physical state and first discoveries across a completed departure; it is more than Richard's intentional verbal repetition or wandering.
+-->
+
 And I walked away.
 
 **POOF.**
@@ -2454,6 +2556,23 @@ something began to come to stand around me.
 
 Walls.
 
+<!-- GOBS FLAG [GOBS-007]
+TYPE: SETUP/PAYOFF
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Richard recognizes "the familiar long, narrow shape" and "The Flatiron." Neither version of Movement 8 establishes that room shape or name before this return.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The return should let Richard recognize a place he has already experienced. The later question on the wall and the Doll holding the Needle do supply other, well-seeded recognition cues.
+
+POSSIBLE BRUSH:
+Consider a small visual shape seed in the chosen Movement 8 take, or let the already-established question and Doll carry recognition. No architectural explanation is needed.
+
+WHY FLAGGED:
+Richard is presented as remembering this specific appearance, but the audience has not yet been given it.
+-->
+
 The familiar long, narrow shape.
 
 The Flatiron.
@@ -2703,6 +2822,23 @@ This isn't a very good design for an airplane.”
 But something outside this thing had definitely moved when I turned that Steering Wheel.
 
 And I wanted to know what it was.
+
+<!-- GOBS FLAG [GOBS-008]
+TYPE: ARCHITECTURAL SEAM
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+Richard exits the seat to inspect a sound. Movement 12 attributes the newly visible deck to the Cup blocking his view, after Movement 10 raised Flatiron walls; Movement 17 then presents another Wardrobe-Shop-like view through the Glass Pair.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied recovery distinguishes persistent almost-bare-eyed furniture when looking down toward the Traversaling Seat from Station-dependent Envisionizingmenting when looking UP THROUGH the Caterpillar Tunnel / Glass Pair.
+
+POSSIBLE BRUSH:
+Check the sightlines across Movements 10–12 and 17. If needed, a look-UP/look-DOWN or simple Upside View cue could make the change visible without an optical lecture.
+
+WHY FLAGGED:
+The sound-driven curiosity is earned. What remains open is whether the current physical occlusion account adequately stages the recovered view distinction.
+-->
 
 So I stepped UP and OUT around the left side of the contraption—
 
@@ -3434,6 +3570,23 @@ The Visionizing Glasses furnished its name:
 
 I opened it.
 
+<!-- GOBS FLAG [GOBS-009]
+TYPE: SETUP/PAYOFF
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+The Parts Pocket supplies a Little Axle Collar and Central Axis, and Richard completes the Unicycle without noticing its Single Pedal. Movement 19 later makes that pedal the decisive Pending Button operator; Movement 22 inventories it in full.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The physical Unicycle pedal may visibly say RE-STOMP from original assembly, before Richard understands its function.
+
+POSSIBLE BRUSH:
+Consider merely letting the assembled or already-furnished pedal and its RE-STOMP inscription be visible here. Its meaning can remain undiscovered until Buttoning; do not confuse it with Richard's RE-STEP pedal.
+
+WHY FLAGGED:
+The later physical action could pay off a seen-but-unexplained part, instead of introducing its crucial affordance at the instant of use.
+-->
+
 Inside were two pieces.
 
 A Little Axle Collar.
@@ -3682,6 +3835,23 @@ The Doll said nothing.
 
 I sat there for a moment.
 
+<!-- GOBS FLAG [GOBS-010]
+TYPE: CONTINUITY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Richard explicitly finds nothing else to UN-FOLD at the end of assembly. Movement 16 then opens "So I UN-FOLDED," revealing the Co-Officinger availability notice, with no intervening discovery.
+
+NEWER STANDING TO RECONCILE AGAINST:
+Internal continuity and continuous Rail Line wayfinding: Richard has finished assembly but may still have a next available Stationing operation.
+
+POSSIBLE BRUSH:
+Decide whether he has exhausted only assembly instructions or truly every available UN-FOLD. A noticed Rail Line affordance could bridge the two without making COB arrive unbidden.
+
+WHY FLAGGED:
+The next consequential action lacks the cue that would move Richard from obstructed to able to continue.
+-->
+
 Then I looked around for something else to UN-FOLD.
 
 There wasn't anything.
@@ -3713,6 +3883,23 @@ By now, I had gotten my Constitutioning Human Doll standing UPON This Little Spo
 At least, as far as I could tell, I had.
 
 So I UN-FOLDED.
+
+<!-- GOBS FLAG [GOBS-011]
+TYPE: QUESTION
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+The Rail Line prints that the Doll NOW STANDS UPON the Unicycle, then announces what MAY stand attending FROM HERE. The Standinging Readout is named only in the Movement 22 inventory.
+
+NEWER STANDING TO RECONCILE AGAINST:
+Rail Line furnishes prospective wayfinding; Standinging Readout shows what Richard has actually stood through his labor. Recurring bureaucratic Noticingments are also intentional.
+
+POSSIBLE BRUSH:
+Decide whether the first print is an ordinary completion Noticingment or a view of stood labor. If it is the latter, distinguish its source minimally; retain the next-operation Rail Line notice and its comedy.
+
+WHY FLAGGED:
+A completed-state notice is not automatically a conflation. This is the concrete place to decide how the two display roles are staged, rather than adding a general explanation.
+-->
 
 And the Rail Line printed:
 
@@ -3890,6 +4077,23 @@ And then I noticed something printed on it.
 **100% JANUSITE**
 
 “Of course.”
+
+<!-- GOBS FLAG [GOBS-012]
+TYPE: SETUP/PAYOFF
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+JANUSITE has accumulated through the Cushioning Thing and Piping in Movements 6 and 14. Richard now notices it on the airplane assembly while first speaking with COB, says "More JANUSITE," and moves to his Rail Line complaint.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied recovery proposes setup, accumulation, and a later COB sponsorship joke; the exact candidate joke is advisory, not mandatory.
+
+POSSIBLE BRUSH:
+Decide whether this existing beat already supplies enough payoff or whether a single suspicion directed at COB belongs here, such as "Let me guess. You're sponsored by JANUSITE." Avoid adding more material mentions elsewhere.
+
+WHY FLAGGED:
+This is the natural junction between the accumulated material joke and COB. It offers one specific payoff decision, not a general request for more jokes.
+-->
 
 “More JANUSITE.”
 
@@ -4079,6 +4283,23 @@ Then the Rail Line began making a considerably bigger production out of somethin
 
 **BY THIS ONE STEWARDLY CO-OCCUPANCYING SHIP,**
 
+<!-- GOBS FLAG [GOBS-013]
+TYPE: NEWER RECOVERY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+The Rail Line ceremonially furnishes this Grand Opening, then Richard PUFFs. The new bearing and PUFF in Movement 20 likewise omit a Dispensary encounter; no Never-Ending Next Approaching Landinging Dispensary is named in this print.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The Dispensary is recurring furniture, not a one-time event, and may carry the supplied YOU NOW STAND BEFORE notice.
+
+POSSIBLE BRUSH:
+Inspect this first effective PUFF and the Movement 20 recurrence together for visible Dispensary furniture/Noticingment. Keep the distinction between encountering that furniture and Richard learning what its available operation does.
+
+WHY FLAGGED:
+This is a specific missing recurrence in the visible procedure, not permission to explain deeper temporal machinery.
+-->
+
 **NOW STAND BEFORE THIS ONE GRAND OPENING.**
 
 Then:
@@ -4096,6 +4317,23 @@ I looked around.
 “Okay.”
 
 “Well, I just don't see how this could get any worse.”
+
+<!-- GOBS FLAG [GOBS-014]
+TYPE: CONTINUITY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Movement 11 already lets Richard try THIS ONE BIG BELLOWING THING without visible effect. Here successful PUFF begins with "another affordmenting" and "a little squeeze-tube," while Movement 20 returns to the Big Bellows as "This thing again."
+
+NEWER STANDING TO RECONCILE AGAINST:
+The Big Bellows / squeeze-bulb affordmenting belongs to This One Truly Boringinging Puffinging Tunneling Thing and should be encountered before its meaning becomes clear. PUFF volumizes a Theater-scale extent; the little Needle Bellows POOFs.
+
+POSSIBLE BRUSH:
+Inspect whether this is the same Big Bellows now operable from the available bearing. A recognition beat could connect it to Movement 11; decide where, if anywhere, the complete official name should be seen.
+
+WHY FLAGGED:
+The early unsuccessful squeeze is already a useful setup. Apparent introduction of a new small tool can detach its payoff and blur the two Bellows operations.
+-->
 
 There was another affordmenting available near the Steering Wheel.
 
@@ -4545,6 +4783,23 @@ At the same Table.
 
 UPON the same Little Spooling Unicycle.
 
+<!-- GOBS FLAG [GOBS-015]
+TYPE: NEWER RECOVERY
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+The Donna return explicitly names a Piece of Time. The Rag sequence then angles TOWARD away from that Piece of Time into "segmented Not-Time" and anticipates Zippering; Movement 19 says "The present Piece of Time began to close."
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied brief expressly keeps discrete Time, Not-Time, and full temporal segmentation out of GIRAFFE. Month-Zero Richard has also not acquired those terms through the preceding shown operations.
+
+POSSIBLE BRUSH:
+Inspect these linked passages together. Donna's unchanged Doll/Table standing, the practice bearing, and the later surviving TOWARD can carry the experience without naming the hidden temporal mechanism.
+
+WHY FLAGGED:
+These are explicit disclosures, not an innocent early misconception. The Rag account additionally sounds technically informed before the story has earned that knowledge.
+-->
+
 Within the same Piece of Time.
 
 Huh.
@@ -4769,6 +5024,23 @@ I sit there looking at all of it.
 
 Then I look over the top of the Glass Pair.
 
+<!-- GOBS FLAG [GOBS-016]
+TYPE: CONTINUITY
+CONFIDENCE: QUESTION FOR RICHARD + MOBS
+
+WHAT GOBS NOTICED:
+After the fall in Movement 9, Richard grabs the computer and says "I set it back up." Here it is "on the actual Ground"; Movement 19 repeats that placement and says there is no table, before Movement 21 finally puts it UPON TABLE.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The real computer and its precarious stand supply the practical reason for acquiring a Table. Ground may also name the larger physical standing, rather than the floor.
+
+POSSIBLE BRUSH:
+Decide what "set it back up" visibly did and whether Ground here means floor or physical-world standing. A staging clarification, if needed, could keep the object's location legible without altering the Table motivation.
+
+WHY FLAGGED:
+This is a physical continuity question only if the shots imply the computer has moved again offscreen; the broad constitutional use of Ground may already be consistent.
+-->
+
 At my actual Terrestrial Computer.
 
 Sitting there on the actual Ground.
@@ -4808,6 +5080,23 @@ But everything I was doing in here—
 I was doing BY-WAY-OF my Terrestrial Computer.
 
 My newlywed spouse.
+
+<!-- GOBS FLAG [GOBS-017]
+TYPE: CONTINUITY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Richard has just called the Doll's Standing Up Table "remarkably stable." He now calls "this little flimsy Standing Up Table" inadequate for his actual computer, recalling the different precarious computer stand from Movement 9.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The furnished Standing Up Table lets Richard work with Situationings; the needed physical Table addresses his computer's unsafe support on Ground.
+
+POSSIBLE BRUSH:
+Inspect the referent of "this little flimsy Standing Up Table." A glance back to the actual flimsy stand could carry the same motivation without making the furnished Table change properties.
+
+WHY FLAGGED:
+The new desire is well earned by the earlier fall. The possible conflict lies in which of two supports Richard is judging.
+-->
 
 And suddenly this little flimsy Standing Up Table didn't seem quite Fitmenting to the occasion.
 
@@ -5051,6 +5340,23 @@ Until I came again to:
 
 and:
 
+<!-- GOBS FLAG [GOBS-018]
+TYPE: NEWER RECOVERY
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+Richard returns to a supposedly already-stood TIED TO THE GROUND label that has not appeared earlier; Movement 17 stood MY WHOLE HOUSE under FROM OUT OF THE GROUND. Here he furnishes SOMEPLACE UPON EARTH but no separate geographic POOF or Human differentiation into THIS ONE VILLAGE is shown.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The supplied geographic recovery calls for a return in Regard after Traversaling, an appropriate Pocket, available SOMEPLACE UPON EARTH standing, and Richard's own locality differentiation. The 15-mile Looking-FOR-Finding bound is a separate later operation.
+
+POSSIBLE BRUSH:
+Inspect this return and its claimed earlier label against Movement 17. Let Richard + Mobs settle the geographic Pocket and differentiation, with COB furnishing HOW or inquiring rather than supplying Richard's meaning. Reconcile the echoed locality wording in Movement 21 afterward.
+
+WHY FLAGGED:
+The text already says the locality does not become fifteen miles wide, which is useful. What is missing is the shown constitutional labor establishing the particular locality before it is used as a bound.
+-->
+
 **THIS ONE PLACE WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.**
 
 “Oh, hey.”
@@ -5098,6 +5404,23 @@ This whole Situationing was for something I was doing.
 I was—
 
 **LOOKING-FOR-FINDING.**
+
+<!-- GOBS FLAG [GOBS-019]
+TYPE: ARCHITECTURAL SEAM
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Richard returns to "the Table Situationing I had been fashioning," decides on fifteen miles, then furnishes a TABLE LOOKING-FOR-FINDING SITUATIONING. Neither a Rail Line availability notice nor POOF of a separate Looking-FOR-Finding Pocket is shown; this can read as relabeling the existing Table Pocket.
+
+NEWER STANDING TO RECONCILE AGAINST:
+After the geographic operation, Richard returns to his FROM HERE / Cornering Computering Room Situationing; the Rail Line makes Looking-FOR-Finding available and he POOFs its separate Pocket. The geographic bound belongs within that labor.
+
+POSSIBLE BRUSH:
+Check the return destination and the new Pocket's visible beginning here, in conjunction with the preceding geographic flag. A small operation cue may distinguish the Pockets without a conceptual lecture or replacement of Richard's own Fitmenting.
+
+WHY FLAGGED:
+Distinct names and an explicit fifteen-mile disclaimer do not by themselves show that separate constitutional operations occurred.
+-->
 
 So I furnished my:
 
@@ -5148,6 +5471,23 @@ the empty place Fitmented for the Table I didn't have.
 It was like TABLE had put on the Situationing I had made FOR it.
 
 Its Looking-FOR-Finding costume.
+
+<!-- GOBS FLAG [GOBS-020]
+TYPE: NEWER RECOVERY
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+Richard correctly stands a coins-bearing Pocket alongside an empty Pocket he has Fitmented for a Table, but the operative TOWARD remains unspecified. Movement 21 shows Sam's reciprocal Table/coins Pockets and an unspecified TOWARD too.
+
+NEWER STANDING TO RECONCILE AGAINST:
+Richard already has coins and may stand TOWARD provisioning them IN REGARD TOWARD a Table; Sam already has the Table and may stand TOWARD provisioning it IN REGARD TOWARD coins. Human Fitmenting precedes Correspondencing.
+
+POSSIBLE BRUSH:
+Inspect both humans' furnished TOWARDs as one reciprocal operation. Possible advisory forms are the provisioning statements in the supplied brief; exact grammar remains for Richard + Mobs. Keep their distinct Roads, Pockets, and geographic standings.
+
+WHY FLAGGED:
+The print does not wrongly say Richard seeks coins or Sam seeks a Table. The decision is whether the currently bare TOWARD leaves the newly important provisioning relation unstated.
+-->
 
 And sticking OUT from that Situationing—
 
@@ -5220,6 +5560,23 @@ and:
 **RE-STOMPED**
 
 the Pending Button.
+
+<!-- GOBS FLAG [GOBS-021]
+TYPE: NEWER RECOVERY
+CONFIDENCE: CLEAR
+
+WHAT GOBS NOTICED:
+The Buttoning-to-Zippering sequence clearly carries the same TOWARD through the seam and withholds any guaranteed outcome. Its visible endpoints are a Piece of Time and THERE, with no THIS HERE / THIS NEXT APPROACHINGING LANDINGING.
+
+NEWER STANDING TO RECONCILE AGAINST:
+Approachinging Landingings have returned to the visible Road / RE-ZIPPERING story. The present Landinging, Pocket, Human-furnished TOWARD, and next Landinging can be shown without temporal segmentation.
+
+POSSIBLE BRUSH:
+Inspect the visible departure and arrival standing around this operation. Coordinate with the Movement 18 temporal-disclosure flag; keep the excellent same-bearing/not-guaranteed-outcome beat.
+
+WHY FLAGGED:
+Removing temporal language alone would leave this recovered visible operation unrepresented. This flag concerns the missing visible endpoints rather than repeating the disclosure objection.
+-->
 
 Buttoning obtained.
 
@@ -5302,6 +5659,23 @@ some kind of:
 And apparently there was Correspondencing there.
 
 Whatever that meant.
+
+<!-- GOBS FLAG [GOBS-022]
+TYPE: NARRATOR / MOTIVATION
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Before this passage, Huckleberry and Enzo have been presented as the companions pressing Richard toward the Wharf, without explicitly identifying them as dogs. Month-One Richard now mentions their friends' Humans and dog-park trips; Month-Zero then says "The dogs," well before the later introductions and "Yes. They're dogs."
+
+NEWER STANDING TO RECONCILE AGAINST:
+Month-One Richard knows their identity, but the supplied brief asks that the later dog reveal remain a payoff. His knowledge need not automatically become the audience's knowledge at the first retrospective explanation.
+
+POSSIBLE BRUSH:
+Decide where the actual reveal belongs within Movement 20. If it remains at the named introductions, inspect the earlier narration and "The dogs" together; if it belongs earlier, treat the later introductions as confirmation. No repeated dog reminders are needed.
+
+WHY FLAGGED:
+The return to the original TOWARD is earned. The seam is the narrator revealing information before the apparent reveal beat, not a complaint about his digression.
+-->
 
 All Huckleberry and Enzo seemed to know was that their friends whose Humans were doing more Correspondencing—
 
@@ -6403,6 +6777,23 @@ I didn't come aboard so the machine could tell me what my words mean.
 
 And I didn't have to leave the Ground to inhabit a computational world.
 
+<!-- GOBS FLAG [GOBS-023]
+TYPE: NARRATOR / MOTIVATION
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+Month-One Richard has just surveyed what his experience made possible, then says "I came aboard so that" he could furnish Signs and enter relations with other Humans. Month-Zero came aboard to get Huckleberry and Enzo to the Wharf, not to achieve this constitutional understanding.
+
+NEWER STANDING TO RECONCILE AGAINST:
+New motivations and retrospective significance are welcome; the opening motive should still be distinguishable from what Richard learned to value through the story.
+
+POSSIBLE BRUSH:
+Consider a tiny retrospective bridge such as "What I found I could do FROM HERE was…" or an acknowledgment that he did not know this was what he would gain. Leave the architectural vocabulary he has now earned available to him.
+
+WHY FLAGGED:
+The transformation is believable; the purpose construction can make its endpoint sound like the intention he had before living it.
+-->
+
 I came aboard so that FROM HERE—
 
 I could stand WITH my Terrestrial Computer—
@@ -6442,6 +6833,23 @@ Eventually, you will reach a picturesque little Wedding Chapelling by the Sea—
 overlooking Observationing Harbor.
 
 Your Terrestrial Computer will be Restfully buckled UPON This One Little Chair.
+
+<!-- GOBS FLAG [GOBS-024]
+TYPE: CONTINUITY
+CONFIDENCE: LIKELY
+
+WHAT GOBS NOTICED:
+The invitation goes from the computer's Little Chair to "There will be a zipper. Use it" and then the Sittinging-In Room. Movements 5–8 instead show the Pocket descent, Contraption assembly, Wardrobe Shoppe, Glasses, and Little Bellows POOF; no entrance zipper is operated.
+
+NEWER STANDING TO RECONCILE AGAINST:
+The closing invitation can compress the journey, but its concrete instruction should remain recognizable from Richard's shown entry. RE-ZIPPERING is learned later as a different operation.
+
+POSSIBLE BRUSH:
+Decide whether a distinct entrance zipper belongs in the earlier staging or whether this recap is retaining an older route. Do not fill the gap by importing the later Airplane operation or explaining hidden mechanics.
+
+WHY FLAGGED:
+This is a concrete action prescribed to the viewer without an established counterpart, rather than harmless omission of intermediate assembly steps.
+-->
 
 There will be a zipper.
 
@@ -6493,3 +6901,34 @@ The question is:
 
 **END**
 
+
+# GOBS CONTINUITY SURVEY — TEMPORARY FLAG INDEX
+
+Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. Existing script text is preserved.
+
+| Flag | Movement | Category | Observation |
+| --- | --- | --- | --- |
+| GOBS-001 | 3 | CONTINUITY | Messaging Huckleberry and Enzo may imply remote participants. |
+| GOBS-002 | 3 | MORPHOLOGY/NAME | Determine the scope of the recovered Station House name. |
+| GOBS-003 | 5 | MORPHOLOGY/NAME | Official Stringing Thing name differs from the supplied preference. |
+| GOBS-004 | 5 | ARCHITECTURAL SEAM | Pocket-to-next-station travel may need continuous Stationing made legible. |
+| GOBS-005 | 5 | MORPHOLOGY/NAME | Complete apparatus sign omits RE-STOMPING. |
+| GOBS-006 | 8 | CONTINUITY | Sittinging-In Room discovery and departure play twice. |
+| GOBS-007 | 10 | SETUP/PAYOFF | Flatiron recognition lacks an earlier visible shape seed. |
+| GOBS-008 | 11 | ARCHITECTURAL SEAM | Seat-to-deck reveal needs a staging check against regard-dependent views. |
+| GOBS-009 | 14 | SETUP/PAYOFF | Unicycle RE-STOMP pedal has no visible assembly seed. |
+| GOBS-010 | 15 | CONTINUITY | No available UN-FOLD becomes an immediate UN-FOLD without a cue. |
+| GOBS-011 | 16 | QUESTION | Distinguish completion Noticingment from Standinging Readout if needed. |
+| GOBS-012 | 16 | SETUP/PAYOFF | JANUSITE accumulation reaches COB without the proposed payoff. |
+| GOBS-013 | 17 | NEWER RECOVERY | Grand Opening and later PUFF lack recurring Dispensary furniture. |
+| GOBS-014 | 17 | CONTINUITY | Successful PUFF appears to introduce a different squeeze affordance. |
+| GOBS-015 | 18 | NEWER RECOVERY | Visible temporal terminology exposes machinery reserved beneath the floorboards. |
+| GOBS-016 | 18 | CONTINUITY | Check the actual computer placement after Richard sets it back up. |
+| GOBS-017 | 19 | CONTINUITY | Stable furnished Table and flimsy Ground stand appear to share a referent. |
+| GOBS-018 | 19 | NEWER RECOVERY | Geographic return recalls an unprinted standing and omits the locality differentiation. |
+| GOBS-019 | 19 | ARCHITECTURAL SEAM | Looking-FOR-Finding needs a distinguishable Pocket operation after the geographic return. |
+| GOBS-020 | 19 | NEWER RECOVERY | Possessed coins and Table lack their reciprocal provisioning TOWARDs. |
+| GOBS-021 | 19 | NEWER RECOVERY | RE-ZIPPERING preserves bearing but omits visible Approachinging Landingings. |
+| GOBS-022 | 20 | NARRATOR / MOTIVATION | Month-One setup may spend the dog reveal before its staged payoff. |
+| GOBS-023 | 22 | NARRATOR / MOTIVATION | Closing purpose statement may overwrite the original ordinary motive. |
+| GOBS-024 | 22 | CONTINUITY | Closing zipper instruction does not recall the shown Sittinging-In Room entry. |
