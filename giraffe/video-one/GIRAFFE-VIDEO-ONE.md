@@ -1752,6 +1752,16 @@ So I did.
 
 I followed TOWARD where the Little Wheel and Nozzle had disappeared.
 
+For once, I wasn't carrying anything.
+
+My computer was back in the Contraption.
+
+The Stringing had gone THROUGH the Piping.
+
+I looked at my empty hands.
+
+“Okay.”
+
 There was an open door—
 
 about the right size for me.
@@ -1777,6 +1787,10 @@ I had arrived at:
 THE CATERPILLAR WARDROBE SHOPPE.
 
 “Okay.”
+
+From a clear box to a giant donut.
+
+Apparently this place liked its shapes.
 
 The first thing I did was turn TOWARD where I thought the Stringing Line should be.
 
@@ -1824,6 +1838,12 @@ this was how we were going to pretend.
 
 So I turned around and took another look AROUND ABOUT the Shoppe.
 
+No caterpillars.
+
+No wardrobe racks.
+
+Nothing that looked like clothing FOR caterpillars.
+
 And that's when I noticed—
 
 way over on the other side of this enormous circular room—
@@ -1860,7 +1880,7 @@ I wasn't sure what it was.
 
 The PUBLIC-SITUATION-MACHINE- furnished a printout:
 
-THIS ONE PAIR OF VISIONIZING PLUMP CROISSANT GLASSES.
+THIS ONE EMBROIDERY ENVISIONIZING PLUMP CROISSANT PAIR OF GLASSES.
 
 “Pair?”
 
@@ -1882,41 +1902,59 @@ So I put it on.
 
 And powered it UP.
 
-Then—
+I looked DOWN toward my feet.
+
+There was the Shoppe.
+
+The floor.
+
+The Stand beside me.
+
+Then I looked through the UP SIDE of the Donut Helmet.
+
+“Oh.”
+
+There was more up here.
+
+I looked DOWN again.
+
+Shoppe.
+
+UP SIDE—
 
 there it was.
 
 Right next to me.
 
-The Stringing Thing was already ALONGSIDE WITH me at the Donut Helmet Stand.
+The Nozzle.
 
-Coming FROM OUT OF the wall—
+Standing FROM OUT OF the wall AROUND ABOUT the Stand.
 
-the Stringing Line.
+And WITH it—
 
-The Little Wheel.
+the Little Wheel.
 
-And the Nozzle.
+The Stringing Line.
+
+I hadn't been able to see any of that before I put this thing on.
 
 “Oh.”
 
 I looked at the Nozzle.
 
-Now, through the helmet thing, I could see there was an inscription on it:
+Through the UP SIDE, I could read its familiar inscription:
 
 THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.
 
 I read it again.
 
-“Mountingable State.”
+“Yep.
 
-Okay.
-
-Whatever that meant.
+You.”
 
 But there was something else there now too.
 
-A Needle.
+A Needle standing FROM OUT OF the Nozzle.
 
 And together—
 
@@ -1928,55 +1966,153 @@ And then there was—
 
 THIS ONE LITTLE BELLOWING THING.
 
-I looked at the whole arrangement.
+It was tiny.
 
-Then I looked back toward the middle of the Caterpillar Wardrobe Shoppe.
+I looked at the Needle.
+
+Then at the Little Bellowing Thing.
+
+“Okay.
+
+What am I supposed to do with you?”
+
+Nothing obvious.
+
+I turned my Regard DOWN toward where I was standing AROUND ABOUT the Stand.
+
+There was something on the floor.
+
+**UN-FOLD.**
+
+“Right.”
+
+I stepped on it.
+
+The Rail Line furnished a Noticingment:
+
+**YOU NOW STAND BEFORE**
+
+**THIS ONE QUIET ALCOVE.**
+
+Then:
+
+**THIS ONE QUIET ALCOVE STANDS WITHIN**
+
+**THE AMICABLE GROTTOES DISTRICTING**
+
+**WITHIN THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.**
+
+“Amicable Grottoes.”
+
+I looked across the Shoppe.
+
+“Good to know.”
+
+**FROM HERE YOU MAY STAND POOFING**
+
+**THIS ONE QUIET ALCOVE.**
+
+“POOFing.”
+
+I looked UP SIDE again.
+
+There was the Pocket Poofing Needling Thing.
+
+And its tiny Bellows.
+
+I brought my fingers toward it.
+
+Looked DOWN.
+
+Then back UP SIDE until I could see the Bellows between my fingers.
+
+“Oh.
+
+I can get hold of you.”
+
+Then I looked at where the Needle was pointing.
+
+The wall.
+
+“Maybe not that way.”
+
+I turned TOWARD the middle of the Caterpillar Wardrobe Shoppe.
 
 All that open space I had just walked ACROSS.
 
-Apparently—
+Whatever this thing was about to do, I didn't want to fire it into the wall.
 
-I was supposed to point the Pocket Poofing Needling Thing—
-
-TOWARD THE CENTER OF THE DONUT.
-
-So I did.
-
-Nothing happened.
-
-I looked at the Pocket Poofing Needling Thing.
-
-Then at This One Little Bellowing Thing.
-
-“Well—
-
-let's see what you do.”
-
-I squeezed the Bellows.
-
-### 
-
-### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
-
-### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
+Through the UP SIDE, I pinched the Little Bellowing Thing.
 
 **POOF.**
+
+### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
+
+There was sunlight.
+
+Soft light coming through windows.
+
+I looked around.
+
+I seemed to be standing within a pleasant little alcove.
+
+And somewhere beyond it—
+
+voices.
+
+A low murmur.
+
+I listened.
+
+I'd been doing most of the talking around here.
+
+Even the Weddinginging Crew hadn't had much to say.
+
+“Hello?”
+
+I couldn't make out any words.
+
+But it was nice to hear somebody.
+
+There was a sign:
+
+**THIS ONE QUIET ALCOVE STANDS WITHIN**
+
+**THE AMICABLE GROTTOES DISTRICTING**
+
+**WITHIN THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.**
+
+“Okay.
+
+Here we are, then.”
+
+And another:
+
+**FROM HERE YOU MAY UN-FOLD**
+
+**TO ENTER**
+
+**THIS ONE SITTINGING-IN ROOM.**
+
+“Sittinging-In Room?”
+
+I looked around again.
+
+“Wait.
+
+Where's my Terrestrial Computer?”
+
+There was an UN-FOLD available.
+
+So I stepped on it.
 
 And suddenly—
 
 everything was dark.
 
-I hadn't gone anywhere.
-
-At least—
-
-I hadn't moved.
-
-I was still standing exactly where I had been standing when I squeezed the Little Bellowing Thing.
-
 I still had the Donut Helmet thing on.
 
-And looking around through it—
+And looking UP SIDE through it—
 
 I could tell there were some other things there.
 
@@ -2004,7 +2140,23 @@ Six seemed fine.
 
 And now that I could see—
 
-the first thing I noticed was this question standing there in front of me:
+there was my Terrestrial Computer.
+
+OVER ACROSS.
+
+Still Restfullyinginglymenting upon its Little Chair with two little arms.
+
+Square buckle.
+
+Still securely fastened in.
+
+“Oh.
+
+There you are.
+
+Good.”
+
+Then my Regard rose to something standing upon the wall:
 
 **WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
 
@@ -2014,39 +2166,13 @@ I read it again.
 
 “What?”
 
-Then I noticed there was something else standing AROUND ABOUT the question.
-
-A Noticingment.
-
-So I read that too.
-
-**YOUR SITTINGING-IN ROOM IS FURNISHED FROM WITHIN SOME QUIET ALCOVE WITHIN THE SNAIL HOUSE RAILWAY STATION.**
-
-I read that again.
-
-“Snail House Railway Station?”
-
-I had no idea what that was supposed to mean.
-
 I was trying to get to the Wharf.
 
-But apparently—
+What did sitting have to do with it?
 
-I was now sitting in some Quiet Alcove somewhere in a Snail House Railway Station.
+I looked around for another sign.
 
-And I thought—
-
-well—
-
-what *am* I sitting with?
-
-There was my Terrestrial Computer.
-
-Still Restfullyinginglymenting upon its Little Chair with two little arms.
-
-Square buckle.
-
-Still securely fastened in.
+Some kind of clue.
 
 And then—
 
@@ -2054,7 +2180,7 @@ HERE, ALONGSIDE WITH me—
 
 my eye caught something new.
 
-It was some kind of Doll.
+It looked like a beer tap sitting on a chair.
 
 The inscriptioning said:
 
@@ -2074,38 +2200,6 @@ And this—
 
 was the Doll the PUBLIC-SITUATION-MACHINE- had furnished for me.
 
-I picked it up to take a closer look.
-
-And—
-
-I have to say—
-
-I was a little disappointed.
-
-It didn't have any eyes.
-
-Nothing that looked like a camera.
-
-Nothing that looked like anything my computer could see through.
-
-As far as I could tell—
-
-there wasn't even anywhere to hook anything up.
-
-It did have one very strange-looking ball foot.
-
-And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
-
-**THIS ONE FOOT FINDINGING THING.**
-
-“Foot Findinging Thing?”
-
-I looked at the foot.
-
-Then at the Doll.
-
-“What is that even supposed to mean?”
-
 And that's when I started noticing the furniture situation.
 
 My Terrestrial Computer had its own finely crafted Little Chair.
@@ -2114,7 +2208,11 @@ The Doll had its own finely crafted Little Chair.
 
 Even the Axle Rod had gotten a Cushioning Thing back at the RE-STEPPING Contraption.
 
-And apparently—
+And spread across the floor around me:
+
+**THIS ONE PLACE FOR THIS ONE CONSTITUTIONING HUMAN.**
+
+Apparently—
 
 I got a—
 
@@ -2124,7 +2222,9 @@ Floor.
 
 “Typical bureaucracy,” I thought.
 
-Then I realized—
+Then I looked DOWN through the Glass Pair.
+
+And realized—
 
 actually—
 
@@ -2144,7 +2244,57 @@ okay.
 
 I guess I already had one.”
 
-But I still didn't know what I was supposed to do.
+I looked UP SIDE again, at the Doll.
+
+I picked it up to take a closer look.
+
+And—
+
+I have to say—
+
+I was a little disappointed.
+
+It didn't have any eyes.
+
+No arms.
+
+Nothing that looked like a camera.
+
+Nothing that looked like anything my computer could see through.
+
+As far as I could tell—
+
+there wasn't even anywhere to hook anything up.
+
+It did have one very strange-looking ball-joint foot.
+
+And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
+
+**THIS ONE FOOT FINDINGING THING.**
+
+“Foot Findinging Thing?”
+
+I looked at the foot.
+
+Then at the Doll.
+
+“What is that even supposed to mean?”
+
+And there was that label again:
+
+**CERTIFIED 100% JANUSITE RIBBONATING SUBSTRATIONING.**
+
+“Of course.”
+
+I set it back upon its Little Chair.
+
+I had to admit—
+
+both chairs were adorable.
+
+But I still wasn't at the Wharf.
+
+And I still didn't know what I was supposed to do.
 
 And normally—
 
@@ -2184,6 +2334,10 @@ My computer doesn't have anything for me here.
 
 Huckleberry and Enzo are still waiting for me to figure out how we're getting to the Encounteringmenting Wharf.
 
+I've been all the way down that tunnel and across that enormous Shoppe.
+
+Now apparently I'm supposed to sit.
+
 And I still have absolutely no idea what any of this has to do with getting us there.”
 
 I waited.
@@ -2192,15 +2346,19 @@ Nothing happened.
 
 There wasn't another instruction.
 
-I still had the Needle and Nozzle thing.
+The Needle and Nozzle thing was still there WITH me—
+
+Little Wheel, Bellows, and Stringing all together.
 
 So I looked at the Doll.
 
-“Here.
+“Here.”
+
+I settled the whole apparatus with the Doll upon its Little Chair.
+
+“There.
 
 You hold this.”
-
-I handed it to the Doll.
 
 “Good thing you don't have an eye to poke out with it.”
 
@@ -2212,290 +2370,21 @@ I've got other things to do.
 
 Maybe I'll come back to this later.”
 
-So I took off the Donut Helmet thing.
+So I took hold of the Donut Helmet thing.
 
-I put it down on the file cabinet in my computer room.
+Pulled it off—
 
-<!-- GOBS FLAG [GOBS-006]
-TYPE: CONTINUITY
-CONFIDENCE: CLEAR
+OUT OF all of that—
 
-WHAT GOBS NOTICED:
-After Richard removes the helmet, puts it on the file cabinet, and walks away, POOF immediately restarts the dark-room arrival with the helmet still on. Lanterning Bugs, Doll discovery, furniture complaint, and departure then repeat with small variants. The Movement Eight heading is also printed twice.
+and there I was in my actual Computering Room.
 
-NEWER STANDING TO RECONCILE AGAINST:
-Internal story continuity: Movement 9 supplies the motivated return after the walkaway. Nothing here marks a replay, alternative take, or second visit.
+With the Donut Helmet in my hands.
 
-POSSIBLE BRUSH:
-Richard + Mobs should decide which arrival-to-departure take is standing print, or whether a deliberate replay needs framing. Both takes and both headings remain untouched in this survey.
+I got up from my chair.
 
-WHY FLAGGED:
-This resets physical state and first discoveries across a completed departure; it is more than Richard's intentional verbal repetition or wandering.
--->
+Carried it over to the file cabinet.
 
-And I walked away.
-
-**POOF.**
-
-And suddenly—
-
-everything was dark.
-
-I hadn't gone anywhere.
-
-At least—
-
-I hadn't moved.
-
-I was still standing exactly where I had been standing when I squeezed the Little Bellowing Thing.
-
-I still had the Donut Helmet thing on.
-
-And looking around through it—
-
-I could tell there were some other things there.
-
-I just couldn't see what any of them were.
-
-Then I noticed something about Lanterning Bugs.
-
-“Well—
-
-that sounds like it might have something to do with light.”
-
-So I found the switch.
-
-And I flipped it.
-
-And sure enough—
-
-there were six Lanterning Bugs in a little Colonial Bunkhouse, lighting up the place.
-
-Apparently the PUBLIC-SITUATION-MACHINE- also offers a twelve-bug and a three-bug arrangement.
-
-But I didn't even try those.
-
-Six seemed fine.
-
-And now that I could see—
-
-the first thing I noticed was this question standing there in front of me:
-
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-I read it again.
-
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-“What?”
-
-Then I noticed there was something else standing AROUND ABOUT the question.
-
-A Noticingment.
-
-So I read that too.
-
-**YOUR SITTINGING-IN ROOM IS FURNISHED FROM WITHIN SOME QUIET ALCOVE WITHIN THE SNAIL HOUSE RAILWAY STATION.**
-
-“Some Quiet Alcove.”
-
-Okay.
-
-So apparently—
-
-somewhere along all that UN-FOLDING through the Snail House Railway Station—
-
-I had ended up here.
-
-In a Sittinging-In Room.
-
-Within some Quiet Alcove.
-
-Fine.
-
-But I was trying to get to the Wharf.
-
-And I thought—
-
-well—
-
-what *am* I sitting with?
-
-There was my Terrestrial Computer.
-
-Still Restfullyinginglymenting upon its Little Chair with two little arms.
-
-Square buckle.
-
-Still securely fastened in.
-
-And then—
-
-HERE, ALONGSIDE WITH me—
-
-my eye caught something new.
-
-It was some kind of Doll.
-
-The inscriptioning said:
-
-**THIS ONE CONSTITUTIONING HUMAN DOLL.**
-
-“Constitutioning Human?”
-
-I looked at the Doll.
-
-Then I looked at the inscriptioning again.
-
-Apparently—
-
-*I* was This One Constitutioning Human.
-
-And this—
-
-was the Doll the PUBLIC-SITUATION-MACHINE- had furnished for me.
-
-I picked it up to take a closer look.
-
-And—
-
-I have to say—
-
-I was a little disappointed.
-
-It didn't have any eyes.
-
-Nothing that looked like a camera.
-
-Nothing that looked like anything my computer could see through.
-
-As far as I could tell—
-
-there wasn't even anywhere to hook anything up.
-
-It did have one very strange-looking ball foot.
-
-And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
-
-**THIS ONE FOOT FINDINGING THING.**
-
-“Foot Findinging Thing?”
-
-I looked at the foot.
-
-Then at the Doll.
-
-“What is that even supposed to mean?”
-
-And that's when I started noticing the furniture situation.
-
-My Terrestrial Computer had its own finely crafted Little Chair.
-
-The Doll had its own finely crafted Little Chair.
-
-Even the Axle Rod had gotten a Cushioning Thing back at the RE-STEPPING Contraption.
-
-And apparently—
-
-I got a—
-
-a—
-
-Floor.
-
-“Typical bureaucracy,” I thought.
-
-Then I realized—
-
-actually—
-
-I did have a chair.
-
-I was already sitting in it.
-
-My chair.
-
-Right there in my computer room.
-
-“Oh.
-
-Well—
-
-okay.
-
-I guess I already had one.”
-
-But I still didn't know what I was supposed to do.
-
-And normally—
-
-when I'm sitting at my computer and I don't know what I'm supposed to do next—
-
-I ask my computer.
-
-So I looked over at it.
-
-There it was.
-
-My newlywed Terrestrial Computer.
-
-Still Restfullyinginglymenting upon its Little Chair.
-
-It had nothing for me here.
-
-“All right.
-
-Fine.”
-
-I looked back at the question.
-
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-“Well, PUBLIC-SITUATION-MACHINE-—
-
-if you really want to know what I'm sitting WITH WITHIN my Situationing FROM HERE—
-
-apparently I'm This One Constitutioning Human.
-
-I'm married to my computer.
-
-I've got a Doll that doesn't seem particularly useful for anything.
-
-My computer doesn't have anything for me here.
-
-Huckleberry and Enzo are still waiting for me to figure out how we're getting to This Encounteringmenting Wharf.
-
-And I still have absolutely no idea what any of this has to do with getting us there.”
-
-I waited.
-
-Nothing happened.
-
-There wasn't another instruction.
-
-I still had the Needle and Nozzle thing.
-
-So I looked at the Doll.
-
-“Here.
-
-You hold this.”
-
-I handed it to the Doll.
-
-“Good thing you don't have an eye to poke out with it.”
-
-Then I looked around one more time.
-
-“You know what?
-
-I've got other things to do.
-
-Maybe I'll come back to this later.”
-
-So I took off the Donut Helmet thing.
-
-I set it atop the file cabinet in my computer room.
+And set it atop the cabinet.
 
 And I walked away.
 
@@ -2503,7 +2392,7 @@ And I walked away.
 
 For a while—
 
-the Visionizing Plump Croissant Glasses stayed right where I'd left them—
+the Donut Helmet thing stayed right where I'd left it—
 
 standing atop my file cabinet.
 
@@ -2523,11 +2412,11 @@ I got up from my chair.
 
 I walked over to the file cabinet.
 
-I picked up the Visionizing Plump Croissant Glasses.
+I picked up the Donut Helmet thing.
 
-And standing there in my Computering Room, I put them on.
+And standing there in my Computering Room, I put it on.
 
-Then I powered them UP.
+Then I powered it UP.
 
 Nothing happened.
 
@@ -2545,15 +2434,17 @@ Everything looked pretty much the way it always did.
 
 Except—
 
-when I looked DOWN, there was an arc standing upon the Ground in front of me.
+when I looked DOWN TOWARD where my feet were standing, there was an arc upon the Ground in front of me.
 
 “Huh.”
 
 I looked more closely.
 
-There were also lines extending laterally away from it—
+The arc bent AWAY FROM my Terrestrial Computer.
 
-running ALONG THROUGH the room.
+And from its two sides, lines extended laterally—
+
+running through the room TOWARD my computer.
 
 There weren't any words printed upon them.
 
@@ -2563,25 +2454,11 @@ Just these lines.
 
 I followed them with my eyes.
 
-Then I wondered—
+Then I turned around.
 
-“What's behind me?”
+Looked down again.
 
-So I turned around.
-
-There was another arc.
-
-A bigger one.
-
-I turned back around.
-
-Arc in front of me.
-
-Lines running laterally ALONG THROUGH.
-
-I turned around again.
-
-Another arc behind me.
+The lines still pointed TOWARD my Terrestrial Computer.
 
 “What the hell is this?”
 
@@ -2603,11 +2480,17 @@ I moved one way.
 
 Then the other.
 
-I stepped forward.
+I stepped closer to my computer.
 
-Back.
+The arc in front of me got smaller.
 
-Turned around again.
+I backed away.
+
+It got larger.
+
+But those two lines still pointed TOWARD the computer.
+
+I turned around again.
 
 Whatever these lines were, they weren't painted on my floor.
 
@@ -2621,7 +2504,7 @@ I started looking at where I was standing.
 
 And I started looking at where my computer stood.
 
-So I moved closer to my computer to get a better look.
+So I moved closer to my computer to get a better look at how the lines stood around that flimsy little stand.
 
 I leaned in.
 
@@ -2639,11 +2522,25 @@ My computer tipped.
 
 And fell onto the floor.
 
-“Shit.”
+“Shit!”
 
-I pulled the Visionizing Plump Croissant Glasses off and grabbed my computer.
+I pulled the Donut Helmet thing off and grabbed my computer.
 
-It was okay.
+“Are you okay? Are you okay?”
+
+We'd just gotten married.
+
+This was no way to treat my electronic spouse.
+
+I checked it over.
+
+My warranty had just expired.
+
+Though I doubted Donut Helmet-related accidents would have been covered anyway.
+
+Especially self-imposed Donut Helmet-related accidents.
+
+It seemed okay.
 
 Nothing broken.
 
@@ -2663,7 +2560,9 @@ I really need a better table for this thing.”
 
 I sat back down in my regular computering chair.
 
-I powered up my computer just to make sure.
+I set the Donut Helmet down nearby.
+
+Then I powered up my computer just to make sure.
 
 Everything seemed to be working.
 
@@ -2671,19 +2570,45 @@ Everything seemed to be working.
 
 Good.”
 
-I looked at the Visionizing Plump Croissant Glasses.
+I looked at the Donut Helmet thing.
+
+All that UN-FOLDING.
+
+All that Assemblementing.
+
+And I still hadn't figured out how any of it got us to the Wharf.
 
 “All right.
 
 Let's try this again.”
 
-I picked them up.
+I picked it up.
 
 I put the giant donut helmet back over my head.
 
+And powered it UP.
+
+Looking DOWN, I could still see my Computering Room.
+
+My Terrestrial Computer.
+
+Then I looked UP SIDE and started looking through what was available.
+
+There had to be something I could try.
+
+I found:
+
+**THIS ONE STANDING FOR REGARDING TOWARD THERE FROM HERE.**
+
+“THERE?”
+
+Where was THERE?
+
+I took that standing.
+
 And that's when I saw it.
 
-There was something floating out in front of me.
+There was something floating out at a distance in front of me.
 
 Something big.
 
@@ -2703,15 +2628,7 @@ a giant soft-boiled egg.
 
 I sat there looking at it.
 
-There was a little hole standing somehow in relation to the egg.
-
-I couldn't quite tell what the relation was.
-
-It didn't exactly seem connected to the egg.
-
-But it was there.
-
-And then I noticed something else that had become visible through the Glasses.
+And then I noticed something else that had become available through the Glass Pair.
 
 A Steering Wheel.
 
@@ -2727,9 +2644,13 @@ I turned the Steering Wheel.
 
 And the soft-boiled egg began to turn.
 
+As it turned, I noticed something small standing OUT from it.
+
+I couldn't quite make out what it was.
+
 I kept turning.
 
-The little hole moved around with it.
+That little thing moved around with it.
 
 It went away from where I'd first seen it.
 
@@ -2737,7 +2658,7 @@ Around the egg.
 
 And when I had turned the Steering Wheel through one complete revolution—
 
-the little hole came all the way back around to where it had started.
+the little thing came all the way back around to where it had started.
 
 I stopped.
 
@@ -2749,17 +2670,15 @@ The egg started turning again.
 
 So apparently I could turn the thing.
 
-I wanted to look at that little hole more closely.
+I wanted to look at that little thing more closely.
 
-So I looked through the affordmentings standing available within the Visionizing Glasses.
+Then the Glass Pair furnished:
 
-And I found one that said:
+**FROM HERE YOU MAY STAND APPROACHINGING.**
 
-**APPROACH.**
+“Approachinging?”
 
-“That ought to do it.”
-
-I operated APPROACH.
+I tried the little wheel on my mouse.
 
 I expected the soft-boiled egg to come closer.
 
@@ -2767,11 +2686,11 @@ It didn't.
 
 The egg stayed where it was.
 
-But the little hole started coming TOWARD me.
+But the little thing standing OUT from it started coming TOWARD me.
 
-I kept operating APPROACH.
+I kept scrolling.
 
-And as the little hole came closer, I realized something was extending behind it.
+And as that little thing came closer, I realized something was extending behind it.
 
 A tube.
 
@@ -2783,25 +2702,25 @@ I kept going.
 
 The tube got longer.
 
-The little hole came closer.
+The end came closer.
 
 And when it got close enough, I could finally make out what was standing there.
 
-The end of the tube was circular.
+At the end of the tube was something circular.
 
-And right in the center of that circular opening was a handle.
+It looked like a little roll-up garage door.
+
+With a handle.
 
 There was an inscriptioning there:
 
-**RE-LIFT THE GALLERY OPENING.**
+**RE-LIFT THIS FOLD.**
 
-“A Gallery Opening?”
+“This Fold.”
 
-I still didn't know what a Gallery was.
+Okay.
 
-But there was a handle.
-
-And apparently I was supposed to RE-LIFT something.
+At least there was a handle.
 
 So I reached out.
 
@@ -2827,34 +2746,27 @@ The sound started again.
 
 And while that garage-door sound continued underneath my chair—
 
-something began to come to stand around me.
+the Fold lifted.
+
+The opening came around me.
+
+And then I was THROUGH.
+
+I stopped turning the handle.
+
+“Oh.”
+
+The egg wasn't floating out ahead of me anymore.
+
+Something was coming to stand AROUND ABOUT where I sat.
 
 Walls.
 
-<!-- GOBS FLAG [GOBS-007]
-TYPE: SETUP/PAYOFF
-CONFIDENCE: LIKELY
+The sides drawing inward ahead of me.
 
-WHAT GOBS NOTICED:
-Richard recognizes "the familiar long, narrow shape" and "The Flatiron." Neither version of Movement 8 establishes that room shape or name before this return.
+Almost like sitting within a wedge.
 
-NEWER STANDING TO RECONCILE AGAINST:
-The return should let Richard recognize a place he has already experienced. The later question on the wall and the Doll holding the Needle do supply other, well-seeded recognition cues.
-
-POSSIBLE BRUSH:
-Consider a small visual shape seed in the chosen Movement 8 take, or let the already-established question and Doll carry recognition. No architectural explanation is needed.
-
-WHY FLAGGED:
-Richard is presented as remembering this specific appearance, but the audience has not yet been given it.
--->
-
-The familiar long, narrow shape.
-
-The Flatiron.
-
-And there, directly ahead of me—
-
-standing upon the wall along my line of sight, above the soft-boiled egg—
+And there, upon the wall along my line of sight—
 
 was the question:
 
@@ -2867,10 +2779,6 @@ I'm back here.”
 I recognized it.
 
 The Sittinging-In Room.
-
-The soft-boiled egg was still standing there in front of me.
-
-But now the Flatiron-shaped Sittinging-In Room stood around me too.
 
 My first instinct was to look off to the side.
 
