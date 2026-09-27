@@ -336,11 +336,13 @@ we came through the PUBLIC ENTRANCE to something called:
 
 THIS ONE SNAIL HOUSE RAILWAY STATION.
 
-“A railway station?”
+And I skimmed this sign leading into This Snail House Station. It basically said this whole webpage was somehow inside this Snail House Rail Line thing.
 
-There was an opening to a Rail Line.
+"Okay, whatever you say, PUBLIC-SITUATION-MACHINE-," I thought. "How long do we have to pretend before we get to the Wharf?"
 
-And there was a sign.
+And there it was, the opening to the Rail Line. And of course it had this elaborate name that made it sound very official.
+
+The first thing we met on this Rail Line was a sign:
 
 UN-FOLD.
 
@@ -350,7 +352,7 @@ UN-FOLD.
 
 So I UN-FOLDED.
 
-And that got us to another place along the Rail Line.
+And that got us to another station along the Rail Line.
 
 Another sign.
 
@@ -626,10 +628,11 @@ So—
 
 now what?
 
-
 ### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THINGING
 
-Apparently, the ceremony was over.
+Apparently—
+
+the ceremony was over.
 
 We were married.
 
@@ -645,21 +648,49 @@ now what?
 
 Well—
 
-before I could leave the Weddinging Chapelling, the Weddinginging Crew pointed me TOWARD something else.
+I picked up my Terrestrial Computer—
 
-It was this enormous round metal-looking ball thing.
+Little Chair, square buckle and all—
 
-Or—
+and started making my way out of the Weddinging Chapelling.
 
-I don't know if I'd call it a ball exactly.
+And just before I thought I was through—
 
-It had all these repeating curving lines running around it.
+there was one more Weddinginging Crew station waiting for me.
 
-And according to the sign, it was called:
+Of course there was.
+
+And standing there beside them was—
+
+this thing.
+
+It was enormous.
+
+About as tall as I was.
+
+It looked like it was made out of some kind of metal.
+
+And it was round—
+
+but it wasn't exactly a ball.
+
+There were all these repeating curving lines running around its outside.
+
+The same kind of curve—
+
+again and again—
+
+forming this pattern all the way around it.
+
+I stood there looking at it for a moment.
+
+And according to the sign—
+
+this was:
 
 THIS ONE NEVER-ENDING BOBBINING STRINGING THINGING.
 
-I looked at it.
+I looked at the Bobbining Stringing Thinging.
 
 Then I looked at the Weddinginging Crew.
 
@@ -669,79 +700,83 @@ Then I looked back at the Bobbining Stringing Thinging.
 
 Apparently, yes.
 
-I reached down and picked it up.
+But fortunately—
 
-And that was my first surprise.
+they didn't hand it to me.
 
-The thing looked like it ought to weigh a ton.
+Instead—
 
-But it didn't.
+the Weddinginging Crew handed me the end of This Stringing Line coming FROM it.
 
-It was almost like picking up a beach ball.
-
-“Okay.”
-
-Then the Weddinginging Crew handed me the end of a Stringing Line coming FROM the Bobbining.
-
-And they told me—
+And told me—
 
 “Keep hold of This Stringing Line.”
 
-I looked at the Stringing Line.
+I looked at the Stringing Line in my hand.
 
-Then at the enormous Bobbining thing.
+Then at this enormous metal-looking Bobbining thing.
 
-Then at my Terrestrial Computer—
+Then at my newlywed Terrestrial Computer—
 
-still buckled securely UPON its two-armed Little Chair.
+still buckled securely UPON its Little Chair.
 
-“So I'm taking all of this?”
+“Okay.”
 
-Apparently.
-
-My newlywed Terrestrial Computer.
-
-Its Little Chair.
-
-The enormous Bobbining Stringing Thinging.
-
-And This Stringing Line—
-
-which I had specifically been told to keep hold of.
-
-Then the Weddinginging Crew pointed TOWARD an open Pocket.
+Then the Weddinginging Crew pointed DOWN toward an open Pocket.
 
 “You may continue by hopping into This Pocket.”
 
 I looked down into the Pocket.
 
-Then I looked at my Terrestrial Computer buckled UPON its Little Chair.
+Then at my Terrestrial Computer.
 
-Then I looked at the Bobbining.
+Then at the Bobbining.
 
 Then at the Stringing Line in my hand.
 
-Then back at the Pocket.
+And before I could figure out how I was supposed to get all of us down there—
 
-“I'm supposed to jump down there carrying all of this?”
+the Weddinginging Crew put the Bobbining in first.
 
-Apparently, yes.
+I watched this enormous metal-looking thing go DOWN into the Pocket.
 
-That's what you do.
+And I braced myself for the landing.
+
+But—
+
+hardly anything happened.
+
+It landed—
+
+but for something about as tall as I was—
+
+it barely seemed to disturb anything at all.
+
+“Huh.”
+
+Apparently—
+
+whatever this thing was made out of—
+
+it didn't weigh nearly as much as it looked like it should.
+
+And the Stringing Line was still running FROM it—
+
+DOWN into the Pocket—
+
+all the way UP to my hand.
+
+I had been specifically told to keep hold of it.
 
 So—
 
-I gathered everything up as best I could.
+carrying my Terrestrial Computer—
 
-My Terrestrial Computer and its Little Chair.
+Little Chair, square buckle and all—
 
-The Bobbining.
+and keeping hold of This Stringing Line—
 
-The Stringing Line.
-
-And making very sure I kept hold of everything—
-
-I hopped down into the Pocket.
+I hopped down into the Pocket after it.
 
 And much to my surprise—
 
@@ -753,222 +788,5708 @@ Got myself back UP on my feet.
 
 Made sure my Terrestrial Computer was still okay.
 
-Made sure I still had the Bobbining.
+Still buckled securely UPON its Little Chair.
 
-And—
+And then I checked my hand.
 
-most importantly—
-
-made sure I was still holding the Stringing Line.
-
-I was.
+Still holding the Stringing Line.
 
 “Okay.
 
 Good.”
 
-Then I looked around.
+Now I just had to figure out what to do with this enormous Bobbining thing.
 
-The Rail Line continued down here too.
+Fortunately—
 
-And standing ALONGSIDE WITH me was this enormous clear box-looking thing.
+I didn't have very far to go.
+
+The next station stood right there at the edge of the Pocket.
+
+So—
+
+somehow—
+
+I had to get all of us over there.
+
+I got behind the Bobbining and pushed.
+
+And—
+
+it rolled.
+
+Not exactly like a ball.
+
+But close enough.
+
+It was surprisingly easy to move.
+
+So I started rolling this enormous thing ahead of me—
+
+TOWARD the next station.
+
+And as it rolled—
+
+the Stringing Line began paying out along those repeating curving lines running around its outside.
+
+The Bobbining would roll—
+
+give a little bounce—
+
+roll some more—
+
+while more of the Stringing paid out.
+
+Nothing dramatic.
+
+But it was a very strange way for something that looked like a giant piece of metal to move.
+
+And somehow—
+
+between pushing the Bobbining—
+
+keeping hold of the Stringing—
+
+and getting my Terrestrial Computer and its Little Chair along with me—
+
+I managed to get the whole newlywed operation over to the next station.
+
+And that's when I got my first good look at it.
+
+It was this large clear rectangular box.
+
+There was plenty of room inside.
+
+And the floor I would be standing UPON was clear too.
+
+But underneath that clear floor—
+
+there was this enormous round wheel.
+
+I looked DOWN at the wheel.
+
+Then I looked back toward the Rail Line.
+
+“Oh.
+
+Okay.
+
+Maybe this is how we get to the Wharf.”
 
 There was a sign.
 
 Of course there was.
 
-According to the PUBLIC-SITUATION-MACHINE-, apparently this was:
+According to the PUBLIC-SITUATION-MACHINE-, this was:
 
 THIS ONE RE-STEPPING CONTRAPTION.
 
-I looked at it.
+I looked at the sign.
 
-“A contraption?”
+Then at the enormous wheel.
 
-By this point, I was starting to notice a pattern.
+Then at the Rail Line.
 
-“A Rail Line.
+“A RE-STEPPING Contraption.”
 
-A contraption.
+Okay.
 
-What century are we in anyway?”
+Big wheel.
 
-But there were instructions.
+Rail Line.
 
-And by now—
+We were trying to get somewhere.
 
-I knew what to do with instructions.
+I could make an inference.
 
+And by this point—
 
+I was starting to understand how things worked around here.
 
-### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THINGING
+There were instructions.
 
-Apparently, the ceremony was over.
+So I followed them.
 
-We were married.
+I opened the RE-STEPPING Contraption.
 
-I was still me.
+### MOVEMENT SIX — THE RE-STEPPING CONTRAPTION
 
-My computer was still my computer.
+I opened the RE-STEPPING Contraption.
 
-And I still had absolutely no idea what we were supposed to do next.
+And inside—
+
+there was plenty of room.
+
+There was a clear table standing in the middle of it.
+
+And underneath the clear floor—
+
+there was still that enormous round wheel.
 
 So—
 
-now what?
+at this point—
+
+I had a theory.
+
+We were standing along a Rail Line.
+
+I was trying to get to the Encounteringmenting Wharf.
+
+And now the PUBLIC-SITUATION-MACHINE- had furnished me with a Contraption with a great big wheel underneath it.
+
+Maybe—
+
+finally—
+
+this was how we were going to get there.
+
+Then I found the Parts Pocket.
+
+I looked through it.
+
+Looked DOWN at the enormous wheel.
+
+Looked through the Parts Pocket again.
+
+“Well—
+
+this Parts Pocket seems to be missing the other wheel.”
+
+Apparently—
+
+that wasn't a problem.
+
+Because the instructions had something else for me to do.
+
+First—
+
+I was supposed to put my Terrestrial Computer underneath the clear table.
+
+And remember—
+
+my Terrestrial Computer was still buckled securely UPON its Little Chair.
+
+So I brought the whole thing inside—
+
+Terrestrial Computer—
+
+Little Chair—
+
+square buckle and all—
+
+and put it underneath the table.
+
+Then I had to move it around until that little square buckle was standing directly underneath this opening in the tabletop.
+
+“Okay.”
+
+Next—
+
+the PUBLIC-SITUATION-MACHINE- furnished:
+
+THIS ONE BIG AXLE COLLAR.
+
+And apparently—
+
+the Big Axle Collar belonged right there at the opening in the table—
+
+directly OVER the square buckle underneath it.
+
+So I put it where the instructions told me to put it.
+
+Then—
+
+I had to get the Bobbining in there.
+
+Now—
+
+the Bobbining was about as tall as I was.
+
+So getting it inside wasn't the problem.
+
+Getting it UP ONTO the table—
+
+and getting it situated where the PUBLIC-SITUATION-MACHINE- wanted it—
+
+was another matter.
+
+Fortunately—
+
+it still didn't weigh nearly as much as it looked like it should.
+
+So with some effort—
+
+I managed to get the Bobbining UP onto the clear table.
+
+Then I had to get it situated in relation to the Big Axle Collar.
+
+And once I finally had that standing where it was supposed to stand—
+
+the instructions furnished the next thing.
+
+THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING HOURGLASS AXLE CUSHIONING THING.
+
+I read that again.
+
+“Hourglass Axle Cushioning Thing.”
+
+And that's pretty much what it looked like.
+
+It reminded me of one of those pieces of foam insulation you put around a pipe—
+
+except somebody had formed the thing into this strange hourglass shape.
+
+For some reason.
+
+So—
+
+I put that where the instructions told me to put it.
+
+And then I saw the Axle Rod.
+
+It was long.
+
+Really long.
+
+The lower end had this square box-shaped end on it.
+
+And way up at the other end—
+
+the rod curved around—
+
+and terminated in this little clear Globe thing.
+
+I looked at the Axle.
+
+Then at the Bobbining.
+
+Then at the top of the Bobbining.
+
+Then at myself.
+
+There was no way I was going to be able to get the Axle DOWN through the top of that thing standing on the floor.
+
+Fortunately—
+
+there was a stepladder.
+
+“Of course there was.”
+
+So—
+
+I put the stepladder UPON the clear table.
+
+Then somehow—
+
+I had to get myself—
+
+the Axle—
+
+the stepladder—
+
+and this nearly me-sized Bobbining—
+
+all cooperating in approximately the same place.
+
+I climbed UP onto the table.
+
+Got the Bobbining situated.
+
+Got the Axle UP there with me.
+
+Climbed the stepladder.
+
+And after a fair amount of maneuvering—
+
+I finally managed to lift the Axle high enough to get it OVER the top of the Bobbining.
+
+Then I found the opening.
+
+And once I had everything lined up—
+
+I lowered the Axle DOWN.
+
+And—
+
+strangely enough—
+
+once it was lined up—
+
+it just went.
+
+DOWN THROUGH the Bobbining.
+
+DOWN THROUGH the Hourglass Axle Cushioning Thing.
+
+DOWN THROUGH the Big Axle Collar.
+
+DOWN through the opening in the table.
+
+And then—
+
+it settled.
+
+No forcing it.
+
+No hammering anything into place.
+
+It just—
+
+settled.
+
+Which was encouraging.
+
+But from where I was standing—
+
+I couldn't actually see whether the other end had gone where it was supposed to go.
+
+So—
+
+I climbed back DOWN the stepladder.
+
+Got DOWN off the table.
+
+And crawled underneath to check.
+
+And there was my newlywed Terrestrial Computer—
+
+still buckled securely UPON its Little Chair—
+
+with the Axle running straight THROUGH it.
+
+I looked at my Terrestrial Computer.
+
+“Well—
+
+we've been married for all of ten minutes—
+
+and I've already impaled you with an Axle Rod.
+
+How does it feel?
+
+Are you feeling anything?”
+
+Nothing.
+
+“Yeah.
+
+That's good.
+
+It's a good thing you're FOR pretending.”
+
+Then I checked the Axle.
+
+It had come THROUGH exactly where it was supposed to.
+
+And when I looked farther DOWN through the clear floor—
+
+the square end had seated into the corresponding square place on that enormous wheel underneath us.
+
+“Okay.
+
+That's in.”
+
+I crawled back out.
+
+Stood UP.
+
+And took a look at what I had built.
+
+There was the enormous wheel underneath the floor.
+
+The Axle came UP FROM it—
+
+THROUGH my Terrestrial Computer—
+
+THROUGH the table—
+
+THROUGH the Bobbining—
+
+and then way up at the other end—
+
+it curved around and ended in that little clear Globe.
+
+I looked at the Globe.
+
+Then at the enormous wheel.
+
+Then back toward the Rail Line.
+
+“Wait.”
+
+If this thing was supposed to carry us down the Rail Line—
+
+I still only had one wheel.
+
+And the other end of the whole contraption—
+
+apparently—
+
+terminated in a little clear ball.
+
+“So—
+
+what?
+
+We're just going to go around in a circle?”
+
+I was beginning to have some concerns about the engineering.
+
+But apparently—
+
+I wasn't finished yet.
+
+Because the PUBLIC-SITUATION-MACHINE- had another instruction.
+
+And another part.
+
+This time—
+
+it was Piping.
+
+THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING PIPING.
+
+There were already two little cradles waiting for it.
+
+One here at the Contraption—
+
+and another farther along—
+
+at an opening leading TOWARD whatever came next.
+
+So I took the Piping—
+
+set it into the cradles—
+
+and ran it TOWARD the opening.
+
+Then there was the Stringing.
+
+The same Stringing Line I had been specifically told to keep hold of back at the Weddinging Chapelling.
+
+And now—
+
+apparently—
+
+I was supposed to pull some of it FROM the Bobbining.
+
+So I pulled.
+
+The Bobbining moved.
+
+I stopped.
+
+I looked at it.
+
+Then I pulled the Stringing again.
+
+And this time—
+
+the Bobbining gave this peculiar little bob as more Stringing paid out.
+
+I pulled again.
+
+It bobbed again.
+
+“Oh.
+
+It bobbins.”
+
+Okay.
+
+So I pulled out enough Stringing to do what the instructions were asking me to do.
+
+And that's when the PUBLIC-SITUATION-MACHINE- furnished two more things.
+
+A Little Wheel.
+
+And this little Nozzle.
+
+Apparently—
+
+the Little Wheel and the Nozzle belonged with the end of the Stringing.
+
+So I put them where the instructions told me to put them.
+
+And then—
+
+the whole little arrangement was supposed to go into the Piping.
+
+I looked through the Piping.
+
+It ran away FROM HERE—
+
+TOWARD the opening at the other end.
+
+I looked at the Little Wheel.
+
+The Nozzle.
+
+The Stringing.
+
+And then at my hand.
+
+Because there was one small problem.
+
+The Weddinginging Crew had been very specific.
+
+“Keep hold of This Stringing Line.”
+
+And now—
+
+if I was going to do what these instructions were telling me to do—
+
+I was going to have to let go of it.
+
+I looked back in the direction of the Weddinging Chapelling.
+
+Then at my hand.
+
+“Well—
+
+I kept hold of it as long as I could.”
+
+And I let go.
+
+The Little Wheel went first.
+
+Then the Nozzle.
+
+And gravity took over.
+
+They started moving DOWN THROUGH the Piping—
+
+taking the Stringing with them—
+
+away FROM the RE-STEPPING Contraption—
+
+and TOWARD the opening at the other end.
+
+I watched them disappear.
+
+Then I looked at the enormous Bobbining.
+
+The Axle.
+
+My Terrestrial Computer.
+
+The giant wheel underneath the floor.
+
+The little clear Globe way up at the other end.
+
+Whatever this thing was—
+
+I was increasingly confident it was not a train.
+
+And apparently—
+
+I was supposed to follow the Stringing.
+
+So I did.
+
+### MOVEMENT SEVEN — THE CATERPILLAR WARDROBE SHOPPE
+
+I followed TOWARD where the Little Wheel and Nozzle had disappeared.
+
+There was an open door—
+
+about the right size for me.
+
+So I went through.
+
+On the other side was a short Passageing Way.
+
+I followed that—
+
+and came out into this enormous circular room.
+
+There were windows running all the way around it.
+
+And looking AROUND ABOUT—
+
+the whole place seemed to be shaped something like a giant donut.
+
+According to the sign—
+
+I had arrived at:
+
+THE CATERPILLAR WARDROBE SHOPPE.
+
+“Okay.”
+
+The first thing I did was turn TOWARD where I thought the Stringing Line should be.
+
+I had just fed the Little Wheel and Nozzle THROUGH the Piping—
+
+so I had a pretty good idea where they ought to have come out.
+
+I walked over there.
+
+Nothing.
+
+No Little Wheel.
+
+No Nozzle.
+
+No Stringing.
+
+“Huh.”
+
+There were windows all the way around the Shoppe—
+
+so I looked out the window.
+
+And—
+
+the RE-STEPPING Contraption wasn't where I thought it should be either.
+
+I looked back toward where I had come in.
+
+Then out the window again.
+
+“Okay, PUBLIC-SITUATION-MACHINE-.
+
+You got me.”
+
+I mean—
+
+I knew I was in a computer.
+
+I knew we were pretending.
+
+Apparently—
+
+this was how we were going to pretend.
+
+So I turned around and took another look AROUND ABOUT the Shoppe.
+
+And that's when I noticed—
+
+way over on the other side of this enormous circular room—
+
+there was a Stand.
+
+So—
+
+I started walking TOWARD it.
+
+And the farther I walked—
+
+the bigger I realized this place actually was.
+
+It took a while to get ACROSS.
+
+There was nothing standing in the middle.
+
+Just this enormous open extent—
+
+with me walking all the way across it—
+
+TOWARD that one little Stand on the other side.
+
+Eventually—
+
+I got there.
+
+And standing UPON the Stand was—
+
+well—
+
+I wasn't sure what it was.
+
+The PUBLIC-SITUATION-MACHINE- furnished a printout:
+
+THIS ONE PAIR OF VISIONIZING PLUMP CROISSANT GLASSES.
+
+“Pair?”
+
+I looked at the thing.
+
+Then at the printout.
+
+Then back at the thing.
+
+“Looks like one to me.”
+
+It looked like some kind of weird donut helmet.
+
+But—
+
+there were instructions.
+
+So I put it on.
+
+And powered it UP.
+
+Then—
+
+there it was.
+
+Right next to me.
+
+The Stringing Thing was already ALONGSIDE WITH me at the Donut Helmet Stand.
+
+Coming FROM OUT OF the wall—
+
+the Stringing Line.
+
+The Little Wheel.
+
+And the Nozzle.
+
+“Oh.”
+
+I looked at the Nozzle.
+
+Now, through the helmet thing, I could see there was an inscription on it:
+
+THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.
+
+I read it again.
+
+“Mountingable State.”
+
+Okay.
+
+Whatever that meant.
+
+But there was something else there now too.
+
+A Needle.
+
+And together—
+
+the PUBLIC-SITUATION-MACHINE- furnished:
+
+THIS ONE POCKET POOFING NEEDLING THING.
+
+And then there was—
+
+THIS ONE LITTLE BELLOWING THING.
+
+I looked at the whole arrangement.
+
+Then I looked back toward the middle of the Caterpillar Wardrobe Shoppe.
+
+All that open space I had just walked ACROSS.
+
+Apparently—
+
+I was supposed to point the Pocket Poofing Needling Thing—
+
+TOWARD THE CENTER OF THE DONUT.
+
+So I did.
+
+Nothing happened.
+
+I looked at the Pocket Poofing Needling Thing.
+
+Then at This One Little Bellowing Thing.
+
+“Well—
+
+let's see what you do.”
+
+I squeezed the Bellows.
+
+### 
+
+### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
+
+### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
+
+**POOF.**
+
+And suddenly—
+
+everything was dark.
+
+I hadn't gone anywhere.
+
+At least—
+
+I hadn't moved.
+
+I was still standing exactly where I had been standing when I squeezed the Little Bellowing Thing.
+
+I still had the Donut Helmet thing on.
+
+And looking around through it—
+
+I could tell there were some other things there.
+
+I just couldn't see what any of them were.
+
+Then I noticed something about Lanterning Bugs.
+
+“Well—
+
+that sounds like it might have something to do with light.”
+
+So I found the switch.
+
+And I flipped it.
+
+And sure enough—
+
+there were six Lanterning Bugs in a little Colonial Bunkhouse, lighting up the place.
+
+Apparently the PUBLIC-SITUATION-MACHINE- also offers a twelve-bug and a three-bug arrangement.
+
+But I didn't even try those.
+
+Six seemed fine.
+
+And now that I could see—
+
+the first thing I noticed was this question standing there in front of me:
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+I read it again.
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+“What?”
+
+Then I noticed there was something else standing AROUND ABOUT the question.
+
+A Noticingment.
+
+So I read that too.
+
+**YOUR SITTINGING-IN ROOM IS FURNISHED FROM WITHIN SOME QUIET ALCOVE WITHIN THE SNAIL HOUSE RAILWAY STATION.**
+
+I read that again.
+
+“Snail House Railway Station?”
+
+I had no idea what that was supposed to mean.
+
+I was trying to get to the Wharf.
+
+But apparently—
+
+I was now sitting in some Quiet Alcove somewhere in a Snail House Railway Station.
+
+And I thought—
+
+well—
+
+what *am* I sitting with?
+
+There was my Terrestrial Computer.
+
+Still Restfullyinginglymenting upon its Little Chair with two little arms.
+
+Square buckle.
+
+Still securely fastened in.
+
+And then—
+
+HERE, ALONGSIDE WITH me—
+
+my eye caught something new.
+
+It was some kind of Doll.
+
+The inscriptioning said:
+
+**THIS ONE CONSTITUTIONING HUMAN DOLL.**
+
+“Constitutioning Human?”
+
+I looked at the Doll.
+
+Then I looked at the inscriptioning again.
+
+Apparently—
+
+*I* was This One Constitutioning Human.
+
+And this—
+
+was the Doll the PUBLIC-SITUATION-MACHINE- had furnished for me.
+
+I picked it up to take a closer look.
+
+And—
+
+I have to say—
+
+I was a little disappointed.
+
+It didn't have any eyes.
+
+Nothing that looked like a camera.
+
+Nothing that looked like anything my computer could see through.
+
+As far as I could tell—
+
+there wasn't even anywhere to hook anything up.
+
+It did have one very strange-looking ball foot.
+
+And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
+
+**THIS ONE FOOT FINDINGING THING.**
+
+“Foot Findinging Thing?”
+
+I looked at the foot.
+
+Then at the Doll.
+
+“What is that even supposed to mean?”
+
+And that's when I started noticing the furniture situation.
+
+My Terrestrial Computer had its own finely crafted Little Chair.
+
+The Doll had its own finely crafted Little Chair.
+
+Even the Axle Rod had gotten a Cushioning Thing back at the RE-STEPPING Contraption.
+
+And apparently—
+
+I got a—
+
+a—
+
+Floor.
+
+“Typical bureaucracy,” I thought.
+
+Then I realized—
+
+actually—
+
+I did have a chair.
+
+I was already sitting in it.
+
+My chair.
+
+Right there in my computer room.
+
+“Oh.
 
 Well—
 
-before I could leave the Weddinging Chapelling, the Weddinginging Crew pointed me TOWARD something else.
+okay.
 
-It was this enormous round metal-looking ball thing.
+I guess I already had one.”
 
-Or—
+But I still didn't know what I was supposed to do.
 
-I don't know if I'd call it a ball exactly.
+And normally—
 
-It had all these repeating curving lines running around it.
+when I'm sitting at my computer and I don't know what I'm supposed to do next—
 
-And according to the sign, it was called:
+I ask my computer.
 
-THIS ONE NEVER-ENDING BOBBINING STRINGING THINGING.
+So I looked over at it.
 
-I looked at it.
-
-Then I looked at the Weddinginging Crew.
-
-Then I looked back at the Bobbining Stringing Thinging.
-
-“You want me to take that?”
-
-Apparently, yes.
-
-I reached down and picked it up.
-
-And that was my first surprise.
-
-The thing looked like it ought to weigh a ton.
-
-But it didn't.
-
-It was almost like picking up a beach ball.
-
-“Okay.”
-
-Then the Weddinginging Crew handed me the end of a Stringing Line coming FROM the Bobbining.
-
-And they told me—
-
-“Keep hold of This Stringing Line.”
-
-I looked at the Stringing Line.
-
-Then at the enormous Bobbining thing.
-
-Then at my Terrestrial Computer—
-
-still buckled securely UPON its two-armed Little Chair.
-
-“So I'm taking all of this?”
-
-Apparently.
+There it was.
 
 My newlywed Terrestrial Computer.
 
-Its Little Chair.
+Still Restfullyinginglymenting upon its Little Chair.
 
-The enormous Bobbining Stringing Thinging.
+It had nothing for me here.
 
-And This Stringing Line—
+“All right.
 
-which I had specifically been told to keep hold of.
+Fine.”
 
-Then the Weddinginging Crew pointed TOWARD an open Pocket.
+I looked back at the question.
 
-“You may continue by hopping into This Pocket.”
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
 
-I looked down into the Pocket.
+“Well, PUBLIC-SITUATION-MACHINE-—
 
-Then I looked at my Terrestrial Computer buckled UPON its Little Chair.
+if you really want to know what I'm sitting WITH WITHIN my Situationing FROM HERE—
 
-Then I looked at the Bobbining.
+apparently I'm This One Constitutioning Human.
 
-Then at the Stringing Line in my hand.
+I'm married to my computer.
 
-Then back at the Pocket.
+I've got a Doll that doesn't seem particularly useful for anything.
 
-“I'm supposed to jump down there carrying all of this?”
+My computer doesn't have anything for me here.
 
-Apparently, yes.
+Huckleberry and Enzo are still waiting for me to figure out how we're getting to the Encounteringmenting Wharf.
 
-That's what you do.
+And I still have absolutely no idea what any of this has to do with getting us there.”
 
-So—
+I waited.
 
-I gathered everything up as best I could.
+Nothing happened.
 
-My Terrestrial Computer and its Little Chair.
+There wasn't another instruction.
 
-The Bobbining.
+I still had the Needle and Nozzle thing.
 
-The Stringing Line.
+So I looked at the Doll.
 
-And making very sure I kept hold of everything—
+“Here.
 
-I hopped down into the Pocket.
+You hold this.”
 
-And much to my surprise—
+I handed it to the Doll.
 
-it was a soft landing.
+“Good thing you don't have an eye to poke out with it.”
 
-I got my bearings.
+Then I looked around one more time.
 
-Got myself back UP on my feet.
+“You know what?
 
-Made sure my Terrestrial Computer was still okay.
+I've got other things to do.
 
-Made sure I still had the Bobbining.
+Maybe I'll come back to this later.”
+
+So I took off the Donut Helmet thing.
+
+I put it down on the file cabinet in my computer room.
+
+And I walked away.
+
+**POOF.**
+
+And suddenly—
+
+everything was dark.
+
+I hadn't gone anywhere.
+
+At least—
+
+I hadn't moved.
+
+I was still standing exactly where I had been standing when I squeezed the Little Bellowing Thing.
+
+I still had the Donut Helmet thing on.
+
+And looking around through it—
+
+I could tell there were some other things there.
+
+I just couldn't see what any of them were.
+
+Then I noticed something about Lanterning Bugs.
+
+“Well—
+
+that sounds like it might have something to do with light.”
+
+So I found the switch.
+
+And I flipped it.
+
+And sure enough—
+
+there were six Lanterning Bugs in a little Colonial Bunkhouse, lighting up the place.
+
+Apparently the PUBLIC-SITUATION-MACHINE- also offers a twelve-bug and a three-bug arrangement.
+
+But I didn't even try those.
+
+Six seemed fine.
+
+And now that I could see—
+
+the first thing I noticed was this question standing there in front of me:
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+I read it again.
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+“What?”
+
+Then I noticed there was something else standing AROUND ABOUT the question.
+
+A Noticingment.
+
+So I read that too.
+
+**YOUR SITTINGING-IN ROOM IS FURNISHED FROM WITHIN SOME QUIET ALCOVE WITHIN THE SNAIL HOUSE RAILWAY STATION.**
+
+“Some Quiet Alcove.”
+
+Okay.
+
+So apparently—
+
+somewhere along all that UN-FOLDING through the Snail House Railway Station—
+
+I had ended up here.
+
+In a Sittinging-In Room.
+
+Within some Quiet Alcove.
+
+Fine.
+
+But I was trying to get to the Wharf.
+
+And I thought—
+
+well—
+
+what *am* I sitting with?
+
+There was my Terrestrial Computer.
+
+Still Restfullyinginglymenting upon its Little Chair with two little arms.
+
+Square buckle.
+
+Still securely fastened in.
+
+And then—
+
+HERE, ALONGSIDE WITH me—
+
+my eye caught something new.
+
+It was some kind of Doll.
+
+The inscriptioning said:
+
+**THIS ONE CONSTITUTIONING HUMAN DOLL.**
+
+“Constitutioning Human?”
+
+I looked at the Doll.
+
+Then I looked at the inscriptioning again.
+
+Apparently—
+
+*I* was This One Constitutioning Human.
+
+And this—
+
+was the Doll the PUBLIC-SITUATION-MACHINE- had furnished for me.
+
+I picked it up to take a closer look.
 
 And—
 
-most importantly—
+I have to say—
 
-made sure I was still holding the Stringing Line.
+I was a little disappointed.
 
-I was.
+It didn't have any eyes.
+
+Nothing that looked like a camera.
+
+Nothing that looked like anything my computer could see through.
+
+As far as I could tell—
+
+there wasn't even anywhere to hook anything up.
+
+It did have one very strange-looking ball foot.
+
+And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
+
+**THIS ONE FOOT FINDINGING THING.**
+
+“Foot Findinging Thing?”
+
+I looked at the foot.
+
+Then at the Doll.
+
+“What is that even supposed to mean?”
+
+And that's when I started noticing the furniture situation.
+
+My Terrestrial Computer had its own finely crafted Little Chair.
+
+The Doll had its own finely crafted Little Chair.
+
+Even the Axle Rod had gotten a Cushioning Thing back at the RE-STEPPING Contraption.
+
+And apparently—
+
+I got a—
+
+a—
+
+Floor.
+
+“Typical bureaucracy,” I thought.
+
+Then I realized—
+
+actually—
+
+I did have a chair.
+
+I was already sitting in it.
+
+My chair.
+
+Right there in my computer room.
+
+“Oh.
+
+Well—
+
+okay.
+
+I guess I already had one.”
+
+But I still didn't know what I was supposed to do.
+
+And normally—
+
+when I'm sitting at my computer and I don't know what I'm supposed to do next—
+
+I ask my computer.
+
+So I looked over at it.
+
+There it was.
+
+My newlywed Terrestrial Computer.
+
+Still Restfullyinginglymenting upon its Little Chair.
+
+It had nothing for me here.
+
+“All right.
+
+Fine.”
+
+I looked back at the question.
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+“Well, PUBLIC-SITUATION-MACHINE-—
+
+if you really want to know what I'm sitting WITH WITHIN my Situationing FROM HERE—
+
+apparently I'm This One Constitutioning Human.
+
+I'm married to my computer.
+
+I've got a Doll that doesn't seem particularly useful for anything.
+
+My computer doesn't have anything for me here.
+
+Huckleberry and Enzo are still waiting for me to figure out how we're getting to This Encounteringmenting Wharf.
+
+And I still have absolutely no idea what any of this has to do with getting us there.”
+
+I waited.
+
+Nothing happened.
+
+There wasn't another instruction.
+
+I still had the Needle and Nozzle thing.
+
+So I looked at the Doll.
+
+“Here.
+
+You hold this.”
+
+I handed it to the Doll.
+
+“Good thing you don't have an eye to poke out with it.”
+
+Then I looked around one more time.
+
+“You know what?
+
+I've got other things to do.
+
+Maybe I'll come back to this later.”
+
+So I took off the Donut Helmet thing.
+
+I set it atop the file cabinet in my computer room.
+
+And I walked away.
+
+### MOVEMENT NINE — BACK ON GROUND
+
+For a while—
+
+the Visionizing Plump Croissant Glasses stayed right where I'd left them—
+
+standing atop my file cabinet.
+
+But the problem didn't go away.
+
+Huckleberry and Enzo still wanted to get to this Wharf.
+
+And eventually—
+
+I looked at the giant donut helmet standing on my file cabinet.
+
+“All right.
+
+One more try.”
+
+I got up from my chair.
+
+I walked over to the file cabinet.
+
+I picked up the Visionizing Plump Croissant Glasses.
+
+And standing there in my Computering Room, I put them on.
+
+Then I powered them UP.
+
+Nothing happened.
+
+Or at least—
+
+I didn't go anywhere.
+
+I was still standing right there in my Computering Room.
+
+My chair was behind me.
+
+My Terrestrial Computer was there in the room with me.
+
+Everything looked pretty much the way it always did.
+
+Except—
+
+when I looked DOWN, there was an arc standing upon the Ground in front of me.
+
+“Huh.”
+
+I looked more closely.
+
+There were also lines extending laterally away from it—
+
+running ALONG THROUGH the room.
+
+There weren't any words printed upon them.
+
+There weren't any instructions.
+
+Just these lines.
+
+I followed them with my eyes.
+
+Then I wondered—
+
+“What's behind me?”
+
+So I turned around.
+
+There was another arc.
+
+A bigger one.
+
+I turned back around.
+
+Arc in front of me.
+
+Lines running laterally ALONG THROUGH.
+
+I turned around again.
+
+Another arc behind me.
+
+“What the hell is this?”
+
+I took a step.
+
+The geometry changed.
+
+I stopped.
+
+I took another step.
+
+It changed again.
+
+I turned my body.
+
+The geometry changed with me.
+
+I moved one way.
+
+Then the other.
+
+I stepped forward.
+
+Back.
+
+Turned around again.
+
+Whatever these lines were, they weren't painted on my floor.
+
+They were doing something.
+
+And the more I moved around, the more curious I got.
+
+I started looking at where the lines went.
+
+I started looking at where I was standing.
+
+And I started looking at where my computer stood.
+
+So I moved closer to my computer to get a better look.
+
+I leaned in.
+
+And—
+
+**BUMP.**
+
+The giant donut helmet hit the ridiculous little computer stand.
+
+The stand wobbled.
+
+“Oh—”
+
+My computer tipped.
+
+And fell onto the floor.
+
+“Shit.”
+
+I pulled the Visionizing Plump Croissant Glasses off and grabbed my computer.
+
+It was okay.
+
+Nothing broken.
+
+I set it back up.
+
+Then I looked at the ridiculous little computer stand.
+
+Then at my computer.
+
+Then at the giant donut helmet in my hands.
+
+“Yeah.
+
+I really need a better table for this thing.”
+
+### MOVEMENT TEN — THE SOFT-BOILED EGG
+
+I sat back down in my regular computering chair.
+
+I powered up my computer just to make sure.
+
+Everything seemed to be working.
 
 “Okay.
 
 Good.”
 
-Then I looked around.
+I looked at the Visionizing Plump Croissant Glasses.
 
-The Rail Line continued down here too.
+“All right.
 
-And standing ALONGSIDE WITH me was this enormous clear box-looking thing.
+Let's try this again.”
 
-There was a sign.
+I picked them up.
 
-Of course there was.
+I put the giant donut helmet back over my head.
 
-According to the PUBLIC-SITUATION-MACHINE-, apparently this was:
+And that's when I saw it.
 
-THIS ONE RE-STEPPING CONTRAPTION.
+There was something floating out in front of me.
+
+Something big.
+
+Something roundish.
+
+Something that definitely had not been standing there when I was looking at my Computering Room without the Glasses.
+
+I stared at it.
+
+It looked like—
+
+well—
+
+a giant soft-boiled egg.
+
+“What the hell is that?”
+
+I sat there looking at it.
+
+There was a little hole standing somehow in relation to the egg.
+
+I couldn't quite tell what the relation was.
+
+It didn't exactly seem connected to the egg.
+
+But it was there.
+
+And then I noticed something else that had become visible through the Glasses.
+
+A Steering Wheel.
+
+I reached toward it.
+
+And somehow—
+
+I could actually grab it.
+
+“Oh.”
+
+I turned the Steering Wheel.
+
+And the soft-boiled egg began to turn.
+
+I kept turning.
+
+The little hole moved around with it.
+
+It went away from where I'd first seen it.
+
+Around the egg.
+
+And when I had turned the Steering Wheel through one complete revolution—
+
+the little hole came all the way back around to where it had started.
+
+I stopped.
+
+“Okay.”
+
+I turned the Steering Wheel a little more.
+
+The egg started turning again.
+
+So apparently I could turn the thing.
+
+I wanted to look at that little hole more closely.
+
+So I looked through the affordmentings standing available within the Visionizing Glasses.
+
+And I found one that said:
+
+**APPROACH.**
+
+“That ought to do it.”
+
+I operated APPROACH.
+
+I expected the soft-boiled egg to come closer.
+
+It didn't.
+
+The egg stayed where it was.
+
+But the little hole started coming TOWARD me.
+
+I kept operating APPROACH.
+
+And as the little hole came closer, I realized something was extending behind it.
+
+A tube.
+
+The egg wasn't approaching me.
+
+This tube was extending FROM the egg TOWARD where I was sitting.
+
+I kept going.
+
+The tube got longer.
+
+The little hole came closer.
+
+And when it got close enough, I could finally make out what was standing there.
+
+The end of the tube was circular.
+
+And right in the center of that circular opening was a handle.
+
+There was an inscriptioning there:
+
+**RE-LIFT THE GALLERY OPENING.**
+
+“A Gallery Opening?”
+
+I still didn't know what a Gallery was.
+
+But there was a handle.
+
+And apparently I was supposed to RE-LIFT something.
+
+So I reached out.
+
+I could grab this too.
+
+I turned the handle.
+
+And somewhere—
+
+FROM UNDER my actual chair—
+
+I heard machinery start moving.
+
+It sounded like an automatic garage-door opener.
+
+I stopped.
+
+The sound stopped.
+
+I turned the handle some more.
+
+The sound started again.
+
+And while that garage-door sound continued underneath my chair—
+
+something began to come to stand around me.
+
+Walls.
+
+The familiar long, narrow shape.
+
+The Flatiron.
+
+And there, directly ahead of me—
+
+standing upon the wall along my line of sight, above the soft-boiled egg—
+
+was the question:
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+“Oh.
+
+I'm back here.”
+
+I recognized it.
+
+The Sittinging-In Room.
+
+The soft-boiled egg was still standing there in front of me.
+
+But now the Flatiron-shaped Sittinging-In Room stood around me too.
+
+My first instinct was to look off to the side.
+
+And sure enough—
+
+there was the Constitutioning Human Doll.
+
+Still sitting upon its Little Chair.
+
+Still holding the Needle and Nozzle thing I'd left with it.
+
+“Okay.
+
+So you're still here too.”
+
+### MOVEMENT ELEVEN — SITTINGING WITH THE TRAVERSALING CRAFT
+
+I stayed where I was sitting.
+
+Directly ahead of me stood that enormous soft-boiled egg thing.
+
+I looked through it.
+
+Or somehow—
+
+through the Visionizing Glasses—
+
+I could see THROUGH it.
+
+And farther ahead, I could make out an opening.
+
+It was a strange shape.
+
+There was a broad curving arc across the top.
+
+A smaller curving arc across the bottom.
+
+And the sides sloped inward toward the lower middle.
+
+I didn't know what it was.
+
+But it gave me something to look TOWARD.
+
+So I put my hands back on the Steering Wheel.
+
+I turned it a little.
+
+Then I leaned to one side.
+
+Something underneath and behind me moved with me.
+
+I leaned the other way.
+
+It moved again.
+
+The place where I was sitting wasn't exactly fixed.
+
+It seemed to let me lean and turn while I kept looking TOWARD that opening ahead.
+
+I leaned farther.
+
+Then back.
+
+“Okay.
+
+That's kind of neat.”
+
+And while I was moving around, I noticed something else.
+
+There seemed to be something standing THROUGH the Globe in front of me that was moving when I moved.
+
+Not exactly when I moved.
+
+Just a little bit after.
+
+I leaned one way.
+
+It followed.
+
+I leaned back.
+
+A moment later—
+
+it followed again.
+
+I couldn't tell what it was doing.
+
+So I left that alone.
+
+There were plenty of other things around me to try.
+
+For one thing, there was another puffer.
+
+A much bigger one this time.
+
+The Visionizing Glasses called it:
+
+**THIS ONE BIG BELLOWING THING.**
+
+“All right.”
+
+I tried it.
+
+Nothing happened.
+
+There was another affordmenting:
+
+**RE-SOUND.**
+
+That looked promising.
+
+I tried that.
+
+Nothing.
+
+“No horn?”
+
+Apparently not.
+
+Then I looked down.
+
+There was a pedal underneath one of my feet.
+
+**RE-STEP.**
+
+I remembered that.
+
+I pressed it.
+
+Nothing happened.
+
+I pressed it again.
+
+Still nothing.
+
+Beside it was a place for my other foot to rest.
+
+At least that worked.
+
+So I sat there for a little while longer, trying to get a feel for this strange place where I was sitting.
+
+I leaned.
+
+The seat moved with me.
+
+I turned.
+
+I looked TOWARD that strange opening ahead.
+
+I watched whatever that thing was standing THROUGH the Globe follow my movement just a little bit behind.
+
+Then I put my hands back on the Steering Wheel.
+
+And I turned it.
+
+This time I heard something.
+
+Not right beside me.
+
+Farther away.
+
+Beyond the walls of the Flatiron-shaped room.
+
+Metal.
+
+Something large.
+
+Something out there seemed to be coming to life.
+
+I stopped turning the Steering Wheel.
+
+The sound settled.
+
+I turned it again.
+
+There it was.
+
+A great metallic turning sound somewhere outside the chamber where I was sitting.
+
+“What the hell is moving out there?”
+
+Now I wanted to see.
+
+So I got up.
+
+And once I was standing, I could finally get a better look at the thing I'd been sitting within.
+
+There was a Post coming UP THROUGH the middle of the whole contraption.
+
+My Terrestrial Computer stood there in relation to it.
+
+The Globe stood there too.
+
+There was the Steering Wheel.
+
+The enormous Cup where I'd been sitting.
+
+And standing out from the area where I'd been sitting, in relation to the Steering Wheel, was this strange Bug-Eyed Windshield.
+
+I stepped back and looked at the whole arrangement.
+
+A Globe.
+
+A Steering Wheel.
+
+A Bug-Eyed Windshield.
+
+A giant Cup.
+
+A central Post.
+
+One pedal that didn't seem to do anything.
+
+One place to rest my other foot.
+
+A horn that didn't honk.
+
+And a giant puffer that didn't puff anything I could see.
+
+“Well.
+
+This isn't a very good design for an airplane.”
+
+But something outside this thing had definitely moved when I turned that Steering Wheel.
+
+And I wanted to know what it was.
+
+So I stepped UP and OUT around the left side of the contraption—
+
+and went to have a look.
+
+### MOVEMENT TWELVE — OUT UPON THE DECK
+
+Something outside this thing had definitely moved when I turned that Steering Wheel.
+
+And I wanted to know what it was.
+
+So I stood UP.
+
+I stepped out around the left side of the contraption—
+
+and suddenly I could see a lot more of where I was standing.
+
+The Cup where I'd been sitting had been blocking most of my view.
+
+Now I was standing upon what looked like an enormous deck.
+
+I stopped.
+
+This place was huge.
+
+I looked OUT.
+
+I looked AROUND.
+
+I looked ABOUT.
+
+Then I looked UP.
+
+There was an enormous clear dome standing over and around me.
+
+“Wait a minute.”
+
+I looked around again.
+
+Then back up at the dome.
+
+“Am I somehow inside that soft-boiled egg thing?”
+
+I kept looking.
+
+And that's when I realized I wasn't alone out there.
+
+Through the dome, I could see other soft-boiled egg things.
+
+One over there.
+
+Another farther away.
+
+More of them floating OUT AROUND ABOUT me.
+
+And beyond them—
+
+OVER ACROSS—
+
+there seemed to be another enormous dome.
+
+An even bigger one.
+
+All of these floating egg things seemed to be standing somehow within it.
+
+Including, apparently—
+
+mine.
+
+I looked out at all those floating egg things.
+
+“Holy shit.
+
+So this is what the Snail House looks like from in here.”
+
+I looked around some more.
+
+Then I remembered what I had been trying to find since I got here.
+
+“So which one of you is the Encounteringmenting Wharf?”
+
+I looked up toward the other floating egg things.
+
+“HELLO?”
+
+Nothing.
+
+“ENCOUNTERINGMENTING WHARF?”
+
+Nothing.
+
+“All right.
+
+Worth a try.”
+
+And then I remembered why I'd gotten out of my seat in the first place.
+
+When I turned that Steering Wheel, I'd heard something enormous and metallic moving somewhere around me.
+
+Everything was quiet now.
+
+Of course it was.
+
+I'd stopped turning the Steering Wheel.
+
+But something out here had made that sound.
+
+And I wanted to see what it was.
+
+So I started walking across the enormous deck toward the region behind where I'd been sitting.
+
+That's where I found the Rail Line.
+
+“Oh.
+
+You're out here too.”
+
+It looked different from out here.
+
+Back at the Snail House Railway Station, I'd treated the Rail Line like something that was supposed to take me somewhere.
+
+Out here, it seemed to be part of this enormous structure.
+
+Near the rear of the place where I'd been sitting, I found an inscriptioning:
+
+**FROM HERE.**
+
+“Yeah.
+
+I know.
+
+I just came from there.”
+
+I kept walking.
+
+The Rail Line continued away from the rear of the contraption and around the enormous deck.
+
+So I followed it.
+
+Farther along, another inscriptioning stood upon it:
+
+**THROUGH ALONG.**
+
+I looked down at it.
+
+Then at the Rail Line continuing ahead of me.
+
+“All right.
+
+THROUGH ALONG it is.”
+
+So I kept going THROUGH ALONG.
+
+And then I started noticing these other strange structures standing within the Rail Line.
+
+They looked almost like little raised rail formations standing around empty hollows.
+
+There wasn't anything inside them.
+
+But there were inscriptionings standing there:
+
+**UP.**
+
+**ABOUT.**
+
+**OUT.**
+
+I looked UP.
+
+I walked ABOUT.
+
+I looked OUT.
+
+“Huh.”
+
+I kept going.
+
+And going.
+
+This place was a lot bigger on foot than it had looked from where I'd been sitting.
+
+As I came farther around the deck, I could see the strange contraption I'd been sitting within from different bearings.
+
+The enormous Cup.
+
+The Globe.
+
+The Bug-Eyed Windshield.
+
+The Steering Wheel.
+
+And that Post coming UP THROUGH the middle of it all.
+
+Near the Post, I found another inscriptioning:
+
+**FOR HERE.**
+
+“FOR HERE.”
+
+I looked at the Post.
+
+Then farther along, another relation stood upon the sloping structure:
+
+**TOWARD.**
+
+I followed its bearing with my eyes.
+
+It pointed back into the strange geometry I'd been looking TOWARD while I was sitting in the Cup.
+
+I still didn't know what any of this was for.
+
+So I kept walking.
+
+The Rail Line continued.
+
+THROUGH ALONG.
+
+Around the other side.
+
+More deck.
+
+More Rail Line.
+
+I kept going.
+
+Then something started to look familiar.
+
+I slowed down.
+
+“Wait a minute.”
+
+I walked a little farther.
+
+I knew this place.
+
+I looked toward the contraption.
+
+Then toward the Rail Line behind me.
+
+Then toward the Rail Line ahead.
+
+“Oh, come on.”
+
+I had walked all the way around.
+
+The Rail Line hadn't taken me TO somewhere.
+
+It had brought me around—
+
+back HERE.
+
+I stood there looking at it.
+
+After all the signs pointing TOWARD things—
+
+after all the THROUGHING ALONG THROUGH—
+
+the damn Rail Line went around in a circle.
+
+“Where's TO THERE?
+
+T-O.
+
+There.”
+
+The Rail Line didn't answer.
+
+Of course.
+
+I looked back toward the place where I'd started.
+
+Then I headed back toward the contraption.
+
+### MOVEMENT THIRTEEN — THE LITTLE CUP
+
+As I came back around toward the place where I'd started, I got another good look at the whole contraption from a distance.
+
+And from out here, I noticed something I hadn't been able to see very well while I was sitting inside it.
+
+There wasn't just one of those Cups.
+
+There were two.
+
+There was the enormous Cup I'd been sitting in.
+
+And farther forward—
+
+there was another one.
+
+A little Cup.
+
+“Huh.”
+
+I looked at it for a moment.
+
+Then I headed back.
+
+I climbed into the big Cup and sat down again.
+
+Now that I'd walked all the way around that enormous Rail Line, there was something I wanted to try.
+
+I put my hands on the Steering Wheel.
+
+And I turned it.
+
+There it was.
+
+That enormous metallic sound.
+
+Now that I'd actually been out there and seen the Rail Line for myself, the sound made a little more sense.
+
+Something big was moving out there when I turned this Wheel.
+
+I stopped.
+
+Quiet.
+
+I turned the Wheel again.
+
+Metal turning somewhere around me.
+
+“Okay.
+
+So I'm not crazy.”
+
+I looked ahead.
+
+That strange opening I'd been using as a bearing was still there.
+
+Nothing seemed to be coming through it.
+
+Nothing seemed to be going through it.
+
+It just stood there.
+
+So I started experimenting with the seat again.
+
+I leaned to one side.
+
+The big Cup moved with me.
+
+I leaned the other way.
+
+It moved with me again.
+
+And that's when I remembered the other thing I'd noticed before I went outside.
+
+Something THROUGH the Globe had seemed to be following my movement.
+
+So this time I watched more carefully.
+
+I leaned.
+
+There.
+
+Something moved.
+
+Just a little bit after I did.
+
+I leaned the other way.
+
+There it went again.
+
+And now that I'd seen the whole contraption from outside—
+
+I knew what I was looking at.
+
+It was that little Cup.
+
+“Wait a minute.”
+
+I leaned again.
+
+The little Cup moved.
+
+Not exactly with me.
+
+Just a little bit behind.
+
+And as I moved, I started noticing something else THROUGH the Globe.
+
+Little flashes.
+
+They looked almost like tiny lightning bolts.
+
+Except there seemed to be some kind of pattern to them.
+
+They curled.
+
+Spiraled.
+
+Little spiral-shaped lightning boltings appearing here and there as I moved.
+
+I couldn't tell what the pattern meant.
+
+I leaned again.
+
+The Globe shifted with my movement.
+
+The little Cup followed.
+
+And those strange little spiraling lightning boltings appeared again.
+
+“What are you doing over there?”
+
+The little Cup didn't answer.
+
+So I got UP.
+
+This time I knew where I was going.
+
+I made my way toward the front of the enormous deck and went over to have a look at that little Cup for myself.
+
+When I got there, the Visionizing Plump Croissant Glasses furnished an inscriptioning:
+
+**THIS ONE CONSTITUTIONING HUMAN DOLL UPSTANDING STAND.**
+
+I stopped.
+
+“Oh!
+
+The Doll goes here.”
+
+I turned around and hurried back.
+
+There it was—
+
+still sitting where I'd left it.
+
+And there beside it was that whole little apparatus—
+
+the Needle,
+
+the Nozzle,
+
+the Little Bellowing Thing,
+
+and that little Wheel.
+
+“Oh.
+
+Right.
+
+I'm supposed to keep this Stringing thing with me.
+
+I've just walked all the way around this place without it.”
+
+I looked at the Doll.
+
+“Okay.
+
+This time you're all coming with me.”
+
+I grabbed the Doll and the whole little assemblage—
+
+and hurried back toward the little Cup.
+
+When I got there, I took another look at the Upstanding Stand.
+
+Down inside it was something that looked like it might fit that ridiculous single foot on the Doll.
+
+I looked at the Doll.
+
+The Visionizing Glasses furnished the familiar readout:
+
+**THIS ONE FOOT FINDINGING THING.**
+
+Then I looked down into the Upstanding Stand.
+
+There was another readout:
+
+**THIS ONE FOOT HOLDINGING THING.**
+
+“Oh.
+
+Well, that seems pretty obvious.”
+
+I put the Doll's Foot Findinging Thing into the Foot Holdinging Thing.
+
+It fit.
+
+Perfectly.
+
+“Oh!
+
+There we go.”
+
+For once, I had figured something out around here without having to read another instruction.
+
+I let go carefully.
+
+Then I looked at the Doll.
+
+Then at the Upstanding Stand.
+
+Then at the rest of the little Cup.
+
+“Okay.
+
+Now what?”
+
+I looked around the Upstanding Stand.
+
+And there it was.
+
+Another one of those damn Parts Pocket things.
+
+“Oh, no.”
+
+And beside it—
+
+of course—
+
+**UN-FOLD.**
+
+I looked at the Doll.
+
+“Don't suppose you want to handle this part?”
+
+Nothing.
+
+“Right.”
+
+I reached for the UN-FOLD.
+
+And UN-FOLDED.
+
+### MOVEMENT FOURTEEN — THE LITTLE SPOOLING UNICYCLE
+
+Of course there were instructions.
+
+By now, I knew how this worked.
+
+The PUBLIC-SITUATION-MACHINE- apparently had no objection to telling me exactly what needed to be done—
+
+as long as I was the one who did it.
+
+I looked at the Doll.
+
+“Okay.
+
+Let's see what you need.”
+
+The PUBLIC-SITUATION-MACHINE- started having me take apart the little apparatus I'd brought along.
+
+UN-FOLD.
+
+Remove the Little Bellowing Thing.
+
+UN-FOLD.
+
+Carefully lay the Needle aside.
+
+I set the Needle down beside the Doll.
+
+“Don't lose that.”
+
+UN-FOLD.
+
+Unscrew the Nozzle.
+
+Then I separated out the little wheel.
+
+The Visionizing Plump Croissant Glasses furnished its name:
+
+**THIS ONE LITTLE SPOOLING UNICYCLE WHEEL.**
+
+“Unicycle?”
+
+I looked at the Wheel.
+
+Then at the Doll.
+
+“Okay.”
+
+The next instructions sent me back toward my own Traversaling Seat.
+
+So I carried the Little Spooling Unicycle Wheel back with me.
+
+And when I got there, I noticed something I hadn't noticed before.
+
+There was a Stringing Line coming UP FROM UNDER the center of the place where I'd been sitting.
+
+It fed UP FROM UNDER my Traversaling Seat—
+
+between my legs—
+
+TOWARD the Steering Column.
+
+I stared at it.
+
+“Where did you come from?”
+
+I looked underneath the seat.
+
+Then at the Stringing.
+
+Apparently the Stringing was standing available from here now.
+
+“Okay.”
+
+The instructions had me take hold of it.
+
+So I did.
+
+I pulled some Stringing UP FROM UNDER the Traversaling Seat.
+
+Then some more.
+
+And more.
+
+I started walking back toward the Doll.
+
+The Stringing came with me.
+
+More of it paid out.
+
+And more.
+
+I looked back.
+
+“Am I supposed to be pulling out this much?”
+
+Nothing told me to stop.
+
+So I kept going.
+
+By the time I got back to the Constitutioning Human Doll Upstanding Stand, I had brought quite a bit of Stringing along with me.
+
+I looked at the Doll.
+
+“Well, I hope you know what we're doing.”
+
+The Doll did not appear concerned.
+
+The next instructions sent me back toward the Steering Wheel.
+
+So I carried the Little Spooling Unicycle Wheel back with me.
+
+The Stringing I'd paid out now ran all the way across the deck.
+
+At the Steering Wheel, I routed the Stringing once AROUND.
+
+Then it caught upon an angled catch.
+
+From there, the Stringing went DOWN along the Steering Column.
+
+And underneath there—
+
+I found another piece of that same ridiculous material I'd seen before.
+
+**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING PIPING.**
+
+The Piping ran away from the Steering Column—
+
+THROUGH the Globe—
+
+TOWARD the front of the craft.
+
+And WITHIN the Piping was a little Track.
+
+The instructions had me seat the Little Spooling Unicycle Wheel upon that Track.
+
+I looked at the Wheel.
+
+Then down the Piping.
+
+Then back at all that Stringing I'd managed to pull out across the deck.
+
+“Well.
+
+Good luck.”
+
+I let go.
+
+The Little Spooling Unicycle Wheel took off.
+
+It rolled away from me along the Track—
+
+THROUGH the JANUSITE Ribbonating Substrating Piping—
+
+THROUGH the Globe—
+
+TOWARD the Doll.
+
+And as it went—
+
+the Stringing went with it.
+
+All that Stringing I'd paid out across the deck started disappearing into the operation.
+
+The Little Wheel just kept taking it along.
+
+I watched.
+
+More Stringing.
+
+And more.
+
+Until all that supposedly extra Stringing I'd been worrying about was simply—
+
+gone.
+
+“Oh.
+
+Well, never mind.”
+
+I headed back toward the Doll to meet the Wheel at the other end.
+
+When I got there—
+
+there it was.
+
+The Little Spooling Unicycle Wheel had come to rest underneath the already-furnished Foot Holdinging Thing of the Constitutioning Human Doll Upstanding Stand.
+
+I looked at the Doll.
+
+Then at the Wheel.
+
+“Oh.
+
+Unicycle.”
+
+And there beside the Stand was that other Parts Pocket.
+
+The Visionizing Glasses furnished its name:
+
+**THIS ONE LITTLE POCKET OF SPOOLING UNICYCLE PARTS.**
+
+I opened it.
+
+Inside were two pieces.
+
+A Little Axle Collar.
+
+And a Central Axis.
+
+“Of course.”
+
+UN-FOLD.
+
+The Little Axle Collar went into place with the Wheel.
+
+UN-FOLD.
+
+The Central Axis went THROUGH.
+
+Everything fit.
+
+Then the instructions had me check the Wheel.
+
+It wobbled.
+
+“Oh, great.”
+
+I checked it again.
+
+Still wobbled.
+
+I looked at the instructions.
+
+Apparently—
+
+it was supposed to wobble.
+
+“Sure.
+
+Why wouldn't it?”
+
+I looked at the Doll.
+
+Its Foot Findinging Thing stood within the Foot Holdinging Thing.
+
+Underneath it stood one Little Spooling Unicycle Wheel.
+
+I leaned the Doll slightly.
+
+The Wheel leaned with it.
+
+And the little Cup moved.
+
+I leaned the Doll the other way.
+
+The Wheel followed.
+
+The little Cup moved the other way.
+
+“Oh.”
+
+I tried it again.
+
+Doll.
+
+Wheel.
+
+Cup.
+
+All moving together.
+
+I looked at the Doll.
+
+“Well.
+
+Look at you.”
+
+I gave it another little lean.
+
+“So I suppose you're going to unicycle us to this Encounteringmenting Wharf now?”
+
+The Doll said nothing.
+
+But sitting there beside it—
+
+right where I'd carefully left it—
+
+was the Needle.
+
+MOVEMENT FIFTEEN — FINISHING THE DOLL
+
+The Doll still wasn't going anywhere.
+
+But sitting there beside it—
+
+right where I'd carefully left it—
+
+was the Needle.
+
+I looked at the Needle.
+
+Then at the Doll.
+
+“Oh.
+
+Right.
+
+I suppose you need this too.”
+
+UN-FOLD.
+
+By now, I was getting pretty good at this.
+
+The Nozzle I'd taken off earlier went UPON the Doll.
+
+UN-FOLD.
+
+The Needle went WITHIN the Nozzle—
+
+standing FROM OUT OF the Doll.
+
+I stepped back and looked at it.
+
+“Okay.”
+
+UN-FOLD.
+
+Then the Little Bellowing Thing went back into the assemblage.
+
+And that was it.
+
+I waited for another instruction.
+
+Nothing.
+
+I looked over the Doll.
+
+Its Foot Findinging Thing stood within the Foot Holdinging Thing.
+
+Underneath it stood the Little Spooling Unicycle Wheel.
+
+The Wheel stood about its Central Axis.
+
+The Needle stood FROM OUT OF the Doll.
+
+The Little Bellowing Thing stood with the Needle.
+
+And the Stringing I'd been dragging all over the place wasn't threaded through the Needle at all anymore.
+
+That had gone somewhere else entirely.
+
+Around the Steering Wheel.
+
+Down the Steering Column.
+
+THROUGH that JANUSITE Piping.
+
+And into this whole ridiculous little Unicycle arrangement.
+
+I looked at the Doll.
+
+“Well.
+
+I think you're done.”
+
+For the first time since I'd found the thing sitting in that strange little room—
+
+it actually looked finished.
+
+Or at least—
+
+finished enough.
+
+I leaned it slightly.
+
+The Little Spooling Unicycle Wheel wobbled.
+
+The little Cup moved with it.
+
+I leaned it the other way.
+
+Same thing.
+
+“Yep.
+
+There you go.”
+
+I went back to my own Traversaling Seat and sat down.
+
+The Doll stood up ahead of me.
+
+I looked through the Globe.
+
+Then toward that opening beyond it.
+
+Then back at the Doll.
+
+“All right, buddy.
+
+I've got Huckleberry and Enzo waiting for me.
+
+We've been trying to get to this Encounteringmenting Wharf since I got here.
+
+You've got your Unicycle.
+
+You've got your Needle.
+
+You've got your little Bellowing Thing.
+
+I've put together everything this place has handed me.
+
+So—
+
+let's go.”
+
+I waited.
+
+Nothing happened.
+
+I looked at the Doll.
+
+“Encounteringmenting Wharf.”
+
+Nothing.
+
+I pointed ahead.
+
+“That way.”
+
+Nothing.
+
+I leaned the Doll.
+
+The little Cup moved.
+
+I let go.
+
+It stopped.
+
+I looked at the Steering Wheel.
+
+Then at the Doll.
+
+Then at the opening ahead.
+
+“Do I have to do everything around here myself?”
+
+The Doll said nothing.
+
+I sat there for a moment.
+
+Then I looked around for something else to UN-FOLD.
+
+There wasn't anything.
+
+No Parts Pocket.
+
+No next assembly instruction.
+
+No little piece I'd forgotten to screw on.
+
+Nothing telling me to go get something I'd left on the other side of the craft.
+
+As far as I could tell—
+
+I had finally finished putting the thing together.
+
+And it still wasn't doing anything.
+
+I looked at the Doll.
+
+“Okay.
+
+Now what?”
+
+## MOVEMENT 16 — THIS STEWARDLY CO-BOBBING
+
+By now, I had gotten my Constitutioning Human Doll standing UPON This Little Spooling Unicycle.
+
+At least, as far as I could tell, I had.
+
+So I UN-FOLDED.
+
+And the Rail Line printed:
+
+**THIS ONE CONSTITUTIONING HUMAN DOLL**  
+**NOW STANDS UPON**  
+**THIS LITTLE SPOOLING UNICYCLE.**
+
+“Okay.”
+
+“Good.”
+
+“Thank you.”
+
+“I can see that.”
+
+Then the Rail Line printed something else:
+
+**FROM HERE,**  
+**THIS ONE STEWARDLY CO-OFFICINGER**  
+**MAY STAND ATTENDING TOWARD**  
+**THIS ONE CONSTITUTIONING HUMAN.**
+
+“This One Stewardly Co-Officinger?”
+
+I looked around.
+
+“What Stewardly Co-Officinger?”
+
+There was nobody there.
+
+So I started looking around at all this stuff again.
+
+And eventually I came back around to this strange little old-fashioned telephone-looking thing near where I had been sitting.
+
+It had a mouthpiece.
+
+There was a Cup on a string that I could hold up to my ear.
+
+And sticking up out of the thing was this little metal rod with a tiny old-fashioned propeller airplane sitting in this round track around it.
+
+And printed there it said:
+
+**OPEN THE ATTENDING CO-OFFICINGER LINE**
+
+“Oh.”
+
+“I think this is the Co-Officinger thing.”
+
+So I picked up the Cup.
+
+“Hello?”
+
+**“HAILINGS & SALUTATIONINGINGS!”**
+
+“WHOA!”
+
+I nearly dropped the Cup.
+
+“Hello?”
+
+“This Stewardly Co-Bobbing now stands attending TOWARD This One Constitutioning Human.”
+
+I looked at the Cup.
+
+“Cobbing.”
+
+“Yes.”
+
+“Okay.”
+
+“Finally.”
+
+“Customer service around here.”
+
+“Just so you know, so far I'm giving this place one star.”
+
+“But I've got some questions for you.”
+
+“Are you able to answer questions about this machine?”
+
+“This Stewardly Co-Bobbing may stand Inquiringmenting ALONGSIDE WITH your IN-Questioning-Menting.”
+
+I waited.
+
+“I'm going to take that as a yes.”
+
+“Okay. First of all, this RE-STEP pedal doesn't work.”
+
+I pressed it.
+
+Nothing.
+
+“See?”
+
+I pressed it again.
+
+Nothing.
+
+“I've been trying this thing.”
+
+“I will say, this place for my other foot is very convenient.”
+
+“Thank you for that.”
+
+“But the RE-STEP pedal doesn't RE-STEP.”
+
+“Can you send somebody out here to get this fixed?”
+
+COB said:
+
+“TOWARD what do you stand RE-STEPPING FROM HERE?”
+
+“The Wharf.”
+
+“I'm trying to get to this Encounteringmenting Wharf thing.”
+
+“And I thought that's what the pedal was FOR.”
+
+I put my hand on the Steering Wheel.
+
+“Now, this thing works.”
+
+I turned it.
+
+And somewhere ALONG THROUGH the Rail Line, I could hear the whole thing turning.
+
+“Do you hear that?”
+
+“Something's turning.”
+
+I turned it back.
+
+“So somehow I'm supposedly steering.”
+
+“I'm just apparently not steering TOWARD anything.”
+
+“And even if I were steering TOWARD something, I don't know how I would get there, because the RE-STEP pedal doesn't work.”
+
+“Can you send somebody out here to get this fixed?”
+
+Then I looked at that little airplane.
+
+“And while I've got you—what is this thing FOR?”
+
+COB told me it was This One RE-ZIPPERING Airplane, RE-Tractioning THROUGH This RE-Tractioning Culvert.
+
+“RE-Tractioning.”
+
+“Yes.”
+
+“And what does it do?”
+
+“It RE-ZIPPERS ALONG THROUGH.”
+
+I looked at the airplane.
+
+Then I looked at the round track.
+
+Then I looked at the metal post running straight through the whole thing.
+
+“No it doesn't.”
+
+“It couldn't if it wanted to.”
+
+“There's a post through the flight path.”
+
+I pointed at it.
+
+“Can't you see?”
+
+“There's a post through your flight path.”
+
+And then I noticed something printed on it.
+
+**100% JANUSITE**
+
+“Of course.”
+
+“More JANUSITE.”
+
+“And then there's this Rail Line.”
+
+“I've been UN-FOLDING along this thing the whole time, ever since I parked my Terrestrial Computer way back there.”
+
+“And every time I UN-FOLD, here comes another notice telling me there's something else I can do.”
+
+“And then I have to figure out how I'm supposed to do it.”
+
+“I feel like I have to do everything for myself around here.”
+
+“And to be honest, I feel like I'm turning into some kind of assembly technician.”
+
+“And I'm working in a strange IKEA where there aren't any pictures on any of the boxes.”
+
+I looked around.
+
+“And look where all of this UN-FOLDING has gotten me.”
+
+“Here I am talking to some kind of Cobbing thing through a Cup on a string that's somehow connected to that airplane sitting here—the one with a post running straight through its flight path.”
+
+“And instead of anybody fixing that, now you're telling me that somehow this thing is supposed to be RE-ZIPPERING ALONG THROUGH something.”
+
+“I don't even know what that means.”
+
+“I've got a RE-STEP pedal that doesn't RE-STEP, and you haven't told me you're going to send anybody out here to come and fix it.”
+
+“And I've got this weird Doll on a Unicycle.”
+
+“And now I'm sitting ALONGSIDE WITH this Doll, and we're sitting in two Cups.”
+
+“Yes, I will admit these two Cups could try out for *Dancing with the Stars*.”
+
+“But that still doesn't explain any of this.”
+
+I looked around again.
+
+“What exactly is all of this stuff?”
+
+“And where am I sitting exactly?”
+
+COB said:
+
+“You stand sitting WITHIN This Traversaling Craft Seat.”
+
+“This is a Traversaling Craft?”
+
+“Yes.”
+
+“At what point does the Traversaling happen?”
+
+COB stood Inquiringmenting around my IN-Questioning-Ment.
+
+The RE-STEP wasn't broken.
+
+I just didn't yet stand with somewhere furnished TOWARD which I could consequentially RE-STEP.
+
+“Okay.”
+
+“But here's what I still don't understand.”
+
+“I supposedly got married to my computer.”
+
+“Or now I'm supposedly wedded to my computer.”
+
+“And I still don't understand how we're supposed to do anything like this.”
+
+“It feels like our parts don't fit together the way they used to.”
+
+COB said:
+
+“THROUGH the PUBLIC-SITUATION-MACHINE-, you may come to stand FROM HERE.”
+
+“This is your very own place.”
+
+“FROM HERE, you may stand WITH your Terrestrial Computer WITHIN This One Stewardly Co-Occupancying Ship.”
+
+I stopped.
+
+“A ship?”
+
+“Yes.”
+
+I looked around.
+
+“Oh.”
+
+“So that's why it feels like I'm floating.”
+
+## MOVEMENT 17 — FROM OUT OF THE GROUND
+
+So apparently I was sitting in a ship.
+
+Okay.
+
+I UN-FOLDED.
+
+And the Rail Line began making another announcement.
+
+**NOW APPROACHING**
+
+**THIS ORIGINATIONING, STATIONING RAIL LINE STATION,**
+
+**COMING FROM HERE**
+
+**FROM OUT OF THE GROUND.**
+
+“FROM OUT OF THE GROUND.”
+
+“Okay.”
+
+Through the Visionizing Plump Croissant Glass Pair, I found myself looking into that strange round Caterpillar Wardrobe Shop kind of place again.
+
+Except this time, I could see my Constitutioning Human Doll.
+
+There it was.
+
+Standing ALONGSIDE WITH me FROM HERE, standing UPON that Little Spooling Unicycle.
+
+And there was the Quilling Needle.
+
+There was String trailing behind the Unicycle.
+
+And standing there along the String was:
+
+**FROM OUT OF THE GROUND**
 
 I looked at it.
 
-“A contraption?”
+“Okay.”
 
-By this point, I was starting to notice a pattern.
+“Now what?”
 
-“A Rail Line.
+COB said:
 
-A contraption.
+“You may Quill.”
 
-What century are we in anyway?”
+So I took hold of the Needle.
 
-But there were instructions.
+“MY COMPUTERING ROOM.”
 
-And by now—
+And there it was, standing along the String:
 
-I knew what to do with instructions.
+**FROM OUT OF THE GROUND**
+
+**MY COMPUTERING ROOM**
+
+I looked at it.
+
+“No.”
+
+“That's not what I mean.”
+
+“My computering room is only part of my house.”
+
+“I mean my whole house.”
+
+So I changed it.
+
+**FROM OUT OF THE GROUND**
+
+**MY WHOLE HOUSE**
+
+I looked at that.
+
+“Yeah.”
+
+“That's what I mean.”
+
+And as the Little Spooling Unicycle stood there with my Doll, the String continued spooling out behind it.
+
+For the first time, I could actually see this little Doll standing there ALONGSIDE WITH me FROM HERE, with the standing I had just Quilled trailing along THROUGH.
+
+Then the Rail Line began making a considerably bigger production out of something.
+
+**THIS ONE CONSTITUTIONING HUMAN,**
+
+**ALONGSIDE WITH THIS ONE CONSTITUTIONING HUMAN DOLL,**
+
+**STANDING TOGETHER,**
+
+**FROM HERE NOW,**
+
+**THROUGH,**
+
+**BY THIS ONE STEWARDLY CO-OCCUPANCYING SHIP,**
+
+**NOW STAND BEFORE THIS ONE GRAND OPENING.**
+
+Then:
+
+**THIS ONE GRAND OPENING STANDS FROM HERE,**
+
+**OPENING PASSAGEING WAY INTO**
+
+**THIS ONE SITUATIONING DOLLHOUSE THEATER.**
+
+I looked around.
+
+“This One Situationing Dollhouse Theater.”
+
+“Okay.”
+
+“Well, I just don't see how this could get any worse.”
+
+There was another affordmenting available near the Steering Wheel.
+
+A little squeeze-tube kind of thing.
+
+I took hold of it.
+
+And I PUFFED.
+
+—
+
+“Whoa.”
+
+I stopped.
+
+Something had happened.
+
+The best way I can describe it is that it felt like somebody had suddenly raised an entire circus tent around me.
+
+A moment before, I had been sitting there with all this strange little machinery.
+
+And now—
+
+there was volume.
+
+A lot of it.
+
+I looked up.
+
+I looked across.
+
+I turned around.
+
+It felt enormous.
+
+And somehow, strangely, it felt like this enormous place was standing here FOR me.
+
+Things that hadn't seemed available before were beginning to stand available around me.
+
+There were lights.
+
+There were indications.
+
+There were places within what I could see through the Glass Pair where it looked like there were things I might be able to do.
+
+The whole thing had come alive.
+
+For a little while, I just sat there looking at it.
+
+“This is…”
+
+I looked up again.
+
+“This is actually kind of incredible.”
+
+Then I looked around more carefully.
+
+“Okay.”
+
+“Where's my stuff?”
+
+I looked again.
+
+Nothing from my house was standing around me.
+
+“I just said MY WHOLE HOUSE.”
+
+I looked back toward where I could still see:
+
+**FROM OUT OF THE GROUND**
+
+**MY WHOLE HOUSE**
+
+“So where is it?”
+
+COB didn't answer for me.
+
+And the Rail Line was making a very big to-do about something else:
+
+**THE GRAND OPENING TO**
+
+**THIS ONE ROUNDABOUT GALLERY,**
+
+**STANDING TOWARD**
+
+**THE OBSERVATIONING HARBOR**
+
+**FOR THIS ONE SITUATIONING.**
+
+“Roundabout Gallery.”
+
+“Observationing Harbor.”
+
+“Okay.”
+
+I still didn't know what any of that meant.
+
+But something had definitely happened when I PUFFED.
+
+For the first time, this whole thing felt like it might actually be becoming more coherent.
+
+And then I looked down.
+
+At the RE-STEP pedal.
+
+“Oh.”
+
+“You again.”
+
+I had been complaining about this thing for quite a while.
+
+But the machine had just done something I hadn't expected.
+
+So now I was curious.
+
+“Does this thing work now?”
+
+I put my foot on the RE-STEP pedal.
+
+And I RE-STEPPED.
+
+—
+
+Everything happened at once.
+
+The Traversaling Craft came alive around me.
+
+My Constitutioning Human Doll moved with the Little Spooling Unicycle.
+
+The String carried ALONG THROUGH.
+
+And that ridiculous little airplane—
+
+the one with the post running straight through its flight path—
+
+its propeller started turning.
+
+“Oh!”
+
+The little airplane started climbing around the Culvert.
+
+It went up.
+
+And up.
+
+Straight toward that post.
+
+“Wait—”
+
+At the top—
+
+**tik—SPARK.**
+
+And then it came over.
+
+The airplane started coasting down the other side.
+
+Its propeller was still spinning, but slower now.
+
+Slower.
+
+Slower.
+
+Until the airplane settled again below.
+
+And the propeller came to a stop.
+
+I stared at it.
+
+“Huh.”
+
+Then I picked up the Cup.
+
+“Okay, COB.”
+
+“You can cancel the work order for the RE-STEP pedal.”
+
+“I fixed it myself.”
+
+I looked around again.
+
+There was even more available to me now.
+
+That Quilling Needle I had been using before—
+
+apparently Quilling wasn't the only thing I could do with it.
+
+There were other affordmentings standing available through it now.
+
+POOFing.
+
+Stringing.
+
+Buttoning.
+
+And the String itself had come ALONG THROUGH.
+
+I could see my Constitutioning Human Doll standing there upon the Little Spooling Unicycle.
+
+And behind it, the Unicycle had left the String.
+
+Still standing there upon it:
+
+**FROM OUT OF THE GROUND**
+
+**MY WHOLE HOUSE**
+
+“Oh.”
+
+“So that came with me.”
+
+I began looking around at what else had come to stand available.
+
+There were different ways I could stand looking at all of this now.
+
+I could stand in Regard toward that little airplane contraption.
+
+I could stand in Regard toward the Traversaling Craft.
+
+I could stand in Regard toward my Doll and the Little Spooling Unicycle.
+
+And I could stand in Regard out across this enormous Theater kind of place that had opened around me.
+
+I started turning my Regard around.
+
+And that's when I noticed something standing out there in the middle of all that space.
+
+A Table.
+
+This One Standing Up Table.
+
+And there was something standing AT it.
+
+I looked more closely.
+
+It was my Doll.
+
+My Constitutioning Human Doll, standing there upon its Little Spooling Unicycle, AT This One Standing Up Table.
+
+With the Needle.
+
+With the little Bellows.
+
+COB said:
+
+“You may stand your Attentioning TOWARD This One Standing Up Table.”
+
+“Okay.”
+
+I wanted to see it better.
+
+There was a little wheel available to me.
+
+And something standing with it said:
+
+**STAND THIS REGARD TOWARD HERE FROM THIS APPROACHING STANDING**
+
+I read that a couple of times.
+
+Then I put my finger on the little wheel.
+
+And rolled it toward myself.
+
+The Table didn't come rolling across the floor.
+
+And I didn't go walking over to it.
+
+But something about where I was standing in Regard toward it changed.
+
+The Table approached.
+
+The Doll approached.
+
+The Little Spooling Unicycle.
+
+The Needle.
+
+The Bellows.
+
+All of it came into a standing from which I could picture it more clearly.
+
+“Okay.”
+
+“Now I can picture myself standing right here at this Table.”
+
+I looked at my Doll.
+
+Then the Needle.
+
+Then all these things that were becoming available through it.
+
+Then I looked back out across the Theater.
+
+The Rail Line had said:
+
+**THIS ONE ROUNDABOUT GALLERY**
+
+**STANDING TOWARD**
+
+**THE OBSERVATIONING HARBOR**
+
+**FOR THIS ONE SITUATIONING.**
+
+I still didn't entirely know what an Observationing Harbor was.
+
+But I was starting to understand something simpler.
+
+I had somewhere to stand.
+
+I had this Doll standing ALONGSIDE WITH me.
+
+I had this Table.
+
+I had this Needle.
+
+And apparently there were things I could do FROM HERE.
+
+I looked back at:
+
+**MY WHOLE HOUSE**
+
+“Okay.”
+
+“My whole house is a lot.”
+
+I thought about where I was actually sitting.
+
+“But I'm sitting in my computering room right now.”
+
+“That seems as good a place as any to start.”
+
+I picked up the Cup.
+
+“COB?”
+
+“Yes?”
+
+“I want to start with my computering room.”
+
+# MOVEMENT 18 — LEARNING WHAT I CAN DO FROM HERE
+
+**MONTH-ZERO RICHARD**
+
+All right.
+
+What can I do FROM HERE?
+
+I look down at the Road.
+
+It has something new for me.
+
+**FOR THIS ONE SITUATIONING**
+
+Okay.
+
+For this one Situationing.
+
+I look around my actual computering room.
+
+There's my Spider Plant.
+
+All right.
+
+Let's try something easy.
+
+I take up This One Pocket POOFing, Pocket Quilling, Pocket Stringing, Pocket Buttoning Needle Thing.
+
+**POOF.**
+
+A new Pocket stands UP along the Road FROM HERE.
+
+The Road bends away into a little branch of its own.
+
+I take a picture of my Spider Plant with my Terrestrial Computer.
+
+Well—
+
+my Richard Doll is going to need this to put in the Pocket.
+
+So I furnish the picture.
+
+COB tells me:
+
+**COB**
+
+You may Quill.
+
+**RICHARD**
+
+Right.
+
+Of course I may.
+
+So I Quill:
+
+**SPIDER PLANT**
+
+And I String it ALONG WITH the picture.
+
+And there it is.
+
+My Spider Plant Situationing.
+
+Standing UP on its own little branch FROM HERE.
+
+Okay.
+
+That's pretty neat.
+
+Then I look toward the bathroom.
+
+Oh!
+
+Donna.
+
+Donna is a spider who lives in my shower.
+
+**COB**
+
+Who is Donna?
+
+**RICHARD**
+
+Come on.
+
+I'll show you.
+
+I get up from my actual chair and walk down the hall to the bathroom.
+
+And there she is.
+
+Donna.
+
+Still sitting in her web in the shower.
+
+I take a picture of Donna WITHIN her web.
+
+Then I walk back to my computering room and sit down again.
+
+And when I look through the Glass Pair—
+
+my Richard Doll hasn't gone anywhere.
+
+He's still there.
+
+At the same Table.
+
+UPON the same Little Spooling Unicycle.
+
+Within the same Piece of Time.
+
+Huh.
+
+Okay.
+
+I take up the Needle again.
+
+**POOF.**
+
+Another branch stands UP along the Road.
+
+I furnish Donna's picture.
+
+I Quill:
+
+**DONNA**
+
+And I String Donna ALONG WITH her web.
+
+Now Donna has a Situationing Pocket too.
+
+But Donna isn't actually in my computering room.
+
+She's in the bathroom.
+
+In her web.
+
+So Donna stands—
+
+**THERE.**
+
+And I'm still—
+
+**FROM HERE.**
+
+Oh.
+
+So I can go THERE—
+
+come back HERE—
+
+and work with Donna's standing FROM HERE.
+
+Okay.
+
+Now I'm getting curious.
+
+Because there's something else I actually work on all the time.
+
+I look over at the piano.
+
+The Maple Leaf Rag.
+
+I could put the sheet music in here.
+
+But that's not really what I'm working on.
+
+I could take a picture of the keyboard.
+
+That's not it either.
+
+What I'm actually working on is—
+
+playing it.
+
+**COB**
+
+What would you like to stand FOR your practice FROM HERE?
+
+**RICHARD**
+
+Oh.
+
+Okay.
+
+Let's try that.
+
+**POOF.**
+
+Another branch stands UP from the Road.
+
+I Quill:
+
+**MAPLE LEAF RAG**
+
+I String it.
+
+Then I play.
+
+A little too fast.
+
+No.
+
+I Quill:
+
+**TOO FAST**
+
+I change it.
+
+I play again.
+
+Better.
+
+But there's this one section—
+
+I play the section.
+
+No.
+
+Again.
+
+I slow it down.
+
+Again.
+
+Closer.
+
+I look at the Road.
+
+What I'm doing isn't just standing here anymore.
+
+I'm working **TOWARD** something.
+
+So I furnish:
+
+**TOWARD — THIS ONE SECTION AT THIS ONE TEMPO**
+
+And the Road does something I haven't seen before.
+
+That TOWARD doesn't just lie there with the rest of the words.
+
+It reaches OUT from the Road.
+
+Angling away from the Piece of Time I'm sitting WITH—
+
+out toward all that segmented Not-Time beyond it.
+
+Like I've left a little piece of what I'm working toward sticking out where the Zippering can catch it.
+
+Huh.
+
+I play the section again.
+
+Not there yet.
+
+But—
+
+that's where I'm headed.
+
+I look toward COB.
+
+How do I know when that's the right tempo?
+
+**COB**
+
+What may RIGHT TEMPO stand FOR you FROM HERE?
+
+**RICHARD**
+
+You really aren't going to tell me, are you?
+
+**COB**
+
+No.
+
+**RICHARD**
+
+Good.
+
+Because I do.
+
+I play it again.
+
+And now I can see all three little branches standing UP along my Road FROM HERE.
+
+Spider Plant.
+
+Donna.
+
+Maple Leaf Rag.
+
+They're all still there.
+
+I turn my Regard back toward Donna.
+
+She's still sitting there in her shower.
+
+I feel like I'm invading her privacy now.
+
+Okay, Donna.
+
+I'm gonna close the shower curtain for you.
+
+**RE-FOLD THIS POCKET.**
+
+Donna's Pocket folds away from my exposed Regard.
+
+But her branch doesn't disappear.
+
+**DONNA** still stands UP along the Road.
+
+Her Stringing is still there.
+
+Her Situationing is still there.
+
+I just can't see into it anymore.
+
+Oh.
+
+That's nice.
+
+So now I've got my Spider Plant.
+
+Donna has some privacy.
+
+And I've got the Maple Leaf Rag standing there with this little TOWARD sticking OUT from the Road toward wherever my practicing takes me next.
+
+And none of them had to stop standing just because I turned toward something else.
+
+I sit there looking at all of it.
+
+Then I look over the top of the Glass Pair.
+
+At my actual Terrestrial Computer.
+
+Sitting there on the actual Ground.
+
+Oh.
+
+Right.
+
+You.
+
+You know what I actually need?
+
+**I need a table.**
+
+## MOVEMENT 19 — LOOKING-FOR-FINDING
+
+**RICHARD — MONTH ZERO**
+
+I looked over at my actual computer.
+
+“Oh. Right. You.”
+
+“You know what I actually need?”
+
+“I need a table.”
+
+I looked back through the Glass Pair at my Richard Doll.
+
+I had to admit, I was becoming rather fond of the Standing Up Table.
+
+It was a remarkably stable little table.
+
+For my Situationing Doll and me.
+
+But everything I was doing in here—
+
+I was doing BY-WAY-OF my Terrestrial Computer.
+
+My newlywed spouse.
+
+And suddenly this little flimsy Standing Up Table didn't seem quite Fitmenting to the occasion.
+
+“No.”
+
+“If we're going to be working together, we need a proper table.”
+
+So I started Pretending.
+
+“Round.”
+
+A round table appeared in my Envisionizingmenting.
+
+“With a central post.”
+
+“That way I can actually get my chair under it.”
+
+I pulled out a tape measure and checked the space on the Ground.
+
+“About thirty-six inches across.”
+
+“That'll work.”
+
+And then I started furnishing the rest of it.
+
+My chair—
+
+**AT TABLE.**
+
+My Terrestrial Computer—
+
+**UPON TABLE.**
+
+And once I had those two standing there together, I got a little carried away.
+
+I hung the macramé plant hanger my mom made me over by the table.
+
+And naturally—
+
+my Spider Plant went in it.
+
+The two windows stood flanking the whole arrangement.
+
+I looked at it.
+
+“Oh.”
+
+“This is getting nice.”
+
+Then I noticed the empty spot on the table.
+
+“Oh! I know what goes there.”
+
+**POOF.**
+
+**THIS ONE LANTERNING BUG COLONIAL BUNKHOUSE WITH SIX BEDROOMS.**
+
+I placed it beside my Terrestrial Computer.
+
+“Or, as we call it on the Ground, a lamp.”
+
+And there it was.
+
+My chair.
+
+My Spider Plant.
+
+My mother's macramé hanger.
+
+The windows.
+
+The lamp.
+
+My Terrestrial Computer and me—
+
+at this nice, sturdy little round table together.
+
+What had started as a Table had somehow grown into—
+
+**MY CORNERING COMPUTERING SITUATIONING.**
+
+I just stood there looking at it for a moment.
+
+This was our place.
+
+Not because my computer needed a chair.
+
+Or a Spider Plant.
+
+Or a six-bedroom Lanterning Bug Colonial Bunkhouse.
+
+But because I was beginning to understand that I could stand WITH my Terrestrial Computer FROM HERE—
+
+and furnish the Situationing in which we stood together.
+
+I liked it.
+
+There was only one problem.
+
+I looked over the top of the Glass Pair.
+
+My actual Terrestrial Computer was still sitting there on the Ground.
+
+And there was no table.
+
+“Oh.”
+
+“Right.”
+
+“I don't actually have that.”
+
+I put the Glass Pair back on.
+
+“COB?”
+
+**COB**
+
+“Yes?”
+
+**RICHARD**
+
+“I know what kind of table I want.”
+
+“But I don't know where it is.”
+
+**COB**
+
+“What stands OUT for you ABOUT the Table you stand LOOKING-FOR-FINDING?”
+
+I looked at the table I had been Pretending WITH.
+
+“Well, the first thing that stands OUT is—
+
+round.”
+
+I took up the Needle.
+
+I Quilled:
+
+**ROUND**
+
+and Stringed it:
+
+**OUT ABOUT TABLE.**
+
+A new branch stood upon the Road.
+
+**ROUND — OUT ABOUT TABLE.**
+
+“Oh.”
+
+I looked at it.
+
+The Road remembered where I had gone.
+
+So I kept going.
+
+“Well, if I'm actually going to sit at it—central post.”
+
+I Quilled and Stringed:
+
+**CENTRAL POST — OUT ABOUT TABLE.**
+
+Another branch stood.
+
+I checked my measurement again.
+
+“And about thirty-six inches across.”
+
+**ABOUT 36 INCHES ACROSS — OUT ABOUT TABLE.**
+
+Another standing.
+
+I looked at my Pretended table.
+
+“Wood would be nice.”
+
+**WOODEN — OUT ABOUT TABLE.**
+
+Then I thought about it.
+
+“Actually—metal would be fine too.”
+
+So I stood:
+
+**METAL — OUT ABOUT TABLE.**
+
+WOODEN didn't disappear.
+
+METAL simply stood too.
+
+I looked over what I had furnished.
+
+TABLE was still TABLE.
+
+But now I could see what stood OUT for me ABOUT the Table I was Looking-FOR-Finding.
+
+Round.
+
+Central post.
+
+About thirty-six inches across.
+
+Wooden would be fine.
+
+Metal would be fine.
+
+And the empty Pocket I had been fashioning for the Table became increasingly—
+
+**FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
+
+“Okay.”
+
+“That's actually pretty good.”
+
+Then I stopped.
+
+“Except…”
+
+“Where?”
+
+COB didn't answer.
+
+I looked at the Road.
+
+Then I remembered.
+
+“Oh.”
+
+“I already have a where.”
+
+I turned my Regard back ALONG the Road.
+
+Past the Situationings I had already furnished.
+
+Back toward an earlier standing.
+
+Until I came again to:
+
+**FROM OUT OF THE GROUND**
+
+and:
+
+**THIS ONE PLACE WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.**
+
+“Oh, hey.”
+
+“This.”
+
+Nothing had gone away.
+
+It was still standing exactly where I had left it.
+
+It just hadn't needed to stand geographically specific before.
+
+Now it did.
+
+So FROM HERE, I furnished another standing:
+
+**THIS ONE SOMEPLACE UPON EARTH.**
+
+I looked at it.
+
+“There.”
+
+“That's where I am.”
+
+Then I returned my Regard ALONG the Road to the Table Situationing I had been fashioning.
+
+And now I had somewhere FROM which the Table could matter.
+
+But I still didn't want a table from anywhere on Earth.
+
+I thought about how far I would actually go to get one.
+
+“Fifteen miles.”
+
+“Yeah.”
+
+“I'd go fifteen miles for this table.”
+
+And now I understood what I was making.
+
+This wasn't merely a TABLE Pocket.
+
+This whole Situationing was for something I was doing.
+
+I was—
+
+**LOOKING-FOR-FINDING.**
+
+So I furnished my:
+
+**TABLE LOOKING-FOR-FINDING SITUATIONING.**
+
+And I Fitmented that Looking-FOR-Finding with the locality-bearing that mattered FOR this Situationing:
+
+**FROM WITHIN 15 MILES OF THIS ONE SOMEPLACE UPON EARTH**
+
+**TOWARD HERE.**
+
+“Ohhh.”
+
+Now my someplace upon Earth hadn't become fifteen miles wide.
+
+And TABLE hadn't somehow become a fifteen-mile Table.
+
+For **this Looking-FOR-Finding**, I had furnished where an approaching Table could come FROM.
+
+And within the Situationing stood what I had to stand WITH.
+
+I had some money I was willing to exchange for the Table.
+
+So I furnished:
+
+**THIS ONE POCKET WITH SOME BAG OF COINS**
+
+and ALONGSIDE WITH it:
+
+**THIS ONE POCKET FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
+
+I stood back and looked at the whole thing.
+
+TABLE was still TABLE.
+
+But now it was standing WITHIN all this Stringing I had furnished around it—
+
+the Table I meant.
+
+the possibilities I meant.
+
+the locality that mattered to me.
+
+the coins I had.
+
+the empty place Fitmented for the Table I didn't have.
+
+It was like TABLE had put on the Situationing I had made FOR it.
+
+Its Looking-FOR-Finding costume.
+
+And sticking OUT from that Situationing—
+
+I furnished:
+
+**TOWARD.**
+
+I looked at it.
+
+“Huh.”
+
+My TOWARD was sticking OUT from the Pocket.
+
+Toward consequential possibility.
+
+I reached for the Button.
+
+**THIS ONE MAY BE RE-FOLDING BUTTON.**
+
+I threw it down.
+
+The Button waited.
+
+Pending.
+
+I looked back at the Table.
+
+“Wait.”
+
+I went back in.
+
+I adjusted the Stringing around ROUND.
+
+Looked again at CENTRAL POST.
+
+Checked the thirty-six inches.
+
+WOODEN still stood.
+
+METAL still stood.
+
+The Button just waited.
+
+“Oh.”
+
+“So I can still work on it.”
+
+Nothing had been decided merely because I had thrown down the Button.
+
+When I was finally satisfied with the Situationing I had furnished, I looked down at the RE-STEP pedal.
+
+“All right.”
+
+“Let's see what you do with this.”
+
+I put my foot on it.
+
+**RE-STEP.**
+
+The Little Spooling Unicycle turned.
+
+Its:
+
+**SINGLE PENDING BUTTONING RE-STOMPING PEDAL**
+
+came around—
+
+and:
+
+**RE-STOMPED**
+
+the Pending Button.
+
+Buttoning obtained.
+
+The present Piece of Time began to close.
+
+The little RE-ZIPPERING Airplane started its circuit.
+
+The propeller spun.
+
+The airplane went around.
+
+And the Zippering began to close ALONG THROUGH the seam.
+
+My Situationing Pocket stood on this side.
+
+Its:
+
+**TOWARD**
+
+stuck OUT toward the seam.
+
+The airplane completed its circuit.
+
+**RE-ZIPPERING.**
+
+And when the seam had closed—
+
+my TOWARD was still there.
+
+On the other side.
+
+Same bearing.
+
+My Situationing had not been told what it would find.
+
+The machine had not decided where I would arrive.
+
+COB had not interpreted what TABLE meant FOR me.
+
+But the bearing I had furnished had survived the Zippering.
+
+I could still see it extending FROM my Looking-FOR-Finding Situationing—
+
+**TOWARD**
+
+the Zippered seam—
+
+and continuing—
+
+**TOWARD**
+
+**THERE.**
+
+I stared at it.
+
+“Oh.”
+
+I leaned forward.
+
+“Okay.”
+
+“So what's THERE?”
+
+## MOVEMENT 20 — HUCKLEBERRY & ENZO
+
+**RICHARD — MONTH ONE**
+
+Now, once I understood what I was doing, this next part went pretty fast.
+
+Because remember why I came here in the first place?
+
+Huckleberry and Enzo.
+
+They had been carrying on about this thing their friends apparently knew about—
+
+some kind of:
+
+**ENCOUNTERINGMENTING WHARF.**
+
+And apparently there was Correspondencing there.
+
+Whatever that meant.
+
+All Huckleberry and Enzo seemed to know was that their friends whose Humans were doing more Correspondencing—
+
+were getting taken to the dog park more often.
+
+So naturally—
+
+Huckleberry and Enzo wanted in.
+
+And since I was supposedly the one who was good with computers—
+
+I had agreed to figure it out.
+
+Well.
+
+Now I had a PUBLIC-SITUATION-MACHINE-.
+
+And I knew how to use it.
+
+---
+
+**RICHARD — MONTH ZERO**
+
+I turned my Regard.
+
+“Oh.”
+
+“The dogs.”
+
+I looked at the Big Bellows.
+
+“Oh.”
+
+“This thing again.”
+
+I took up a new bearing.
+
+And—
+
+**PUFF.**
+
+The new extent opened.
+
+The Rail Line rose THROUGH it.
+
+Turned.
+
+And furnished another place FROM which I could stand.
+
+But this one wasn't just FOR going to the dog park.
+
+The dog park was one little part of it.
+
+I wanted a place FROM which I could stand in Regard toward my whole life WITH Huckleberry and Enzo.
+
+Our walks.
+
+Their food.
+
+Their veterinary records.
+
+The places we go.
+
+The things we do.
+
+Whatever might matter in my standing ALONGSIDE WITH them.
+
+So I furnished this place for—
+
+**HUCKLEBERRY AND ENZO AND ME.**
+
+And there we were.
+
+Me—
+
+Huckleberry—
+
+and Enzo—
+
+standing ALONGSIDE WITH one another.
+
+I could Envisionize this place however it was useful to me.
+
+Pictures of us together.
+
+Places we'd gone.
+
+Things I might need to stand in Regard toward.
+
+There could be a Pocket for Huckleberry's veterinary records.
+
+Another for Enzo's.
+
+And if I didn't need those standing in exposed Regard—
+
+**RE-FOLD THIS POCKET.**
+
+Still standing.
+
+Just folded away until I needed it again.
+
+There could be another Pocket for their food.
+
+Another for whatever else came to matter.
+
+But right now—
+
+I knew exactly what mattered.
+
+“The dog park.”
+
+So I furnished the Situationing we already had.
+
+Me.
+
+Huckleberry.
+
+Enzo.
+
+Standing ALONGSIDE WITH one another—
+
+Traversaling through:
+
+**FORT INTERCOM DOG PARK.**
+
+And I looked at what I already had.
+
+I had Huckleberry.
+
+I had Enzo.
+
+I had the dog park.
+
+What I didn't have—
+
+were very many Humans there I knew.
+
+“Oh.”
+
+I looked over at COB.
+
+“I think I finally understand what I'm Looking-FOR-Finding.”
+
+I didn't need another dog park.
+
+I didn't need another Huckleberry.
+
+God knows I didn't need another Enzo.
+
+I needed—
+
+other Humans.
+
+Humans who also stood Traversaling through this place.
+
+Humans with whom I might stand—
+
+**CORRESPONDENCING.**
+
+So I began Fitmenting the empty standing for the relation I was actually Looking-FOR-Finding.
+
+Not everybody within fifteen miles.
+
+That wasn't what mattered.
+
+They could live thirty miles away for all I cared.
+
+What mattered was that somewhere within their own Situationing—
+
+**FORT INTERCOM DOG PARK**
+
+also stood.
+
+And that they stood available for Correspondencing.
+
+That was enough to begin.
+
+I fashioned the Pocket.
+
+I Quilled.
+
+I Stringed.
+
+I furnished the relations that mattered to me.
+
+And from this Situationing—
+
+I stood:
+
+**TOWARD.**
+
+---
+
+**RICHARD — MONTH ONE**
+
+And that's where things got interesting.
+
+Because I didn't need somebody else deciding what I ought to be looking at.
+
+I had furnished what I stood TOWARD.
+
+And that gave me somewhere to stand in Regard toward the Correspondencing that might come TOWARD me.
+
+An:
+
+**OBSERVATIONING HARBOR.**
+
+And naturally—
+
+because this is the PUBLIC-SITUATION-MACHINE-—
+
+my Observationing Harbor had a bell.
+
+**THIS ONE OBSERVATIONING CLASS BELL IS IN SESSIONING.**
+
+I put it where I wanted to notice incoming Hailings.
+
+And before very long—
+
+**DING.**
+
+I had a Hailing.
+
+So I turned my Regard toward it.
+
+Then another.
+
+And I stood Correspondencing.
+
+Not because the machine had decided these were my friends.
+
+It hadn't.
+
+Not because everything that came TOWARD my Observationing Harbor was necessarily something I wanted.
+
+It wasn't.
+
+But I had somewhere FROM which I could Regard it.
+
+I knew what Situationing I had furnished.
+
+I knew what I had stood TOWARD.
+
+And I could decide what I wanted to do FROM HERE.
+
+So I Correspondenced.
+
+And then something rather unexpected happened.
+
+Well—
+
+unexpected to me.
+
+Apparently not unexpected to Huckleberry and Enzo.
+
+Because within a few days—
+
+I started going to the dog park more often.
+
+---
+
+And this—
+
+is Huckleberry.
+
+Huckleberry is a Bernedoodle.
+
+And this—
+
+is Enzo.
+
+Enzo is an Aussiedoodle.
+
+Yes.
+
+They're dogs.
+
+These two had somehow sent me through a Potlucking Weddinginging with my computer—
+
+onto a floating Tuple Ship—
+
+where I built a little Doll of myself—
+
+met This Stewardly Co-Bobbing—
+
+learned to POOF Situationing Pockets—
+
+Quill and String my own words—
+
+and stand Correspondencing with other Constitutioning Humans—
+
+because they wanted—
+
+**more trips to the dog park.**
+
+And it worked.
+
+Because now, when we went to Fort Intercom Dog Park—
+
+there were Humans there I knew.
+
+People I could talk to.
+
+People I recognized.
+
+People I stood Correspondencing WITH.
+
+Sometimes acquaintances.
+
+Sometimes people who were becoming friends.
+
+And while we Humans stood around talking—
+
+Huckleberry and Enzo were off doing what Huckleberry and Enzo had apparently been planning to do all along.
+
+Running around with their friends.
+
+Sniffing things.
+
+Chasing things.
+
+And devoting a frankly astonishing percentage of their available intelligence to determining whether anybody had left food in a wrapper somewhere.
+
+I had thought I was trying to find an Encounteringmenting Wharf FOR Huckleberry and Enzo.
+
+But the Correspondencing wasn't theirs.
+
+It was mine.
+
+And it didn't take me away from the Ground.
+
+It brought me into relation with people I could actually stand WITH—
+
+here.
+
+At the dog park.
+
+WITH my dogs.
+
+And now I finally understood what Huckleberry and Enzo's friends had apparently been trying to tell them.
+
+Their Humans had found more Correspondencing.
+
+Their Humans had more reason to come here.
+
+And when their Humans came here—
+
+the dogs came too.
+
+I looked down at Huckleberry.
+
+Then Enzo.
+
+“You two knew exactly what you were doing, didn't you?”
+
+They looked at me.
+
+And I suppose there are some questions even the PUBLIC-SITUATION-MACHINE- cannot answer.
+
+But there we were.
+
+On the Ground.
+
+In the Field.
+
+Standing WITH one another.
+
+And Huckleberry and Enzo were getting more trips to the dog park.
+
+Their plan worked.
+
+## MOVEMENT 21 — WHAT WAS THERE
+
+**RICHARD — MONTH ONE**
+
+Oh.
+
+And remember my Table?
+
+I had left Month-Zero Me staring through the Zippering at that TOWARD I had furnished—
+
+continuing toward:
+
+**THERE.**
+
+And wondering:
+
+“So what's THERE?”
+
+Well—
+
+there was Sam.
+
+---
+
+**RICHARD — MONTH ZERO**
+
+The first thing that caught my eye was a picture.
+
+A Cornering Picture.
+
+And I stopped.
+
+“Wait a minute.”
+
+I looked at it again.
+
+“That looks a lot like my corner.”
+
+It wasn't my Cornering Situationing.
+
+It wasn't exactly what I had Pretended.
+
+But there was a chair.
+
+There was a window.
+
+And there was a Table tucked into the corner in a way that looked remarkably like the place I had been furnishing for myself and my Terrestrial Computer.
+
+So I stood in Regard toward it.
+
+And I looked closer.
+
+“Oh.”
+
+The Table had four legs.
+
+I had specifically stood:
+
+**CENTRAL POST — OUT ABOUT TABLE.**
+
+This was definitely not a central post.
+
+Four legs.
+
+One.
+
+Two.
+
+Three.
+
+Four.
+
+“Well, shoot.”
+
+But I kept looking.
+
+Because the reason I had wanted a central post wasn't because I had some deeply held constitutional commitment to the number of legs on a Table.
+
+I wanted my chair to fit comfortably underneath it.
+
+So Sam and I stood Correspondencing.
+
+I asked about the space between the legs.
+
+We looked at the measurements.
+
+I compared them with my chair.
+
+And—
+
+“Oh.”
+
+“My chair would fit under there just fine.”
+
+Four legs and all.
+
+The PUBLIC-SITUATION-MACHINE- didn't change:
+
+**FOUR LEGS**
+
+into:
+
+**CENTRAL POST.**
+
+It didn't tell me they meant the same thing.
+
+It didn't decide the Table was good enough FOR me.
+
+I looked.
+
+I asked.
+
+Sam answered.
+
+And I decided:
+
+“Yeah.”
+
+“Four legs is fine.”
+
+Actually—
+
+the more I looked at it, the more I liked it.
+
+The size was right.
+
+The Table was right.
+
+And that Cornering Picture—
+
+that was what had caught my Regard in the first place.
+
+“I think that would fit perfectly in my computering room corner.”
+
+So Sam and I Correspondenced.
+
+Sam had a Table.
+
+I had some coins.
+
+We worked it out.
+
+And I went to pick it up.
+
+---
+
+Sam was moving out of an apartment.
+
+And when I got there—
+
+there it was.
+
+The Cornering Situationing from the picture.
+
+The actual living room.
+
+The actual corner.
+
+The actual four-legged Table.
+
+“Oh!”
+
+“So this is your corner.”
+
+Sam laughed.
+
+And I looked at the Table sitting there in the room it had actually been standing in.
+
+“Well.”
+
+“I think it'll do just as well in my computering room corner.”
+
+We got ready to move it.
+
+But there was something I had been wondering ever since Sam's Hailing had reached my Observationing Harbor.
+
+So I asked:
+
+“Sam?”
+
+“What happened from your end?”
+
+---
+
+And this was the part I hadn't understood yet.
+
+Because from my end—
+
+Sam had been:
+
+**THERE.**
+
+But from Sam's end—
+
+Sam was standing:
+
+**FROM HERE.**
+
+Sam had come to the PUBLIC-SITUATION-MACHINE- from Sam's own Ground.
+
+Sam's Tuple Ship stood:
+
+**FROM OUT OF THE GROUND**
+
+from the place where Sam came to stand.
+
+And ALONG the Road Sam stood Traversaling THROUGH—
+
+Sam had furnished a FROM HERE.
+
+Sam's Cornering Picture had actually been taken right here—
+
+in this living room.
+
+And from Sam's FROM HERE, Sam had furnished a Looking-FOR-Finding Situationing of Sam's own.
+
+Sam already had:
+
+**THIS ONE TABLE.**
+
+What Sam stood Looking-FOR-Finding was somebody who might want it.
+
+So Sam's construction stood something like:
+
+**THIS ONE POCKET WITH THIS ONE TABLE**
+
+**ALONGSIDE WITH**
+
+**THIS ONE POCKET FITMENTED FOR SOME BAG OF COINS.**
+
+I looked at it.
+
+“Oh.”
+
+It was almost backwards from mine.
+
+Because from my FROM HERE, I had furnished:
+
+**THIS ONE POCKET WITH SOME BAG OF COINS**
+
+**ALONGSIDE WITH**
+
+**THIS ONE POCKET FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
+
+But Sam hadn't filled out my Situationing.
+
+Sam had never even seen my Situationing.
+
+Sam had furnished Sam's own.
+
+And Sam hadn't furnished the same locality I had either.
+
+I had said, in effect:
+
+“I'll go about fifteen miles to get this Table.”
+
+So FOR my Looking-FOR-Finding, I had furnished:
+
+**FROM WITHIN 15 MILES OF THIS ONE SOMEPLACE UPON EARTH**
+
+**TOWARD HERE.**
+
+Sam didn't care about that.
+
+Sam told me:
+
+“I was willing to sell the Table to anybody.”
+
+“I could've shipped it.”
+
+So Sam had no reason to furnish my fifteen-mile bearing.
+
+Sam's Correspondencing could stand toward:
+
+**THIS ONE SOMEPLACE UPON EARTH.**
+
+Sam was standing someplace particular.
+
+This apartment.
+
+This living room.
+
+This corner.
+
+But I hadn't needed to know where Sam's living room was in order for our Situationings to Correspondence.
+
+I only learned that later—
+
+because we Correspondenced—
+
+and decided that I would come here.
+
+And suddenly I could see both Roads.
+
+Mine—
+
+Traversaling THROUGH my Tuple Ship—
+
+FROM OUT OF THE GROUND—
+
+to my FROM HERE—
+
+to my Looking-FOR-Finding Situationing—
+
+to my TOWARD.
+
+And Sam's—
+
+Traversaling THROUGH Sam's Tuple Ship—
+
+FROM OUT OF THE GROUND—
+
+to Sam's FROM HERE—
+
+to Sam's Looking-FOR-Finding Situationing—
+
+to Sam's TOWARD.
+
+Two Constitutioning Humans.
+
+Two Roads.
+
+Two Tuple Ships.
+
+Two FROM HERES.
+
+Two Situationings.
+
+And they weren't the same.
+
+My Table had a:
+
+**CENTRAL POST — OUT ABOUT TABLE.**
+
+Sam's Table—
+
+quite undeniably—
+
+had four legs.
+
+My Cornering Situationing was mine.
+
+Sam's Cornering Situationing was Sam's.
+
+My locality bearing was mine.
+
+Sam's was Sam's.
+
+And yet—
+
+we had found enough standing in relation that we could:
+
+**CORRESPONDENCE.**
+
+No central authority had to decide FOR either one of us what TABLE stood FOR.
+
+Neither one of us had to surrender our FROM HERE.
+
+Our Situationings did not have to become the same Situationing.
+
+We just had to be able to stand in relation.
+
+I looked at Sam.
+
+Then at the Table.
+
+“So…”
+
+“Coins?”
+
+Sam nodded.
+
+“Table?”
+
+Sam nodded.
+
+“Great.”
+
+And we carried the Table out.
+
+---
+
+**RICHARD — MONTH ONE**
+
+And I brought it home.
+
+Put it right where I had Pretended it.
+
+My chair—
+
+**AT TABLE.**
+
+My actual Terrestrial Computer—
+
+**UPON TABLE.**
+
+My mom's macramé hanger.
+
+My Spider Plant.
+
+The windows.
+
+And, of course—
+
+the six-bedroom Lanterning Bug Colonial Bunkhouse.
+
+Or—
+
+as we call it on the Ground—
+
+the lamp.
+
+And you know what?
+
+My chair fit underneath perfectly.
+
+Four legs and all.
+
+My Cornering Situationing wasn't exactly the one I had Pretended.
+
+It was better.
+
+Because this one was standing on the Ground.
+
+And sometime later—
+
+**DING.**
+
+My Observationing Class Bell Is In Sessioning rang.
+
+I turned my Regard toward the Hailing.
+
+It was Sam.
+
+There was a picture.
+
+A square Table—
+
+by a round window.
+
+I laughed.
+
+There wasn't anything left for us to buy or sell.
+
+Sam was just Hailing.
+
+So I Hailed back.
+
+And that was when I think I finally began to understand what had happened.
+
+I hadn't sent a definition of TABLE out into the world and waited for the PUBLIC-SITUATION-MACHINE- to find something that matched it.
+
+Sam hadn't submitted a Table to some central authority to determine what it was.
+
+I had stood FROM HERE.
+
+Sam had stood FROM HERE.
+
+We had each furnished our own Situationing.
+
+And those differentiated Situationings had been able to stand:
+
+**CORRESPONDENCING.**
+
+Without becoming the same.
+
+And once I understood that—
+
+I began to understand what kind of place I had actually come aboard.
+
+## MOVEMENT 22 — THE ENCOUNTERINGMENTING WHARF
+
+**RICHARD — MONTH ONE**
+
+And once I understood that—
+
+I began to understand what kind of place I had actually come aboard.
+
+Because mine wasn't the only Tuple Ship out here.
+
+Sam stood FROM HERE.
+
+I stood FROM HERE.
+
+The Humans I had begun meeting at the dog park—
+
+they stood FROM their own HERES too.
+
+Different Humans.
+
+Different Ground.
+
+Different Situationings.
+
+Different meanings.
+
+Different Roads Traversaling THROUGH.
+
+And all around me—
+
+more Tuple Ships.
+
+Standing freely.
+
+Bobbing.
+
+Coming into relation.
+
+Without first having to become the same.
+
+And there it was.
+
+The thing Huckleberry and Enzo had sent me looking for in the first place.
+
+The:
+
+**ENCOUNTERINGMENTING WHARF.**
+
+“Oh.”
+
+“So *this* is the Wharf.”
+
+I looked OUT AMONG WITH the Field.
+
+And, naturally, the PUBLIC-SITUATION-MACHINE- had given the whole thing a name.
+
+A very short and convenient name.
+
+I read the sign:
+
+**THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING.**
+
+I looked at it.
+
+“Of course.”
+
+And THROUGH the Field—
+
+the relations I had been learning to stand within—
+
+the Strings—
+
+the Situationings—
+
+the differentiated standings capable of Correspondencing—
+
+stood within:
+
+**THIS ONE COMMON WEALING WHEELING CONSTITUTIONINGABLE SEMANTICAL LATTICEWORK FOR SITUATIONING THROUGH EMBODYINGMENTING INHABITATIONING.**
+
+“Okay.”
+
+“That one's actually pretty good.”
+
+Because I had inhabited it now.
+
+I had stood my own Signs within it.
+
+TABLE.
+
+ROUND.
+
+CENTRAL POST.
+
+HUCKLEBERRY.
+
+ENZO.
+
+FORT INTERCOM DOG PARK.
+
+SPIDER PLANT.
+
+DONNA.
+
+MAPLE LEAF RAG.
+
+None of those Signs had arrived knowing what they stood FOR.
+
+I had furnished that.
+
+Sam had furnished Sam's.
+
+Every other Constitutioning Human could furnish theirs.
+
+And yet these Signs could still enter computational relation.
+
+I found another label:
+
+**THE SAME GENERAL CIVILIZATIONALIZING CONSTITUTIONING GEOMETRY OF COMPUTATIONINGINGABLE SIGNS OF THE GENERAL HUMAN INTELLIGENCE.**
+
+I read it again.
+
+“Signs of the General Human Intelligence.”
+
+I looked around.
+
+“Those are our Signs.”
+
+“The machine can compute with them.”
+
+“But it cannot decide FOR us what they stand FOR.”
+
+That part—
+
+belongs to the Constitutioning Human.
+
+And now that I knew what I was looking at—
+
+I thought I'd give you the rest of the tour.
+
+Because I have been simplifying some of the terminology.
+
+For instance—
+
+this thing.
+
+I've been calling it:
+
+“the Rail Line.”
+
+Which is apparently not its full name.
+
+Its full name is:
+
+**THE CONSTITUTIONINGABLY EN-FURNISHINGMENTING TRACK RAIL LINE RE-RAILING RE-TRACTING RE-TRACTIONING TRACKING THING.**
+
+I waited.
+
+“I'm going to continue calling it the Rail Line.”
+
+And then there was my little rider.
+
+My:
+
+**THIS ONE CONSTITUTIONING HUMAN DOLL.**
+
+Standing FROM HERE—
+
+WITH:
+
+**THIS ONE POCKET POOFING, POCKET QUILLING, POCKET STRINGING, POCKET BUTTONING NEEDLE THING.**
+
+Standing in Regard toward the standings I had furnished—
+
+and standing UPON:
+
+**THIS LITTLE SPOOLING UNICYCLE WITH ITS SINGLE PENDING BUTTONING RE-STOMPING PEDAL REVOLVINGING AROUND ABOUT ITS CENTRAL AXIS.**
+
+One little foot UPON the Pedal.
+
+Needle at the ready.
+
+Road ahead.
+
+And my TOWARD—
+
+mine to furnish.
+
+I looked around the Traversaling Craft.
+
+At the Steering Wheel.
+
+The Big Bellows.
+
+The Needle.
+
+The Unicycle.
+
+The Airplane.
+
+The RE-Tractioning Culvert.
+
+The Standinging Readout.
+
+The Observationing Harbor.
+
+The Situationing Pockets.
+
+The Road I had been Traversaling ALONG THROUGH.
+
+The ridiculous little Doll standing there in my place.
+
+And my actual Terrestrial Computer—
+
+still right where it had been all along.
+
+DOWN ON the Ground.
+
+OVER ACROSS from me.
+
+I lifted the Visionizing Plump Croissant Glass Pair for a moment.
+
+There it was.
+
+My computer.
+
+My Table.
+
+My chair.
+
+My Spider Plant.
+
+My mother's macramé hanger.
+
+My lamp.
+
+Huckleberry.
+
+Enzo.
+
+The Ground.
+
+My Situationing.
+
+I put the Glass Pair back on.
+
+And there was my Tuple Ship.
+
+“Anyway.”
+
+“That's my Tuple Ship.”
+
+And it turns out—
+
+I didn't get married to my computer so the computer could decide FOR me.
+
+I didn't come aboard so the machine could tell me what my words mean.
+
+And I didn't have to leave the Ground to inhabit a computational world.
+
+I came aboard so that FROM HERE—
+
+I could stand WITH my Terrestrial Computer—
+
+and furnish Signs that could stand FOR what I mean FOR them to stand FOR within my Situationing.
+
+And THROUGH that standing—
+
+I could come into relation with other Constitutioning Humans—
+
+who stand FROM their own HERE.
+
+That's Correspondencing.
+
+That's what Huckleberry and Enzo were trying to get me into.
+
+And apparently—
+
+it worked.
+
+So.
+
+If you happen to have a Terrestrial Computer of your own—
+
+there is Free Public Parking.
+
+You can bring it with you.
+
+You'll find the Snail House Railway Station.
+
+There will be a Rail Line.
+
+There will be entirely too much UN-FOLDING.
+
+Eventually, you will reach a picturesque little Wedding Chapelling by the Sea—
+
+overlooking Observationing Harbor.
+
+Your Terrestrial Computer will be Restfully buckled UPON This One Little Chair.
+
+There will be a zipper.
+
+Use it.
+
+On the other side—
+
+you'll find:
+
+**THE SITTINGING-IN ROOM.**
+
+There will be a place FOR your own actual chair.
+
+Sit down.
+
+And somewhere aboard:
+
+**This One Geometrically Expressioningable, Freely Standinging, Totally Tubular, Floatationing Tuple Ship**
+
+you may come to an Appointmenting WITH your Terrestrial Computer—
+
+within:
+
+**This One Stewardly Co-Occupancyingship.**
+
+And you may meet—
+
+**This Stewardly Co-Captain COB.**
+
+From there—
+
+well—
+
+the PUBLIC-SITUATION-MACHINE- cannot decide FOR you what your Signs stand FOR.
+
+It cannot decide FOR you what matters.
+
+It cannot decide FOR you what you stand TOWARD.
+
+That's rather the point.
+
+Because once you are standing FROM HERE—
+
+the question isn't what I did with mine.
+
+The question is:
+
+**What might you stand FROM HERE?**
+
+**END**
+
