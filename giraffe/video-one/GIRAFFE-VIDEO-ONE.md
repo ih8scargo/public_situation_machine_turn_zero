@@ -278,24 +278,9 @@ I was picturing the worst.
 
 Maybe we should have left earlier.
 
-<!-- GOBS FLAG [GOBS-001]
-TYPE: CONTINUITY
-CONFIDENCE: LIKELY
+I sent Huckleberry and Enzo a message saying I was working on getting us to the Wharf.
 
-WHAT GOBS NOTICED:
-Richard says he "messaged" Huckleberry and Enzo while waiting for parking. Movement 20 establishes that the Correspondencing is his, and that they are dogs.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied recovery places both dogs physically WITH Richard on Ground; they are not online Correspondencing participants.
-
-POSSIBLE BRUSH:
-Decide whether "messaged" is deliberate anthropomorphic storytelling. If not, a spoken aside to companions already WITH him could preserve the delayed dog reveal without implying remote recipients.
-
-WHY FLAGGED:
-The earlier dialogue can work as dog comedy; this particular communication verb adds a potentially conflicting physical arrangement.
--->
-
-I messaged Huckleberry and Enzo and told them to stand by.
+Stand by.
 
 I mean, my first thought was that we could be waiting here for hours.
 
@@ -351,24 +336,7 @@ Instead of a parking lot—
 
 we came through the PUBLIC ENTRANCE to something called:
 
-<!-- GOBS FLAG [GOBS-002]
-TYPE: MORPHOLOGY/NAME
-CONFIDENCE: QUESTION FOR RICHARD + MOBS
-
-WHAT GOBS NOTICED:
-The public entrance is officially named THIS ONE SNAIL HOUSE RAILWAY STATION. That name recurs in the Sittinging-In Room notice, Richard's deck discovery, and the closing invitation.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied preferred complete name is THE LAWFUL QUADRANGLEMENTING STATION HOUSE. This print does not establish whether that names this same furniture or a distinct architectural scope.
-
-POSSIBLE BRUSH:
-Reconcile the official entrance/notice labels first. Retain Richard's ordinary shorthand wherever it belongs to his acquired understanding; do not globally replace Snail House.
-
-WHY FLAGGED:
-This is a decision about which structure the official name denotes, not a reason to make early Richard speak later morphology.
--->
-
-THIS ONE SNAIL HOUSE RAILWAY STATION.
+THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.
 
 And I skimmed this sign leading into This Snail House Station. It basically said this whole webpage was somehow inside this Snail House Rail Line thing.
 
@@ -662,7 +630,7 @@ So—
 
 now what?
 
-### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THINGING
+### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THING
 
 Apparently—
 
@@ -722,30 +690,13 @@ And according to the sign—
 
 this was:
 
-<!-- GOBS FLAG [GOBS-003]
-TYPE: MORPHOLOGY/NAME
-CONFIDENCE: CLEAR
+THIS ONE NEVER-ENDING BOBBINING STRINGING THING.
 
-WHAT GOBS NOTICED:
-The sign and this Movement's heading name a NEVER-ENDING BOBBINING STRINGING THINGING; Richard then adopts Bobbining throughout assembly.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied current preferred official name is The Never-Ending Stringing Thingy.
-
-POSSIBLE BRUSH:
-Inspect the official sign and heading as one naming decision. Preserve the later "Oh. It bobbins" observation and any earned colloquial Bobbining references unless Richard + Mobs decide otherwise.
-
-WHY FLAGGED:
-An official label can need reconciliation while Richard's observation of how the object moves remains dramatically sound.
--->
-
-THIS ONE NEVER-ENDING BOBBINING STRINGING THINGING.
-
-I looked at the Bobbining Stringing Thinging.
+I looked at the Bobbining Stringing Thing.
 
 Then I looked at the Weddinginging Crew.
 
-Then I looked back at the Bobbining Stringing Thinging.
+Then I looked back at the Bobbining Stringing Thing.
 
 “You want me to take that?”
 
@@ -799,6 +750,8 @@ hardly anything happened.
 
 It landed—
 
+gave a little bounce—
+
 but for something about as tall as I was—
 
 it barely seemed to disturb anything at all.
@@ -817,7 +770,21 @@ DOWN into the Pocket—
 
 all the way UP to my hand.
 
-I had been specifically told to keep hold of it.
+I looked at the Weddinginging Crew.
+
+“Still holding this?”
+
+They looked at the String in my hand.
+
+“Okay.
+
+I guess I'm keeping hold of the String.”
+
+I looked down again.
+
+“And hopping.
+
+With all of this.”
 
 So—
 
@@ -851,76 +818,345 @@ Good.”
 
 Now I just had to figure out what to do with this enormous Bobbining thing.
 
-Fortunately—
+I looked ahead.
 
-I didn't have very far to go.
+The Pocket opened ALONG THROUGH into a tunnel.
 
-<!-- GOBS FLAG [GOBS-004]
-TYPE: ARCHITECTURAL SEAM
-CONFIDENCE: QUESTION FOR RICHARD + MOBS
+A long tunnel.
 
-WHAT GOBS NOTICED:
-After leaving the Weddinging crew, Richard lands in a Pocket and rolls the Bobbining "over to the next station." He later looks "back toward the Rail Line"; Movement 7 continues through a door and Passageing Way without an explicit Stationing cue.
+The Rail Line continued right through it.
 
-NEWER STANDING TO RECONCILE AGAINST:
-There is NO BETWEEN: these operations remain within continuously furnished Rail Line / Stationing, including UN-FOLDING from one standing to another.
+And here was another sign:
 
-POSSIBLE BRUSH:
-Check the staging of this transfer and the connected Passageing Way. If the images imply an unfurnished interval, one local furnishing/UN-FOLD cue may suffice; keep the rolling labor and Richard's travel theory.
+**THE LAWFUL QUADRANGLEMENTING STATION HOUSE.**
 
-WHY FLAGGED:
-Physical movement is not itself a contradiction. The decision is whether the depicted route inadvertently leaves Stationing and re-enters it.
--->
+“Okay.”
 
-The next station stood right there at the edge of the Pocket.
+I looked down the tunnel.
 
-So—
+“Quite a house.”
 
-somehow—
+Near where I'd landed, there was a Pocket with a frame around its opening.
 
-I had to get all of us over there.
+The inscriptioning said:
 
-I got behind the Bobbining and pushed.
+**THIS ONE PARTS POCKET.**
 
-And—
+Then:
 
-it rolled.
+**FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.**
 
-Not exactly like a ball.
+“Stand Assemblementing?”
 
-But close enough.
+I looked at my computer.
 
-It was surprisingly easy to move.
+Then at the Stringing Line in my hand.
 
-So I started rolling this enormous thing ahead of me—
+Then at the Parts Pocket.
 
-TOWARD the next station.
+There was a place to step in front of it.
 
-And as it rolled—
+**UN-FOLD.**
 
-the Stringing Line began paying out along those repeating curving lines running around its outside.
+Well—
 
-The Bobbining would roll—
+I knew that one.
 
-give a little bounce—
+I set my Terrestrial Computer down beside me—
 
-roll some more—
+still securely buckled UPON its Little Chair—
 
-while more of the Stringing paid out.
+and stepped on UN-FOLD.
 
-Nothing dramatic.
+Something came ALONG THROUGH the frame.
 
-But it was a very strange way for something that looked like a giant piece of metal to move.
+And the PUBLIC-SITUATION-MACHINE- made an announcement:
 
-And somehow—
+**THE GENERAL OFFICES OF THE APPLIANCE NOW STAND PROVISIONING**
 
-between pushing the Bobbining—
+**THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
 
-keeping hold of the Stringing—
+I read that again.
 
-and getting my Terrestrial Computer and its Little Chair along with me—
+“Affordmenting of Mountingable State.”
 
-I managed to get the whole newlywed operation over to the next station.
+Then I looked at the thing.
+
+“Looks like a nozzle to me.”
+
+I took it out.
+
+There was something printed on it too:
+
+**CERTIFIED 100% JANUSITE RIBBONATING SUBSTRATIONING.**
+
+“Janusite.”
+
+Okay.
+
+Apparently it was certified.
+
+Then came the instruction:
+
+**TO BEGIN, THREAD THIS STRINGING LINE YOU ARE KEEPING HOLD OF**
+
+**THROUGH THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
+
+“Oh.
+
+This.”
+
+I threaded the Stringing Line THROUGH the Nozzle.
+
+Then I looked around.
+
+Nothing.
+
+No next part.
+
+Nobody coming over to see how I was doing.
+
+I looked down at my foot.
+
+“Right.”
+
+**UN-FOLD.**
+
+The frame stayed where it was.
+
+But now something else came ALONG THROUGH it.
+
+**THE GENERAL OFFICES NOW STAND PROVISIONING**
+
+**THIS ONE LITTLE STRINGING WHEEL.**
+
+I picked it up.
+
+Yep.
+
+Looked like a little wheel.
+
+**MOUNT THIS ONE LITTLE STRINGING WHEEL UPON**
+
+**THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
+
+**THREAD THIS STRINGING LINE THROUGH THE LITTLE STRINGING WHEEL SEVERAL TIMES.**
+
+So I put the Little Wheel where the instructions told me to put it—
+
+there at the Nozzle—
+
+and threaded the String THROUGH it.
+
+A few times.
+
+I gave it a little tug.
+
+It felt secure.
+
+“Okay.”
+
+I looked at the Parts Pocket.
+
+Then I stepped on UN-FOLD again.
+
+Nothing new came ALONG THROUGH.
+
+I waited.
+
+Still nothing.
+
+“That's it?”
+
+Apparently that was all this Parts Pocket had for me.
+
+So I turned and looked down the Rail Line.
+
+The long Caterpillar Tunnel stretched away ahead of me.
+
+And behind me—
+
+there was still this enormous Bobbining thing.
+
+I picked up my newlywed Terrestrial Computer—
+
+Little Chair, square buckle and all—
+
+and took hold of the Nozzle with its Little Wheel and String.
+
+Now what?
+
+I pulled the Stringing.
+
+The Bobbining moved.
+
+I stopped.
+
+I looked at it.
+
+Then I pulled the Stringing again.
+
+And this time—
+
+the Bobbining gave this peculiar little bob as more Stringing paid out.
+
+I pulled again.
+
+It bobbed again.
+
+“Oh.
+
+It bobbins.”
+
+I took a step.
+
+The Thing bobbed ALONG behind me.
+
+Another step.
+
+Another bob.
+
+“Oh!
+
+I don't have to carry this thing.”
+
+I pointed the Nozzle farther down the tunnel.
+
+The Little Wheel turned.
+
+I leaned it a little.
+
+The Wheel turned some more.
+
+And as I went—
+
+the Little Wheel seemed to be taking in some of the Stringing Line.
+
+But when I looked back—
+
+more Stringing was paying out along those repeating curving lines running around the Bobbining.
+
+I looked at the Little Wheel.
+
+Then back at the Bobbining Thingy.
+
+“Huh.”
+
+I kept walking.
+
+The Rail Line ran ALONG THROUGH the tunnel.
+
+And we went with it.
+
+Me—
+
+my computer in its Little Chair—
+
+the Nozzle and Little Wheel—
+
+and this enormous thing bobbing along behind us.
+
+I walked a little faster.
+
+It bobbed a little faster.
+
+I slowed down.
+
+So did it.
+
+“Okay.”
+
+I shifted the Little Chair against me.
+
+Made sure I had a good hold of my computer.
+
+And tried a few running steps.
+
+The Little Wheel went around.
+
+The String danced ALONG the curves.
+
+And the Bobbining came bobbing after me.
+
+“Ha!”
+
+So I kept going.
+
+For a while, I forgot to look for another sign.
+
+There was all this tunnel ahead of us.
+
+I could speed up.
+
+Slow down.
+
+Point the Nozzle.
+
+Watch the Little Wheel.
+
+Look back and see that enormous Thingy still coming ALONG.
+
+This was actually fun.
+
+Then the Little Chair started slipping against my arm.
+
+“Hang on.”
+
+I stopped and got a better hold of it.
+
+The Bobbining settled behind me.
+
+My Terrestrial Computer was still securely buckled in.
+
+Restfullyinginglymenting.
+
+Good for it.
+
+I was carrying the chair.
+
+And managing the String.
+
+And the Nozzle.
+
+And its Little Wheel.
+
+And I couldn't exactly leave my newlywed spouse sitting here in the tunnel while I went running around with the Bobbining Thingy.
+
+I looked ahead again.
+
+We'd come a long way.
+
+But where were we going?
+
+Huckleberry and Enzo were still waiting for me to figure out the Wharf.
+
+I started looking for what came next.
+
+And there, ALONG THROUGH the Rail Line, was another place to step.
+
+**UN-FOLD.**
+
+“All right.”
+
+I stepped on it.
+
+This time I wasn't watching a Parts Pocket.
+
+The Rail Line opened onward before me.
+
+I looked UP.
+
+**YOU NOW STAND APPROACHING**
+
+**THIS ONE RE-STEPPING RE-STOMPING CONTRAPTION STATION.**
+
+“A Contraption Station.”
+
+Okay.
+
+I followed the Rail Line on.
+
+The long tunnel behind us fell out of view.
 
 And that's when I got my first good look at it.
 
@@ -936,7 +1172,7 @@ there was this enormous round wheel.
 
 I looked DOWN at the wheel.
 
-Then I looked back toward the Rail Line.
+Then I looked along the Rail Line.
 
 “Oh.
 
@@ -950,24 +1186,7 @@ Of course there was.
 
 According to the PUBLIC-SITUATION-MACHINE-, this was:
 
-<!-- GOBS FLAG [GOBS-005]
-TYPE: MORPHOLOGY/NAME
-CONFIDENCE: CLEAR
-
-WHAT GOBS NOTICED:
-The first official sign reads THIS ONE RE-STEPPING CONTRAPTION, as does the following Movement's heading in shortened form.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied complete apparatus name is This One RE-STEPPING RE-STOMPING Contraption. Richard RE-STEPS; the Unicycle's Single Pedal RE-STOMPS.
-
-POSSIBLE BRUSH:
-Inspect the complete apparatus label and heading together. The Human RE-STEP pedal in Movements 11, 16, 17, and 19 need not be renamed; the Unicycle pedal has a separate setup question in Movement 14.
-
-WHY FLAGGED:
-This flag concerns the named whole, not every grammatical occurrence of RE-STEPPING.
--->
-
-THIS ONE RE-STEPPING CONTRAPTION.
+THIS ONE RE-STEPPING RE-STOMPING CONTRAPTION.
 
 I looked at the sign.
 
@@ -987,6 +1206,8 @@ We were trying to get somewhere.
 
 I could make an inference.
 
+Though after all that tunnel, apparently I was supposed to stop in a clear box.
+
 And by this point—
 
 I was starting to understand how things worked around here.
@@ -997,7 +1218,7 @@ So I followed them.
 
 I opened the RE-STEPPING Contraption.
 
-### MOVEMENT SIX — THE RE-STEPPING CONTRAPTION
+### MOVEMENT SIX — THE RE-STEPPING RE-STOMPING CONTRAPTION
 
 I opened the RE-STEPPING Contraption.
 
@@ -1029,7 +1250,25 @@ finally—
 
 this was how we were going to get there.
 
-Then I found the Parts Pocket.
+Then came the notice:
+
+**FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.**
+
+“More Assemblementing.”
+
+I looked down.
+
+“Let me guess.
+
+Another Parts Pocket.”
+
+**UN-FOLD.**
+
+Sure enough.
+
+A Parts Pocket came ALONG THROUGH.
+
+Same sort of frame.
 
 I looked through it.
 
@@ -1049,7 +1288,9 @@ Because the instructions had something else for me to do.
 
 First—
 
-I was supposed to put my Terrestrial Computer underneath the clear table.
+I set the Nozzle and Little Wheel down beside the table, with the String still THROUGH them.
+
+Then I was supposed to put my Terrestrial Computer underneath the clear table.
 
 And remember—
 
@@ -1071,9 +1312,15 @@ Then I had to move it around until that little square buckle was standing direct
 
 Next—
 
-the PUBLIC-SITUATION-MACHINE- furnished:
+**UN-FOLD.**
 
-THIS ONE BIG AXLE COLLAR.
+The frame stayed where it was.
+
+A part came ALONG THROUGH.
+
+**THE GENERAL OFFICES NOW STAND PROVISIONING**
+
+**THIS ONE BIG AXLE COLLAR.**
 
 And apparently—
 
@@ -1086,6 +1333,10 @@ So I put it where the instructions told me to put it.
 Then—
 
 I had to get the Bobbining in there.
+
+I took up the String and gave it a tug.
+
+The Thing bobbed in after me.
 
 Now—
 
@@ -1111,9 +1362,13 @@ Then I had to get it situated in relation to the Big Axle Collar.
 
 And once I finally had that standing where it was supposed to stand—
 
-the instructions furnished the next thing.
+I stepped on UN-FOLD.
 
-THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING HOURGLASS AXLE CUSHIONING THING.
+The same Parts Pocket presented:
+
+**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING HOURGLASS AXLE CUSHIONING THING.**
+
+“Janusite again.”
 
 I read that again.
 
@@ -1131,7 +1386,15 @@ So—
 
 I put that where the instructions told me to put it.
 
-And then I saw the Axle Rod.
+**UN-FOLD.**
+
+**THIS ONE AXLE ROD.**
+
+The end came ALONG THROUGH the same frame.
+
+I took hold of it.
+
+And kept taking hold of it.
 
 It was long.
 
@@ -1145,6 +1408,8 @@ the rod curved around—
 
 and terminated in this little clear Globe thing.
 
+The instruction pointed DOWN THROUGH the Bobbining.
+
 I looked at the Axle.
 
 Then at the Bobbining.
@@ -1155,11 +1420,25 @@ Then at myself.
 
 There was no way I was going to be able to get the Axle DOWN through the top of that thing standing on the floor.
 
-Fortunately—
+I looked back at the Parts Pocket.
 
-there was a stepladder.
+**UN-FOLD.**
+
+**THIS ONE STEPLADDER.**
+
+There it was, coming ALONG THROUGH.
 
 “Of course there was.”
+
+The instruction had me put it UPON the clear table.
+
+Somehow, just like it had with the Nozzle and the Little Wheel, every time I stepped on UN-FOLD, another part came ALONG THROUGH the same Parts Pocket.
+
+The table hadn't moved.
+
+I was still here.
+
+“How many UN-FOLDs are in this Parts Pocket?”
 
 So—
 
@@ -1279,7 +1558,19 @@ I crawled back out.
 
 Stood UP.
 
-And took a look at what I had built.
+Looked at the stepladder.
+
+Then at the Parts Pocket.
+
+I'd run all that way down the tunnel—
+
+and somehow I still felt like we hadn't gone anywhere.
+
+At least before, I was doing the moving.
+
+Now the Parts Pocket kept bringing things through and I was the one stuck here putting them together.
+
+I took a look at what I had built.
 
 There was the enormous wheel underneath the floor.
 
@@ -1327,13 +1618,25 @@ I wasn't finished yet.
 
 Because the PUBLIC-SITUATION-MACHINE- had another instruction.
 
-And another part.
+**UN-FOLD.**
+
+Another part came ALONG THROUGH.
 
 This time—
 
 it was Piping.
 
-THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING PIPING.
+**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING PIPING.**
+
+I looked at it.
+
+The Nozzle.
+
+The Cushioning Thing.
+
+Now the Piping.
+
+“Boy, the JANUSITE people must really be lining the pockets of this bureaucracy.”
 
 There were already two little cradles waiting for it.
 
@@ -1342,6 +1645,8 @@ One here at the Contraption—
 and another farther along—
 
 at an opening leading TOWARD whatever came next.
+
+The instructions pointed to the cradles.
 
 So I took the Piping—
 
@@ -1353,53 +1658,23 @@ Then there was the Stringing.
 
 The same Stringing Line I had been specifically told to keep hold of back at the Weddinging Chapelling.
 
+I picked up the Nozzle and Little Wheel from beside the table.
+
+The String was still threaded THROUGH them.
+
+The same little arrangement that had brought the Bobbining all the way ALONG behind me.
+
 And now—
 
 apparently—
 
-I was supposed to pull some of it FROM the Bobbining.
-
-So I pulled.
-
-The Bobbining moved.
-
-I stopped.
-
-I looked at it.
-
-Then I pulled the Stringing again.
-
-And this time—
-
-the Bobbining gave this peculiar little bob as more Stringing paid out.
-
-I pulled again.
-
-It bobbed again.
-
-“Oh.
-
-It bobbins.”
-
-Okay.
+the whole little arrangement was supposed to go into the Piping.
 
 So I pulled out enough Stringing to do what the instructions were asking me to do.
 
-And that's when the PUBLIC-SITUATION-MACHINE- furnished two more things.
+The Bobbining gave its familiar little bob.
 
-A Little Wheel.
-
-And this little Nozzle.
-
-Apparently—
-
-the Little Wheel and the Nozzle belonged with the end of the Stringing.
-
-So I put them where the instructions told me to put them.
-
-And then—
-
-the whole little arrangement was supposed to go into the Piping.
+“Okay.”
 
 I looked through the Piping.
 
@@ -6904,15 +7179,10 @@ The question is:
 
 # GOBS CONTINUITY SURVEY — TEMPORARY FLAG INDEX
 
-Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. Existing script text is preserved.
+Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. GOBS-001 through GOBS-005 were resolved and removed in the Section One integration pass; later flags remain unchanged.
 
 | Flag | Movement | Category | Observation |
 | --- | --- | --- | --- |
-| GOBS-001 | 3 | CONTINUITY | Messaging Huckleberry and Enzo may imply remote participants. |
-| GOBS-002 | 3 | MORPHOLOGY/NAME | Determine the scope of the recovered Station House name. |
-| GOBS-003 | 5 | MORPHOLOGY/NAME | Official Stringing Thing name differs from the supplied preference. |
-| GOBS-004 | 5 | ARCHITECTURAL SEAM | Pocket-to-next-station travel may need continuous Stationing made legible. |
-| GOBS-005 | 5 | MORPHOLOGY/NAME | Complete apparatus sign omits RE-STOMPING. |
 | GOBS-006 | 8 | CONTINUITY | Sittinging-In Room discovery and departure play twice. |
 | GOBS-007 | 10 | SETUP/PAYOFF | Flatiron recognition lacks an earlier visible shape seed. |
 | GOBS-008 | 11 | ARCHITECTURAL SEAM | Seat-to-deck reveal needs a staging check against regard-dependent views. |
