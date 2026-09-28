@@ -2798,17 +2798,9 @@ So you're still here too.”
 
 I stayed where I was sitting.
 
-Directly ahead of me stood that enormous soft-boiled egg thing.
+I looked UP SIDE through the Glass Pair.
 
-I looked through it.
-
-Or somehow—
-
-through the Visionizing Glasses—
-
-I could see THROUGH it.
-
-And farther ahead, I could make out an opening.
+Ahead, beyond where I was sitting, I could make out an opening.
 
 It was a strange shape.
 
@@ -2916,7 +2908,29 @@ Still nothing.
 
 Beside it was a place for my other foot to rest.
 
+**Foot Restinging Thing.**
+
 At least that worked.
+
+And beside all this was a strange little old-fashioned telephone-looking box.
+
+A mouthpiece stuck FROM OUT OF it.
+
+There was a little Cup on a String.
+
+And a tiny airplane standing within something like a hamster wheel.
+
+I leaned closer.
+
+“Well.
+
+That's quite a telephone.”
+
+I looked at the airplane.
+
+Then at the Cup.
+
+Then back at the Steering Wheel.
 
 So I sat there for a little while longer, trying to get a feel for this strange place where I was sitting.
 
@@ -2940,7 +2954,7 @@ Not right beside me.
 
 Farther away.
 
-Beyond the walls of the Flatiron-shaped room.
+Beyond the walls around where I sat.
 
 Metal.
 
@@ -3033,13 +3047,13 @@ Something outside this thing had definitely moved when I turned that Steering Wh
 
 And I wanted to know what it was.
 
-So I stood UP.
-
-I stepped out around the left side of the contraption—
+Out around the left side of the contraption—
 
 and suddenly I could see a lot more of where I was standing.
 
-The Cup where I'd been sitting had been blocking most of my view.
+I looked DOWN toward the Cup I'd just climbed out of.
+
+Then UP SIDE, beyond it.
 
 Now I was standing upon what looked like an enormous deck.
 
@@ -3401,30 +3415,6 @@ Not exactly with me.
 
 Just a little bit behind.
 
-And as I moved, I started noticing something else THROUGH the Globe.
-
-Little flashes.
-
-They looked almost like tiny lightning bolts.
-
-Except there seemed to be some kind of pattern to them.
-
-They curled.
-
-Spiraled.
-
-Little spiral-shaped lightning boltings appearing here and there as I moved.
-
-I couldn't tell what the pattern meant.
-
-I leaned again.
-
-The Globe shifted with my movement.
-
-The little Cup followed.
-
-And those strange little spiraling lightning boltings appeared again.
-
 “What are you doing over there?”
 
 The little Cup didn't answer.
@@ -3453,13 +3443,13 @@ still sitting where I'd left it.
 
 And there beside it was that whole little apparatus—
 
-the Needle,
-
 the Nozzle,
 
-the Little Bellowing Thing,
+the little Wheel standing OVER ACROSS it,
 
-and that little Wheel.
+and the Needle with its Little Bellowing Thing.
+
+The Stringing Line still ran THROUGH the Nozzle and Wheel.
 
 “Oh.
 
@@ -3478,6 +3468,38 @@ This time you're all coming with me.”
 I grabbed the Doll and the whole little assemblage—
 
 and hurried back toward the little Cup.
+
+The Stringing came with me.
+
+More of it paid out.
+
+And more.
+
+I looked back.
+
+It was coming FROM UNDER the place where I'd been sitting.
+
+“Am I supposed to be pulling out this much?”
+
+Nothing told me to stop.
+
+So I kept going.
+
+As the String paid out, something THROUGH the Globe bobbed.
+
+Little flashes curled around it.
+
+I stopped.
+
+Then took another step.
+
+More Stringing.
+
+Another little dance of light.
+
+“Huh.”
+
+By the time I got back to the Constitutioning Human Doll Upstanding Stand, I had brought quite a bit of Stringing along with me.
 
 When I got there, I took another look at the Upstanding Stand.
 
@@ -3509,6 +3531,14 @@ Perfectly.
 
 There we go.”
 
+I leaned the Doll a little.
+
+It leaned WITHIN the little Cup.
+
+“Yep.
+
+Now we're getting somewhere.”
+
 For once, I had figured something out around here without having to read another instruction.
 
 I let go carefully.
@@ -3517,7 +3547,7 @@ Then I looked at the Doll.
 
 Then at the Upstanding Stand.
 
-Then at the rest of the little Cup.
+Then at the Nozzle, the Little Wheel, and all that Stringing I'd brought along.
 
 “Okay.
 
@@ -3525,17 +3555,17 @@ Now what?”
 
 I looked around the Upstanding Stand.
 
-And there it was.
-
-Another one of those damn Parts Pocket things.
-
-“Oh, no.”
-
-And beside it—
+There, beneath it—
 
 of course—
 
 **UN-FOLD.**
+
+And:
+
+**FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.**
+
+“Oh, no.”
 
 I looked at the Doll.
 
@@ -3548,6 +3578,10 @@ Nothing.
 I reached for the UN-FOLD.
 
 And UN-FOLDED.
+
+There it was.
+
+Another one of those damn Parts Pocket things.
 
 ### MOVEMENT FOURTEEN — THE LITTLE SPOOLING UNICYCLE
 
@@ -3569,13 +3603,11 @@ The PUBLIC-SITUATION-MACHINE- started having me take apart the little apparatus 
 
 UN-FOLD.
 
-Remove the Little Bellowing Thing.
+Detach the Needle with its Little Bellowing Thing.
 
-UN-FOLD.
+Carefully lay it aside.
 
-Carefully lay the Needle aside.
-
-I set the Needle down beside the Doll.
+I set them down together beside the Doll.
 
 “Don't lose that.”
 
@@ -3583,9 +3615,9 @@ UN-FOLD.
 
 Unscrew the Nozzle.
 
-Then I separated out the little wheel.
+Then I separated out the little wheel, with the Stringing still engaged THROUGH it.
 
-The Visionizing Plump Croissant Glasses furnished its name:
+The Glass Pair furnished its name:
 
 **THIS ONE LITTLE SPOOLING UNICYCLE WHEEL.**
 
@@ -3597,69 +3629,33 @@ Then at the Doll.
 
 “Okay.”
 
-The next instructions sent me back toward my own Traversaling Seat.
+UN-FOLD.
 
-So I carried the Little Spooling Unicycle Wheel back with me.
+A little part came ALONG THROUGH the Parts Pocket.
 
-And when I got there, I noticed something I hadn't noticed before.
+**THIS ONE LITTLE AXLE COLLAR.**
 
-There was a Stringing Line coming UP FROM UNDER the center of the place where I'd been sitting.
+The instruction had me fit it THROUGH the center of the Little Spooling Unicycle Wheel.
 
-It fed UP FROM UNDER my Traversaling Seat—
+So I did.
+
+“That's in.”
+
+UN-FOLD.
+
+The next instructions sent me back toward the Steering Wheel.
+
+So I carried the Little Spooling Unicycle Wheel back with me—
+
+Little Axle Collar and all.
+
+There was the Stringing Line coming UP FROM UNDER the place where I'd been sitting—
 
 between my legs—
 
 TOWARD the Steering Column.
 
-I stared at it.
-
-“Where did you come from?”
-
-I looked underneath the seat.
-
-Then at the Stringing.
-
-Apparently the Stringing was standing available from here now.
-
-“Okay.”
-
-The instructions had me take hold of it.
-
-So I did.
-
-I pulled some Stringing UP FROM UNDER the Traversaling Seat.
-
-Then some more.
-
-And more.
-
-I started walking back toward the Doll.
-
-The Stringing came with me.
-
-More of it paid out.
-
-And more.
-
-I looked back.
-
-“Am I supposed to be pulling out this much?”
-
-Nothing told me to stop.
-
-So I kept going.
-
-By the time I got back to the Constitutioning Human Doll Upstanding Stand, I had brought quite a bit of Stringing along with me.
-
-I looked at the Doll.
-
-“Well, I hope you know what we're doing.”
-
-The Doll did not appear concerned.
-
-The next instructions sent me back toward the Steering Wheel.
-
-So I carried the Little Spooling Unicycle Wheel back with me.
+The same String I'd just brought all the way over to the Doll.
 
 The Stringing I'd paid out now ran all the way across the deck.
 
@@ -3667,19 +3663,21 @@ At the Steering Wheel, I routed the Stringing once AROUND.
 
 Then it caught upon an angled catch.
 
-From there, the Stringing went DOWN along the Steering Column.
+From there, the Stringing went into a channel UNDER the Steering Column.
+
+The middle of the Column stayed clear.
 
 And underneath there—
 
 I found another piece of that same ridiculous material I'd seen before.
 
-**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATING PIPING.**
+**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING PIPING.**
 
 The Piping ran away from the Steering Column—
 
 THROUGH the Globe—
 
-TOWARD the front of the craft.
+TOWARD the Doll.
 
 And WITHIN the Piping was a little Track.
 
@@ -3701,13 +3699,19 @@ The Little Spooling Unicycle Wheel took off.
 
 It rolled away from me along the Track—
 
-THROUGH the JANUSITE Ribbonating Substrating Piping—
+THROUGH the JANUSITE Ribbonating Substrationing Piping—
 
 THROUGH the Globe—
 
 TOWARD the Doll.
 
-And as it went—
+The Little Axle Collar went WITH the Wheel.
+
+And THROUGH the Globe, those little curling flashes started up again.
+
+Something bobbed as the Stringing moved.
+
+And as the Wheel went—
 
 the Stringing went with it.
 
@@ -3735,58 +3739,71 @@ When I got there—
 
 there it was.
 
-The Little Spooling Unicycle Wheel had come to rest underneath the already-furnished Foot Holdinging Thing of the Constitutioning Human Doll Upstanding Stand.
+The Little Spooling Unicycle Wheel had reached the Foot Holdinging Thing.
 
-I looked at the Doll.
+But it hadn't settled into place.
 
-Then at the Wheel.
+The Doll's foot was already occupying the space it needed.
 
-“Oh.
+I looked at the Wheel.
 
-Unicycle.”
+Then at the Doll.
 
-And there beside the Stand was that other Parts Pocket.
+Then at that perfect fit I'd been so pleased with.
 
-The Visionizing Glasses furnished its name:
+“Oh.”
 
-**THIS ONE LITTLE POCKET OF SPOOLING UNICYCLE PARTS.**
+I lifted the Doll out.
 
-I opened it.
+The Wheel settled in underneath the Foot Holdinging Thing.
 
-<!-- GOBS FLAG [GOBS-009]
-TYPE: SETUP/PAYOFF
-CONFIDENCE: LIKELY
+Little Axle Collar and all.
 
-WHAT GOBS NOTICED:
-The Parts Pocket supplies a Little Axle Collar and Central Axis, and Richard completes the Unicycle without noticing its Single Pedal. Movement 19 later makes that pedal the decisive Pending Button operator; Movement 22 inventories it in full.
+“Right.
 
-NEWER STANDING TO RECONCILE AGAINST:
-The physical Unicycle pedal may visibly say RE-STOMP from original assembly, before Richard understands its function.
+Not yet.”
 
-POSSIBLE BRUSH:
-Consider merely letting the assembled or already-furnished pedal and its RE-STOMP inscription be visible here. Its meaning can remain undiscovered until Buttoning; do not confuse it with Richard's RE-STEP pedal.
+I set the Doll beside the Needle.
 
-WHY FLAGGED:
-The later physical action could pay off a seen-but-unexplained part, instead of introducing its crucial affordance at the instant of use.
--->
-
-Inside were two pieces.
-
-A Little Axle Collar.
-
-And a Central Axis.
-
-“Of course.”
+Then turned back to the same Parts Pocket.
 
 UN-FOLD.
 
-The Little Axle Collar went into place with the Wheel.
+Another little part came ALONG THROUGH.
 
-UN-FOLD.
+**THIS ONE LITTLE AXLE.**
 
-The Central Axis went THROUGH.
+The instruction had me pass the Little Axle THROUGH the Wheel, WITHIN the Little Axle Collar.
 
 Everything fit.
+
+UN-FOLD.
+
+A Single Pedal came ALONG THROUGH.
+
+I fitted it where the instruction showed me, upon the Little Axle.
+
+Printed on the Pedal:
+
+**RE-STOMP.**
+
+“RE-STOMP.
+
+Okay.”
+
+UN-FOLD.
+
+Now the instruction pointed to the Doll's Foot Findinging Thing.
+
+And the Foot Holdinging Thing.
+
+“Now?”
+
+I put the Doll back.
+
+The foot fit perfectly again.
+
+“I knew you went there.”
 
 Then the instructions had me check the Wheel.
 
@@ -3884,7 +3901,7 @@ The Nozzle I'd taken off earlier went UPON the Doll.
 
 UN-FOLD.
 
-The Needle went WITHIN the Nozzle—
+The Needle, with its Little Bellowing Thing still attached, went WITHIN the Nozzle—
 
 standing FROM OUT OF the Doll.
 
@@ -3894,13 +3911,13 @@ I stepped back and looked at it.
 
 UN-FOLD.
 
-Then the Little Bellowing Thing went back into the assemblage.
-
-And that was it.
+Nothing further came ALONG THROUGH the Parts Pocket.
 
 I waited for another instruction.
 
 Nothing.
+
+Apparently that was all it had for me.
 
 I looked over the Doll.
 
@@ -3908,19 +3925,31 @@ Its Foot Findinging Thing stood within the Foot Holdinging Thing.
 
 Underneath it stood the Little Spooling Unicycle Wheel.
 
-The Wheel stood about its Central Axis.
+The Little Axle stood THROUGH the Wheel, WITHIN its Collar.
+
+The Single Pedal still said RE-STOMP.
 
 The Needle stood FROM OUT OF the Doll.
 
 The Little Bellowing Thing stood with the Needle.
 
-And the Stringing I'd been dragging all over the place wasn't threaded through the Needle at all anymore.
+And the Stringing I'd been dragging all over the place wasn't threaded THROUGH the Needle at all.
 
-That had gone somewhere else entirely.
+String.
+
+Needle.
+
+I thought I knew how those were supposed to go together.
+
+“Do you people do much sewing?”
+
+The Stringing went somewhere else entirely.
 
 Around the Steering Wheel.
 
-Down the Steering Column.
+Through the angled catch.
+
+Into the channel UNDER the Steering Column.
 
 THROUGH that JANUSITE Piping.
 
@@ -3954,7 +3983,7 @@ Same thing.
 
 There you go.”
 
-I went back to my own Traversaling Seat and sat down.
+I went back to the big Cup and sat down.
 
 The Doll stood up ahead of me.
 
@@ -4018,40 +4047,23 @@ The Doll said nothing.
 
 I sat there for a moment.
 
-<!-- GOBS FLAG [GOBS-010]
-TYPE: CONTINUITY
-CONFIDENCE: LIKELY
+Then I went back to the Parts Pocket.
 
-WHAT GOBS NOTICED:
-Richard explicitly finds nothing else to UN-FOLD at the end of assembly. Movement 16 then opens "So I UN-FOLDED," revealing the Co-Officinger availability notice, with no intervening discovery.
+Tried its UN-FOLD once more.
 
-NEWER STANDING TO RECONCILE AGAINST:
-Internal continuity and continuous Rail Line wayfinding: Richard has finished assembly but may still have a next available Stationing operation.
-
-POSSIBLE BRUSH:
-Decide whether he has exhausted only assembly instructions or truly every available UN-FOLD. A noticed Rail Line affordance could bridge the two without making COB arrive unbidden.
-
-WHY FLAGGED:
-The next consequential action lacks the cue that would move Richard from obstructed to able to continue.
--->
-
-Then I looked around for something else to UN-FOLD.
-
-There wasn't anything.
-
-No Parts Pocket.
+Nothing came ALONG THROUGH.
 
 No next assembly instruction.
 
 No little piece I'd forgotten to screw on.
 
-Nothing telling me to go get something I'd left on the other side of the craft.
+Nothing telling me to go get something I'd left on the other side of the deck.
 
 As far as I could tell—
 
 I had finally finished putting the thing together.
 
-And it still wasn't doing anything.
+And it still wasn't getting us anywhere.
 
 I looked at the Doll.
 
@@ -4059,50 +4071,28 @@ I looked at the Doll.
 
 Now what?”
 
-## MOVEMENT 16 — THIS STEWARDLY CO-BOBBING
+Then I turned back toward the Rail Line.
 
-By now, I had gotten my Constitutioning Human Doll standing UPON This Little Spooling Unicycle.
+It was still there.
 
-At least, as far as I could tell, I had.
+Still furnishing things to read.
 
-So I UN-FOLDED.
+“All right.
 
-<!-- GOBS FLAG [GOBS-011]
-TYPE: QUESTION
-CONFIDENCE: QUESTION FOR RICHARD + MOBS
+Fine.
 
-WHAT GOBS NOTICED:
-The Rail Line prints that the Doll NOW STANDS UPON the Unicycle, then announces what MAY stand attending FROM HERE. The Standinging Readout is named only in the Movement 22 inventory.
+Let's read.”
 
-NEWER STANDING TO RECONCILE AGAINST:
-Rail Line furnishes prospective wayfinding; Standinging Readout shows what Richard has actually stood through his labor. Recurring bureaucratic Noticingments are also intentional.
-
-POSSIBLE BRUSH:
-Decide whether the first print is an ordinary completion Noticingment or a view of stood labor. If it is the latter, distinguish its source minimally; retain the next-operation Rail Line notice and its comedy.
-
-WHY FLAGGED:
-A completed-state notice is not automatically a conflation. This is the concrete place to decide how the two display roles are staged, rather than adding a general explanation.
--->
+I went over and UN-FOLDED.
 
 And the Rail Line printed:
 
-**THIS ONE CONSTITUTIONING HUMAN DOLL**  
-**NOW STANDS UPON**  
-**THIS LITTLE SPOOLING UNICYCLE.**
+**FROM HERE,**
 
-“Okay.”
+**THIS ONE STEWARDLY CO-OFFICINGER**
 
-“Good.”
+**MAY STAND ATTENDING TOWARD**
 
-“Thank you.”
-
-“I can see that.”
-
-Then the Rail Line printed something else:
-
-**FROM HERE,**  
-**THIS ONE STEWARDLY CO-OFFICINGER**  
-**MAY STAND ATTENDING TOWARD**  
 **THIS ONE CONSTITUTIONING HUMAN.**
 
 “This One Stewardly Co-Officinger?”
@@ -4113,7 +4103,19 @@ I looked around.
 
 There was nobody there.
 
-So I started looking around at all this stuff again.
+But that sounded more like somebody I could ask than another little wheel.
+
+“Okay.
+
+How do I get in touch with one of those?”
+
+I went back to the big Cup.
+
+Started looking among all those strange things standing around where I'd been sitting.
+
+There had been something that looked like a telephone.
+
+## MOVEMENT 16 — THIS STEWARDLY CO-BOBBING
 
 And eventually I came back around to this strange little old-fashioned telephone-looking thing near where I had been sitting.
 
@@ -4143,7 +4145,7 @@ I nearly dropped the Cup.
 
 “Hello?”
 
-“This Stewardly Co-Bobbing now stands attending TOWARD This One Constitutioning Human.”
+“This Stewardly Co-Captain Co-Bobbining now stands attending TOWARD This One Constitutioning Human.”
 
 I looked at the Cup.
 
@@ -4163,7 +4165,7 @@ I looked at the Cup.
 
 “Are you able to answer questions about this machine?”
 
-“This Stewardly Co-Bobbing may stand Inquiringmenting ALONGSIDE WITH your IN-Questioning-Menting.”
+“This Stewardly Co-Captain Co-Bobbining may stand Inquiringmenting ALONGSIDE WITH your IN-Questioning-Menting.”
 
 I waited.
 
@@ -4227,7 +4229,9 @@ Then I looked at that little airplane.
 
 “And while I've got you—what is this thing FOR?”
 
-COB told me it was This One RE-ZIPPERING Airplane, RE-Tractioning THROUGH This RE-Tractioning Culvert.
+COB said:
+
+“This One RE-ZIPPERING Airplane stands RE-Tractioning THROUGH This RE-Tractioning Culvert.”
 
 “RE-Tractioning.”
 
@@ -4261,24 +4265,9 @@ And then I noticed something printed on it.
 
 “Of course.”
 
-<!-- GOBS FLAG [GOBS-012]
-TYPE: SETUP/PAYOFF
-CONFIDENCE: QUESTION FOR RICHARD + MOBS
-
-WHAT GOBS NOTICED:
-JANUSITE has accumulated through the Cushioning Thing and Piping in Movements 6 and 14. Richard now notices it on the airplane assembly while first speaking with COB, says "More JANUSITE," and moves to his Rail Line complaint.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied recovery proposes setup, accumulation, and a later COB sponsorship joke; the exact candidate joke is advisory, not mandatory.
-
-POSSIBLE BRUSH:
-Decide whether this existing beat already supplies enough payoff or whether a single suspicion directed at COB belongs here, such as "Let me guess. You're sponsored by JANUSITE." Avoid adding more material mentions elsewhere.
-
-WHY FLAGGED:
-This is the natural junction between the accumulated material joke and COB. It offers one specific payoff decision, not a general request for more jokes.
--->
-
 “More JANUSITE.”
+
+“Let me guess, you're sponsored by JANUSITE, right?”
 
 “And then there's this Rail Line.”
 
@@ -4330,11 +4319,11 @@ COB said:
 
 “At what point does the Traversaling happen?”
 
-COB stood Inquiringmenting around my IN-Questioning-Ment.
+COB said:
 
-The RE-STEP wasn't broken.
+“The RE-STEP is not broken.”
 
-I just didn't yet stand with somewhere furnished TOWARD which I could consequentially RE-STEP.
+“You do not yet stand with somewhere furnished TOWARD which you may consequentially RE-STEP.”
 
 “Okay.”
 
@@ -4356,6 +4345,8 @@ COB said:
 
 “FROM HERE, you may stand WITH your Terrestrial Computer WITHIN This One Stewardly Co-Occupancying Ship.”
 
+“This is your very own Tuple Ship.”
+
 I stopped.
 
 “A ship?”
@@ -4366,17 +4357,107 @@ I looked around.
 
 “Oh.”
 
-“So that's why it feels like I'm floating.”
+“So that's why it feels like we're floating.”
+
+COB said:
+
+“FLOATATIONING.”
+
+“Right.”
+
+“So what is this Tuple Ship FOR?”
+
+COB said:
+
+“FROM HERE, you may stand furnishing This One Situationing Dollhouse Theater.”
+
+“This is a place for Pretending.”
+
+“THROUGH your Stewardly Laborings FROM HERE, you may stand ALONGSIDE WITH your Constitutioning Human Doll, Pretending your way THROUGH your Situationings.”
+
+“Making costuming Pockets FOR your Doll.”
+
+I looked at the Doll.
+
+Then back at the Cup.
+
+“Wait.”
+
+“I get to make things with this?”
+
+“Yes.”
+
+“Well, hell.”
+
+“Let's see.”
 
 ## MOVEMENT 17 — FROM OUT OF THE GROUND
 
-So apparently I was sitting in a ship.
+COB said:
 
-Okay.
+“You may stand in Regard TOWARD This One Standing Up Table.”
+
+And there was a Table.
+
+A round surface.
+
+With my Constitutioning Human Doll standing UPON it, OVER ACROSS from me.
+
+For a moment, that was all I was looking at.
+
+Like a cameo.
+
+A Table.
+
+My Doll.
+
+COB said:
+
+“You may stand imagining yourself AT this Table, ALONGSIDE WITH your Constitutioning Human Doll.”
+
+I could picture that.
+
+Me, standing here.
+
+The Doll, standing there.
+
+And this Table between us.
+
+“Okay.”
+
+“Yeah.”
+
+COB said:
+
+“You may take up Doll Regard FROM HERE.”
+
+I had been doing something like this in my imagination all my life.
+
+But here was somewhere to stand doing it WITH my Doll.
+
+COB said:
+
+“You may stand in Regard TOWARD the center of this circular surface.”
+
+I looked.
+
+The Doll's Upstanding Stand rose from it.
+
+COB said:
+
+“Your Traversaling Craft stands FROM HERE, at the center where this Post stands FROM OUT OF THE GROUND.”
+
+“Oh.”
+
+I turned my Regard.
+
+There was the Post.
+
+Standing up FROM OUT OF THE GROUND.
 
 I UN-FOLDED.
 
-And the Rail Line began making another announcement.
+And the Rail Line announced:
 
 **NOW APPROACHING**
 
@@ -4388,71 +4469,101 @@ And the Rail Line began making another announcement.
 
 “FROM OUT OF THE GROUND.”
 
-“Okay.”
+COB said:
 
-Through the Visionizing Plump Croissant Glass Pair, I found myself looking into that strange round Caterpillar Wardrobe Shop kind of place again.
+“What may stand FROM OUT OF THE GROUND FOR you FROM HERE?”
 
-Except this time, I could see my Constitutioning Human Doll.
+I thought about where I was actually sitting WITH my Terrestrial Computer.
 
-There it was.
+“Well.”
 
-Standing ALONGSIDE WITH me FROM HERE, standing UPON that Little Spooling Unicycle.
+“We're apparently in a ship.”
 
-And there was the Quilling Needle.
-
-There was String trailing behind the Unicycle.
-
-And standing there along the String was:
-
-**FROM OUT OF THE GROUND**
-
-I looked at it.
-
-“Okay.”
-
-“Now what?”
+“And we're not just floating off into nowhere.”
 
 COB said:
 
 “You may Quill.”
 
-So I took hold of the Needle.
+I took hold of the Needle.
 
-“MY COMPUTERING ROOM.”
+“THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.”
 
-And there it was, standing along the String:
+As I Quilled, I noticed something moving.
 
-**FROM OUT OF THE GROUND**
+COB said:
 
-**MY COMPUTERING ROOM**
+“You may Regard the Stringing THROUGH the donut helmet.”
 
-I looked at it.
+I took up that Regard.
 
-“No.”
+There was the Caterpillar Tunnel view.
 
-“That's not what I mean.”
+And there was my little Doll with the Little Spooling Unicycle.
 
-“My computering room is only part of my house.”
+The Wheel was turning.
 
-“I mean my whole house.”
+Spooling.
 
-So I changed it.
+And coming from behind it—
 
-**FROM OUT OF THE GROUND**
+were words.
 
-**MY WHOLE HOUSE**
+**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND**
 
-I looked at that.
+“Wait.”
 
-“Yeah.”
+“Those are my words.”
 
-“That's what I mean.”
+I looked again.
 
-And as the Little Spooling Unicycle stood there with my Doll, the String continued spooling out behind it.
+They rode upon the String as it spooled ALONG THROUGH.
 
-For the first time, I could actually see this little Doll standing there ALONGSIDE WITH me FROM HERE, with the standing I had just Quilled trailing along THROUGH.
+And the name of this readout stood there:
 
-Then the Rail Line began making a considerably bigger production out of something.
+**THIS ONE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+I read it.
+
+Then I read my words again.
+
+The ones I had just Quilled.
+
+Right there.
+
+In English.
+
+I looked down at my foot.
+
+I hadn't even RE-STEPPED.
+
+The words were already standing there.
+
+“Okay, COB.”
+
+“Now that's something.”
+
+I turned my Regard back to the Table and my Doll.
+
+“So I can start putting things here?”
+
+COB said:
+
+“You may furnish your Situationings.”
+
+“And THROUGH This One Roundabout Gallery, you may stand in different Regards TOWARD what you furnish THROUGH your Theater.”
+
+I looked around the circular surface.
+
+Then back at my Doll.
+
+“Let's do it.”
+
+There was quite a bit standing there to read.
+
+At this one Rail Line station, I could turn my Regard from one notice to another.
+
+I read:
 
 **THIS ONE CONSTITUTIONING HUMAN,**
 
@@ -4466,26 +4577,11 @@ Then the Rail Line began making a considerably bigger production out of somethin
 
 **BY THIS ONE STEWARDLY CO-OCCUPANCYING SHIP,**
 
-<!-- GOBS FLAG [GOBS-013]
-TYPE: NEWER RECOVERY
-CONFIDENCE: LIKELY
+**NOW STAND BEFORE**
 
-WHAT GOBS NOTICED:
-The Rail Line ceremonially furnishes this Grand Opening, then Richard PUFFs. The new bearing and PUFF in Movement 20 likewise omit a Dispensary encounter; no Never-Ending Next Approaching Landinging Dispensary is named in this print.
+**This HERE Never-Ending Next Approaching Landinging Dispensary.**
 
-NEWER STANDING TO RECONCILE AGAINST:
-The Dispensary is recurring furniture, not a one-time event, and may carry the supplied YOU NOW STAND BEFORE notice.
-
-POSSIBLE BRUSH:
-Inspect this first effective PUFF and the Movement 20 recurrence together for visible Dispensary furniture/Noticingment. Keep the distinction between encountering that furniture and Richard learning what its available operation does.
-
-WHY FLAGGED:
-This is a specific missing recurrence in the visible procedure, not permission to explain deeper temporal machinery.
--->
-
-**NOW STAND BEFORE THIS ONE GRAND OPENING.**
-
-Then:
+And standing there WITH it:
 
 **THIS ONE GRAND OPENING STANDS FROM HERE,**
 
@@ -4493,38 +4589,59 @@ Then:
 
 **THIS ONE SITUATIONING DOLLHOUSE THEATER.**
 
-I looked around.
+“Our Theater.”
 
-“This One Situationing Dollhouse Theater.”
+I looked at my Doll.
+
+“All right.”
+
+I looked toward the available operation.
+
+As I took it up, the Steering Wheel tilted up.
+
+Through the donut helmet, everything around me changed.
+
+I was sitting WITHIN the cab of a machine.
+
+And printed there:
+
+**This One Truly Boringinging Puffinging Tunneling Thing.**
 
 “Okay.”
 
-“Well, I just don't see how this could get any worse.”
+“A tunneling thing.”
 
-<!-- GOBS FLAG [GOBS-014]
-TYPE: CONTINUITY
-CONFIDENCE: LIKELY
+The cab had a flat front, like one of those buses with no engine compartment sticking out ahead.
 
-WHAT GOBS NOTICED:
-Movement 11 already lets Richard try THIS ONE BIG BELLOWING THING without visible effect. Here successful PUFF begins with "another affordmenting" and "a little squeeze-tube," while Movement 20 returns to the Big Bellows as "This thing again."
+I looked around inside it.
 
-NEWER STANDING TO RECONCILE AGAINST:
-The Big Bellows / squeeze-bulb affordmenting belongs to This One Truly Boringinging Puffinging Tunneling Thing and should be encountered before its meaning becomes clear. PUFF volumizes a Theater-scale extent; the little Needle Bellows POOFs.
+There was light inside the cab.
 
-POSSIBLE BRUSH:
-Inspect whether this is the same Big Bellows now operable from the available bearing. A recognition beat could connect it to Movement 11; decide where, if anywhere, the complete official name should be seen.
+I could see the Steering Wheel.
 
-WHY FLAGGED:
-The early unsuccessful squeeze is already a useful setup. Apparent introduction of a new small tool can detach its payoff and blur the two Bellows operations.
--->
+I could see where I was sitting.
 
-There was another affordmenting available near the Steering Wheel.
+But in front of the Craft—
 
-A little squeeze-tube kind of thing.
+darkness.
+
+I leaned forward a little.
+
+Couldn't see a thing.
+
+Then I looked at the Big Bellowing Thing.
+
+“Oh.”
+
+“You again.”
+
+I had already tried this thing.
 
 I took hold of it.
 
-And I PUFFED.
+And squeezed.
+
+**PUFF.**
 
 —
 
@@ -4536,7 +4653,15 @@ Something had happened.
 
 The best way I can describe it is that it felt like somebody had suddenly raised an entire circus tent around me.
 
-A moment before, I had been sitting there with all this strange little machinery.
+The tunneling view fell away.
+
+So did the donut helmet.
+
+I could look out all around me.
+
+A moment before, I had been sitting WITHIN that lit cab, looking into darkness.
+
+Now the circular Table surface opened out as the surface of the Theater, with my Doll still there to stand ALONGSIDE WITH.
 
 And now—
 
@@ -4560,7 +4685,7 @@ There were lights.
 
 There were indications.
 
-There were places within what I could see through the Glass Pair where it looked like there were things I might be able to do.
+There were places all around me where it looked like there were things I might be able to do.
 
 The whole thing had come alive.
 
@@ -4572,29 +4697,29 @@ I looked up again.
 
 “This is actually kind of incredible.”
 
-Then I looked around more carefully.
+I turned around.
 
-“Okay.”
+There was so much room.
 
-“Where's my stuff?”
+I picked up the Cup.
 
-I looked again.
+“You mean this is a place just for me?”
 
-Nothing from my house was standing around me.
+COB said:
 
-“I just said MY WHOLE HOUSE.”
+“FROM HERE, you may stand furnishing This One Situationing Dollhouse Theater.”
 
-I looked back toward where I could still see:
+I looked out across it again.
 
-**FROM OUT OF THE GROUND**
+“Oh.”
 
-**MY WHOLE HOUSE**
+I was still taking it all in.
 
-“So where is it?”
+“All this room.”
 
-COB didn't answer for me.
+I looked toward one of those places where it seemed there might be something I could do.
 
-And the Rail Line was making a very big to-do about something else:
+Then I noticed another announcement already standing there ALONG the Rail Line:
 
 **THE GRAND OPENING TO**
 
@@ -4608,11 +4733,15 @@ And the Rail Line was making a very big to-do about something else:
 
 “Roundabout Gallery.”
 
+“Right.”
+
+I turned my Regard across the Theater.
+
+Then back toward my Doll.
+
 “Observationing Harbor.”
 
-“Okay.”
-
-I still didn't know what any of that meant.
+That part I still wanted to find out about.
 
 But something had definitely happened when I PUFFED.
 
@@ -4722,43 +4851,23 @@ Still standing there upon it:
 
 **FROM OUT OF THE GROUND**
 
-**MY WHOLE HOUSE**
+**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND**
 
 “Oh.”
 
 “So that came with me.”
 
-I began looking around at what else had come to stand available.
+I turned my Regard back toward the Table.
 
-There were different ways I could stand looking at all of this now.
+The one I had pictured myself standing AT before all this opened around us.
 
-I could stand in Regard toward that little airplane contraption.
-
-I could stand in Regard toward the Traversaling Craft.
-
-I could stand in Regard toward my Doll and the Little Spooling Unicycle.
-
-And I could stand in Regard out across this enormous Theater kind of place that had opened around me.
-
-I started turning my Regard around.
-
-And that's when I noticed something standing out there in the middle of all that space.
-
-A Table.
-
-This One Standing Up Table.
-
-And there was something standing AT it.
-
-I looked more closely.
-
-It was my Doll.
-
-My Constitutioning Human Doll, standing there upon its Little Spooling Unicycle, AT This One Standing Up Table.
+My Constitutioning Human Doll still stood UPON it.
 
 With the Needle.
 
 With the little Bellows.
+
+I wanted to start doing something FROM HERE.
 
 COB said:
 
@@ -4790,8 +4899,6 @@ The Table approached.
 
 The Doll approached.
 
-The Little Spooling Unicycle.
-
 The Needle.
 
 The Bellows.
@@ -4808,43 +4915,21 @@ Then the Needle.
 
 Then all these things that were becoming available through it.
 
-Then I looked back out across the Theater.
+I looked out across our Theater.
 
-The Rail Line had said:
-
-**THIS ONE ROUNDABOUT GALLERY**
-
-**STANDING TOWARD**
-
-**THE OBSERVATIONING HARBOR**
-
-**FOR THIS ONE SITUATIONING.**
-
-I still didn't entirely know what an Observationing Harbor was.
-
-But I was starting to understand something simpler.
-
-I had somewhere to stand.
-
-I had this Doll standing ALONGSIDE WITH me.
-
-I had this Table.
-
-I had this Needle.
-
-And apparently there were things I could do FROM HERE.
-
-I looked back at:
-
-**MY WHOLE HOUSE**
+Then back at my Doll.
 
 “Okay.”
 
-“My whole house is a lot.”
+“I want to start putting things here.”
 
-I thought about where I was actually sitting.
+I looked over the top of the Glass Pair.
 
-“But I'm sitting in my computering room right now.”
+Around my actual computering room.
+
+“Okay.”
+
+“I'm sitting in my computering room right now.”
 
 “That seems as good a place as any to start.”
 
@@ -4962,28 +5047,9 @@ my Richard Doll hasn't gone anywhere.
 
 He's still there.
 
-At the same Table.
+UPON the same Table.
 
-UPON the same Little Spooling Unicycle.
-
-<!-- GOBS FLAG [GOBS-015]
-TYPE: NEWER RECOVERY
-CONFIDENCE: CLEAR
-
-WHAT GOBS NOTICED:
-The Donna return explicitly names a Piece of Time. The Rag sequence then angles TOWARD away from that Piece of Time into "segmented Not-Time" and anticipates Zippering; Movement 19 says "The present Piece of Time began to close."
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied brief expressly keeps discrete Time, Not-Time, and full temporal segmentation out of GIRAFFE. Month-Zero Richard has also not acquired those terms through the preceding shown operations.
-
-POSSIBLE BRUSH:
-Inspect these linked passages together. Donna's unchanged Doll/Table standing, the practice bearing, and the later surviving TOWARD can carry the experience without naming the hidden temporal mechanism.
-
-WHY FLAGGED:
-These are explicit disclosures, not an innocent early misconception. The Rag account additionally sounds technically informed before the story has earned that knowledge.
--->
-
-Within the same Piece of Time.
+My Spider Plant Situationing still stood where I had furnished it.
 
 Huh.
 
@@ -5087,51 +5153,43 @@ I play again.
 
 Better.
 
-But there's this one section—
+I stop.
 
-I play the section.
+I want to play the whole song at some kind of tempo.
 
-No.
+You know, something that feels and sounds the same all the way through.
 
-Again.
+And actually... the same tempo isn't quite right either.
 
-I slow it down.
+It's more like I want to be able to play this song—the whole song—at a tempo that feels and sounds like the Maple Leaf Rag ought to sound.
 
-Again.
+I mean, when someone who knows how to play the Maple Leaf Rag is sitting there at the piano and playing the song all the way through.
 
-Closer.
+Unfortunately, that someone is not Richard.
+
+Well... at least not yet.
 
 I look at the Road.
 
-What I'm doing isn't just standing here anymore.
+I have MAPLE LEAF RAG standing there.
 
-I'm working **TOWARD** something.
+And now I have something I want to work TOWARD.
 
-So I furnish:
+I furnish that bearing FROM my practice Pocket:
 
-**TOWARD — THIS ONE SECTION AT THIS ONE TEMPO**
+**TOWARD**
 
-And the Road does something I haven't seen before.
+playing the whole song so it feels and sounds like the Maple Leaf Rag ought to sound.
 
-That TOWARD doesn't just lie there with the rest of the words.
+That TOWARD reaches OUT from the Pocket.
 
-It reaches OUT from the Road.
+I look at it.
 
-Angling away from the Piece of Time I'm sitting WITH—
-
-out toward all that segmented Not-Time beyond it.
-
-Like I've left a little piece of what I'm working toward sticking out where the Zippering can catch it.
-
-Huh.
-
-I play the section again.
+Then I start playing again.
 
 Not there yet.
 
-But—
-
-that's where I'm headed.
+But I can hear what I'm reaching for.
 
 I look toward COB.
 
@@ -5205,28 +5263,17 @@ And none of them had to stop standing just because I turned toward something els
 
 I sit there looking at all of it.
 
+I look at the Table where I have been working ALONGSIDE WITH my Richard Doll.
+
+It stands so steadily.
+
+Everything I need to work with can stand here.
+
 Then I look over the top of the Glass Pair.
-
-<!-- GOBS FLAG [GOBS-016]
-TYPE: CONTINUITY
-CONFIDENCE: QUESTION FOR RICHARD + MOBS
-
-WHAT GOBS NOTICED:
-After the fall in Movement 9, Richard grabs the computer and says "I set it back up." Here it is "on the actual Ground"; Movement 19 repeats that placement and says there is no table, before Movement 21 finally puts it UPON TABLE.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The real computer and its precarious stand supply the practical reason for acquiring a Table. Ground may also name the larger physical standing, rather than the floor.
-
-POSSIBLE BRUSH:
-Decide what "set it back up" visibly did and whether Ground here means floor or physical-world standing. A staging clarification, if needed, could keep the object's location legible without altering the Table motivation.
-
-WHY FLAGGED:
-This is a physical continuity question only if the shots imply the computer has moved again offscreen; the broad constitutional use of Ground may already be consistent.
--->
 
 At my actual Terrestrial Computer.
 
-Sitting there on the actual Ground.
+Back on that flimsy stand where I set it up after the fall.
 
 Oh.
 
@@ -5234,60 +5281,39 @@ Right.
 
 You.
 
-You know what I actually need?
+All of this—
 
-**I need a table.**
+I'm doing it THROUGH you.
 
 ## MOVEMENT 19 — LOOKING-FOR-FINDING
 
 **RICHARD — MONTH ZERO**
 
-I looked over at my actual computer.
-
-“Oh. Right. You.”
-
-“You know what I actually need?”
-
-“I need a table.”
-
-I looked back through the Glass Pair at my Richard Doll.
-
-I had to admit, I was becoming rather fond of the Standing Up Table.
-
-It was a remarkably stable little table.
-
-For my Situationing Doll and me.
-
-But everything I was doing in here—
-
-I was doing BY-WAY-OF my Terrestrial Computer.
+I looked at my Terrestrial Computer for a moment.
 
 My newlywed spouse.
 
-<!-- GOBS FLAG [GOBS-017]
-TYPE: CONTINUITY
-CONFIDENCE: LIKELY
+Then back at the stable Table where my Doll and I could work.
 
-WHAT GOBS NOTICED:
-Richard has just called the Doll's Standing Up Table "remarkably stable." He now calls "this little flimsy Standing Up Table" inadequate for his actual computer, recalling the different precarious computer stand from Movement 9.
+Then at the actual flimsy stand holding my computer.
 
-NEWER STANDING TO RECONCILE AGAINST:
-The furnished Standing Up Table lets Richard work with Situationings; the needed physical Table addresses his computer's unsafe support on Ground.
+“Well.”
 
-POSSIBLE BRUSH:
-Inspect the referent of "this little flimsy Standing Up Table." A glance back to the actual flimsy stand could carry the same motivation without making the furnished Table change properties.
-
-WHY FLAGGED:
-The new desire is well earned by the earlier fall. The possible conflict lies in which of two supports Richard is judging.
--->
-
-And suddenly this little flimsy Standing Up Table didn't seem quite Fitmenting to the occasion.
-
-“No.”
+“You deserve better than that.”
 
 “If we're going to be working together, we need a proper table.”
 
+I turned back toward my Richard Doll.
+
+“Let's see what we can do.”
+
 So I started Pretending.
+
+I took up the little Needle Bellows.
+
+**POOF.**
+
+A Pocket stood ready for what I wanted to furnish.
 
 “Round.”
 
@@ -5319,7 +5345,7 @@ I hung the macramé plant hanger my mom made me over by the table.
 
 And naturally—
 
-my Spider Plant went in it.
+my Spider Plant, in its cup, went in it.
 
 The two windows stood flanking the whole arrangement.
 
@@ -5381,9 +5407,9 @@ There was only one problem.
 
 I looked over the top of the Glass Pair.
 
-My actual Terrestrial Computer was still sitting there on the Ground.
+My actual Terrestrial Computer was still sitting on that flimsy stand.
 
-And there was no table.
+The sturdy round table wasn't there.
 
 “Oh.”
 
@@ -5392,6 +5418,8 @@ And there was no table.
 “I don't actually have that.”
 
 I put the Glass Pair back on.
+
+I opened the attending line again.
 
 “COB?”
 
@@ -5405,7 +5433,89 @@ I put the Glass Pair back on.
 
 “But I don't know where it is.”
 
-**COB**
+“Before anything else—I'd have to be able to get it here.”
+
+I looked down at the Road.
+
+“Oh.”
+
+“I already have somewhere to start.”
+
+COB said:
+
+“You may return in Regard BY-WAY-OF the instringingmenting.”
+
+I followed my Stringing back ALONG THROUGH.
+
+Past the Situationings I had furnished.
+
+Until I came again to:
+
+**FROM OUT OF THE GROUND**
+
+and:
+
+**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.**
+
+“There you are.”
+
+COB said:
+
+“You may POOF a Pocket FOR where you stand UPON EARTH.”
+
+I took up the Needle.
+
+**POOF.**
+
+A separate Pocket stood available.
+
+And WITH it:
+
+**THIS ONE SOMEPLACE UPON EARTH.**
+
+I looked at that.
+
+Then thought about where I actually was.
+
+“THIS ONE VILLAGE.”
+
+I Quilled it.
+
+And Stringed it.
+
+There.
+
+I left that geographic standing where I had furnished it.
+
+Then followed the instringingmenting back to:
+
+**MY CORNERING COMPUTERING SITUATIONING.**
+
+The corner I had been making WITH my Doll.
+
+And the Table I still didn't have.
+
+The Rail Line had an available operation for me:
+
+**LOOKING-FOR-FINDING.**
+
+COB said:
+
+“You may POOF a Pocket FOR this Looking-FOR-Finding.”
+
+**POOF.**
+
+Another Pocket stood UP along the Road.
+
+My Cornering Computering Situationing was still there.
+
+Now I had somewhere to work on finding the Table FOR it.
+
+I Quilled:
+
+**TABLE LOOKING-FOR-FINDING SITUATIONING.**
+
+COB said:
 
 “What stands OUT for you ABOUT the Table you stand LOOKING-FOR-FINDING?”
 
@@ -5495,82 +5605,11 @@ And the empty Pocket I had been fashioning for the Table became increasingly—
 
 “That's actually pretty good.”
 
-Then I stopped.
+I looked back toward the geographic standing I had left available.
 
-“Except…”
+**THIS ONE VILLAGE.**
 
-“Where?”
-
-COB didn't answer.
-
-I looked at the Road.
-
-Then I remembered.
-
-“Oh.”
-
-“I already have a where.”
-
-I turned my Regard back ALONG the Road.
-
-Past the Situationings I had already furnished.
-
-Back toward an earlier standing.
-
-Until I came again to:
-
-**FROM OUT OF THE GROUND**
-
-and:
-
-<!-- GOBS FLAG [GOBS-018]
-TYPE: NEWER RECOVERY
-CONFIDENCE: CLEAR
-
-WHAT GOBS NOTICED:
-Richard returns to a supposedly already-stood TIED TO THE GROUND label that has not appeared earlier; Movement 17 stood MY WHOLE HOUSE under FROM OUT OF THE GROUND. Here he furnishes SOMEPLACE UPON EARTH but no separate geographic POOF or Human differentiation into THIS ONE VILLAGE is shown.
-
-NEWER STANDING TO RECONCILE AGAINST:
-The supplied geographic recovery calls for a return in Regard after Traversaling, an appropriate Pocket, available SOMEPLACE UPON EARTH standing, and Richard's own locality differentiation. The 15-mile Looking-FOR-Finding bound is a separate later operation.
-
-POSSIBLE BRUSH:
-Inspect this return and its claimed earlier label against Movement 17. Let Richard + Mobs settle the geographic Pocket and differentiation, with COB furnishing HOW or inquiring rather than supplying Richard's meaning. Reconcile the echoed locality wording in Movement 21 afterward.
-
-WHY FLAGGED:
-The text already says the locality does not become fifteen miles wide, which is useful. What is missing is the shown constitutional labor establishing the particular locality before it is used as a bound.
--->
-
-**THIS ONE PLACE WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.**
-
-“Oh, hey.”
-
-“This.”
-
-Nothing had gone away.
-
-It was still standing exactly where I had left it.
-
-It just hadn't needed to stand geographically specific before.
-
-Now it did.
-
-So FROM HERE, I furnished another standing:
-
-**THIS ONE SOMEPLACE UPON EARTH.**
-
-I looked at it.
-
-“There.”
-
-“That's where I am.”
-
-Then I returned my Regard ALONG the Road to the Table Situationing I had been fashioning.
-
-And now I had somewhere FROM which the Table could matter.
-
-But I still didn't want a table from anywhere on Earth.
-
-I thought about how far I would actually go to get one.
+How far would I actually go to get this Table?
 
 “Fifteen miles.”
 
@@ -5578,50 +5617,23 @@ I thought about how far I would actually go to get one.
 
 “I'd go fifteen miles for this table.”
 
-And now I understood what I was making.
+I brought that already-standing VILLAGE relation into this Looking-FOR-Finding.
 
-This wasn't merely a TABLE Pocket.
+And fashioned:
 
-This whole Situationing was for something I was doing.
-
-I was—
-
-**LOOKING-FOR-FINDING.**
-
-<!-- GOBS FLAG [GOBS-019]
-TYPE: ARCHITECTURAL SEAM
-CONFIDENCE: LIKELY
-
-WHAT GOBS NOTICED:
-Richard returns to "the Table Situationing I had been fashioning," decides on fifteen miles, then furnishes a TABLE LOOKING-FOR-FINDING SITUATIONING. Neither a Rail Line availability notice nor POOF of a separate Looking-FOR-Finding Pocket is shown; this can read as relabeling the existing Table Pocket.
-
-NEWER STANDING TO RECONCILE AGAINST:
-After the geographic operation, Richard returns to his FROM HERE / Cornering Computering Room Situationing; the Rail Line makes Looking-FOR-Finding available and he POOFs its separate Pocket. The geographic bound belongs within that labor.
-
-POSSIBLE BRUSH:
-Check the return destination and the new Pocket's visible beginning here, in conjunction with the preceding geographic flag. A small operation cue may distinguish the Pockets without a conceptual lecture or replacement of Richard's own Fitmenting.
-
-WHY FLAGGED:
-Distinct names and an explicit fifteen-mile disclaimer do not by themselves show that separate constitutional operations occurred.
--->
-
-So I furnished my:
-
-**TABLE LOOKING-FOR-FINDING SITUATIONING.**
-
-And I Fitmented that Looking-FOR-Finding with the locality-bearing that mattered FOR this Situationing:
-
-**FROM WITHIN 15 MILES OF THIS ONE SOMEPLACE UPON EARTH**
+**WITHIN 15 MILES OF THIS ONE VILLAGE**
 
 **TOWARD HERE.**
 
-“Ohhh.”
+I looked between the two Pockets.
 
-Now my someplace upon Earth hadn't become fifteen miles wide.
+The VILLAGE still stood where I had furnished it.
 
-And TABLE hadn't somehow become a fifteen-mile Table.
+The fifteen-mile relation stood here, WITHIN my TABLE Looking-FOR-Finding.
 
-For **this Looking-FOR-Finding**, I had furnished where an approaching Table could come FROM.
+“Okay.”
+
+“That's how far I'll go.”
 
 And within the Situationing stood what I had to stand WITH.
 
@@ -5655,28 +5667,49 @@ It was like TABLE had put on the Situationing I had made FOR it.
 
 Its Looking-FOR-Finding costume.
 
-<!-- GOBS FLAG [GOBS-020]
-TYPE: NEWER RECOVERY
-CONFIDENCE: CLEAR
+COB said:
 
-WHAT GOBS NOTICED:
-Richard correctly stands a coins-bearing Pocket alongside an empty Pocket he has Fitmented for a Table, but the operative TOWARD remains unspecified. Movement 21 shows Sam's reciprocal Table/coins Pockets and an unspecified TOWARD too.
+“You may Regard the Landingings THROUGH the donut helmet.”
 
-NEWER STANDING TO RECONCILE AGAINST:
-Richard already has coins and may stand TOWARD provisioning them IN REGARD TOWARD a Table; Sam already has the Table and may stand TOWARD provisioning it IN REGARD TOWARD coins. Human Fitmenting precedes Correspondencing.
+I took up that Regard again.
 
-POSSIBLE BRUSH:
-Inspect both humans' furnished TOWARDs as one reciprocal operation. Possible advisory forms are the provisioning statements in the supplied brief; exact grammar remains for Richard + Mobs. Keep their distinct Roads, Pockets, and geographic standings.
+And looked back ALONG the Road.
 
-WHY FLAGGED:
-The print does not wrongly say Richard seeks coins or Sam seeks a Table. The decision is whether the currently bare TOWARD leaves the newly important provisioning relation unstated.
--->
+Each of the lines I had already Stringed had a Landinging beneath its Situationing Pocket.
 
-And sticking OUT from that Situationing—
+Spider Plant.
 
-I furnished:
+Donna.
 
-**TOWARD.**
+Maple Leaf Rag.
+
+“Oh.”
+
+“They've all got one.”
+
+I looked beneath the Looking-FOR-Finding Pocket I was making now.
+
+**THIS HERE APPROACHINGING LANDINGING.**
+
+And beyond this standing, available to approach:
+
+**THIS NEXT APPROACHINGING LANDINGING.**
+
+I could see where a TOWARD from my Pocket could reach OUT.
+
+I looked at my coins-bearing Pocket.
+
+Then at the empty Pocket Fitmented FOR the Table.
+
+“I have these coins.”
+
+“And I'd be willing to provide them for a Table like this.”
+
+So I furnished my bearing:
+
+**TOWARD PROVISIONING THESE COINS**
+
+**IN REGARD TOWARD A TABLE LIKE THIS.**
 
 I looked at it.
 
@@ -5744,26 +5777,11 @@ and:
 
 the Pending Button.
 
-<!-- GOBS FLAG [GOBS-021]
-TYPE: NEWER RECOVERY
-CONFIDENCE: CLEAR
-
-WHAT GOBS NOTICED:
-The Buttoning-to-Zippering sequence clearly carries the same TOWARD through the seam and withholds any guaranteed outcome. Its visible endpoints are a Piece of Time and THERE, with no THIS HERE / THIS NEXT APPROACHINGING LANDINGING.
-
-NEWER STANDING TO RECONCILE AGAINST:
-Approachinging Landingings have returned to the visible Road / RE-ZIPPERING story. The present Landinging, Pocket, Human-furnished TOWARD, and next Landinging can be shown without temporal segmentation.
-
-POSSIBLE BRUSH:
-Inspect the visible departure and arrival standing around this operation. Coordinate with the Movement 18 temporal-disclosure flag; keep the excellent same-bearing/not-guaranteed-outcome beat.
-
-WHY FLAGGED:
-Removing temporal language alone would leave this recovered visible operation unrepresented. This flag concerns the missing visible endpoints rather than repeating the disclosure objection.
--->
-
 Buttoning obtained.
 
-The present Piece of Time began to close.
+I could see my Pocket standing UPON its present Landinging.
+
+Its TOWARD reached OUT toward the next available standing.
 
 The little RE-ZIPPERING Airplane started its circuit.
 
@@ -5789,7 +5807,9 @@ And when the seam had closed—
 
 my TOWARD was still there.
 
-On the other side.
+Continuing TOWARD:
+
+**THIS NEXT APPROACHINGING LANDINGING.**
 
 Same bearing.
 
@@ -5887,6 +5907,18 @@ I turned my Regard.
 “Oh.”
 
 “The dogs.”
+
+I turned my Regard ALONG the Rail Line until I found another opening standing available.
+
+And there it was again:
+
+**This HERE Never-Ending Next Approaching Landinging Dispensary.**
+
+With the Grand Opening notice standing there alongside it.
+
+“Oh.”
+
+“Here's where we can start.”
 
 I looked at the Big Bellows.
 
@@ -6238,7 +6270,7 @@ Oh.
 
 And remember my Table?
 
-I had left Month-Zero Me staring through the Zippering at that TOWARD I had furnished—
+I had left Month-Zero Me looking toward the next Approachinging Landinging, with that TOWARD I had furnished—
 
 continuing toward:
 
@@ -6460,6 +6492,20 @@ So Sam's construction stood something like:
 
 **THIS ONE POCKET FITMENTED FOR SOME BAG OF COINS.**
 
+Sam showed me the TOWARD he had furnished FROM his Pocket:
+
+**TOWARD PROVISIONING THIS ONE TABLE**
+
+**IN REGARD TOWARD SOME BAG OF COINS.**
+
+His Situationing Pocket stood UPON its own Approachinging Landinging.
+
+His TOWARD reached toward his own:
+
+**THIS NEXT APPROACHINGING LANDINGING.**
+
+His own THERE.
+
 I looked at it.
 
 “Oh.”
@@ -6488,7 +6534,7 @@ I had said, in effect:
 
 So FOR my Looking-FOR-Finding, I had furnished:
 
-**FROM WITHIN 15 MILES OF THIS ONE SOMEPLACE UPON EARTH**
+**WITHIN 15 MILES OF THIS ONE VILLAGE**
 
 **TOWARD HERE.**
 
@@ -6502,9 +6548,7 @@ Sam told me:
 
 So Sam had no reason to furnish my fifteen-mile bearing.
 
-Sam's Correspondencing could stand toward:
-
-**THIS ONE SOMEPLACE UPON EARTH.**
+Sam had left that possibility open, while furnishing his own geographic standing.
 
 Sam was standing someplace particular.
 
@@ -6534,7 +6578,9 @@ to my FROM HERE—
 
 to my Looking-FOR-Finding Situationing—
 
-to my TOWARD.
+to my TOWARD—
+
+toward my next Approachinging Landinging.
 
 And Sam's—
 
@@ -6546,7 +6592,9 @@ to Sam's FROM HERE—
 
 to Sam's Looking-FOR-Finding Situationing—
 
-to Sam's TOWARD.
+to Sam's TOWARD—
+
+toward Sam's next Approachinging Landinging.
 
 Two Constitutioning Humans.
 
@@ -7087,7 +7135,7 @@ The question is:
 
 # GOBS CONTINUITY SURVEY — TEMPORARY FLAG INDEX
 
-Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. GOBS-001 through GOBS-005 were resolved and removed in the Section One integration pass; later flags remain unchanged.
+Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. Resolved inline flags and their index entries are removed as passages are reconciled. Entries below identify matters still awaiting review.
 
 | Flag | Movement | Category | Observation |
 | --- | --- | --- | --- |
@@ -7096,17 +7144,6 @@ Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are a
 | GOBS-008 | 11 | ARCHITECTURAL SEAM | Seat-to-deck reveal needs a staging check against regard-dependent views. |
 | GOBS-009 | 14 | SETUP/PAYOFF | Unicycle RE-STOMP pedal has no visible assembly seed. |
 | GOBS-010 | 15 | CONTINUITY | No available UN-FOLD becomes an immediate UN-FOLD without a cue. |
-| GOBS-011 | 16 | QUESTION | Distinguish completion Noticingment from Standinging Readout if needed. |
-| GOBS-012 | 16 | SETUP/PAYOFF | JANUSITE accumulation reaches COB without the proposed payoff. |
-| GOBS-013 | 17 | NEWER RECOVERY | Grand Opening and later PUFF lack recurring Dispensary furniture. |
-| GOBS-014 | 17 | CONTINUITY | Successful PUFF appears to introduce a different squeeze affordance. |
-| GOBS-015 | 18 | NEWER RECOVERY | Visible temporal terminology exposes machinery reserved beneath the floorboards. |
-| GOBS-016 | 18 | CONTINUITY | Check the actual computer placement after Richard sets it back up. |
-| GOBS-017 | 19 | CONTINUITY | Stable furnished Table and flimsy Ground stand appear to share a referent. |
-| GOBS-018 | 19 | NEWER RECOVERY | Geographic return recalls an unprinted standing and omits the locality differentiation. |
-| GOBS-019 | 19 | ARCHITECTURAL SEAM | Looking-FOR-Finding needs a distinguishable Pocket operation after the geographic return. |
-| GOBS-020 | 19 | NEWER RECOVERY | Possessed coins and Table lack their reciprocal provisioning TOWARDs. |
-| GOBS-021 | 19 | NEWER RECOVERY | RE-ZIPPERING preserves bearing but omits visible Approachinging Landingings. |
 | GOBS-022 | 20 | NARRATOR / MOTIVATION | Month-One setup may spend the dog reveal before its staged payoff. |
 | GOBS-023 | 22 | NARRATOR / MOTIVATION | Closing purpose statement may overwrite the original ordinary motive. |
 | GOBS-024 | 22 | CONTINUITY | Closing zipper instruction does not recall the shown Sittinging-In Room entry. |
