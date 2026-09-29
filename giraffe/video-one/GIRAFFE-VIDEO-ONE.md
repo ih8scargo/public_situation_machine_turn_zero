@@ -4115,7 +4115,7 @@ Started looking among all those strange things standing around where I'd been si
 
 There had been something that looked like a telephone.
 
-## MOVEMENT 16 — THIS STEWARDLY CO-BOBBING
+## MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
 
 And eventually I came back around to this strange little old-fashioned telephone-looking thing near where I had been sitting.
 
