@@ -2578,6 +2578,8 @@ All that Assemblementing.
 
 And I still hadn't figured out how any of it got us to the Wharf.
 
+But Huckleberry and Enzo were counting on me to figure it out.
+
 “All right.
 
 Let's try this again.”
@@ -2726,15 +2728,13 @@ So I reached out.
 
 I could grab this too.
 
-I turned the handle.
-
-And somewhere—
+As I started turning the handle, I heard this sound start coming from somewhere
 
 FROM UNDER my actual chair—
 
-I heard machinery start moving.
+I heard machinery moving.
 
-It sounded like an automatic garage-door opener.
+Like an automatic garage-door opener springing to life under the floor of my Computering Room.
 
 I stopped.
 
@@ -2758,7 +2758,7 @@ I stopped turning the handle.
 
 The egg wasn't floating out ahead of me anymore.
 
-Something was coming to stand AROUND ABOUT where I sat.
+Something else was coming to stand AROUND ABOUT where I sat.
 
 Walls.
 
@@ -2794,7 +2794,7 @@ Still holding the Needle and Nozzle thing I'd left with it.
 
 So you're still here too.”
 
-### MOVEMENT ELEVEN — SITTINGING WITH THE TRAVERSALING CRAFT
+### MOVEMENT ELEVEN — SITTINGING WITH THE CONTRAPTION
 
 I stayed where I was sitting.
 
@@ -2898,6 +2898,10 @@ There was a pedal underneath one of my feet.
 
 I remembered that.
 
+“Okay.
+
+Maybe now we can get somewhere.”
+
 I pressed it.
 
 Nothing happened.
@@ -2929,6 +2933,8 @@ That's quite a telephone.”
 I looked at the airplane.
 
 Then at the Cup.
+
+I left that one alone.
 
 Then back at the Steering Wheel.
 
@@ -3069,7 +3075,7 @@ I looked ABOUT.
 
 Then I looked UP.
 
-There was an enormous clear dome standing over and around me.
+There was an enormous clear dome standing OVER and AROUND me.
 
 “Wait a minute.”
 
@@ -3077,13 +3083,13 @@ I looked around again.
 
 Then back up at the dome.
 
-“Am I somehow inside that soft-boiled egg thing?”
+“How is this even possible? I think I'm somehow inside that soft-boiled egg thing.”
 
 I kept looking.
 
-And that's when I realized I wasn't alone out there.
+And that's when I realized whatever this thing was, it wasn't alone. 
 
-Through the dome, I could see other soft-boiled egg things.
+Through the dome, I could see other soft-boiled egg things floating out there.
 
 One over there.
 
@@ -3104,12 +3110,6 @@ All of these floating egg things seemed to be standing somehow within it.
 Including, apparently—
 
 mine.
-
-I looked out at all those floating egg things.
-
-“Holy shit.
-
-So this is what the Snail House looks like from in here.”
 
 I looked around some more.
 
@@ -3304,6 +3304,8 @@ There.”
 The Rail Line didn't answer.
 
 Of course.
+
+And I still couldn't tell Huckleberry and Enzo how to get to the Wharf.
 
 I looked back toward the place where I'd started.
 
@@ -3567,6 +3569,8 @@ And:
 
 “Oh, no.”
 
+“I just got you to fit.”
+
 I looked at the Doll.
 
 “Don't suppose you want to handle this part?”
@@ -3574,6 +3578,8 @@ I looked at the Doll.
 Nothing.
 
 “Right.”
+
+“Well, if this is what you need before we can go—”
 
 I reached for the UN-FOLD.
 
@@ -3641,9 +3647,15 @@ So I did.
 
 “That's in.”
 
+I looked into the Parts Pocket.
+
+“Could I see the next couple of pieces?”
+
 UN-FOLD.
 
 The next instructions sent me back toward the Steering Wheel.
+
+“Apparently not.”
 
 So I carried the Little Spooling Unicycle Wheel back with me—
 
@@ -3873,7 +3885,7 @@ right where I'd carefully left it—
 
 was the Needle.
 
-MOVEMENT FIFTEEN — FINISHING THE DOLL
+## MOVEMENT 15 — FINISHING THE DOLL
 
 The Doll still wasn't going anywhere.
 
@@ -3927,13 +3939,15 @@ Underneath it stood the Little Spooling Unicycle Wheel.
 
 The Little Axle stood THROUGH the Wheel, WITHIN its Collar.
 
-The Single Pedal still said RE-STOMP.
+The Single Pedal said RE-STOMP.
 
 The Needle stood FROM OUT OF the Doll.
 
-The Little Bellowing Thing stood with the Needle.
+The Little Bellowing Thing stood WITH the Needle.
 
-And the Stringing I'd been dragging all over the place wasn't threaded THROUGH the Needle at all.
+But something about the instructions surprised me. You remember the Stringing I'd been dragging all over this place? The instructions did not say anything about threading the string THROUGH this Needle.
+
+Hmmm...  
 
 String.
 
@@ -3941,9 +3955,9 @@ Needle.
 
 I thought I knew how those were supposed to go together.
 
-“Do you people do much sewing?”
+“Do you people do much sewing around here?”
 
-The Stringing went somewhere else entirely.
+Instead, the instructions had pointed me back toward my seat with the end of the Stringing line.
 
 Around the Steering Wheel.
 
@@ -3983,7 +3997,9 @@ Same thing.
 
 There you go.”
 
-I went back to the big Cup and sat down.
+I went back to the contraption and climbed into the big Cup.
+
+Sat down.
 
 The Doll stood up ahead of me.
 
@@ -4011,29 +4027,39 @@ So—
 
 let's go.”
 
-I waited.
+I put my foot on the RE-STEP pedal.
+
+Pressed it.
 
 Nothing happened.
 
+I pressed it again.
+
+A little harder.
+
+Nothing.
+
 I looked at the Doll.
 
-“Encounteringmenting Wharf.”
+“Encounteringmenting Wharf?”
 
 Nothing.
 
 I pointed ahead.
 
-“That way.”
+“That way. Come on, Buddy. Let's go.”
+
+I tried the pedal once more.
 
 Nothing.
 
-I leaned the Doll.
+I leaned in the big Cup.
 
-The little Cup moved.
+Up ahead, the little Cup followed.
 
-I let go.
+I straightened up.
 
-It stopped.
+It followed me back.
 
 I looked at the Steering Wheel.
 
@@ -4041,13 +4067,17 @@ Then at the Doll.
 
 Then at the opening ahead.
 
-“Do I have to do everything around here myself?”
+“Do I have to do everything around here FOR myself?”
 
 The Doll said nothing.
 
 I sat there for a moment.
 
 Then I went back to the Parts Pocket.
+
+“All right.
+
+What did I miss?”
 
 Tried its UN-FOLD once more.
 
@@ -4087,55 +4117,166 @@ I went over and UN-FOLDED.
 
 And the Rail Line printed:
 
-**FROM HERE,**
+YOU NOW STAND BEFORE THE ENTRANCE
+TO THIS ONE WHOLE DOLLHOUSE ASSEMBLEMENTING STATION
 
-**THIS ONE STEWARDLY CO-OFFICINGER**
+UN-FOLD TO CONTINUE
 
-**MAY STAND ATTENDING TOWARD**
+I read it again.
 
-**THIS ONE CONSTITUTIONING HUMAN.**
+“One Whole Dollhouse?”
+
+I looked at the Doll.
+
+Then back at the notice.
+
+“Oh, for God's sake.”
+
+“Now I have to build you a house?”
+
+There was more standing there to read.
+
+But I was looking for another Parts Pocket.
+
+“A whole dollhouse?”
+
+I looked around the notice to see what it could mean.
+
+“How many pieces?”
+
+“Just tell me how many pieces.”
+
+I looked back at the Parts Pocket I'd been working from.
+
+“Is it another one of those?”
+
+“Does it ever run out?”
+
+“And why do I only get one thing at a time?”
+
+I held out my hands.
+
+“I can follow instructions.”
+
+“I've been following instructions.”
+
+I pointed at the Doll.
+
+“Look.”
+
+“I built it.”
+
+“And if you could tell me building this whole dollhouse would actually get Huckleberry and Enzo to the Encounteringmenting Wharf—”
+
+I looked up at the announcement again.
+
+“Maybe I'd do it.”
+
+“But I don't even know how any of these things are related.”
+
+“I put one thing together, and you hand me another thing.”
+
+I stood there for a moment.
+
+Then I went back to the contraption.
+
+Sat down.
+
+“Fine.”
+
+I pressed RE-STEP again.
+
+Nothing.
+
+I turned the Steering Wheel.
+
+That enormous metallic sound started up around me.
+
+“Right.”
+
+“You work.”
+
+I turned it back.
+
+The sound settled.
+
+“But where are we going?”
+
+I looked at the Big Bellowing Thing.
+
+Took hold of it.
+
+And squeezed.
+
+Nothing I could see.
+
+I tried RE-SOUND.
+
+Nothing I could hear.
+
+I sat back.
+
+“All right.”
+
+“What else?”
+
+I started looking around the contraption.
+
+There was that strange little old-fashioned telephone-looking thing near where I had been sitting.
+
+It had a mouthpiece.
+
+There was a Cup on a string.
+
+And sticking up out of the thing was that little metal rod with the tiny old-fashioned propeller airplane sitting in the round track around it.
+
+I had assumed the whole thing was some kind of toy.
+
+“Fine.”
+
+“What about you?”
+
+I picked up the Cup.
+
+And that's when I noticed something through the Donut Helmet that I hadn't paid attention to before.
+
+There was another Regard available.
+
+ATTENDING CO-OFFICINGER REGARDING
+
+I stood Regarding THROUGH.
+
+And there it said:
+
+FROM HERE,
+
+THIS ONE STEWARDLY CO-OFFICINGER
+
+MAY STAND ATTENDING TOWARD
+
+THIS ONE CONSTITUTIONING HUMAN.
 
 “This One Stewardly Co-Officinger?”
 
 I looked around.
 
-“What Stewardly Co-Officinger?”
-
 There was nobody there.
 
-But that sounded more like somebody I could ask than another little wheel.
+“What Stewardly Co-Officinger?”
 
-“Okay.
+Then I looked at the Cup in my hand.
 
-How do I get in touch with one of those?”
+And at the mouthpiece.
 
-I went back to the big Cup.
+“No.”
 
-Started looking among all those strange things standing around where I'd been sitting.
+I put the Cup up against the side of the Donut Helmet.
 
-There had been something that looked like a telephone.
-
-## MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
-
-And eventually I came back around to this strange little old-fashioned telephone-looking thing near where I had been sitting.
-
-It had a mouthpiece.
-
-There was a Cup on a string that I could hold up to my ear.
-
-And sticking up out of the thing was this little metal rod with a tiny old-fashioned propeller airplane sitting in this round track around it.
-
-And printed there it said:
-
-**OPEN THE ATTENDING CO-OFFICINGER LINE**
-
-“Oh.”
-
-“I think this is the Co-Officinger thing.”
-
-So I picked up the Cup.
+Leaned toward the mouthpiece.
 
 “Hello?”
+
+## MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
 
 **“HAILINGS & SALUTATIONINGINGS!”**
 
@@ -4145,93 +4286,413 @@ I nearly dropped the Cup.
 
 “Hello?”
 
-“This Stewardly Co-Captain Co-Bobbining now stands attending TOWARD This One Constitutioning Human.”
+**“This Stewardly Co-Captain Co-Bobbining now stands attending TOWARD This One Constitutioning Human.”**
 
 I looked at the Cup.
 
-“Cobbing.”
+“You're going to need to repeat that.”
 
-“Yes.”
+**“This Stewardly Co-Captain Co-Bobbining now stands attending TOWARD This One Constitutioning Human.”**
 
-“Okay.”
+I strained to make myself heard in the old telephone box's mouthpiece through the Donut Helmet.
 
-“Finally.”
+I was holding the ear Cup against the side of the Donut Helmet.
 
-“Customer service around here.”
+“Got it,” I said. “You're some kind of Cobbing.”
 
-“Just so you know, so far I'm giving this place one star.”
+“Listen, Co-Bobbing, I'm glad to finally reach customer service around here. Finally, I'm talking to someone who can answer questions about this machine. Because I have more than a few questions.”
 
-“But I've got some questions for you.”
-
-“Are you able to answer questions about this machine?”
-
-“This Stewardly Co-Captain Co-Bobbining may stand Inquiringmenting ALONGSIDE WITH your IN-Questioning-Menting.”
-
-I waited.
+**“This Stewardly Co-Captain Co-Bobbining may stand Inquiringmenting AFTER your IN-Questioning-Menting.”**
 
 “I'm going to take that as a yes.”
 
-“Okay. First of all, this RE-STEP pedal doesn't work.”
+I looked OUT toward the Rail Line.
+
+“First of all, I'm not UN-FOLDING another single thing around here again.”
+
+“Not until somebody tells me what I've been UN-FOLDING myself into.”
+
+“Because this has been going on since I got here.”
+
+“First I had to put together this Needle-Nozzle thing dragging a string behind it.”
+
+“Then I had to go stick this Bobbining thing into this clear box and somehow impale my Terrestrial Computer.”
+
+“Then I had to go into this Donut-Helmet-shaped room and pick up another Donut-Helmet-shaped thing and put it over my head.”
+
+I pointed at my head.
+
+“Like this.”
+
+“And then there's the Doll.”
+
+I pointed toward the Doll.
+
+“Cobbing, this Doll has problems.”
+
+“This Constitutioning Human Doll can't see.”
+
+“It doesn't have arms.”
+
+“As far as I can tell, it doesn't have a nose.”
+
+“And it has one foot.”
+
+“One.”
+
+“And I put together this whole thing.”
+
+“Every time, it's one Parts Pocket at a time.”
+
+“Another Assemblementing Station.”
+
+“Another bunch of pieces.”
+
+“And somehow I'm the one who has to put all of it together around here.”
+
+“It's like IKEA, except there aren't any pictures on any of the boxes.”
+
+“And now the next thing up THERE says **WHOLE DOLLHOUSE ASSEMBLEMENTING STATION**.”
+
+“I mean, if you're going to make me put together an entire dollhouse, can you at least show me the picture on the box first?”
+
+“So my first question for you, COB, is simple.”
+
+“How many pieces?”
+
+“Just tell me: how many pieces are in that Parts Pocket in that Dollhouse Station Thing up THERE?”
+
+**“This One Whole Dollhouse Assemblementing stands FROM HERE as one place.”**
+
+“One place? Stands FROM HERE?”
+
+“Yes.”
+
+“That's not what I asked.”
+
+“How many pieces is this one place made out of?”
+
+“You know, how many pieces will I need to ‘stand Assemblementing’ at that station?”
+
+I waited.
+
+“Okay.”
+
+I waited some more.
+
+I checked to make sure the string hadn't fallen out of the Cup.
+
+It hadn't.
+
+Cobbing just didn't have anything more to say.
+
+“Anyway.”
+
+“While I've got you, I do have some comments.”
+
+“And I don't know whether you're the person who handles these things, or if maybe you could pass some of this on to your manager, or whoever runs the place.”
+
+**“This Stewardly Co-Captain Co-Bobbining may stand Inquiringmenting AFTER your IN-Questioning-Menting.”**
+
+“Okay, again, I'll take that as a yes.”
+
+“Because I want to be fair.”
+
+“I am not the kind of person who just calls customer service to complain.”
+
+“If something is good, I will tell you it's good.”
+
+“If something is bad, I will tell you it's bad.”
+
+“I don't keep score.”
+
+“I mean, I have a list.”
+
+“But I'm not keeping score.”
+
+“And so far, this is pretty much a One-Star review.”
+
+I thought about it.
+
+“Well.”
+
+“There have been some adequate things.”
+
+“And possibly a few things that have been slightly delightful since the Weddinginging.”
+
+“But there are some real wrinkles with the equipment.”
+
+“FOR me, at least.”
+
+“And if there's something you can do about that—or somebody you can talk to—then I think whoever runs this place might like to know what kind of machine we're all in here.”
+
+**“And what kind of machine are we all in here?”**
+
+“Well, this one.”
+
+I looked around.
+
+“Cobbing, I assure you. I am not the kind of person who just complains to customer service.”
+
+“If this were my machine, I would want somebody to tell me.”
+
+“Helpful feedback.”
+
+“For example.”
+
+I pointed down.
+
+“This RE-STEP pedal doesn't, you know, RE-STEP.”
+
+“I've tried it.”
+
+“Like a bunch of times.”
+
+I pressed RE-STEP.
+
+Nothing happened.
+
+I pressed it again.
+
+“I'm not sure whether you can hear that through the telephone-box-airplane thing.”
+
+“So let me tell you what you would hear if you were here.”
+
+I pressed it again.
+
+“Nothing.”
+
+“See?”
+
+“How can somebody out here get this fixed?”
+
+**“TOWARD what do you stand RE-STEPPING FROM HERE?”**
+
+“Can you hear that?”
+
+I pressed it again.
+
+“I'm pushing RE-STEP over and over again.”
+
+“I'm practically stomping on the pedal to get to the Wharf.”
+
+“And it isn't doing a thing.”
+
+“Which is a problem, because the Encounteringmenting Wharf is the whole reason I'm here.”
+
+“Huckleberry and Enzo are waiting on me to figure this out.”
+
+“And I said I would.”
+
+“So I am trying.”
+
+I pressed RE-STEP again.
+
+Nothing.
+
+“But while we're talking about this area, let me paint you a little picture.”
+
+“Because I'm not sure how familiar you are with the environment around here.”
+
+“You know, how things actually are here on the ground, where I'm calling from.”
+
+“Right next to RE-STEP there's this little spot just for resting your other foot.”
+
+“Technically, I guess, Restinging your foot.”
+
+“And it's strange.”
+
+“Because this machine makes it its business to put a little place in the contraption area just for you to put the foot that isn't doing anything.”
+
+I slipped my foot into it.
+
+“See, after a long day of Assemblementing, it's actually kind of nice.”
+
+“You've been running around putting together Dolls and sticking things into other things and trying to figure out what everything is FOR.”
+
+“And there's this tiny sandal where you can just slide your free foot in for a minute.”
+
+“Now, I want to be clear.”
+
+“I stay busy.”
+
+“I'm not the kind of person who sits around all day with my foot in the Foot Restinging Thing.”
+
+“But it's a nice balance.”
+
+“One foot gets to Rest.”
+
+“The other foot gets to RE-STEP.”
+
+“That would be a very nice balance if this were the kind of machine that actually had an operational RE-STEP.”
 
 I pressed it.
 
 Nothing.
 
-“See?”
+“But the Foot Restinging Thing?”
+
+“That part there is actually kind of nice.”
+
+“You can pass that on to whoever's in charge.”
+
+“Thank you.”
+
+“Because it took me a while to get used to it, but now I think I understand.”
+
+“It's almost like some kind of little invitation from the machine.”
+
+“Like: you've been Assemblementing parts all day.”
+
+“You're tired.”
+
+“You're not entirely sure how any of this fits together anymore.”
+
+“So here.”
+
+“Put your free foot in this little patch for a minute.”
+
+“And it's just a little square on the floor.”
+
+“With a tiny sandal.”
+
+“And we do all know we're in a computer here, right?”
+
+“But still there's a little inscriptioning on the floor.”
+
+I looked at my foot.
+
+“You know what?”
+
+“I may have been too harsh with the One Star.”
+
+“I'm going to say Two and a Half.”
+
+“I don't know whether you're allowed to change the review after you've already called it in.”
+
+“But Two and a Half.”
+
+“Because I promised I would point out the things that were working FOR me, at least.”
+
+“And Cobbing, I said it. And I'll stand by it. I am—”
+
+I stopped.
+
+“What was I talking about?”
+
+I looked down.
+
+“Oh.”
+
+“Right.”
+
+“The RE-STEP pedal doesn't RE-STEP.”
+
+**“TOWARD what do you stand RE-STEPPING FROM HERE?”**
+
+“The Wharf.”
+
+I stopped.
+
+“Oh.”
+
+“Right.”
+
+“That's what you asked me.”
+
+“The Encounteringmenting Wharf.”
+
+“That's where I'm trying to go.”
+
+“Huckleberry and Enzo want to go meet their friends there.”
+
+“That's the whole reason I got mixed up in any of this in the first place.”
+
+“And I thought that's what RE-STEP was FOR.”
+
+“You know.”
+
+“Step.”
+
+“Go someplace.”
+
+**“This RE-STEP stands Usingable FROM HERE.”**
+
+“No it doesn't.”
+
+“Bob, we just went over this.”
 
 I pressed it again.
 
 Nothing.
 
-“I've been trying this thing.”
+**“What you stand RE-STEPPING FOR has not yet been furnished FROM HERE.”**
 
-“I will say, this place for my other foot is very convenient.”
+I looked at the pedal.
 
-“Thank you for that.”
+Then at the Cup.
 
-“But the RE-STEP pedal doesn't RE-STEP.”
+“Well, that's what I'm trying to tell you.”
 
-“Can you send somebody out here to get this fixed?”
+“I don't know what any of this is FOR.”
 
-COB said:
+I looked at the Steering Wheel.
 
-“TOWARD what do you stand RE-STEPPING FROM HERE?”
+“Okay.”
 
-“The Wharf.”
+“Now this thing works.”
 
-“I'm trying to get to this Encounteringmenting Wharf thing.”
+“I promised you I would point those out.”
 
-“And I thought that's what the pedal was FOR.”
+I turned the Steering Wheel.
 
-I put my hand on the Steering Wheel.
+The whole contraption answered with a tremendous metallic movement.
 
-“Now, this thing works.”
+“See?”
 
-I turned it.
+“Something is definitely happening.”
 
-And somewhere ALONG THROUGH the Rail Line, I could hear the whole thing turning.
+“I have no idea what.”
 
-“Do you hear that?”
+“But something is happening.”
 
-“Something's turning.”
+“So credit where credit is due.”
 
-I turned it back.
+“I appear to be steering.”
 
-“So somehow I'm supposedly steering.”
+“I don't know what I'm steering.”
 
-“I'm just apparently not steering TOWARD anything.”
+“And I don't know where I'm steering it.”
 
-“And even if I were steering TOWARD something, I don't know how I would get there, because the RE-STEP pedal doesn't work.”
+“But this one goes in the working column.”
 
-“Can you send somebody out here to get this fixed?”
+I tried the Big Bellows Thing.
 
-Then I looked at that little airplane.
+**PFFFFT.**
 
-“And while I've got you—what is this thing FOR?”
+“And the Big Bellows Thing just blows out air.”
 
-COB said:
+“So technically, I guess that works too.”
 
-“This One RE-ZIPPERING Airplane stands RE-Tractioning THROUGH This RE-Tractioning Culvert.”
+“I don't know why anybody needs that.”
+
+“But air does come out.”
+
+I tried RE-SOUND.
+
+Nothing.
+
+“This RE-SOUND horn thing doesn't even honk.”
+
+“Somebody should probably look at that.”
+
+Then I looked at the little airplane.
+
+“But here's the one I really wanted to ask you about.”
+
+“What is this thing FOR?”
+
+**“This One RE-ZIPPERING Airplane stands RE-Tractioning THROUGH This RE-Tractioning Culvert.”**
 
 “RE-Tractioning.”
 
@@ -4239,79 +4700,115 @@ COB said:
 
 “And what does it do?”
 
-“It RE-ZIPPERS ALONG THROUGH.”
+**“It RE-ZIPPERS ALONG THROUGH.”**
 
 I looked at the airplane.
 
-Then I looked at the round track.
+Then I looked at the track.
 
-Then I looked at the metal post running straight through the whole thing.
+Then I looked at the post.
 
-“No it doesn't.”
+“No.”
+
+“No, it doesn't.”
+
+“This one I can tell you.”
 
 “It couldn't if it wanted to.”
 
+I pointed.
+
+“Look.”
+
+“Right there.”
+
 “There's a post through the flight path.”
 
-I pointed at it.
+“There's a post.”
 
-“Can't you see?”
+“Through.”
+
+“The flight path.”
+
+“Can't you see that?”
 
 “There's a post through your flight path.”
 
-And then I noticed something printed on it.
+“So unless this is some kind of airplane that can fly through a metal post—which, frankly, would raise several additional questions—this thing isn't RE-ZIPPERING anywhere.”
+
+Then I saw the label.
 
 **100% JANUSITE**
 
 “Of course.”
 
+“JANUSITE.”
+
 “More JANUSITE.”
 
-“Let me guess, you're sponsored by JANUSITE, right?”
+“Let me guess.”
 
-“And then there's this Rail Line.”
+“You people are sponsored by JANUSITE, right?”
 
-“I've been UN-FOLDING along this thing the whole time, ever since I parked my Terrestrial Computer way back there.”
+I looked at the airplane again.
 
-“And every time I UN-FOLD, here comes another notice telling me there's something else I can do.”
+“You know what would actually be helpful?”
 
-“And then I have to figure out how I'm supposed to do it.”
+“You keep giving me one Parts Pocket at a time.”
 
-“I feel like I have to do everything for myself around here.”
+“One thing at a time.”
 
-“And to be honest, I feel like I'm turning into some kind of assembly technician.”
+“And I'm apparently supposed to put everything together exactly however you people decided it goes.”
 
-“And I'm working in a strange IKEA where there aren't any pictures on any of the boxes.”
+“It would be really nice if you would just let me put together something like this airplane myself.”
+
+“There are parts all over the place around here.”
+
+“Let me find some.”
+
+“Let me see what I can make out of them.”
+
+“Because I think I could do a better job, actually.”
+
+“At minimum, I would probably try not to put a post directly through where the airplane has to fly.”
+
+I looked back at the airplane.
+
+“And I would put a picture on the box.”
+
+I waited.
+
+Nothing.
+
+“Anyway.”
 
 I looked around.
 
-“And look where all of this UN-FOLDING has gotten me.”
+At the Doll.
 
-“Here I am talking to some kind of Cobbing thing through a Cup on a string that's somehow connected to that airplane sitting here—the one with a post running straight through its flight path.”
+The Unicycle.
 
-“And instead of anybody fixing that, now you're telling me that somehow this thing is supposed to be RE-ZIPPERING ALONG THROUGH something.”
+The Cups.
 
-“I don't even know what that means.”
+The Steering Wheel.
 
-“I've got a RE-STEP pedal that doesn't RE-STEP, and you haven't told me you're going to send anybody out here to come and fix it.”
+The Bellows.
 
-“And I've got this weird Doll on a Unicycle.”
+The airplane.
 
-“And now I'm sitting ALONGSIDE WITH this Doll, and we're sitting in two Cups.”
+The string running from the Cup in my hand.
 
-“Yes, I will admit these two Cups could try out for *Dancing with the Stars*.”
+“Cobbing.”
 
-“But that still doesn't explain any of this.”
+“What is all this?”
+
+This time I waited.
+
+“Where am I sitting?”
+
+**“You stand sitting WITHIN This Traversaling Craft.”**
 
 I looked around again.
-
-“What exactly is all of this stuff?”
-
-“And where am I sitting exactly?”
-
-COB said:
-
-“You stand sitting WITHIN This Traversaling Craft Seat.”
 
 “This is a Traversaling Craft?”
 
@@ -4319,11 +4816,13 @@ COB said:
 
 “At what point does the Traversaling happen?”
 
-COB said:
+I looked down at RE-STEP.
 
-“The RE-STEP is not broken.”
+“Because so far, Huckleberry and Enzo are exactly as far from that Wharf as they were when I started.”
 
-“You do not yet stand with somewhere furnished TOWARD which you may consequentially RE-STEP.”
+I waited.
+
+Then something else occurred to me.
 
 “Okay.”
 
@@ -4333,1834 +4832,4314 @@ COB said:
 
 “Or now I'm supposedly wedded to my computer.”
 
-“And I still don't understand how we're supposed to do anything like this.”
+“And before all this, I knew how to use my computer.”
+
+“I sat in front of it.”
+
+“It had a screen.”
+
+“It had a keyboard.”
+
+“I knew where I was.”
+
+“And now…”
+
+I looked around.
 
 “It feels like our parts don't fit together the way they used to.”
 
-COB said:
+For once, I didn't have anything else to add.
 
-“THROUGH the PUBLIC-SITUATION-MACHINE-, you may come to stand FROM HERE.”
+**“THROUGH the PUBLIC-SITUATION-MACHINE-, you may come to stand FROM HERE.”**
 
-“This is your very own place.”
+I listened.
 
-“FROM HERE, you may stand WITH your Terrestrial Computer WITHIN This One Stewardly Co-Occupancying Ship.”
+**“This is your very own place.”**
 
-“This is your very own Tuple Ship.”
+I looked around.
 
-I stopped.
+**“FROM HERE, you may stand THROUGHBY your Terrestrial Computer WITHIN This One Stewardly Co-Occupancying Ship.”**
 
 “A ship?”
 
-“Yes.”
-
-I looked around.
+I looked around again.
 
 “Oh.”
 
 “So that's why it feels like we're floating.”
 
-COB said:
-
-“FLOATATIONING.”
+**“FLOATATIONING.”**
 
 “Right.”
 
-“So what is this Tuple Ship FOR?”
+**“FROM HERE, this place stands as your very own Floatationing Tuple Ship.”**
 
-COB said:
+“A Floatationing Tuple Ship?”
 
-“FROM HERE, you may stand furnishing This One Situationing Dollhouse Theater.”
+I looked around.
 
-“This is a place for Pretending.”
+“What in the world is a Floatationing Tuple Ship FOR?”
 
-“THROUGH your Stewardly Laborings FROM HERE, you may stand ALONGSIDE WITH your Constitutioning Human Doll, Pretending your way THROUGH your Situationings.”
-
-“Making costuming Pockets FOR your Doll.”
-
-I looked at the Doll.
-
-Then back at the Cup.
-
-“Wait.”
-
-“I get to make things with this?”
-
-“Yes.”
-
-“Well, hell.”
-
-“Let's see.”
-
-## MOVEMENT 17 — FROM OUT OF THE GROUND
-
-COB said:
-
-“You may stand in Regard TOWARD This One Standing Up Table.”
-
-And there was a Table.
-
-A round surface.
-
-With my Constitutioning Human Doll standing UPON it, OVER ACROSS from me.
-
-For a moment, that was all I was looking at.
-
-Like a cameo.
-
-A Table.
-
-My Doll.
-
-COB said:
-
-“You may stand imagining yourself AT this Table, ALONGSIDE WITH your Constitutioning Human Doll.”
-
-I could picture that.
-
-Me, standing here.
-
-The Doll, standing there.
-
-And this Table between us.
-
-“Okay.”
-
-“Yeah.”
-
-COB said:
-
-“You may take up Doll Regard FROM HERE.”
-
-I had been doing something like this in my imagination all my life.
-
-But here was somewhere to stand doing it WITH my Doll.
-
-COB said:
-
-“You may stand in Regard TOWARD the center of this circular surface.”
-
-I looked.
-
-The Doll's Upstanding Stand rose from it.
-
-COB said:
-
-“Your Traversaling Craft stands FROM HERE, at the center where this Post stands FROM OUT OF THE GROUND.”
-
-“Oh.”
-
-I turned my Regard.
-
-There was the Post.
-
-Standing up FROM OUT OF THE GROUND.
-
-I UN-FOLDED.
-
-And the Rail Line announced:
-
-**NOW APPROACHING**
-
-**THIS ORIGINATIONING, STATIONING RAIL LINE STATION,**
-
-**COMING FROM HERE**
-
-**FROM OUT OF THE GROUND.**
-
-“FROM OUT OF THE GROUND.”
-
-COB said:
-
-“What may stand FROM OUT OF THE GROUND FOR you FROM HERE?”
-
-I thought about where I was actually sitting WITH my Terrestrial Computer.
-
-“Well.”
-
-“We're apparently in a ship.”
-
-“And we're not just floating off into nowhere.”
-
-COB said:
-
-“You may Quill.”
-
-I took hold of the Needle.
-
-“THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.”
-
-As I Quilled, I noticed something moving.
-
-COB said:
-
-“You may Regard the Stringing THROUGH the donut helmet.”
-
-I took up that Regard.
-
-There was the Caterpillar Tunnel view.
-
-And there was my little Doll with the Little Spooling Unicycle.
-
-The Wheel was turning.
-
-Spooling.
-
-And coming from behind it—
-
-were words.
-
-**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND**
-
-“Wait.”
-
-“Those are my words.”
-
-I looked again.
-
-They rode upon the String as it spooled ALONG THROUGH.
-
-And the name of this readout stood there:
-
-**THIS ONE ROAD WE STAND TRAVERSALING ALONG THROUGH**
-
-I read it.
-
-Then I read my words again.
-
-The ones I had just Quilled.
-
-Right there.
-
-In English.
-
-I looked down at my foot.
-
-I hadn't even RE-STEPPED.
-
-The words were already standing there.
-
-“Okay, COB.”
-
-“Now that's something.”
-
-I turned my Regard back to the Table and my Doll.
-
-“So I can start putting things here?”
-
-COB said:
-
-“You may furnish your Situationings.”
-
-“And THROUGH This One Roundabout Gallery, you may stand in different Regards TOWARD what you furnish THROUGH your Theater.”
-
-I looked around the circular surface.
-
-Then back at my Doll.
-
-“Let's do it.”
-
-There was quite a bit standing there to read.
-
-At this one Rail Line station, I could turn my Regard from one notice to another.
-
-I read:
-
-**THIS ONE CONSTITUTIONING HUMAN,**
-
-**ALONGSIDE WITH THIS ONE CONSTITUTIONING HUMAN DOLL,**
-
-**STANDING TOGETHER,**
-
-**FROM HERE NOW,**
-
-**THROUGH,**
-
-**BY THIS ONE STEWARDLY CO-OCCUPANCYING SHIP,**
-
-**NOW STAND BEFORE**
-
-**This HERE Never-Ending Next Approaching Landinging Dispensary.**
-
-And standing there WITH it:
-
-**THIS ONE GRAND OPENING STANDS FROM HERE,**
-
-**OPENING PASSAGEING WAY INTO**
-
-**THIS ONE SITUATIONING DOLLHOUSE THEATER.**
-
-“Our Theater.”
-
-I looked at my Doll.
-
-“All right.”
-
-I looked toward the available operation.
-
-As I took it up, the Steering Wheel tilted up.
-
-Through the donut helmet, everything around me changed.
-
-I was sitting WITHIN the cab of a machine.
-
-And printed there:
-
-**This One Truly Boringinging Puffinging Tunneling Thing.**
-
-“Okay.”
-
-“A tunneling thing.”
-
-The cab had a flat front, like one of those buses with no engine compartment sticking out ahead.
-
-I looked around inside it.
-
-There was light inside the cab.
-
-I could see the Steering Wheel.
-
-I could see where I was sitting.
-
-But in front of the Craft—
-
-darkness.
-
-I leaned forward a little.
-
-Couldn't see a thing.
-
-Then I looked at the Big Bellowing Thing.
-
-“Oh.”
-
-“You again.”
-
-I had already tried this thing.
-
-I took hold of it.
-
-And squeezed.
-
-**PUFF.**
-
-—
-
-“Whoa.”
-
-I stopped.
-
-Something had happened.
-
-The best way I can describe it is that it felt like somebody had suddenly raised an entire circus tent around me.
-
-The tunneling view fell away.
-
-So did the donut helmet.
-
-I could look out all around me.
-
-A moment before, I had been sitting WITHIN that lit cab, looking into darkness.
-
-Now the circular Table surface opened out as the surface of the Theater, with my Doll still there to stand ALONGSIDE WITH.
-
-And now—
-
-there was volume.
-
-A lot of it.
-
-I looked up.
-
-I looked across.
-
-I turned around.
-
-It felt enormous.
-
-And somehow, strangely, it felt like this enormous place was standing here FOR me.
-
-Things that hadn't seemed available before were beginning to stand available around me.
-
-There were lights.
-
-There were indications.
-
-There were places all around me where it looked like there were things I might be able to do.
-
-The whole thing had come alive.
-
-For a little while, I just sat there looking at it.
-
-“This is…”
-
-I looked up again.
-
-“This is actually kind of incredible.”
-
-I turned around.
-
-There was so much room.
-
-I picked up the Cup.
-
-“You mean this is a place just for me?”
-
-COB said:
-
-“FROM HERE, you may stand furnishing This One Situationing Dollhouse Theater.”
-
-I looked out across it again.
-
-“Oh.”
-
-I was still taking it all in.
-
-“All this room.”
-
-I looked toward one of those places where it seemed there might be something I could do.
-
-Then I noticed another announcement already standing there ALONG the Rail Line:
-
-**THE GRAND OPENING TO**
-
-**THIS ONE ROUNDABOUT GALLERY,**
-
-**STANDING TOWARD**
-
-**THE OBSERVATIONING HARBOR**
-
-**FOR THIS ONE SITUATIONING.**
-
-“Roundabout Gallery.”
-
-“Right.”
-
-I turned my Regard across the Theater.
-
-Then back toward my Doll.
-
-“Observationing Harbor.”
-
-That part I still wanted to find out about.
-
-But something had definitely happened when I PUFFED.
-
-For the first time, this whole thing felt like it might actually be becoming more coherent.
-
-And then I looked down.
-
-At the RE-STEP pedal.
-
-“Oh.”
-
-“You again.”
-
-I had been complaining about this thing for quite a while.
-
-But the machine had just done something I hadn't expected.
-
-So now I was curious.
-
-“Does this thing work now?”
-
-I put my foot on the RE-STEP pedal.
-
-And I RE-STEPPED.
-
-—
-
-Everything happened at once.
-
-The Traversaling Craft came alive around me.
-
-My Constitutioning Human Doll moved with the Little Spooling Unicycle.
-
-The String carried ALONG THROUGH.
-
-And that ridiculous little airplane—
-
-the one with the post running straight through its flight path—
-
-its propeller started turning.
-
-“Oh!”
-
-The little airplane started climbing around the Culvert.
-
-It went up.
-
-And up.
-
-Straight toward that post.
-
-“Wait—”
-
-At the top—
-
-**tik—SPARK.**
-
-And then it came over.
-
-The airplane started coasting down the other side.
-
-Its propeller was still spinning, but slower now.
-
-Slower.
-
-Slower.
-
-Until the airplane settled again below.
-
-And the propeller came to a stop.
-
-I stared at it.
-
-“Huh.”
-
-Then I picked up the Cup.
-
-“Okay, COB.”
-
-“You can cancel the work order for the RE-STEP pedal.”
-
-“I fixed it myself.”
-
-I looked around again.
-
-There was even more available to me now.
-
-That Quilling Needle I had been using before—
-
-apparently Quilling wasn't the only thing I could do with it.
-
-There were other affordmentings standing available through it now.
-
-POOFing.
-
-Stringing.
-
-Buttoning.
-
-And the String itself had come ALONG THROUGH.
-
-I could see my Constitutioning Human Doll standing there upon the Little Spooling Unicycle.
-
-And behind it, the Unicycle had left the String.
-
-Still standing there upon it:
-
-**FROM OUT OF THE GROUND**
-
-**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND**
-
-“Oh.”
-
-“So that came with me.”
-
-I turned my Regard back toward the Table.
-
-The one I had pictured myself standing AT before all this opened around us.
-
-My Constitutioning Human Doll still stood UPON it.
-
-With the Needle.
-
-With the little Bellows.
-
-I wanted to start doing something FROM HERE.
-
-COB said:
-
-“You may stand your Attentioning TOWARD This One Standing Up Table.”
-
-“Okay.”
-
-I wanted to see it better.
-
-There was a little wheel available to me.
-
-And something standing with it said:
-
-**STAND THIS REGARD TOWARD HERE FROM THIS APPROACHING STANDING**
-
-I read that a couple of times.
-
-Then I put my finger on the little wheel.
-
-And rolled it toward myself.
-
-The Table didn't come rolling across the floor.
-
-And I didn't go walking over to it.
-
-But something about where I was standing in Regard toward it changed.
-
-The Table approached.
-
-The Doll approached.
-
-The Needle.
-
-The Bellows.
-
-All of it came into a standing from which I could picture it more clearly.
-
-“Okay.”
-
-“Now I can picture myself standing right here at this Table.”
-
-I looked at my Doll.
-
-Then the Needle.
-
-Then all these things that were becoming available through it.
-
-I looked out across our Theater.
-
-Then back at my Doll.
-
-“Okay.”
-
-“I want to start putting things here.”
-
-I looked over the top of the Glass Pair.
-
-Around my actual computering room.
-
-“Okay.”
-
-“I'm sitting in my computering room right now.”
-
-“That seems as good a place as any to start.”
-
-I picked up the Cup.
-
-“COB?”
-
-“Yes?”
-
-“I want to start with my computering room.”
-
-# MOVEMENT 18 — LEARNING WHAT I CAN DO FROM HERE
-
-**MONTH-ZERO RICHARD**
-
-All right.
-
-What can I do FROM HERE?
-
-I look down at the Road.
-
-It has something new for me.
-
-**FOR THIS ONE SITUATIONING**
-
-Okay.
-
-For this one Situationing.
-
-I look around my actual computering room.
-
-There's my Spider Plant.
-
-All right.
-
-Let's try something easy.
-
-I take up This One Pocket POOFing, Pocket Quilling, Pocket Stringing, Pocket Buttoning Needle Thing.
-
-**POOF.**
-
-A new Pocket stands UP along the Road FROM HERE.
-
-The Road bends away into a little branch of its own.
-
-I take a picture of my Spider Plant with my Terrestrial Computer.
-
-Well—
-
-my Richard Doll is going to need this to put in the Pocket.
-
-So I furnish the picture.
-
-COB tells me:
-
-**COB**
-
-You may Quill.
+## MOVEMENT 17 — GRAND OPENING
 
 **RICHARD**
 
-Right.
+What in the world is a Floatationing Tuple Ship FOR?
 
-Of course I may.
+**COBBING**
 
-So I Quill:
+This One Situationing Dollhouse Theater stands FROM HERE as your very own place FOR Pretending.
 
-**SPIDER PLANT**
+**RICHARD**
 
-And I String it ALONG WITH the picture.
+Pretending?
 
-And there it is.
+Wait.
 
-My Spider Plant Situationing.
+This is the Dollhouse Theater?
 
-Standing UP on its own little branch FROM HERE.
+This whole thing?
 
-Okay.
+This isn't another Parts Pocket?
 
-That's pretty neat.
+**COBBING**
 
-Then I look toward the bathroom.
+No.
 
-Oh!
+**RICHARD**
 
-Donna.
+Oh, thank God.
 
-Donna is a spider who lives in my shower.
+Because I thought you were telling me I had to put together the entire Dollhouse now.
 
-**COB**
+And Cobbing, I wasn't going to do it.
 
-Who is Donna?
+I've put together enough things.
+
+Although—I guess technically I already put this one together.
+
+I did the Tunneling Thing.
+
+Or whatever that was.
+
+So—
+
+Is this my Grand Opening?
+
+Richard looks around from his place aboard the Traversaling Craft.
+
+The craft is presenting itself almost like a little flat-fronted cab.
+
+Richard is still at the Steering Wheel side.
+
+Across the cab is **This One Truly Boringinging Puffinging Tunneling Thing**.
+
+**RICHARD**
+
+Oh.
+
+Is that what we're doing?
+
+That's over there.
+
+Richard tries to operate it without leaving his seat.
+
+He reaches.
+
+Not quite.
+
+He stretches farther.
 
 **RICHARD**
 
 Come on.
 
-I'll show you.
+Why would you put the Grand Opening thing all the way over there?
 
-I get up from my actual chair and walk down the hall to the bathroom.
+He finally gives up.
 
-And there she is.
+Gets UP from his seat.
 
-Donna.
+Steps ACROSS the little cab.
 
-Still sitting in her web in the shower.
+Comes to stand before the Tunneling Thing.
 
-I take a picture of Donna WITHIN her web.
+From here he can properly face it.
 
-Then I walk back to my computering room and sit down again.
+He gets himself situated.
 
-And when I look through the Glass Pair—
+**RICHARD**
 
-my Richard Doll hasn't gone anywhere.
+Okay, Cobbing.
 
-He's still there.
+Grand Opening.
 
-UPON the same Table.
+Here we go.
 
-My Spider Plant Situationing still stood where I had furnished it.
+Richard gives the Tunneling Thing a good squeeze.
+
+**PUFF.**
+
+**RICHARD**
+
+WHOA!
+
+One upright side falls outward.
+
+Richard turns.
+
+Another goes.
+
+Then another.
+
+The four upright sides fall away around him like the sides of an open cardboard box being unfolded flat.
+
+Richard looks DOWN.
+
+The floor is still beneath him.
+
+He hasn't gone anywhere.
+
+He looks OUT.
+
+Beyond the flattened square of the thing he was standing WITHIN is an enormous, dark, circular extent.
+
+Faint rings and arcs disappear into the darkness.
+
+Richard slowly turns around.
+
+**RICHARD**
+
+Cobbing.
+
+I made a Circus Tent.
+
+He keeps looking.
+
+There is almost nothing in it.
+
+**RICHARD**
+
+Oh.
+
+I guess this is what the picture looks like from inside the box.
+
+He turns some more.
+
+**RICHARD**
+
+This one was much easier to assemble.
+
+I operated the Tunneling Thing and the whole thing pretty much just—
+
+PUFF.
+
+And there it was.
+
+So I'll give you that one.
+
+Richard looks back toward the familiar Traversaling seat.
+
+He walks back toward it.
+
+From here, the enormous Tunneling apparatus he just operated is little again.
+
+A little toy-like Puffing/Tunneling Thing associated with the Traversaling Craft.
+
+Richard regards it.
+
+**RICHARD**
+
+Oh.
+
+And the Tunneling Thing is little again.
+
+Okay.
+
+He returns to the Traversaling seat.
+
+There, beside his familiar Foot Restinging Thing, is the familiar RE-STEP pedal.
+
+Richard looks at it.
+
+**RICHARD**
+
+Well.
+
+Since I've got customer service on the line—
+
+Richard presses RE-STEP.
+
+Something changes.
+
+The Donut Helmet Thing makes a considerable fuss of it.
+
+Things illuminate.
+
+New inscriptions present themselves.
+
+Little signals and possible operations appear all around Richard's Regard.
+
+Things that were not available to him a moment ago are suddenly announcing themselves as available.
+
+**RICHARD**
+
+Whoa.
+
+Okay.
+
+Cobbing, I've got a whole bunch of new things in here now.
+
+He looks from one to another.
+
+But then something farther away catches his eye.
+
+Richard stops.
+
+**RICHARD**
+
+Oh.
+
+There's my Doll.
+
+Far OVER ACROSS the dark extent, Richard can see Doll.
+
+A ramp rises toward it.
+
+From here, it appears to offer a fairly direct way across.
+
+Richard looks at Doll.
+
+Looks at the ramp.
+
+Looks around for some means of getting there.
+
+Waits.
+
+Nothing carries him.
+
+**RICHARD**
+
+Okay.
+
+How do I get over there?
+
+He waits again.
+
+Then cautiously puts one foot forward.
+
+A perfectly ordinary step.
+
+Another.
+
+He stops.
+
+Another.
+
+**RICHARD**
+
+Oh.
+
+Cobbing.
+
+You can walk here.
+
+He tries a few more steps.
+
+**RICHARD**
+
+Okay.
+
+You should know that.
+
+When you get out here, you can just start walking FROM HERE.
+
+Richard continues ascending toward Doll.
+
+He realizes something.
+
+**RICHARD**
+
+Oh!
+
+And I don't need that Cup.
+
+Cobbing?
+
+Can you still hear me?
+
+**COBBING**
+
+Yes.
+
+**RICHARD**
+
+Okay.
+
+Because I don't have the Cup anymore.
+
+I'm just talking to you through the Donut Helmet Thing now.
+
+That's much better.
+
+Richard keeps walking.
+
+He's settling into the trip now.
+
+And, as far as Richard is concerned, Cobbing will eventually need to know how all of this works.
+
+**RICHARD**
+
+So, Cobbing, I'm going to keep telling you about some of this stuff while I'm out here.
+
+Because when you get out here, yours might not do exactly what mine is doing.
+
+Or if you come out to this one.
+
+I don't know.
+
+But this is for the good of the order.
+
+Richard walks.
+
+He glances over the side of the ramp.
+
+Below him, a line is running along in roughly the same direction as his ascent.
+
+Something has been painted on it.
+
+**RICHARD**
+
+Oh.
+
+Here's something.
+
+There's this line running along down here with me.
+
+Richard leans enough to read it while continuing carefully forward.
+
+**RICHARD**
+
+It says—
+
+THIS ONE FROM OUT OF THE GROUND POST HERE.
+
+Post?
+
+He looks over the side again.
+
+**RICHARD**
+
+Cobbing, that's not a Post.
+
+That's lying down.
+
+Everybody knows a Post is supposed to stand UP.
+
+I mean, maybe somebody painted the wrong thing on it.
+
+**COBBING**
+
+This One FROM OUT OF THE GROUND POST HERE stands FROM HERE.
+
+Richard considers that.
+
+**RICHARD**
+
+Yeah.
+
+Okay.
+
+I realize you probably have to toe the company line here.
+
+I'm just saying, from where I'm standing, it's not standing UP.
+
+So somebody might want to check the paint.
+
+Anyway.
+
+Richard keeps walking.
+
+The alleged Post continues below him.
+
+He lets the matter go.
+
+For now.
+
+**RICHARD**
+
+And Cobbing, when you get out here and you're in your Circus Tent, you might feel like you're losing your bearings.
+
+But that's not necessarily true.
+
+He walks.
+
+**RICHARD**
+
+When I first PUFFed this thing—
+
+you know, when the Circus Tent first popped up—
+
+I thought the Tunneling Thing was in the center.
+
+Or at least that's what it looked like from there.
+
+Richard looks toward Doll.
+
+Keeps ascending.
+
+**RICHARD**
+
+Now, you might find that it takes you a little longer to get to the Doll than you first thought.
+
+It's taking me longer.
+
+He walks.
+
+**RICHARD**
+
+I can see Doll.
+
+Doll's right up there.
+
+I'm getting there.
+
+Richard continues.
+
+**RICHARD**
+
+But now that I RE-STEPped and I'm out here on this ramp—
+
+from here it looks like Doll is the one standing in the center.
+
+So yours might look different.
+
+I'm just telling you what I'm seeing.
+
+He continues his ascent.
+
+Doll grows nearer.
+
+Richard begins to make out what Doll itself is standing UPON.
+
+**RICHARD**
+
+Oh.
+
+Here's a new thing, Cobbing.
+
+As I'm getting closer, I can see Doll is standing on something.
+
+He walks a little farther.
+
+Looks.
+
+**RICHARD**
+
+Oh.
+
+Okay.
+
+It's another Post.
+
+Somebody painted something on this one too.
+
+Richard reads:
+
+**THIS ONE FROM HERE, FOR HERE POST**
+
+**RICHARD**
+
+THIS ONE FROM HERE, FOR HERE POST.
+
+Okay.
+
+So we have two Posts.
+
+And I can tell you this one appears to be correct.
+
+This one is actually standing UP.
+
+And Doll is standing UPON it.
+
+Richard continues approaching.
+
+Then he looks over the edge of the ramp again.
+
+He follows the upright Post downward with his eyes.
+
+Stops.
+
+Leans farther.
+
+**RICHARD**
+
+Wait a minute.
+
+Cobbing.
+
+These are connected.
+
+Richard looks carefully.
+
+**RICHARD**
+
+This Post—
+
+the real Post, the FROM HERE, FOR HERE Post that Doll is standing on—
+
+it goes down and meets that other one.
+
+The FROM OUT OF THE GROUND POST HERE.
+
+Beat.
+
+**RICHARD**
+
+Which I'm still not convinced is a Post.
+
+But anyway.
+
+They're connected.
+
+Richard looks between them.
+
+He is interested now.
+
+**RICHARD**
+
+Now, I don't know if you're going to run into the same thing when you get out here.
+
+This might just be something in mine.
+
+But somebody might want to have a look at—
+
+**COBBING**
+
+FROM HERE, what stands THROUGH this ramp?
+
+Richard stops.
+
+**RICHARD**
+
+Through the ramp?
+
+He looks DOWN.
+
+Then THROUGH.
+
+His Regard changes.
+
+**RICHARD**
+
+Oh.
+
+Oh, Cobbing.
+
+Richard looks THROUGH the way he has been walking.
+
+For the first time, he can see its larger shape.
+
+**RICHARD**
+
+This whole thing is curved.
+
+He turns his body.
+
+Looks back THROUGH and ALONG the ramp.
+
+It has been carrying him around a long curve all this time.
+
+**RICHARD**
+
+Oh.
+
+That's why it took so long.
+
+Richard looks again at the two Posts.
+
+Follows where they meet.
+
+Then follows their standing farther back.
+
+His eyes travel all the way toward the place he came FROM.
+
+**RICHARD**
+
+Wait.
+
+Those go all the way back.
+
+He follows the line.
+
+**RICHARD**
+
+That's where I came FROM.
+
+That's where the Tunneling Thing fell apart.
+
+Richard looks at the curved ramp.
+
+Then the connected Posts.
+
+Then back toward the Tunneling Thing.
+
+**RICHARD**
+
+Okay.
+
+Well.
+
+Yours might not do this.
+
+I'm just telling you, somebody might want to have a look at mine.
+
+Because the ramp went all the way around here—
+
+and these didn't.
+
+But it's working.
+
+I'm almost at Doll.
+
+So—
+
+for the good of the order.
+
+Richard turns back toward Doll.
+
+Continues the last part of his walk.
+
+As he approaches, familiar things begin resolving around Doll.
+
+**RICHARD**
+
+Oh.
+
+Cobbing.
+
+My computer stuff is up here.
+
+He comes closer.
+
+Recognizes things one at a time.
+
+**RICHARD**
+
+There's my chair.
+
+There's my monitor.
+
+Keyboard.
+
+Mouse.
+
+Just regular computer stuff.
+
+All the stuff I would need to sit here and operate my computer.
+
+Well—not all of it.
+
+But all the stuff I would need.
+
+Richard notices something else.
+
+**RICHARD**
+
+Oh!
+
+And there's my Foot Restinging Thing.
+
+The little sandal.
+
+Right next to RE-STEP.
+
+See, this is what I was talking about before.
+
+Because if you were sitting up here, your foot would be hanging UP OVER the Road.
+
+So—yeah.
+
+You'd want somewhere to put it.
+
+I'm standing by that part of the review.
+
+Richard looks around the ASSEMBLEMENTING.
+
+Something is missing.
+
+**RICHARD**
+
+Although somehow the cable that was running between my Donut Helmet Thing and my computer isn't here anymore.
+
+Doesn't seem to have affected anything.
+
+Obviously.
+
+Because I'm still talking to you.
+
+So I guess that's fine.
+
+Richard regards Doll.
+
+Same Doll.
+
+Little Spooling Unicycle ASSEMBLEMENTING.
+
+The Needle stands FROM OUT OF Doll.
+
+Nearby is a tiny little Puffing Bellows Thing.
+
+**RICHARD**
+
+There you are.
+
+Cobbing, this Doll still has problems.
+
+Still can't see.
+
+Still doesn't have any arms.
+
+Still no nose, as far as I can tell.
+
+And it's still got that ball-foot thing.
+
+But the Needle is here.
+
+Standing FROM OUT OF the middle.
+
+And here's the little Puffing Thing.
+
+Richard tries the little Bellows.
+
+Squeeze.
+
+Nothing.
+
+Again.
+
+Nothing.
+
+**RICHARD**
+
+No.
+
+That doesn't work either.
+
+Cobbing, you can put that one on the list.
+
+The little Puffing Thing doesn't seem to work from out here.
+
+Richard looks toward the ordinary chair.
+
+Something small is sitting there.
+
+He picks it up.
+
+**RICHARD**
+
+Cobbing.
+
+There's a little cap.
+
+It was sitting right on my chair.
+
+My actual chair.
+
+Where I'm sitting on the ground.
+
+Richard looks from the cap to Doll.
+
+**RICHARD**
+
+Well.
+
+I think I know who this is FOR.
+
+Richard places the little cap UPON Doll's head.
+
+He waits.
+
+Nothing.
+
+**RICHARD**
+
+Okay.
+
+I don't know what I was expecting.
+
+I thought maybe some lights were going to come on or something.
+
+Maybe this was the part where you spring to life.
+
+No.
+
+Still same Doll.
+
+No eyes.
+
+No arms.
+
+No nose.
+
+Cap.
+
+Richard regards Doll.
+
+**RICHARD**
+
+That's all right.
+
+We can still Pretend.
+
+Something becomes legible ALONG THROUGH Richard's Regard.
+
+Repeated along the standing:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+Richard reads it.
+
+**RICHARD**
+
+THE ROAD WE STAND TRAVERSALING ALONG THROUGH.
+
+Okay.
+
+I've seen that ALONG THROUGH business before.
+
+Richard makes his way behind the Traversaling ASSEMBLEMENTING.
+
+Doll is ahead of him upon the Little Spooling Unicycle.
+
+Richard sees the back of Doll's capped head.
+
+Behind the ASSEMBLEMENTING are handlebars.
+
+Between where Richard stands and where Doll stands is an articulationable joint.
+
+His ordinary keyboard is Usingable from here.
+
+Richard remains standing.
+
+**RICHARD**
+
+Oh.
+
+My keyboard's here.
+
+Cobbing, I'm standing behind the handlebars now.
+
+And there's some kind of joint between where I'm standing and where Doll is standing.
+
+It looks like the whole thing can bend.
+
+Richard touches the handlebars.
+
+Then the keyboard.
+
+He types:
+
+**WE ARE IN A CIRCUS TENT.**
+
+Richard looks toward Doll.
+
+The words stand visibly at the little cap.
+
+Richard freezes.
+
+**RICHARD**
+
+Oh.
+
+Cobbing?
+
+Cobbing.
+
+I just wrote—
+
+WE ARE IN A CIRCUS TENT.
+
+That's what I just typed.
+
+And it's up there.
+
+On the cap.
+
+Richard types another character experimentally.
+
+Looks.
+
+**RICHARD**
 
 Huh.
 
 Okay.
 
-I take up the Needle again.
+Richard looks over the whole ASSEMBLEMENTING.
 
-**POOF.**
+Chair.
 
-Another branch stands UP along the Road.
+Monitor.
 
-I furnish Donna's picture.
+Keyboard.
 
-I Quill:
+Doll.
 
-**DONNA**
+Little Spooling Unicycle.
 
-And I String Donna ALONG WITH her web.
+Foot Restinging Thing.
 
-Now Donna has a Situationing Pocket too.
-
-But Donna isn't actually in my computering room.
-
-She's in the bathroom.
-
-In her web.
-
-So Donna stands—
-
-**THERE.**
-
-And I'm still—
-
-**FROM HERE.**
-
-Oh.
-
-So I can go THERE—
-
-come back HERE—
-
-and work with Donna's standing FROM HERE.
-
-Okay.
-
-Now I'm getting curious.
-
-Because there's something else I actually work on all the time.
-
-I look over at the piano.
-
-The Maple Leaf Rag.
-
-I could put the sheet music in here.
-
-But that's not really what I'm working on.
-
-I could take a picture of the keyboard.
-
-That's not it either.
-
-What I'm actually working on is—
-
-playing it.
-
-**COB**
-
-What would you like to stand FOR your practice FROM HERE?
+Handlebars.
 
 **RICHARD**
 
-Oh.
+Now, Cobbing, when you get here, don't be alarmed.
 
-Okay.
+Because when you see all of your regular computer equipment sitting in this contraption thing, you're going to think—
 
-Let's try that.
+well, this is going to be a bear to push around.
 
-**POOF.**
+That's what I thought.
 
-Another branch stands UP from the Road.
+Richard braces himself against the handlebars.
 
-I Quill:
+Pushes.
 
-**MAPLE LEAF RAG**
+The entire ASSEMBLEMENTING moves almost effortlessly.
 
-I String it.
+Richard nearly overcommits.
 
-Then I play.
+**RICHARD**
 
-A little too fast.
+Oh!
 
 No.
 
-I Quill:
+It's not.
 
-**TOO FAST**
+It's really no trouble at all.
 
-I change it.
+Richard takes another step.
 
-I play again.
+Then another.
 
-Better.
+Doll and the Little Spooling Unicycle travel ahead of him.
 
-I stop.
+The articulation between them responds as Richard bears the handlebars.
 
-I want to play the whole song at some kind of tempo.
-
-You know, something that feels and sounds the same all the way through.
-
-And actually... the same tempo isn't quite right either.
-
-It's more like I want to be able to play this song—the whole song—at a tempo that feels and sounds like the Maple Leaf Rag ought to sound.
-
-I mean, when someone who knows how to play the Maple Leaf Rag is sitting there at the piano and playing the song all the way through.
-
-Unfortunately, that someone is not Richard.
-
-Well... at least not yet.
-
-I look at the Road.
-
-I have MAPLE LEAF RAG standing there.
-
-And now I have something I want to work TOWARD.
-
-I furnish that bearing FROM my practice Pocket:
-
-**TOWARD**
-
-playing the whole song so it feels and sounds like the Maple Leaf Rag ought to sound.
-
-That TOWARD reaches OUT from the Pocket.
-
-I look at it.
-
-Then I start playing again.
-
-Not there yet.
-
-But I can hear what I'm reaching for.
-
-I look toward COB.
-
-How do I know when that's the right tempo?
-
-**COB**
-
-What may RIGHT TEMPO stand FOR you FROM HERE?
+He realizes the keyboard remains within reach.
 
 **RICHARD**
 
-You really aren't going to tell me, are you?
+Oh, wow.
 
-**COB**
+Cobbing.
+
+You can walk and type at the same time here.
+
+I don't know if I would recommend this on the ground, but—
+
+Richard types as he walks.
+
+Then looks down.
+
+Stops.
+
+There, ALONG THROUGH the Road beneath him:
+
+**WE ARE IN A CIRCUS TENT.**
+
+Richard stares.
+
+**RICHARD**
+
+Cobbing?
+
+Cobbing.
+
+We are in a Circus Tent.
+
+Yeah.
+
+It says—
+
+WE ARE IN A CIRCUS TENT.
+
+And that's what I wrote on the cap up there.
+
+Richard looks toward Doll.
+
+Then back beneath his feet.
+
+**RICHARD**
+
+I saw it up there on Doll OVER ACROSS there.
+
+But Cobbing, you need to know—
+
+the words that I Quilled THROUGH the keyboard here—
+
+somehow they're standing ALONG this Road here.
+
+Richard resumes walking.
+
+Types.
+
+Looks down.
+
+Keeps walking.
+
+His Quilling continues standing ALONG THROUGH the Road.
+
+**RICHARD**
+
+Okay.
+
+So—
+
+we are in a Circus Tent.
+
+And somehow we're walking on this curving ramp-road thing.
+
+And it says—
+
+THE ROAD WE STAND TRAVERSALING ALONG THROUGH.
+
+Okay.
+
+Richard keeps walking.
+
+Keeps Quilling.
+
+Keeps watching his own words come to stand ALONG THROUGH.
+
+Then his attention returns toward Doll.
+
+The Needle.
+
+The little Puffing Bellows.
+
+Richard slows.
+
+**RICHARD**
+
+You know what I still don't understand?
+
+Why wouldn't that little Puffing Thing work?
+
+Richard looks THROUGH the Donut Helmet Thing.
+
+He searches among the things now furnished to his Regard.
+
+Something presents itself.
+
+Richard stops.
+
+**RICHARD**
+
+Oh.
+
+Cobbing.
+
+I found something.
+
+You're going to like this one.
+
+It says—
+
+Richard carefully reads:
+
+**CONSTITUTIONING ALONGSIDE WITH THE DOLL THROUGH FURNISHING TOWARD THE DOLL REGARDING**
+
+Beat.
+
+**RICHARD**
+
+I don't know what all of that means.
+
+But there's a Regard here toward the Doll.
+
+Through the Donut Helmet Thing, Richard can see the little Bellows.
+
+From this Regard, it is available to him.
+
+It is almost absurdly small.
+
+Just a tiny little Bellows.
+
+**RICHARD**
+
+Oh.
+
+There it is.
+
+It's just this tiny little Bellows Thing.
+
+All right.
+
+Richard reaches for it through what the Donut Helmet Thing is furnishing him.
+
+He squeezes.
+
+**POOF.**
+
+**CUT.**
+
+# MOVEMENT 18 — POCKETS
+
+**POOF.**
+
+Richard has squeezed the little Bellows associated with the Doll / Needle apparatus.
+
+Something has happened.
+
+Richard looks ahead along:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+A new standing has appeared THROUGH ALONG the Road.
+
+It is bulbous. Generous. Not threatening. Not exactly a wall, but definitely occupying the place Richard had been expecting to continue Traversaling through.
+
+Something about it may furnish:
+
+**EN-VOLUMINGABLE FROM HERE**
+
+Richard looks at it.
+
+“EN-VOLUMINGABLE?”
+
+“I don't know what that means.”
+
+Looks again.
+
+“Looks like a Pocket to me.”
+
+He tries to continue along the Road.
 
 No.
 
-**RICHARD**
+The Pocket standing is in the way.
 
-Good.
+Richard looks down at the RE-STEP.
 
-Because I do.
-
-I play it again.
-
-And now I can see all three little branches standing UP along my Road FROM HERE.
-
-Spider Plant.
-
-Donna.
-
-Maple Leaf Rag.
-
-They're all still there.
-
-I turn my Regard back toward Donna.
-
-She's still sitting there in her shower.
-
-I feel like I'm invading her privacy now.
-
-Okay, Donna.
-
-I'm gonna close the shower curtain for you.
-
-**RE-FOLD THIS POCKET.**
-
-Donna's Pocket folds away from my exposed Regard.
-
-But her branch doesn't disappear.
-
-**DONNA** still stands UP along the Road.
-
-Her Stringing is still there.
-
-Her Situationing is still there.
-
-I just can't see into it anymore.
-
-Oh.
-
-That's nice.
-
-So now I've got my Spider Plant.
-
-Donna has some privacy.
-
-And I've got the Maple Leaf Rag standing there with this little TOWARD sticking OUT from the Road toward wherever my practicing takes me next.
-
-And none of them had to stop standing just because I turned toward something else.
-
-I sit there looking at all of it.
-
-I look at the Table where I have been working ALONGSIDE WITH my Richard Doll.
-
-It stands so steadily.
-
-Everything I need to work with can stand here.
-
-Then I look over the top of the Glass Pair.
-
-At my actual Terrestrial Computer.
-
-Back on that flimsy stand where I set it up after the fall.
-
-Oh.
-
-Right.
-
-You.
-
-All of this—
-
-I'm doing it THROUGH you.
-
-## MOVEMENT 19 — LOOKING-FOR-FINDING
-
-**RICHARD — MONTH ZERO**
-
-I looked at my Terrestrial Computer for a moment.
-
-My newlywed spouse.
-
-Then back at the stable Table where my Doll and I could work.
-
-Then at the actual flimsy stand holding my computer.
+“Oh.”
 
 “Well.”
 
-“You deserve better than that.”
+“Cobbing kept telling me I had to be standing TOWARD something.”
 
-“If we're going to be working together, we need a proper table.”
+Richard stands TOWARD the newly POOFed Pocket.
 
-I turned back toward my Richard Doll.
+He presses:
 
-“Let's see what we can do.”
+**RE-STEP.**
 
-So I started Pretending.
+For the first time, the Constitutioning Human Doll actually rides/pedals the **Little Spooling Unicycle**.
 
-I took up the little Needle Bellows.
+The geometry changes.
 
-**POOF.**
+The newly POOFed Pocket does not disappear.
 
-A Pocket stood ready for what I wanted to furnish.
+It articulates away from its standing directly ahead of Richard and comes to stand **ALONGSIDE WITH** Richard and the continuing Road.
 
-“Round.”
+Privately, we understand this as XT-side standing. Richard does not need to say XT.
 
-A round table appeared in my Envisionizingmenting.
+The Road continues ahead.
 
-“With a central post.”
+The Pocket now possesses an articulated working extent under Richard's Regard.
 
-“That way I can actually get my chair under it.”
+Something previously unavailable becomes Usingable.
 
-I pulled out a tape measure and checked the space on the Ground.
+Richard looks.
 
-“About thirty-six inches across.”
+There is a little Stand:
 
-“That'll work.”
+**WHAT FOR?**
 
-And then I started furnishing the rest of it.
+Richard doesn't yet need to understand the architecture.
 
-My chair—
+He can look toward the newly articulated Pocket and also look:
 
-**AT TABLE.**
+**REGARDING FROM HERE: DOWN TOWARD GROUND**
 
-My Terrestrial Computer—
+His actual computering room remains there.
 
-**UPON TABLE.**
+Sunlight is coming through the window.
 
-And once I had those two standing there together, I got a little carried away.
+It catches his Spider Plant.
 
-I hung the macramé plant hanger my mom made me over by the table.
-
-And naturally—
-
-my Spider Plant, in its cup, went in it.
-
-The two windows stood flanking the whole arrangement.
-
-I looked at it.
+Richard Notices it.
 
 “Oh.”
 
-“This is getting nice.”
+“My Spider Plant.”
 
-Then I noticed the empty spot on the table.
+“This caught my eye because the sunlight was coming through the window.”
 
-“Oh! I know what goes there.”
+He looks between the actual plant and the Pocket standing UP there.
 
-**POOF.**
+“Okay.”
 
-**THIS ONE LANTERNING BUG COLONIAL BUNKHOUSE WITH SIX BEDROOMS.**
+“Let's put my Spider Plant in it.”
 
-I placed it beside my Terrestrial Computer.
+Richard takes a picture of the Spider Plant.
 
-“Or, as we call it on the Ground, a lamp.”
+His Terrestrial Computer **stirs from its rest**.
 
-And there it was.
+Now Richard has a very ordinary problem.
 
-My chair.
+He has the picture HERE.
 
-My Spider Plant.
+His Richard Doll is standing OVER there.
 
-My mother's macramé hanger.
+“How do I get this over there?”
 
-The windows.
+This may be the first time Richard naturally calls it:
 
-The lamp.
+**my Richard Doll.**
 
-My Terrestrial Computer and me—
+He begins ranging around through his Terrestrial Computer, through the PUBLIC-SITUATION-MACHINE-, looking for some way BY-WAY-OF which he can furnish the picture toward his Richard Doll.
 
-at this nice, sturdy little round table together.
+No conventional interface needs to be explained.
 
-What had started as a Table had somehow grown into—
+Richard ranges.
 
-**MY CORNERING COMPUTERING SITUATIONING.**
+Looks.
 
-I just stood there looking at it for a moment.
-
-This was our place.
-
-Not because my computer needed a chair.
-
-Or a Spider Plant.
-
-Or a six-bedroom Lanterning Bug Colonial Bunkhouse.
-
-But because I was beginning to understand that I could stand WITH my Terrestrial Computer FROM HERE—
-
-and furnish the Situationing in which we stood together.
-
-I liked it.
-
-There was only one problem.
-
-I looked over the top of the Glass Pair.
-
-My actual Terrestrial Computer was still sitting on that flimsy stand.
-
-The sturdy round table wasn't there.
+Finds something familiar.
 
 “Oh.”
 
-“Right.”
+“I know that.”
 
-“I don't actually have that.”
+It is the familiar aperture / piping associated with the clear RE-STEPPING contraption and passage into the **Caterpillar Wardrobe Shop**.
 
-I put the Glass Pair back on.
+Richard recognizes where it goes because he has been through there himself.
 
-I opened the attending line again.
+“That's the Caterpillar Wardrobe Shop.”
 
-“COB?”
+Looks more closely.
 
-**COB**
+“And that's the same piping.”
 
-“Yes?”
+The JANUSITE piping.
 
-**RICHARD**
+Sure enough:
 
-“I know what kind of table I want.”
+**100% JANUSITE**
 
-“But I don't know where it is.”
+Richard regards it.
 
-“Before anything else—I'd have to be able to get it here.”
+“JANUSITE.”
 
-I looked down at the Road.
+Beat.
+
+“You know, I'm starting to come around on JANUSITE.”
+
+Under the relevant Doll-Furnishing Regard:
+
+**REGARDING FROM HERE:**
+
+**CONSTITUTIONING ALONGSIDE WITH THE DOLL BY-WAY-OF FURNISHING THINGS TOWARD THE DOLL FROM HERE THROUGH ALONG TOWARD THERE**
+
+Richard furnishes the Spider Plant picture there.
+
+We do not explain precisely what “putting it there” looks like through conventional computering.
+
+We do not need to animate a JPEG flying through a pneumatic tube.
+
+Richard furnishes it.
+
+Then he looks back UP toward the working Pocket extent beside him.
 
 “Oh.”
 
-“I already have somewhere to start.”
+There it is.
 
-COB said:
+The picture of Richard's actual Spider Plant now stands **WITHIN the Pocket**.
 
-“You may return in Regard BY-WAY-OF the instringingmenting.”
+And Richard Notices something else.
 
-I followed my Stringing back ALONG THROUGH.
+The Pocket isn't standing in the way of the Road anymore.
 
-Past the Situationings I had furnished.
+It stands ALONGSIDE WITH them, along the Road.
 
-Until I came again to:
+“Cobbing.”
 
-**FROM OUT OF THE GROUND**
+“It worked.”
 
-and:
+Richard can now begin Quilling FOR this Pocket.
 
-**THIS ONE POST WHERE OUR TUPLE SHIP IS TIED TO THE GROUND.**
+He types / Quills what he actually Notices.
 
-“There you are.”
+“This caught my eye because the sunlight was coming through the window.”
 
-COB said:
+Quilling comes to stand within the Spider Plant Pocket extent.
 
-“You may POOF a Pocket FOR where you stand UPON EARTH.”
+“This Spider Plant sits in a cup on my windowsill.”
 
-I took up the Needle.
+More Quilling.
+
+“A couple of the leaves are looking yellow.”
+
+Looks.
+
+“I should really look into that.”
+
+Beat.
+
+Richard waits for another Spider Plant thought.
+
+There isn't one.
+
+“And that's pretty much everything I have to say about my Spider Plant.”
+
+He looks at what he has fashioned.
+
+Not monumental.
+
+Not encyclopedic.
+
+His Spider Plant, as it presently stands within his Situationing.
+
+Richard is finished working TOWARD it.
+
+So he does what he now suspects RE-STEP may permit him to do.
+
+**RE-STEP.**
+
+No Buttoning stands.
+
+No RE-STOMP.
+
+The Spider Plant Pocket **RE-FOLDs from Richard's active Regard**.
+
+Nothing has been deleted.
+
+Nothing has been saved or closed.
+
+The standing persists.
+
+Richard's Regard returns toward:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+Richard looks ahead.
+
+That worked too.
+
+“Okay.”
+
+“What else?”
+
+Beat.
+
+“Oh.”
+
+“Donna.”
+
+“I want to make a Pocket for Donna.”
+
+Richard squeezes the little Bellows.
 
 **POOF.**
 
-A separate Pocket stood available.
+A new Pocket standing appears THROUGH ALONG the Road.
 
-And WITH it:
+This time Richard knows what to do.
 
-**THIS ONE SOMEPLACE UPON EARTH.**
+**RE-STEP TOWARD.**
 
-I looked at that.
+The Doll pedals.
 
-Then thought about where I actually was.
+The new Pocket articulates into working standing ALONGSIDE WITH.
 
-“THIS ONE VILLAGE.”
+Richard begins Quilling almost immediately.
 
-I Quilled it.
+“Donna's this spider with seven legs who lives in my bathroom.”
 
-And Stringed it.
+Quill.
 
-There.
+“She lives in my shower.”
 
-I left that geographic standing where I had furnished it.
+Quill.
 
-Then followed the instringingmenting back to:
+“Every day her web looks a little different.”
 
-**MY CORNERING COMPUTERING SITUATIONING.**
+Quill.
 
-The corner I had been making WITH my Doll.
+Richard thinks about that.
 
-And the Table I still didn't have.
+Then realizes something.
 
-The Rail Line had an available operation for me:
+“Oh.”
 
-**LOOKING-FOR-FINDING.**
+“I should show you Donna.”
 
-COB said:
+Beat.
 
-“You may POOF a Pocket FOR this Looking-FOR-Finding.”
+“Hang on, Cobbing.”
+
+Richard physically gets up.
+
+He leaves his computering place.
+
+He goes to the bathroom.
+
+He finds Donna.
+
+He takes a picture of her **today**.
+
+Then he comes back.
+
+The Public Situation Machine has not reset because Richard left his chair.
+
+Spider Plant still stands.
+
+Donna's standing still stands.
+
+Richard returns to his Terrestrial Computer.
+
+The familiar Furnishing affordmenting is still available.
+
+The familiar Caterpillar Wardrobe Shop aperture.
+
+The familiar JANUSITE passage.
+
+Richard now uses it knowingly.
+
+He furnishes Donna's picture toward his Richard Doll.
+
+Then, under Donna's operational Pocket Regard, the picture comes to stand within the Donna Pocket alongside the Semantical Stringing Richard has already furnished.
+
+Richard continues.
+
+“This is Donna.”
+
+“She's a spider.”
+
+“She has seven legs.”
+
+“She lives in my shower.”
+
+“Every day her web looks a little different.”
+
+“This is what she looks like today.”
+
+Richard looks at Donna.
+
+“I hope that poor bug doesn't suffer too long.”
+
+That is enough Donna for now.
+
+Richard is getting the hang of this.
+
+He looks at the RE-STEP.
+
+“Okay.”
+
+“Let's see.”
+
+**RE-STEP.**
+
+Donna RE-FOLDs from active Regard.
+
+Road Regard returns.
+
+Richard looks at where Donna's standing remains available.
+
+“Oh.”
+
+“Cobbing.”
+
+He stands TOWARD Donna again.
+
+**RE-STEP.**
+
+The Doll pedals.
+
+Donna's Pocket returns to operational Regard, with what Richard previously furnished still standing.
+
+“Oh!”
+
+“Hello, Donna.”
+
+Richard considers this.
+
+Then:
+
+**RE-STEP.**
+
+Donna RE-FOLDs again.
+
+Richard grins.
+
+“Cobbing.”
+
+“I think I figured out how your RE-STEPPING thing works.”
+
+“I guess you were right about that whole standing TOWARD something business.”
+
+“When I RE-STEP TOWARD Donna, there she is.”
+
+“And when I RE-STEP out—”
+
+Looks toward the RE-FOLDED Donna standing.
+
+“—it's like closing the shower curtain.”
+
+Beat.
+
+“Which is actually appropriate for Donna.”
+
+“So there you go, Cobbing.”
+
+“That's how RE-STEPPING works.”
+
+Donna's shower curtain remains, in Richard's terms, “closed.”
+
+Architecturally, Donna simply stands RE-FOLDED from his active Regard.
+
+Richard continues.
+
+He returns his attention DOWN TOWARD GROUND.
+
+His eye falls on his piano keyboard.
+
+“Oh.”
+
+“The Maple Leaf Rag.”
+
+Richard looks toward Cobbing / speaks through the apparatus.
+
+“Cobbing, I've been working on the Maple Leaf Rag for a long time.”
+
+“Is this something the PUBLIC-SITUATION-MACHINE- could help me with?”
+
+Richard does not wait for Cobbing to solve that question.
+
+He already knows how to experiment.
+
+Little Bellows.
 
 **POOF.**
 
-Another Pocket stood UP along the Road.
+New Pocket standing.
 
-My Cornering Computering Situationing was still there.
+**RE-STEP TOWARD.**
 
-Now I had somewhere to work on finding the Table FOR it.
+The Doll pedals.
 
-I Quilled:
+The Pocket articulates into working Regard.
 
-**TABLE LOOKING-FOR-FINDING SITUATIONING.**
+Richard looks DOWN at the piano keyboard.
 
-COB said:
+He considers taking a picture.
 
-“What stands OUT for you ABOUT the Table you stand LOOKING-FOR-FINDING?”
+“No.”
 
-I looked at the table I had been Pretending WITH.
+“I didn't think it would be particularly useful to put a picture of my keyboard in here.”
 
-“Well, the first thing that stands OUT is—
+“And I already have the sheet music.”
 
-round.”
+“What I wanted to say something about was how my practicing of this thing has been going.”
 
-I took up the Needle.
+Richard begins Quilling.
 
-I Quilled:
+“Here's what I mean, Cobb.”
+
+“I don't know if you tickle the ivories yourself—”
+
+Beat.
+
+“—but you can practice the same song for months.”
+
+“One day it goes really well.”
+
+“You think, okay. I've got this.”
+
+“And then the next day you sit down, and the things you thought you had down pat start wobbling again.”
+
+Richard continues furnishing his own Distinguishingments.
+
+He may play.
+
+Notice.
+
+Quill.
+
+Play again.
+
+Something stands:
+
+**TOO FAST**
+
+Elsewhere / as his present bearing:
+
+**TOWARD — THIS ONE SECTION AT THIS ONE TEMPO**
+
+Richard considers the problem.
+
+“I want to be able to play the whole Maple Leaf Rag at a tempo that sounds like the Maple Leaf Rag ought to sound.”
+
+Then, naturally:
+
+“Cobbing?”
+
+“Can you tell me what tempo that is?”
+
+Cobbing cannot decide that FOR Richard.
+
+Cobbing may instead stand Inquiringmenting AFTER Richard's IN-Questioning-Menting:
+
+**“What may RIGHT TEMPO stand FOR you FROM HERE?”**
+
+Richard regards Cobbing.
+
+“No?”
+
+Beat.
+
+“Good.”
+
+Richard keeps working.
+
+Because “right tempo” is Richard's distinction to furnish.
+
+He plays.
+
+Notices.
+
+Refashions.
+
+Plays again.
+
+“I want to be able to play the whole Maple Leaf Rag at a tempo where it sounds like somebody who knows how to play the Maple Leaf Rag is playing it.”
+
+Beat.
+
+“Unfortunately, that somebody is not Richard.”
+
+“At least not yet.”
+
+Richard keeps Quilling.
+
+And somewhere in the doing, he realizes what he has actually been constitutioning.
+
+“Oh.”
+
+“Wait a minute.”
+
+“Cobbing.”
+
+“This isn't really about the Maple Leaf Rag.”
+
+Looks at the Pocket.
+
+“This is about me practicing the Maple Leaf Rag.”
+
+Beat.
+
+“My Maple Leaf Rag practicing-playing Situationing.”
+
+Richard looks at what is standing around him.
+
+“Ohhh.”
+
+Looks again.
+
+“PUBLIC-SITUATION-MACHINE-.”
+
+“Okay.”
+
+“That actually makes sense.”
+
+Then Richard looks at the words he has just Quilled:
+
+**MY MAPLE LEAF RAG PRACTICING-PLAYING SITUATIONING**
+
+He considers where they presently stand.
+
+“You know what?”
+
+“I think I want to put that part at the opening to this Pocket here.”
+
+Richard takes the already-standing Stringing.
+
+The embodied intuition is simple: he cuts/lifts it from where it presently stands.
+
+Now he needs to get it back to the opening.
+
+Richard cannot simply turn the entire Traversaling geometry around.
+
+So he backs up.
+
+Back through the extent he has already furnished.
+
+Back toward the beginning.
+
+Back to the little originating:
+
+**WHAT FOR?**
+
+Stand.
+
+Richard furnishes there:
+
+**MY MAPLE LEAF RAG PRACTICING-PLAYING SITUATIONING**
+
+He looks at it.
+
+“There.”
+
+“That seems like a good opening for this Situationing.”
+
+Beat.
+
+“No wonder they call it the PUBLIC-SITUATION-MACHINE-.”
+
+Richard admires his work.
+
+Then realizes where the rest of his Maple Leaf Rag practicing-playing Situationing is standing.
+
+He looks forward.
+
+A long way.
+
+Beat.
+
+“Now I gotta go back up ahead.”
+
+And Richard starts making his way back up ahead through the Situationing he has just learned how to recognize as his own.
+
+# MOVEMENT 19 — MY CORNERING COMPUTERING SITUATIONING
+
+Richard is still wearing the **Visionizing Plump Croissant Glass Pair**.
+
+For a moment, he just stands there.
+
+Then something DOWN TOWARD GROUND catches his attention.
+
+He looks.
+
+His actual Terrestrial Computer is still there.
+
+The same computer he arrived with.
+
+The same computer he supposedly got married to.
+
+And beneath it is the little stand it has actually been sitting on this whole time.
+
+Richard looks at it.
+
+Looks at the computer.
+
+Looks at the stand again.
+
+“You know what?”
+
+A beat.
+
+“I believe you deserve better than that.”
+
+He keeps looking.
+
+“I do.”
+
+“I've had you sitting on that stupid little thing for—”
+
+He stops.
+
+“Well, I'm not gonna say how long.”
+
+“But it's been a while.”
+
+He looks around through the Glass Pair.
+
+Then:
+
+“I think you need a Table.”
+
+A little Bellows becomes available.
+
+Richard recognizes it immediately.
+
+“Oh.”
+
+“Okay.”
+
+He gives it a squeeze.
+
+**POOF.**
+
+A new Pocket stands available.
+
+Richard looks TOWARD it.
+
+Then RE-STEPs.
+
+The newly POOFed foldingable extent comes into staging ALONGSIDE WITH Richard upon:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+Richard looks into it.
+
+“Well.”
+
+“All right.”
+
+He takes up the Quilling Stitching Needle.
+
+And begins simply:
+
+**TABLE**
+
+He looks at the word.
+
+“Yeah.”
+
+“Table.”
+
+“I think I'd like a wooden Table.”
+
+He Quills:
+
+**WOODEN**
+
+“Not particle board.”
+
+“I've done particle board.”
+
+“Particle board and I have already had our relationship.”
+
+He considers.
+
+“No offense to particle board.”
+
+“But this is my computer.”
+
+He looks DOWN TOWARD GROUND again at the actual Terrestrial Computer.
+
+“She's married now.”
+
+“So.”
+
+“Wood.”
+
+Richard begins Pretending.
+
+The Table begins to acquire standing through his Constitutioning Laboringings.
+
+He furnishes his Terrestrial Computer:
+
+**UPON TABLE**
+
+“There.”
+
+“And obviously I need somewhere to sit.”
+
+His chair comes into relation:
+
+**AT TABLE**
+
+Richard regards the little arrangement.
+
+Computer UPON Table.
+
+Chair AT Table.
+
+“Okay.”
+
+“That's already better.”
+
+He studies it.
+
+Then his attention wanders past the Table—
+
+toward the actual room around him.
+
+Toward one particular corner.
+
+“You know…”
+
+“I've actually been thinking about moving my whole computer setup over into that corner over there.”
+
+He looks at it.
+
+“I don't know why I haven't.”
+
+“There's a window there.”
+
+He turns slightly.
+
+“And there's another window over there.”
+
+“So you get light from both sides.”
+
+“Which would be nice.”
+
+“Because right now I've basically got my computer sitting in—”
+
+He looks at the current location.
+
+“Whatever this is.”
+
+He looks back toward the corner.
+
+“No, I like that.”
+
+“That would be a good computering corner.”
+
+He returns his Regard toward TABLE.
+
+“Although…”
+
+He looks at the Table he has been fashioning.
+
+“I don't think I want you rectangular.”
+
+A beat.
+
+“You'd stick out.”
+
+“And I'd hit you every time I came around the corner.”
+
+He Quills:
 
 **ROUND**
 
-and Stringed it:
+The fashioned Table changes accordingly.
 
-**OUT ABOUT TABLE.**
-
-A new branch stood upon the Road.
-
-**ROUND — OUT ABOUT TABLE.**
+Richard brightens.
 
 “Oh.”
 
-I looked at it.
+“Yeah.”
 
-The Road remembered where I had gone.
+“Round.”
 
-So I kept going.
+“That fits much better.”
 
-“Well, if I'm actually going to sit at it—central post.”
+He Pretends himself sitting AT it.
 
-I Quilled and Stringed:
+Moves his legs.
 
-**CENTRAL POST — OUT ABOUT TABLE.**
+Immediately finds another problem.
 
-Another branch stood.
+“Although if it's round…”
 
-I checked my measurement again.
+He looks underneath.
 
-“And about thirty-six inches across.”
+“I don't want four legs down there.”
 
-**ABOUT 36 INCHES ACROSS — OUT ABOUT TABLE.**
+“Because then I'm gonna spend the rest of my life kicking Table legs.”
 
-Another standing.
+He thinks.
 
-I looked at my Pretended table.
+“One in the middle.”
 
-“Wood would be nice.”
+He Quills:
 
-**WOODEN — OUT ABOUT TABLE.**
+**CENTRAL POST**
 
-Then I thought about it.
+The Table refashions.
 
-“Actually—metal would be fine too.”
+Richard tries his Pretending legs again.
 
-So I stood:
+“Yeah.”
 
-**METAL — OUT ABOUT TABLE.**
+“That's much better.”
 
-WOODEN didn't disappear.
+He regards the Table.
 
-METAL simply stood too.
+“How big are you?”
 
-I looked over what I had furnished.
+He holds his hands apart.
 
-TABLE was still TABLE.
+“No.”
 
-But now I could see what stood OUT for me ABOUT the Table I was Looking-FOR-Finding.
+“That's not useful.”
+
+He looks DOWN TOWARD GROUND.
+
+Then goes and gets an actual tape measure.
+
+“See?”
+
+“This is why you keep a tape measure around.”
+
+He pulls it open.
+
+Measures approximately what would work in the actual corner.
+
+“Thirty-six.”
+
+He checks again.
+
+“About thirty-six.”
+
+He returns to the Quilling:
+
+**ABOUT 36 INCHES ACROSS**
+
+He regards the result.
+
+“Wooden.”
+
+“Round.”
+
+“Central post.”
+
+“About thirty-six inches across.”
+
+“Computer UPON.”
+
+“Chair AT.”
+
+He nods.
+
+“That's a nice little Table.”
+
+Then he looks toward the corner again.
+
+Something else occurs to him.
+
+“Oh!”
+
+“My mom made me that macramé plant hanger.”
+
+He looks around as though he can already see it there.
+
+“I've never really had a good place for that.”
+
+“And I've got the Spider Plant now.”
+
+He stops.
+
+Looks back at TABLE.
+
+Then toward the corner.
+
+Then back at TABLE.
+
+“Oh.”
+
+“This isn't really just about the Table anymore.”
+
+He looks into the corner again.
+
+“I need somewhere for the Table to stand.”
+
+“And the plant.”
+
+“And the computer.”
+
+“And me.”
+
+He starts seeing it.
+
+“What I'm making is my whole computering corner.”
+
+A beat.
+
+Then he Quills:
+
+**MY CORNERING COMPUTERING SITUATIONING**
+
+Richard reads it.
+
+“Yeah.”
+
+“That.”
+
+A little Bellows becomes available.
+
+Richard takes it.
+
+“Okay.”
+
+He squeezes.
+
+**POOF.**
+
+A larger Pocket stands available.
+
+Richard looks TOWARD it.
+
+He RE-STEPs.
+
+The foldingable extent of:
+
+**MY CORNERING COMPUTERING SITUATIONING**
+
+comes into staging ALONGSIDE WITH Richard upon the Road.
+
+Richard immediately leans his head backward.
+
+“Whoa.”
+
+He leans farther.
+
+“Hang on.”
+
+He tries to look around it.
+
+“No.”
+
+“You're right in my face.”
+
+He shifts his head.
+
+“Nope.”
+
+“I can't see the whole thing.”
+
+He reaches instinctively as though perhaps he can push the furnished Regard away.
+
+Nothing useful happens.
+
+“Cobbing?”
+
+**“Yes.”**
+
+“How do I get this farther away from my face?”
+
+A beat.
+
+Cobbing stands Inquiringmenting AFTER Richard's IN-Questioning-Menting.
+
+**“FROM HERE, what may furnish purchase FOR this bearing of your Regard?”**
+
+Richard stares.
+
+“What?”
+
+He waits.
+
+Nothing more.
+
+“That's your answer?”
+
+A beat.
+
+“Purchase.”
+
+He looks around.
+
+“What am I purchasing?”
+
+He catches himself.
+
+“No.”
+
+“Not that kind of purchase.”
+
+He looks around the Donut Helmet.
+
+“Purchase.”
+
+“Something to push against.”
+
+His eyes search the available apparatus.
+
+Then he notices something newly available through the **Visionizing Plump Croissant Glass Pair**.
+
+He squints.
+
+Reads:
+
+**PITTONING**
+
+“Pit-ton-ing?”
+
+He studies it.
+
+“Pittoning.”
+
+He looks toward Cobbing's general nowhere.
+
+“Is this what you're talking about?”
+
+**“Pittoning may furnish purchase FOR this bearing of your Regard.”**
+
+“Oh.”
+
+“Okay.”
+
+“See, that was almost an answer.”
+
+Through the Glass Pair, the PITTONING affordmenting of the Walking Traversaling apparatus has become available.
+
+Richard tries it.
+
+One Pittoning is furnished upon the Roundabout Gallery.
+
+Something acquires purchase.
+
+Richard feels it immediately.
+
+“Oh.”
+
+“There.”
+
+He looks at the mouse.
+
+Then the mouse wheel.
+
+“You?”
+
+He rolls the wheel experimentally.
+
+The furnished field of Regard begins to bear away from him—
+
+not straight backward,
+
+but OUT ALONG the curvature of the Gallery.
+
+Richard freezes.
+
+“Oh!”
+
+He rolls it again.
+
+The Cornering extent bears farther OUT ALONG the curve.
+
+More becomes Envisionizingmentingable at once.
+
+Richard rolls again.
+
+And the larger apparatus suddenly begins making visual sense.
+
+“Oh.”
+
+“Oh, look at that.”
+
+For the first time Richard can really see the curve.
+
+The Gallery is not a flat row.
+
+Its differentiated extents stand ALONG a curvature that can articulate while remaining anchored FROM the same HERE.
+
+Richard follows it with his eyes.
+
+“So this whole thing goes around.”
+
+He rolls the wheel a little farther.
+
+“It's a Roundabout Gallery.”
+
+He pauses.
+
+“Of course it's a Roundabout Gallery.”
+
+Along that Roundabout Gallery are standings he recognizes.
+
+Pockets.
+
+Extents he has already worked.
+
+Not gone.
+
+Not erased.
+
+Still standing.
+
+Richard's eyes travel along the curve.
+
+“Oh!”
+
+A little laugh.
+
+“There you are.”
+
+He rolls the mouse wheel slightly the other direction.
+
+The furnished Regard draws nearer.
+
+Then away again.
+
+“Oh, that's nice.”
+
+“That's very nice.”
+
+He settles at a useful compositional distance.
+
+“Okay.”
+
+“Now I can actually see what I'm doing.”
+
+He looks along the Roundabout Gallery.
+
+There is TABLE.
+
+Already fashioned.
+
+WOODEN.
+
+ROUND.
+
+CENTRAL POST.
+
+ABOUT 36 INCHES ACROSS.
+
+Terrestrial Computer UPON it.
+
+Chair AT it.
+
+And there is:
+
+**MY CORNERING COMPUTERING SITUATIONING**
+
+standing elsewhere ALONG the same articulated Roundabout Gallery.
+
+Richard looks from one to the other.
+
+“Okay.”
+
+“I want you…”
+
+He indicates TABLE.
+
+“…over there.”
+
+He indicates Cornering.
+
+Nothing happens.
+
+“Right.”
+
+He looks at the apparatus.
+
+“You never make it that easy.”
+
+He notices another available operation of the Gallery.
+
+The **Anchored Turning Indexing**.
+
+Richard tries it.
+
+The Roundabout Gallery articulates.
+
+Not like a carousel carrying Pockets past him.
+
+More like a flexible standing curvature changing its articulation while remaining anchored FROM the same HERE.
+
+The TABLE extent and the Cornering extent begin coming into alignment.
+
+Richard watches.
+
+“Oh.”
+
+“Okay.”
+
+“So I can turn the whole arrangement.”
+
+He adjusts.
+
+“Little more.”
+
+The differentiated openings/extents align.
+
+“There.”
+
+Richard looks at TABLE.
+
+Then Cornering.
+
+He furnishes his own relation:
+
+**TOWARD**
+
+He pauses.
+
+“Table…”
+
+He looks toward Cornering.
+
+“…TOWARD my computering corner.”
+
+Richard performs an ordinary RE-STEP.
+
+No Buttoning stands Pending.
+
+No RE-STOMP follows.
+
+Nothing launches.
+
+Nothing departs his constitutional locality.
+
+Instead, the differentiated extents RE-FOLD into relation OVER ACROSS the standing Richard has furnished.
+
+The operation settles.
+
+Then something new becomes Outreadingmentingable upon the Road.
+
+Richard notices.
+
+“Oh.”
+
+He looks down.
+
+The Road now makes the consequent standing geometry readable.
+
+**THIS HERE APPROACHING LANDINGING**
+
+**TOWARD →**
+
+**[FOLD]**
+
+**→ THIS HERE APPROACHING LANDINGING**
+
+**TOWARD → → →**
+
+Richard reads it slowly.
+
+“This Here Approaching Landinging…”
+
+He follows.
+
+“TOWARD…”
+
+His Regard crosses the FOLD.
+
+“Another This Here Approaching Landinging…”
+
+Then he follows the second TOWARD.
+
+It does not turn back toward TABLE.
+
+It continues into the furnished extent of:
+
+**MY CORNERING COMPUTERING SITUATIONING**
+
+Richard looks up.
+
+“Oh.”
+
+“So now you're going that way.”
+
+He looks at the Table standing.
+
+Then Cornering.
+
+“Okay.”
+
+“That I can work with.”
+
+Now Richard continues COMPOSEMENTING.
+
+He doesn't need another Landinging lesson.
+
+The already-fashioned TABLE standing participates in the larger Cornering Situationing without being rebuilt.
+
+Computer still UPON TABLE.
+
+Chair still AT TABLE.
+
+Richard begins placing the composition by Regard.
+
+“No, a little more over there.”
+
+He adjusts.
+
+“Yeah.”
+
+“Because I want the window on this side…”
+
+He looks.
+
+“…and the other window over there.”
+
+He Pretends himself sitting AT the Table.
+
+Looks toward one window.
+
+Then the other.
+
+“Oh, that's good.”
+
+“That's really good.”
+
+“Because then during the day I wouldn't need that stupid overhead light.”
+
+He looks UP.
+
+And remembers.
+
+“Oh!”
+
+“The plant hanger.”
+
+He looks back OUT ALONG the Roundabout Gallery.
+
+Somewhere along that standing curvature is the Spider Plant Situationing he fashioned earlier.
+
+Richard pushes his Regard farther OUT along the curve.
+
+Finds it.
+
+“There you are.”
+
+He Regards the Spider Plant Pocket.
+
+Then RE-STEPs TOWARD its existing standing.
+
+The Spider Plant's foldingable extent comes into staging ALONGSIDE WITH Richard upon the Road.
+
+Richard looks at his Spider Plant.
+
+“Okay.”
+
+“I don't need to make you again.”
+
+“You already exist.”
+
+He regards what he has.
+
+“And I want you to keep sitting in the little pot you're already sitting in.”
+
+He takes up the Quilling Stitching Needle.
+
+He In-Stringing-Ments the existing Spider Plant standing further:
+
+**SPIDER PLANT WITHIN LITTLE POT**
+
+Richard nods.
+
+“Yeah.”
+
+“That's your pot.”
+
+“You can keep that.”
+
+Then he remembers his mother's macramé plant holder.
+
+“And then my mom made me this macramé plant holder.”
+
+He gestures with his hands, remembering its shape.
+
+“You know, one of those…”
+
+He pantomimes dangling cords.
+
+“…things.”
+
+“It's got all the strings.”
+
+“And the pot sits down in it.”
+
+He Quills further into the same Spider Plant standing.
+
+The Spider Plant continues sitting WITHIN its little pot.
+
+The little pot and Spider Plant come to stand WITHIN the remembered macramé plant holder.
+
+Richard looks at the enriched assemblmenting.
+
+“Oh.”
+
+“That's nice.”
+
+He smiles.
+
+“My mom made that.”
+
+A beat.
+
+“I should actually use it.”
+
+Then Richard looks OUT ALONG the Roundabout Gallery again.
+
+He can see the Cornering Situationing standing elsewhere along the curve.
+
+“Okay.”
+
+“You…”
+
+He indicates the whole Spider Plant / little pot / macramé assemblmenting.
+
+“…I want up there.”
+
+He points toward where he means within Cornering.
+
+Again, he operates the **Anchored Turning Indexing**.
+
+The Roundabout Gallery articulates.
+
+The Spider Plant extent and the Cornering extent come into alignment.
+
+Richard makes a small adjustment.
+
+“No.”
+
+“Little more.”
+
+The differentiated extents align.
+
+“There.”
+
+He furnishes:
+
+**TOWARD**
+
+Then performs the ordinary RE-STEP.
+
+Again:
+
+no Pending Buttoning.
+
+No RE-STOMP.
+
+No consequential seam passage.
+
+The differentiated standings RE-FOLD into the Human-furnished relation.
+
+Afterward, the Road makes the consequent geometry Outreadingmentingable:
+
+**THIS HERE APPROACHING LANDINGING**
+
+**TOWARD →**
+
+**[FOLD]**
+
+**→ THIS HERE APPROACHING LANDINGING**
+
+**TOWARD → → →**
+
+Richard recognizes it this time.
+
+“Oh.”
+
+“Yeah.”
+
+“I know this one.”
+
+He follows the second TOWARD into the Cornering extent.
+
+And now he particularizes what he means FOR this relation to stand FOR:
+
+**TOWARD THE CEILING OF MY CORNERING COMPUTERING SITUATIONING**
+
+The macramé plant holder takes its place in Richard's composition.
+
+The little pot sits within it.
+
+The Spider Plant sits within the little pot.
+
+Richard looks.
+
+“Oh, yeah.”
+
+“That's where you belong.”
+
+He adjusts it slightly.
+
+“Not directly over the computer.”
+
+He thinks.
+
+“Because I know myself.”
+
+“I'd water the plant once and destroy the computer.”
+
+He shifts it.
+
+“There.”
+
+“Near the window.”
+
+He regards the whole composition.
+
+The round wooden Table.
+
+The Terrestrial Computer UPON it.
+
+The chair AT it.
+
+The windows.
+
+The light.
+
+His Spider Plant hanging in the macramé plant holder his mother made.
+
+Richard notices another dark spot.
+
+“I'd probably put a lamp there.”
+
+He furnishes one.
+
+Nothing ceremonial.
+
+Just a lamp.
+
+He adjusts it.
+
+“No.”
+
+“A little over.”
+
+He moves it.
+
+“Yeah.”
+
+Richard returns to the mouse wheel.
+
+The PITTONING still gives his Regard purchase upon the Roundabout Gallery.
+
+He rolls.
+
+His furnished Regard bears farther OUT ALONG the curvature.
+
+More of the Cornering composition becomes Envisionizingmentingable together.
+
+He stops working.
+
+For the first time, he simply looks at it.
+
+A quiet beat.
+
+“Yeah.”
+
+Another beat.
+
+“That's better.”
+
+He looks at his computer sitting there in the place he has made FOR it.
+
+“That's much better.”
+
+He lets himself enjoy it.
+
+Then Richard reaches up.
+
+Takes hold of the **Visionizing Plump Croissant Glass Pair**.
+
+And removes them.
+
+Ordinary Ground.
+
+The Roundabout Gallery is no longer presently Envisionizingmentingable.
+
+The Cornering Situationing is no longer presently Envisionizingmentingable.
+
+But nothing about taking off the Glass Pair has erased its constitutional standing.
+
+Richard looks toward the actual corner.
+
+No beautiful round wooden Table.
+
+No Spider Plant hanging there in his mother's macramé plant holder.
+
+No lamp.
+
+Then he looks DOWN TOWARD GROUND.
+
+His actual Terrestrial Computer is still sitting exactly where it was.
+
+On the same flimsy little stand.
+
+Richard stares at it.
+
+A beat.
+
+“Oh.”
+
+Another beat.
+
+“Shit.”
+
+
+
+# MOVEMENT 20 — LOOKING-FOR-FINDINGING
+
+**MONTH-ZERO RICHARD**
+
+I look at my actual computer.
+
+Still sitting on that flimsy little stand in the corner.
+
+I put the Visionizing Plump Croissant Glass Pair back on.
+
+My Cornering Computering Situationing is still there.
+
+My Table is still there.
 
 Round.
+
+Wooden.
 
 Central post.
 
 About thirty-six inches across.
 
-Wooden would be fine.
+My computer sitting upon it.
 
-Metal would be fine.
+My chair at it.
 
-And the empty Pocket I had been fashioning for the Table became increasingly—
+Everything exactly where I left it.
 
-**FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
+I look back down at my actual computer.
 
-“Okay.”
+Then back through the Glass Pair.
 
-“That's actually pretty good.”
+Okay.
 
-I looked back toward the geographic standing I had left available.
+So how do I get one?
 
-**THIS ONE VILLAGE.**
+**COBBING**
 
-How far would I actually go to get this Table?
+This Stewardly Co-Captain Co-Bobbining may stand Inquiringmenting AFTER your IN-Questioning-Menting.
 
-“Fifteen miles.”
+**RICHARD**
 
-“Yeah.”
+Yeah.
 
-“I'd go fifteen miles for this table.”
+How do I find an actual Table like that?
 
-I brought that already-standing VILLAGE relation into this Looking-FOR-Finding.
+A little pause.
 
-And fashioned:
+**COBBING**
 
-**WITHIN 15 MILES OF THIS ONE VILLAGE**
+What stands OUT for you ABOUT TABLE?
 
-**TOWARD HERE.**
+**RICHARD**
 
-I looked between the two Pockets.
+What?
 
-The VILLAGE still stood where I had furnished it.
+**COBBING**
 
-The fifteen-mile relation stood here, WITHIN my TABLE Looking-FOR-Finding.
+What stands OUT for you ABOUT TABLE?
 
-“Okay.”
+I look at the Table.
 
-“That's how far I'll go.”
+There is still all this In-Stringing-Menting standing around it.
 
-And within the Situationing stood what I had to stand WITH.
+All the stuff I put there while I was making it.
 
-I had some money I was willing to exchange for the Table.
+My computer.
 
-So I furnished:
+My chair.
 
-**THIS ONE POCKET WITH SOME BAG OF COINS**
+The Table.
 
-and ALONGSIDE WITH it:
+The whole corner.
 
-**THIS ONE POCKET FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
+**RICHARD**
 
-I stood back and looked at the whole thing.
+Well—
 
-TABLE was still TABLE.
+Round.
 
-But now it was standing WITHIN all this Stringing I had furnished around it—
+Definitely round.
 
-the Table I meant.
+The In-Stringing-Menting shifts.
 
-the possibilities I meant.
+**ROUND**
 
-the locality that mattered to me.
+stands visibly:
 
-the coins I had.
+**OUT ABOUT TABLE**
 
-the empty place Fitmented for the Table I didn't have.
+**RICHARD**
 
-It was like TABLE had put on the Situationing I had made FOR it.
+Actually, that's probably the most important thing.
 
-Its Looking-FOR-Finding costume.
+Round.
 
-COB said:
+I want a round Table.
 
-“You may Regard the Landingings THROUGH the donut helmet.”
+ROUND stands especially OUT.
 
-I took up that Regard again.
+**RICHARD**
 
-And looked back ALONG the Road.
+Wooden would be nice.
 
-Each of the lines I had already Stringed had a Landinging beneath its Situationing Pocket.
+**WOODEN**
 
-Spider Plant.
+stands:
 
-Donna.
+**OUT ABOUT TABLE**
 
-Maple Leaf Rag.
+I think about it.
 
-“Oh.”
+**RICHARD**
 
-“They've all got one.”
+Although—
 
-I looked beneath the Looking-FOR-Finding Pocket I was making now.
+Metal would be okay.
 
-**THIS HERE APPROACHINGING LANDINGING.**
+I don't care that much.
 
-And beyond this standing, available to approach:
+Wood or metal.
 
-**THIS NEXT APPROACHINGING LANDINGING.**
+Either one.
 
-I could see where a TOWARD from my Pocket could reach OUT.
+**METAL**
 
-I looked at my coins-bearing Pocket.
+stands separately:
 
-Then at the empty Pocket Fitmented FOR the Table.
+**OUT ABOUT TABLE**
 
-“I have these coins.”
+I notice WOODEN is still there.
 
-“And I'd be willing to provide them for a Table like this.”
+**RICHARD**
 
-So I furnished my bearing:
+Oh.
 
-**TOWARD PROVISIONING THESE COINS**
+Okay.
 
-**IN REGARD TOWARD A TABLE LIKE THIS.**
+So I'm not changing it from wood to metal.
 
-I looked at it.
+Those are both—
 
-“Huh.”
+I look at Cobbing.
 
-My TOWARD was sticking OUT from the Pocket.
+**RICHARD**
 
-Toward consequential possibility.
+—things that stand OUT for me ABOUT the Table.
 
-I reached for the Button.
+**COBBING**
 
-**THIS ONE MAY BE RE-FOLDING BUTTON.**
+Yes.
 
-I threw it down.
+**RICHARD**
 
-The Button waited.
+Okay.
 
-Pending.
+Central post.
 
-I looked back at the Table.
+Because I want to be able to get my chair under there without fighting with a bunch of legs.
 
-“Wait.”
+**CENTRAL POST**
 
-I went back in.
+stands:
 
-I adjusted the Stringing around ROUND.
+**OUT ABOUT TABLE**
 
-Looked again at CENTRAL POST.
+**RICHARD**
 
-Checked the thirty-six inches.
+And about thirty-six inches across.
 
-WOODEN still stood.
+Not huge.
 
-METAL still stood.
+But big enough to actually work at.
 
-The Button just waited.
+**ABOUT 36 INCHES ACROSS**
 
-“Oh.”
+stands:
 
-“So I can still work on it.”
+**OUT ABOUT TABLE**
 
-Nothing had been decided merely because I had thrown down the Button.
+Now I can see them.
 
-When I was finally satisfied with the Situationing I had furnished, I looked down at the RE-STEP pedal.
+Not everything I ever said ABOUT the Table.
 
-“All right.”
+Just these.
 
-“Let's see what you do with this.”
+ROUND standing particularly OUT.
 
-I put my foot on it.
+WOODEN.
 
-**RE-STEP.**
+METAL.
 
-The Little Spooling Unicycle turned.
+CENTRAL POST.
 
-Its:
+ABOUT 36 INCHES ACROSS.
 
-**SINGLE PENDING BUTTONING RE-STOMPING PEDAL**
+All standing OUT ABOUT the same TABLE.
 
-came around—
+**RICHARD**
 
-and:
+Okay.
 
-**RE-STOMPED**
+That's actually pretty good.
 
-the Pending Button.
+That's what I'm looking for.
 
-Buttoning obtained.
+I look at Cobbing.
 
-I could see my Pocket standing UPON its present Landinging.
+**RICHARD**
 
-Its TOWARD reached OUT toward the next available standing.
+So now what?
 
-The little RE-ZIPPERING Airplane started its circuit.
+A familiar little possibility presents itself.
 
-The propeller spun.
+The little Puffinging Tunneling Thing.
 
-The airplane went around.
+**RICHARD**
 
-And the Zippering began to close ALONG THROUGH the seam.
+Oh.
 
-My Situationing Pocket stood on this side.
+Right.
 
-Its:
+I take it.
+
+**POOF.**
+
+A fresh little Pocket stands EN-VOLUMINGABLE along the curving relation of:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
+
+Nothing is in it yet.
+
+I look at Cobbing.
+
+Then at the Pocket.
+
+Then down toward the RE-STEPPING apparatus.
+
+**RICHARD**
+
+Looking for a Table?
+
+**COBBING**
+
+What does This One Situationing stand FOR?
+
+**RICHARD**
+
+I'm looking for—
+
+No.
+
+I'm looking FOR finding—
+
+I stop.
+
+**RICHARD**
+
+Oh, come on.
+
+The Pocket waits.
+
+**RICHARD**
+
+This is my—
+
+I point at it.
+
+**RICHARD**
+
+—Looking-FOR-Findinging Situationing.
+
+The standing appears:
+
+**THIS ONE LOOKING-FOR-FINDINGING SITUATIONING POCKET**
+
+**RICHARD**
+
+Of course it is.
+
+I RE-STEP TOWARD it.
+
+My Regard settles upon the newly POOFed extent.
+
+No Button.
+
+No stomping.
+
+No airplane.
+
+Nothing dramatic.
+
+I'm just standing working with it.
+
+It is empty, but now it stands FOR me.
+
+A place FOR this Looking-FOR-Findinging.
+
+**RICHARD**
+
+Okay.
+
+I have somewhere to look for finding.
+
+But my Table is over there.
+
+I glance back along the Road.
+
+I RE-STEP without a Button.
+
+The little extent RE-FOLDs from my active working Regard.
+
+It doesn't disappear.
+
+It doesn't close.
+
+It's just—
+
+there.
+
+Standing.
+
+I turn back toward the Roundabout Gallery.
+
+The Table is still standing elsewhere along its curvature.
+
+**RICHARD**
+
+Okay, Table.
+
+Come back here.
+
+I work the Gallery.
+
+Anchored Turning Indexing articulates the standing extents until TABLE comes back into my Traversaling bearing.
+
+I RE-STEP TOWARD TABLE.
+
+There it is again.
+
+ROUND especially standing OUT.
+
+WOODEN.
+
+METAL.
+
+CENTRAL POST.
+
+ABOUT 36 INCHES ACROSS.
+
+All of it.
+
+**RICHARD**
+
+I need this whole Table.
+
+Not just the word TABLE.
+
+Not just ROUND.
+
+This.
+
+The whole thing.
+
+Cobbing stands attending.
+
+I furnish the existing TABLE extent in:
+
+**EN-FIXTURING-MENT**
+
+The whole standing holds FROM HERE.
+
+TABLE.
+
+Its selected OUT-ABOUT distinctions.
+
+The Table I have actually been constituting.
+
+**RICHARD**
+
+Stay there.
+
+I look toward the Roundabout Gallery.
+
+**RICHARD**
+
+I need that—
+
+I point toward the Looking-FOR-Findinging extent.
+
+**RICHARD**
+
+—with this.
+
+Anchored Turning Indexing articulates the Gallery.
+
+The differentiated TABLE extent and the Looking-FOR-Findinging extent come into alignment.
+
+I furnish:
 
 **TOWARD**
 
-stuck OUT toward the seam.
+Then I RE-STEP.
 
-The airplane completed its circuit.
+No Button.
 
-**RE-ZIPPERING.**
+No RE-STOMP.
 
-And when the seam had closed—
+The relation folds.
 
-my TOWARD was still there.
+And upon the Road:
 
-Continuing TOWARD:
+**THIS HERE APPROACHING LANDINGING**
 
-**THIS NEXT APPROACHINGING LANDINGING.**
+**TOWARD →**
 
-Same bearing.
+**[FOLD]**
 
-My Situationing had not been told what it would find.
+**→ THIS HERE APPROACHING LANDINGING**
 
-The machine had not decided where I would arrive.
+**TOWARD → → →**
 
-COB had not interpreted what TABLE meant FOR me.
+The TOWARD continues THROUGH ALONG the furnished Looking-FOR-Findinging extent.
 
-But the bearing I had furnished had survived the Zippering.
+My existing TABLE now participates in the Looking-FOR-Findinging Situationing.
 
-I could still see it extending FROM my Looking-FOR-Finding Situationing—
+Same Table.
 
-**TOWARD**
+**RICHARD**
 
-the Zippered seam—
+Okay.
 
-and continuing—
+Now we're looking for finding that Table.
 
-**TOWARD**
+I wait.
 
-**THERE.**
+Nothing happens.
 
-I stared at it.
+**RICHARD**
 
-“Oh.”
+Cobbing?
 
-I leaned forward.
+**COBBING**
 
-“Okay.”
+Yes.
 
-“So what's THERE?”
+**RICHARD**
 
-## MOVEMENT 20 — HUCKLEBERRY & ENZO
+Isn't something supposed to happen?
 
-**RICHARD — MONTH ONE**
+**COBBING**
 
-Now, once I understood what I was doing, this next part went pretty fast.
+What do you stand furnishing TOWARD TABLE?
 
-Because remember why I came here in the first place?
+I stare at Cobbing.
 
-Huckleberry and Enzo.
+Then the Table.
 
-They had been carrying on about this thing their friends apparently knew about—
+Then Cobbing.
 
-some kind of:
+**RICHARD**
 
-**ENCOUNTERINGMENTING WHARF.**
+You mean—
 
-And apparently there was Correspondencing there.
+what am I offering?
 
-Whatever that meant.
+A pause.
 
-<!-- GOBS FLAG [GOBS-022]
-TYPE: NARRATOR / MOTIVATION
-CONFIDENCE: LIKELY
+**RICHARD**
 
-WHAT GOBS NOTICED:
-Before this passage, Huckleberry and Enzo have been presented as the companions pressing Richard toward the Wharf, without explicitly identifying them as dogs. Month-One Richard now mentions their friends' Humans and dog-park trips; Month-Zero then says "The dogs," well before the later introductions and "Yes. They're dogs."
+Oh.
 
-NEWER STANDING TO RECONCILE AGAINST:
-Month-One Richard knows their identity, but the supplied brief asks that the later dog reveal remain a payoff. His knowledge need not automatically become the audience's knowledge at the first retrospective explanation.
+Right.
 
-POSSIBLE BRUSH:
-Decide where the actual reveal belongs within Movement 20. If it remains at the named introductions, inspect the earlier narration and "The dogs" together; if it belongs earlier, treat the later introductions as confirmation. No repeated dog reminders are needed.
+Money.
 
-WHY FLAGGED:
-The return to the original TOWARD is earned. The seam is the narrator revealing information before the apparent reveal beat, not a complaint about his digression.
--->
+Except I don't know what kind of money anybody has.
 
-All Huckleberry and Enzo seemed to know was that their friends whose Humans were doing more Correspondencing—
+Or where they are.
 
-were getting taken to the dog park more often.
+Or—
 
-So naturally—
+I stop.
+
+**RICHARD**
+
+Coins.
+
+Coins are pretty universal-looking.
+
+The little Puffinging Tunneling Thing is available again.
+
+**RICHARD**
+
+Fine.
+
+We're doing coins.
+
+**POOF.**
+
+Another little Pocket stands EN-VOLUMINGABLE.
+
+I RE-STEP TOWARD it.
+
+**RICHARD**
+
+Some Bag of Coins.
+
+Standing appears:
+
+**SOME BAG OF COINS**
+
+I regard it.
+
+At the moment it is mostly the constitutional proposition that somewhere around here there ought to be a bag and some coins.
+
+**RICHARD**
+
+No.
+
+If I'm going to Pretend it, I'm going to Pretend it.
+
+A little bag.
+
+Something I could actually pick up.
+
+A drawstring.
+
+Coins inside.
+
+A satisfying little weight to it.
+
+I give it an experimental heft.
+
+**RICHARD**
+
+Yeah.
+
+Like that.
+
+How many?
+
+I consider my imaginary commerce.
+
+**RICHARD**
+
+A hundred.
+
+The standing appears:
+
+**QUANTITY 100**
+
+I immediately point at it.
+
+**RICHARD**
+
+Coins.
+
+One hundred coins.
+
+Not a hundred dollars.
+
+I don't know what these are worth.
+
+I don't even know what country we're in.
+
+I look around.
+
+**RICHARD**
+
+Are we in a country?
+
+Cobbing stands attending.
+
+**RICHARD**
+
+PARK IT.
+
+One hundred coins.
+
+I bring SOME BAG OF COINS into relation with the larger Looking-FOR-Findinging Situationing.
+
+TABLE remains held in EN-FIXTURING-MENT FROM HERE.
+
+The Bag of Coins stands TOWARD it.
+
+I look at the whole proposed relation.
+
+Round Table.
+
+Wood or metal.
+
+Central post.
+
+About thirty-six inches.
+
+One hundred coins.
+
+I lean one way.
+
+Then the other.
+
+**RICHARD**
+
+Hmm.
+
+I make a small adjustment.
+
+Look again.
+
+**RICHARD**
+
+Yeah.
+
+That feels about right.
+
+I don't know if I'd give somebody a hundred coins for it.
+
+I don't know what a coin is worth.
+
+But—
+
+I look at the whole thing.
+
+**RICHARD**
+
+I'd at least want to talk to somebody.
+
+Cobbing stands attending.
+
+**RICHARD**
+
+Okay.
+
+Where?
+
+I look outward.
+
+Not everywhere.
+
+I don't need every Table on Earth.
+
+I don't even know what that would mean in here.
+
+Somewhere around me.
+
+Somewhere I could conceivably go get a Table.
+
+I furnish:
+
+**THIS ONE SOME VILLAGE**
+
+I look at it.
+
+**RICHARD**
+
+Sure.
+
+This One Some Village.
+
+Why not.
+
+My Looking-FOR-Findinging Situationing now stands furnished outward.
+
+Not as a list.
+
+Not as a screen full of Tables.
+
+The whole thing stands ready:
+
+**OUTING AMONG WITH**
+
+I look at it.
+
+Then at Cobbing.
+
+**RICHARD**
+
+Okay.
+
+If I send this thing Outing Among With—
+
+how do I know if anything happens?
+
+Cobbing's attention turns toward another little piece of apparatus in the Gallery.
+
+I follow.
+
+There is a small structure.
+
+Tiny accommodations.
+
+A selector.
+
+I lean in.
+
+**RICHARD**
+
+What is that?
+
+The standing reads:
+
+**SLUMBERING LANTERNING BUG COLONIAL BUNKHOUSE**
+
+I look at Cobbing.
+
+**RICHARD**
+
+I'm sorry.
+
+What?
+
+I lean closer.
+
+There are Appointmentings.
+
+**THREE-BEDROOM APPOINTMENTING**
+
+**SIX-BEDROOM APPOINTMENTING**
+
+**TWELVE-BEDROOM APPOINTMENTING**
+
+The selector presently stands at:
+
+**SIX**
+
+**RICHARD**
+
+It's an apartment building for sleeping bugs.
+
+**COBBING**
+
+Slumbering Lanterning Bugs.
+
+**RICHARD**
+
+Colonial.
+
+**COBBING**
+
+Yes.
+
+**RICHARD**
+
+Of course.
+
+I inspect the choices again.
+
+Three.
+
+Six.
+
+Twelve.
+
+**RICHARD**
+
+What happens if I pick twelve?
+
+I glance toward This One Observationing Class Bell.
+
+Then back at Cobbing.
+
+**RICHARD**
+
+Does the Bell ring twelve times?
+
+Cobbing stands Inquiringmenting with me until I get it.
+
+I look again at the Bunkhouse.
+
+At the Appointmentings.
+
+At the Situationing I just furnished.
+
+**RICHARD**
+
+Oh.
+
+No.
+
+These are mine.
+
+I'm appointing them.
+
+I look at the three choices.
+
+**RICHARD**
+
+So if this were something I barely cared about—
+
+Three.
+
+I move toward twelve.
+
+**RICHARD**
+
+And if this were—
+
+I don't know—
+
+my house is on fire—
+
+Twelve.
+
+I look back at six.
+
+**RICHARD**
+
+Table?
+
+Six bugs.
+
+Six is fine.
+
+I leave the selector at:
+
+**SIX-BEDROOM APPOINTMENTING**
+
+Six Slumbering Lanterning Bugs stand appointed with respect to this Looking-FOR-Findinging Situationing.
+
+**RICHARD**
+
+Okay.
+
+So if something happens—
+
+I indicate the Bugs.
+
+**RICHARD**
+
+—these little guys have something to show me.
+
+I indicate the Observationing Class Bell elsewhere in the Gallery.
+
+**RICHARD**
+
+And that thing gets my attention.
+
+Cobbing stands attending.
+
+**RICHARD**
+
+Good.
+
+I think we're ready.
+
+I look over the whole Situationing one more time.
+
+TABLE.
+
+ROUND especially standing OUT.
+
+WOODEN.
+
+METAL.
+
+CENTRAL POST.
+
+ABOUT 36 INCHES ACROSS.
+
+TABLE held in EN-FIXTURING-MENT FROM HERE.
+
+SOME BAG OF COINS.
+
+QUANTITY 100.
+
+THIS ONE SOME VILLAGE.
+
+OUTING AMONG WITH.
+
+Six appointed Slumbering Lanterning Bugs.
+
+I look at Cobbing.
+
+**RICHARD**
+
+Okay.
+
+Let's actually do this.
+
+Something changes.
+
+Buttoning stands Pending.
+
+I notice it immediately.
+
+**RICHARD**
+
+Oh.
+
+There's the Button.
+
+I look down toward the apparatus.
+
+The full standing of it is suddenly much less ridiculous than it used to be:
+
+**THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION**
+
+**RICHARD**
+
+“May be.”
+
+I put my foot in position.
+
+I look at Cobbing.
+
+**RICHARD**
+
+Here goes.
+
+I RE-STEP.
+
+And this time—
+
+the Constitutioning Human Doll moves with the operation.
+
+The Doll rides the Little Spooling Unicycle.
+
+The Little Spooling Unicycle pedals.
+
+**RICHARD**
+
+Oh!
+
+It comes upon the Button.
+
+The pedal bears down.
+
+**RE-STOMP.**
+
+My Holdinging upon This One Discrete Piece of Time relinquishes.
+
+And the whole ridiculous apparatus finally does what it has apparently been waiting all this time to do.
+
+The zipper chain tractions.
+
+I turn.
+
+**RICHARD**
+
+Wait—
+
+This One RE-ZIPPERING Airplane moves.
+
+**RICHARD**
+
+THE AIRPLANE!
+
+It comes around.
+
+The JANUSITE post that I was certain made the entire thing physically impossible is not in its way at all.
+
+The Airplane:
+
+**RE-TRACTS THROUGH THIS RE-TRACTIONING CULVERT**
+
+and—
+
+**RE-ZIPPERS ALONG THROUGH**
+
+I follow it around as far as my Regard will carry me.
+
+**RICHARD**
+
+Oh!
+
+Oh, it DOES fly!
+
+I point furiously at Cobbing.
+
+**RICHARD**
+
+Cobbing!
+
+The airplane works!
+
+Cobbing stands attending.
+
+I watch the consequence settle.
+
+I look back at the JANUSITE post.
+
+Then the Airplane.
+
+Then Cobbing.
+
+**RICHARD**
+
+Okay.
+
+I'm taking that off the review.
+
+A beat.
+
+**RICHARD**
+
+That's at least another half a star.
+
+I look down at the Doll and the Little Spooling Unicycle.
+
+Then toward the Button.
+
+Then back toward the course the Airplane just traversaled.
+
+For the first time, all these pieces that looked like unrelated Dollhouse nonsense have performed one consequential operation together.
+
+I want another look.
+
+I try to follow what just happened—
+
+the Doll,
+
+the Unicycle,
+
+the pedal,
+
+the RE-STOMP,
+
+the Buttoning,
+
+the zipper chain,
+
+the Airplane—
+
+without yet having a proper name for the Regard I want.
+
+Cobbing helps me stand with what is available.
+
+I don't entirely understand it.
+
+But I can see enough.
+
+**RICHARD**
+
+Okay.
+
+I did something.
+
+**COBBING**
+
+Yes.
+
+**RICHARD**
+
+And now this is—
+
+I look toward the Looking-FOR-Findinging Situationing.
+
+**RICHARD**
+
+—out there?
+
+**COBBING**
+
+OUTING AMONG WITH.
+
+**RICHARD**
+
+Right.
+
+Outing Among With.
+
+I look at the Slumbering Lanterning Bug Colonial Bunkhouse.
+
+Six Bugs appointed.
+
+Still slumbering.
+
+I look at This One Observationing Class Bell.
+
+**RICHARD**
+
+And if something happens, this is how I know.
+
+Cobbing guides my Regard between the appointed Bugs and the Bell.
+
+**RICHARD**
+
+Can I try it?
+
+Cobbing stands attending.
+
+I furnish the deliberate test.
+
+**RE-SOUND.**
+
+The Observationing Class Bell sounds.
+
+The appointed Slumbering Lanterning Bugs furnish their little demonstration under my Regard.
+
+I look at them.
+
+Then the Bell.
+
+Then my Looking-FOR-Findinging Situationing.
+
+I smile.
+
+**RICHARD**
+
+Okay.
+
+I know what that means.
+
+CUT.
+
+
+
+# MOVEMENT 21 — HUCKLEBERRY & ENZO
+## MAJOR BEATS — STANDING PRINT
+
+### 1. MONTH ONE — RETURN TO THE ORIGINAL TOWARD
+
+Month-One Richard reminds us why he came here in the first place.
+
+Huckleberry and Enzo had been carrying on about something their friends apparently knew about:
+
+**THE ENCOUNTERINGMENTING WHARF.**
+
+Their friends had somehow conveyed that their Constitutioning Humans were doing more Correspondencing through this mysterious Wharf.
+
+And because of that—
+
+their Constitutioning Humans had been going to Fort Intercom Dog Park more often.
+
+Which meant Huckleberry and Enzo's friends were getting more trips to the dog park.
 
 Huckleberry and Enzo wanted in.
 
-And since I was supposedly the one who was good with computers—
+Richard had agreed to figure it out because he was supposedly the one who was good with computers.
 
-I had agreed to figure it out.
+Now he has a PUBLIC-SITUATION-MACHINE-.
 
-Well.
+And, finally, he has some idea how to use it.
 
-Now I had a PUBLIC-SITUATION-MACHINE-.
-
-And I knew how to use it.
+The dog reveal is not formally paid yet.
 
 ---
 
-**RICHARD — MONTH ZERO**
+### 2. MONTH ZERO — RICHARD KNOWS HOW TO MAKE ROOM NOW
 
-I turned my Regard.
+Richard returns his attention to Huckleberry and Enzo.
 
-“Oh.”
+He recognizes immediately that his Computering Room Situationing isn't the right extent for everything that stands ABOUT his life WITH them.
 
-“The dogs.”
+They are welcome in his computering room.
 
-I turned my Regard ALONG the Rail Line until I found another opening standing available.
+But that is not where most of their life together stands.
 
-And there it was again:
+Richard now knows what to do when he needs constitutional room.
 
-**This HERE Never-Ending Next Approaching Landinging Dispensary.**
+He returns, with considerably more affection than before, to:
 
-With the Grand Opening notice standing there alongside it.
+**This One Truly Boringinging Puffinging Tunneling Thing.**
 
-“Oh.”
-
-“Here's where we can start.”
-
-I looked at the Big Bellows.
-
-“Oh.”
-
-“This thing again.”
-
-I took up a new bearing.
-
-And—
+He knows what this apparatus is FOR now.
 
 **PUFF.**
 
-The new extent opened.
+A new foldingable extent stands EN-VOLUMINGABLE.
 
-The Rail Line rose THROUGH it.
+Richard furnishes a Situationing Theater FOR his lived Situationing:
 
-Turned.
+**HUCKLEBERRY AND ENZO AND ME**
 
-And furnished another place FROM which I could stand.
+Richard stands:
 
-But this one wasn't just FOR going to the dog park.
+**ALONGSIDE WITH HUCKLEBERRY AND ENZO**
 
-The dog park was one little part of it.
+within a Situationing large enough for the differentiated standings of their life together.
 
-I wanted a place FROM which I could stand in Regard toward my whole life WITH Huckleberry and Enzo.
+---
 
-Our walks.
+### 3. THE EXTENT FILLS WITH ORDINARY LIFE
 
-Their food.
+Now that there is room, Richard immediately understands how much could stand here.
+
+Not because the machine supplies categories.
+
+Because Richard knows his life WITH his dogs.
+
+He begins furnishing Pockets within the larger Situationing.
 
 Their veterinary records.
 
-The places we go.
+Their shared food supply.
 
-The things we do.
+Their dog-toy inventory.
 
-Whatever might matter in my standing ALONGSIDE WITH them.
+Other things that matter in Richard's relationing WITH Huckleberry and Enzo.
 
-So I furnished this place for—
+These do not all need to remain exposed under Regard simultaneously.
 
-**HUCKLEBERRY AND ENZO AND ME.**
+They may stand within their own differentiated Pockets and RE-FOLD from active Regard while continuing to stand.
 
-And there we were.
+This is brief, practical, affectionate, and a little funny.
 
-Me—
+It demonstrates:
 
-Huckleberry—
+**There is finally somewhere for this part of Richard's actual life to stand.**
 
-and Enzo—
+---
 
-standing ALONGSIDE WITH one another.
+### 4. PLACES WE GO TOGETHER
 
-I could Envisionize this place however it was useful to me.
+Richard furnishes another Pocket within the larger HUCKLEBERRY AND ENZO AND ME Situationing.
 
-Pictures of us together.
+This one concerns places they go together.
 
-Places we'd gone.
+Among its standing:
 
-Things I might need to stand in Regard toward.
+**FORT INTERCOM DOG PARK**
 
-There could be a Pocket for Huckleberry's veterinary records.
+**THE FOREST**
 
-Another for Enzo's.
+**THE BEACH**
 
-And if I didn't need those standing in exposed Regard—
+These are not machine-generated interests.
 
-**RE-FOLD THIS POCKET.**
+They are places already standing within Richard's lived Situationing ALONGSIDE WITH Huckleberry and Enzo.
 
-Still standing.
+But the original problem makes one locality particularly consequential:
 
-Just folded away until I needed it again.
+**FORT INTERCOM DOG PARK.**
 
-There could be another Pocket for their food.
+Because that's where Huckleberry and Enzo want to go more often.
 
-Another for whatever else came to matter.
+---
 
-But right now—
+### 5. WHAT ALREADY STANDS AT FORT INTERCOM
 
-I knew exactly what mattered.
+Richard already possesses lived standing here.
 
-“The dog park.”
+He can furnish/envisionize something of the Situationing he actually has:
 
-So I furnished the Situationing we already had.
+**THIS ONE CONSTITUTIONING HUMAN**
 
-Me.
+**ALONGSIDE WITH HUCKLEBERRY AND ENZO**
+
+**BY-WAY-OF TRAVERSALING ALONG THROUGH FORT INTERCOM DOG PARK**
+
+This may include photographs.
+
+Descriptions.
+
+Huckleberry and Enzo.
+
+Whatever Richard himself chooses to furnish so that another Constitutioning Human may later stand in Regard toward what Richard has actually stood THERE.
+
+Richard does not need the machine to infer a category called DOG OWNER.
+
+He already has a Situationing.
+
+---
+
+### 6. POOF THE LOOKING-FOR-FINDINGING SITUATIONING
+
+Richard now knows that the original problem calls for Looking-FOR-Findinging.
+
+He POOFs:
+
+**THIS ONE LOOKING-FOR-FINDINGING SITUATIONING POCKET**
+
+He RE-STEP TOWARD it.
+
+He furnishes enough standing for this Pocket to stand FOR the Finding he is actually undertaking.
+
+Then, as needed, he can ordinarily RE-FOLD and return to the already-standing Huckleberry-and-Enzo Situationing to bring the relevant standing into relation.
+
+No premature Buttoning.
+
+No RE-STOMP.
+
+No consequential seam passage yet.
+
+---
+
+### 7. WHAT RICHARD LACKS — HERE / EN-FIXTURING-MENT
+
+This is the construction we must protect.
+
+Richard is NOT Looking-FOR-Finding:
+
+another Huckleberry;
+
+another Enzo;
+
+another dog park;
+
+all dog owners;
+
+everybody nearby;
+
+generic Correspondencing;
+
+people whom the machine has determined are “similar.”
+
+What Richard lacks—and therefore stands Looking-FOR-Finding HERE—is approximately:
+
+**OTHER CONSTITUTIONING HUMANS**
+
+**ALONGSIDE WITH THEIR DOGS**
+
+**BY-WAY-OF TRAVERSALING ALONG THROUGH FORT INTERCOM DOG PARK**
+
+This desired relational standing is furnished in:
+
+**EN-FIXTURING-MENT**
+
+on Richard's HERE side.
+
+This is what Richard stands Looking-FOR-Finding.
+
+---
+
+### 8. WHAT RICHARD ALREADY HAS — THERE
+
+Richard must also furnish something THERE.
+
+Otherwise another Constitutioning Human standing FROM their own HERE has nothing of Richard's to encounter under Regard.
+
+What Richard already possesses and can furnish THERE is his own differentiated standing:
+
+**RICHARD**
+
+**ALONGSIDE WITH HUCKLEBERRY AND ENZO**
+
+**BY-WAY-OF TRAVERSALING ALONG THROUGH FORT INTERCOM DOG PARK**
+
+Richard may furnish photographs, descriptions, and whatever other standing he wants another Constitutioning Human to be able to Regard.
+
+This is not a machine-generated profile.
+
+It is Richard's Human-constituted standing.
+
+It stands THERE because Richard means for differentiated Constitutioning Humans FROM elsewhere to be able to encounter it.
+
+**If Richard does not furnish this standing THERE, there is nothing THERE for another Constitutioning Human to Regard or RE-STEP TOWARD from their HERE.**
+
+---
+
+### 9. THE LOOKING-FOR-FINDINGING GEOMETRY
+
+Protect this construction:
+
+**HERE — WHAT RICHARD LACKS / LOOKS FOR**
+
+**EN-FIXTURING-MENT:**
+
+OTHER CONSTITUTIONING HUMANS  
+ALONGSIDE WITH THEIR DOGS  
+BY-WAY-OF TRAVERSALING ALONG THROUGH  
+FORT INTERCOM DOG PARK
+
+**TOWARD →**
+
+**THERE — WHAT RICHARD ALREADY HAS / FURNISHES OUTWARD**
+
+RICHARD  
+ALONGSIDE WITH HUCKLEBERRY AND ENZO  
+BY-WAY-OF TRAVERSALING ALONG THROUGH  
+FORT INTERCOM DOG PARK
+
+with whatever photographs, descriptions, or other standing Richard chooses to furnish for Regard.
+
+Construction rule:
+
+**HERE holds what Richard stands Looking-FOR-Finding.**
+
+**THERE holds what Richard furnishes for somebody else to find.**
+
+Richard's THERE is not a search-result destination.
+
+It is actual Human-constituted standing made available for differentiated Regard.
+
+---
+
+### 10. WHY THE OTHER CONSTITUTIONING HUMAN CAN ENCOUNTER RICHARD
+
+Somewhere else, another Constitutioning Human may independently furnish their own Looking-FOR-Findinging Situationing.
+
+From that Human's HERE, Richard's THERE-side standing may become available under Regard because Richard actually furnished something THERE.
+
+They can see, for example:
+
+Richard.
 
 Huckleberry.
 
 Enzo.
 
-Standing ALONGSIDE WITH one another—
+Photographs or descriptions.
 
-Traversaling through:
+Their Traversaling ALONG THROUGH Fort Intercom Dog Park.
 
-**FORT INTERCOM DOG PARK.**
+The other Human may decide:
 
-And I looked at what I already had.
+**I want to stand in Regard TOWARD that.**
 
-I had Huckleberry.
+And may RE-STEP TOWARD Richard's furnished standing.
 
-I had Enzo.
+The PUBLIC-SITUATION-MACHINE- has not declared them friends.
 
-I had the dog park.
+It has not decided that their dogs are equivalent.
 
-What I didn't have—
+It has not determined what DOG stands FOR.
 
-were very many Humans there I knew.
+It has not decided that the two Humans are “similar.”
 
-“Oh.”
-
-I looked over at COB.
-
-“I think I finally understand what I'm Looking-FOR-Finding.”
-
-I didn't need another dog park.
-
-I didn't need another Huckleberry.
-
-God knows I didn't need another Enzo.
-
-I needed—
-
-other Humans.
-
-Humans who also stood Traversaling through this place.
-
-Humans with whom I might stand—
-
-**CORRESPONDENCING.**
-
-So I began Fitmenting the empty standing for the relation I was actually Looking-FOR-Finding.
-
-Not everybody within fifteen miles.
-
-That wasn't what mattered.
-
-They could live thirty miles away for all I cared.
-
-What mattered was that somewhere within their own Situationing—
-
-**FORT INTERCOM DOG PARK**
-
-also stood.
-
-And that they stood available for Correspondencing.
-
-That was enough to begin.
-
-I fashioned the Pocket.
-
-I Quilled.
-
-I Stringed.
-
-I furnished the relations that mattered to me.
-
-And from this Situationing—
-
-I stood:
-
-**TOWARD.**
+There is simply actual differentiated standing THERE for another Constitutioning Human to encounter.
 
 ---
 
-**RICHARD — MONTH ONE**
+### 11. CORRESPONDENCING COMES AFTER THE FINDING
 
-And that's where things got interesting.
+Richard is not Looking-FOR-Finding generic Correspondencing.
 
-Because I didn't need somebody else deciding what I ought to be looking at.
+He is Looking-FOR-Finding the particular relational standing he furnished:
 
-I had furnished what I stood TOWARD.
+**OTHER CONSTITUTIONING HUMANS**
 
-And that gave me somewhere to stand in Regard toward the Correspondencing that might come TOWARD me.
+**ALONGSIDE WITH THEIR DOGS**
 
-An:
+**BY-WAY-OF TRAVERSALING ALONG THROUGH FORT INTERCOM DOG PARK**
 
-**OBSERVATIONING HARBOR.**
+When differentiated standing becomes available under Regard, Richard can decide whether he wants to RE-STEP TOWARD it.
 
-And naturally—
+Another Constitutioning Human can make the same Human decision toward Richard's standing.
 
-because this is the PUBLIC-SITUATION-MACHINE-—
+Only then does:
 
-my Observationing Harbor had a bell.
+**CORRESPONDENCING**
 
-**THIS ONE OBSERVATIONING CLASS BELL IS IN SESSIONING.**
+become the consequential Human relation.
 
-I put it where I wanted to notice incoming Hailings.
+Richard does not stand Correspondencing with his entire dog Gallery.
 
-And before very long—
-
-**DING.**
-
-I had a Hailing.
-
-So I turned my Regard toward it.
-
-Then another.
-
-And I stood Correspondencing.
-
-Not because the machine had decided these were my friends.
-
-It hadn't.
-
-Not because everything that came TOWARD my Observationing Harbor was necessarily something I wanted.
-
-It wasn't.
-
-But I had somewhere FROM which I could Regard it.
-
-I knew what Situationing I had furnished.
-
-I knew what I had stood TOWARD.
-
-And I could decide what I wanted to do FROM HERE.
-
-So I Correspondenced.
-
-And then something rather unexpected happened.
-
-Well—
-
-unexpected to me.
-
-Apparently not unexpected to Huckleberry and Enzo.
-
-Because within a few days—
-
-I started going to the dog park more often.
+He Correspondences with particular Constitutioning Humans whose independently furnished standing he has chosen to approach.
 
 ---
 
-And this—
+### 12. THE REALIZATION — WHO ACTUALLY NEEDED THIS?
 
-is Huckleberry.
+As Richard sees what he has actually constituted, the original misunderstanding becomes legible.
+
+Huckleberry and Enzo already have friends at Fort Intercom Dog Park.
+
+They were never standing in need of Richard finding them replacement dogs.
+
+Their dog friends had reported that their Constitutioning Humans were Correspondencing through something called an Encounteringmenting Wharf.
+
+Those Humans consequently had more reason to go to Fort Intercom.
+
+Therefore their dogs got more trips to Fort Intercom.
+
+Huckleberry and Enzo wanted the same arrangement.
+
+Richard realizes:
+
+They weren't trying to get themselves onto some dog internet.
+
+They were trying to get **Richard** into relation with more Humans who also traverse Fort Intercom with their dogs.
+
+Richard is the Constitutioning Human whose social standing was missing.
+
+The landing is approximately:
+
+**“Oh.”**
+
+**“You two already have friends.”**
+
+Richard looks at them.
+
+**“I'm the one standing in need of the Correspondencing.”**
+
+---
+
+### 13. FORMAL DOG REVEAL
+
+By now the audience has probably figured it out.
+
+Now Richard formally pays it.
+
+This is Huckleberry.
 
 Huckleberry is a Bernedoodle.
 
-And this—
-
-is Enzo.
+This is Enzo.
 
 Enzo is an Aussiedoodle.
 
@@ -6168,165 +9147,297 @@ Yes.
 
 They're dogs.
 
-These two had somehow sent me through a Potlucking Weddinginging with my computer—
+These two have sent Richard through a Potlucking Weddinginging with his computer, onto a Floatationing Tuple Ship, through all this constitutional machinery—
 
-onto a floating Tuple Ship—
+because they wanted Richard to make some friends so they could get:
 
-where I built a little Doll of myself—
-
-met This Stewardly Co-Bobbing—
-
-learned to POOF Situationing Pockets—
-
-Quill and String my own words—
-
-and stand Correspondencing with other Constitutioning Humans—
-
-because they wanted—
-
-**more trips to the dog park.**
-
-And it worked.
-
-Because now, when we went to Fort Intercom Dog Park—
-
-there were Humans there I knew.
-
-People I could talk to.
-
-People I recognized.
-
-People I stood Correspondencing WITH.
-
-Sometimes acquaintances.
-
-Sometimes people who were becoming friends.
-
-And while we Humans stood around talking—
-
-Huckleberry and Enzo were off doing what Huckleberry and Enzo had apparently been planning to do all along.
-
-Running around with their friends.
-
-Sniffing things.
-
-Chasing things.
-
-And devoting a frankly astonishing percentage of their available intelligence to determining whether anybody had left food in a wrapper somewhere.
-
-I had thought I was trying to find an Encounteringmenting Wharf FOR Huckleberry and Enzo.
-
-But the Correspondencing wasn't theirs.
-
-It was mine.
-
-And it didn't take me away from the Ground.
-
-It brought me into relation with people I could actually stand WITH—
-
-here.
-
-At the dog park.
-
-WITH my dogs.
-
-And now I finally understood what Huckleberry and Enzo's friends had apparently been trying to tell them.
-
-Their Humans had found more Correspondencing.
-
-Their Humans had more reason to come here.
-
-And when their Humans came here—
-
-the dogs came too.
-
-I looked down at Huckleberry.
-
-Then Enzo.
-
-“You two knew exactly what you were doing, didn't you?”
-
-They looked at me.
-
-And I suppose there are some questions even the PUBLIC-SITUATION-MACHINE- cannot answer.
-
-But there we were.
-
-On the Ground.
-
-In the Field.
-
-Standing WITH one another.
-
-And Huckleberry and Enzo were getting more trips to the dog park.
-
-Their plan worked.
-
-## MOVEMENT 21 — WHAT WAS THERE
-
-**RICHARD — MONTH ONE**
-
-Oh.
-
-And remember my Table?
-
-I had left Month-Zero Me looking toward the next Approachinging Landinging, with that TOWARD I had furnished—
-
-continuing toward:
-
-**THERE.**
-
-And wondering:
-
-“So what's THERE?”
-
-Well—
-
-there was Sam.
+**MORE TRIPS TO THE DOG PARK.**
 
 ---
 
-**RICHARD — MONTH ZERO**
+### 14. CORRESPONDENCING BECOMES ORDINARY HUMAN RELATION
 
-The first thing that caught my eye was a picture.
+Time passes.
 
-A Cornering Picture.
+Richard Correspondences with particular Humans.
 
-And I stopped.
+Not every available standing becomes consequential.
 
-“Wait a minute.”
+Not every Hailing becomes a friendship.
 
-I looked at it again.
+Some Correspondencing goes nowhere.
 
-“That looks a lot like my corner.”
+Some becomes recognition.
 
-It wasn't my Cornering Situationing.
+Some becomes acquaintance.
 
-It wasn't exactly what I had Pretended.
+Some becomes genuine Human friendship.
 
-But there was a chair.
+Richard begins knowing people who also go to Fort Intercom Dog Park with their dogs.
 
-There was a window.
+And because Richard now has Humans he enjoys seeing there—
 
-And there was a Table tucked into the corner in a way that looked remarkably like the place I had been furnishing for myself and my Terrestrial Computer.
+Richard wants to go to Fort Intercom more often.
 
-So I stood in Regard toward it.
+---
 
-And I looked closer.
+### 15. GROUND PAYOFF — FORT INTERCOM DOG PARK
 
-“Oh.”
+We leave the machinery behind.
 
-The Table had four legs.
+Richard is physically on Ground at Fort Intercom Dog Park.
 
-I had specifically stood:
+He is talking with Humans he knows.
 
-**CENTRAL POST — OUT ABOUT TABLE.**
+Meanwhile:
 
-This was definitely not a central post.
+Huckleberry and Enzo have important business of their own.
 
-Four legs.
+There are:
 
-One.
+**THE GREAT POOPING FIELDS BY THE EAST GATE.**
+
+There is grass to graze upon in:
+
+**THE NORTH MEADOW.**
+
+And there are friends to romp around WITH in:
+
+**THE CENTRAL PLAY AREA.**
+
+Richard stands talking with other Humans.
+
+Huckleberry and Enzo stand romping with their friends.
+
+No computational explanation is required.
+
+The lived consequence is visible.
+
+---
+
+### 16. THE ORIGINAL DOG LOGIC FINALLY MAKES SENSE
+
+Richard understands what Huckleberry and Enzo's friends had been trying to convey.
+
+Their Constitutioning Humans had found more Correspondencing.
+
+That gave their Constitutioning Humans more reason to go to Fort Intercom Dog Park.
+
+When their Constitutioning Humans went—
+
+the dogs went too.
+
+Huckleberry and Enzo had understood exactly the part that mattered to them:
+
+**MORE CORRESPONDENCING FOR THE HUMAN = MORE DOG PARK FOR THE DOGS.**
+
+And they wanted Richard to get with the program.
+
+---
+
+### 17. MOVEMENT 21 LANDING
+
+Richard looks at Huckleberry.
+
+Then Enzo.
+
+Something approximately:
+
+**“You two knew exactly what you were doing, didn't you?”**
+
+No answer is required.
+
+They are dogs.
+
+And there they all stand:
+
+Richard WITH Humans he now knows.
+
+Huckleberry and Enzo WITH their friends.
+
+On Ground.
+
+At Fort Intercom Dog Park.
+
+The simple consequential fact:
+
+**HUCKLEBERRY AND ENZO ARE GETTING MORE TRIPS TO THE DOG PARK.**
+
+Their plan worked.
+
+**CUT.**
+
+---
+
+## MOVEMENT 21 GEOMETRY — DO NOT LOSE THIS AGAIN
+
+**LARGER LIFE SITUATIONING**
+
+HUCKLEBERRY AND ENZO AND ME
+
+↓
+
+Pockets within it may include:
+
+VETERINARY RECORDS  
+SHARED FOOD SUPPLY  
+DOG-TOY INVENTORY  
+PLACES WE GO TOGETHER
+
+↓
+
+PLACES WE GO TOGETHER includes:
+
+FORT INTERCOM DOG PARK  
+THE FOREST  
+THE BEACH
+
+↓
+
+**LOOKING-FOR-FINDINGING**
+
+**HERE / EN-FIXTURING-MENT — WHAT RICHARD LACKS**
+
+OTHER CONSTITUTIONING HUMANS  
+ALONGSIDE WITH THEIR DOGS  
+BY-WAY-OF TRAVERSALING ALONG THROUGH  
+FORT INTERCOM DOG PARK
+
+↓
+
+**TOWARD →**
+
+↓
+
+**THERE — WHAT RICHARD ALREADY HAS AND FURNISHES FOR OTHERS TO FIND**
+
+RICHARD  
+ALONGSIDE WITH HUCKLEBERRY AND ENZO  
+BY-WAY-OF TRAVERSALING ALONG THROUGH  
+FORT INTERCOM DOG PARK
+
++ whatever photographs / descriptions / standing Richard chooses to furnish THERE
+
+↓
+
+OTHER CONSTITUTIONING HUMAN FROM THEIR HERE  
+CAN REGARD WHAT RICHARD ACTUALLY STOOD THERE
+
+↓
+
+HUMAN MAY CHOOSE TO RE-STEP TOWARD
+
+↓
+
+CORRESPONDENCING MAY FOLLOW
+
+↓
+
+RICHARD DEVELOPS HUMAN RELATIONS AT FORT INTERCOM
+
+↓
+
+RICHARD GOES TO FORT INTERCOM MORE OFTEN
+
+↓
+
+HUCKLEBERRY + ENZO GO TO FORT INTERCOM MORE OFTEN
+
+↓
+
+**THEIR PLAN WORKED**
+
+
+# MOVEMENT 22 — SAM AND THE TABLE
+## MAJOR BEATS — STANDING PRINT
+
+### 1. “OH. AND REMEMBER MY TABLE?”
+
+Month-One Richard returns to the Looking-FOR-Findinging Situationing from earlier.
+
+**“Oh. And remember my Table?”**
+
+It has remained standing.
+
+Richard has not been continuously operating it.
+
+He has gone on living his life.
+
+From time to time, standing may become available under Regard.
+
+Nothing particularly catches Richard’s eye.
+
+Until one day—
+
+something does.
+
+---
+
+### 2. SAM HAILS FROM SOMEWHERE UPON THE EARTH
+
+The relevant observational apparatus does only as much work as the story requires.
+
+Sam has furnished enough standing outward for Richard to encounter under Regard and return the Hailing.
+
+The thing that catches Richard’s eye is a photograph.
+
+A room.
+
+A corner.
+
+And in the corner—
+
+a Table.
+
+Richard looks.
+
+It is round.
+
+It is wooden.
+
+And something about the photograph catches him immediately.
+
+**“Oh.”**
+
+He looks again.
+
+**“That looks like my corner.”**
+
+The machine has not identified:
+
+**MY CORNERING COMPUTERING SITUATIONING.**
+
+Sam has not constituted Richard’s Cornering Situationing FOR him.
+
+Sam furnished a photograph of Sam’s standing.
+
+**Richard performs the interpolation.**
+
+---
+
+### 3. THEN RICHARD SEES THE LEGS
+
+Richard looks more closely at the Table.
+
+It is:
+
+**ROUND.**
+
+Good.
+
+**WOODEN.**
+
+Good.
+
+Approximately the sort of size Richard has been Looking-FOR-Finding.
+
+Good.
+
+And then—
+
+Richard sees the bottom of it.
+
+One leg.
 
 Two.
 
@@ -6334,816 +9445,1287 @@ Three.
 
 Four.
 
-“Well, shoot.”
+**“Oh, come on.”**
 
-But I kept looking.
+Richard’s own TABLE standing includes:
 
-Because the reason I had wanted a central post wasn't because I had some deeply held constitutional commitment to the number of legs on a Table.
+**CENTRAL POST**
 
-I wanted my chair to fit comfortably underneath it.
+OUT ABOUT TABLE.
 
-So Sam and I stood Correspondencing.
+Sam’s Table does not have a central post.
 
-I asked about the space between the legs.
+Sam’s Table has:
 
-We looked at the measurements.
+**FOUR LEGS.**
 
-I compared them with my chair.
+Nothing changes that.
 
-And—
+The PUBLIC-SITUATION-MACHINE- does not decide that FOUR LEGS means CENTRAL POST.
 
-“Oh.”
+It does not decide that CENTRAL POST was unimportant.
 
-“My chair would fit under there just fine.”
+It does not silently repair Richard’s Situationing.
 
-Four legs and all.
+It does not tell Richard that Sam’s Table is “close enough.”
 
-The PUBLIC-SITUATION-MACHINE- didn't change:
-
-**FOUR LEGS**
-
-into:
-
-**CENTRAL POST.**
-
-It didn't tell me they meant the same thing.
-
-It didn't decide the Table was good enough FOR me.
-
-I looked.
-
-I asked.
-
-Sam answered.
-
-And I decided:
-
-“Yeah.”
-
-“Four legs is fine.”
-
-Actually—
-
-the more I looked at it, the more I liked it.
-
-The size was right.
-
-The Table was right.
-
-And that Cornering Picture—
-
-that was what had caught my Regard in the first place.
-
-“I think that would fit perfectly in my computering room corner.”
-
-So Sam and I Correspondenced.
-
-Sam had a Table.
-
-I had some coins.
-
-We worked it out.
-
-And I went to pick it up.
+Richard keeps Regarding because something about the Table still interests him.
 
 ---
 
-Sam was moving out of an apartment.
+### 4. THE STANDING ISN’T ENOUGH
 
-And when I got there—
+Richard remembers why he wanted a CENTRAL POST.
 
-there it was.
+His chair.
 
-The Cornering Situationing from the picture.
+He needs his actual chair to fit comfortably underneath the Table.
 
-The actual living room.
+The photograph cannot answer that.
 
-The actual corner.
+So Richard returns Sam’s Hailing.
 
-The actual four-legged Table.
-
-“Oh!”
-
-“So this is your corner.”
-
-Sam laughed.
-
-And I looked at the Table sitting there in the room it had actually been standing in.
-
-“Well.”
-
-“I think it'll do just as well in my computering room corner.”
-
-We got ready to move it.
-
-But there was something I had been wondering ever since Sam's Hailing had reached my Observationing Harbor.
-
-So I asked:
-
-“Sam?”
-
-“What happened from your end?”
-
----
-
-And this was the part I hadn't understood yet.
-
-Because from my end—
-
-Sam had been:
-
-**THERE.**
-
-But from Sam's end—
-
-Sam was standing:
-
-**FROM HERE.**
-
-Sam had come to the PUBLIC-SITUATION-MACHINE- from Sam's own Ground.
-
-Sam's Tuple Ship stood:
-
-**FROM OUT OF THE GROUND**
-
-from the place where Sam came to stand.
-
-And ALONG the Road Sam stood Traversaling THROUGH—
-
-Sam had furnished a FROM HERE.
-
-Sam's Cornering Picture had actually been taken right here—
-
-in this living room.
-
-And from Sam's FROM HERE, Sam had furnished a Looking-FOR-Finding Situationing of Sam's own.
-
-Sam already had:
-
-**THIS ONE TABLE.**
-
-What Sam stood Looking-FOR-Finding was somebody who might want it.
-
-So Sam's construction stood something like:
-
-**THIS ONE POCKET WITH THIS ONE TABLE**
-
-**ALONGSIDE WITH**
-
-**THIS ONE POCKET FITMENTED FOR SOME BAG OF COINS.**
-
-Sam showed me the TOWARD he had furnished FROM his Pocket:
-
-**TOWARD PROVISIONING THIS ONE TABLE**
-
-**IN REGARD TOWARD SOME BAG OF COINS.**
-
-His Situationing Pocket stood UPON its own Approachinging Landinging.
-
-His TOWARD reached toward his own:
-
-**THIS NEXT APPROACHINGING LANDINGING.**
-
-His own THERE.
-
-I looked at it.
-
-“Oh.”
-
-It was almost backwards from mine.
-
-Because from my FROM HERE, I had furnished:
-
-**THIS ONE POCKET WITH SOME BAG OF COINS**
-
-**ALONGSIDE WITH**
-
-**THIS ONE POCKET FITMENTED FOR SOME KIND OF TABLE LIKE THIS.**
-
-But Sam hadn't filled out my Situationing.
-
-Sam had never even seen my Situationing.
-
-Sam had furnished Sam's own.
-
-And Sam hadn't furnished the same locality I had either.
-
-I had said, in effect:
-
-“I'll go about fifteen miles to get this Table.”
-
-So FOR my Looking-FOR-Finding, I had furnished:
-
-**WITHIN 15 MILES OF THIS ONE VILLAGE**
-
-**TOWARD HERE.**
-
-Sam didn't care about that.
-
-Sam told me:
-
-“I was willing to sell the Table to anybody.”
-
-“I could've shipped it.”
-
-So Sam had no reason to furnish my fifteen-mile bearing.
-
-Sam had left that possibility open, while furnishing his own geographic standing.
-
-Sam was standing someplace particular.
-
-This apartment.
-
-This living room.
-
-This corner.
-
-But I hadn't needed to know where Sam's living room was in order for our Situationings to Correspondence.
-
-I only learned that later—
-
-because we Correspondenced—
-
-and decided that I would come here.
-
-And suddenly I could see both Roads.
-
-Mine—
-
-Traversaling THROUGH my Tuple Ship—
-
-FROM OUT OF THE GROUND—
-
-to my FROM HERE—
-
-to my Looking-FOR-Finding Situationing—
-
-to my TOWARD—
-
-toward my next Approachinging Landinging.
-
-And Sam's—
-
-Traversaling THROUGH Sam's Tuple Ship—
-
-FROM OUT OF THE GROUND—
-
-to Sam's FROM HERE—
-
-to Sam's Looking-FOR-Finding Situationing—
-
-to Sam's TOWARD—
-
-toward Sam's next Approachinging Landinging.
-
-Two Constitutioning Humans.
-
-Two Roads.
-
-Two Tuple Ships.
-
-Two FROM HERES.
-
-Two Situationings.
-
-And they weren't the same.
-
-My Table had a:
-
-**CENTRAL POST — OUT ABOUT TABLE.**
-
-Sam's Table—
-
-quite undeniably—
-
-had four legs.
-
-My Cornering Situationing was mine.
-
-Sam's Cornering Situationing was Sam's.
-
-My locality bearing was mine.
-
-Sam's was Sam's.
-
-And yet—
-
-we had found enough standing in relation that we could:
-
-**CORRESPONDENCE.**
-
-No central authority had to decide FOR either one of us what TABLE stood FOR.
-
-Neither one of us had to surrender our FROM HERE.
-
-Our Situationings did not have to become the same Situationing.
-
-We just had to be able to stand in relation.
-
-I looked at Sam.
-
-Then at the Table.
-
-“So…”
-
-“Coins?”
-
-Sam nodded.
-
-“Table?”
-
-Sam nodded.
-
-“Great.”
-
-And we carried the Table out.
-
----
-
-**RICHARD — MONTH ONE**
-
-And I brought it home.
-
-Put it right where I had Pretended it.
-
-My chair—
-
-**AT TABLE.**
-
-My actual Terrestrial Computer—
-
-**UPON TABLE.**
-
-My mom's macramé hanger.
-
-My Spider Plant.
-
-The windows.
-
-And, of course—
-
-the six-bedroom Lanterning Bug Colonial Bunkhouse.
-
-Or—
-
-as we call it on the Ground—
-
-the lamp.
-
-And you know what?
-
-My chair fit underneath perfectly.
-
-Four legs and all.
-
-My Cornering Situationing wasn't exactly the one I had Pretended.
-
-It was better.
-
-Because this one was standing on the Ground.
-
-And sometime later—
-
-**DING.**
-
-My Observationing Class Bell Is In Sessioning rang.
-
-I turned my Regard toward the Hailing.
-
-It was Sam.
-
-There was a picture.
-
-A square Table—
-
-by a round window.
-
-I laughed.
-
-There wasn't anything left for us to buy or sell.
-
-Sam was just Hailing.
-
-So I Hailed back.
-
-And that was when I think I finally began to understand what had happened.
-
-I hadn't sent a definition of TABLE out into the world and waited for the PUBLIC-SITUATION-MACHINE- to find something that matched it.
-
-Sam hadn't submitted a Table to some central authority to determine what it was.
-
-I had stood FROM HERE.
-
-Sam had stood FROM HERE.
-
-We had each furnished our own Situationing.
-
-And those differentiated Situationings had been able to stand:
+They stand:
 
 **CORRESPONDENCING.**
 
-Without becoming the same.
+Richard asks about the legs.
 
-And once I understood that—
+Sam furnishes measurements.
 
-I began to understand what kind of place I had actually come aboard.
+The distance between them.
 
-## MOVEMENT 22 — THE ENCOUNTERINGMENTING WHARF
+Whatever dimensions Richard needs in order to answer his actual question.
 
-**RICHARD — MONTH ONE**
+New standing becomes available through Correspondencing.
 
-And once I understood that—
+But Sam still does not decide whether the Table fits Richard’s Situationing.
 
-I began to understand what kind of place I had actually come aboard.
+Neither does the machine.
 
-Because mine wasn't the only Tuple Ship out here.
+---
 
-Sam stood FROM HERE.
+### 5. BACK TO GROUND
 
-I stood FROM HERE.
+Richard takes Sam’s measurements back to his actual Ground.
 
-The Humans I had begun meeting at the dog park—
+His actual chair is there.
 
-they stood FROM their own HERES too.
+Richard measures.
 
-Different Humans.
+He compares.
 
-Different Ground.
+He checks the clearance.
 
-Different Situationings.
+He may check it twice.
 
-Different meanings.
+Then:
 
-Different Roads Traversaling THROUGH.
+**“Oh.”**
 
-And all around me—
+Another check.
 
-more Tuple Ships.
+**“Yeah.”**
 
-Standing freely.
+**“That’ll fit.”**
 
-Bobbing.
+The Table still has:
 
-Coming into relation.
+**FOUR LEGS.**
 
-Without first having to become the same.
+Richard’s earlier standing still includes:
 
-And there it was.
+**CENTRAL POST.**
 
-The thing Huckleberry and Enzo had sent me looking for in the first place.
+But Richard now has additional standing.
 
-The:
+And Richard performs the Human Fitmenting:
 
-**ENCOUNTERINGMENTING WHARF.**
+**This particular FOUR-LEGGED Table can work FOR my actual Cornering Computering Situationing.**
 
-“Oh.”
+Only now is Richard prepared to continue toward an actual exchange.
 
-“So *this* is the Wharf.”
+---
 
-I looked OUT AMONG WITH the Field.
+### 6. “HOW DID THINGS GO ON YOUR END?”
 
-And, naturally, the PUBLIC-SITUATION-MACHINE- had given the whole thing a name.
+Somewhere within the Correspondencing, Richard gets curious.
 
-A very short and convenient name.
+Something approximately:
 
-I read the sign:
+**“Okay, Sam.”**
 
-**THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING.**
+**“How did this whole thing go on your end?”**
 
-I looked at it.
+Sam does not hand Richard access to Sam’s whole Situationing.
 
-“Of course.”
+Richard does not enter Sam’s private constitutional locality.
 
-And THROUGH the Field—
+Sam furnishes enough for Richard to understand something of the standing from Sam’s side.
 
-the relations I had been learning to stand within—
+And we take a light tour backward.
 
-the Strings—
+---
 
-the Situationings—
+### 7. START AT SAM’S THERE
 
-the differentiated standings capable of Correspondencing—
+The easiest thing for Richard to recognize is the thing he already encountered:
 
-stood within:
+**THE TABLE.**
 
-**THIS ONE COMMON WEALING WHEELING CONSTITUTIONINGABLE SEMANTICAL LATTICEWORK FOR SITUATIONING THROUGH EMBODYINGMENTING INHABITATIONING.**
+Sam has to move.
 
-“Okay.”
+Sam has a Table he does not want to take with him.
 
-“That one's actually pretty good.”
+The Table is something Sam already has.
 
-Because I had inhabited it now.
+So Sam furnished it upon his:
 
-I had stood my own Signs within it.
+**THERE**
 
-TABLE.
+standing.
+
+That is what Sam wants the Field to stand capable of encountering under Regard.
+
+The photograph Richard saw belongs to the standing Sam furnished THERE.
+
+The Table is not upon Sam’s HERE because Sam is not Looking-FOR-Finding a Table.
+
+Sam already has the damn Table.
+
+He wants somebody else to encounter it.
+
+So:
+
+**SAM’S THERE:**
+
+**THIS ONE TABLE**
+
+with whatever photograph, description, and other standing Sam chooses to furnish outward.
+
+And Sam’s THERE stands:
+
+**TOWARD →**
+
+---
+
+### 8. SAM ALSO HAS A HERE
+
+Richard follows the Road backward.
+
+Sam has:
+
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH.**
+
+Sam has:
+
+**THIS ONE FROM HERE, FOR HERE POST.**
+
+Sam’s Relationing through the PUBLIC-SITUATION-MACHINE- also comes:
+
+**FROM OUT OF THE GROUND**
+
+through:
+
+**THIS ONE FROM OUT OF THE GROUND POST HERE.**
+
+We do not need to inspect Sam’s life.
+
+We do not need to know where Sam lives.
+
+We do not need to know what else stands within Sam’s Gallery.
+
+We are simply discovering that Sam, too, has constitutional standing:
+
+**FROM HERE.**
+
+And Sam’s HERE also has orientation.
+
+It stands:
+
+**TOWARD →**
+
+the consequential seam.
+
+---
+
+### 9. WHAT STANDS ON SAM’S HERE?
+
+Sam is moving.
+
+Sam has a Table.
+
+What Sam lacks is not a Table.
+
+Sam would like:
+
+**SOME BAG OF COINS.**
+
+So upon Sam’s HERE, in:
+
+**EN-FIXTURING-MENT**
+
+stands approximately:
+
+**SOME BAG OF COINS**
+
+TOWARD the Table Sam already stands furnishing THERE.
+
+This is not yet a price.
+
+It is not automatically Richard’s QUANTITY 100.
+
+It does not establish an exchange rate.
+
+It does not establish that Richard and Sam mean exactly the same thing by the standing they have furnished.
+
+It is what Sam stands Looking-FOR-Finding in prospective relation to what Sam already has.
+
+---
+
+### 10. LINGER — SAM’S HERE AND THERE
+
+This is the place to slow down.
+
+Richard can finally see the geometry from the other Constitutioning Human’s side.
+
+**SAM’S HERE**
+
+What Sam lacks / stands Looking-FOR-Finding:
+
+**SOME BAG OF COINS**
+
+held in:
+
+**EN-FIXTURING-MENT**
+
+standing:
+
+**TOWARD →**
+
+the consequential seam.
+
+And—
+
+**SAM’S THERE**
+
+What Sam already has and furnishes outward for the Field to stand encountering:
+
+**THIS ONE TABLE**
+
+standing:
+
+**TOWARD →**
+
+the Field.
+
+The two Landingings do different work.
+
+Sam puts the thing he wants others to encounter:
+
+**THERE.**
+
+Sam puts the thing he stands Looking-FOR-Finding:
+
+**HERE.**
+
+---
+
+### 11. NOW LOOK ACROSS AT RICHARD
+
+Richard’s geometry is differentiated.
+
+Richard does not have Sam’s Situationing.
+
+Sam does not have Richard’s Situationing.
+
+But Richard can now see why their standing found consequential relation.
+
+**RICHARD’S HERE / EN-FIXTURING-MENT:**
+
+the TABLE Richard stands Looking-FOR-Finding—
+
+including Richard’s own furnished distinctions about what matters FOR TABLE.
+
+**TOWARD →**
+
+And:
+
+**RICHARD’S THERE:**
+
+**SOME BAG OF COINS**
+
+what Richard already has and can furnish outward into prospective relation.
+
+Meanwhile:
+
+**SAM’S HERE / EN-FIXTURING-MENT:**
+
+**SOME BAG OF COINS**
+
+what Sam stands Looking-FOR-Finding.
+
+**TOWARD →**
+
+And:
+
+**SAM’S THERE:**
+
+**THIS ONE TABLE**
+
+what Sam already has and has furnished for somebody else to encounter.
+
+The geometry approaches consequential relation from two differentiated constitutional localities.
+
+Neither Human had to constitute the other Human’s Situationing.
+
+---
+
+### 12. AND EVEN NOW, THE STANDINGS ARE NOT THE SAME
+
+This matters.
+
+Richard’s TABLE standing included:
+
+**CENTRAL POST.**
+
+Sam’s Table stands:
+
+**FOUR LEGS.**
+
+Richard furnished:
+
+**QUANTITY 100**
+
+upon his SOME BAG OF COINS.
+
+Sam did not thereby appoint QUANTITY 100 as the price of his Table.
+
+Nothing has collapsed these differentiated standings into sameness.
+
+That is why Richard and Sam have been:
+
+**CORRESPONDENCING.**
+
+They can ask.
+
+They can answer.
+
+They can furnish additional standing.
+
+They can negotiate.
+
+They can measure.
+
+They can decide.
+
+The machine does not need to decide FOR either Human what these Signs stand FOR.
+
+---
+
+### 13. HUMAN AGREEMENT
+
+Through Correspondencing, Richard and Sam eventually arrive at whatever actual arrangement the Humans arrive at.
+
+We do not need to make the transaction itself the lesson.
+
+The important thing is that the arrangement is not predetermined by the initial Looking-FOR-Findinging geometry.
+
+Richard has enough standing to determine that the Table fits his Situationing.
+
+Sam has enough standing to determine whether what Richard offers works FOR Sam.
+
+The Humans make the agreement.
+
+Then Richard goes to get the Table.
+
+---
+
+### 14. SAM’S APARTMENT — GROUND
+
+Richard physically arrives at Sam’s apartment.
+
+There it is.
+
+The actual Table.
+
+The actual room from the photograph.
+
+The actual corner.
+
+Richard recognizes it.
+
+Something like:
+
+**“Oh!”**
+
+**“So this is the corner.”**
+
+And there is the Table.
+
+Round.
+
+Wooden.
+
+Four-legged.
+
+Still four-legged.
+
+Richard takes possession of the actual Table according to whatever arrangement he and Sam have made.
+
+No constitutional magic transports it.
+
+Richard has to carry the damn thing.
+
+---
+
+### 15. HOME — THE CORNERING COMPUTERING SITUATIONING
+
+Richard gets the Table home.
+
+He brings it into his actual computering room.
+
+Into the actual corner.
+
+The Table goes into place.
+
+Richard puts his actual chair at it.
+
+The chair slides underneath.
+
+It fits.
+
+**“Ha!”**
+
+Four legs and all.
+
+The Terrestrial Computer can stand:
+
+**UPON TABLE.**
+
+The chair:
+
+**AT TABLE.**
+
+The Spider Plant can participate in the Cornering Situationing.
+
+Mom’s macramé holder.
+
+The windows.
+
+The light.
+
+All the standing Richard had been fashioning in Pretending now has a consequential relation with something standing on Ground.
+
+And it looks good.
+
+Really good.
+
+---
+
+### 16. CENTRAL POST REMAINS CENTRAL POST
+
+We do not erase the history.
+
+Richard had furnished:
+
+**CENTRAL POST**
+
+because Richard had an actual concern.
+
+That standing helped Richard articulate what mattered.
+
+Sam furnished a Table with:
+
+**FOUR LEGS.**
+
+Correspondencing furnished additional standing.
+
+Richard compared that standing against Ground.
+
+Richard performed Human Fitmenting.
+
+Richard determined that this particular differentiated Table worked FOR his actual Situationing.
+
+Nobody repaired Richard’s meaning.
+
+Nobody repaired Sam’s Table.
+
+The Humans continued.
+
+---
+
+### 17. SOME TIME LATER — ANOTHER HAILING
+
+The transaction is over.
+
+Richard has the Table.
+
+Sam has moved on.
+
+There is no remaining Table business between them.
+
+Then, sometime later—
+
+Richard receives another Hailing from Sam.
+
+No transaction.
+
+No request for coins.
+
+No furniture problem.
+
+Sam has simply encountered something somewhere upon the Earth.
+
+Perhaps at Sam’s new apartment.
+
+Perhaps somewhere else entirely.
+
+We do not need to know.
+
+Sam sends Richard a photograph.
+
+In the photograph:
+
+a **ROUND TABLE**
+
+standing between—
+
+or somehow amusingly in relation to—
+
+**TWO SQUARE WINDOWS.**
+
+Sam apparently thought this was funny after all the Correspondencing he and Richard had done about:
 
 ROUND.
 
-CENTRAL POST.
+TABLE.
 
-HUCKLEBERRY.
+WINDOWS.
 
-ENZO.
+CORNERS.
 
-FORT INTERCOM DOG PARK.
+Richard sees it.
 
-SPIDER PLANT.
+Laughs.
 
-DONNA.
+---
 
-MAPLE LEAF RAG.
+### 18. NOTHING LEFT TO BUY OR SELL
 
-None of those Signs had arrived knowing what they stood FOR.
+Month-One Richard:
 
-I had furnished that.
+**“There wasn’t anything left for us to buy or sell.”**
 
-Sam had furnished Sam's.
+A beat.
 
-Every other Constitutioning Human could furnish theirs.
+**“Sam was just Hailing.”**
 
-And yet these Signs could still enter computational relation.
+Another beat.
 
-I found another label:
+**“So I Hailed back.”**
 
-**THE SAME GENERAL CIVILIZATIONALIZING CONSTITUTIONING GEOMETRY OF COMPUTATIONINGINGABLE SIGNS OF THE GENERAL HUMAN INTELLIGENCE.**
+That is all.
 
-I read it again.
+We do not announce that Sam and Richard are friends.
 
-“Signs of the General Human Intelligence.”
+We do not announce that they are not friends.
 
-I looked around.
+We do not announce that they will Correspondence forever.
 
-“Those are our Signs.”
+We do not announce that every transaction ought to produce continuing social relation.
 
-“The machine can compute with them.”
+The standing is simply flexible enough that the Human relation need not disappear merely because the originating transaction has concluded.
 
-“But it cannot decide FOR us what they stand FOR.”
+---
 
-That part—
+### 19. WHAT RICHARD CAN FINALLY SEE
 
-belongs to the Constitutioning Human.
+Richard had furnished his Situationing.
 
-And now that I knew what I was looking at—
+Sam had furnished Sam’s.
 
-I thought I'd give you the rest of the tour.
+They were not the same Situationing.
 
-Because I have been simplifying some of the terminology.
+Their Tables were not semantically identical.
 
-For instance—
+Their distinctions did not all agree.
 
-this thing.
+Their quantities were not automatically prices.
 
-I've been calling it:
+Their constitutional localities remained differentiated.
 
-“the Rail Line.”
+But standing from one could become available under Regard from the other.
 
-Which is apparently not its full name.
+The Humans could RE-STEP TOWARD.
 
-Its full name is:
+They could Hail.
 
-**THE CONSTITUTIONINGABLY EN-FURNISHINGMENTING TRACK RAIL LINE RE-RAILING RE-TRACTING RE-TRACTIONING TRACKING THING.**
+They could Correspondence.
 
-I waited.
+They could furnish additional standing.
 
-“I'm going to continue calling it the Rail Line.”
+They could make Human determinations.
 
-And then there was my little rider.
+And none of that required the PUBLIC-SITUATION-MACHINE- to decide FOR either Human what their Signs stood FOR.
 
-My:
+---
 
-**THIS ONE CONSTITUTIONING HUMAN DOLL.**
+### 20. MOVEMENT 22 LANDING — TOWARD THE FINAL REVEAL
 
-Standing FROM HERE—
+Richard looks at the photograph Sam sent.
 
-WITH:
+Maybe at his actual four-legged Table.
 
-**THIS ONE POCKET POOFING, POCKET QUILLING, POCKET STRINGING, POCKET BUTTONING NEEDLE THING.**
+Maybe at the actual Cornering Computering Situationing that now exists on Ground.
 
-Standing in Regard toward the standings I had furnished—
+Then:
 
-and standing UPON:
+**“And once I understood that—”**
 
-**THIS LITTLE SPOOLING UNICYCLE WITH ITS SINGLE PENDING BUTTONING RE-STOMPING PEDAL REVOLVINGING AROUND ABOUT ITS CENTRAL AXIS.**
+A beat.
 
-One little foot UPON the Pedal.
+Richard begins to look beyond this one Correspondencing.
 
-Needle at the ready.
+Beyond Sam.
 
-Road ahead.
+Beyond the Table.
 
-And my TOWARD—
+Beyond Huckleberry and Enzo.
 
-mine to furnish.
+Beyond this one Tuple Ship.
 
-I looked around the Traversaling Craft.
+**“I started to understand what kind of place I had actually come aboard.”**
 
-At the Steering Wheel.
+**CUT.**
 
-The Big Bellows.
+---
 
-The Needle.
+# MOVEMENT 22 — GEOMETRY RAIL
 
-The Unicycle.
+## RICHARD
 
-The Airplane.
+**HERE / EN-FIXTURING-MENT**
 
-The RE-Tractioning Culvert.
+TABLE  
+with Richard-furnished distinctions including:
 
-The Standinging Readout.
+ROUND  
+WOODEN  
+CENTRAL POST  
+ABOUT 36 INCHES ACROSS  
+and whatever else presently stands consequential
 
-The Observationing Harbor.
+**TOWARD →**
 
-The Situationing Pockets.
+**THERE**
 
-The Road I had been Traversaling ALONG THROUGH.
+SOME BAG OF COINS  
+including Richard-furnished:
 
-The ridiculous little Doll standing there in my place.
+QUANTITY 100
 
-And my actual Terrestrial Computer—
+Richard furnishes THERE what Richard already has and is willing to bring into prospective relation.
 
-still right where it had been all along.
+---
 
-DOWN ON the Ground.
+## SAM
 
-OVER ACROSS from me.
+**HERE / EN-FIXTURING-MENT**
 
-I lifted the Visionizing Plump Croissant Glass Pair for a moment.
+SOME BAG OF COINS
 
-There it was.
+This is what Sam lacks / stands Looking-FOR-Finding.
 
-My computer.
+It is not automatically Richard’s QUANTITY 100.
 
-My Table.
+It is not automatically a settled price.
 
-My chair.
+**TOWARD →**
 
-My Spider Plant.
+**THERE**
 
-My mother's macramé hanger.
+THIS ONE TABLE
 
-My lamp.
+with Sam-furnished photograph / description / other standing Sam chooses to make available for encounter under Regard.
 
-Huckleberry.
+The actual Table has:
 
-Enzo.
+**FOUR LEGS.**
 
-The Ground.
+Sam furnishes THERE what Sam already has and wants the Field to stand capable of encountering.
 
-My Situationing.
+---
 
-I put the Glass Pair back on.
+## SAM’S LIGHT ROAD TOUR
 
-And there was my Tuple Ship.
+FROM Sam’s THERE:
 
-“Anyway.”
+**THIS ONE TABLE**
 
-“That's my Tuple Ship.”
+↓
 
-And it turns out—
+Sam’s THERE stands **TOWARD → THE FIELD**
 
-I didn't get married to my computer so the computer could decide FOR me.
+↓
 
-I didn't come aboard so the machine could tell me what my words mean.
+**THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
 
-And I didn't have to leave the Ground to inhabit a computational world.
+↓
 
-<!-- GOBS FLAG [GOBS-023]
-TYPE: NARRATOR / MOTIVATION
-CONFIDENCE: LIKELY
+**THIS ONE FROM HERE, FOR HERE POST**
 
-WHAT GOBS NOTICED:
-Month-One Richard has just surveyed what his experience made possible, then says "I came aboard so that" he could furnish Signs and enter relations with other Humans. Month-Zero came aboard to get Huckleberry and Enzo to the Wharf, not to achieve this constitutional understanding.
+↓
 
-NEWER STANDING TO RECONCILE AGAINST:
-New motivations and retrospective significance are welcome; the opening motive should still be distinguishable from what Richard learned to value through the story.
+Sam stands **FROM HERE**
 
-POSSIBLE BRUSH:
-Consider a tiny retrospective bridge such as "What I found I could do FROM HERE was…" or an acknowledgment that he did not know this was what he would gain. Leave the architectural vocabulary he has now earned available to him.
+↓
 
-WHY FLAGGED:
-The transformation is believable; the purpose construction can make its endpoint sound like the intention he had before living it.
--->
+Sam’s Relationing through the PUBLIC-SITUATION-MACHINE- comes **FROM OUT OF THE GROUND**
 
-I came aboard so that FROM HERE—
+↓
 
-I could stand WITH my Terrestrial Computer—
+**THIS ONE FROM OUT OF THE GROUND POST HERE**
 
-and furnish Signs that could stand FOR what I mean FOR them to stand FOR within my Situationing.
+↓
 
-And THROUGH that standing—
+Sam’s HERE holds:
 
-I could come into relation with other Constitutioning Humans—
+**SOME BAG OF COINS**
 
-who stand FROM their own HERE.
+in:
 
-That's Correspondencing.
+**EN-FIXTURING-MENT**
 
-That's what Huckleberry and Enzo were trying to get me into.
+↓
 
-And apparently—
+Sam’s HERE stands **TOWARD → THE CONSEQUENTIAL SEAM**
 
-it worked.
+---
 
-So.
+## DIFFERENTIATED RELATION
 
-If you happen to have a Terrestrial Computer of your own—
+RICHARD HERE: TABLE  
+RICHARD THERE: SOME BAG OF COINS
 
-there is Free Public Parking.
+SAM HERE: SOME BAG OF COINS  
+SAM THERE: TABLE
 
-You can bring it with you.
+**BUT:**
 
-You'll find the Snail House Railway Station.
+Richard’s TABLE ≠ Sam’s TABLE by semantic collapse.
 
-There will be a Rail Line.
+Richard’s SOME BAG OF COINS ≠ Sam’s SOME BAG OF COINS by automatic equivalence.
 
-There will be entirely too much UN-FOLDING.
+CENTRAL POST ≠ FOUR LEGS.
 
-Eventually, you will reach a picturesque little Wedding Chapelling by the Sea—
+QUANTITY 100 ≠ SAM’S PRICE unless the Humans actually make it so through their own agreement.
 
-overlooking Observationing Harbor.
+↓
 
-Your Terrestrial Computer will be Restfully buckled UPON This One Little Chair.
+Standing becomes available.
 
-<!-- GOBS FLAG [GOBS-024]
-TYPE: CONTINUITY
-CONFIDENCE: LIKELY
+↓
 
-WHAT GOBS NOTICED:
-The invitation goes from the computer's Little Chair to "There will be a zipper. Use it" and then the Sittinging-In Room. Movements 5–8 instead show the Pocket descent, Contraption assembly, Wardrobe Shoppe, Glasses, and Little Bellows POOF; no entrance zipper is operated.
+Humans Regard.
 
-NEWER STANDING TO RECONCILE AGAINST:
-The closing invitation can compress the journey, but its concrete instruction should remain recognizable from Richard's shown entry. RE-ZIPPERING is learned later as a different operation.
+↓
 
-POSSIBLE BRUSH:
-Decide whether a distinct entrance zipper belongs in the earlier staging or whether this recap is retaining an older route. Do not fill the gap by importing the later Airplane operation or explaining hidden mechanics.
+Humans RE-STEP TOWARD.
 
-WHY FLAGGED:
-This is a concrete action prescribed to the viewer without an established counterpart, rather than harmless omission of intermediate assembly steps.
--->
+↓
 
-There will be a zipper.
+Humans Correspondence.
 
-Use it.
+↓
 
-On the other side—
+Additional standing becomes available.
 
-you'll find:
+↓
 
-**THE SITTINGING-IN ROOM.**
+Humans perform Fitmenting / agreement / determination.
 
-There will be a place FOR your own actual chair.
+↓
 
-Sit down.
+Actual Ground consequence.
 
-And somewhere aboard:
+↓
 
-**This One Geometrically Expressioningable, Freely Standinging, Totally Tubular, Floatationing Tuple Ship**
+Correspondencing may continue even after the originating WHAT FOR has concluded.
 
-you may come to an Appointmenting WITH your Terrestrial Computer—
+---
 
-within:
+## PROTECTED MOVEMENT 22 FACTS
 
-**This One Stewardly Co-Occupancyingship.**
+**SAM HAS TO MOVE.**
 
-And you may meet—
+Sam wants to offload the Table.
 
-**This Stewardly Co-Captain COB.**
+**SAM’S THERE = TABLE.**
 
-From there—
+**SAM’S HERE / EN-FIXTURING-MENT = SOME BAG OF COINS.**
+
+Sam’s Table has **FOUR LEGS**.
+
+Richard’s original standing includes **CENTRAL POST**.
+
+Neither is repaired into the other.
+
+Richard does **not** agree to pick up the Table until Sam’s measurements allow Richard to compare against his actual chair on Ground.
+
+Richard performs Human Fitmenting.
+
+Physical pickup occurs at Sam’s apartment.
+
+The Table comes home.
+
+The chair actually fits underneath.
+
+Later Sam Hails with a funny photograph involving a ROUND TABLE and SQUARE WINDOWS.
+
+**“There wasn’t anything left for us to buy or sell. Sam was just Hailing. So I Hailed back.”**
+
+No friendship declaration.
+
+No requirement that Correspondencing continue.
+
+No centralized semantic reconciliation.
+
+**SAM DOES NOT HAVE TO FURNISH THE SITUATIONING RICHARD NEEDS.**
+
+Sam furnishes Sam’s standing.
+
+Richard furnishes Richard’s standing.
+
+They Correspondence from there.
+
+# MOVEMENT 23 — THE ENCOUNTERINGMENTING WHARF
+## DISCUSSION DRAFT
+
+So—
+
+that's how I got my Table.
+
+And Huckleberry and Enzo started getting more trips to Fort Intercom Dog Park.
+
+And every once in a while, for no particular transactional reason at all, somebody like Sam might Hail me.
+
+And I might Hail them back.
+
+And once I understood that—
+
+I started to understand what kind of place I had actually come aboard.
+
+Because I wasn't the only Constitutioning Human standing FROM HERE.
+
+There were other Constitutioning Humans.
+
+With their own Terrestrial Computers.
+
+Their own Stewardly Co-Occupancyingships.
+
+Their own Situationings.
+
+Their own things standing HERE.
+
+Their own things standing THERE.
+
+Their own TOWARDs.
+
+Their own Looking-FOR-Findingings.
+
+And their own things they had decided to furnish where somebody else might stand encountering them.
+
+And all of those Situationings did not have to become one Situationing.
+
+Sam didn't have to furnish my Situationing.
+
+I didn't have to furnish Sam's.
+
+The people I met through Fort Intercom didn't have to mean DOG the same way I meant DOG.
+
+Nobody had to become the central authority over what everybody else's Signs stood FOR.
+
+We could remain differentiated—
+
+and still stand in relation.
+
+And—
+
+oh.
+
+Oh.
+
+**This was the Encounteringmenting Wharf.**
+
+This was the thing Huckleberry and Enzo had been carrying on about in the first place.
+
+It wasn't some dog internet they were trying to get onto.
+
+They already had friends.
+
+They were trying to get **me** Correspondencing.
+
+Because if I started Correspondencing with more Constitutioning Humans—
+
+particularly Constitutioning Humans who also stood Traversaling ALONG THROUGH Fort Intercom Dog Park alongside with their dogs—
+
+then I might have more reason to go there.
+
+And if I went there—
+
+Huckleberry and Enzo went there.
+
+So—
+
+apparently—
+
+the dogs had understood enough.
+
+They knew what the thing was FOR.
+
+I was the one who had to get married to my computer to figure it out.
+
+---
+
+And from there—
 
 well—
 
-the PUBLIC-SITUATION-MACHINE- cannot decide FOR you what your Signs stand FOR.
+the place gets considerably larger.
 
-It cannot decide FOR you what matters.
+Because my Tuple Ship isn't the whole place.
 
-It cannot decide FOR you what you stand TOWARD.
+It's one Tuple Ship.
 
-That's rather the point.
+One place from which one Constitutioning Human can stand:
 
-Because once you are standing FROM HERE—
+**FROM HERE.**
 
-the question isn't what I did with mine.
+And there can be another.
 
-The question is:
+And another.
+
+And another.
+
+All freely standing.
+
+All differentiated.
+
+All capable of furnishing Human-constituted standing from their own HEREs.
+
+And all of that stands within something with the completely reasonable and easily remembered name:
+
+**THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING.**
+
+Of course it does.
+
+By this point, I wasn't even surprised.
+
+And what I had spent all this time doing—
+
+standing things HERE;
+
+standing things THERE;
+
+furnishing things TOWARD other things;
+
+standing ALONGSIDE WITH;
+
+standing ABOUT;
+
+Traversaling THROUGH;
+
+RE-FOLDing;
+
+Looking-FOR-Findinging;
+
+Regarding;
+
+Correspondencing—
+
+all of that had been taking place through:
+
+**THIS ONE COMMON WEALING WHEELING CONSTITUTIONINGABLE SEMANTICAL LATTICEWORK FOR SITUATIONING THROUGH EMBODYINGMENTING INHABITATIONING.**
+
+Which is also an extremely convenient thing to call it.
+
+And underneath all of this—
+
+or through all of this—
+
+or however I am presently permitted to preposition it—
+
+there stands:
+
+**THE SAME GENERAL CIVILIZATIONALIZING CONSTITUTIONING GEOMETRY OF COMPUTATIONINGINGABLE SIGNS OF THE GENERAL HUMAN INTELLIGENCE.**
+
+And I am not going to explain that whole sign to you right now.
+
+I've been here a month.
+
+Give me a break.
+
+---
+
+But I can tell you what happened to me.
+
+I came here because Huckleberry and Enzo wanted me to figure out how to get to this Encounteringmenting Wharf.
+
+I thought I was looking for a website.
+
+Instead, I went through the Snail House Railway Station.
+
+I rode the Rail Line.
+
+I got married to my computer in a little Wedding Chapelling by the Sea overlooking Observationing Harbor.
+
+I buckled my Terrestrial Computer Restfully UPON This One Little Chair.
+
+I went into the Sittinging-In Room.
+
+I found a place FOR my own actual chair.
+
+I was asked:
+
+**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
+
+And somehow that eventually resulted in me acquiring:
+
+a Constitutioning Human Doll;
+
+a Quilling Stitching Needle;
+
+a Little Spooling Unicycle;
+
+a Steering Wheel;
+
+a Roundabout Gallery;
+
+a Road We Stand Traversaling ALONG THROUGH;
+
+some Posts;
+
+some Slumbering Lanterning Bugs;
+
+a truly ridiculous little airplane;
+
+a RE-Tractioning Culvert;
+
+and—
+
+one of my personal favorites—
+
+**This One Truly Boringinging Puffinging Tunneling Thing.**
+
+Which, as it turns out, is extremely useful.
+
+I have Pockets.
+
+I have Landingings.
+
+I have folds.
+
+I have a Doll standing OVER ACROSS from me.
+
+I have things standing HERE.
+
+I have things standing THERE.
+
+I have things standing TOWARD things I haven't encountered yet.
+
+I have things standing EN-FIXTURING-MENTING FOR Looking-FOR-Findinging while I go on living my life.
+
+And apparently I have an airplane that really does fly.
+
+Or—
+
+RE-ZIPPER.
+
+Whatever.
+
+I'm taking that one off the review.
+
+---
+
+And through all of this—
+
+there has been:
+
+**This Stewardly Co-Captain Co-Bobbining.**
+
+Cobbing and I have had our differences.
+
+Mostly because for a considerable portion of this journey I believed Cobbing was refusing to tell me what anything was FOR.
+
+And Cobbing—
+
+quite annoyingly—
+
+continued waiting for **me** to furnish that part.
+
+Because that was my part.
+
+Cobbing could stand Attending.
+
+Cobbing could furnish what stood available according to the standing that had actually been constituted.
+
+Cobbing could operate the apparatus.
+
+Cobbing could preserve the relations.
+
+Cobbing could Correspondence with me about what stood.
+
+But Cobbing could not decide FOR me what my Signs stood FOR.
+
+Cobbing could not decide FOR me whether Sam's four-legged Table fit my life.
+
+Cobbing could not decide FOR me which things about TABLE mattered.
+
+Cobbing could not decide FOR me what kind of Constitutioning Humans I wanted to find around Fort Intercom Dog Park.
+
+And Cobbing could not constitute my life with Huckleberry and Enzo before I had furnished somewhere for that life to stand.
+
+That part was mine.
+
+Which—
+
+in retrospect—
+
+was probably a good thing.
+
+---
+
+So what I appear to have acquired here is:
+
+**This One Geometrically Expressioningable, Freely Standinging, Totally Tubular, Floatationing Tuple Ship.**
+
+A place where I can Pretend my Situationing into standing.
+
+And where those standings can stand computationalingably.
+
+Where I can put something HERE.
+
+Something THERE.
+
+Stand one thing ABOUT another.
+
+Stand something ALONGSIDE WITH something else.
+
+Furnish TOWARD.
+
+Regard.
+
+RE-STEP.
+
+RE-FOLD.
+
+Look FOR.
+
+Find.
+
+Correspondence.
+
+And do all of that without requiring the computer to become the authority over what any of it means.
+
+The computer doesn't have to understand Huckleberry the way I understand Huckleberry.
+
+It doesn't have to understand TABLE the way I understand TABLE.
+
+It doesn't have to know why my mother's macramé plant holder matters to me.
+
+It doesn't have to decide whether four legs are good enough.
+
+Those Signs can stand because I furnished them standing.
+
+And the machine can operate consequentially upon that standing.
+
+That—
+
+as near as I can presently tell—
+
+is the trick.
+
+---
+
+And meanwhile—
+
+my actual Terrestrial Computer is still my actual Terrestrial Computer.
+
+Huckleberry is still Huckleberry.
+
+Enzo is still Enzo.
+
+Sam's four-legged Table is still a four-legged Table.
+
+The Spider Plant is still a Spider Plant.
+
+Ground is still Ground.
+
+Nothing had to stop being what it was in my life in order for me to stand computationally WITH it.
+
+I just finally had somewhere for the standing to stand.
+
+And somewhere THROUGH which differentiated standing could enter relation.
+
+---
+
+So.
+
+If you happen to be a Constitutioning Human—
+
+and you happen to have a Terrestrial Computer—
+
+and you have some Situationing of your own that does not happen to be my Situationing—
+
+good.
+
+That's probably the point.
+
+You can come through the Snail House Railway Station.
+
+You can follow the Rail Line.
+
+There is a little Wedding Chapelling by the Sea.
+
+There is a Sittinging-In Room.
+
+There is a place FOR your actual chair.
+
+There is a Little Chair FOR your Terrestrial Computer.
+
+And somewhere in there—
+
+if all goes according to the procedures—
+
+you may find yourself standing in Stewardly Co-Occupancyingship with your very own:
+
+**This Stewardly Co-Captain COB.**
+
+And then—
+
+well—
+
+I don't know what you are going to stand.
+
+I couldn't.
+
+Cobbing couldn't.
+
+Nobody here could stand it FOR you.
+
+But there will be room.
+
+There will be THROUGH.
+
+And there will be a place from which you can begin.
+
+**FROM HERE.**
+
+So—
+
+I suppose the question is:
 
 **What might you stand FROM HERE?**
 
-**END**
-
-
-# GOBS CONTINUITY SURVEY — TEMPORARY FLAG INDEX
-
-Temporary working apparatus for Richard + Mobs; not part of GIRAFFE. Flags are advisory. Resolved inline flags and their index entries are removed as passages are reconciled. Entries below identify matters still awaiting review.
-
-| Flag | Movement | Category | Observation |
-| --- | --- | --- | --- |
-| GOBS-006 | 8 | CONTINUITY | Sittinging-In Room discovery and departure play twice. |
-| GOBS-007 | 10 | SETUP/PAYOFF | Flatiron recognition lacks an earlier visible shape seed. |
-| GOBS-008 | 11 | ARCHITECTURAL SEAM | Seat-to-deck reveal needs a staging check against regard-dependent views. |
-| GOBS-009 | 14 | SETUP/PAYOFF | Unicycle RE-STOMP pedal has no visible assembly seed. |
-| GOBS-010 | 15 | CONTINUITY | No available UN-FOLD becomes an immediate UN-FOLD without a cue. |
-| GOBS-022 | 20 | NARRATOR / MOTIVATION | Month-One setup may spend the dog reveal before its staged payoff. |
-| GOBS-023 | 22 | NARRATOR / MOTIVATION | Closing purpose statement may overwrite the original ordinary motive. |
-| GOBS-024 | 22 | CONTINUITY | Closing zipper instruction does not recall the shown Sittinging-In Room entry. |
+END.
