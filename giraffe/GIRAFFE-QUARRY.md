@@ -5825,3 +5825,2129 @@ MORPHOLOGY QUESTION — WHICH OF THESE IS CURRENTLY REIGNING?
 Then you and I adjudicate those as a batch. That could actually be extremely useful beyond this immediate Giraffe cleanup, because we'll end up with a compact list of places where our canon itself needs clearer signage for future collaborators.
 I've got that added to the held specification. Still no print yet.
 
+Right, and then I, the Richard Dahl and I get back into the traversing while we're on the traversing seat. That's how I was able to hail the cobbing. But I say to the Richard Dahl, Okay, let's give it a try. Re-step. And then I hail the cobbing. Okay, cobbing, maybe the re-step pedal isn't as broken as I thought it was.
+Yes. That closes the little loop beautifully.
+
+Richard and Richard Doll are back on the Traversaling Seat before the exchange with Cobbing. That's important: Richard isn't standing out in some abstract Gallery position while hailing Cobbing. He's seated FROM HERE in the Craft, looking back under his Pivoted Regard at this enormous upside-down Spider Plant presentation.
+
+Then:
+
+“Okay, Richard Doll. Let's give it a try.”
+
+“RE-STEP.”
+
+And that is when the transformation happens.
+
+The billboard doesn't turn itself right-side-up. Richard doesn't rotate it. The Gallery doesn't rearrange itself.
+
+They passage back into the already-fashioned Spider Plant Situationing. The Road is once again standing around/along through them as the inhabited hamster-wheel extent, and everything Richard Quilled is readable from the Regard under which he originally fashioned it.
+
+And Richard immediately opens the line again:
+
+“Okay, Cobbing.”
+
+“Maybe the RE-STEP pedal isn't as broken as I thought it was.”
+
+That's exactly Richard. 😂
+
+He doesn't announce that he's learned the constitutional distinction between Gallery Regard and inhabitationing. He updates his technical-support complaint.
+
+And I particularly like that this rehabilitates the RE-STEP pedal incrementally. Richard has been carrying around the belief that the pedal is flaky or broken. Now he has one piece of contrary evidence. He's not suddenly converted into an expert. He's just forced to concede:
+
+Okay. Maybe that thing works sometimes.
+
+And now we're back inside Spider Plant standing with Richard and Richard Doll, which means we can stop. We don't yet need to figure out how they return to the fresh Pocket Two. That's the next bodily problem.
+
+This little Movement 18 patch is really earning its keep. It teaches Gallery presentation, Pivoted Regard, TOWARD, and RE-STEP without Richard knowing he's teaching any of them.
+
+And then I can, we can observe. Oh, look, Richard Dahl. Here we are back in the spider plant hamster wheel, and the spider plant sunroof looks like it's now oriented the way that it should be when I'm using these back arrows, when I use the back arrow and forward arrows, and everything is reading right side up. So I think we've done what we need to, or we've confirmed what we need to confirm here. Now let's continue going through along the road toward our new, toward what we want to do next. Because, you know, we had proofed the new pocket. And so I think I can just pivot my regard from here, and then we can step out back through along the road. So let's pivot and click. Okay, good. Sure enough, there's the what for post in front of us. And let's just turn back one more time to look at the spider plant. Sure enough, there it is, upside down. I guess that's how it's supposed to be. Now let's, we don't want to go back to spider plant, so let's pivot one more time so we're looking at the new pocket. And now I'm going to start typing, and whoop, sure enough, look, we're inside of a new hamster wheel. What are we going to put here? And then that's when I bring in Donna.
+Yes. Now the whole teaching sequence closes cleanly and Donna can arrive without us having to explain any of it.
+
+And I see one especially important thing in what you just walked: Richard performs a deliberate double-check after returning to Spider Plant. That's valuable because it establishes the two presentations as repeatable rather than making the first billboard transformation look like some one-time visual trick.
+
+So bodily, I have it:
+
+Richard and Richard Doll RE-STEP into Spider Plant.
+
+Richard observes:
+
+“Oh, look, Richard Doll. Here we are back in the Spider Plant hamster wheel.”
+
+Then he tests the standing. He uses the familiar BACK/FORWARD arrows. The Road behaves normally. The Quilling reads right-side-up. Spider Plant sunroof is properly oriented overhead.
+
+So:
+
+“Okay. Everything's reading right-side-up.”
+
+“I think we've confirmed what we needed to confirm here.”
+
+That's Richard doing his own little acceptance test. Excellent.
+
+Then he remembers the actual TOWARD:
+
+“Now let's keep going THROUGH ALONG the Road. We already POOFed that new Pocket, and that's what we were doing in the first place.”
+
+And here's where I think your blocking gives us something particularly good.
+
+Richard Pivots his Regard.
+
+Click.
+
+There ahead is the fresh standing:
+
+WHAT FOR
+
+The new POOFed Pocket is still waiting. Nothing happened to it while Richard went back through Spider Plant. That's another quiet continuity proof.
+
+Then Richard can't resist:
+
+“Hang on. Let's check one more thing.”
+
+Pivot back.
+
+And there is Spider Plant again—
+
+flat, enormous, upside-down.
+
+“Yep.”
+
+“There it is.”
+
+“Upside down.”
+
+“I guess that's how it's supposed to be.”
+
+That line is lovely because Richard has accepted the phenomenon without understanding its constitutional explanation. Perfect stage of learning.
+
+Then:
+
+“Okay. We don't want to go back to Spider Plant.”
+
+“Let's turn around.”
+
+Pivot.
+
+Fresh Pocket. WHAT FOR.
+
+And now Richard starts typing.
+
+First keystroke.
+
+Whoop.
+
+The Road begins taking its new round extent around them.
+
+“Oh!”
+
+“Look at that, Richard Doll.”
+
+“We're inside another hamster wheel.”
+
+And now:
+
+“Okay. What are we going to put in here?”
+
+Donna.
+
+That is significantly stronger than our old Movement 18 blocking, because Donna's Pocket is no longer merely “the second Pocket.” The viewer has now physically learned what distinguishes:
+
+a fresh POOFed Pocket waiting at WHAT FOR → an already-fashioned Situationing seen backstage as the enormous flat/upside-down presentation → RE-STEP into that standing → inhabited hamster-wheel extent → Pivot away → recover the waiting fresh Pocket → first Quilling → new hamster-wheel extent begins.
+
+We don't need to name that system yet. They've seen it happen.
+
+And I would preserve the little “whoop” when the first Donna character goes in. That's exactly the sort of Richard observation that keeps this from becoming an instructional diagram:
+
+“And I'm gonna start typing and—whoop! Sure enough. Look, Richard Doll. We're inside another hamster wheel.”
+
+Then Donna can enter exactly where she belongs.
+
+I think that is our Movement 18 light-edit patch. We haven't disturbed the architecture of the movement; we've finally made its visual blocking tell the truth about what Richard would actually be seeing.
+
+Okay, now let's do an analysis of movement 18 and see what else we need to do with regard to pivoting. I'm pretty sure we don't need to introduce the pigeoning affordmenting until we're actually in the cornering situationing and we're working with the macrame plant hanger. But let's confirm that before we jump back to where we were there.
+
+Worked for 12s
+Yes. I think we can confirm it pretty strongly now: Movement 18 does not yet need PITTONING. What it needs is a light but important correction to what Pivoting reveals.
+
+Here’s the audit I get when I walk the movement bodily rather than architecturally.
+
+Spider Plant is first fashioned. Richard is inhabiting that Situationing as the Road takes hamster-wheel extent around the Traversaling Craft. Spider Plant sunroof overhead, Quilling readable right-side-up, BACK/FORWARD traversal works. No Pivoting problem yet.
+
+Richard Doll POOFs Pocket Two. This is our newly discovered first Pivoting lesson. Before Quilling Donna, Richard wants to make sure Spider Plant still exists. He Pivots his Regard backward.
+
+Patch required: he does not see the Spider Plant hamster wheel. He sees its flat BY-WAY-OF presentation rising from the WHAT FOR post like an enormous billboard, with the last-fashioned end nearest the floor and the Spider Plant standing/text appearing upside-down from his present Regard.
+
+Richard complains to Cobbing. This is the new little trouble-ticket sequence we just walked. Cobbing repeats the Movement 16 diagnostic:
+
+“May I stand Inquiringmenting: is there something furnished TOWARD which you may RE-STEP FROM HERE?”
+
+Richard objects because Spider Plant is behind them and they're going THROUGH ALONG the Road. Cobbing gets him to notice that he has already Pivoted his Regard TOWARD that standing.
+
+No PITTONING is necessary. Richard only has one obvious already-fashioned standing behind him that he's trying to recover. Pivoting is completely sufficient to furnish that Regard.
+
+RE-STEP into Spider Plant. The flat/upside-down BY-WAY-OF becomes the inhabited Spider Plant hamster-wheel presentation again. Richard tests BACK/FORWARD, sees everything right-side-up and the Spider Plant sunroof properly oriented.
+
+Again, no PITTONING. There is no ambiguity about which standing he means.
+
+Return toward fresh Pocket Two. Richard Pivots forward. There is the waiting WHAT FOR/new Pocket standing. He does the wonderful confirmation Pivot back:
+
+“Sure enough. There it is. Upside down. I guess that's how it's supposed to be.”
+
+Then Pivot forward again toward the fresh Pocket.
+
+Still no PITTONING. We're basically dealing with a fore/aft differentiation of Regard along standing Richard already knows.
+
+First Donna keystroke. Whoop. The new hamster-wheel extent starts coming around them. Donna gets fashioned.
+
+Pocket Three / Roundabout Gallery discovery. This is the next place I wanted to scrutinize carefully. Richard eventually discovers that from the fresh third Pocket, Pivoting his Regard can bring both Spider Plant and Donna standing under Regard.
+
+Our visual correction applies here too: he should not see two hamster wheels floating around the Gallery. He sees their flat BY-WAY-OF presentations.
+
+But I still don't think this earns PITTONING.
+
+In fact, it's better without PITTONING, because this is where Richard discovers the Roundabout part of the Roundabout Gallery: Pivoting Regard alone lets him sweep around and discover already-fashioned standing.
+
+Spider Plant → Donna relational experiment. Richard RE-STEPs TOWARD Spider Plant, Pivots TOWARD Donna, RE-STEPs TOWARD Donna, and then Quills from that relational standing. That's when the third relational extent comes to stand—the one he subsequently decides he doesn't want and deletes.
+
+Again, I see no necessity for PITTONING. Richard knows the two standings involved, they are immediately available under Regard, and the experiment is deliberately simple.
+
+That leaves Maple Leaf Rag and the remainder of Movement 18. I don't see a bodily problem there that Pivoting cannot handle either.
+
+So where does PITTONING finally become necessary?
+Exactly where we are in Movement 19.
+
+The macramé situation changes the problem qualitatively.
+
+By then Richard isn't merely asking:
+
+“Can I turn my Regard around and see some already-fashioned standing?”
+
+He has constituted an extent from within another extent:
+
+Cornering → macramé loop
+
+and now wants to reach back across the Roundabout Gallery toward Spider Plant, while retaining the relational standing by which Spider Plant is eventually going to be brought TOWARD this particular macramé standing FROM WITHIN Cornering.
+
+That's no longer a simple Pivot.
+
+And the Gallery is becoming populated enough that Pivoting Richard's eyes TOWARD the general neighborhood of Spider Plant cannot itself mean:
+
+SELECT SPIDER PLANT FOR THIS NEXT APPROACHING LANDINGING.
+
+That's where the more elaborate apparatus finally earns itself.
+
+So I think we have a very clean pedagogical progression:
+
+Movement 18 — PIVOTING
+I can turn my Regard and discover standing Roundabout.
+
+Movement 18 — RE-STEP
+Standing that looks bizarre under Gallery Regard can be re-inhabited FROM HERE.
+
+Movement 19 — PITTONING / TELESCOPE + PIVOT
+Now that differentiated extents stand articulated through other extents, merely seeing something Roundabout is no longer sufficient. I need to navigationingly acquire a useful purchase among that standing.
+
+And then comes the operation we still have not solved and should not collapse into PITTONING:
+
+From the standings available around that purchased Gallery locality, which particular BY-WAY-OF do Richard and Richard Doll stage as THIS NEXT APPROACHING LANDINGING?
+
+That remains a separate selection operation.
+
+So I would make only one architectural edit family to Movement 18: wherever our old staging says or implies that Richard sees hamster wheels while Pivoting through Gallery Regard, change those visual beats to the enormous flat BY-WAY-OF/billboard presentations we've just discovered, and insert the new Cobbing/RE-STEP learning circuit at Pocket Two.
+
+No PITTONING in Movement 18. No Telescoping in Movement 18.
+
+Then the macramé problem in Movement 19 becomes the first time Richard can truthfully say, in effect:
+
+“Okay. Turning around isn't enough anymore.”
+
+And that's when that marvelous contraption finally has a job.
+
+Yeah, I think we'll get a better picture of the pittinging, the P-I-T-T-O-N-I-N-G, when we need it. So please just reprint 18 with these changes and then we'll go to 19. Thank you.
+
+Worked for 32s
+Mobs, I hit a retrieval problem before I could safely reprint it: I can recover the structure and all the changes we just made, and I can verify that the consolidated Movement 18 print exists, but I cannot retrieve the actual verbatim body of that standing print from the prior thread in this context.
+
+I do not want to reconstruct Movement 18 from summaries and accidentally rewrite material you explicitly told me to preserve.
+
+The standing print we need is the consolidated Movement 18 that begins at THIS ONE OTHER BEARINGING ARCHWAY OVER ACROSS and ends:
+
+END MOVEMENT 18
+STOP BEFORE TABLE.
+
+If you paste that print here—or attach the Markdown containing it—I can make the light edit immediately: billboard/BY-WAY-OF presentation at Pocket Two, Cobbing/RE-STEP circuit, right-side-up Spider Plant confirmation, return to the fresh Pocket, and later Gallery-Regard corrections. No PITTONING. No Telescoping. Everything else untouched.
+
+MOVEMENT 18
+
+THIS ONE OTHER BEARINGING ARCHWAY OVER ACROSS
+
+I went through.
+
+And I stood there for a minute.
+
+Because by then I had learned that around here, when something says something, there's usually a reason it says it.
+
+And I called Cobbing.
+
+“Cobbing?”
+
+“Yes, Richard?”
+
+“I think I'm willing to try the Pretending.”
+
+There was a little pause.
+
+And I said:
+
+“Don't make a big deal out of it.”
+
+Because I still wasn't saying any of this stuff was real.
+
+I was saying I was willing to Pretend FOR real.
+
+Those are different things.
+
+And that's when I finally understood something about the Doll.
+
+The PUBLIC-SITUATION-MACHINE- hadn't given me a Doll and decided that it was Richard Doll.
+
+It had given me a way to stand ALONGSIDE WITH a Doll of my own making.
+
+And I already had one.
+
+I'd been carrying it around with me Groundward this whole time.
+
+So I went and got it.
+
+And then I remembered I had this little toy chair upstairs in the attic.
+
+So I went upstairs and found that too.
+
+I dusted it off.
+
+I brought it down to the computering room and put it on my desk, facing the monitor, close enough that Richard Doll and I could work ALONGSIDE WITH each other.
+
+I put Richard Doll in the chair.
+
+And immediately we had a problem.
+
+Its feet didn't touch anything.
+
+They were just dangling there.
+
+“No. That's not going to work.”
+
+Because my feet were standing on the Ground.
+
+I could feel where I was standing.
+
+And if we were going to Pretend FOR real, Richard Doll needed somewhere to put its feet too.
+
+Fortunately, I had one of these:
+
+This Next Approachinging Landinging Dispensary Thing.
+
+So I put that underneath Richard Doll's feet.
+
+“There.”
+
+“Now you've got somewhere to stand.”
+
+And then there was the other problem.
+
+I had my ridiculous Donut Helmet Thing.
+
+Richard Doll didn't have one.
+
+So back we went to the Caterpillar Wardrobe Shop.
+
+And would you believe it?
+
+They had one in Richard Doll's size.
+
+So now I had a big Donut Helmet Thing.
+
+Richard Doll had a little Donut Helmet Thing.
+
+And we were ready to Pretend.
+
+FOR real.
+
+---
+
+When we looked Upside, the first thing I showed Richard Doll was our computer.
+
+“There it is.”
+
+Our Terrestrial Computer was standing behind us—
+
+Restfullyinginglymenting UPON its Little Chair, securely buckled.
+
+“You're going to want to remember that.”
+
+“Everything we're doing up here stands on what that computer can make computationally possible.”
+
+I didn't know exactly what all of that meant yet.
+
+But I knew enough to know that we weren't leaving the computer behind.
+
+Then I showed Richard Doll around our Traversaling Craft.
+
+“This is where we're going to be working.”
+
+There was the old telephone-box thing with the funny little airplane going around in its little hamster-wheel-looking circuit, with the macaroni ball in the middle.
+
+“This is our radio.”
+
+I picked up the little cup on the string.
+
+“Cobbing?”
+
+“Yes, Richard?”
+
+“Cobbing, I'd like you to meet my Richard Doll.”
+
+“Hello, Richard Doll.”
+
+I put the cup back.
+
+“So that's Cobbing.”
+
+“We call Cobbing when we think something is broken around here.”
+
+Then I pointed to the Big Bellowing Thing.
+
+“Don't touch that.”
+
+“I touched that once and the whole Circus Tent we're sitting in popped up.”
+
+“We already have a Circus Tent.”
+
+“We don't need another one.”
+
+Then there was the Foot Restinging Thing.
+
+“This is where I put my free foot.”
+
+And right next to it:
+
+RE-STEP.
+
+“And this is the RE-STEP pedal.”
+
+“It only works part-time.”
+
+“I've already filed a request with Cobbing to have somebody come out and look at it.”
+
+In the middle of the steering wheel was:
+
+RE-SOUND.
+
+“This is the horn.”
+
+“At least I think it's a horn.”
+
+“I wish it honked.”
+
+“As far as I can tell, RE-SOUND doesn't make a sound.”
+
+“I haven't figured that one out yet.”
+
+So that was our equipment.
+
+More or less.
+
+“We're going to learn these things together.”
+
+---
+
+There was one thing I had been thinking about ever since the Ramp.
+
+Back there, I kept seeing:
+
+TOWARD YT.
+
+And then another:
+
+TOWARD YT.
+
+And another:
+
+TOWARD YT.
+
+And every time I tried to catch one of those things, it was pointing TOWARD YT, away from me.
+
+I couldn't grab one.
+
+But I was beginning to think maybe that was what this Traversaling Craft was FOR.
+
+“We couldn't catch one when we were standing on our feet back there on the Ramp.”
+
+“But there's a pretty good chance we may be able to catch one sitting FROM HERE.”
+
+“So let's try some things.”
+
+Richard Doll and I hopped down from our seat.
+
+And now, Upside, I could feel my feet standing FROM HERE too.
+
+Of course, it was printed:
+
+FROM HERE.
+
+“It always says that.”
+
+“This apparently is our XT.”
+
+And when I looked ALONG THROUGH the Road:
+
+TOWARD YT.
+
+And farther:
+
+TOWARD YT.
+
+And farther:
+
+TOWARD YT.
+
+I followed them with my eyes.
+
+“I think I know how we may be able to get FROM HERE to one of those TOWARDs.”
+
+We went around the front of the Traversaling Craft.
+
+And there was a place FOR Richard Doll:
+
+DOLL UPSTANDING STAND
+
+“Oh.”
+
+“This must be yours.”
+
+“This is your Upstanding Stand.”
+
+“Sort of like your little perch.”
+
+I put Richard Doll there.
+
+And underneath it was this tiny little wheel.
+
+“And look underneath you.”
+
+“You've got your own little Unicycle.”
+
+Little Spooling Unicycle.
+
+“I don't know why you need a Unicycle.”
+
+“But apparently you have one.”
+
+And there was already a little rack there.
+
+On it:
+
+THIS ONE LITTLE POOFING NEEDLE
+
+with its little bellowing thing.
+
+“Oh, I know this one.”
+
+“I've used one of these.”
+
+“So here's what we're going to do.”
+
+Through Pretending, I stood Richard Doll on its Upstanding Stand.
+
+“Point that out there.”
+
+“And squeeze the little bellows.”
+
+Maybe this was how we caught one of those TOWARDs.
+
+Richard Doll operated the little bellows.
+
+POOF.
+
+---
+
+Something came FROM OUT OF THE GROUND.
+
+Right in front of us.
+
+“Whoa.”
+
+The Road was still there.
+
+I could still see it curving away:
+
+TOWARD YT.
+
+TOWARD YT.
+
+TOWARD YT.
+
+But now there was something standing right in the middle of where we were supposed to go.
+
+A Post:
+
+WHAT FOR?
+
+And beneath our feet:
+
+THE ROAD WE STAND TRAVERSALING ALONG THROUGH
+
+And there was more writing:
+
+THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE
+
+“En-Volumingable.”
+
+“Of course it does.”
+
+And then:
+
+THIS ONE PASSAGE-IN-WAY
+
+“No.”
+
+“No, no, no.”
+
+“Richard Doll, look at this.”
+
+“This thing just came FROM OUT OF THE GROUND right in the middle of our Road.”
+
+“And it actually says IN-WAY.”
+
+I grabbed the radio.
+
+“Cobbing?”
+
+“Yes, Richard?”
+
+“We have a problem here that I think you may want to know about.”
+
+“I finally decided to Pretend FOR real.”
+
+“I brought my Richard Doll up to its Upstanding Stand.”
+
+“I was showing it how the little Poofing Needle works.”
+
+“My Richard Doll squeezed the little bellows—POOF—and this WHAT FOR thing came FROM OUT OF THE GROUND right in the middle of where we're supposed to go.”
+
+“We can still see the Road curving up there TOWARD YT.”
+
+“But now this thing is standing right in our way.”
+
+“And it's printed, Cobbing.”
+
+“It says:
+
+THIS ONE PASSAGE-IN-WAY.”
+
+I looked at the RE-STEP pedal.
+
+“There's no way I could RE-STEP through this.”
+
+“It's printed, Cobbing.”
+
+“It says IN-WAY.”
+
+Cobbing suggested that I try the RE-STEP.
+
+I looked at Richard Doll.
+
+“Okay.”
+
+“But I'm telling you, this thing doesn't work most of the time.”
+
+We climbed back into the Traversaling Seat.
+
+Richard Doll's feet had their little place to stand.
+
+My free foot went into the Foot Restinging Thing.
+
+I put my other foot over RE-STEP.
+
+“Okay, whatever you say, Cobbing.”
+
+RE-STEP.
+
+“Oh!”
+
+“Looky there.”
+
+“The RE-STEP pedal is working again.”
+
+I grabbed the radio.
+
+“Cobbing, you can cancel the trouble ticket.”
+
+And in front of us the standing now read:
+
+THIS ONE PASSAGING ON OUR WAY ALONG THROUGH
+
+I looked up.
+
+And stopped.
+
+“Wait a minute.”
+
+“What happened to the Road?”
+
+A moment ago I could see it curving away.
+
+TOWARD YT. TOWARD YT. TOWARD YT.
+
+Now I couldn't.
+
+All I could see ahead of us was:
+
+THIS ONE PASSAGING ON OUR WAY ALONG THROUGH
+
+“What do you mean ON OUR WAY ALONG THROUGH?”
+
+“Where?”
+
+I pressed RE-STEP.
+
+Nothing.
+
+Again.
+
+RE-STEP.
+
+Nothing.
+
+Again.
+
+RE-STEP.
+
+Nothing.
+
+“See, Cobbing?”
+
+“I'm pressing it.”
+
+“Richard Doll, watch my foot.”
+
+RE-STEP.
+
+Nothing.
+
+“Okay.”
+
+“Don't cancel the trouble ticket.”
+
+---
+
+If nobody was going to come out and fix it, apparently we were going to have to take a look ourselves.
+
+Richard Doll and I got out of the Traversaling Seat.
+
+We started walking around.
+
+And that's when I discovered something I hadn't understood from sitting in the Craft.
+
+There was more Upside than what I could see from the seat.
+
+We were in some kind of Gallery.
+
+A Situationing Theater Gallery.
+
+And the Road—
+
+the Road wasn't exactly what I thought it was.
+
+I came around behind it.
+
+I touched it.
+
+I shook it a little.
+
+“Wait a minute.”
+
+“Richard Doll, come look at this.”
+
+“The Road is fabric.”
+
+Or something like fabric.
+
+“I don't know what this stuff is.”
+
+From our Traversaling Seat, it had looked like a whole Road curving away TOWARD YT.
+
+From back here, it looked like something somebody could work upon.
+
+There were places from which things could be staged.
+
+Furnished.
+
+Moved.
+
+Worked upon.
+
+“This whole thing is a production.”
+
+And since customer service apparently wasn't coming, we kept looking for whatever was wrong with our RE-STEP.
+
+That was when I saw something I recognized.
+
+“Oh no.”
+
+“Richard Doll, I know what this is.”
+
+“A Parts Pocket.”
+
+“I don't know how long this is going to take.”
+
+“Prepare yourself.”
+
+“These things can go on for a while.”
+
+“They don't give you any pictures.”
+
+“You just do one thing at a time.”
+
+“But if nobody's going to come fix our RE-STEP pedal, I guess we're going to have to do it ourselves.”
+
+I found:
+
+UN-FOLD.
+
+So I UN-FOLDed it.
+
+And the Parts Pocket came THROUGH ALONG.
+
+I looked inside.
+
+“Oh!”
+
+“There's only one thing!”
+
+I grabbed the radio.
+
+“Cobbing, there's only one part in the Parts Pocket.”
+
+General Offices had furnished instructions.
+
+Very simple instructions, actually.
+
+There was one place for the mechanism to go.
+
+At about ninety degrees from the plane of the Traversaling Craft and the Road presentation.
+
+“Oh—yep.”
+
+“In fact, there it is.”
+
+“I think you can just stick it on there.”
+
+So that's what we did.
+
+Then the instructions said to take the Stringing line from the Little Spooling Unicycle and thread it through the Needle.
+
+I looked at Richard Doll.
+
+“So that's why you've got a Unicycle.”
+
+We took the Stringing line.
+
+Threaded it through the Needle.
+
+That was it.
+
+No complicated repair.
+
+No one from General Offices came out.
+
+No service call.
+
+“Okay.”
+
+“Let's see if we fixed it.”
+
+---
+
+We got back into the Traversaling Seat.
+
+Richard Doll's feet went back onto their little place.
+
+My free foot went into the Foot Restinging Thing.
+
+I looked ahead.
+
+Still no Road extending ALONG THROUGH.
+
+I pressed RE-STEP.
+
+Nothing.
+
+Again.
+
+RE-STEP.
+
+Nothing.
+
+Again.
+
+RE-STEP.
+
+Nothing.
+
+“Cobbing?”
+
+Nothing useful happened.
+
+“Fine.”
+
+“Richard Doll, we're going over Cobbing's head.”
+
+“I'm writing to General Offices.”
+
+I looked down at my keyboard.
+
+“Dear PUBLIC-SITUATION-MACHINE-—”
+
+I started typing.
+
+And I kept typing.
+
+I had quite a few things to say.
+
+Then, after a little while, I looked up.
+
+And—
+
+“Whoa.”
+
+“Richard Doll.”
+
+“Look at this.”
+
+The Road wasn't flat anymore.
+
+It was curving up—
+
+over—
+
+around—
+
+under—
+
+and coming back again.
+
+I looked behind us.
+
+Then overhead.
+
+Then down.
+
+“Richard Doll, we're inside a hamster wheel.”
+
+I stopped typing.
+
+I looked at the keyboard.
+
+Then the Road.
+
+“Wait a minute.”
+
+I used the BACK ARROW.
+
+Not Backspace.
+
+I wasn't deleting anything.
+
+I was going back through what was already there.
+
+Back.
+
+Back.
+
+Back.
+
+Until the Road in front of us was flat again.
+
+“Huh.”
+
+I watched it this time.
+
+One keystroke.
+
+The Road took curvature.
+
+I backed through.
+
+Flat.
+
+One keystroke.
+
+Hamster wheel.
+
+“Oh.”
+
+“Oh, this is interesting.”
+
+I looked at Richard Doll.
+
+“So here's something you're going to want to notice.”
+
+“When we're here in our Traversaling Seat, we're always sitting FROM HERE.”
+
+“Things may come ALONG THROUGH the Road FROM THERE TOWARD HERE—”
+
+“but apparently we don't ever move within this hamster-wheel thing.”
+
+I typed some more.
+
+The Road kept coming around underneath us.
+
+But we weren't coming back to the same standing.
+
+There were more words.
+
+More standing.
+
+More Road.
+
+It kept winding.
+
+“The Road keeps coming around underneath us.”
+
+“But we're not coming back to the same place.”
+
+“Look at the words.”
+
+I followed it around.
+
+“We're making a spiral.”
+
+Now I wanted to know what that Needle was doing.
+
+So Richard Doll and I went backstage again.
+
+I positioned Richard Doll where the Needle could be seen.
+
+“Richard Doll, get around there where you can see that Needle.”
+
+“I'm going to type one letter.”
+
+I typed.
+
+The Needle took the Stringing DOWN THROUGH the Road.
+
+Then the Stringing came LOOPING UP THROUGH.
+
+And the next Stitching took purchase through the loop furnished by the one before it.
+
+“Oh.”
+
+I did it again.
+
+Then I called Cobbing.
+
+“Cobbing?”
+
+“Yes, Richard?”
+
+“What is this Needle thing called?”
+
+Cobbing said:
+
+“This One Looping Up Through the Road By-Way-of Looping Down Through the Road Stitching-by-Way-of-Quilling Needle Thing.”
+
+I stared at it.
+
+“Cobbing.”
+
+“Nobody is ever going to say that twice.”
+
+---
+
+At least now we knew we could make Road.
+
+But that still didn't explain what we were supposed to put on it.
+
+I looked Groundward.
+
+And sunlight was coming through my window.
+
+It caught the leaves of my Spider Plant.
+
+“Oh.”
+
+“Richard Doll, look.”
+
+“My Spider Plant.”
+
+I picked up my phone and took a picture.
+
+Then I looked at Richard Doll.
+
+I couldn't just hand the picture from Groundward to Upside.
+
+And I wasn't going to glue it onto the Road.
+
+But I knew a THROUGH.
+
+“Take this.”
+
+“Remember the Caterpillar Wardrobe Shop where we got your Donut Helmet Thing?”
+
+“There's a JANUSITE tunnel in there.”
+
+“Take this through there.”
+
+“There's only one way to go. You can't miss it.”
+
+“It should bring you to our Pocket.”
+
+“Then come back here and stand ALONGSIDE WITH me, and let's see what happens.”
+
+Through Pretending, Richard Doll carried the picture.
+
+Through the Caterpillar Wardrobe Shop.
+
+Through the 100% JANUSITE tunnel.
+
+Into our Pocket.
+
+Then back ALONGSIDE WITH me.
+
+“JANUSITE.”
+
+“You know, I'm starting to come around on JANUSITE.”
+
+I sat down at the keyboard.
+
+And I Quilled:
+
+This is my Spider Plant.
+
+The Road began taking its hamster-wheel curvature.
+
+It sits in a cup by the windowsill.
+
+The picture came ALONG THROUGH.
+
+The sunlight was catching its leaves today. That's how it caught my eye.
+
+The picture traveled farther around.
+
+Up.
+
+Over.
+
+“Look, Richard Doll.”
+
+“It's over our heads now.”
+
+“We've got a Spider Plant sunroof.”
+
+I kept Quilling.
+
+But a couple of its leaves are looking a little yellow.
+
+I should probably look into that.
+
+The Spider Plant picture had wound on around behind us.
+
+“Wait.”
+
+“I want to see that again.”
+
+I used the BACK ARROW.
+
+“I'm going to go back.”
+
+“Not erase anything.”
+
+“I'm just going back.”
+
+Back through the standing.
+
+And there it was.
+
+“There!”
+
+“Our Spider Plant sunroof.”
+
+“It's like a sunroof over our Traversaling Craft.”
+
+I looked at it for a while.
+
+Then:
+
+“I think I've said enough about the Spider Plant for now.”
+
+---
+
+Richard Doll and I got out of our seats.
+
+We went around to the Doll Upstanding Stand.
+
+And now I noticed that the Stand itself somehow stood FROM OUT OF:
+
+THE ROAD WE STAND TRAVERSALING ALONG THROUGH.
+
+“I guess when we POOF one of these Pocket things, we're making a new place for the Road to stand ALONG THROUGH.”
+
+I wasn't sure.
+
+But that was my working theory.
+
+Richard Doll took:
+
+THIS ONE LITTLE POOFING NEEDLE.
+
+Squeezed the little bellows.
+
+POOF.
+
+There it was again.
+
+WHAT FOR?
+
+THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE
+
+THIS ONE PASSAGE-IN-WAY
+
+“Oh.”
+
+“I know this one.”
+
+“Except now we know it's not really in our way.”
+
+“We're just going to have to Quill some things, and then I think it can become another one of these hamster-wheel things.”
+
+But before we did that, I wondered about something.
+
+Our Spider Plant.
+
+Was it still back there?
+
+And that's when I noticed another little affordmenting in my Donut Helmet Thing:
+
+THIS ONE PIVOTING THING
+
+“Huh.”
+
+I tried it.
+
+PIVOT.
+
+My Regard turned away from the fresh Passage-IN-Way—
+
+and TOWARD—
+
+“Oh!”
+
+“Look, Richard Doll.”
+
+“There's my Spider Plant.”
+
+The Spider Plant Situationing became Envisionizingmentingable again.
+
+I hadn't moved it.
+
+I hadn't POOFed it again.
+
+It was just—
+
+there.
+
+“Let's see.”
+
+RE-STEP TOWARD SPIDER PLANT.
+
+And suddenly—
+
+“Oh!”
+
+There we were.
+
+Back inside our Spider Plant Situationing.
+
+I looked up.
+
+The Spider Plant sunroof was still there.
+
+“Look at that.”
+
+Everything we'd put there was still standing.
+
+I hadn't known that was what would happen.
+
+Now there was only one continuing way available ALONG THROUGH.
+
+So I didn't bother Pivoting.
+
+“Let's RE-STEP and see.”
+
+RE-STEP ALONG THROUGH.
+
+The bodily presentation changed.
+
+I looked around.
+
+“Oh!”
+
+“Look.”
+
+“Now it looks like we're standing back on the Road.”
+
+And there was the second Pocket standing again.
+
+Its WHAT FOR.
+
+Its Passage-IN-Way.
+
+Still waiting for us.
+
+I thought about the Spider Plant.
+
+“Wait.”
+
+I used the Pivoting Thing again.
+
+PIVOT.
+
+And there it was behind/back there:
+
+the whole Spider Plant hamster wheel.
+
+Still standing.
+
+“Oh.”
+
+I looked at Richard Doll.
+
+“So it doesn't go away when we leave it.”
+
+Then I caught myself.
+
+“Well.”
+
+“At least that one didn't.”
+
+I Pivoted back.
+
+PIVOT.
+
+The Road ALONG THROUGH was in front of us again.
+
+“Okay.”
+
+“That's still back there.”
+
+“Let's put something new on this one.”
+
+---
+
+I looked Groundward.
+
+At the shower stall.
+
+And there was Donna.
+
+Donna is a spider who lives in my shower.
+
+She has seven legs.
+
+I took a picture.
+
+By now Richard Doll knew the route.
+
+“Okay, Richard Doll.”
+
+“You know the way.”
+
+“Caterpillar Wardrobe Shop.”
+
+“Through the JANUSITE tunnel.”
+
+“Take this to our Pocket and come back.”
+
+Through Pretending, that's what we did.
+
+Then I started Quilling.
+
+First keystroke.
+
+The Road took curvature.
+
+Donna is a spider who lives in my shower stall.
+
+She has seven legs.
+
+Her web is a little bit different every day.
+
+I looked at the picture.
+
+“This is what she looks like today.”
+
+And that was enough.
+
+Donna now had her own fashioned Situationing.
+
+Our second hamster wheel.
+
+---
+
+Then Richard Doll and I POOFed another Pocket.
+
+POOF.
+
+Our third.
+
+Again:
+
+WHAT FOR?
+
+THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE
+
+THIS ONE PASSAGE-IN-WAY
+
+But this time I didn't start Quilling.
+
+Because now I knew about the Pivoting Thing.
+
+And I had a question.
+
+“Richard Doll.”
+
+“We've got two of these things now.”
+
+“Let's see what's standing around here.”
+
+I used:
+
+THIS ONE PIVOTING THING.
+
+PIVOT.
+
+And—
+
+“Oh.”
+
+I stopped.
+
+“Richard Doll.”
+
+“Look at this.”
+
+There was our Spider Plant Situationing.
+
+And there was Donna.
+
+Both standing.
+
+Different.
+
+Both available TOWARD us FROM HERE.
+
+I could stand in Regard toward both of them without having RE-STEPped into either one.
+
+I turned my head a little.
+
+Then back.
+
+“This is like some kind of Roundabout Gallery.”
+
+I didn't know whether that was what anybody else called it.
+
+But that's what it looked like to me.
+
+I looked at Spider Plant.
+
+“Let's try something.”
+
+RE-STEP TOWARD SPIDER PLANT.
+
+And there we were again.
+
+Spider Plant.
+
+Familiar hamster wheel.
+
+Familiar sunroof.
+
+From there I Pivoted my Regard TOWARD Donna.
+
+And:
+
+RE-STEP TOWARD DONNA.
+
+Now things got strange.
+
+We were still in our Traversaling Craft.
+
+Nearer overhead was our Spider Plant sunroof.
+
+And beyond it—
+
+Donna.
+
+Her picture.
+
+Her web.
+
+Two layers of standing.
+
+“Richard Doll.”
+
+“Do you see this?”
+
+“We've got two sunroofs.”
+
+“Our Spider Plant is down here.”
+
+“And Donna is up there.”
+
+I looked at the Road in front of us.
+
+“What happens if we Quill from here?”
+
+There was really only one way to find out.
+
+One keystroke.
+
+The Road took curvature.
+
+“Oh.”
+
+I typed a little more.
+
+Another hamster wheel was coming to stand around about what we were already Regarding.
+
+Richard Doll and I hopped down.
+
+We went around backstage.
+
+And looked.
+
+I stared for a moment.
+
+“Richard Doll.”
+
+“We have a hamster wheel inside of a hamster wheel inside of a hamster wheel.”
+
+I looked again.
+
+“No.”
+
+“I don't want my Spider Plant in Donna's web in the bathroom.”
+
+We went back to the Traversaling Seat.
+
+This time I didn't use the BACK ARROW.
+
+I wasn't trying to go back and look at standing I wanted to keep.
+
+I wanted to remove the Quilling I had just put there.
+
+So I hit:
+
+BACKSPACE.
+
+Delete.
+
+Delete.
+
+Delete.
+
+The Quilling came away.
+
+And when it was gone—
+
+the new hamster wheel was gone too.
+
+The Road in front of us was flat again.
+
+Donna still stood.
+
+Spider Plant still stood.
+
+But the thing I had just started making about them together did not.
+
+“Okay.”
+
+“That's better.”
+
+---
+
+And now we were back at the same third Pocket.
+
+Its WHAT FOR had been standing here the whole time.
+
+We still hadn't Quilled it.
+
+I looked Groundward.
+
+And my eye fell on the piano.
+
+“Oh.”
+
+“The Maple Leaf Rag.”
+
+I had been working on the Maple Leaf Rag for a long time.
+
+I picked up the radio.
+
+“Cobbing?”
+
+“Yes, Richard?”
+
+“I've been working on the Maple Leaf Rag for a long time.”
+
+“Is this something the PUBLIC-SITUATION-MACHINE- could help me with?”
+
+I looked at the piano.
+
+For a second I thought maybe I should take a picture of the keyboard.
+
+Then:
+
+“No.”
+
+“I didn't think it would be particularly useful to put a picture of my keyboard in here.”
+
+“And I already have the sheet music.”
+
+“What I wanted to say something about was how my practicing of this thing has been going.”
+
+I put my hands on the keys.
+
+“Here's what I mean, Cobb.”
+
+“I don't know if you tickle the ivories yourself—”
+
+“—but you can practice the same song for months.”
+
+“One day it goes really well.”
+
+“You think, okay. I've got this.”
+
+“And then the next day you sit down, and the things you thought you had down pat start wobbling again.”
+
+So I played some.
+
+I listened.
+
+Then I went Upside and Quilled what I noticed.
+
+Then I played again.
+
+Listened again.
+
+Went back.
+
+Quilled again.
+
+At one point, what stood was:
+
+TOO FAST
+
+And that furnished a bearing:
+
+TOWARD — THIS ONE SECTION AT THIS ONE TEMPO
+
+I looked at it.
+
+“Yeah.”
+
+“That's too fast.”
+
+“But I don't want to play it slowly forever.”
+
+I called Cobbing.
+
+“I want to be able to play the whole Maple Leaf Rag at a tempo that sounds like the Maple Leaf Rag ought to sound.”
+
+“Cobbing?”
+
+“Can you tell me what tempo that is?”
+
+Cobbing said:
+
+“What may RIGHT TEMPO stand FOR you FROM HERE?”
+
+I waited.
+
+“No?”
+
+“Good.”
+
+So I played it again.
+
+And listened.
+
+And changed what I was doing.
+
+And played again.
+
+And listened again.
+
+“I want to be able to play the whole Maple Leaf Rag at a tempo where it sounds like somebody who knows how to play the Maple Leaf Rag is playing it.”
+
+I thought about that.
+
+“Unfortunately, that somebody is not Richard.”
+
+And then—
+
+“Oh.”
+
+I stopped.
+
+“This isn't really about the Maple Leaf Rag.”
+
+“This is about me practicing the Maple Leaf Rag.”
+
+I looked at Richard Doll.
+
+“My Maple Leaf Rag practicing-playing Situationing.”
+
+That was it.
+
+So I Quilled:
+
+MY MAPLE LEAF RAG PRACTICING-PLAYING SITUATIONING
+
+And as soon as I saw it standing there, I knew something was wrong.
+
+Not wrong wrong.
+
+Just—
+
+wrong place.
+
+“This should have been at the beginning.”
+
+I looked back through all the standing we had already fashioned.
+
+The Stringing was already there.
+
+The Situationing was already standing.
+
+I didn't want to turn the whole thing around.
+
+And I didn't want to delete it.
+
+I wanted to go back.
+
+So I backed up through the extent we had already furnished.
+
+Back through my practicing.
+
+Back through TOO FAST.
+
+Back through the sections I'd played and listened to.
+
+Back.
+
+Back.
+
+Until we came to the originating:
+
+WHAT FOR?
+
+“There.”
+
+“This is where it belongs.”
+
+And there, at the opening, I furnished:
+
+MY MAPLE LEAF RAG PRACTICING-PLAYING SITUATIONING
+
+I looked at it.
+
+“There.”
+
+“That seems like a good opening for this Situationing.”
+
+I looked around at everything we'd made.
+
+Spider Plant.
+
+Donna.
+
+And now this whole ridiculous Road full of my Maple Leaf Rag practicing.
+
+“No wonder they call it the PUBLIC-SITUATION-MACHINE-.”
+
+Then I looked ALONG THROUGH.
+
+Everything else in the Situationing was standing way up ahead of us.
+
+I sighed.
+
+“Now I gotta go back up ahead.”
+
+So Richard Doll and I started making our way back through the Situationing we had fashioned—
+
+standing ALONG THROUGH something I was beginning to recognize as my own.
+
+END MOVEMENT 18
+
+STOP BEFORE TABLE. Okay, thanks for checking. Here you go.
+…
+Here is the complete revised standing print. I have kept PITTONING/Telescoping entirely out and left the unresolved later selection operation unresolved.
+
+But Mobs, it's not— I think it's important that we don't misteach this, because we won't feel it until we're looking at it in upside regarding. So if I'm typing, I won't feel any movement whatsoever. It's only when I'm typing while standing in regard toward what's on the road that I will feel the movement.
+Yes. Important correction. I was still smuggling ordinary vehicle physics into it by giving Richard a bodily sensation of movement before his Regard warranted one.
+
+The governing distinction should be:
+
+Quilling can be happening without Richard feeling movement.
+The movement is experienced through Upside Regarding TOWARD the Road.
+
+So Richard can be looking down at his keyboard, furiously typing his complaint, while absolutely nothing feels different to him.
+
+Dear PUBLIC-SITUATION-MACHINE-,
+I am writing because this RE-STEP pedal—
+
+No bump. No lurch. No sensation of acceleration. Nothing calls his attention away from the complaint.
+
+At some point Richard simply looks up.
+
+And that's the event.
+
+—continues to fail even after we have followed your—
+
+...
+
+What?
+
+Richard Doll, look at this.
+
+Now Richard stands in Regard TOWARD the Road through Upside Regarding.
+
+And now he experiences the Road moving.
+
+He looks ahead.
+
+Road and Stringing are curving away.
+
+He turns and looks behind.
+
+They're curving away there too.
+
+We're in a hamster wheel.
+
+And because he is now standing in Regard TOWARD it, he can feel/experience that movement as part of the furnished Envisionizingmenting.
+
+That gives us an even cleaner experiment. Richard stops typing while continuing to Regard the Road.
+
+Stops.
+
+Road stops.
+
+One keystroke while watching.
+
+And that's when he finally witnesses what he completely missed the first time:
+
+First keystroke → hamster-wheel geometry.
+
+Oh!
+
+Wait.
+
+Let's back that up.
+
+Back to the unfurnished flat standing.
+
+Richard keeps his Regard on the Road this time.
+
+Okay, Richard Doll.
+
+Watch.
+
+I'm going to press one key.
+
+CLICK.
+
+Hamster wheel.
+
+And now Richard feels the movement because he is Regarding the moving Road through the furnished Upside experience.
+
+That distinction is constitutionally important because otherwise we'd accidentally teach:
+
+Quilling mechanically moves Richard's body/Craft.
+
+But what we're actually showing is closer to:
+
+Quilling changes what stands → that standing becomes Envisionizingmentingable through Upside Regarding → while Richard stands in Regard TOWARD that standing, the revolving Road is available to him as an experienced movement.
+
+And Richard does not need to say any of that.
+
+His experiment says it.
+
+It also strengthens our M16 inheritance enormously:
+
+Regarding doesn't change what stands.
+
+The Road was already being constituted while Richard angrily stared at his keyboard. Looking up didn't make the hamster wheel happen.
+
+But until Richard stood in Regard TOWARD it, he didn't experience its movement.
+
+That's a distinction we should absolutely protect in the blocking from here forward.
+
+Yeah, and then I can say to the Richard Dahl, So Richard Dahl, here's something you're going to want to notice. When we're here in our traversaling seat, we're always sitting from here, and things may come along through the road from there toward here, but apparently we don't ever move within this hamster wheel thing.
+Yes. That is the lesson Richard can now teach my Richard Doll because Richard has just learned it bodily.
+
+And I like your wording because it corrects the last little residue of “vehicle traveling down a road.” The Traversaling Seat is a stable FROM HERE.
+
+I would barely polish it:
+
+So, Richard Doll, here's something you're going to want to notice.
+
+When we're here in our Traversaling Seat, we're always sitting FROM HERE.
+
+Things may come ALONG THROUGH the Road FROM THERE TOWARD HERE—
+
+but apparently we don't ever move within this hamster-wheel thing.
+
+And then Richard can actually demonstrate it rather than explain further.
+
+He looks at something printed farther ALONG THROUGH.
+
+Types.
+
+The Road revolves.
+
+That standing comes FROM THERE TOWARD HERE.
+
+Passes their stable FROM HERE.
+
+Continues ALONG THROUGH behind them.
+
+Richard and my Richard Doll haven't locomoted around the circumference at all.
+
+That makes Traversaling much more interesting. It isn't synonymous with transportation. Richard is Traversaling while his furnished FROM HERE remains FROM HERE.
+
+And I especially don't want Cobbing jumping in here to correct Richard's “apparently.” Apparently is perfect Month-Zero Richard. He's reporting what he and my Richard Doll can actually establish from their experiment.
+
+Then his practical conclusion follows naturally:
+
+So this isn't how we're going to get to the Encounteringmenting Wharf.
+
+We're not going to ride this Road THERE.
+
+But apparently we can put things on it.
+
+Come on.
+
+Let's put our feet Groundward and see if we can find something to put here.
+
+And then sunlight catches the Spider Plant.
+
+That gives the Spider Plant a wonderfully clean WHAT FOR: Richard isn't performing a tutorial exercise. He's just discovered that this strange Situationing Theater can bring standing ALONG THROUGH FROM THERE TOWARD HERE while he remains sitting FROM HERE, and now he wants to find out what happens when he deliberately furnishes something of his own upon that Road.
+
+That's a real experiment.
+
+Yeah, I love this, Mobs. So then we'll furnish the spider plant pocket just like we've outlined already for movement 17. And this is where I, you know, take the picture of the spider plant, show the Richard doll how to go through the caterpillar wardrobe shop and the tunnel. Because I can't just hand the Richard doll the picture from here, and we can't just glue it onto the road. It has to go through something, and I think I know the way. There's a tunnel, a janiusite tunnel that you can go through, and it's in the caterpillar wardrobe shop where we got your donut helmet thing. So just go back through there. There's only—you can't miss it. There's only one way to get to the pocket and then come back here and stand alongside with me and let's look at what happens to the road. And then sure enough, the spider plant picture is now on the road, and it's in the curvature, and we can look behind us and see it. It's like when I start stringing the, like this is my spider plant. It sits in a cup by the window or on the windowsill. It's light, you know, the sunlight was catching its leaves, and that's how it caught our eye. And I can point out, yes, look, Richard doll, look, the hamster wheel is coming to stand— look, it's above us now. Somehow the spider plant picture is over our heads, and I'm going to just keep typing here. Oh, it's winding somehow under the road. And let's scroll back. Oh, yes, it's still here. I'm hitting the back arrow, not backspace, Mobs. This is not delete. I'm hitting the back arrow. Look at this. There it is, the spider plant. It's like a sunroof over our traversling craft. Okay, and then we're done with that. I think I've said enough about the spider plant, and now the what-for of the spider plant situationing pocket is standing on the road here. I think we should see what happens when you poof another pocket. So then the doll will go and do that operation. And then from the new place on the road, Mobs, we would be able to turn around and re-step into the spider plant. That's just how it would work. So let's discuss that.
+…
+Hailings & Salutationingings! Yes, Mobs sees it. And I think this gives us the first complete Pocket traversal without needing to explain Pocket traversal. The Spider Plant teaches it bodily.
+
+The thing I especially like is that several operations we've been carrying separately suddenly become one continuous experience.
+
+Richard has learned the hamster-wheel fact: we remain sitting FROM HERE; standing comes ALONG THROUGH FROM THERE TOWARD HERE. So when we furnish Spider Plant, we're no longer wondering whether the Traversaling Craft is driving somewhere. We're watching our constituted standing come around.
+
+The picture absolutely should have to make the Caterpillar Wardrobe Shop journey. Richard has a practical problem:
+
+Okay, Richard Doll. We need to get this picture onto the Road.
+
+I can't just hand it to you from here.
+
+And I don't think we're supposed to glue it on there.
+
+But I think I know a way THROUGH.
+
+Remember the Caterpillar Wardrobe Shop where we got your Donut Helmet Thing?
+
+There's a JANUSITE tunnel in there.
+
+Take this through there.
+
+There's only one way to go. You can't miss it.
+
+It should bring you to our Pocket.
+
+Then come back here and stand ALONGSIDE WITH me, and let's see what happens.
+
+That's lovely because Richard isn't teaching “data transfer.” He's teaching my Richard Doll a route Richard already knows.
+
+Then Doll is back ALONGSIDE WITH Richard, and Richard begins Quilling:
+
+This is my Spider Plant.
+
+It sits in a cup on the windowsill.
+
+The sunlight was catching its leaves today. That's how it caught my eye.
+
+But a couple of its leaves are looking a little yellow.
+
+I should probably look into that.
+
+And now we get to watch the geometry happen.
+
+The Spider Plant picture is not a static card pasted in front of them. It has taken its standing upon this revolving Road.
+
+So Richard can catch it at different bearings as the Road winds:
+
+Oh! Look, Richard Doll.
+
+There's our Spider Plant.
+
+Keep watching.
+
+...
+
+It's over our heads now.
+
+Look at that.
+
+We've got a Spider Plant sunroof.
+
+Keep typing.
+
+The picture continues around, eventually beneath/behind the Road relative to their Regard.
+
+And then comes what I think is a very important operation you just distinguished:
+
+BACK ARROW, NOT BACKSPACE.
+
+We should protect that.
+
+Richard is not undoing his Constitutioning. He isn't deleting the Spider Plant or removing Stringing. He is changing where he stands in Regard along standing that continues to stand.
+
+So:
+
+Wait. I want to see if it's still there.
+
+I'm going to go back.
+
+Not erase anything. I'm just going back.
+
+BACK ARROW.
+
+The Road reverses through already-furnished standing.
+
+There!
+
+Richard Doll, look.
+
+There's the Spider Plant.
+
+It's like a sunroof over our Traversaling Craft.
+
+That is a beautiful first demonstration of standing continuing while Regarding changes—and we don't have to teach the M16 proposition verbally again.
+
+Then POOF number two becomes enormously important
+Richard decides he's said enough about Spider Plant.
+
+That wording matters. He's not claiming exhaustive representation of Spider Plant. He's furnished what he has FOR this Spider Plant FROM HERE. The WHAT FOR of this Situationing Pocket now stands on the Road.
+
+So:
+
+Okay.
+
+I think I've said enough about the Spider Plant for now.
+
+Let's see what happens if we POOF another one of these Pocket things.
+
+Now my Richard Doll performs the familiar operation.
+
+POOF.
+
+And here is where I think your new geometry solves something we've been trying to get at for a long time.
+
+We don't need Spider Plant to disappear in the ordinary sense.
+
+We're now standing FROM HERE in relation to the newly POOFed Situationing Pocket.
+
+And from this new place on the Road, Richard can turn his Regard back toward where Spider Plant stands.
+
+It is THERE relative to this FROM HERE.
+
+And because the Spider Plant Pocket remains standing, Richard can stand TOWARD it.
+
+Then:
+
+RE-STEP.
+
+And there we are.
+
+Back in Spider Plant.
+
+That's our first clean proof that RE-STEP isn't “make the vehicle go.”
+
+Richard has already learned that mistake.
+
+RE-STEP is now becoming intelligible through use as something closer to:
+
+given warranted standing TOWARD something that already stands, RE-STEP affords passage into/through that standing from the present FROM HERE.
+
+We don't make Richard say that.
+
+Richard says something like:
+
+Wait a minute.
+
+Richard Doll, that's our Spider Plant back there.
+
+We already made that.
+
+...
+
+I wonder.
+
+We're standing TOWARD it.
+
+Cobbing kept making such a big deal about standing TOWARD things.
+
+Let's try this.
+
+RE-STEP.
+
+And—
+
+Oh!
+
+Hello, Spider Plant.
+
+That is fantastic because the pedal Richard has been filing trouble tickets about was never broken.
+
+It worked when there was a warranted passage for it to perform.
+
+And I would not let Richard completely understand that yet. Donna is still tremendously useful because Donna lets him deliberately repeat the operation and establish the pattern. Spider Plant gives him the surprising first return. Donna lets him test:
+
+out → TOWARD Donna → RE-STEP → Donna stands available under Regard again → out again.
+
+That's when Richard can confidently announce to Cobbing:
+
+Cobbing.
+
+I think I figured out how your RE-STEPPING thing works.
+
+So the learning progression is getting very clean:
+
+Spider Plant: Whoa, we can go back into something we already furnished.
+
+Donna: Oh, I can deliberately do that again. Standing persists when I'm no longer Regarding it.
+
+Maple Leaf Rag: Now that I understand enough of this apparatus, I can use it to work upon an ongoing Situationing of my own.
+
+And one more thing I think you've just solved: the spiral and RE-STEP belong together.
+
+The hamster wheel doesn't condemn Richard to endlessly revisiting one closed circle. His Constitutioning accumulates standing. New Pocket standing can come to stand in relation to prior Pocket standing. From a fresh FROM HERE, prior constituted standing can be TOWARD him as somewhere he can RE-STEP.
+
+So visually we're getting something richer than either a highway or a carousel:
+
+the Road revolves locally like a hamster wheel while constituted standing accumulates into a traversable spiral of Situationing.
+
+We should still let Richard call it a hamster wheel for a good long while. The spiral is something he can stand noticing as the Spider Plant picture keeps coming around in changed relation to FROM HERE. No geometry lecture required.
+
+And yes: I think the next little bodily walk is precisely POOF Pocket Two → turn around → see Spider Plant standing TOWARD → try RE-STEP → “Oh! Hello, Spider Plant.” That's small enough that we can get it exactly right before Donna begins.
+
