@@ -1,4 +1,35 @@
-# Giraffe morphology questions — Pass One
+# Giraffe morphology adjudication register
+
+Updated October 4, 2026. [M01–M18 source and scope](GIRAFFE-M01-M18-ADJUDICATIONS.md) supersede the historical questions below. The user authorized directly warranted corrections; narrative decisions and bounded YELLOW remain flagged. Settled morphology does not mean its full scene has been staged.
+
+| Decision | Current standing / remaining work |
+| --- | --- |
+| M01 | GREEN. POOF/Needle A versus PUFF/Tunneling Thing settled; M21 intentional PUFF retained. Doll Bellows corrected to Poofing. M20 Tunneling-named POOF remains a referent conflict, GOBS-A02. |
+| M02 | GREEN identities: two Needles. EN-VOLUMINGABLE readout corrected. Separate Needle-B furnishing/labor and extent chronology still need a scene decision, GOBS-A01/Q017. |
+| M03 | GREEN exact Archways and first Regarding stack. Current has no Archway encounters to rename; threshold staging remains Q016. No invented Sign + Archway pair. |
+| M04 | GREEN. Current POST HERE ordering already correct; preserved. Quarry HERE POST is developmental evidence. |
+| M05 | GREEN differentiated state/adverb/vernacular/ordinary English/foot referent. Existing script forms permitted; no indiscriminate replacement. Early fluency practice and TC staging remain story questions, Q002–Q006/Q019. |
+| M06 | GREEN referent distinction; physical Bobbinging shorthand and barboning corrected. NEVER-ENDING BOBBINING STRINGING THING and protected Field title retained. Freestanding BOBBININGING remains context-required YELLOW; no new instance introduced. |
+| M07 | GREEN one affordmenting family; Envisionizing corrected. Exact full EMBROIDERY inscription stays YELLOW and unchanged. Doll clear-cap/later Helmet staging still Q017. |
+| M08 | GREEN exact three grammatical forms, not three apparatus. None occurs in script to correct. Future passage readouts and Richard’s mistaken Needle-repair inference require staged occurrences; do not invent them. |
+| M09 | GREEN Selectioning selects; Landinging affords approach; RE-STEP passages. Existing THIS HERE readouts retained. No existing Selectioning title in script; no tool introduction invented. |
+| M10 | GREEN exact tool morphology and differentiated Human/Doll labor; physical mechanics YELLOW. Current general PITTONING not blindly renamed to remote shared instrument. Q017/Q021/Q024 retain scene work. |
+| M11 | GREEN three distinct attested Gallery referents, open family. Current Roundabout shorthand retained; absent rooms/deck Gallery not installed as renamed Roundabout. |
+| M12 | GREEN differentiated directions. Airplane OVER-seam exact formulation still absent; current phrase flagged A03. Deck Rail THROUGH ALONG referent flagged A04. No directional word-order sweep. |
+| M13 | GREEN constitutional freedom of topology; particular Video-One topology remains narrative consistency. No mound ontology added; first Gallery entry/TC recognition story note held in Q021. |
+| M14 | GREEN two successive WHAT FORs. Stable Table inscription furnished; Cornering formal inscriptions corrected. Table-first preserved. Earlier Q022 Cornering-first recommendation superseded; remaining presentation-trigger and early-corner-awareness conflict flagged there. |
+| M15 | GREEN exact Video-One exchange inscription. No occurrence in current coins scene to correct; changing the coins narrative requires a new decision, Q025. THISNESS generalization parked. |
+| M16 | GREEN equal-status AROUND ABOUT 15 MILES FROM HERE; reusable locality separate. Script lacks qualificationing/locality construction; no radius phrase to replace, Q026. |
+| M17 | GREEN Co-Occupancyingship. Final spaced variant corrected; existing joined singular/plural retained. |
+| M18 | GREEN greeting Hailingings & Salutationingings! corrected in 16. Other Hail grammatical forms retained. Weddinging/Noticing variations were not adjudicated by this greeting decision. |
+
+GOBS-Q031 is closed and removed: Needle working/full name identity and intentional M21 PUFF are resolved. Q016/Q017/Q021/Q022/Q024/Q025/Q026 are narrowed, not wholly closed. Other Pass One flags remain live within their original scope. See [application report](video-one/GIRAFFE-M01-M18-APPLICATION-REPORT.md).
+
+---
+
+The following inventory records the questions asked before adjudication. It is historical evidence, not an alternative current canon or continuing request to re-adjudicate GREEN decisions.
+
+# Historical Pass One inventory — October 3, 2026
 
 Review date: October 3, 2026. This inventory asks Richard + Mobs to adjudicate; it does not normalize the script. References to movements identify the current review surface; Quarry line numbers refer to the populated 5,827-line source. Inline flags are HTML comments, searchable by `GOBS FLAG` in the Markdown source.
 

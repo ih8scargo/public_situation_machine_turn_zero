@@ -1,56 +1,51 @@
 # Public Situation Machine — morphology and agent rules
 
-Maintained-resource starter, October 3, 2026. Review/support artifact; no new script canon is established here. Richard + Mobs adjudicate open entries. This file does not authorize script rewriting or application changes.
+Updated October 4, 2026. Authority: Richard + Mobs [M01–M18 adjudications and accompanying authorization](GIRAFFE-M01-M18-ADJUDICATIONS.md), overriding conflicting developmental Quarry language and earlier flags-only procedure. This maintained resource records supplied decisions, not invented canon. [Adjudication register](GIRAFFE-MORPHOLOGY-QUESTIONS.md) separates settled morphology from unimplemented story work.
 
 ## Settled / high-confidence current forms
 
-Evidence: explicit **ADDENDUM — KNOWN CANONICAL / MORPHOLOGICAL CORRECTIONS**, [Quarry](GIRAFFE-QUARRY.md), lines 258–359. Apply to the same referent only. The current pass is flags-only even where a correction is settled.
-
-| Form to preserve | Scope / protection |
+| ID | Exact form and scope |
 | --- | --- |
-| This Stewardly Co-Relationing, Co-Ordinationing, Co-Operationing, Co-Bobbining Thing; a.k.a. The Stewardly Co-Bobbing | Full ceremonial name. Do not replace every contextual Cobbing/COB reference. |
-| This One RE-STEPPING AND MAY BE RE-STOMPING Contraption | Complete apparatus name. RE-STEP does not imply RE-STOMP. |
-| EN-FIXTURING-MENTING FOR Looking-FOR-Findinging | Continuing standing. EN-FIXTURING-MENT remains where the noun genuinely does different grammatical work. |
-| Looking-FOR-Findinging | Preserve hyphens and FOR. Do not turn the canonical operation into searching/matching. |
-| THIS ONE SITUATIONING / FOR THIS ONE SITUATIONING | Relevant relational architecture; gathers rather than being governed by containment. Do not blindly rename every ordinary “thing.” |
-| substrationing | Preserve; not substrating. |
-| JANUSITE | Material spelling; not Januite. |
-| COMPOSEMENTING | Preserve E; not COMPOSMENTING. |
+| M01 | **POOF**: Poofing Needle/Pocket possibility. **PUFF**: **THIS ONE TRULY BORINGING PUFFINGING TUNNELING THING**. M21 PUFF is intentional. Audit by apparatus, never global replacement. |
+| M02 | Two Needle apparatus: A **POCKET POOFING NEEDLING THING**; B **Quilling Stitching Needle**, full **THIS ONE LOOPING UP THROUGH THE ROAD BY-WAY-OF LOOPING DOWN THROUGH THE ROAD STITCHING-BY-WAY-OF-QUILLING NEEDLE THING**. B's names are one apparatus, not an upgrade. **THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE**. POOF furnishes possibility, not extent; B participates in Human labor through which extent comes to stand. |
+| M03 | **THIS ONE BEARINGING ARCHWAY ACROSS**; **THIS ONE OTHER BEARINGING ARCHWAY OVER ACROSS**. First Regarding: **REGARDING FROM HERE, AT THE DOLL, OVER ACROSS FROM THE DOLL, STANDING AT FROM HERE, ACROSS OVER THERE.** BEARING-ING SIGN deprecated unless independently consequential Sign is evidenced. Regard/Regarding remain normal English; other legitimate Regarding-Bearing morphology is not globally renamed. |
+| M04 | **THIS ONE FROM OUT OF THE GROUND POST HERE**. Parse FROM OUT OF THE GROUND / POST / HERE. Post posts HERE; does not manufacture Richard's FROM HERE. No universal word-order rule inferred. |
+| M05 | **RESTFULLYINGINGLYMENT** named seated state; **Restfullyingingly** ordinary adverb; **Restfullyinginglymenting** Richard's playful acquired vernacular, not another state. Ordinary **Restfully** permitted. Foot-hospitality **Restingly** distinct. |
+| M06 | **BOBBINING** bobbin/Stringing/supply relation; **BOBBINGING** buoyant apparatus/behavior. **NEVER-ENDING BOBBINING STRINGING THING** retained. barboning/barbening rejected for physical Bobbinging Thing. Protect **THIS ONE GREAT FREE PUBLIC TUPLE SHIP FIELD OF GLOBULARLY BOBBININGING GLOBULAR BOBBINING** exactly. |
+| M07 | **ENVISIONIZING**. Formal Plump Croissant Glass Pair and Donut Helmet Thing are one affordmenting family; Richard and later Doll have differentiated instances, not upgraded generations. YT may be read ACROSS XT; XT ACROSS YT. |
+| M08 | **THIS ONE PASSAGE-IN-WAY** (what stands); **THIS ONE PASSAGING ON OUR WAY ALONG THROUGH** (Richard/Doll doing); **BY-WAY-OF THIS ONE PASSAGING-IN-WAY** (furnished relation). One passage architecture, three grammatical jobs. Quilling Stitching Needle does not make RE-STEP work; Richard may wrongly believe it did. |
+| M09 | **THIS ONE NEXT APPROACHING LANDINGING SELECTIONING THING** selects. **THIS NEXT APPROACHING LANDINGING** selected WHAT FOR under Traversaling Regard; **THIS HERE APPROACHING LANDINGING** locally apprehensible present approach. Same standing, no NEXT/HERE classes, and HERE does not become Richard's FROM HERE. RE-STEP performs passage. |
+| M10 | **WHAT-FOR PITTONING** Human particularized purchase; **THIS ONE ROAD BUMPING PITTONING PITTONING BUMPING THING** differentiated Doll deformationing. Remote shared instrument: **THIS ONE CURVINGABLE PITTONING PITTONING PITTONING PULLING BY PULLING ON TO THIS ONE PITTONING FROM THERE TO HERE THING**. Keep three consecutive PITTONINGs, PULLING BY PULLING and ON TO. Doll goes THERE/establishes purchase; Richard stays HERE/pulls; standing curves FROM THERE TOWARD HERE; original WHAT FOR does not move/copy/rewrite. Do not assign forced separate functions to the repeated PITTONINGs. |
+| M11 | Distinct referents: **THIS ONE ROUNDABOUT GALLERY**; **THIS OUR CURRENT LOCAL MOMENT GALLERY ROOM**; **THIS ONE TUPLE-SHIP DECK GALLERY**. Family remains open, not a three-state view switcher. Transverse labor within Current Local Moment does not change that Moment. |
+| M12 | Road **ALONG THROUGH** / **THE ROAD WE STAND TRAVERSALING ALONG THROUGH**; Caterpillar segmentationing **THROUGH ALONG**; inhabited Gallery **THROUGHING ALONG THROUGHING FROM HERE** / **THIS ONE FOUR-WHEELING THING FOR THROUGHING ALONG THROUGHING FROM HERE**. Cobbing airplane principal bearing is separately developing OVER seam, not THROUGH ALONG THROUGH family. |
+| M13 | MOUND has no ontological privilege. MOUNDING may name actual Human labor; cave/cavern forms may describe warranted topology, not appliance classes. Different Regard does not randomize standing. Differentiated Regard may make differing topology Envisionizingmentingable through Relationings that already stand Envisionizingmenting. Landinging is Traversaling-Regard Projectioning of selected already-constituted WHAT FOR toward approaching passage; “front door to mound” is only warranted Richard-level shorthand. |
+| M14 | First **THIS IS OUR STABLE TABLE**; later **THIS CORNERING OF MY COMPUTERING ROOM**. Successive Constitutioning acts: fashion Table → inscription → admire → boring/presentation problem → raise Helmet → Groundward actual corner → new WHAT FOR → larger standing, Table FROM WITHIN it. Do not move Cornering earlier or make Table become Cornering. |
+| M15 | **SOME KIND OF POCKET WITH SOME THINGS IN IT THAT SOMEONE MIGHT LIKE TO STAND REGARDING, WITH REGARD TOWARD EXCHANGING THESE OTHER SOME THINGS FOR A TABLE THAT IS SOME THING LIKE THIS ONE TABLE THING.** Exact Video-One inscription; TABLE THING intentional explicit referent. Not identity/equivalence/match/price. No distinguishingment recopy, Table pulled through/copied into/placed inside exchange Pocket. Pocket is a WHAT FOR. |
+| M16 | **AROUND ABOUT 15 MILES FROM HERE** equal-status sought-TABLE qualificationing beside ROUND/WOODEN/size/CENTRAL POST. Not extracted search instruction or mathematical radius. Separate reusable locality **THIS ONE SOMEPLACE UPON EARTH** → WHAT-FOR PITTONING → OUT ABOUT → **THIS ONE SOME VILLAGE**. Travel extent belongs to particular LFF; no symmetric Sam geography. |
+| M17 | **Stewardly Co-Occupancyingship**; spacing variants deprecated absent future evidence of differentiation. |
+| M18 | **Hailingings & Salutationingings!** exact greeting, deliberate doubled ING without intervening hyphen. HAIL/HAILING/A HAILING/HAILINGS/HAILINGING/HAILINGINGS may do different grammatical work; not spelling competitors. |
 
-Additional explicit, bounded approvals in Quarry:
+Earlier explicit addendum protections still stand where compatible: full **This Stewardly Co-Relationing, Co-Ordinationing, Co-Operationing, Co-Bobbining Thing**, a.k.a. **The Stewardly Co-Bobbing** (ceremonial scope); **This One RE-STEPPING AND MAY BE RE-STOMPING Contraption**; ongoing **EN-FIXTURING-MENTING FOR Looking-FOR-Findinging** (retain noun EN-FIXTURING-MENT where appropriate); **Looking-FOR-Findinging**; **JANUSITE**; **substrationing**; **COMPOSEMENTING**. No broad thing→Situationing substitution without establishing referent.
 
-- Lines 2060–2075 report engineering approval of **GROUNDWARD REGARDING / UPSIDE REGARDING**. These differentiate manner/bearing of Regarding, not where the Human constitutionally stands FROM. They are not DOWN/UP Traversaling.
-- Lines 2730–2800 explicitly correct **Poofing Needle / POOF** versus **Truly Boringinging Puffinging Tunneling Thing / PUFF**. Check the apparatus referent; do not merely replace syllables globally.
-- Lines 3690–3705: Richard expressly asks for the extra hyphens in **THIS ONE LOOPING UP THROUGH THE ROAD BY-WAY-OF LOOPING DOWN THROUGH THE ROAD STITCHING-BY-WAY-OF-QUILLING NEEDLE THING**. This approves the quoted working morphology; identity/scope relative to other Needle names is still open.
-- Lines 2800–2838 explicitly request glossary inclusion of **THIS ONE PASSAGE-IN-WAY**, **THIS ONE PASSAGE ON OUR WAY ALONG THROUGH**, **BY-WAY-OF THIS PASSAGING-IN-WAY**. Preserve the three different relational Outreadings; confirm their placement in the later architecture before adopting them in the current script.
-- Lines 1795–1799 explicitly reject **barboning/barbening** for the **Bobbinging Thing**. The complete early apparatus and Field titles still need referent-specific adjudication; this is not a global Bobbining replacement rule.
+## Open morphology questions / bounded YELLOW
 
-## Settled rules of the road
-
-Authority: current user's Pass One memo, especially §§3, 7–15, 16–20; compatible protections in Quarry addendum 287–328.
-
-- Quarry is developmental evidence. Current Giraffe is the review surface. Flags are live questions. Preserve script prose until Richard + Mobs authorize the patch/replacement pass.
-- Richard furnishes Pretending. No Richard Doll dialogue, inner life, or unscripted autonomy. Doll does not ride/pedal Little Spooling Unicycle; warranted consequential work is RE-STOMP BY-WAY-OF it. Do not invent RE-STOMP during an ordinary RE-STEP merely to remove pedaling language.
-- Weddinging: Crew securely seats/buckles TC Restfully, waves Richard onward past it. Upside TC confirmation requires turning/look back; ordinary Groundward actual monitor remains forward. A later explicit operation may change the relation and must be examined. Forward/look-back is bodily orientation, not a new constitutional axis. Upside does not require physically looking upward or a separate mode button.
-- Sittinging-In Room is lit on entry. No Lanterning Bugs darkness/lighting setup. Discovery order: wall question; Doll/chair ALONGSIDE WITH and reaction; floor/place inscription; turn/look back confirming TC still buckled behind.
-- HERE carries what this Human stands Looking-FOR-Finding; THERE carries available standing this Human furnishes outward. Richard's sought Table and Sam's available Table remain differentiated. Do not reverse polarity or force symmetry.
-- CENTRAL POST and FOUR LEGS are not semantically equivalent. Human further particularization, measurements, interpolationing, Fitmenting and decision remain Human labor. Richard's later solution does not erase legitimate earlier standing.
-- Geographic extent has no privileged qualifier status. ROUND, WOODEN, size, CENTRAL POST and AROUND ABOUT 15 MILES FROM HERE can participate as qualificationings in differentiated deformationing. Do not flatten these into machine filters or a match verdict.
-- Existing standing brought relationally under Regard is not copied, consumed, or silently overwritten. Preserve source-standing confirmation as a review concern; do not assume a current scene already proves it.
-- Relevant standing/Hailing → appointed Slumbering Lanterning Bugs light → Observationing Class Bell RE-SOUNDs. No fabricated correspondent or fake event for a Bell test.
-- Work with apparatus as it becomes consequential; avoid a demonstration of every control merely to satisfy a checklist. Preserve humor and bodily discovery; do not give Month-Zero Richard insight he has not earned.
-
-## Open morphology questions
-
-Consult [GIRAFFE-MORPHOLOGY-QUESTIONS.md](GIRAFFE-MORPHOLOGY-QUESTIONS.md) for forms, source contexts, confidence and questions M01–M18. Open families include Needle identities/titles, first/Other Bearinging stack, Post order, TC resting forms, full Bobbinging names, Glass Pair/Helmet naming, Landinging/Selectioning extra ING, PITTONING tool identities, Gallery/room relation, directional stacks, cave/cavern forms, Cornering/Stable Table inscriptions, exchange Pocket wording, geographic qualificationing, Co-Occupancying spacing, and greeting/ceremony/Noticing forms.
-
-Do not promote candidate scene language into this settled section solely because it appears later. The latest exchange patch returns to Sam's independent Looking-FOR-Findinging after exploring a minimal Sam without it. The Table-through-exchange-Pocket draft is explicitly retracted. Earlier SAVE analogies for RE-STOMP are later narrowed/rejected. These examples require developmental reading, not recency-based patching.
+- M07 full formal inscription remains YELLOW: candidate **THIS ONE EMBROIDERY ENVISIONIZING PLUMP CROISSANT PAIR OF GLASSES**. Preserve EMBROIDERY; do not invent a final Shoppe inscription.
+- M10 exact physical shared-instrument mechanics remain YELLOW. Different Human/Doll labor does not require identical bodily operation.
+- M06 freestanding BOBBININGING is context-required/YELLOW outside protected Field title. Surface a longer historical apparatus title verbatim if found; do not reconstruct it. Quarry attests the retained NEVER-ENDING BOBBINING STRINGING THING; its physical shorthand is a different grammatical job.
+- M13 Video-One topology is a narrative-consistency decision. MOUND/CAVE/CAVERN are not competing ontology terms to normalize.
+- M12 exact developing airplane OVER-seam formulation is not supplied. A settled bearing distinction does not authorize inventing dialogue/readouts.
+- Weddinging/Weddinginging and Noticingment/Noticingmenting were included in historical M18 question but not settled by the greeting-specific answer. Preserve contextual forms; do not extend M18 into a general suffix rule.
 
 ## Agent rules / do-not-normalize guidance
 
-1. Establish referent and context before changing morphology. Frequency, recency, English grammar, elegance and apparent typo status do not establish canon.
-2. Preserve unusual forms, hyphenation and directional order unless an explicit applicable correction settles them. Speech/transcription artifacts are evidence to question, not automatic vocabulary.
-3. For uncertainty, record exact forms and locations, apparent current form, conflicting context, confidence and a question for Richard + Mobs. Link a local GOBS FLAG when the question materially affects the movie.
-4. A known form does not authorize broad replacement. During this pass even clear corrections are only flagged; the user's flags-only instruction overrides the Quarry's earlier small-patch authorization.
-5. Keep support artifacts separate from script prose. Never clean the Quarry. Never install major replacement material without review authorization. Do not treat Mobs-generated prose or Richard's exploratory hypothesis as approved merely because it was printed.
-6. When recording a decision, add its explicit source, date, referent/scope and affected open inventory IDs. Move only the resolved portion into settled guidance; retain the remaining question.
+1. Current authorization permits directly warranted corrections to working Giraffe material. Preserve narrative structure and settled bodily sequence. No unrelated rewriting, architectural invention or prose polishing. Flag bounded YELLOW and any new narrative decision instead of filling it in.
+2. Quarry is developmental evidence; leave it untouched. Older Mobs prints and Richard hypotheses do not override explicit adjudications. Historical inventory below the current register is not continuing open canon.
+3. Determine referent/grammatical job before changing morphology. Frequency, recency, ordinary grammar, elegance and apparent typo status do not establish canon. Use the exact approved form within its scope.
+4. Richard furnishes Pretending; no Doll speech, inner life or unscripted autonomy. Doll does not ride/pedal; warranted consequential work is RE-STOMP BY-WAY-OF Little Spooling Unicycle. Never add RE-STOMP to an ordinary RE-STEP merely to remove riding language.
+5. Weddinging seats/buckles TC, then Richard passes it. Upside TC bears behind present bodily orientation; Groundward actual monitor remains ordinarily forward. Forward/look-back is not a new axis; Upside need not mean physically looking upward or a new mode switch. Existing carrying/installation contradictions still require narrative adjudication.
+6. Sittinging-In Room lit on entry; discovery wall question → Doll/chair/reaction → place inscription → turn/look back confirming TC. Do not use morphology authorization to invent the absent revised blocking.
+7. First entry into Current Local Moment Gallery Room: Richard/Doll snoop behind wall to solve problem; Richard does not yet notice/explain the TC crossing. NOT PRESENTLY NOTICED ≠ NOT STANDING. No early insight added to satisfy architectural completeness.
+8. HERE carries sought standing; THERE available outward standing. Humans perform further particularization/interpolationing/Fitmenting/decision; CENTRAL POST and FOUR LEGS remain different. Original WHAT FOR is not moved, copied or rewritten by relational Regard. Constitutioning does not automatically disclose private standing.
+9. Relevant standing/Hailing → appointed Slumbering Lanterning Bugs light → Observationing Class Bell. No fake Bell test. Apparatus becomes consequential bodily; no checklist tour or premature Month-Zero expertise.
+10. Park generalized TABLE→Human-furnished THISNESS; margin note only. Do not pursue it during this pass.
+11. Record new decisions with source/date/scope. Close only the resolved part of a flag; retain remaining scene questions. Never convert all settled morphology into newly invented scenes.

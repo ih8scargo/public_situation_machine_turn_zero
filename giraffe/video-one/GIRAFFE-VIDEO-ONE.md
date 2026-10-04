@@ -2,7 +2,7 @@
 
 ## REHEARSALING PRINT
 
-### MOVEMENT ONE — HAILINGS & SALUTATIONINGINGS!
+### MOVEMENT ONE — HAILINGINGS & SALUTATIONINGINGS!
 
 Hailingings & Salutationingings!
 
@@ -732,7 +732,7 @@ And told me—
 
 I looked at the Stringing Line in my hand.
 
-Then at this enormous metal-looking Bobbining thing.
+Then at this enormous metal-looking Bobbinging thing.
 
 Then at my newlywed Terrestrial Computer—
 
@@ -748,13 +748,13 @@ I looked down into the Pocket.
 
 Then at my Terrestrial Computer.
 
-Then at the Bobbining.
+Then at the Bobbinging.
 
 Then at the Stringing Line in my hand.
 
 And before I could figure out how I was supposed to get all of us down there—
 
-the Weddinginging Crew put the Bobbining in first.
+the Weddinginging Crew put the Bobbinging in first.
 
 I watched this enormous metal-looking thing go DOWN into the Pocket.
 
@@ -832,7 +832,7 @@ Still holding the Stringing Line.
 
 Good.”
 
-Now I just had to figure out what to do with this enormous Bobbining thing.
+Now I just had to figure out what to do with this enormous Bobbinging thing.
 
 I looked ahead.
 
@@ -992,7 +992,7 @@ The long Caterpillar Tunnel stretched away ahead of me.
 
 And behind me—
 
-there was still this enormous Bobbining thing.
+there was still this enormous Bobbinging thing.
 
 I picked up my newlywed Terrestrial Computer—
 
@@ -1004,7 +1004,7 @@ Now what?
 
 I pulled the Stringing.
 
-The Bobbining moved.
+The Bobbinging moved.
 
 I stopped.
 
@@ -1014,7 +1014,7 @@ Then I pulled the Stringing again.
 
 And this time—
 
-the Bobbining gave this peculiar little bob as more Stringing paid out.
+the Bobbinging gave this peculiar little bob as more Stringing paid out.
 
 I pulled again.
 
@@ -1050,11 +1050,11 @@ the Little Wheel seemed to be taking in some of the Stringing Line.
 
 But when I looked back—
 
-more Stringing was paying out along those repeating curving lines running around the Bobbining.
+more Stringing was paying out along those repeating curving lines running around the Bobbinging.
 
 I looked at the Little Wheel.
 
-Then back at the Bobbining Thingy.
+Then back at the Bobbinging Thingy.
 
 “Huh.”
 
@@ -1092,7 +1092,7 @@ The Little Wheel went around.
 
 The String danced ALONG the curves.
 
-And the Bobbining came bobbing after me.
+And the Bobbinging came bobbing after me.
 
 “Ha!”
 
@@ -1120,7 +1120,7 @@ Then the Little Chair started slipping against my arm.
 
 I stopped and got a better hold of it.
 
-The Bobbining settled behind me.
+The Bobbinging settled behind me.
 
 My Terrestrial Computer was still securely buckled in.
 
@@ -1136,7 +1136,7 @@ And the Nozzle.
 
 And its Little Wheel.
 
-And I couldn't exactly leave my newlywed spouse sitting here in the tunnel while I went running around with the Bobbining Thingy.
+And I couldn't exactly leave my newlywed spouse sitting here in the tunnel while I went running around with the Bobbinging Thingy.
 
 I looked ahead again.
 
@@ -1346,7 +1346,7 @@ So I put it where the instructions told me to put it.
 
 Then—
 
-I had to get the Bobbining in there.
+I had to get the Bobbinging in there.
 
 I took up the String and gave it a tug.
 
@@ -1354,7 +1354,7 @@ The Thing bobbed in after me.
 
 Now—
 
-the Bobbining was about as tall as I was.
+the Bobbinging was about as tall as I was.
 
 So getting it inside wasn't the problem.
 
@@ -1370,7 +1370,7 @@ it still didn't weigh nearly as much as it looked like it should.
 
 So with some effort—
 
-I managed to get the Bobbining UP onto the clear table.
+I managed to get the Bobbinging UP onto the clear table.
 
 Then I had to get it situated in relation to the Big Axle Collar.
 
@@ -1422,13 +1422,13 @@ the rod curved around—
 
 and terminated in this little clear Globe thing.
 
-The instruction pointed DOWN THROUGH the Bobbining.
+The instruction pointed DOWN THROUGH the Bobbinging.
 
 I looked at the Axle.
 
-Then at the Bobbining.
+Then at the Bobbinging.
 
-Then at the top of the Bobbining.
+Then at the top of the Bobbinging.
 
 Then at myself.
 
@@ -1466,13 +1466,13 @@ the Axle—
 
 the stepladder—
 
-and this nearly me-sized Bobbining—
+and this nearly me-sized Bobbinging—
 
 all cooperating in approximately the same place.
 
 I climbed UP onto the table.
 
-Got the Bobbining situated.
+Got the Bobbinging situated.
 
 Got the Axle UP there with me.
 
@@ -1480,7 +1480,7 @@ Climbed the stepladder.
 
 And after a fair amount of maneuvering—
 
-I finally managed to lift the Axle high enough to get it OVER the top of the Bobbining.
+I finally managed to lift the Axle high enough to get it OVER the top of the Bobbinging.
 
 Then I found the opening.
 
@@ -1496,7 +1496,7 @@ once it was lined up—
 
 it just went.
 
-DOWN THROUGH the Bobbining.
+DOWN THROUGH the Bobbinging.
 
 DOWN THROUGH the Hourglass Axle Cushioning Thing.
 
@@ -1594,7 +1594,7 @@ THROUGH my Terrestrial Computer—
 
 THROUGH the table—
 
-THROUGH the Bobbining—
+THROUGH the Bobbinging—
 
 and then way up at the other end—
 
@@ -1676,7 +1676,7 @@ I picked up the Nozzle and Little Wheel from beside the table.
 
 The String was still threaded THROUGH them.
 
-The same little arrangement that had brought the Bobbining all the way ALONG behind me.
+The same little arrangement that had brought the Bobbinging all the way ALONG behind me.
 
 And now—
 
@@ -1691,7 +1691,7 @@ Quarry: 1797–1799, 4720–4733, 4840–4860. Earlier material curve, JANUSITE 
 
 So I pulled out enough Stringing to do what the instructions were asking me to do.
 
-The Bobbining gave its familiar little bob.
+The Bobbinging gave its familiar little bob.
 
 “Okay.”
 
@@ -1747,7 +1747,7 @@ and TOWARD the opening at the other end.
 
 I watched them disappear.
 
-Then I looked at the enormous Bobbining.
+Then I looked at the enormous Bobbinging.
 
 The Axle.
 
@@ -2900,7 +2900,7 @@ For one thing, there was another puffer.
 
 A much bigger one this time.
 
-The Visionizing Glasses called it:
+The Envisionizing Glasses called it:
 
 **THIS ONE BIG BELLOWING THING.**
 
@@ -3204,6 +3204,11 @@ So I followed it.
 
 Farther along, another inscriptioning stood upon it:
 
+<!-- GOBS FLAG — CONFLICT [GOBS-A04]
+STATUS: LIVE — M01–M18 APPLICATION
+M12 differentiates Road/Traversaling ALONG THROUGH from Caterpillar segmentationing THROUGH ALONG. Here in 12 the deck Rail prints THROUGH ALONG and Richard quotes/follows it; the Rail continues with that phrase later. Is this Rail still the Caterpillar continuity or now Road standing? Do not change a furnished sign and its spoken reaction until referent is established. No global directional reordering.
+-->
+
 **THROUGH ALONG.**
 
 I looked down at it.
@@ -3454,7 +3459,7 @@ This time I knew where I was going.
 
 I made my way toward the front of the enormous deck and went over to have a look at that little Cup for myself.
 
-When I got there, the Visionizing Plump Croissant Glasses furnished an inscriptioning:
+When I got there, the Envisionizing Plump Croissant Glasses furnished an inscriptioning:
 
 **THIS ONE CONSTITUTIONING HUMAN DOLL UPSTANDING STAND.**
 
@@ -3536,7 +3541,7 @@ Down inside it was something that looked like it might fit that ridiculous singl
 
 I looked at the Doll.
 
-The Visionizing Glasses furnished the familiar readout:
+The Envisionizing Glasses furnished the familiar readout:
 
 **THIS ONE FOOT FINDINGING THING.**
 
@@ -4302,9 +4307,9 @@ STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
 Quarry: 1606–1796 develops one failed diagnostic scene: mirror flip/magnified macaroni THROUGH inscriptions → Rail announces Landinging Dispensary → failed feather Quilling → mouse/pointer and scroll behavior → bug-eyed monitor diagnosis. Current retains mirror and control complaints but lacks this causal sequence. Consider as a coordinated recovery, not an inventory of independent props. It prepares the later afforded Quill/inkwell payoff (4735–4908).
 -->
 
-MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
+## MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
 
-“Hailings & Salutationingings!”
+“Hailingings & Salutationingings!”
 
 Whoa. I nearly dropped the cup.
 
@@ -4330,7 +4335,7 @@ I looked out TOWARD the Rail Line.
 
 “First of all, I’m not UN-FOLDing another single thing around here again. At least not until somebody tells me what I’ve been UN-FOLDing myself into around here.
 
-“Because the same thing has been going on ever since I got here. First I had to put together this needle-nozzle thing and drag its string behind me. Then I had to go stick this huge barboning thing here into some kind of clear box. And then I had to impale my Terrestrial Computer with an axle rod THROUGH its square buckle, I might add.
+“Because the same thing has been going on ever since I got here. First I had to put together this needle-nozzle thing and drag its string behind me. Then I had to go stick this huge Bobbinging thing here into some kind of clear box. And then I had to impale my Terrestrial Computer with an axle rod THROUGH its square buckle, I might add.
 
 “And then I had to go into this Donut-shaped helmet room and pick up this other Donut-Helmet-shaped thing—you know, this thing that I’m wearing over my head now.”
 
@@ -4662,6 +4667,11 @@ I looked at it.
 
 “And so what does it do when it’s RE-Tracting THROUGH This RE-Tractioning Culvert?”
 
+<!-- GOBS FLAG — CONFLICT [GOBS-A03]
+STATUS: LIVE — M01–M18 APPLICATION
+M12 excludes Cobbing’s airplane from the THROUGH ALONG THROUGH family and identifies a separately developing OVER seam relation. Current 16 names RE-ZIPPERING ALONG THROUGH, and 20 repeats RE-ZIPPERS ALONG THROUGH after RE-TRACTS THROUGH THE CULVERT. Exact replacement Outread/operation is not supplied by the adjudication. No “OVER” substituted mechanically; retain pending seam formulation, distinct from Road ALONG THROUGH and Caterpillar THROUGH ALONG.
+-->
+
 “This Airplane stands RE-ZIPPERING ALONG THROUGH.”
 
 I looked at the airplane again.
@@ -4849,7 +4859,7 @@ From where I'm sitting, the Craft looks like a little flat-fronted cab.
 
 I am still at the Steering Wheel side.
 
-Across the cab is **This One Truly Boringinging Puffinging Tunneling Thing**.
+Across the cab is **This One Truly Boringing Puffinging Tunneling Thing**.
 
 **RICHARD**
 
@@ -5438,8 +5448,8 @@ I turn back toward Doll.
 I continue the last part of my walk.
 
 <!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q016]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 1960–2005, 2449–2497, 3172–3689: first and Other Bearinging markers distinguish approaching from ALONGSIDE WITH. Current arrival has no threshold between ascent and computer-stuff reveal. Later development changes “BEARING-ING SIGN” to “BEARINGING ARCHWAY” and revises reveal order; exact first stack remains explicitly uncertain. Review thresholds and full stack before recovery; see morphology inventory M03.
+STATUS: PARTIALLY RESOLVED — M03
+M03 settles THIS ONE BEARINGING ARCHWAY ACROSS and THIS ONE OTHER BEARINGING ARCHWAY OVER ACROSS, and recovers the first Regarding stack: REGARDING FROM HERE, AT THE DOLL, OVER ACROSS FROM THE DOLL, STANDING AT FROM HERE, ACROSS OVER THERE. Deprecated Sign language is no longer a naming question. Current 17 has no staged Archway encounters; adding them would require threshold/arrival narrative decisions. Retain current bodily sequence pending that work; do not invent an independent Sign to preserve historical language.
 -->
 
 As I approach, familiar things begin resolving around Doll.
@@ -5513,8 +5523,8 @@ Because I'm still talking to you.
 So I guess that's fine.
 
 <!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q017]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 3690–3910 proposes provisioning tiny Donut Helmet, Ground toy chair (correcting the redundant imaginary-chair shopping), Groundward/Upside teaching, broom/underside inspection, slow Quilling mechanism test, perch and commissioning. Current supplies a clear cap, joint/handlebars and Bellows but lacks this embodied training. Audit significant apparatus by consequence: Poofing Needle, Quilling Stitching Needle, Button/Unicycle, TC/JANUSITE delivery route (Quarry 889–891), WHAT-FOR/CURVING PITTONING and Four-Wheeling later. No checklist demonstration; no Doll speech, inner life or independent initiative. Can the cap coexist with the later little Donut Helmet?
+STATUS: PARTIALLY RESOLVED — M02/M07/M10
+Needle A is POCKET POOFING NEEDLING THING; Needle B is Quilling Stitching Needle with its settled full LOOPING UP ... title. They are two apparatus, not an upgrade sequence. M07 settles one Envisionizing Glass Pair/Donut Helmet family with later Doll instance; exact full Shoppe inscription remains YELLOW. Current clear cap, keyboard-to-cap/Road scene, and missing Needle-B provisioning require narrative review. Shared remote instrument morphology is settled by M10, but exact mechanics remain YELLOW. Do not invent provisioning, tiny Helmet acquisition, cap equivalence or a control checklist.
 -->
 
 I regard Doll.
@@ -5525,7 +5535,7 @@ Little Spooling Unicycle ASSEMBLEMENTING.
 
 The Needle stands FROM OUT OF Doll.
 
-Nearby is a tiny little Puffing Bellows Thing.
+Nearby is a tiny little Poofing Bellows Thing.
 
 **RICHARD**
 
@@ -5545,7 +5555,7 @@ But the Needle is here.
 
 Standing FROM OUT OF the middle.
 
-And here's the little Puffing Thing.
+And here's the little Poofing Thing.
 
 I try the little Bellows.
 
@@ -5565,7 +5575,7 @@ That doesn't work either.
 
 Cobbing, you can put that one on the list.
 
-The little Puffing Thing doesn't seem to work from out here.
+The little Poofing Thing doesn't seem to work from out here.
 
 I look toward the ordinary chair.
 
@@ -5855,7 +5865,7 @@ Then my attention returns toward Doll.
 
 The Needle.
 
-The little Puffing Bellows.
+The little Poofing Bellows.
 
 I slow.
 
@@ -5863,7 +5873,7 @@ I slow.
 
 You know what I still don't understand?
 
-Why wouldn't that little Puffing Thing work?
+Why wouldn't that little Poofing Thing work?
 
 I look THROUGH the Donut Helmet Thing.
 
@@ -5945,7 +5955,7 @@ But right where I was expecting to keep going.
 
 And standing there to read:
 
-**EN-VOLUMINGABLE FROM HERE**
+**THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE**
 
 I look at it.
 
@@ -6387,8 +6397,8 @@ I consider taking a picture.
 “What I wanted to say something about was how my practicing of this thing has been going.”
 
 <!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q021]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 4735–4908, 5728–5757 develops THIS OUR CURRENT LOCAL MOMENT GALLERY ROOM: working already-standing Semantical Stringing, WHAT-FOR PITTONING, mounds/apertures/caverning, CURVING PITTONING and Four-Wheeling; Maple expands to PIANO PLAYING PRACTICING, score/music stand/metronome. Current only Quills a practicing-playing Pocket and moves its title back to WHAT FOR. Later feather pen writes on an interpolationing surface; Quilling Stitching Needle stitches ahead—it must not extrude material directly. Candidate replacement needs earlier failed-feather setup Q009 and embodied training Q017; cave/cavern morphology stays open.
+STATUS: PARTIALLY RESOLVED — M10–M13
+Gallery referents are settled and distinct: THIS ONE ROUNDABOUT GALLERY; THIS OUR CURRENT LOCAL MOMENT GALLERY ROOM; THIS ONE TUPLE-SHIP DECK GALLERY. Inhabited labor is THROUGHING ALONG THROUGHING FROM HERE. MOUND has no ontological privilege; actual Video-One topology remains a narrative question. Current Maple Pocket does not stage first entry behind Gallery wall; no TC-seam narration was added. When that entry is drafted, Richard must not yet explain the TC crossing. Remote instrument exact mechanics remain YELLOW. Feather/surface/stitching recovery still requires the earlier setup and Needle-B provisioning.
 -->
 
 I begin Quilling.
@@ -6559,14 +6569,14 @@ A long way.
 
 And I start making my way back up ahead through the Situationing I have just learned how to recognize as my own.
 
-<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q022]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 4091–4599 complete later Movement 19 changes order: Cornering first → TABLE directly Quilled within it → separate macramé labor → selection/telescoping purchase for original Spider Plant → three-way relation → revisit original to prove unchanged → ordinary windows/lamp → Groundward no actual Table. Current TABLE-first / larger Cornering and Anchored Turning Indexing overlap with older Quarry 365–888. Review entire construction and preservation proof together; do not add the later full print after current scene or infer an architectural equivalence between Indexing and CURVING PITTONING.
+<!-- GOBS FLAG — CONFLICT [GOBS-Q022]
+STATUS: SUPERSEDED QUESTION — M14
+M14 rejects the Quarry’s Cornering-first variant as a replacement path: DO NOT MOVE CORNERING EARLIER. Current Table-first sequence is preserved. THIS IS OUR STABLE TABLE is now furnished after Table fashioning; formal Cornering inscriptions now read THIS CORNERING OF MY COMPUTERING ROOM. Remaining narrative gap: current Richard sees/plans the actual corner before completing the Table, then invents Cornering through macramé interest; it does not enact boring-Table/presentation problem → raise Helmet → Groundward corner discovery. Do not silently rearrange this into the settled bodily sequence. Later relational preservation work remains separately live (Q023).
 -->
 
 # MOVEMENT 19 — MY CORNERING COMPUTERING SITUATIONING
 
-I am still wearing the **Visionizing Plump Croissant Glass Pair**.
+I am still wearing the **Envisionizing Plump Croissant Glass Pair**.
 
 For a moment, I just stand there.
 
@@ -6629,6 +6639,11 @@ A new Pocket stands available.
 I look TOWARD it.
 
 Then I RE-STEP.
+
+<!-- GOBS FLAG — CONFLICT [GOBS-A01]
+STATUS: LIVE — M01–M18 APPLICATION
+M02: POOF furnishes possibility of extent, not extent. This 19 occurrence, 18’s POOF → newly available Pocket → RE-STEP before Quilling, and 20’s “newly POOFed extent” still bypass the distinct Quilling Stitching Needle labor through which extent comes to stand. The 18 EN-VOLUMINGABLE readout is corrected, but naming alone cannot repair chronology. Needle-B furnishing/working scene must be adjudicated; no extent-producing operation invented.
+-->
 
 The newly POOFed foldingable extent comes into staging ALONGSIDE WITH me upon:
 
@@ -6852,6 +6867,10 @@ I nod.
 
 “That's a nice little Table.”
 
+I Quill:
+
+**THIS IS OUR STABLE TABLE**
+
 Then I look toward the corner again.
 
 Something else occurs to me.
@@ -6896,7 +6915,7 @@ I start seeing it.
 
 Then I Quill:
 
-**MY CORNERING COMPUTERING SITUATIONING**
+**THIS CORNERING OF MY COMPUTERING ROOM**
 
 I read it.
 
@@ -6922,7 +6941,7 @@ I RE-STEP.
 
 The foldingable extent of:
 
-**MY CORNERING COMPUTERING SITUATIONING**
+**THIS CORNERING OF MY COMPUTERING ROOM**
 
 comes into staging ALONGSIDE WITH me upon the Road.
 
@@ -6994,7 +7013,7 @@ I look around the Donut Helmet.
 
 My eyes search the available apparatus.
 
-Then I notice something newly available through the **Visionizing Plump Croissant Glass Pair**.
+Then I notice something newly available through the **Envisionizing Plump Croissant Glass Pair**.
 
 I squint.
 
@@ -7142,7 +7161,7 @@ Chair AT it.
 
 And there is:
 
-**MY CORNERING COMPUTERING SITUATIONING**
+**THIS CORNERING OF MY COMPUTERING ROOM**
 
 standing elsewhere ALONG the same articulated Roundabout Gallery.
 
@@ -7260,7 +7279,7 @@ It does not turn back toward TABLE.
 
 It continues into the furnished extent of:
 
-**MY CORNERING COMPUTERING SITUATIONING**
+**THIS CORNERING OF MY COMPUTERING ROOM**
 
 I look up.
 
@@ -7471,7 +7490,7 @@ I follow the second TOWARD into the Cornering extent.
 
 And now I particularize what I mean FOR this relation to stand FOR:
 
-**TOWARD THE CEILING OF MY CORNERING COMPUTERING SITUATIONING**
+**TOWARD THE CEILING OF THIS CORNERING OF MY COMPUTERING ROOM**
 
 The macramé plant holder takes its place in my composition.
 
@@ -7565,7 +7584,7 @@ I let myself enjoy it.
 
 Then I reach up.
 
-I take hold of the **Visionizing Plump Croissant Glass Pair**.
+I take hold of the **Envisionizing Plump Croissant Glass Pair**.
 
 And remove them.
 
@@ -7609,7 +7628,7 @@ I look at my actual computer.
 
 Still sitting on that flimsy little stand in the corner.
 
-I put the Visionizing Plump Croissant Glass Pair back on.
+I put the Envisionizing Plump Croissant Glass Pair back on.
 
 My Cornering Computering Situationing is still there.
 
@@ -7815,6 +7834,11 @@ So now what?
 
 A familiar little possibility presents itself.
 
+<!-- GOBS FLAG — CONFLICT [GOBS-A02]
+STATUS: LIVE — M01–M18 APPLICATION
+M01/M02: this 20 apparatus is called Tunneling Thing, yet Richard takes it and performs POOF to furnish a Pocket; the same conflict recurs for the coins Pocket (“The little Puffinging Tunneling Thing is available again”). M21 intentional PUFF on the Tunneling Thing remains correct. Should 20 be operating Needle A here? Referent/handling decision needed before replacing names or POOF with PUFF.
+-->
+
 The little Puffinging Tunneling Thing.
 
 **RICHARD**
@@ -7828,8 +7852,8 @@ I take it.
 **POOF.**
 
 <!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q024]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 4909–5190 and 5493–5540: Looking-FOR-Findinging is fashioned through WHAT-FOR/PITTONING/open-region Gallery labor; existing Table’s purchase is brought relationally under present Regard. Current uses POOF and TABLE TOWARD LFF via Indexing. Important reversal at 5057–5090: the Table-through-exchange-Pocket draft is explicitly retracted because it gives Table→Table, not an independent exchange side. Compare the later two-standings construction; do not restore that rejected intermediate draft.
+STATUS: PARTIALLY RESOLVED — M02/M10/M15
+M15 settles independent exchange Pocket WHAT FOR, not a frame containing the Table. No Table pulling/copying/placing inside it. Current 20 still stages POOF and Indexing to furnish LFF; adopting WHAT-FOR/PITTONING construction requires narrative work. M10 settles differentiated Doll purchase THERE / Richard pulling HERE, but mechanics remain YELLOW; do not infer Indexing equivalence or restore retracted Table-through-exchange-Pocket draft.
 -->
 
 A fresh little Pocket stands EN-VOLUMINGABLE along the curving relation of:
@@ -8097,8 +8121,8 @@ I stop.
 Coins.
 
 <!-- GOBS FLAG — CONFLICT [GOBS-Q025]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 4909–5190 retires mandatory coins/money in favor of independently furnished exchange-side standing; 5150–5190 develops “SOME KIND OF POCKET ... THESE OTHER SOME THINGS ... FOR A TABLE LIKE THIS ONE,” subsequently exemplified by Hypertufa planter. $100 remains a possible content test, not mandatory money or machine valuation. Current bag/QUANTITY 100 then fixes both Richard and Sam around coins. Would you replace both sides and retrospective together? Existing question about what actual provision backs imaginary coins remains live only if coins survive this adjudication.
+STATUS: M15 WORDING RESOLVED; SCENE STILL LIVE
+Exact Video-One exchange WHAT FOR: SOME KIND OF POCKET WITH SOME THINGS IN IT THAT SOMEONE MIGHT LIKE TO STAND REGARDING, WITH REGARD TOWARD EXCHANGING THESE OTHER SOME THINGS FOR A TABLE THAT IS SOME THING LIKE THIS ONE TABLE THING. Current 20/22 have no occurrence of that inscription; their bag/100 coins, imaginary-commerce jokes and Sam retrospective cannot be changed by renaming one noun. No exchange content, planter, price, offer or agreement invented. Decide how to stage the independent WHAT FOR and preserve/rework the coins narrative. Generalized THISNESS is parked, margin note only.
 -->
 
 Coins are pretty universal-looking.
@@ -8267,9 +8291,9 @@ Somewhere around me.
 
 Somewhere I could conceivably go get a Table.
 
-<!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q026]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry 5493–5538, 5632–5726; memo §§14–15. Later geographic extent AROUND ABOUT 15 MILES FROM HERE is another qualificationing of SOME KIND OF TABLE LIKE THIS ONE, alongside ROUND/WOODEN/size/CENTRAL POST—not a privileged radius/filter. Current separately furnishes Village after exchange setup and never enacts differentiated Tuple Ship deformationing / ALIGNINGMENTING. Compare relational qualificationings and the Table ACROSS Table hinge before recovering geography; do not just append a fifteen-mile search limit.
+<!-- GOBS FLAG — CONFLICT [GOBS-Q026]
+STATUS: M16 WORDING RESOLVED; STAGING STILL LIVE
+M16 settles AROUND ABOUT 15 MILES FROM HERE as equal-status qualificationing of sought TABLE. Current prints only THIS ONE SOME VILLAGE after exchange setup and lacks THIS ONE SOMEPLACE UPON EARTH → WHAT-FOR PITTONING → OUT ABOUT → Village constitutioning. Locality is reusable; travel extent belongs to this LFF, with no inverse radius required of Sam. Inserting that missing labor is a narrative decision, not a replacement of an existing radius phrase. No search limit or locality operation invented.
 -->
 
 I furnish:
@@ -8778,7 +8802,7 @@ I know what to do about that now.
 
 I return to:
 
-**This One Truly Boringinging Puffinging Tunneling Thing.**
+**This One Truly Boringing Puffinging Tunneling Thing.**
 
 “Hello again.”
 
@@ -9630,11 +9654,6 @@ And somehow that eventually resulted in me acquiring:
 
 a Constitutioning Human Doll;
 
-<!-- GOBS FLAG — UNCERTAIN [GOBS-Q031]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Morphology inventory M02: Quarry 1605 and Richard’s explicit extra-hyphen approval 3690–3705 give the elaborate LOOPING UP ... STITCHING-BY-WAY-OF-QUILLING NEEDLE THING; current first names POCKET POOFING NEEDLING THING then closes on Quilling Stitching Needle. Is this recall a different apparatus or a shortened title? Also current 21 PUFF creates a new extent where later POOF/Poofing distinction may apply (M01). Do not silently reconcile mechanisms or normalize names.
--->
-
 a Quilling Stitching Needle;
 
 a Little Spooling Unicycle;
@@ -9657,7 +9676,7 @@ and—
 
 one of my personal favorites—
 
-**This One Truly Boringinging Puffinging Tunneling Thing.**
+**This One Truly Boringing Puffinging Tunneling Thing.**
 
 Which, as it turns out, is extremely useful.
 
@@ -9839,7 +9858,7 @@ And somewhere in there—
 
 if all goes according to the procedures—
 
-you may find yourself standing THROUGHBY your Terrestrial Computer WITHIN This One Stewardly Co-Occupancying Ship.
+you may find yourself standing THROUGHBY your Terrestrial Computer WITHIN This One Stewardly Co-Occupancyingship.
 
 And you may meet:
 
