@@ -360,6 +360,11 @@ And I thought to myself, well, this is just about the most back-assward thing I�
 
 Huckleberry and Enzo owe me big time. 
 
+<!-- GOBS FLAG — POSSIBLE LOST MATERIAL [GOBS-Q001]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 242–255 explicitly asks Gobs to flag the Cauldron of Continuity Pressure Noticingment for the opening Rail sequence. It is absent here. Would you recover Richard stopping to read the Cauldron-under-Snail-House sign, then returning to his Wharf urgency? This is an explicit recovery request, not permission to insert dialogue.
+-->
+
 And when I scrolled down to the opening of the Rail Line, there was just this strange little sign standing across the tracks: 
 
 UN-FOLD.
@@ -555,6 +560,11 @@ but the Constitutioning Human was expected to bring his own chair.
 
 Good to know.”
 
+<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q002]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 2985–3113, 3115–3171; current memo §§8–10. The Crew should wave Richard past the securely seated TC, followed by his bodily turn/look back. Current staging leaves him looking at TC OVER THERE without establishing the crossing. Where should the crossing and permission-to-pass computer beat stand? Preserve ordinary Groundward monitor-forward orientation; looking back is bodily orientation, not a navigation axis.
+-->
+
 So I stood where they told me to stand.
 
 And that was pretty much it.
@@ -650,6 +660,11 @@ now what?
 ### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THING
 
 Well—
+
+<!-- GOBS FLAG — CONFLICT [GOBS-Q003]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 2991–3017 and memo §8 leave TC Restfully on its chair as Richard proceeds past it. Movement 5 instead picks it up, carries it into the Pocket, sets it beside Richard, carries it through the tunnel; Movement 6 relocates it underneath the clear table (look for “Then I was supposed to put my Terrestrial Computer underneath”). These are explicit operations, not merely ambiguous sightlines. Are they compatible with the new behind-Richard standing, or is the carrying/installation sequence stale? Review the entire 5–6 chain together before changing individual directions.
+-->
 
 I picked up my Terrestrial Computer—
 
@@ -1669,6 +1684,11 @@ apparently—
 
 the whole little arrangement was supposed to go into the Piping.
 
+<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q007]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 1797–1799, 4720–4733, 4840–4860. Earlier material curve, JANUSITE passage, and labor with Stringing could prepare later Gallery handling without explaining it. Would a small bodily recognition be useful? Do not equate the Bobbinging curves with PITTONING architecture or treat bare thread as already Semantical Stringing.
+-->
+
 So I pulled out enough Stringing to do what the instructions were asking me to do.
 
 The Bobbining gave its familiar little bob.
@@ -2107,6 +2127,11 @@ So I stepped on it.
 
 And suddenly—
 
+<!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q004]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Memo §9 expressly supersedes the dark Sittinging-In Room / Lanterning-Bugs lighting premise. Current 8 still flips their switch and lights the room; 20 later introduces the Slumbering Lanterning Bug Colonial Bunkhouse for Appointmenting. Flag the whole early lighting sequence as stale; no script deletion made. Which existing bright-alcove/room transition should survive?
+-->
+
 everything was dark.
 
 I still had the Donut Helmet thing on.
@@ -2138,6 +2163,11 @@ But I didn't even try those.
 Six seemed fine.
 
 And now that I could see—
+
+<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q005]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Memo §9 discovery order: wall question → Doll/chair ALONGSIDE WITH → reaction → floor/place inscription → turn/look back to TC. Here TC is confirmed first, OVER ACROSS; disappointment in Doll comes after the floor inscription, and the later “So I looked over at it” repeats an unspecified lateral confirmation. Reorder/blocking requires adjudication; do not simply substitute “behind” into the old sequence.
+-->
 
 there was my Terrestrial Computer.
 
@@ -2220,6 +2250,11 @@ a—
 Floor.
 
 “Typical bureaucracy,” I thought.
+
+<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q006]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 2060–2075, 3027–3099, 3880–3910. Could this paired Groundward/Upside discovery seed the later Doll training? A Groundward ordinary computer remains forward; Upside TC confirmation needs a turn/look back, with Craft affordmentings ahead. No new switch or helmet control is implied, and Upside does not require physical upward looking. Current 9–10 Ground room movement is not itself a behind-TC contradiction.
+-->
 
 Then I looked DOWN through the Glass Pair.
 
@@ -3025,15 +3060,19 @@ But something outside this thing had definitely moved when I turned that Steerin
 
 And I wanted to know what it was.
 
-<!-- GOBS FLAG [GOBS-008]
-TYPE: STAGING / ARCHITECTURAL SEAM
-STATUS: UNRESOLVED
-Movements 10–12 move from the wedge-shaped Sittinging-In Room to the operating apparatus and enormous deck by looking DOWN / UP SIDE and stepping around the contraption. Confirm whether that enacted change of Regard sufficiently establishes the sightline across the room walls. The former Flatiron recognition and Movement-17 Wardrobe-Shop view are no longer present and are not evidence for this flag.
+<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-008]
+STATUS: LIVE; QUESTION SUPERSEDED IN PART — PASS ONE
+Movements 10–12 still require confirmation of room walls / apparatus / deck sightline under the enacted DOWN / UP SIDE change of Regard. Quarry 3027–3113 now separates paired Groundward/Upside Regarding from ordinary forward/look-back posture; 3172–3910 proposes later thresholds and floating-computering-room reveal, but does not establish that this early sightline is resolved. Does the newer staging preserve this reveal or require a different approach? Earlier Flatiron and Wardrobe-view claims remain obsolete; do not recreate them. Compare Q013/Q017 rather than treating later reveal as authorization to repair this passage.
 -->
 
 So I stepped UP and OUT around the left side of the contraption—
 
 and went to have a look.
+
+<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q013]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 5728–5757 and memo §11 suggest small earlier preparation for embodied Gallery work: worked material, aperture, purchase, or bodily bearing. The deck currently discovers UP/ABOUT/OUT and a return HERE. Would a limited seed here help THIS OUR CURRENT LOCAL MOMENT emerge later? Do not install the earlier deck retrofit or front-load a Gallery tutorial; see retained GOBS-008 for sightlines.
+-->
 
 ### MOVEMENT TWELVE — OUT UPON THE DECK
 
@@ -4258,6 +4297,11 @@ Leaned toward the mouthpiece.
 
 “Hello?”
 
+<!-- GOBS FLAG — POSSIBLE LOST MATERIAL [GOBS-Q009]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry: 1606–1796 develops one failed diagnostic scene: mirror flip/magnified macaroni THROUGH inscriptions → Rail announces Landinging Dispensary → failed feather Quilling → mouse/pointer and scroll behavior → bug-eyed monitor diagnosis. Current retains mirror and control complaints but lacks this causal sequence. Consider as a coordinated recovery, not an inventory of independent props. It prepares the later afforded Quill/inkwell payoff (4735–4908).
+-->
+
 MOVEMENT 16 — THIS STEWARDLY CO-CAPTAIN CO-BOBBINING
 
 “Hailings & Salutationingings!”
@@ -4440,6 +4484,11 @@ I moved the mirror around a little.
 
 “So the RE-STEP pedal does not work. We’ve been over this. It doesn’t work FOR me, at least.
 
+<!-- GOBS FLAG — HUMOR / PERFORMANCE RECOVERY [GOBS-Q010]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Comparison: Quarry 88–141, 1090–1153, 1357–1435, 1663–1672. The extended hospitality ramble, tiny sandal, name exchange, wrong-foot joke, revised stars and forgetting the complaint are already present here. Do not flag this as wholesale lost material. Remaining candidate: the more luxuriant pause/repeated resting-foot business and variant rating escalation. Which performance texture, if any, deserves recovery? Ratings differ across prints; no preferred rating inferred.
+-->
+
 “But right next to the RE-STEP pedal is this other little place that is just FOR resting your other foot. It has the little—it’s painted with the little sign, you know, the one that says This One Foot Restinging Thing.
 
 “And that feels strange in a way, you know, because this machine somehow has made it its business to put a little place in the contraption area that’s just FOR this kind of thing.
@@ -4582,6 +4631,11 @@ I turned the wheel, and the whole contraption answered with a tremendous metalli
 
 The big Bellows thing.
 
+<!-- GOBS FLAG — UNCERTAIN [GOBS-Q011]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 1440–1473 retains the claim that air comes out; current 11/15 previously shows nothing Richard can see when squeezing the Big Bellowing Thing. Is the audible/tactile puff an intentional later observation, or does the complaint grant him unsupported evidence? Also review this control’s eventual Doll relation with Q017; no invented consequence.
+-->
+
 “This big Bellows thing over here just blows out air. I’ve tried that one lots of times too. So technically, I guess it works, but I don’t even know which column to put it in. I don’t know why anybody would need something like that in a craft like this—whatever this contraption is—but I can report that air does come out.
 
 “And then there’s this horn thing. It says RE-SOUND.”
@@ -4689,6 +4743,11 @@ I looked down at RE-STEP.
 I waited.
 
 Then something else occurred to me.
+
+<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q012]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 224–240, 1510–1602, 1736–1789; memo §7. Current marriage → familiar screen/keyboard → parts no longer bearing familiarly → own place → Floatationing progression is retained and expressly preferred. Do not replace it with the old isolated marriage question. Once Q002–Q006 blocking is adjudicated, should the bodily behind/forward distinction support this existing complaint? “Cup wearing a Donut Helmet talking ... through an airplane” remains an explicitly tentative joke, not approved replacement.
+-->
 
 “And here’s the part that really gets me.
 
@@ -4958,6 +5017,11 @@ I stop.
 
 Oh.
 
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q014]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 3115–3171, 3172–3689 revises the Doll quest: expected Doll missing → partially read Ramp Noticingment → prolonged approach → finally reading the persistent full sign → frustration → Other Bearinging Archway → floating computering-room reveal distracts from Doll hunt. Current sees Doll from the outset and approaches it directly. Earlier Quarry 2140–2630 shares current visible-Doll staging; later Richard corrections explicitly reject over-insightful narration. Which whole approach/reveal should stand? Do not splice these incompatible sightlines.
+-->
+
 There's my Doll.
 
 Far OVER ACROSS the dark extent, I can see Doll.
@@ -5011,6 +5075,11 @@ Okay.
 You should know that.
 
 When you get out here, you can just start walking FROM HERE.
+
+<!-- GOBS FLAG — HUMOR / PERFORMANCE RECOVERY [GOBS-Q015]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 2839–2983 and 3172–3689: A2 → Human correction TO → woodshed saw/W-A-R-D plan → XT segmentationings linked by giving TOWARD rubber bands → transverse TOWARD YT chase, loss of purchase/bounding → return to Posts; shoe/fashion-show Pretending also appears. Current ascent has no saw/chase or bouncy/ball-pit texture (its later handlebars sprint is not this beat). Consider physical comedy and Pretending-without-Doll recovery together. Memo §13 supplies ball-pit comparison; Quarry grounds giving/bounding rather than an explicit literal ball pit.
+-->
 
 I continue ascending toward Doll.
 
@@ -5368,6 +5437,11 @@ I turn back toward Doll.
 
 I continue the last part of my walk.
 
+<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q016]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 1960–2005, 2449–2497, 3172–3689: first and Other Bearinging markers distinguish approaching from ALONGSIDE WITH. Current arrival has no threshold between ascent and computer-stuff reveal. Later development changes “BEARING-ING SIGN” to “BEARINGING ARCHWAY” and revises reveal order; exact first stack remains explicitly uncertain. Review thresholds and full stack before recovery; see morphology inventory M03.
+-->
+
 As I approach, familiar things begin resolving around Doll.
 
 **RICHARD**
@@ -5437,6 +5511,11 @@ Obviously.
 Because I'm still talking to you.
 
 So I guess that's fine.
+
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q017]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 3690–3910 proposes provisioning tiny Donut Helmet, Ground toy chair (correcting the redundant imaginary-chair shopping), Groundward/Upside teaching, broom/underside inspection, slow Quilling mechanism test, perch and commissioning. Current supplies a clear cap, joint/handlebars and Bellows but lacks this embodied training. Audit significant apparatus by consequence: Poofing Needle, Quilling Stitching Needle, Button/Unicycle, TC/JANUSITE delivery route (Quarry 889–891), WHAT-FOR/CURVING PITTONING and Four-Wheeling later. No checklist demonstration; no Doll speech, inner life or independent initiative. Can the cap coexist with the later little Donut Helmet?
+-->
 
 I regard Doll.
 
@@ -5898,6 +5977,11 @@ I press:
 
 **RE-STEP.**
 
+<!-- GOBS FLAG — CONFLICT [GOBS-Q018]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Memo §12 expressly forbids Doll riding/pedaling: Richard furnishes Pretending; Doll consequentially RE-STOMPS BY-WAY-OF Little Spooling Unicycle where warranted. Current also says “The Doll pedals” in Donna, return, Maple and 21; 20 says rides/pedals during Buttoning. Quarry 2740–2800 distinguishes ordinary RE-STEP from Human relinquishment/Pending Button/RE-STOMP. Review every riding/pedaling occurrence, including earlier “sitting upon the Unicycle” in 16. Silence is preserved; mechanically replacing “pedals” with RE-STOMPS would wrongly add consequence to ordinary RE-STEP.
+-->
+
 For the first time, I see the Constitutioning Human Doll actually pedal the **Little Spooling Unicycle**.
 
 The geometry changes.
@@ -5943,6 +6027,11 @@ I look between the actual plant and the Pocket standing UP there.
 “Let's put my Spider Plant in it.”
 
 I take a picture of the Spider Plant.
+
+<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q019]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Memo §§8–10; Quarry 3027–3113. Is this ordinary Groundward computer activity while Upside TC remains behind/restfully buckled, or an explicit operation changing that standing? Current photographs and furnishing then look HERE/OVER there without repeating the behind-TC confirmation. Need directional/readout distinction before claiming a literal change in TC posture; “actual computer” does not by itself specify the Regard.
+-->
 
 My Terrestrial Computer **stirs from its rest**.
 
@@ -6097,6 +6186,11 @@ This time I know what to do.
 The Doll pedals.
 
 The new Pocket articulates into working standing ALONGSIDE WITH.
+
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q020]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 3911–4090 revises Donna’s dramatic job: Spider Plant already proves return/persistence; a third unfurnished WHAT FOR supplies the FROM HERE to Regard both prior standings; Spider Plant → Donna relation is experimentally made then reversed. Current Donna mainly retests persistence and shower-curtain RE-FOLD. Compare replacement for plural Gallery discovery and comic plant-in-shower error. The intermediate two-Pocket/no-observation-standing account is corrected by Richard; there is no neutral outside-geometry viewing deck.
+-->
 
 I begin Quilling almost immediately.
 
@@ -6292,6 +6386,11 @@ I consider taking a picture.
 
 “What I wanted to say something about was how my practicing of this thing has been going.”
 
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q021]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 4735–4908, 5728–5757 develops THIS OUR CURRENT LOCAL MOMENT GALLERY ROOM: working already-standing Semantical Stringing, WHAT-FOR PITTONING, mounds/apertures/caverning, CURVING PITTONING and Four-Wheeling; Maple expands to PIANO PLAYING PRACTICING, score/music stand/metronome. Current only Quills a practicing-playing Pocket and moves its title back to WHAT FOR. Later feather pen writes on an interpolationing surface; Quilling Stitching Needle stitches ahead—it must not extrude material directly. Candidate replacement needs earlier failed-feather setup Q009 and embodied training Q017; cave/cavern morphology stays open.
+-->
+
 I begin Quilling.
 
 “Here's what I mean, Cobb.”
@@ -6459,6 +6558,11 @@ A long way.
 “Now I gotta go back up ahead.”
 
 And I start making my way back up ahead through the Situationing I have just learned how to recognize as my own.
+
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q022]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 4091–4599 complete later Movement 19 changes order: Cornering first → TABLE directly Quilled within it → separate macramé labor → selection/telescoping purchase for original Spider Plant → three-way relation → revisit original to prove unchanged → ordinary windows/lamp → Groundward no actual Table. Current TABLE-first / larger Cornering and Anchored Turning Indexing overlap with older Quarry 365–888. Review entire construction and preservation proof together; do not add the later full print after current scene or infer an architectural equivalence between Indexing and CURVING PITTONING.
+-->
 
 # MOVEMENT 19 — MY CORNERING COMPUTERING SITUATIONING
 
@@ -7174,6 +7278,11 @@ Then Cornering.
 
 Now I continue COMPOSEMENTING.
 
+<!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q023]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 4091–4160, 4400–4555, 5000–5055, 5728–5757; memo §11. Current says no rebuilding, which is useful retained standing, but later enriches the existing Spider Plant itself with pot/macramé before returning to Cornering. Later Quarry explicitly revisits original cup/windowsill/yellow-leaf standing unchanged: relational work neither copies nor overwrites it. Does current “existing ... standing further” blur source standing with newly constituted relation? Flag possible contradiction, not proven destructive behavior.
+-->
+
 The already-fashioned TABLE standing participates in the larger Cornering Situationing without being rebuilt.
 
 Computer still UPON TABLE.
@@ -7718,6 +7827,11 @@ I take it.
 
 **POOF.**
 
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q024]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 4909–5190 and 5493–5540: Looking-FOR-Findinging is fashioned through WHAT-FOR/PITTONING/open-region Gallery labor; existing Table’s purchase is brought relationally under present Regard. Current uses POOF and TABLE TOWARD LFF via Indexing. Important reversal at 5057–5090: the Table-through-exchange-Pocket draft is explicitly retracted because it gives Table→Table, not an independent exchange side. Compare the later two-standings construction; do not restore that rejected intermediate draft.
+-->
+
 A fresh little Pocket stands EN-VOLUMINGABLE along the curving relation of:
 
 **THE ROAD WE STAND TRAVERSALING ALONG THROUGH**
@@ -7982,6 +8096,11 @@ I stop.
 
 Coins.
 
+<!-- GOBS FLAG — CONFLICT [GOBS-Q025]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 4909–5190 retires mandatory coins/money in favor of independently furnished exchange-side standing; 5150–5190 develops “SOME KIND OF POCKET ... THESE OTHER SOME THINGS ... FOR A TABLE LIKE THIS ONE,” subsequently exemplified by Hypertufa planter. $100 remains a possible content test, not mandatory money or machine valuation. Current bag/QUANTITY 100 then fixes both Richard and Sam around coins. Would you replace both sides and retrospective together? Existing question about what actual provision backs imaginary coins remains live only if coins survive this adjudication.
+-->
+
 Coins are pretty universal-looking.
 
 The little Puffinging Tunneling Thing is available again.
@@ -8147,6 +8266,11 @@ I don't even know what that would mean in here.
 Somewhere around me.
 
 Somewhere I could conceivably go get a Table.
+
+<!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q026]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 5493–5538, 5632–5726; memo §§14–15. Later geographic extent AROUND ABOUT 15 MILES FROM HERE is another qualificationing of SOME KIND OF TABLE LIKE THIS ONE, alongside ROUND/WOODEN/size/CENTRAL POST—not a privileged radius/filter. Current separately furnishes Village after exchange setup and never enacts differentiated Tuple Ship deformationing / ALIGNINGMENTING. Compare relational qualificationings and the Table ACROSS Table hinge before recovering geography; do not just append a fifteen-mile search limit.
+-->
 
 I furnish:
 
@@ -8379,6 +8503,11 @@ I look at Cobbing.
 Okay.
 
 Let's actually do this.
+
+<!-- GOBS FLAG — UNCERTAIN [GOBS-Q027]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 2740–2838 distinguishes furnished Pending Button, Human relinquishment, RE-STOMP and deterministic operation, while its SAVE analogy is later explicitly revised. Current “Let’s actually do this” jumps to Pending and later riding/pedaling. Later LFF patch 5528–5540 uses RE-SOUND for Outing Among With. Is the present request/activation choreography superseded, or does the later RE-SOUND require a consequential sequence not fully printed? Memo forbids enforcing a reconstructed operation; do not turn every RE-STEP into RE-STOMP.
+-->
 
 Something changes.
 
@@ -8731,6 +8860,11 @@ No Buttoning yet.
 
 The Doll pedals, and I can work with the new Pocket.
 
+<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q028]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry addendum 287–325 protects dog HERE/THERE polarity, retained here; latest Table work 5493–5726 instead foregrounds independently differentiated situationings under Regard. After Table/Gallery adjudication, should 21 reuse that bodily relational grammar without turning the dogs into another apparatus lesson? No full later dog replacement is established by this Quarry; retain dog causality. See Q018 for pedaling and existing assessment for unshown activation.
+-->
+
 I look back toward what I have already furnished.
 
 “I don't need another dog park.”
@@ -8942,6 +9076,11 @@ Their plan worked.
 **CUT.**
 
 
+<!-- GOBS FLAG — LARGE REPLACEMENT CANDIDATE [GOBS-Q029]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 5190–5377 tentatively explores Sam without an LFF Pocket; later 5540–5726 explicitly returns to Sam’s independent Looking-FOR-Findinging, apartment→house, Table he no longer needs, planter interest, Hail/BY-WAY-OF/front-door passage, differentiated SOME KIND OF TABLE LIKE THIS ONE ACROSS SOME KIND OF TABLE LIKE THIS ONE. Current preserves four legs and Human judgment but centers reciprocal coins. Replace/compare the Hail and “how ... end” narrative as one candidate. Do not promote the earlier minimal-Sam hypothesis to canon or describe machine match/filter equivalence.
+-->
+
 # MOVEMENT 22 — SAM AND THE TABLE
 
 **RICHARD — MONTH ONE**
@@ -9045,6 +9184,11 @@ And I couldn't tell from the picture.
 So I returned Sam's Hailing.
 
 We stood Correspondencing.
+
+<!-- GOBS FLAG — HUMOR / PERFORMANCE RECOVERY [GOBS-Q030]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Quarry 5378–5630, 5680–5726: Richard re-Regards own Cornering; discovers Chair-arm height/underside clearance as well as table-leg gap; measures, asks Sam, further particularizes, then Notices carpet and doubts his central-post engineering—“We don’t need another accident.” Current has generic chair measurements and acceptance, missing arm/carpet/safety payoff. CENTRAL POST remains legitimate history; FOUR LEGS never becomes equivalent. Recover within Human Fitmenting, not a machine compatibility verdict; private constitutioning does not automatically disclose all standing to Sam.
+-->
 
 “How much room is there between the legs?”
 
@@ -9485,6 +9629,11 @@ I was asked:
 And somehow that eventually resulted in me acquiring:
 
 a Constitutioning Human Doll;
+
+<!-- GOBS FLAG — UNCERTAIN [GOBS-Q031]
+STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
+Morphology inventory M02: Quarry 1605 and Richard’s explicit extra-hyphen approval 3690–3705 give the elaborate LOOPING UP ... STITCHING-BY-WAY-OF-QUILLING NEEDLE THING; current first names POCKET POOFING NEEDLING THING then closes on Quilling Stitching Needle. Is this recall a different apparatus or a shortened title? Also current 21 PUFF creates a new extent where later POOF/Poofing distinction may apply (M01). Do not silently reconcile mechanisms or normalize names.
+-->
 
 a Quilling Stitching Needle;
 
