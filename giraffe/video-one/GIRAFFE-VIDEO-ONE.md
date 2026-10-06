@@ -920,6 +920,8 @@ I looked out at the water.
 
 There was a whole Weddinginging Crew standing there waiting for us.
 
+[BLOCKING — The Crew wear uniforms with the same General Offices emblem as the Parkinging Crew. Richard approaches carrying his laptop; a Crew member takes it to the Little Chair. Source: conversation messages 208, 217–219.]
+
 And by this point, I was still wondering what this ceremony was actually going to involve.
 
 The ribbon?
@@ -966,697 +968,1122 @@ It gets buckled in.
 
 And now apparently it's Restfullyinginglymenting.
 
-Then it was my turn.
+[BLOCKING — Seeing the beautiful Little Chair furnished for TC, Richard expects a fine chair of his own, perhaps a hand-carved throne. He looks around for it. The Crew instead bring the pole. Source: messages 214–216. Exact replacement narration for this expectation was not printed.]
 
-I came through after it.
+One of the Weddinginging Crew members came over carrying this long, lightweight pole.
 
-And I looked around for my chair.
+Looked something like bamboo.
 
-There wasn't one.
+There was another Crew member standing on the other side of my Terrestrial Computer.
 
-Apparently the PUBLIC-SITUATION-MACHINE- had furnished a place FOR This One Constitutioning Human—
+That Crew member took one end of the pole.
 
-but the Constitutioning Human was expected to bring his own chair.
+And the first Crew member handed the other end to me.
 
-“Okay.
-
-Good to know.”
-
-<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q002]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry: 2985–3113, 3115–3171; current memo §§8–10. The Crew should wave Richard past the securely seated TC, followed by his bodily turn/look back. Current staging leaves him looking at TC OVER THERE without establishing the crossing. Where should the crossing and permission-to-pass computer beat stand? Preserve ordinary Groundward monitor-forward orientation; looking back is bodily orientation, not a navigation axis.
--->
-
-So I stood where they told me to stand.
-
-And that was pretty much it.
-
-Somehow—
-
-my Terrestrial Computer was sitting OVER THERE, Restfullyinginglymenting UPON its adorable Little Chair.
-
-And I was still standing OVER HERE.
-
-Still me.
-
-Still looking at my computer.
-
-But somehow—
-
-we were now married.
-
-At least in the eyes of the PUBLIC-SITUATION-MACHINE-.
-
-And I have to admit—
-
-I'd never seen my computer in quite this kind of light before.
-
-Technically, if you think about it—
-
-we were standing at the threshold of our wedding night.
-
-And to be frank—
-
-this was my first time, you know, mating with my computer.
-
-Like this, at least.
-
-And as far as I knew, it was my Terrestrial Computer's first time doing it like this too.
-
-So naturally—
-
-I had questions.
-
-I mean, I do know the fundamentals.
-
-I produce outputs and take in inputs.
-
-That's what my Terrestrial Computer has always done ALONGSIDE WITH me too.
-
-But how are our parts even supposed to work together like this?
-
-Ordinarily, I use a keyboard.
-
-I use a mouse.
-
-I use a monitor.
-
-I know what I'm looking at because my computer puts what I'm looking at on a screen.
-
-But now—
-
-my computer is sitting OVER THERE—
-
-buckled securely UPON its Little Chair—
-
-and I'm standing OVER HERE.
-
-Now what am I supposed to do with my hands?
-
-My fingers?
-
-How am I supposed to see anything?
-
-I looked at my computer.
-
-My computer did what it had been doing.
-
-Nothing particularly matrimonial.
-
-Apparently—
-
-the ceremony was over.
-
-We were married.
-
-I was still me.
-
-My computer was still my computer.
-
-And I still had absolutely no idea what we were supposed to do next.
-
-So—
-
-now what?
-
-### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THING
-
-Well—
-
-<!-- GOBS FLAG — CONFLICT [GOBS-Q003]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry: 2991–3017 and memo §8 leave TC Restfully on its chair as Richard proceeds past it. Movement 5 instead picks it up, carries it into the Pocket, sets it beside Richard, carries it through the tunnel; Movement 6 relocates it underneath the clear table (look for “Then I was supposed to put my Terrestrial Computer underneath”). These are explicit operations, not merely ambiguous sightlines. Are they compatible with the new behind-Richard standing, or is the carrying/installation sequence stale? Review the entire 5–6 chain together before changing individual directions.
--->
-
-I picked up my Terrestrial Computer—
-
-Little Chair, square buckle and all—
-
-and started making my way out of the Weddinging Chapelling.
-
-And just before I thought I was through—
-
-there was one more Weddinginging Crew station waiting for me.
-
-Of course there was.
-
-And standing there beside them was—
-
-this thing.
-
-It was enormous.
-
-About as tall as I was.
-
-It looked like it was made out of some kind of metal.
-
-And it was round—
-
-but it wasn't exactly a ball.
-
-There were all these repeating curving lines running around its outside.
-
-The same kind of curve—
-
-again and again—
-
-forming this pattern all the way around it.
-
-I stood there looking at it for a moment.
-
-And according to the sign—
-
-this was:
-
-THIS ONE NEVER-ENDING BOBBINING STRINGING THING.
-
-I looked at the Bobbining Stringing Thing.
-
-Then I looked at the Weddinginging Crew.
-
-Then I looked back at the Bobbining Stringing Thing.
-
-“You want me to take that?”
-
-Apparently, yes.
-
-But fortunately—
-
-they didn't hand it to me.
-
-Instead—
-
-the Weddinginging Crew handed me the end of This Stringing Line coming FROM it.
-
-And told me—
-
-“Keep hold of This Stringing Line.”
-
-I looked at the Stringing Line in my hand.
-
-Then at this enormous metal-looking Bobbinging thing.
-
-Then at my newlywed Terrestrial Computer—
-
-still buckled securely UPON its Little Chair.
-
-“Okay.”
-
-Then the Weddinginging Crew pointed DOWN toward an open Pocket.
-
-“You may continue by hopping into This Pocket.”
-
-I looked down into the Pocket.
-
-Then at my Terrestrial Computer.
-
-Then at the Bobbinging.
-
-Then at the Stringing Line in my hand.
-
-And before I could figure out how I was supposed to get all of us down there—
-
-the Weddinginging Crew put the Bobbinging in first.
-
-I watched this enormous metal-looking thing go DOWN into the Pocket.
-
-And I braced myself for the landing.
-
-But—
-
-hardly anything happened.
-
-It landed—
-
-gave a little bounce—
-
-but for something about as tall as I was—
-
-it barely seemed to disturb anything at all.
-
-“Huh.”
-
-Apparently—
-
-whatever this thing was made out of—
-
-it didn't weigh nearly as much as it looked like it should.
-
-And the Stringing Line was still running FROM it—
-
-DOWN into the Pocket—
-
-all the way UP to my hand.
-
-I looked at the Weddinginging Crew.
-
-“Still holding this?”
-
-They looked at the String in my hand.
-
-“Okay.
-
-I guess I'm keeping hold of the String.”
-
-I looked down again.
-
-“And hopping.
-
-With all of this.”
-
-So—
-
-carrying my Terrestrial Computer—
-
-Little Chair, square buckle and all—
-
-and keeping hold of This Stringing Line—
-
-I hopped down into the Pocket after it.
-
-And much to my surprise—
-
-it was a soft landing.
-
-I got my bearings.
-
-Got myself back UP on my feet.
-
-Made sure my Terrestrial Computer was still okay.
-
-Still buckled securely UPON its Little Chair.
-
-And then I checked my hand.
-
-Still holding the Stringing Line.
-
-“Okay.
-
-Good.”
-
-Now I just had to figure out what to do with this enormous Bobbinging thing.
-
-I looked ahead.
-
-The Pocket opened ALONG THROUGH into a tunnel.
-
-A long tunnel.
-
-The Rail Line continued right through it.
-
-And here was another sign:
-
-**THE LAWFUL QUADRANGLEMENTING STATION HOUSE.**
-
-“Okay.”
-
-I looked down the tunnel.
-
-“Quite a house.”
-
-Near where I'd landed, there was a Pocket with a frame around its opening.
-
-The inscriptioning said:
-
-**THIS ONE PARTS POCKET.**
-
-Then:
-
-**FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.**
-
-“Stand Assemblementing?”
-
-I looked at my computer.
-
-Then at the Stringing Line in my hand.
-
-Then at the Parts Pocket.
-
-There was a place to step in front of it.
-
-**UN-FOLD.**
-
-Well—
-
-I knew that one.
-
-I set my Terrestrial Computer down beside me—
-
-still securely buckled UPON its Little Chair—
-
-and stepped on UN-FOLD.
-
-Something came ALONG THROUGH the frame.
-
-And the PUBLIC-SITUATION-MACHINE- made an announcement:
-
-**THE GENERAL OFFICES OF THE APPLIANCE NOW STAND PROVISIONING**
-
-**THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
-
-I read that again.
-
-“Affordmenting of Mountingable State.”
-
-Then I looked at the thing.
-
-“Looks like a nozzle to me.”
-
-I took it out.
-
-There was something printed on it too:
-
-**CERTIFIED 100% JANUSITE RIBBONATING SUBSTRATIONING.**
-
-“Janusite.”
-
-Okay.
-
-Apparently it was certified.
-
-Then came the instruction:
-
-**TO BEGIN, THREAD THIS STRINGING LINE YOU ARE KEEPING HOLD OF**
-
-**THROUGH THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
-
-“Oh.
-
-This.”
-
-I threaded the Stringing Line THROUGH the Nozzle.
-
-Then I looked around.
-
-Nothing.
-
-No next part.
-
-Nobody coming over to see how I was doing.
-
-I looked down at my foot.
-
-“Right.”
-
-**UN-FOLD.**
-
-The frame stayed where it was.
-
-But now something else came ALONG THROUGH it.
-
-**THE GENERAL OFFICES NOW STAND PROVISIONING**
-
-**THIS ONE LITTLE STRINGING WHEEL.**
-
-I picked it up.
-
-Yep.
-
-Looked like a little wheel.
-
-**MOUNT THIS ONE LITTLE STRINGING WHEEL UPON**
-
-**THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.**
-
-**THREAD THIS STRINGING LINE THROUGH THE LITTLE STRINGING WHEEL SEVERAL TIMES.**
-
-So I put the Little Wheel where the instructions told me to put it—
-
-there at the Nozzle—
-
-and threaded the String THROUGH it.
-
-A few times.
-
-I gave it a little tug.
-
-It felt secure.
-
-“Okay.”
-
-I looked at the Parts Pocket.
-
-Then I stepped on UN-FOLD again.
-
-Nothing new came ALONG THROUGH.
-
-I waited.
-
-Still nothing.
-
-“That's it?”
-
-Apparently that was all this Parts Pocket had for me.
-
-So I turned and looked down the Rail Line.
-
-The long Caterpillar Tunnel stretched away ahead of me.
-
-And behind me—
-
-there was still this enormous Bobbinging thing.
-
-I picked up my newlywed Terrestrial Computer—
-
-Little Chair, square buckle and all—
-
-and took hold of the Nozzle with its Little Wheel and String.
-
-Now what?
-
-I pulled the Stringing.
-
-The Bobbinging moved.
-
-I stopped.
-
-I looked at it.
-
-Then I pulled the Stringing again.
-
-And this time—
-
-the Bobbinging gave this peculiar little bob as more Stringing paid out.
-
-I pulled again.
-
-It bobbed again.
-
-“Oh.
-
-It bobbins.”
-
-I took a step.
-
-The Thing bobbed ALONG behind me.
-
-Another step.
-
-Another bob.
+For just a second, I thought—
 
 “Oh!
 
-I don't have to carry this thing.”
+“Okay.
 
-I pointed the Nozzle farther down the tunnel.
+“I get it.
 
-The Little Wheel turned.
+“This must be some kind of tiller.”
 
-I leaned it a little.
+Maybe getting married to my computer meant I was finally going to get to steer the thing from back here.
 
-The Wheel turned some more.
+So I took hold of the pole and started moving one way.
 
-And as I went—
+The Crew member shook their head.
 
-the Little Wheel seemed to be taking in some of the Stringing Line.
+“No?”
 
-But when I looked back—
+So I tried the other way.
 
-more Stringing was paying out along those repeating curving lines running around the Bobbinging.
+Apparently, that was the way.
 
-I looked at the Little Wheel.
+And I started walking.
 
-Then back at the Bobbinging Thingy.
+I kept my eyes on the Crew member holding the other end.
 
-“Huh.”
+“So I'm just supposed to hold on to the end of this pole—
 
-I kept walking.
+“like this—
 
-The Rail Line ran ALONG THROUGH the tunnel.
+“and walk around here like this?”
 
-And we went with it.
+Nothing.
 
-Me—
+They just kept motioning for me to come around.
 
-my computer in its Little Chair—
+So I did.
 
-the Nozzle and Little Wheel—
+I kept walking with the pole.
 
-and this enormous thing bobbing along behind us.
+My Terrestrial Computer didn't move.
 
-I walked a little faster.
+Its Little Chair didn't move.
 
-It bobbed a little faster.
+Nothing seemed to be happening to either one of them.
 
-I slowed down.
+And I'm watching this Crew member at the other end of the pole, trying to figure out what exactly we're accomplishing here.
 
-So did it.
+Then my path started bringing me right alongside my Terrestrial Computer.
 
-“Okay.”
+I kept going.
 
-I shifted the Little Chair against me.
+And right as I crossed the point where my computer was sitting UPON its Little Chair—
 
-Made sure I had a good hold of my computer.
+**FANFARE.**
 
-And tried a few running steps.
+I jumped a little.
 
-The Little Wheel went around.
+Trumpets.
 
-The String danced ALONG the curves.
+Sure enough, the bureaucracy had rolled out an entire trumpet section.
 
-And the Bobbinging came bobbing after me.
+They'd apparently been standing over there this whole time.
 
-“Ha!”
+I guess I just hadn't noticed them before.
 
-So I kept going.
+But all at once—
 
-For a while, I forgot to look for another sign.
+the trumpets were sounding—
 
-There was all this tunnel ahead of us.
+confetti was coming down all around me—
 
-I could speed up.
+and this enormous Noticingmenting was standing there:
 
-Slow down.
+**THIS ONE CROSSING ACROSS**
 
-Point the Nozzle.
+I was still holding my end of the pole.
 
-Watch the Little Wheel.
+I looked at the Noticingmenting.
 
-Look back and see that enormous Thingy still coming ALONG.
+“This One Crossing Across?”
 
-This was actually fun.
+I looked at the trumpets.
 
-Then the Little Chair started slipping against my arm.
+I looked at the confetti.
 
-“Hang on.”
+And I kept coming around with the pole until I reached the Crew member on the other side.
 
-I stopped and got a better hold of it.
+They looked at me.
 
-The Bobbinging settled behind me.
+“Congratulations.”
 
-My Terrestrial Computer was still securely buckled in.
+And took the pole away.
 
-Restfullyinginglymenting.
+That was it.
 
-Good for it.
+I stood there for a second.
 
-I was carrying the chair.
+Then I turned around.
 
-And managing the String.
+My Terrestrial Computer hadn't moved.
 
-And the Nozzle.
+There it was.
 
-And its Little Wheel.
+Still sitting UPON its beautiful Little Chair.
 
-And I couldn't exactly leave my newlywed spouse sitting here in the tunnel while I went running around with the Bobbinging Thingy.
+Still securely buckled in.
 
-I looked ahead again.
+Still sitting there within Restfullyinginglyment.
 
-We'd come a long way.
+Except now—
 
-But where were we going?
+it was behind me.
 
-Huckleberry and Enzo were still waiting for me to figure out the Wharf.
+I looked at my computer.
 
-I started looking for what came next.
+Then I looked at where I was standing.
 
-And there, ALONG THROUGH the Rail Line, was another place to step.
+Then back at my computer.
 
-**UN-FOLD.**
+“You mean I can do this here?”
+
+### MOVEMENT FIVE — THE NEVER-ENDING BOBBINING STRINGING THING
+
+I stood there for a minute.
+
+Because technically, if you think about it—
+
+we were standing before our wedding night now.
+
+And to be frank—
+
+this was my first time, you know, mating with my computer from this distance, at least.
+
+And as far as I knew, it was my Terrestrial Computer's first time doing it from over there, too.
+
+I mean, technically—
+
+we both produce outputs.
+
+We both take in inputs.
+
+And ordinarily, I know how to use the equipment.
+
+I mean, that's never really been a problem for me.
+
+I've got a keyboard, a mouse, a monitor.
+
+I know where my hands should go.
+
+I know where my eyes should go.
+
+I know what to do with my fingers.
+
+Because my computer is, like—
+
+right here.
+
+Except now it wasn't right here.
+
+Not anymore.
+
+I looked back.
+
+Sure enough—
+
+my Terrestrial Computer was behind me now.
+
+Still buckled UPON its Little Chair.
+
+Still Restfullyinginglymenting—
+
+if that's what they were going to call it.
+
+And all I could think to myself was—
+
+“So how exactly are we supposed to do this when you're over there and I'm over here?”
+
+Meanwhile—
+
+the Weddinginging Crew was already cleaning up.
+
+One of the trumpet players was wiping down his horn and putting it back in its case.
+
+The confetti was being swept up.
+
+The pole was gone.
+
+They were putting things away.
+
+Resetting everything.
+
+Apparently they do this all the time.
+
+There wasn't anybody else waiting to get married that I could see.
+
+But they were already getting ready for the next one.
+
+And they were very efficient.
+
+A couple members of the Crew went over to my Terrestrial Computer.
+
+They removed the Little Chair from the open frame.
+
+My computer was still sitting UPON it.
+
+Still buckled in.
+
+Then somebody brought out a simple little four-wheeled wagon.
+
+Nothing fancy.
+
+Just a wagon with shallow sides.
+
+They set the Little Chair into the wagon with my Terrestrial Computer still sitting UPON it.
+
+One of them checked the buckle again.
+
+Good and secure.
+
+Then they brought the wagon over to me and handed me the handle.
 
 “All right.”
 
-I stepped on it.
+So now apparently I was married to my computer.
 
-This time I wasn't watching a Parts Pocket.
+I was standing out in front.
 
-The Rail Line opened onward before me.
+And my computer was coming along behind me—
 
-I looked UP.
+Restfullyinginglymenting in a Little Chair in a wagon.
 
-**YOU NOW STAND APPROACHING**
+I took hold of the handle.
 
-**THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION STATION.**
+And—
 
-“A Contraption Station.”
+**UN-FOLD.**
 
-Okay.
+So I UN-FOLDed.
 
-I followed the Rail Line on.
+And that's when I discovered—
 
-The long tunnel behind us fell out of view.
+apparently the Weddinginging wasn't over.
 
-And that's when I got my first good look at it.
+There was another Crew waiting at the next stationing.
 
-It was this large clear rectangular box.
+Same uniforms.
 
-There was plenty of room inside.
+But this stationing had its own flowers.
 
-And the floor I would be standing UPON was clear too.
+Its own Noticingmentings.
 
-But underneath that clear floor—
+Its own ceremonial arrangements.
 
-there was this enormous round wheel.
+And the Crew was waiting there very formally beside this—
 
-I looked DOWN at the wheel.
+thing.
 
-Then I looked along the Rail Line.
+It stood about waist-high.
+
+About half as tall as I was.
+
+It looked substantial.
+
+Metal-looking.
+
+And there were all these curving lines running around it.
+
+There was also a string coming out of it.
+
+And standing there with all the sincere formality you would expect on such an occasion was a Noticingmenting:
+
+**WITH THE SINCERE CONGRATULATIONS OF\
+THE GENERAL OFFICES OF THE APPLIANCE,**
+
+**THE GENERAL OFFICES OF THE APPLIANCE\
+DO NOW HEREBY PRESENT**
+
+**THIS ONE NEVER-ENDING BOBBINING STRINGING THING**
+
+**ON THE OCCASION OF\
+THIS ONE WEDDINGING CEREMONY.**
 
 “Oh.
 
-Okay.
+“Great.
 
-Maybe this is how we get to the Wharf.”
+“Thank you.”
 
-There was a sign.
+I had absolutely no idea what it was.
 
-Of course there was.
+But apparently—
 
-According to the PUBLIC-SITUATION-MACHINE-, this was:
+wedding present.
 
-THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION.
+And there was a ceremony for that, too.
 
-I looked at the sign.
+One member of the Crew was attending to the Bobbining Stringing Thing itself.
 
-Then at the enormous wheel.
+The other one was holding the end of the string coming out of it.
 
-Then at the Rail Line.
+Very carefully.
 
-“A RE-STEPPING AND MAY BE RE-STOMPING Contraption.”
+With two hands.
 
-Okay.
+They were being so careful with it, I noticed that the end never touched the Ground.
 
-Big wheel.
+Then that Crew member came toward me.
 
-Rail Line.
+Still holding it with both hands.
 
-We were trying to get somewhere.
+And very ceremoniously—
 
-I could make an inference.
+presented the end of the string to me.
 
-Though after all that tunnel, apparently I was supposed to stop in a clear box.
+I looked at it.
 
-And by this point—
+Then at them.
 
-I was starting to understand how things worked around here.
+Then back at the string.
 
-There were instructions.
+And I put out my hand.
 
-So I followed them.
+They placed the end into it.
+
+And let go.
+
+“All right.”
+
+I didn't know what I was supposed to do with it.
+
+But after watching the way they'd been handling it—
+
+I was pretty sure I wasn't supposed to drop it.
+
+So I held on.
+
+Then I noticed where we'd arrived.
+
+There was this open Pocket.
+
+And from where I was standing, it looked like the Pocket went down into some kind of tunnel.
+
+One of the Crew members motioned toward it.
+
+I looked down into the Pocket.
+
+Then at them.
+
+“You want me to go in there?”
+
+Apparently.
+
+I looked back at my Terrestrial Computer.
+
+All loaded up.
+
+Buckled into its Little Chair.
+
+Sitting in the wagon.
+
+Then I looked at the string in my hand.
+
+Then back into the open Pocket.
+
+“All right.”
+
+So—
+
+still holding carefully onto the end of the string—
+
+I hopped in.
+
+I was expecting a hard landing.
+
+Instead—
+
+**BOUNCE.**
+
+“Oh!”
+
+Whatever I had landed on gave underneath me.
+
+Not enough to throw me back into the air or anything.
+
+Just—
+
+soft.
+
+Springy.
+
+A little like landing on a trampoline.
+
+I got my feet under me.
+
+And now that I was actually standing on the stuff, I could get a better look at it.
+
+It was thick.
+
+It looked a little like some kind of heavy canvas—
+
+except it wasn't canvas.
+
+It had much more give to it than that.
+
+More like rubber.
+
+And that same thick, yielding material seemed to continue all around me.
+
+Before I could make much more sense of it, I looked back up.
+
+The two Crew members who had been attending the Bobbining Stringing Thing had picked it up together.
+
+And now they were carrying it toward the open Pocket.
+
+“Wait.”
+
+I'm standing down there holding onto the end of the string coming out of this thing—
+
+and the two of them are about to toss the whole thing in after me.
+
+And I remember thinking—
+
+“When that thing lands, am I going to have to go chasing after it?”
+
+They tossed it.
+
+And—
+
+**BOUNCE.**
+
+It landed with this gentle little bounce—
+
+right by my feet.
+
+“Oh.”
+
+I guess I shouldn't have been that surprised.
+
+I mean—
+
+I'd had a soft landing.
+
+Why wouldn't the Bobbining Thing?
+
+But now I looked back up—
+
+and I couldn't see my Terrestrial Computer anymore.
+
+“Wait a minute.”
+
+We just got married.
+
+And now what if they hauled my Terrestrial Computer away?
+
+What if all I was left with was this weird metal-looking wedding present—
+
+like some kind of beach ball on a string—
+
+and no computer?
+
+Frankly—
+
+that would have been worse.
+
+And that's when I noticed the Crew members returning toward the Pocket from off to one side.
+
+It turned out there was a little curving ramp coming down into where I was standing.
+
+And sure enough—
+
+here came the wagon.
+
+“Oh,” I said.
+
+“There you are.”
+
+My Terrestrial Computer came rolling down the curving ramp—
+
+still sitting UPON its beautiful Little Chair—
+
+still buckled securely in—
+
+still Restfullyinginglymenting.
+
+When the Crew reached the bottom of the ramp, they looked up at me.
+
+“So I guess I'm supposed to take the handle from here?”
+
+They looked at the handle.
+
+“Okay.
+
+“I guess we'll be off now.”
+
+I took the wagon handle.
+
+Still holding onto the end of the string—
+
+I turned—
+
+and started into the tunnel.
+
+And now I could see what I had actually hopped into.
+
+That same thick, yielding material continued under my feet and curved up around me.
+
+The whole tunnel seemed to be made out of it.
+
+I couldn't see outside from in here.
+
+And the tunnel curved away ahead of me—
+
+so I couldn't see where it was going, either.
+
+But it wasn't dark.
+
+There weren't any lights in here that I could see.
+
+It was just—
+
+comfortably lit.
+
+So I kept going.
+
+Me.
+
+My wagon.
+
+My newlywed Terrestrial Computer.
+
+And this weird metal-looking Bobbining Stringing Thing behind us—
+
+with me still holding onto the end of its string.
+
+Eventually I came to another little stationing place.
+
+There were more signs.
+
+Of course there were.
+
+THIS ONE ASSEMBLEMENTING STATION
+
+FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.
+
+“Stand Assemblementing?”
+
+I read it again.
+
+FROM HERE YOU MAY NOW STAND ASSEMBLEMENTING.
+
+“What the hell is that supposed to even mean?”
+
+Along one side of the tunnel there was this strange little place where the same thick, springy material seemed to have folded and gathered itself into something.
+
+More like the tunnel itself had folded and gathered into this strange little place along its side.
+
+Above it:
+
+THIS ONE PARTS POCKET
+
+Across the front was a fold with one of those fabric-covered buttons on it.
+
+UN-FOLD
+
+And while I was still trying to figure out what I was supposed to do with that—
+
+WOMP.
+
+Something had just come shooting ALONG THROUGH here—into the Parts Pocket.
+
+So I unsnapped the little button.
+
+SNAP.
+
+And lifted the fold.
+
+There was a part inside.
+
+It looked like a nozzle.
+
+There was some more writing on the underside of the fold.
+
+THE GENERAL OFFICES OF THE APPLIANCE NOW STAND PROVISIONING\
+THIS ONE AFFORDMENTING THROUGHBY WHICH EN-VOLUMING MAY PROCEED.
+
+“Looks like a nozzle to me.”
+
+I picked it up and looked it over.
+
+RE-FOLD WHEN YOU ARE READY.
+
+So I put the fold back down and pressed the button.
+
+SNAP.
+
+WOMP.
+
+Something else came shooting into the Parts Pocket.
+
+I opened it again.
+
+Another part.
+
+This one looked like a handle.
+
+The end of the handle screwed into the nozzle, so I started turning it around and around, sort of like a corkscrew.
+
+I tightened it until it felt secure.
+
+Tight.
+
+But not too tight.
+
+“Okay.”
+
+RE-FOLD WHEN YOU ARE READY.
+
+SNAP.
+
+WOMP.
+
+This time I got something that looked exactly like the honking part from one of those old bicycle horns.
+
+THIS ONE LITTLE BELLOWING THING
+
+“Oh.”
+
+There was also a little Bellowing Collar made from 100% JANUSITE RIBBONATING SUBSTRATIONING INFRASTRUCTIONING.
+
+And a tiny Allen wrench.
+
+The Little Bellowing Thing went onto the other end of the handle from the nozzle.
+
+I fitted the Bellowing Collar around it and used the little Allen wrench to tighten everything down.
+
+There was really only one thing to do.
+
+I squeezed it.
+
+POOF.
+
+A little puff of air came out of the nozzle.
+
+“Huh.”
+
+I squeezed it again.
+
+POOF.
+
+I looked at the little Allen wrench.
+
+I already had about a thousand of these things.
+
+I put it in my pocket.
+
+The next time I UN-FOLDed the Parts Pocket—
+
+WOMP.
+
+There was a long, narrow thing on the tray. It had a hole near the pointy end.
+
+It looked like a needle.
+
+The other end fit right into the nozzle.
+
+So I stuck it in there.
+
+Now I had the nozzle, the handle, the Little Bellowing Thing, and this long needle all standing together.
+
+I held the whole thing out in front of me.
+
+It looked like some kind of sword.
+
+A pneumatic sword.
+
+I've always wanted a pneumatic sword.
+
+So naturally—
+
+POOF.
+
+I liked it.
+
+Then I RE-FOLDed the Parts Pocket.
+
+SNAP.
+
+WOMP.
+
+I UN-FOLDed it again.
+
+This time there was a little wheel on the tray.
+
+**THIS ONE LITTLE SPOOLING WHEEL**
+
+There were instructions:
+
+**WIND THIS STRINGING AROUND\
+THIS ONE LITTLE SPOOLING WHEEL\
+FOR SEVERAL WINDINGINGS\
+AND CHECK FOR SECURE STANDING.**
+
+So I took the Stringing I'd been holding and wound it around the Little Spooling Wheel.
+
+Several windingings.
+
+Then I gave it a little check.
+
+Secure.
+
+I still had my pneumatic sword in the other hand, and the Little Spooling Wheel fit right over the needle.
+
+So I slipped it over there.
+
+That seemed like a pretty good way to carry it.
+
+Now I had a pneumatic sword with a Little Spooling Wheel riding around on the needle, and the Stringing was still wound securely around the Wheel.
+
+I gave the Little Bellowing Thing another squeeze.
+
+POOF.
+
+Still worked.
+
+So as far as I was concerned, I had successfully assembled myself a pneumatic sword.
+
+I RE-FOLDed the Parts Pocket.
+
+SNAP.
+
+I waited.
+
+Nothing.
+
+I UN-FOLDed it.
+
+Empty.
+
+I RE-FOLDed it again.
+
+SNAP.
+
+Waited.
+
+Nothing.
+
+I UN-FOLDed it one more time.
+
+Still empty.
+
+“What? That's it?”
+
+I looked at the Parts Pocket.
+
+“I've been standing Assemblementing this whole thing.”
+
+I held up my pneumatic sword.
+
+“Look. It works.”
+
+POOF.
+
+“I don't even get a streamer or something?”
+
+Nothing.
+
+“There's no ceremony for this?”
+
+Nothing.
+
+“Where's my trumpet?”
+
+Nothing.
+
+I leaned toward the empty Parts Pocket.
+
+“Where's the trumpet band?”
+
+Nothing.
+
+I shrugged.
+
+“Apparently I'm done standing Assemblementing here.”
+
+I RE-FOLDed the Parts Pocket.
+
+SNAP.
+
+And walked away.
+
+I put This One Never-Ending Bobbining Stringing Thing into the wagon with my Terrestrial Computer.
+
+It rested there, wobbling around a little.
+
+I took the wagon handle in my left hand.
+
+I held my pneumatic sword in my right.
+
+And I started pulling.
+
+The wagon bounced along behind me a little.
+
+I looked back at the two of them.
+
+“You guys doing okay back there?”
+
+Everything looked fine.
+
+So I kept going.
+
+At first I was just walking.
+
+I looked back again.
+
+Still fine.
+
+Then I got a little more comfortable pulling the wagon.
+
+I started moving faster.
+
+Another glance back.
+
+Fine.
+
+And then the tunnel opened out ahead of me.
+
+A straightaway.
+
+“Oh.”
+
+So I started going faster.
+
+And then faster.
+
+Pretty soon I was running.
+
+I was racing ALONG THROUGH the tunnel, pulling the wagon with my left hand and holding my pneumatic sword out in my right.
+
+And there it was, printed right along the side of the tunnel wall:
+
+THROUGHING ALONG THROUGH
+
+“Oh. Yeah. That's what I'm doing.”
+
+This was fun.
+
+After a while, I wasn't checking behind me anymore.
+
+I was just running.
+
+Eventually I came to a stop.
+
+And something in my right hand was still going.
+
+The Little Spooling Wheel was spinning like crazy around the needle.
+
+“Wait a minute.”
+
+I held the pneumatic sword out and watched it.
+
+The Wheel kept spinning.
+
+I wasn't even moving anymore.
+
+“What are you doing?”
+
+That's when I looked back.
+
+My Terrestrial Computer was fine.
+
+But This One Never-Ending Bobbining Stringing Thing wasn't in the wagon anymore.
+
+It was way back there—
+
+bobbing along behind us.
+
+And there was all this Stringing standing between here and there.
+
+“Oh.”
+
+I looked at the Bobbining Thing.
+
+Then at the Little Spooling Wheel.
+
+The Wheel was still going.
+
+So I started walking back toward the Bobbining Thing.
+
+As I got closer, the Little Spooling Wheel kept gathering the Stringing standing between us.
+
+I kept walking.
+
+It kept gathering.
+
+Until eventually I was standing right there with the Bobbining Thing again.
+
+I looked at it.
+
+Then I looked at the Little Spooling Wheel.
+
+Then I looked at the Little Bellowing Thing.
+
+“Well…”
+
+I squeezed it.
+
+POOF.
+
+Nothing seemed to happen except the POOF.
+
+“All right.”
+
+So I grabbed the Stringing right where it came out of the Bobbining Thing and yanked a whole bunch of it out.
+
+The Bobbining Thing went crazy.
+
+And the Little Spooling Wheel went crazy.
+
+I stopped.
+
+I looked at one.
+
+Then the other.
+
+I yanked out some more Stringing.
+
+There they went again.
+
+I looked back and forth between them.
+
+“This is the weirdest dance competition I've ever been a judge of.”
+
+I couldn't see any mechanical connection between them.
+
+I couldn't see any electronic connection either.
+
+I had absolutely no idea how these two things were maintaining whatever it was they were maintaining between them.
+
+I looked at the Bobbining Thing.
+
+I looked at the Little Spooling Wheel.
+
+I shrugged.
+
+“Oh yeah.
+
+“That's right.
+
+“We're in a computer.
+
+“We're just Pretending.”
+
+I looked back down the straightaway.
+
+Well.
+
+Running had been fun.
+
+So I turned around—
+
+and started running again.
+
+This time I knew the Bobbining Thing was back there.
+
+Every once in a while I glanced over my shoulder.
+
+There it was.
+
+Bobbing along.
+
+My Terrestrial Computer was doing fine.
+
+And I was THROUGHING ALONG THROUGH.
+
+So I ran.
+
+And ran.
+
+And pretty soon I was swept up in the whole thing again.
+
+Until—
+
+something interrupted me.
+
+Groundward.
+
+I stopped.
+
+“Oh. Hang on.”
+
+I shifted my Regard Groundward to see what needed my attention.
+
+A notification.
+
+I checked it.
+
+Spam.
+
+“Oh, come on.”
+
+I took care of it.
+
+And returned my Regard to where I'd been standing.
+
+“All right. Where were we?”
+
+Ahead of me, the Rail Line continued.
+
+I started on.
+
+And before long, I came to an archway.
+
+The General Offices had helpfully furnished another Noticingmenting.
+
+YOU NOW STAND APPROACHING
+
+THIS ONE LAWFUL QUADRANGLEMENTING STATION HOUSE.
+
+“Lawful Quadranglementing Station House.”
+
+I looked THROUGH the archway.
+
+Apparently the Station House wasn't here yet.
+
+This was how I got there.
+
+So I went through.
+
+The passage curved away.
+
+And once again, the General Offices had helpfully labeled the whole thing.
+
+THROUGHING ALONG THROUGH
+
+And there were the coordinates.
+
+CONTINUING FROM
+
+BEFORE BEFORE
+
+CONTINUING TOWARD
+
+FOR HERE FROM HERE
+
+“All right.”
+
+So I continued.
+
+THROUGHING ALONG THROUGH.
+
+The passage curved.
+
+And I curved along with it.
+
+Until eventually—
+
+I reached the end.
+
+And there was a stop.
+
+So I stopped.
+
+And there it was.
+
+This One Lawful Quadranglementing Station House.
+
+I was standing in Regard toward its front door.
+
+And the General Offices had made quite a production out of the place.
+
+There were inscriptions.
+
+There were official flourishes.
+
+There was considerably more information than I intended to read.
+
+But one inscription caught my eye.
+
+FROM HERE YOU MAY STAND FURNISHING
+
+THIS HERE CONTINUINGMENTING IN REGARD TOWARD THIS NEXT CONTINUINGMENTING.
+
+I read that one again.
+
+THIS HERE CONTINUINGMENTING
+
+IN REGARD TOWARD
+
+THIS NEXT CONTINUINGMENTING.
+
+I looked at the front door.
+
+Then back at the inscription.
+
+“Okay.
+
+“Next.
+
+“Good.”
 
 ### MOVEMENT SIX — THE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION
 
-I opened the RE-STEPPING AND MAY BE RE-STOMPING Contraption.
+[BLOCKING — At the STOP before the Lawful Quadranglementing Station House, Richard RE-STEPs through its front door into THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION. This is the continuation left at the end of message 495 and subsequently blocked in messages 496–548. The assembly below has settled bodily blocking but no later consolidated rehearsal print in the recovered thread; editorial blocks are not Richard narration.]
 
 And inside—
 
@@ -1692,257 +2119,13 @@ Then came the notice:
 
 “More Assemblementing.”
 
-I looked down.
+[BLOCKING — The Parts Pocket is now a clear case, not the earlier fabric fold or a bare frame. One tray circulates behind the one opaque wall and returns from below with the furnished part. UN-FOLD is on a rigid door whose right-angle lip is at Richard's hip. Richard lifts it to reach the tray; RE-FOLD requires pressing the lip down securely: SNAP. The tray circulates away; WOMP; the next UN-FOLD brings the tray and part within reach. Retain the Assemblementing Station identity. Source: messages 518–526.]
 
-“Let me guess.
+[BLOCKING — Richard sets the pneumatic sword at YT. The Stringing is wound around the Little Spooling Wheel riding on Needle One; it does not pass through the Nozzle or Needle. Richard brings TC and its Little Chair into the clear table/Contraption and aligns its square buckle directly beneath the circular tabletop opening. Source: messages 537–539, 546, 576.]
 
-Another Parts Pocket.”
+[BLOCKING — Parts arrive in this order: Hourglass PITTONING Thing; THIS ONE NEVER-ENDING BOBBINING STRINGING THING BOBBININGING BODY BOBBINING RESTINGING THING; stepladder; THIS ONE AXLE ROD. Each new furnishing follows the RE-FOLD → SNAP → WOMP → UN-FOLD cycle. Richard seats the Hourglass structure through the middle of the waist-high Bobbining Thing and checks both ends. He seats the Restinging Thing into the circular tabletop opening, then sets the prepared Bobbining Thing upon/within it. No separate Globe part arrives. Source: messages 537–542.]
 
-**UN-FOLD.**
-
-Sure enough.
-
-A Parts Pocket came ALONG THROUGH.
-
-Same sort of frame.
-
-I looked through it.
-
-Looked DOWN at the enormous wheel.
-
-Looked through the Parts Pocket again.
-
-“Well—
-
-this Parts Pocket seems to be missing the other wheel.”
-
-Apparently—
-
-that wasn't a problem.
-
-Because the instructions had something else for me to do.
-
-First—
-
-I set the Nozzle and Little Wheel down beside the table, with the String still THROUGH them.
-
-Then I was supposed to put my Terrestrial Computer underneath the clear table.
-
-And remember—
-
-my Terrestrial Computer was still buckled securely UPON its Little Chair.
-
-So I brought the whole thing inside—
-
-Terrestrial Computer—
-
-Little Chair—
-
-square buckle and all—
-
-and put it underneath the table.
-
-Then I had to move it around until that little square buckle was standing directly underneath this opening in the tabletop.
-
-“Okay.”
-
-Next—
-
-**UN-FOLD.**
-
-The frame stayed where it was.
-
-A part came ALONG THROUGH.
-
-**THE GENERAL OFFICES NOW STAND PROVISIONING**
-
-**THIS ONE BIG AXLE COLLAR.**
-
-And apparently—
-
-the Big Axle Collar belonged right there at the opening in the table—
-
-directly OVER the square buckle underneath it.
-
-So I put it where the instructions told me to put it.
-
-Then—
-
-I had to get the Bobbinging in there.
-
-I took up the String and gave it a tug.
-
-The Thing bobbed in after me.
-
-Now—
-
-the Bobbinging was about as tall as I was.
-
-So getting it inside wasn't the problem.
-
-Getting it UP ONTO the table—
-
-and getting it situated where the PUBLIC-SITUATION-MACHINE- wanted it—
-
-was another matter.
-
-Fortunately—
-
-it still didn't weigh nearly as much as it looked like it should.
-
-So with some effort—
-
-I managed to get the Bobbinging UP onto the clear table.
-
-Then I had to get it situated in relation to the Big Axle Collar.
-
-And once I finally had that standing where it was supposed to stand—
-
-I stepped on UN-FOLD.
-
-The same Parts Pocket presented:
-
-**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING HOURGLASS AXLE CUSHIONING THING.**
-
-“Janusite again.”
-
-I read that again.
-
-“Hourglass Axle Cushioning Thing.”
-
-And that's pretty much what it looked like.
-
-It reminded me of one of those pieces of foam insulation you put around a pipe—
-
-except somebody had formed the thing into this strange hourglass shape.
-
-For some reason.
-
-So—
-
-I put that where the instructions told me to put it.
-
-**UN-FOLD.**
-
-**THIS ONE AXLE ROD.**
-
-The end came ALONG THROUGH the same frame.
-
-I took hold of it.
-
-And kept taking hold of it.
-
-It was long.
-
-Really long.
-
-The lower end had this square box-shaped end on it.
-
-And way up at the other end—
-
-the rod curved around—
-
-and terminated in this little clear Globe thing.
-
-The instruction pointed DOWN THROUGH the Bobbinging.
-
-I looked at the Axle.
-
-Then at the Bobbinging.
-
-Then at the top of the Bobbinging.
-
-Then at myself.
-
-There was no way I was going to be able to get the Axle DOWN through the top of that thing standing on the floor.
-
-I looked back at the Parts Pocket.
-
-**UN-FOLD.**
-
-**THIS ONE STEPLADDER.**
-
-There it was, coming ALONG THROUGH.
-
-“Of course there was.”
-
-The instruction had me put it UPON the clear table.
-
-Somehow, just like it had with the Nozzle and the Little Wheel, every time I stepped on UN-FOLD, another part came ALONG THROUGH the same Parts Pocket.
-
-The table hadn't moved.
-
-I was still here.
-
-“How many UN-FOLDs are in this Parts Pocket?”
-
-So—
-
-I put the stepladder UPON the clear table.
-
-Then somehow—
-
-I had to get myself—
-
-the Axle—
-
-the stepladder—
-
-and this nearly me-sized Bobbinging—
-
-all cooperating in approximately the same place.
-
-I climbed UP onto the table.
-
-Got the Bobbinging situated.
-
-Got the Axle UP there with me.
-
-Climbed the stepladder.
-
-And after a fair amount of maneuvering—
-
-I finally managed to lift the Axle high enough to get it OVER the top of the Bobbinging.
-
-Then I found the opening.
-
-And once I had everything lined up—
-
-I lowered the Axle DOWN.
-
-And—
-
-strangely enough—
-
-once it was lined up—
-
-it just went.
-
-DOWN THROUGH the Bobbinging.
-
-DOWN THROUGH the Hourglass Axle Cushioning Thing.
-
-DOWN THROUGH the Big Axle Collar.
-
-DOWN through the opening in the table.
-
-And then—
-
-it settled.
-
-No forcing it.
-
-No hammering anything into place.
-
-It just—
-
-settled.
-
-Which was encouraging.
-
-But from where I was standing—
-
-I couldn't actually see whether the other end had gone where it was supposed to go.
+[BLOCKING — The stepladder appears too narrow in the case, but has its usable width when Richard brings it to the Contraption. The Axle likewise has more usable extent in installation than he expected from its presentation in the Parts Pocket. Richard climbs, introduces the Axle from above through the Hourglass PITTONING relation, Restinging relation, aligned square buckle, TC and lower Contraption/floor relation. Its square end seats comfortably into the enormous gear below. The curving upper end terminates in the Little Crystal Ball Thing. Richard uses the apparatus successfully; do not turn the surprising extent into a technical explanation. Source: messages 506, 527–542.]
 
 So—
 
@@ -1994,226 +2177,15 @@ I crawled back out.
 
 Stood UP.
 
-Looked at the stepladder.
-
-Then at the Parts Pocket.
-
-I'd run all that way down the tunnel—
-
-and somehow I still felt like we hadn't gone anywhere.
-
-At least before, I was doing the moving.
-
-Now the Parts Pocket kept bringing things through and I was the one stuck here putting them together.
-
-I took a look at what I had built.
-
-There was the enormous wheel underneath the floor.
-
-The Axle came UP FROM it—
-
-THROUGH my Terrestrial Computer—
-
-THROUGH the table—
-
-THROUGH the Bobbinging—
-
-and then way up at the other end—
-
-it curved around and ended in that little clear Globe.
-
-I looked at the Globe.
-
-Then at the enormous wheel.
-
-Then back toward the Rail Line.
-
-“Wait.”
-
-If this thing was supposed to carry us down the Rail Line—
-
-I still only had one wheel.
-
-And the other end of the whole contraption—
-
-apparently—
-
-terminated in a little clear ball.
-
-“So—
-
-what?
-
-We're just going to go around in a circle?”
-
-I was beginning to have some concerns about the engineering.
-
-But apparently—
-
-I wasn't finished yet.
-
-Because the PUBLIC-SITUATION-MACHINE- had another instruction.
-
-**UN-FOLD.**
-
-Another part came ALONG THROUGH.
-
-This time—
-
-it was Piping.
-
-**THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING PIPING.**
-
-I looked at it.
-
-The Nozzle.
-
-The Cushioning Thing.
-
-Now the Piping.
+[BLOCKING — The pneumatic sword remains at YT. The Parts Pocket furnishes THIS ONE 100% JANUSITE RIBBONATING SUBSTRATIONING PIPING and two cradles. The long-handled cradle goes nearer the Bobbining Thing; the shorter-handled cradle goes toward the far end of the table/Shoppe. Richard installs the cradles and mounts the straight, slightly downhill Piping before releasing anything into it. Source: messages 546–548.]
 
 “Boy, the JANUSITE people must really be lining the pockets of this bureaucracy.”
 
-There were already two little cradles waiting for it.
-
-One here at the Contraption—
-
-and another farther along—
-
-at an opening leading TOWARD whatever came next.
-
-The instructions pointed to the cradles.
-
-So I took the Piping—
-
-set it into the cradles—
-
-and ran it TOWARD the opening.
-
-Then there was the Stringing.
-
-The same Stringing Line I had been specifically told to keep hold of back at the Weddinging Chapelling.
-
-I picked up the Nozzle and Little Wheel from beside the table.
-
-The String was still threaded THROUGH them.
-
-The same little arrangement that had brought the Bobbinging all the way ALONG behind me.
-
-And now—
-
-apparently—
-
-the whole little arrangement was supposed to go into the Piping.
-
-<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q007]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry: 1797–1799, 4720–4733, 4840–4860. Earlier material curve, JANUSITE passage, and labor with Stringing could prepare later Gallery handling without explaining it. Would a small bodily recognition be useful? Do not equate the Bobbinging curves with PITTONING architecture or treat bare thread as already Semantical Stringing.
--->
-
-So I pulled out enough Stringing to do what the instructions were asking me to do.
-
-The Bobbinging gave its familiar little bob.
-
-“Okay.”
-
-I looked through the Piping.
-
-It ran away FROM HERE—
-
-TOWARD the opening at the other end.
-
-I looked at the Little Wheel.
-
-The Nozzle.
-
-The Stringing.
-
-And then at my hand.
-
-Because there was one small problem.
-
-The Weddinginging Crew had been very specific.
-
-“Keep hold of This Stringing Line.”
-
-And now—
-
-if I was going to do what these instructions were telling me to do—
-
-I was going to have to let go of it.
-
-I looked back in the direction of the Weddinging Chapelling.
-
-Then at my hand.
-
-“Well—
-
-I kept hold of it as long as I could.”
-
-And I let go.
-
-The Little Wheel went first.
-
-Then the Nozzle.
-
-And gravity took over.
-
-They started moving DOWN THROUGH the Piping—
-
-taking the Stringing with them—
-
-away FROM the RE-STEPPING AND MAY BE RE-STOMPING Contraption—
-
-and TOWARD the opening at the other end.
-
-I watched them disappear.
-
-Then I looked at the enormous Bobbinging.
-
-The Axle.
-
-My Terrestrial Computer.
-
-The giant wheel underneath the floor.
-
-The little clear Globe way up at the other end.
-
-Whatever this thing was—
-
-I was increasingly confident it was not a train.
-
-And apparently—
-
-I was supposed to follow the Stringing.
-
-So I did.
+[BLOCKING — Standing on XT between Parts Pocket and table, Richard gives the Bobbining Thing one last satisfying yank/test. He lifts the Little Spooling Wheel off Needle One and releases only the Wheel, with its continuing Stringing relation, into the Piping. Gravity takes it DOWN THROUGH. When it reaches its available extent, the Bobbining Thing stops Bobbining. The Restinging Thing has supported continuing Bobbining throughout; it did not stop it. Richard notices the stop without explaining it. He retains Needle One + Nozzle + Handle + Little Bellowing Thing, and takes the ordinary Human door on XT to find where the Wheel went. Source: messages 548, 560, 593, 596.]
 
 ### MOVEMENT SEVEN — THE CATERPILLAR WARDROBE SHOPPE
 
-I followed TOWARD where the Little Wheel and Nozzle had disappeared.
-
-For once, I wasn't carrying anything.
-
-My computer was back in the Contraption.
-
-The Stringing had gone THROUGH the Piping.
-
-I looked at my empty hands.
-
-“Okay.”
-
-There was an open door—
-
-about the right size for me.
-
-So I went through.
-
-On the other side was a short Passageing Way.
-
-I followed that—
-
-and came out into this enormous circular room.
+[BLOCKING — Richard crosses the ordinary Human-sized doorway directly from the rectilinear Contraption into the enormous toroidal Shoppe. No short Passageing Way, elbow tunnel or additional Rail Line passage intervenes. He is still carrying his pneumatic sword. Source: messages 593, 596.]
 
 There were windows running all the way around it.
 
@@ -2235,7 +2207,7 @@ Apparently this place liked its shapes.
 
 The first thing I did was turn TOWARD where I thought the Stringing Line should be.
 
-I had just fed the Little Wheel and Nozzle THROUGH the Piping—
+I had just fed the Little Spooling Wheel THROUGH the Piping—
 
 so I had a pretty good idea where they ought to have come out.
 
@@ -2244,8 +2216,6 @@ I walked over there.
 Nothing.
 
 No Little Wheel.
-
-No Nozzle.
 
 No Stringing.
 
@@ -2313,6 +2283,12 @@ Eventually—
 
 I got there.
 
+[BLOCKING — During the long OVER ACROSS crossing, Richard notices that he is still carrying the pneumatic sword. At/above the Stand, furnished instructioning and the fitting show where it mounts. He seats/screws Needle One + Nozzle + Handle + Little Bellowing Thing into the wall. The Stringing-side standing remains OVER ACROSS; it is not combined with Needle One. Exact Shoppe instruction wording remains unprinted. Source: messages 593, 596, 667–679.]
+
+“I was a little sorry to give it up.
+
+I liked that thing.”
+
 And standing UPON the Stand was—
 
 well—
@@ -2343,211 +2319,509 @@ So I put it on.
 
 And powered it UP.
 
-I looked DOWN toward my feet.
+[BLOCKING — Under the Donut Helmet Regard, the mounted apparatus now has a furnished operational affordmenting corresponding with the familiar Groundward monitor region. It does not chase Richard's head or become a remote copy of Needle One. Richard stands/backsteps to inspect the strange stability, BONKs his head into the actual Groundward wall at YT, worries about the Donut Helmet, and finds it still works. Do not use the filing cabinet here. He returns to his familiar mouse/monitor working relation. Source: Richard's corrections in messages 667, 670, 673, and Bill's accepted return 676–679.]
 
-There was the Shoppe.
+[BLOCKING — Richard moves the pointer to the sole warranted POOFING/Bellowing affordmenting. No directional arrows, Regarding-Bearing tutorial, or generic manipulation is introduced.]
 
-The floor.
+“Well, I know how this works.”
 
-The Stand beside me.
+[BLOCKING — Click. The first POOF furnishes the Pocket's EN-VOLUMINGABLE possibility: THIS ONE SITUATIONING POCKET STANDS EN-VOLUMINGABLE FROM HERE. Richard does not walk through a wall or RE-STEP into it. His bodily locality remains the Shoppe while furnished Regard makes the Pocket available. The exact Alcove rehearsal follows. Source: messages 593, 596, 676–679, 893.]
 
-Then I looked through the UP SIDE of the Donut Helmet.
-
-“Oh.”
-
-There was more up here.
-
-I looked DOWN again.
-
-Shoppe.
-
-UP SIDE—
-
-there it was.
-
-Right next to me.
-
-The Nozzle.
-
-Standing FROM OUT OF the wall AROUND ABOUT the Stand.
-
-And WITH it—
-
-the Little Wheel.
-
-The Stringing Line.
-
-I hadn't been able to see any of that before I put this thing on.
-
-“Oh.”
-
-I looked at the Nozzle.
-
-Through the UP SIDE, I could read its familiar inscription:
-
-THIS ONE AFFORDMENTING OF MOUNTINGABLE STATE.
-
-I read it again.
-
-“Yep.
-
-You.”
-
-But there was something else there now too.
-
-A Needle standing FROM OUT OF the Nozzle.
-
-And together—
-
-the PUBLIC-SITUATION-MACHINE- furnished:
-
-THIS ONE POCKET POOFING NEEDLING THING.
-
-And then there was—
-
-THIS ONE LITTLE BELLOWING THING.
-
-It was tiny.
-
-I looked at the Needle.
-
-Then at the Little Bellowing Thing.
-
-“Okay.
-
-What am I supposed to do with you?”
-
-Nothing obvious.
-
-I turned my Regard DOWN toward where I was standing AROUND ABOUT the Stand.
-
-There was something on the floor.
-
-**UN-FOLD.**
-
-“Right.”
-
-I stepped on it.
-
-The Rail Line furnished a Noticingment:
-
-**YOU NOW STAND BEFORE**
-
-**THIS ONE QUIET ALCOVE.**
-
-Then:
-
-**THIS ONE QUIET ALCOVE STANDS WITHIN**
-
-**THE AMICABLE GROTTOES DISTRICTING**
-
-**WITHIN THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.**
-
-“Amicable Grottoes.”
-
-I looked across the Shoppe.
-
-“Good to know.”
-
-**FROM HERE YOU MAY STAND POOFING**
-
-**THIS ONE QUIET ALCOVE.**
-
-“POOFing.”
-
-I looked UP SIDE again.
-
-There was the Pocket Poofing Needling Thing.
-
-And its tiny Bellows.
-
-I brought my fingers toward it.
-
-Looked DOWN.
-
-Then back UP SIDE until I could see the Bellows between my fingers.
-
-“Oh.
-
-I can get hold of you.”
-
-Then I looked at where the Needle was pointing.
-
-The wall.
-
-“Maybe not that way.”
-
-I turned TOWARD the middle of the Caterpillar Wardrobe Shoppe.
-
-All that open space I had just walked ACROSS.
-
-Whatever this thing was about to do, I didn't want to fire it into the wall.
-
-Through the UP SIDE, I pinched the Little Bellowing Thing.
+### THIS ONE SOME QUIET ALCOVE
 
 **POOF.**
 
+And suddenly I was sitting in this quiet little alcove.
+
+Or at least, that's what it looked like.
+
+It was beautiful.
+
+It reminded me of one of those old university libraries. Or maybe some little corner of a cathedral.
+
+There were these tall openings around me, and old-looking stonework, and branches and plantings coming in around the edges.
+
+There wasn't any roof over me.
+
+There was sky up there.
+
+And it was quiet.
+
+Not silent.
+
+Just quiet.
+
+There was a table in front of me.
+
+And standing there with everything else was another one of these things from the General Offices.
+
+**THE GENERAL OFFICES OF THE APPLIANCE\
+HERE STAND PROVISIONING\
+THIS ONE SOME QUIET ALCOVE\
+FOR THIS ONE CONSTITUTIONING HUMAN.**
+
+**HERE YOU MAY SIT WITHIN\
+RESTFULLYINGINGLYMENT.**
+
+**WHEN YOU ARE READY,\
+YOU MAY PRESS UN-FOLD\
+TO STAND WITHIN\
+THE SITTINGING-IN ROOM.**
+
+“Oh.”
+
+“The Sittinging-In Room.”
+
+And right up here, at the very top, there it was:
+
+**UN-FOLD**
+
+There was this little ring up there with it.
+
+And it looked like I could pull the ring down over the Donut Helmet Thing whenever I was ready to go on.
+
+But I wasn't ready yet.
+
+I mean, I'd just gotten there.
+
+So I sat there for a minute.
+
+And the longer I sat there, the more I started noticing.
+
+There was a bird over here somewhere.
+
+I could hear another one farther away.
+
+Then something fluttered through these branches.
+
+There was something else making noise way over there.
+
+And then I started noticing these little footsteps down around the bottom.
+
+There were chipmunks running around.
+
+They'd scamper through, disappear, come back somewhere else.
+
+It was really quite lovely.
+
+And then this bird came right up near me.
+
+I mean, it looked like it was right there.
+
+So without even thinking about it, I reached out for it.
+
+And of course the bird startled and flew away.
+
+I looked at my hand.
+
+“Oh yeah.”
+
+“That's right.”
+
+“We're just Pretending.”
+
+So then I started wondering what else I could do in there.
+
+There was this projected table right in front of me, and on the table was a tray of acorns.
+
+And there was this little spoon-looking thing there, too.
+
+I reached for one of the acorns.
+
+**BONK.**
+
+Keyboard.
+
+“Oh.”
+
+Because the table wasn't actually where my keyboard was.
+
+It just looked like it was.
+
+So I sat there looking at the acorns.
+
+And then I remembered the mouse.
+
+I mean, I'd already used the mouse to operate the POOFING Needle.
+
+So I thought maybe it was worth trying.
+
+I moved the mouse around a little.
+
+And this square region I had been working through moved with it.
+
+“Oh.”
+
+I moved it some more.
+
+“Huh.”
+
+So I moved that square over toward the little spoon thing.
+
+I pressed the mouse button.
+
+And moved the mouse.
+
+The spoon came with me.
+
+“Oh!”
+
+I let go.
+
+The spoon didn't come with me anymore.
+
+“Okay.”
+
+So I pressed the button again.
+
+Moved the mouse.
+
+Spoon.
+
+Let go.
+
+No spoon.
+
+“All right.”
+
+“I've got you.”
+
+Around about then, I noticed one of the chipmunks again.
+
+I knew it was the same one because there was this little triangle-shaped piece missing out of one of its ears.
+
+I don't know what happened to it.
+
+Maybe it was born that way.
+
+Maybe something happened to it.
+
+But after I'd seen it a couple of times, I started calling it Notch.
+
+Notch came around near the table.
+
+And I looked at the tray.
+
+“You want an acorn?”
+
+Notch did whatever Notch was doing.
+
+“I'll give you one.”
+
+And off he went.
+
+So I went back to the spoon.
+
+I held the mouse button down and maneuvered it toward the tray.
+
+It took me a couple of tries, but eventually I got an acorn onto it.
+
+“Ha!”
+
+And then I started trying to turn around.
+
+The spoon tilted.
+
+The acorn fell off.
+
+“Oh, come on.”
+
+So I tried it again.
+
+Mouse button down.
+
+Spoon.
+
+Acorn.
+
+Turn.
+
+Acorn on the floor.
+
+I tried holding the mouse with my left hand so I could turn around more easily.
+
+That was worse.
+
+I could still operate the spoon.
+
+I just couldn't operate it very well.
+
+And every little wobble I made with the mouse showed up over there.
+
+The spoon would tilt.
+
+The acorn would roll.
+
+And—
+
+gone.
+
+Then Notch came scampering through again.
+
+“I know.”
+
+“I'm working on it.”
+
+At this point I decided what I really needed was some kind of mobile workstation.
+
+So I took the Donut Helmet Thing off.
+
+I had a bookshelf next to me.
+
+I took the books and papers off one of the shelves and added them to the pile I already had going on the floor.
+
+Then I took the shelf out of the bookshelf.
+
+I laid it across the arms of my rolling chair.
+
+Mouse.
+
+Keyboard.
+
+There.
+
+Mobile workstation.
+
+I put the Donut Helmet Thing back on.
+
+And actually, it worked pretty well.
+
+Now I could roll myself around and keep the mouse in front of me.
+
+So I tried again.
+
+Mouse button down.
+
+Spoon.
+
+Acorn.
+
+Turn.
+
+And I got farther.
+
+Until I ran out of room.
+
+There was a wardrobe behind me.
+
+“Oh, come on.”
+
+Helmet off.
+
+I got up.
+
+I dragged the wardrobe back a couple of feet.
+
+Sat down.
+
+Helmet back on.
+
+Tried it again.
+
+And I still couldn't get the damn acorn all the way over there.
+
+Notch came through again.
+
+“I know!”
+
+“I'm trying!”
+
+Eventually I gave up on the whole bookshelf-shelf contraption.
+
+I didn't need the keyboard.
+
+I didn't need this great big board swinging around with me.
+
+I just needed something for the mouse.
+
+So I grabbed a book.
+
+I held the book in one hand.
+
+Put the mouse on top of it.
+
+“Oh.”
+
+“That'll work.”
+
+And that was a lot better.
+
+But I still couldn't reach that little sill where Notch kept showing up.
+
+So after I dropped another acorn, I stopped trying to carry one for a minute.
+
+I just sat there playing with the spoon.
+
+Mouse button down.
+
+Move it over here.
+
+Move it over there.
+
+And while I was doing that, I happened to roll the mouse wheel.
+
+The spoon got longer.
+
+I stopped.
+
+“What?”
+
+I rolled it again.
+
+Longer.
+
+“Oh!”
+
+I rolled the wheel the other way.
+
+Shorter.
+
+“Oh, you've got to be kidding me.”
+
+I looked over at the wardrobe I had just moved.
+
+Then I tried the wheel again.
+
+Longer.
+
+**BONK.**
+
+The spoon ran right into the Alcove.
+
+“Oh!”
+
+“Okay.”
+
+So making it longer didn't mean I could just wave this great long spoon around wherever I wanted.
+
+I had to have room for it.
+
+But now I knew what I had.
+
+So I tried again.
+
+Book in one hand.
+
+Mouse on the book.
+
+Button down.
+
+Spoon.
+
+I brought it back toward the tray.
+
+Got another acorn onto it.
+
+And very carefully kept the spoon underneath it.
+
+Then I shortened the handle enough that I could actually turn around without running it into everything.
+
+I turned myself and the chair.
+
+Kept the button down.
+
+Kept the book under the mouse.
+
+Kept the spoon underneath the acorn.
+
+And once I was facing toward that little sill—
+
+I rolled the wheel.
+
+The handle started getting longer.
+
+A little farther.
+
+A little farther.
+
+“Come on.”
+
+The spoon reached the sill.
+
+I lowered it.
+
+Tipped it just enough.
+
+And the acorn rolled off.
+
+And stood there.
+
+I just sat there looking at it.
+
+“Ha!”
+
+“I told you I'd give you one.”
+
+Notch wasn't even there.
+
+Of course.
+
+So I sat back down and waited.
+
+There were birds going on above me.
+
+Something was moving through the branches.
+
+A couple of other chipmunks came through.
+
+One of them took an acorn from the tray.
+
+And after a while—
+
+scamper scamper scamper—
+
+there was Notch.
+
+Triangle ear.
+
+He came along the route I'd been watching him use.
+
+He reached the sill.
+
+Found the acorn.
+
+And took it.
+
+“There you go.”
+
+Notch stopped.
+
+He looked toward me.
+
+And then Notch said:
+
+**THE GENERAL OFFICES OF THE APPLIANCE\
+NOW STAND WELCOMING\
+THIS ONE CONSTITUTIONING HUMAN\
+TO THIS ONE SOME QUIET ALCOVE.**
+
+I stared at him.
+
+Notch scampered away.
+
+“Oh yeah.”
+
+“That's right.”
+
+“We're just Pretending.”
+
+I sat there a little longer after that.
+
+Then I looked up.
+
+**UN-FOLD** was still standing right where it had been the whole time.
+
+At the top.
+
+Waiting for me whenever I was ready.
+
+So I reached up for the ring.
+
+And I pulled it down over the curvature of the Donut Helmet Thing.
+
+And I UN-FOLDed into the Sittinging-In Room.
+
 ### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
-
-There was sunlight.
-
-Soft light coming through windows.
-
-I looked around.
-
-I seemed to be standing within a pleasant little alcove.
-
-And somewhere beyond it—
-
-voices.
-
-A low murmur.
-
-I listened.
-
-I'd been doing most of the talking around here.
-
-Even the Weddinginging Crew hadn't had much to say.
-
-“Hello?”
-
-I couldn't make out any words.
-
-But it was nice to hear somebody.
-
-There was a sign:
-
-**THIS ONE QUIET ALCOVE STANDS WITHIN**
-
-**THE AMICABLE GROTTOES DISTRICTING**
-
-**WITHIN THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.**
-
-“Okay.
-
-Here we are, then.”
-
-And another:
-
-**FROM HERE YOU MAY UN-FOLD**
-
-**TO ENTER**
-
-**THIS ONE SITTINGING-IN ROOM.**
-
-“Sittinging-In Room?”
-
-I looked around again.
-
-“Wait.
-
-Where's my Terrestrial Computer?”
-
-There was an UN-FOLD available.
-
-So I stepped on it.
-
-And suddenly—
 
 <!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q004]
 STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
