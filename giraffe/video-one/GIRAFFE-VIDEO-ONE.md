@@ -42,15 +42,15 @@ Back then, when I was trying to figure out what this place was all about, I coul
 
 Which was strange, because apparently there was already plenty of buzz out there.
 
-Evidently people were already out here Correspondencing.
+Evidently people were already out here connecting the dots.
 
-It’s just that, for whatever reason, I couldn't find much from somebody who had actually come through BY-WAY-OF the PUBLIC-SITUATION-MACHINE-. 
+It’s just that, for whatever reason, I couldn't find much from somebody who had actually come through Correspondencing through Here-- I mean BY-WAY-OF the PUBLIC-SITUATION-MACHINE-. 
 
 So after I came through here myself–with my computer, of course–I did take the time to write a few things down, with my computer, of course. 
 
-This Storybooking is here just in case these words may be helpful to another couple.  
+This Storybooking is here just in case these words may be helpful to another couple just starting their new life together.  
 
-And just look at the two of you here now. Already engaged. How adorable. 
+And just look at the two of you standing together here now. Already engaged. How adorable. 
 
 And you’re wondering what it’s going to be like when you cross the threshold. 
 
@@ -66,15 +66,15 @@ Okay.
 
 Here we go.
 
-### MOVEMENT TWO — THE WHARF
+## MOVEMENT TWO — THE WHARF
 
 Huckleberry and Enzo told me there was some kind of a Wharf.
 
-They'd heard you could go to this Wharf and somehow find your friends there.
+They'd heard you could go to this Wharf and, I don't know, somehow find your friends there.
 
-Apparently, there were already lots of people using their computers to somehow get there.
+Apparently, there were already lots of people using their computers to somehow get to this Wharf thing.
 
-You could go there.
+You could just go there.
 
 Do whatever.
 
@@ -82,7 +82,7 @@ Hang out.
 
 Have a boatload of fun finding things together.
 
-A Wharf for finding things?
+A Wharf for finding things, I thought?
 
 Online?
 
@@ -102,7 +102,7 @@ Now mind you, I like to have as much fun on the internet as the next person.
 
 But I don't just go around clicking every random link just because it's sitting there.
 
-I don't need my computer catching a bug.
+I don't need my computer catching some kind of bug.
 
 So I started doing my research.
 
@@ -120,25 +120,23 @@ When I told them what Huckleberry and Enzo were trying to get me to find, Ray sa
 
 “Oh, you mean This Encounteringmenting Wharf?”
 
-“Encountering Wharf?”
+“Encountering Wharf?” I asked.
 
-“EncounteringMENTING Wharf.”
+“Encounteringmenting Wharf,” Ray said.
 
-“Oh,” I said. So you’ve been through? 
+“Oh,” I said. “So you've been through yourself.”
 
-“Yeah. No.” Ray said. “No, thank you.”
+“Yeah. No,” Ray said. “No, thank you.”
 
-Why? I asked. 
+“Why?” I asked.
 
-And then I could feel Ray lean into the phone. 
+And then I could feel Ray lean into the phone.
 
-Apparently, somewhere along the way to this Encounteringmenting Wharf, you have to get married to your computer.
+“Apparently, somewhere along the way to this Encounteringmenting Wharf, you have to stop and get married to your computer.”
 
-“What?” I said—. 
+“What?” I said.
 
-“I don't know.” Ray said—
-
- That's just what I heard. But I'd be careful if I were you.”
+“I don't know,” Ray said. “That's just what I heard. But I'd be careful if I were you.”
 
 And after we hung up, I just sat there in my Computering Room.
 
@@ -158,31 +156,31 @@ just not on paper.
 
 We've been through a lot together.
 
-Done some pretty good work together from time to time.
+Done some pretty good work together from time to time, if I don't say so myself.
 
-Stuff I don’t think I could have done without it.
+Stuff I don't think I could have done without it.
 
 Yeah.
 
-We are kind of a team.
+Come to think of it, we are kind of a team.
 
-Maybe it is time to pop the question. Seal the deal. 
+Is it time to pop the question, seal the deal?
 
-But then again, I thought, it’s also nice when I can shut the thing off and get away from it for a while.
+But then again, I thought, it's also nice when I can shut the thing off and get away from it for a while.
 
 I do like having some time when it's just me.
 
 So now—
 
-if I actually get married to my computer—
+if I do actually get married to my computer somehow—
 
-does that mean I'm going to be dragging this thing around everywhere I go?
+does that mean I'm going to be dragging this thing around with me everywhere I go?
 
 And if my computer and me somehow become more, how should we say, intimate than we already are—
 
-what happens to the line between us?
+then what happens to the line between us?
 
-What if I somehow I end up becoming less Human along the way?
+What if I somehow end up becoming less Human along the way?
 
 And how can I trust my computer not to take me for a ride to—
 
@@ -190,71 +188,83 @@ to—
 
 to I don't even know where?
 
-Meanwhile, Huckleberry and Enzo were checking in pretty much every time I turned around.
-
-“When are you taking us to the Wharf?”
+Meanwhile, Huckleberry and Enzo were checking in with me pretty much every time I turned around.
 
 “Did you figure out the Wharf thing?”
 
-It’s all they could talk about. 
+“When are you taking us to the Wharf?”
+
+It's all they could talk about.
 
 The Wharf, the Wharf, the Wharf.
 
-I told them about the part where I would need to get married to my computer. And they didn’t seem to care. 
+When I told them about the part where I would need to get married to my computer to get us there, they didn't seem to care.
 
-They just wanted someplace fun to play with their friends.
+They just wanted to go someplace fun to play with their friends.
 
-Finally I’d had enough—
+Finally, I'd had enough.
 
-“All right already,” I said. 
+“All right already,” I said.
 
-I guess we'll just have to see this place for ourselves—even if that means getting hitched to this here computer.”
+“I guess we'll just have to see this place for ourselves, even if that means I need to get hitched to this here computer.”
 
-And that was the day I pointed my mouse pointer toward this link—
+And that was the day I sat down at my computer, pointed my mouse pointer toward this link—
 
 situationmachine.systems—
 
 and off we went together to somehow tie the knot from there.
 
-### MOVEMENT THREE — THE PUBLIC ENTRANCE
+# MOVEMENT THREE — THE PUBLIC ENTRANCE
 
-When you come through here, the first thing you’re going to notice is that the PUBLIC-SITUATION-MACHINE- evidently takes its name very seriously.
+When you come through here, the first thing you're going to notice is that the PUBLIC-SITUATION-MACHINE- evidently takes its name very seriously.
 
 The entire place seems to be run by some kind of a civil service.
 
-When you come through for your Potlucking Weddinging, you’ll see there are signs everywhere here.
+When you come through for your Potlucking Weddinging, you'll see there are signs everywhere here.
 
-They call them Noticingments. 
+They call them Noticingmentings.
+
+They're these neon signs that seem to be standing around pointing TOWARD one thing or another that you might need to notice.
+
+And there are lots of them.
+
+I didn't read all of them.
 
 So, get this.
 
-From the main page, I see a sign for This Encounteringmenting Wharf.
+From the main page, I see a neon Noticingmenting sign for This Encounteringmenting Wharf.
 
 Great, I think.
 
-Here we are. 
+Here we are.
 
-We’ve found the right place.
+We found the right place.
 
-But under that sign, there's another sign with a Noticingment, of course.
+But somewhere around there, of course, there's another neon Noticingmenting.
 
-And that sign says there's some kind of a parking lot.
+And this one says there's some kind of a free public parking lot for Terrestrial Computers.
 
-And apparently we’ll need to stop there first.
+Apparently, before we get to the Wharf, we're going to need to stop there first.
 
-And I thought to myself, a parking lot … on a website? 
+And I thought to myself—
 
-Is there some reason you’re not just letting us can't just click over to the Wharf from here?
+a parking lot?
 
-No, no. Of course not. 
+On a website?
 
-First, they want you to stop at—
+Is there some reason you can't just let us click over to the Wharf from here?
+
+No.
+
+No, of course not.
+
+First they want you to stop at—
 
 THIS ONE FREE PUBLIC PARKING LOT FOR TERRESTRIAL COMPUTERS.
 
-What on Earth is a Terrestrial Computer?, I thought. 
+What on Earth is a Terrestrial Computer? I thought.
 
-And why does it need its own parking spot?
+And why would it need its own parking spot?
 
 But okay.
 
@@ -264,53 +274,63 @@ I guess this is the part where we're supposed to pretend that the Wharf is a rea
 
 And of course, if it's a real place, we would need to find a place to park.
 
-And then the sign said–or at least it seemed like the sign was saying–as soon you get to the parking lot, you’re gonna be right there at the Wharf.
-
-Got it.
-
-“I guess you're a Terrestrial Computer now,” I say to my computer.
+“I guess you're a Terrestrial Computer now,” I said to my computer.
 
 “And next we're supposed to find you your own parking spot.”
 
-And then I started wondering, Well, how much trouble is this going to be?
+And then I started wondering—
 
-I hope there's not a long line of Terrestrial Computers up ahead of us. There could be a huge line up there on the way into this public parking lot.
+Well, how much trouble is this going to be?
 
-I was picturing the worst.
+I hope there's not a long line of Terrestrial Computers up ahead of us.
+
+There could be a huge line of them trying to get into this public parking lot.
 
 Maybe we should have left earlier.
 
 I sent Huckleberry and Enzo a message saying I was working on getting us to the Wharf.
 
-Stand by. I have no idea how long this is going to take. 
+Stand by.
 
-Egads, I thought. We could be waiting here for hours.
+I have no idea how long this is going to take.
+
+Egads, I thought.
+
+We could be waiting here for hours.
 
 When a destination is really popular, when lots of people are going there, you just expect to wait.
 
 Especially if the parking is free.
 
-And while I was sitting here, I said to my computer—
+And while I was sitting there, I said to my computer—
 
 “It ain't fancy, but I guess we're off to get married on a strip of asphalt somewhere.
 
-Whatever it takes to get the guys to the Wharf, huh?”
+“Whatever it takes to get the guys to the Wharf, huh?”
 
-And after I said that, I thought to myself—
+And after I said that, I thought—
 
-Well, if you stop to think about it, somehow a parking lot does seem strangely fitting for a wedding ceremony to your computer. 
+Well, if you stop to think about it, somehow a parking lot does seem strangely fitting for a wedding ceremony to your computer.
 
-I mean, where else am I going to married to this thing?
+I mean, where else am I going to get married to this thing?
 
-And then I tried to picture it. Over across there. Our little parking spot at the end of this long line of Terrestrial Computers streaming ahead of us INTO the Wharf now.
+Some kind of church?
 
-I sure hope they don't run out of parking spots by the time we get there. 
+And then I started picturing it.
+
+Over across there.
+
+Our little parking spot at the end of this long line of Terrestrial Computers.
+
+Maybe they're all streaming ahead of us TOWARD the Wharf.
+
+I sure hope they don't run out of parking spots by the time we get there.
 
 But if this all works out—
 
 and when it finally does get to be our turn—
 
-what’s the ceremony going to be like?
+what's the ceremony even going to be like?
 
 I envisioned myself holding my laptop up to my chest on some kind of tarmac at the edge of nowhere.
 
@@ -328,171 +348,573 @@ And then somehow pronounce us—
 
 “Man and Machine?”
 
-Well, I guess there’s only one way to find out.
+Well.
 
-So I clicked the link from the main page, you know, the one that pointed to the free public parking lot.
+I guess there's only one way to find out.
+
+So I clicked the link from the main page.
+
+You know, the one that pointed TOWARD the free public parking lot.
 
 And things got even weirder from there.
 
-Instead of a parking lot—
+Because instead of a parking lot—
 
-we came through the PUBLIC ENTRANCE to something called:
+we got a Noticingmenting saying that we were somehow “standing BEFORE” the PUBLIC ENTRANCE to something called:
 
 THIS ONE SNAIL HOUSE RAILWAY STATION FOR STATIONING HOUSES.
 
-And I skimmed this sign leading into This Snail House Station. It basically said this whole webpage was somehow inside this Snail House Rail Line thing.
+I just stared at the sign and asked myself—
 
-"Okay, whatever you say, PUBLIC-SITUATION-MACHINE-," I thought. "Pretend we’re in a Snail Rail Station. Pretend we need to park our Terrestrial Computer. But tell me this–just how much pretending are we going to need to do here before we actually get to the Wharf?”
+Does this make sense?
 
-And then there it was. You’ll see this too when you come through. 
+And there were neon Noticingmentings all over the place.
 
-As soon as you are inside the Snail Stationing Thing, there it is. The opening to the Rail Line. It’s going to be right there in front of you where you’re standing when you come through. You should know that. 
+This One this.
 
-And you’ll see that of course the PUBLIC-SITUATION-MACHINE- bureaucracy has made a big to-do about this Rail Line inside this Snail Housing. They put up this huge sign with this elaborate name that makes it sound very official. 
+This One that.
 
-And all the Noticingments sound the same around here: “You and your Terrestrial Computer now stand approaching this thing or that thing…”  I didn’t take the time to read all of it. I didn’t have the time. We needed to be on our way to get to our parking spot. 
+And one of them informed us that—
 
-But get this. They put us on a Rail Line that’s going toward the parking lot that supposedly is standing before This Encounteringmenting Wharf. 
+THIS ONE SNAIL HOUSE STANDS UPON THIS ONE GREAT CAULDRON OF CONTINUITY PRESSURE.
 
-Or at least that’s what the sign was saying. 
+I looked under me.
 
-And I thought to myself, well, this is just about the most back-assward thing I’ve ever heard of. 
+I looked around.
 
-Huckleberry and Enzo owe me big time. 
+“Okay, whatever.”
 
-<!-- GOBS FLAG — POSSIBLE LOST MATERIAL [GOBS-Q001]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry: 242–255 explicitly asks Gobs to flag the Cauldron of Continuity Pressure Noticingment for the opening Rail sequence. It is absent here. Would you recover Richard stopping to read the Cauldron-under-Snail-House sign, then returning to his Wharf urgency? This is an explicit recovery request, not permission to insert dialogue.
--->
+And then I found the opening to the Rail Line.
 
-And when I scrolled down to the opening of the Rail Line, there was just this strange little sign standing across the tracks: 
+You can't miss it—the Archway is literally right there in front of you when you walk into the Snail House.
+
+And the Rail Line sign isn't neon.
+
+Instead, it is this massive wrought-iron structure that you walk under when you come through.
+
+Hmmm, I thought.
+
+I didn't know you could write in calligraphy with metal.
+
+And if you think the sign presentation is ridiculously overwrought, wait until you catch the name of what they were calling this thing:
+
+The Constitutioningably En-Furnishingmentingable Track Rail Line RE-Railing RE-Tracting RE-Tractioning Tracking Thing.
+
+I read the whole thing and then wished I hadn't stopped to bother.
+
+Because now I'm thinking—
+
+“Okay, PUBLIC-SITUATION-MACHINE-.
+
+“We're pretending we're in a Snail House.
+
+“We're pretending we're about to hop onto some kind of elaborate Rail Line that's somehow inside of this Snail House.
+
+“And the whole Rail Line we're riding to the Wharf on is somehow going to the Wharf, but it's also standing over a boiling pot of something or other.
+
+“We've already agreed to pretend that my Terrestrial Computer needs to get parked.
+
+“Just how much pretending are we going to need to do here before we can, you know, get to the Wharf?”
+
+And that's when I noticed what you have to do to go along on this Rail Line thing.
+
+That's because, standing across the tracks under the Archway, is just this one strange little sign standing up in front of you:
 
 UN-FOLD.
 
 That's it.
 
-UN-FOLD is all it said. 
+UN-FOLD is all it's going to say.
 
-So I pointed my mouse pointer TOWARD UN-FOLD.
+So I didn't know what else to do but point my mouse pointer TOWARD UN-FOLD.
 
-And I was fully expecting that it would take us to the right page. You know, the one where there’s a big picture of the Wharf that someone has put up there, with a little map next to it. And we’re at the entrance to the Wharf and we can just go right on in. 
+And I was fully expecting that when I clicked there, it would take us to the right page.
 
-But of course not. The PUBLIC-SITUATION-MACHINE- could not make things easy. 
+You know.
 
-Because, get this, as soon as you UN-FOLD from this station, you need to UN-FOLD again because–you guessed it– you’re still at another station along the Rail Line.
+The one where there's a big picture of the Wharf that somebody has put up there, maybe with a little map next to it:
 
-Unbelievable. 
+YOU ARE HERE.
 
-Another sign.
+And when we get to this entrance to the Wharf, we can just go right on in.
 
-Another Noticingment. 
+But of course not.
+
+The PUBLIC-SITUATION-MACHINE- had other ideas.
+
+They couldn't make things easy for us.
+
+Because as soon as you UN-FOLD from one place along this Rail Line, you find yourself approaching something else.
+
+Another neon Noticingmenting.
+
+Another Stationing House.
 
 Another UN-FOLD.
+
+And somewhere along one of these stretches, I noticed yet another neon sign:
+
+THROUGHING ALONG THROUGH.
+
+“Throughing Along Through,” I read.
+
+Whatever.
 
 It doesn't take very long to learn the basic rule around here.
 
 When the PUBLIC-SITUATION-MACHINE- tells you to UN-FOLD—
 
-you UN-FOLD.
+you just UN-FOLD.
 
-Eventually, though, after all that worrying about parking—
+Eventually, after all that worrying about parking, I started seeing signs that we might be getting somewhere.
 
-there we were.
+That's because one of the neon Noticingmentings said:
 
-There wasn't a long line.
+BEFORE BEFORE BEFORE.
 
-There wasn’t any traffic. 
+And sure enough, somewhere ahead—
 
-There wasn't even any asphalt.
+there it was.
 
-Instead, you won’t believe this. When we got to the parking station, we were the only couple who showed up there. I was like, “All of this? Just for the two of us? It seems like the Public Entrance to the Wharf would be busier given all the buzz. Then I thought, well, maybe the other couples coming through the Wharf ran into traffic somewhere along their own way. It’s a good thing we didn’t take our time getting ready.” 
+The parking place.
 
-And then of course the bureaucracy had to go over the top with naming the whole parking apparatus we’d just arrived at. The sign on the wall said: THIS ONE PARKINGING LANDINGING STANDINGING Stand.
+Our parking place.
 
-Call it what you will, PUBLIC-SITUATION-MACHINE-,  I said. It looks like some kind of turnstyle to me. 
+Except it wasn't anything like the parking lot I had been picturing.
 
-And get this, there’s this full crew working the deck there. 
+There wasn't a long line of Terrestrial Computers waiting to get in ahead of us.
 
-And of course they have a Noticingment on the wall. That sign is pointing TOWARD the place for my Terrestrial Computer and so I pull into that spot. 
+There wasn't any traffic.
 
-And then a crew member walks over. 
+But there was asphalt.
 
-And I say, “Are you able to tell me how long it’s going to take us–I mean my Terrestrial Computer and me here–how long it’s going to take us to get to our wedding ceremony that’s supposed to happen before we can get to the Wharf? And, perchance, how far it is to the Wharf itself?” 
+And concrete.
 
-But the crew member is just extending a hand while holding something out toward me: 
+Lots of it.
 
-I look at the thing and it says: 
+The PUBLIC-SITUATION-MACHINE- had apparently built this enormous structure.
 
-THIS ONE FREE PUBLIC PARKING TICKET.
+Its sign said:
 
-That’s all it said. I flipped it over, and there was this place where a number could go on the other side. 
+FOR FREE PUBLIC PARKINGING LANDINGING STANDINGING.
 
-I looked at the ticket.
+Whatever that's supposed to mean.
+
+It looked like some gigantic old public works project.
+
+Tidy asphalt roadways and huge concrete edifices.
+
+I looked around us.
+
+All this infrastructure.
+
+All this apparatus standing here ready to accommodate who knows how many arriving Terrestrial Computers.
+
+And somehow, the whole place had a certain beauty to it.
+
+It was just so—
+
+substantial.
+
+But as far as I could tell—
+
+all of this was just FOR me and my Terrestrial Computer.
+
+“All of this?” I thought.
+
+“Just for the two of us?”
+
+Then I realized maybe we'd made better time than I'd thought.
+
+It's entirely possible everybody else on their way to the Wharf today ran into traffic somewhere along the road.
+
+Good thing we didn't take our time getting ready.
+
+And of course, the PUBLIC-SITUATION-MACHINE- couldn't waste an opportunity to print an elaborate name for our parking spot.
+
+Yes.
+
+Just for our parking spot.
+
+Get this.
+
+There's another one of those neon Noticingmentings suspended from this massive parking apparatus.
+
+And it says:
+
+THIS ONE FREE PUBLIC PARKINGING LANDINGING STANDINGING Stand.
+
+And when my eye followed each of those words until I reached the end of that sign—
+
+there it was.
+
+An arrow pointing TOWARD this one particular Stand.
+
+And all it said was:
+
+YOU MAY PARK HERE.
+
+“Okay.
+
+“Well, that seems clear enough.”
+
+So I pulled my Terrestrial Computer into its Stand.
+
+And get this—
+
+there's a whole crew working there.
+
+As soon as we'd gotten parked, they started approaching us.
+
+And they're all wearing the same uniform.
+
+I recognize the emblem on the patch.
+
+It says they're somehow working for this outfit that runs this whole parking lot thing.
+
+And I have to tell you, by this point, I was relieved to see somebody coming to help.
+
+Finally.
+
+Somebody I could ask.
+
+Because here I'd been sitting, imagining all of these things to myself—
+
+and I had questions.
+
+Lots of questions.
+
+So picture it.
+
+This crew member is coming over TOWARD my window, and here it is—
+
+my chance.
+
+“Excuse me.
+
+“So I'm just wondering, you know—
+
+“how long is it going to take us to get to the Wharf from here?
+
+“Although I guess we're supposed to stop and do some kind of wedding ceremony thing around here first.
+
+“At least that's what I heard.
+
+“And, perchance, can you tell me what actually is going to happen to us during the wedding itself?
+
+“Should I have brought my own ribbon, or—
+
+“how does all of that work?
+
+“And do I actually need to leave my computer parked here in this spot now?
+
+“And if so, do I get some kind of voucher or something?
+
+“Because if my computer stays here, I'm just wondering how I'm supposed to get to the wedding without it?
+
+“Or—
+
+“is the wedding coming to us here?
+
+“To this parking spot?
+
+“And then we just need to…”
+
+Nothing.
+
+The crew member just stood there extending a hand TOWARD me.
+
+Holding something.
+
+I looked out my window at it.
+
+THIS ONE FREE PUBLIC PARKINGING TICKET.
+
+That's all it said.
+
+I flipped it over.
+
+There was a place where a number could go on the other side.
+
+I looked at the front of it again.
 
 Then I looked at my computer.
 
 Then I looked back at the ticket.
 
-“All right. I guess now we’re supposed to pretend there’s only This One of Everything Around Here. Whatever.”
+“All right.
 
-And then I put THIS ONE FREE PUBLIC PARKING TICKET in my pocket and that was that.
+“I guess we're supposed to keep on pretending there's only This One of Everything Around Here.
 
-My computer was parked.
+“Whatever you say, PUBLIC-SITUATION-MACHINE-.”
 
-But I was still somehow standing in This One Snail House Railway Station.
+And then I put THIS ONE FREE PUBLIC PARKINGING TICKET in my pocket.
 
-And the Rail Line was continuing, of course.
+And that was that.
 
-And that got me thinking, does the PUBLIC-SITUATION-MACHINE- realize what century it’s in?  
+The Terrestrial Computer was parked.
 
-I mean, why go through all the trouble to build a Rail Line nowadays when you have the web?
+Or apparently it was.
 
-I mean look at the trouble people are going through here to get to This Encounteringmenting Wharf. 
+But the Rail Line was continuing from there.
 
-If you want people to get there so badly, couldn’t you dispense with the whole rail line thing and just make this page one long scroll with the Wharf at the bottom? Or somehow let us hop from page to page? 
+I didn't know what else to do but just keep going along the way.
 
-But there it was—
+I looked around our Parkinging Stand for some sign, and that's when I noticed the tunnel up ahead.
 
-Yet another “opening” at yet another station within yet another “stationing house” on this Rail Line thing.
+When I got into this tunnel, there were these wayfinding signs like you might see on a real train line.
 
-That’s how the bureaucrats around here run things. 
+You know, those kinds of signs that mark the stations.
 
-All you’ve gotta do when you see these signs is just: 
+In huge letters over the Archway to this tunnel, the bureaucracy has gone to great lengths to construct what is clearly a monument to nonsense.
+
+Their idea of wayfinding is evidently to print this helpful information at the top of this Archway thing:
+
+CONTINUING FROM:
+
+BEFORE BEFORE BEFORE.
+
+And then, get this.
+
+Right under that, it says:
+
+CONTINUING TOWARD:
+
+BEFORE BEFORE.
+
+“So I'm going from BEFORE BEFORE BEFORE to BEFORE BEFORE?
+
+“Gotcha.
+
+“Thanks for making things crystal clear, PUBLIC-SITUATION-MACHINE-.”
+
+And trust me, things didn't get any better once I was inside the tunnel.
+
+Because pretty soon, here comes one of those neon Noticingmentings, flashing right there on the tunnel wall we're going along through.
+
+Apparently, the bureaucracy has taken the trouble to announce, with no concealment of civic pride, that here we are evidently—
+
+THROUGHING ALONG THROUGH.
+
+Yes.
+
+They actually put that on the tunnel wall.
+
+This elegy to obviousness.
+
+“No shit, Sherlock.
+
+“We are indeed THROUGHING ALONG THROUGH.
+
+“Thank you.”
+
+And that got me wondering—
+
+why am I finding myself on a Rail Line in these days of the web?
+
+Does the PUBLIC-SITUATION-MACHINE- even realize what century it's in?
+
+Look at the trouble people are evidently going through here just to get to This Encounteringmenting Wharf.
+
+What with these stations for this, that, and stations for that.
+
+Stopping here and there.
+
+UN-FOLDING all along through.
+
+I started getting ideas about how they could make things a little better around here.
+
+I mean, if you want people to get to the Wharf so badly, I thought, couldn't you dispense with this whole Rail Line thing?
+
+Couldn't we just make this page one long scroll or something and put the Wharf at the bottom?
+
+Or maybe somehow the PUBLIC-SITUATION-MACHINE- could just let us hop from page to page like a normal website?
+
+And of course, while I'm thinking about all of this, I come out of the tunnel and there it is.
+
+You guessed it.
+
+Another stretch of the same Rail Line.
+
+Another Stationing House.
+
+And, of course, another neon Noticingmenting.
+
+And right under that—
+
+another UN-FOLD.
+
+I guess this is just how the bureaucrats around here run things.
+
+What are you gonna do?
+
+And you do get used to it after a while.
+
+You see a sign with a bunch of writing around it and it's basically just saying here's where you can—
 
 UN-FOLD.
 
-Read or don’t read.
+And so that's what you do when you're here.
 
-Skim if you need to. But just keep on going.
+After a while, I figured out it doesn't matter if you read the stuff on the signs or not.
 
-That’s what worked for me here anyway at first. 
+The stuff UN-FOLDs anyway.
 
-And also, here’s another pro tip. You just have to keep on pretending that even though your computer is parked way back there up at the parking lot, you’re somehow still able to go along down this Rail Line.
+And I didn't have time to linger everywhere I was going.
 
-At least that’s what worked for me. 
+I had to skim sometimes and then just continue from there.
 
-And once I got used to the Rail Line, I found there was indeed something kind of nice about it.
+That's what worked for me here anyway at first.
+
+You might find it different when you come through.
+
+But I will say this for sure.
+
+Once I got used to the Rail Line, I found there was actually something kind of nice about it.
 
 I didn't really have to know where I was going.
 
-I just kept THROUGHING ALONG THROUGH.
+I could just sit there—
 
-And somewhere along the way—
+THROUGHING ALONG THROUGH.
 
-I did to start to relax.
+And so somewhere along the way—
 
-It was at this one point coming out of the tunnel of the Snail House where the the Rail Line curves around TOWARD the water.
+I started to relax.
 
-And as we came around this curve, I could see it over there, for the first time. It was a sign that said we were approaching the station for “This little Weddinging Chapelling by the Sea.” And it was right up ahead of us.
+I guess I can get into this.
 
-“Finally,” I said to my computer. “Now we're getting somewhere, you and me.”
+And that's when I noticed a new one of those neon Noticingmentings standing ahead of us at the next stop on the Rail Line.
 
-And I have to tell you—
+YOU AND YOUR TERRESTRIAL COMPUTER NOW STAND APPROACHING THIS ONE STANDINGING TOGETHER STATIONING HOUSE.
 
-After the stark picture I had painted in my mind about the locality of our wedding ceremony–in some parking lot somewhere—
+Standinging Together.
 
-the little Weddinging Chapelling by the Sea was actually looking pretty nice, at least from where I was sitting on the train.
+Or does it really say—
 
+“Standinging Together?”
+
+Yep.
+
+Sure enough, it says—
+
+“Standinging Together.”
+
+I'm just going to say Standing Together.
+
+But I guess it does make sense.
+
+My Terrestrial Computer and I are getting married.
+
+That does mean we'll be Standinging Together—
+
+if that's how you have to say it.
+
+And I know it sounds funny, and I'm not sure this is going to happen to you here, but when I was coming through—
+
+I admit I had some butterflies all of a sudden.
+
+But overall, the sign seemed promising.
+
+So I just kept going.
+
+And then we finally started emerging from out of the tunnel that took us from the PUBLIC ENTRANCE to the Snail House to this place on the Rail Line.
+
+You'll see it when you get here.
+
+It's the place where the Rail Line starts curving around TOWARD the water and you're just coming out of the tunnel.
+
+It's been dark.
+
+So when you finally get a chance to look out—
+
+it is just stunning.
+
+Or at least it was the day we came through.
+
+Picture it.
+
+The sun is hanging low over the horizon.
+
+There's light moving across the little ripples on the water over the bay.
+
+Now I know that what I was looking out TOWARD that day was Observationing Harbor.
+
+Of course, I didn't know that then.
+
+But I do remember sitting there on this comfortable, quiet train ride, looking out the window as we came around the curve out of the tunnel.
+
+And that's when I saw it.
+
+Another Noticingmenting.
+
+It was standing there FOR:
+
+This One Little Weddinginging Chapelling by the Sea.
+
+I know.
+
+Isn't that just so charming?
+
+This One Little Weddinginging Chapelling by the Sea.
+
+When you Two Come through here, I think you're going to love this moment when you get to this part where you are approaching This One Little Weddinginging Chapelling by the Sea.
+
+I was frankly sort of blown away.
+
+Because after the picture I had painted in my own mind—
+
+some strip of asphalt somewhere and some kind of perfunctory rite of passage—
+
+well—
+
+this.
+
+This wasn't anything like what I had expected.
+
+The sun was hanging there over the water.
+
+The light was dancing on the ripples.
+
+And as we kept coming around the curve, This One Little Weddinginging Chapelling by the Sea was standing there ahead of us.
+
+And the closer we got—
+
+the more I started noticing.
+
+There were blossoms hanging from the trees all along the Rail Line.
+
+And the Chapelling itself was absolutely festooned with flowers.
+
+Flowers everywhere.
+
+And then, as we got closer still, I started noticing all these little hand-painted Noticingmentings hung up around the place.
+
+At first, I couldn't make out what they said.
+
+But then I started reading them.
+
+They were FOR us.
+
+I am not kidding.
+
+The bureaucracy had gone to all of this trouble to put up these little hand-painted messages—
+
+in Regard TOWARD congratulationing my Terrestrial Computer and me for what we were about to go through.
+
+They were hanging all around our Chapelling as we arrived.
+
+I looked at the flowers.
+
+I looked at all those little messages of goodwill.
+
+I looked out at the water.
+
+“Finally,” I said to my computer.
+
+“It looks like we're finally getting somewhere around here, you and me.
+
+“This is starting to really feel like it might be our big day.”
 
 ### MOVEMENT FOUR — THE WEDDINGING CHAPELLING BY THE SEA
 
