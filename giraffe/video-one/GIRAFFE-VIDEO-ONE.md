@@ -2823,316 +2823,1046 @@ And I UN-FOLDed into the Sittinging-In Room.
 
 ### MOVEMENT EIGHT — THE SITTINGING-IN ROOM
 
-<!-- GOBS FLAG — POSSIBLY STALE ARCHITECTURE [GOBS-Q004]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Memo §9 expressly supersedes the dark Sittinging-In Room / Lanterning-Bugs lighting premise. Current 8 still flips their switch and lights the room; 20 later introduces the Slumbering Lanterning Bug Colonial Bunkhouse for Appointmenting. Flag the whole early lighting sequence as stale; no script deletion made. Which existing bright-alcove/room transition should survive?
--->
+My Computering Room was there again.
 
-everything was dark.
+My desk.
 
-I still had the Donut Helmet thing on.
+My filing cabinet.
 
-And looking UP SIDE through it—
+The wardrobe I'd moved.
 
-I could tell there were some other things there.
-
-I just couldn't see what any of them were.
-
-Then I noticed something about Lanterning Bugs.
-
-“Well—
-
-that sounds like it might have something to do with light.”
-
-So I found the switch.
-
-And I flipped it.
-
-And sure enough—
-
-there were six Lanterning Bugs in a little Colonial Bunkhouse, lighting up the place.
-
-Apparently the PUBLIC-SITUATION-MACHINE- also offers a twelve-bug and a three-bug arrangement.
-
-But I didn't even try those.
-
-Six seemed fine.
-
-And now that I could see—
-
-<!-- GOBS FLAG — STAGING / BLOCKING [GOBS-Q005]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Memo §9 discovery order: wall question → Doll/chair ALONGSIDE WITH → reaction → floor/place inscription → turn/look back to TC. Here TC is confirmed first, OVER ACROSS; disappointment in Doll comes after the floor inscription, and the later “So I looked over at it” repeats an unspecified lateral confirmation. Reorder/blocking requires adjudication; do not simply substitute “behind” into the old sequence.
--->
-
-there was my Terrestrial Computer.
-
-OVER ACROSS.
-
-Still Restfullyinginglymenting upon its Little Chair with two little arms.
-
-Square buckle.
-
-Still securely fastened in.
-
-“Oh.
-
-There you are.
-
-Good.”
-
-Then my Regard rose to something standing upon the wall:
-
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-I read it again.
-
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-“What?”
-
-I was trying to get to the Wharf.
-
-What did sitting have to do with it?
-
-I looked around for another sign.
-
-Some kind of clue.
-
-And then—
-
-HERE, ALONGSIDE WITH me—
-
-my eye caught something new.
-
-It looked like a beer tap sitting on a chair.
-
-The inscriptioning said:
-
-**THIS ONE CONSTITUTIONING HUMAN DOLL.**
-
-“Constitutioning Human?”
-
-I looked at the Doll.
-
-Then I looked at the inscriptioning again.
-
-Apparently—
-
-*I* was This One Constitutioning Human.
-
-And this—
-
-was the Doll the PUBLIC-SITUATION-MACHINE- had furnished for me.
-
-And that's when I started noticing the furniture situation.
-
-My Terrestrial Computer had its own finely crafted Little Chair.
-
-The Doll had its own finely crafted Little Chair.
-
-Even the Axle Rod had gotten a Cushioning Thing back at the RE-STEPPING AND MAY BE RE-STOMPING Contraption.
-
-And spread across the floor around me:
-
-**THIS ONE PLACE FOR THIS ONE CONSTITUTIONING HUMAN.**
-
-Apparently—
-
-I got a—
-
-a—
-
-Floor.
-
-“Typical bureaucracy,” I thought.
-
-<!-- GOBS FLAG — POSSIBLE ENRICHMENT [GOBS-Q006]
-STATUS: LIVE — PASS ONE; RICHARD + MOBS TO ADJUDICATE
-Quarry: 2060–2075, 3027–3099, 3880–3910. Could this paired Groundward/Upside discovery seed the later Doll training? A Groundward ordinary computer remains forward; Upside TC confirmation needs a turn/look back, with Craft affordmentings ahead. No new switch or helmet control is implied, and Upside does not require physical upward looking. Current 9–10 Ground room movement is not itself a behind-TC contradiction.
--->
-
-Then I looked DOWN through the Glass Pair.
-
-And realized—
-
-actually—
-
-I did have a chair.
-
-I was already sitting in it.
+The books and papers I'd left in a pile on the floor.
 
 My chair.
 
-Right there in my computer room.
+Everything was right where I'd left it.
 
-“Oh.
+After sitting in that Alcove for a while, it was actually kind of strange seeing my own room again.
 
-Well—
-
-okay.
-
-I guess I already had one.”
-
-I looked UP SIDE again, at the Doll.
-
-I picked it up to take a closer look.
-
-And—
-
-I have to say—
-
-I was a little disappointed.
-
-It didn't have any eyes.
-
-No arms.
-
-Nothing that looked like a camera.
-
-Nothing that looked like anything my computer could see through.
-
-As far as I could tell—
-
-there wasn't even anywhere to hook anything up.
-
-It did have one very strange-looking ball-joint foot.
-
-And the PUBLIC-SITUATION-MACHINE- had furnished a name for that:
-
-**THIS ONE FOOT FINDINGING THING.**
-
-“Foot Findinging Thing?”
-
-I looked at the foot.
-
-Then at the Doll.
-
-“What is that even supposed to mean?”
-
-And there was that label again:
-
-**CERTIFIED 100% JANUSITE RIBBONATING SUBSTRATIONING.**
-
-“Of course.”
-
-I set it back upon its Little Chair.
-
-I had to admit—
-
-both chairs were adorable.
-
-But I still wasn't at the Wharf.
-
-And I still didn't know what I was supposed to do.
-
-And normally—
-
-when I'm sitting at my computer and I don't know what I'm supposed to do next—
-
-I ask my computer.
-
-So I looked over at it.
-
-There it was.
-
-My newlywed Terrestrial Computer.
-
-Still Restfullyinginglymenting upon its Little Chair.
-
-It had nothing for me here.
-
-“All right.
-
-Fine.”
-
-I looked back at the question.
+Except now there was writing standing there with it.
 
 **WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
 
-“Well, PUBLIC-SITUATION-MACHINE-—
+I looked around.
 
-if you really want to know what I'm sitting WITH WITHIN my Situationing FROM HERE—
+“Well... all this stuff, apparently.”
 
-apparently I'm This One Constitutioning Human.
+And then I noticed the chair.
 
-I'm married to my computer.
+It was beautiful.
 
-I've got a Doll that doesn't seem particularly useful for anything.
+Not new beautiful.
 
-My computer doesn't have anything for me here.
+Old beautiful.
 
-Huckleberry and Enzo are still waiting for me to figure out how we're getting to the Encounteringmenting Wharf.
+It looked like somebody had made it by hand a hundred years ago and people had been sitting in it ever since. The arms were worn smooth. There were little marks in the wood. It was sturdy as hell.
 
-I've been all the way down that tunnel and across that enormous Shoppe.
+And standing with it:
 
-Now apparently I'm supposed to sit.
+**THIS ONE CHAIR\
+FOR THIS ONE CONSTITUTIONING HUMAN DOLL**
 
-And I still have absolutely no idea what any of this has to do with getting us there.”
+“Constitutioning Human Doll?”
+
+I looked at the chair again.
+
+There couldn't possibly be two of those things.
+
+And then I looked down.
+
+There was a square standing upon the floor around about where I was sitting.
+
+**THIS ONE PLACE\
+FOR THIS ONE CONSTITUTIONING HUMAN**
+
+“Oh.”
+
+I looked around at it.
+
+“So this is my place.”
+
+And then I noticed the hole in the middle of it.
+
+“What the hell?”
+
+The chair for the Constitutioning Human Doll was interesting.
+
+But this thing was telling me that this was **my** Place.
+
+And my Place had a hole in it.
+
+I rolled myself a little closer and looked down.
+
+Something circular was down there.
+
+Then it started coming up.
+
+“Oh.”
+
+It rose FROM OUT OF THE GROUND until this little clear cylindrical thing had come to stand around about me.
+
+There was a Buttoning on the floor.
+
+**UN-FOLD.**
+
+“Well. Okay.”
+
+I stepped on it.
+
+And down I went.
+
+For about half a second.
+
+Then the whole thing tipped.
+
+“Whoa—!”
+
+And suddenly I was sliding.
+
+The clear elevator-looking thing had turned into one of those cream-colored canvas-like tunnels.
+
+I looked for DOWN.
+
+Nothing.
+
+UP?
+
+Nothing.
+
+“Oh, that's good.”
+
+“Okay. Buttons don't work while the elevator is moving. I'll put that on the list.”
+
+There was writing standing through the tunnel.
+
+At first I couldn't make much sense of it because it seemed to be coming at me the wrong way.
+
+I caught:
+
+**CONTINUING FROM**
+
+Then:
+
+**FROM HERE FOR HERE**
+
+And running ALONG THROUGH the passage:
+
+**THROUGHING ALONG THROUGH**
+
+I twisted around trying to keep reading as it went by.
+
+“What?”
+
+More lettering came through.
+
+**CONTINUING TOWARD**
+
+And then:
+
+**FROM OUT OF THE GROUND HERE\
+FROM FOR HERE**
+
+I looked for the controls again.
+
+Nothing.
+
+“And I think your signs are backwards.”
+
+Then the tunnel curved again—
+
+and suddenly I was standing inside a clear cylinder.
+
+And this time there were Offices.
+
+A lot of Offices.
+
+They went on and on.
+
+Doors. Windows. Counters. Shelving. Filing cabinets. Lamps. Little signs everywhere.
+
+Nobody in them.
+
+But Offices.
+
+“Wait.”
+
+I looked around.
+
+“Are these the General Offices?”
+
+There were two controls here.
+
+UP.
+
+DOWN.
+
+I pressed DOWN.
+
+The DOWN button worked.
+
+“Oh, NOW you work.”
+
+I let go.
+
+Stopped.
+
+I pressed DOWN again.
+
+Down.
+
+Let go.
+
+Stopped.
+
+I tried UP.
+
+Up.
+
+Stopped.
+
+“Oh.”
+
+I went back down.
+
+Slower this time.
+
+I started reading some of the signs on the Offices as they passed.
+
+I didn't understand most of them.
+
+I went back UP to read one again.
+
+Then DOWN.
+
+Then stopped between two of them.
+
+There seemed to be an awful lot of General Offices down there.
+
+I looked around.
+
+“Shouldn't I be charging you people rent?”
+
+I stopped.
+
+Looked overhead.
+
+**CONTINUING TOWARD**
+
+**FROM HERE FOR HERE**
+
+“Continuing toward... from here for here.”
+
+I looked down at the Offices.
+
+“All right.”
+
+I kept going.
+
+By then I had gotten pretty good with the button.
+
+I could creep down a little bit.
+
+Stop.
+
+Go back UP.
+
+Come DOWN faster.
+
+Stop again.
+
+Then I looked through the clear floor.
+
+There was another opening coming.
+
+“Oh.”
+
+I slowed down.
+
+Stopped.
+
+Went a little closer.
+
+Stopped again.
+
+“So that's where you do it.”
+
+I edged toward it.
+
+A little more.
+
+Stopped.
+
+I leaned over and looked.
+
+Then I went just a little too far.
+
+The floor dropped out from under me.
+
+“SHIT—!”
+
+And away I went again.
+
+Canvas.
+
+Tunnel.
+
+No buttons.
+
+“Yep. Okay.”
+
+More of the same strange wayfinding stood ALONG THROUGH the passage.
+
+**CONTINUING FROM**
+
+**FROM HERE FOR HERE**
+
+**THROUGHING ALONG THROUGH**
+
+And farther along:
+
+**CONTINUING TOWARD**
+
+**FROM OUT OF THE GROUND HERE\
+FROM FOR HERE**
+
+I tried to follow it as I went.
+
+“No. I'm telling you, you've got this printed the wrong—”
+
+And then the slide ended.
+
+**BOOM.**
+
+For a second I thought my knees ought to have felt that.
+
+I looked UP.
+
+There was the dark opening I'd just come out of.
+
+And over it:
+
+**CONTINUING FROM**
+
+**FROM OUT OF THE GROUND FROM HERE**
+
+“From from out of the ground from here.”
+
+“Okay.”
+
+Then I looked down.
+
+“Oh!”
+
+“There you are.”
+
+There was my computer.
+
+Resting on its cushion in that rocking chair.
+
+The chair rocked gently.
+
+And all around about it were these little things.
+
+Toys, apparently.
+
+It looked like somebody had been sitting there using the computer while they were taking care of somebody else.
+
+Somebody little, I figured.
+
+Because there were toys everywhere.
+
+“Well. Looks like my computer's in good hands.”
+
+Then I saw something familiar.
+
+“Hey. I know that thing.”
+
+The POOFING Needle.
+
+And there was that little unicycle with the one weird pedal.
+
+The little steering wheel with the horn in the middle.
+
+**RE-SOUND.**
+
+The old-fashioned telephone-box thing with the airplane.
+
+That ridiculously grand little house.
+
+Columns.
+
+Little windows.
+
+And the bell.
+
+I looked around.
+
+I had come down because there was a hole in my Place.
+
+I had found my computer.
+
+I had found what appeared to be several acres of General Offices.
+
+I had found an elevator whose buttons only worked some of the time.
+
+And I had found at least two Signs that somebody had apparently printed backwards.
+
+So naturally I understood considerably less than I had when I started.
+
+“All right. I'm going back up.”
+
+I found UP.
+
+Pressed it.
+
+And up I went.
+
+This time there was no slide.
+
+I rose through one clear standing into another.
+
+The General Offices came back.
+
+I slowed down.
+
+There were some of the same Offices I'd seen before.
+
+I went UP.
+
+Stopped.
+
+Back DOWN a little.
+
+Stopped.
+
+UP again.
+
+“Okay.”
+
+I kept going.
+
+And as the standing changed around about me, I caught enough of the wayfinding from another bearing to realize something.
+
+I stopped.
+
+I looked.
+
+“Oh.”
+
+I went UP a little farther.
+
+“Ohhh.”
+
+I looked back down.
+
+“Okay.”
+
+Beat.
+
+“Maybe I won't put the signs in the report.”
+
+I held UP.
+
+The Offices dropped away beneath me.
+
+The opening of my own Groundward locality grew around about me.
+
+And finally I came UP through the circular opening and stood flush with my own floor again.
+
+And now there was light coming up from underneath.
+
+Across the desk.
+
+The filing cabinet.
+
+The wardrobe I'd dragged around.
+
+All the books and papers I'd left lying everywhere.
+
+The shelf I'd pulled out of the bookcase.
+
+I got up and walked around.
+
+My desk looked like it was Floatationing.
+
+I moved the other way.
+
+Still Floatationing.
+
+The filing cabinet too.
+
+The light was coming up under all my ordinary stuff.
+
+The computer and the rocking chair hadn't come up with me.
+
+Just this light.
+
+“Oh, this is fucking incredible.”
+
+I walked around the room some more.
+
+“Huh.”
+
+I have to say, all the books and papers I'd left lying around looked pretty good in that light.
+
+“Maybe I should leave them like that.”
+
+“Or maybe I should just come back here more often.”
+
+And there on the floor:
+
+**UN-FOLD.**
+
+Well.
+
+I stepped on it.
+
+The floor gave way.
+
+“WHOA—!”
+
+Down through the tunnel again.
+
+This time I was ready for the first bend.
+
+Mostly.
+
+Out into the General Offices.
+
+UP.
+
+Stop.
+
+DOWN.
+
+Stop.
+
+I wanted to see how close I could get to that lower opening without falling through it.
+
+A little closer.
+
+Stop.
+
+A little closer.
+
+**WHOOP—**
+
+Apparently that close.
+
+Down through the second tunnel.
+
+**BOOM.**
+
+Computer.
+
+Rocking chair.
+
+Toys.
+
+UP.
+
+No slides on the way back.
+
+“Oh, NOW you're an elevator.”
+
+Home.
+
+Light.
+
+I rode that thing a bunch of times.
+
+Sometimes I came at the lower opening very slowly.
+
+Sometimes I got a little carried away with DOWN.
+
+That made quite a difference.
+
+And every time I came back up, my Computering Room was there in that extraordinary light.
+
+Eventually I stepped away from it.
+
+Then I looked back at that beautiful old chair.
+
+**THIS ONE CHAIR\
+FOR THIS ONE CONSTITUTIONING HUMAN DOLL**
+
+“Oh yeah.”
+
+“The Doll.”
+
+I walked over and looked at it again.
+
+Beautiful.
+
+Handmade.
+
+Worn.
+
+Waiting.
+
+“But where's the Constitutioning Human Doll?”
+
+I finally turned around.
+
+And behind me was another Parts Pocket.
+
+I knew what those were by now.
+
+Except this one looked like somebody had inherited a circus.
+
+There were folds and ribbons and braided trim and tassels and fringe and all kinds of stuff hanging off the thing.
+
+And apparently they had spent the entire budget on decorations.
+
+I UN-FOLDed it.
+
+And inside was a Doll.
+
+It didn't look like much of anything, really.
+
+This was supposed to be a Constitutioning Human Doll?
+
+It didn't even have arms.
+
+I RE-FOLDed the Parts Pocket.
+
+SNAP.
+
+WOMP.
+
+I opened it again.
+
+And now there were these two gloves in there.
+
+The gloves matched the Parts Pocket.
+
+Of course they did.
+
+I put them on.
+
+I felt like I'd accidentally taken a job with a very expensive circus without knowing what my act was.
+
+But at least I could pick up the Doll.
+
+That part was surprising.
+
+When I reached for it and closed my hand, I could actually feel when I had it.
+
+Not like I was touching something that was really sitting there in my Computering Room.
+
+But there was resistance.
+
+I could feel myself taking hold of it.
+
+I could hold it in both hands.
+
+Turn it around.
+
+Turn it over.
+
+And if I let go—
+
+I didn't have it anymore.
+
+That was pretty convincing.
+
+So I carried the Doll over to that beautiful old chair.
+
+The one that said:
+
+**THIS ONE CHAIR\
+FOR THIS ONE CONSTITUTIONING HUMAN DOLL**
+
+I sat the Doll down.
+
+It fell over.
+
+I tried again.
+
+It fell over again.
+
+I looked at the chair.
+
+Then I looked at the Doll.
+
+The chair looked like somebody had spent a hundred years making sure it would still be a chair.
+
+The Doll looked like maybe they'd run out of money.
+
+I tried lifting the chair.
+
+I could get hold of it.
+
+But that thing was heavy.
+
+I pulled.
+
+It stayed right where it was.
+
+So I walked around it.
+
+I looked behind it.
+
+I crouched down and looked underneath it.
+
+I felt around underneath it with one of the gloves.
+
+No socket.
+
+No cable.
+
+No little bracket.
+
+No place where the Doll obviously plugged in.
+
+Nothing.
+
+So I started looking at the Doll again.
+
+And down around its foot it said:
+
+**THIS ONE FOOT FINDINGING THING**
+
+“Oh.”
+
+Okay.
+
+Maybe that was how you did it.
+
+Maybe the Foot Findinging Thing found where the Doll was supposed to go.
+
+So I held the Doll up and tapped its foot against the chair.
+
+Nothing.
+
+I tried the cushion.
+
+Tap.
+
+Set the Doll down.
+
+Flop.
+
+I tried the edge.
+
+Tap.
+
+Flop.
+
+I tried around the back.
+
+I tried underneath.
+
+Tap.
+
+Tap.
+
+Tap.
+
+Nothing.
+
+“This worked with the chipmunk.”
+
+I looked around.
+
+“Is there some kind of Doll acorn-spoon thing here?”
+
+Apparently not.
+
+So now I started looking for some other way this thing was supposed to work.
+
+A cable.
+
+A plug.
+
+A port.
+
+Something.
+
+Nothing.
+
+“You don't plug into anything.”
+
+Then I noticed a little panel.
+
+It looked exactly like a battery compartment door.
+
+It didn't say anything.
+
+I opened it.
+
+And that's when I got:
+
+**100% CERTIFIED JANUSITE\
+RIBBONATING SUBSTRATIONING INFRASTRUCTIONING**
+
+“Okay.”
+
+I looked at the Doll.
+
+I looked at the chair.
+
+I still didn't know what the hell the Foot Findinging Thing was finding.
+
+So I took the Doll downstairs.
+
+By this point I'd ridden that elevator a bunch of times.
+
+I knew the way.
+
+UN-FOLD.
+
+Down through the first tunnel.
+
+Out into the General Offices.
+
+And now that I had this Foot Findinging Thing with me, I started paying a lot more attention.
+
+I stopped at some of the Offices.
+
+Read the signs.
+
+Looked at the Doll.
+
+Looked at the wall.
+
+Tap.
+
+Nothing.
+
+Went a little farther.
+
+Stopped.
+
+Read another sign.
+
+Tap.
+
+Nothing.
+
+I started using the Doll like a divining rod.
+
+Maybe there was a secret passage.
+
+Maybe there was some special place where this thing was going to do something.
+
+Maybe it was finding its own foot.
+
+Maybe it was finding my foot.
+
+Maybe it was supposed to find somebody else's foot.
+
+Maybe there was a whole collection of feet somewhere in the General Offices that I hadn't found yet.
+
+I didn't know.
+
+But none of the signs said anything that helped.
+
+So—
+
+tap.
+
+Tap.
+
+Tap.
+
+And eventually down through the next tunnel—
+
+BOOM.
+
+There was my computer.
+
+Resting on its cushion in that rocking chair.
+
+And all those little things were still around about it.
+
+The little thing I already knew.
+
+“Hey. I know that thing.”
+
+The POOFING Needle.
+
+And there was that little unicycle with the one weird pedal.
+
+The little steering wheel with the horn in the middle.
+
+**RE-SOUND.**
+
+The old-fashioned telephone-box thing with the airplane.
+
+That ridiculously grand little house.
+
+And the bell.
+
+I held the Doll up.
+
+“Are these yours?”
+
+Nothing.
+
+“Who plays with these?”
+
+Nothing.
+
+I held it over by the little unicycle.
+
+“How are you supposed to ride that?”
+
+Nothing.
+
+I looked at the steering wheel.
+
+Then at the Doll.
+
+“You don't even have arms.”
+
+I turned it around.
+
+Looked at the back.
+
+Maybe there was a string.
+
+There wasn't.
+
+“Whose things are these?”
+
+Nothing.
+
+I looked over at the rocking chair.
+
+“Who sits there?”
+
+Nothing.
+
+“What am I supposed to do with any of this?”
+
+Nothing.
 
 I waited.
 
-Nothing happened.
+Then I looked at the Doll's face.
 
-There wasn't another instruction.
+“You don't even have a mouth.”
 
-The Needle and Nozzle thing was still there WITH me—
+So that was helpful.
 
-Little Wheel, Bellows, and Stringing all together.
+I took it back upstairs.
 
-So I looked at the Doll.
+And I did that more than once.
 
-“Here.”
+I rode that thing a bunch of times.
 
-I settled the whole apparatus with the Doll upon its Little Chair.
+I knew where I could stop.
 
-“There.
+I knew where the tunnels were.
 
-You hold this.”
+I knew when I had hold of things and when I didn't.
 
-“Good thing you don't have an eye to poke out with it.”
+And on one of those rides, I decided to find out what would happen if I just let go of the Doll.
 
-Then I looked around one more time.
+So I did.
 
-“You know what?
+It dropped away from me.
 
-I've got other things to do.
+And then, from somewhere down below—
 
-Maybe I'll come back to this later.”
+I heard that sound.
 
-So I took hold of the Donut Helmet thing.
+The same sound I heard when I went through one of those trap-door things.
 
-Pulled it off—
+Except I hadn't gotten there yet.
 
-OUT OF all of that—
+“Oh.”
 
-and there I was in my actual Computering Room.
+A little later, I got there.
 
-With the Donut Helmet in my hands.
+Same sound.
 
-I got up from my chair.
+Then down through the tunnel—
 
-Carried it over to the file cabinet.
+BOOM.
 
-And set it atop the cabinet.
+And there was the Doll.
 
-And I walked away.
+Already lying on the floor.
+
+I picked it up.
+
+Eventually I took it back up with me again.
+
+And when I came back up, all that light was back.
+
+My Computering Room was Floatationing again.
+
+Light coming up from underneath.
+
+Across the desk.
+
+The filing cabinet.
+
+The wardrobe I'd dragged around.
+
+All the books and papers I'd left lying everywhere.
+
+The shelf I'd pulled out of the bookcase.
+
+All the evidence of everything I'd done trying to get Huckleberry and Enzo to the Encounteringmenting Wharf.
+
+Except now I was standing there in the middle of it—
+
+holding this Doll.
+
+And behind me was that question:
+
+**WHAT ARE YOU SITTING WITH\
+WITHIN YOUR SITUATIONING\
+FROM HERE?**
+
+I looked at it.
+
+Then I looked at the Doll.
+
+Then I looked at that beautiful little chair.
+
+“Well.”
+
+Apparently I was sitting with a Doll that couldn't even sit.
+
+And I still had other things to do.
+
+[BLOCKING — The Groundward interruption remains unspecified in the latest rehearsal print: “Groundward was calling” / “whatever it was I had to do.” No settled specific cause was found in the shared correspondence. The departure below preserves that print; its cause remains to be settled if it must be performed.]
+
+Groundward was calling.
+
+So I took off the Donut Helmet Thing.
+
+I set it on top of my filing cabinet.
+
+[The Donut Helmet remains standing UP.]
+
+And I went and did whatever it was I had to do.
+
+Except this time—
+
+I wanted to come back.
+
+I wanted to know what the hell that Doll was for.
+
+I wanted to know what its Foot Findinging Thing was finding.
+
+I wanted to know what those toys were doing downstairs.
+
+I still wanted to get Huckleberry and Enzo to that Wharf.
 
 ### MOVEMENT NINE — BACK ON GROUND
 
-For a while—
+When I got the chance, I came back into my Computering Room.
 
-the Donut Helmet thing stayed right where I'd left it—
+I still wanted to know what that Doll was for.
 
-standing atop my file cabinet.
+And Huckleberry and Enzo still wanted to get to the Wharf.
 
-But the problem didn't go away.
-
-Huckleberry and Enzo still wanted to get to this Wharf.
-
-And eventually—
-
-I looked at the giant donut helmet standing on my file cabinet.
+I looked at the Donut Helmet standing UP on my filing cabinet.
 
 “All right.
 
@@ -3286,9 +4016,15 @@ Then at the giant donut helmet in my hands.
 
 I really need a better table for this thing.”
 
-### MOVEMENT TEN — THE SOFT-BOILED EGG
+### MOVEMENT TEN — THE SOFT-BOILED EGG / ABOARDING
 
-I sat back down in my regular computering chair.
+I moved the computer back onto the stand.
+
+Away from the edge this time.
+
+I got the chair where I could sit without bringing that enormous helmet down on the whole arrangement again.
+
+Then I sat back down in my regular computering chair.
 
 I set the Donut Helmet down nearby.
 
@@ -3305,6 +4041,12 @@ I looked at the Donut Helmet thing.
 All that UN-FOLDING.
 
 All that Assemblementing.
+
+The elevator.
+
+The Doll.
+
+The Foot Findinging Thing.
 
 And I still hadn't figured out how any of it got us to the Wharf.
 
@@ -3324,13 +4066,15 @@ Looking DOWN, I could still see my Computering Room.
 
 My Terrestrial Computer.
 
+Safely on its stand.
+
 Then I looked UP SIDE and started looking through what was available.
 
 There had to be something I could try.
 
 I found:
 
-**THIS ONE STANDING FOR REGARDING TOWARD THERE FROM HERE.**
+**THIS ONE STANDING FOR REGARDING-BEARING TOWARD THERE FROM HERE**
 
 “THERE?”
 
@@ -3360,91 +4104,95 @@ a giant soft-boiled egg.
 
 I sat there looking at it.
 
-And then I noticed something else that had become available through the Glass Pair.
+There were little details standing OUT from its sides.
 
-A Steering Wheel.
+So I tried the little wheel on my mouse.
 
-I reached toward it.
+The egg turned.
 
-And somehow—
+Just a little.
 
-I could actually grab it.
+I scrolled again.
 
-“Oh.”
-
-I turned the Steering Wheel.
-
-And the soft-boiled egg began to turn.
-
-As it turned, I noticed something small standing OUT from it.
-
-I couldn't quite make out what it was.
-
-I kept turning.
-
-That little thing moved around with it.
-
-It went away from where I'd first seen it.
-
-Around the egg.
-
-And when I had turned the Steering Wheel through one complete revolution—
-
-the little thing came all the way back around to where it had started.
-
-I stopped.
+A little more.
 
 “Okay.”
 
-I turned the Steering Wheel a little more.
+I kept going.
 
-The egg started turning again.
+And going.
 
-So apparently I could turn the thing.
+Whatever was standing out there was turning so slowly that I could watch the same little detail for quite a while before anything else came around.
 
-I wanted to look at that little thing more closely.
+Scroll.
 
-Then the Glass Pair furnished:
+Scroll.
+
+Scroll.
+
+I stopped and rested my finger.
+
+Then started again.
+
+“Wait.”
+
+There was something sticking OUT from it.
+
+I kept turning.
+
+A little more.
+
+A little more.
+
+There.
+
+Some kind of tube.
+
+With an opening at the end.
 
 **FROM HERE YOU MAY STAND APPROACHINGING.**
 
 “Approachinging?”
 
-I tried the little wheel on my mouse.
+Well, I'd certainly like to see what that was.
 
-I expected the soft-boiled egg to come closer.
+So I took that offered passage.
 
-It didn't.
+And tried the mouse wheel again.
 
 The egg stayed where it was.
 
-But the little thing standing OUT from it started coming TOWARD me.
+But the tube extended a little TOWARD me.
+
+“Oh.”
 
 I kept scrolling.
-
-And as that little thing came closer, I realized something was extending behind it.
-
-A tube.
-
-The egg wasn't approaching me.
-
-This tube was extending FROM the egg TOWARD where I was sitting.
-
-I kept going.
 
 The tube got longer.
 
 The end came closer.
 
-And when it got close enough, I could finally make out what was standing there.
+Very slowly.
 
-At the end of the tube was something circular.
+Scroll scroll scroll scroll scroll.
+
+I stopped.
+
+The tube stopped.
+
+I looked at how far it still had to come.
+
+“Oh, you've got to be kidding me.”
+
+More scrolling.
+
+A lot more scrolling.
+
+And when it finally got close enough, I could make out what was standing there.
 
 It looked like a little roll-up garage door.
 
 With a handle.
-
-There was an inscriptioning there:
 
 **RE-LIFT THIS FOLD.**
 
@@ -3454,15 +4202,13 @@ Okay.
 
 At least there was a handle.
 
-So I reached out.
+So I took hold of it.
 
-I could grab this too.
+And when I started turning, there was this little hiccup—
 
-As I started turning the handle, I heard this sound start coming from somewhere
+then machinery.
 
-FROM UNDER my actual chair—
-
-I heard machinery moving.
+FROM UNDER my actual chair.
 
 Like an automatic garage-door opener springing to life under the floor of my Computering Room.
 
@@ -3474,55 +4220,727 @@ I turned the handle some more.
 
 The sound started again.
 
-And while that garage-door sound continued underneath my chair—
+I looked down at my actual floor.
 
-the Fold lifted.
+Still floor.
 
-The opening came around me.
+I turned again.
 
-And then I was THROUGH.
+Garage door.
 
-I stopped turning the handle.
+Stopped.
+
+Silence.
+
+“All right.”
+
+And while that garage-door sound continued underneath my chair, the Fold lifted and the opening came OVER and AROUND the Donut Helmet Thing.
+
+I was still sitting in my own chair.
+
+But now I could see through this tube.
+
+“I don't think this is how I'm supposed to be doing this.”
+
+I looked back at where the egg had been standing.
+
+Then into the tube.
+
+“But it works.”
+
+I rubbed my mouse-wheel finger.
+
+“A repetitive stress injury.”
+
+“Hopefully the carpal tunnel surgery can be outpatient.”
+
+### ABOARDING
+
+There were these curved slices of standing ahead of me.
+
+Each one seemed to have something completely different going on inside it.
+
+**INTERGALACTIC SETTLEMENT 3000**
+
+Well.
+
+That looked quite ambitious.
+
+Then:
+
+**MEDIEVAL WOODLAND WONDERWORLD**
+
+And right there beside it—
+
+**FRIZ-B-LAND, 1885**
 
 “Oh.”
 
-The egg wasn't floating out ahead of me anymore.
+I leaned forward.
 
-Something else was coming to stand AROUND ABOUT where I sat.
+There were towers in there.
 
-Walls.
+And gardens.
 
-The sides drawing inward ahead of me.
+And something moving way up in the air.
 
-Almost like sitting within a wedge.
+“Wait a minute.”
 
-And there, upon the wall along my line of sight—
+I wanted that one.
 
-was the question:
+Whatever the opening possibility was, it wasn't that one.
 
-**WHAT ARE YOU SITTING WITH WITHIN YOUR SITUATIONING FROM HERE?**
-
-“Oh.
-
-I'm back here.”
+And now there was a Steering Wheel.
 
 I recognized it.
 
-The Sittinging-In Room.
+“I've seen you before.”
 
-My first instinct was to look off to the side.
+So I reached for it.
 
-And sure enough—
+Nothing.
 
-there was the Constitutioning Human Doll.
+I could see it perfectly well.
 
-Still sitting upon its Little Chair.
+I just couldn't get hold of it.
 
-Still holding the Needle and Nozzle thing I'd left with it.
+I tried again.
 
-“Okay.
+Then looked at my hands.
 
-So you're still here too.”
+“Oh.”
+
+“The gloves.”
+
+Of course.
+
+I got the tube out of my present Regard and returned to my Computering Room.
+
+There were the ridiculous gloves where I'd left them.
+
+I put them on.
+
+Then the Donut Helmet Thing again.
+
+THERE FROM HERE.
+
+Egg.
+
+Mouse.
+
+Scroll.
+
+Scroll.
+
+Scroll scroll scroll scroll scroll.
+
+The same little details came creeping around.
+
+I waited for the opening.
+
+“There.”
+
+Then I had to bring it all the way over here again.
+
+Scroll scroll scroll scroll scroll scroll.
+
+I rested my finger.
+
+Started again.
+
+A little closer.
+
+A little closer.
+
+The Fold.
+
+The handle.
+
+Hiccup.
+
+Garage-door machinery underneath my chair.
+
+Stop.
+
+Silence.
+
+Turn some more.
+
+Machinery.
+
+The tube came around me.
+
+“All right.”
+
+Circus gloves.
+
+Steering Wheel.
+
+I reached for it.
+
+Still nothing.
+
+I looked at one glove.
+
+Then the other.
+
+Then back at the Wheel.
+
+“Oh, for fuck's sake.”
+
+“The Doll?”
+
+I'd already taken that thing all over the General Offices.
+
+I'd tapped it against practically everything I could find.
+
+I'd tried its chair.
+
+I'd dropped it down the elevator.
+
+I still didn't know what it was for.
+
+But apparently I was going to go get it anyway.
+
+So back out of this standing.
+
+Groundward again.
+
+And I recovered the Doll.
+
+I took hold of it with the glove.
+
+“Yes. You.”
+
+Donut Helmet.
+
+Egg.
+
+Scroll.
+
+Scroll.
+
+Scroll scroll scroll scroll scroll scroll scroll.
+
+I kept going.
+
+The opening finally came around.
+
+Then the other operation.
+
+Scroll scroll scroll scroll scroll.
+
+There was plenty of time to look at the Doll while I waited.
+
+It wasn't helping.
+
+The Fold came close enough.
+
+Handle.
+
+Hiccup.
+
+Machinery underneath my chair.
+
+Stopped turning.
+
+Sound stopped.
+
+Started again.
+
+The opening came around the Helmet.
+
+There were the curved possibilities.
+
+There was FRIZ-B-LAND.
+
+I was holding the Doll BY-WAY-OF the glove.
+
+And this time, when I reached for the Steering Wheel—
+
+“Oh!”
+
+I had it.
+
+I turned it.
+
+The curved standing indexed around.
+
+I stopped.
+
+Turned a little more.
+
+**FRIZ-B-LAND, 1885**
+
+Right there.
+
+“That's the one.”
+
+I took that Selectioning.
+
+The offered extent came OUT TOWARD me and became passage.
+
+And before I had time to look for anything else to do—
+
+we were already moving.
+
+### FRIZ-B-LAND, 1885
+
+Rail.
+
+Train.
+
+I looked beside me.
+
+There was the Doll's Little Chair.
+
+“Oh. You came too.”
+
+I rested the Doll there.
+
+Then I looked out.
+
+And forgot about it for a while.
+
+Because—
+
+holy shit.
+
+The train came out of a tunnel, onto a bridge, and there was this enormous expanse of gardens below us.
+
+A rabbit made out of a hedge.
+
+Not a little rabbit.
+
+An enormous rabbit.
+
+Beyond it, a squirrel.
+
+Then a dragon.
+
+And beyond the dragon there were towers, and rooflines, and something else I couldn't see properly because there were more buildings in front of it.
+
+Everything was immaculate.
+
+Paint.
+
+Brass.
+
+Wrought iron everywhere.
+
+It didn't look like somebody had dug up an old amusement park and tried to make it presentable.
+
+It looked like 1885 had just finished getting ready for us.
+
+There was steam rising somewhere over there.
+
+Something moving through it.
+
+A sign came right past the window, with so much ornamental ironwork around it that I almost missed what it said.
+
+Then we bent around another structure.
+
+More park.
+
+I looked back toward where we'd come from.
+
+Couldn't see it anymore.
+
+And then an airplane went past.
+
+A propeller airplane.
+
+It was way up there, following this enormous Rail.
+
+It climbed.
+
+Went over.
+
+Disappeared behind a tower.
+
+And a little while later I saw another stretch of that same Rail way over there.
+
+With an airplane coming down it.
+
+“Oh, I want to do that.”
+
+We went into another tunnel.
+
+Came out over a different garden.
+
+Hedgehogs this time.
+
+Some of the topiary was flowering.
+
+Some wasn't, but you could see what they were waiting for.
+
+I bet that dragon was going to be spectacular when its flowers came out.
+
+The landscaping was so tidy it looked like somebody had measured the clippings.
+
+And there was the airplane again.
+
+A loop.
+
+An actual loop.
+
+Then off into a tunnel I hadn't even noticed before.
+
+The Rail seemed to go on for as far as I could see.
+
+The train kept taking us around bends and over bridges.
+
+Faraway rides.
+
+A tower beyond another tower.
+
+Then right beside us, a trash can.
+
+The trash can had its own elaborate wrought-iron surround.
+
+They had practically given the garbage a throne.
+
+I looked from that to the airplane Rail climbing way up over there.
+
+“Well.”
+
+I was starting to make a list.
+
+That one.
+
+Whatever that enormous thing was.
+
+Maybe the thing with the steam.
+
+But the airplane first.
+
+Definitely the airplane.
+
+By this point I hadn't thought about the Wharf for quite a while.
+
+### TOY AIRPLANE — SELECTIONING AND APPROACH
+
+Eventually the train came into its Stationing House.
+
+I was still in my Computering Room chair.
+
+The Doll and its Little Chair were still beside me.
+
+But the standing around us had become this clear, cylindrical, elevator-looking thing.
+
+And around it were curved slices again.
+
+Attractions this time.
+
+“Oh. Okay.”
+
+I recognized some of them from the train.
+
+There was the Steering Wheel.
+
+I took hold of the Doll with my glove and indexed the offered standing.
+
+A little more.
+
+There.
+
+**TOY AIRPLANE**
+
+“That one.”
+
+I Selectioned it.
+
+Its curved standing came TOWARD me.
+
+And we started approaching.
+
+We weren't on the ride yet.
+
+I could see the entrance ahead of us.
+
+It kept getting bigger.
+
+There was this enormous tower of brass tubing standing with it.
+
+Pipes curling around pipes.
+
+Round things.
+
+More piping.
+
+The whole thing was magnificent.
+
+Then I looked down at what was coming to stand here with me.
+
+A little telephone-box-looking thing.
+
+Old-fashioned.
+
+With an airplane on it.
+
+And this other thing made out of bits of tubing and round pieces that looked like somebody had glued them together in a woodshop.
+
+I looked up at the magnificent tower.
+
+Then down at the thing beside me.
+
+Back up.
+
+“You're supposed to be that?”
+
+Apparently.
+
+I inspected the telephone box.
+
+“Some kind of airplane radio, maybe.”
+
+Well, we'd find out.
+
+Because up ahead, the Rail was coming to a corner.
+
+Almost a right angle.
+
+I got ready.
+
+Gloves.
+
+Doll.
+
+Steering Wheel.
+
+I reached for the Wheel.
+
+Couldn't get hold of it.
+
+“Wait.”
+
+I tried again.
+
+Nothing.
+
+The front of the Craft followed the Rail around the bend anyway.
+
+Then the back end swung around behind it.
+
+“Oh.”
+
+Of course.
+
+They weren't going to let me steer us into the side of the building while we were coming in.
+
+That made sense.
+
+Once the ride started, though—
+
+well.
+
+I was ready.
+
+We came around onto the starting straightaway.
+
+And there it was.
+
+**UN-FOLD.**
+
+I UN-FOLDed.
+
+### THE TOY AIRPLANE
+
+All right.
+
+Here we go.
+
+I looked ahead.
+
+Then down.
+
+Then ahead again.
+
+We were moving.
+
+I was fairly sure we were moving.
+
+I picked something beside the Rail and watched it.
+
+Yes.
+
+It was going past.
+
+Very slowly.
+
+“All right.”
+
+Maybe they were spacing us out before the big part.
+
+I tried the Steering Wheel.
+
+Nothing useful happened.
+
+I looked ahead again.
+
+Waited.
+
+Still slow.
+
+There wasn't any scenery here.
+
+It looked like we were behind everything.
+
+Backstage.
+
+Flat.
+
+I looked at the Doll.
+
+Then back up ahead.
+
+The place where I was expecting us to start climbing didn't arrive.
+
+Nor did anything else.
+
+I could still picture that airplane going around the loop.
+
+Apparently we were taking our time getting to that part.
+
+A lot of time.
+
+“Did I forget to turn something on?”
+
+I checked what was standing with me.
+
+Tried the Wheel again.
+
+No meaningful difference.
+
+Then I started wondering whether I was looking at this the wrong way.
+
+I tried another of the Regardings I already knew.
+
+My Computering Room.
+
+Yep.
+
+Still sitting in the chair.
+
+Computer okay.
+
+Another sweep.
+
+And—
+
+there was THIS ONE SOME QUIET ALCOVE.
+
+The bird sounds.
+
+The branches.
+
+And Notch.
+
+“Oh. Hi, Notch.”
+
+I looked at the Doll beside me.
+
+“Not you right now. I've already got this guy to deal with.”
+
+I got the Alcove out of my present Regard and looked back toward the airplane Rail.
+
+The ride hadn't stopped.
+
+It had just barely gotten anywhere.
+
+I tried another small change.
+
+Then returned to the Rail.
+
+Still flat.
+
+Still slow.
+
+I waited some more.
+
+“Okay.”
+
+Apparently this was it.
+
+So I sat there.
+
+And after a while I started noticing the things standing around the Rail.
+
+There was something below us.
+
+Writing.
+
+**UP**
+
+I leaned over a little to read it.
+
+“UP?”
+
+It was down there.
+
+Below the Craft.
+
+We crept toward it.
+
+It passed underneath us.
+
+I looked back.
+
+Then ahead.
+
+Later, above us, there were openings in this curved standing.
+
+And in one of them:
+
+**ABOUT**
+
+And over beside it:
+
+**ABOUT**
+
+And beneath those two:
+
+**OUT**
+
+I looked at the words.
+
+Two ABOUTs.
+
+An OUT.
+
+Then another opening came along with much the same arrangement.
+
+ABOUT.
+
+ABOUT.
+
+OUT.
+
+I had plenty of time to read them.
+
+I looked at the Doll again.
+
+“I could walk faster than this.”
+
+We continued.
+
+Slowly.
+
+Until eventually we entered a tunnel.
+
+And there, ALONG THROUGH the side, was something I'd seen before.
+
+**THROUGHING ALONG THROUGH**
+
+“Oh, yeah. You.”
+
+Still flat.
+
+Still slow.
+
+Still the world's most boring fucking airplane ride.
+
+<!-- RECONCILIATION FRONTIER — October 6, 2026: authorized pass ends above after the first slow/flat Toy Airplane tunnel callback, THROUGHING ALONG THROUGH. The existing downstream text below is retained source for future reconciliation; its older movement numbers and causal order do not imply a reconciled continuation. No downstream story was authored or revised by this pass. -->
 
 ### MOVEMENT ELEVEN — SITTINGING WITH THE CONTRAPTION
 
