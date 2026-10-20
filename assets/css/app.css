@@ -7020,3 +7020,157 @@ select {
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
+
+/* Arrival extent: a presentation boundary before the retained entrance. */
+.arrival-extent {
+  position: relative;
+  isolation: isolate;
+  margin-block: 2rem 5rem;
+  color: #eee9df;
+  background: #20292b;
+  border: 1px solid #796b50;
+  box-shadow: 0 18px 50px #17202220;
+}
+
+.arrival-extent__heading,
+.arrival-extent__prospect,
+.arrival-extent__continuation {
+  padding: clamp(1.4rem, 4vw, 3rem);
+}
+
+.arrival-extent__heading h2 {
+  max-width: 24ch;
+  margin-block: 0.8rem 1rem;
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.arrival-extent__heading > p:last-child,
+.arrival-extent__prospect > p:last-child {
+  color: #c4cbca;
+  line-height: 1.7;
+}
+
+.arrival-extent__wayfinding {
+  color: #e0c18c;
+  font: 600 0.75rem/1.6 ui-monospace, monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.arrival-extent__scene {
+  margin: 0;
+  background: radial-gradient(ellipse at 50% 60%, #354043, #20292b 70%);
+}
+
+.arrival-extent__scene svg {
+  display: block;
+  width: 100%;
+  max-width: 54rem;
+  margin-inline: auto;
+}
+
+.arrival-extent__rail-bed {
+  stroke: #c6a56d;
+  stroke-width: 30;
+  opacity: 0.1;
+}
+
+.arrival-extent__rail {
+  fill: none;
+  stroke: #dfc18e;
+  stroke-width: 2;
+}
+
+.arrival-extent__outer-rim {
+  fill: #76664b;
+  stroke: #b39a71;
+  stroke-width: 2;
+}
+
+.arrival-extent__inner-rim {
+  fill: none;
+  stroke: #8f7b58;
+  stroke-width: 1;
+}
+
+.arrival-extent__inscription {
+  fill: #f3d8a8;
+  font: 600 15px ui-monospace, monospace;
+}
+
+.arrival-extent__svg-label {
+  fill: #c1c9c7;
+  font: 11px ui-monospace, monospace;
+  letter-spacing: 1px;
+}
+
+.arrival-extent__point-leader {
+  stroke: #d3bd94;
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+}
+
+.arrival-extent__human {
+  fill: #eee9df;
+}
+
+.arrival-extent__human-limbs {
+  fill: none;
+  stroke: #eee9df;
+  stroke-width: 9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.arrival-extent__computer {
+  fill: #344448;
+  stroke: #efcb8e;
+  stroke-width: 3;
+}
+
+.arrival-extent__scene figcaption {
+  padding: 1rem 1.5rem 2rem;
+  color: #c4cbca;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.8;
+}
+
+.arrival-extent__scene figcaption strong {
+  display: block;
+  color: #efcb8e;
+  font: 500 0.85rem/1.8 ui-monospace, monospace;
+}
+
+.arrival-extent__prospect {
+  border-top: 1px solid #ffffff20;
+  background: #172022;
+}
+
+.arrival-extent__question {
+  max-width: 38ch;
+  margin-block: 1rem;
+  font: 400 clamp(1.3rem, 3vw, 2rem)/1.5 Georgia, serif;
+}
+
+.arrival-extent__continuation a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #efcb8e;
+  text-underline-offset: 0.3em;
+  transition: color 150ms ease;
+}
+
+.arrival-extent__continuation a:hover {
+  color: #fff4dc;
+  text-decoration: underline;
+}
+
+.arrival-extent__continuation a:focus-visible {
+  outline: 2px solid #efcb8e;
+  outline-offset: 6px;
+}

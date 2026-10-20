@@ -1026,6 +1026,8 @@ defmodule PublicSituationMachineTurnZeroWeb.TupleShipFieldLive do
           </Layouts.locality_threshold>
         </div>
 
+        <PublicSituationMachineTurnZeroWeb.ArrivalExtent.arrival_extent />
+
         <section id="station-tz-region" class="field-page__station-tz-region">
           <section
             id="opening-passagingway-harbor-sign"
