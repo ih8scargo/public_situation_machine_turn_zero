@@ -17,6 +17,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Router do
   scope "/", PublicSituationMachineTurnZeroWeb do
     pipe_through :browser
 
+    live "/experiments/refolding", RefoldingLive, :index
     live "/", LandingingLive, :index
     live "/our-canonical-tuple", CanonicalTupleLive, :index
     live "/the-appliance", ApplianceLive, :index
