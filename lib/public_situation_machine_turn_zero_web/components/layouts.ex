@@ -32,12 +32,13 @@ defmodule PublicSituationMachineTurnZeroWeb.Layouts do
     doc: "the current [scope](https://phoenix.hexdocs.pm/scopes.html)"
 
   attr :active_locality, :atom, required: true
+  attr :show_navigation, :boolean, default: true
 
   slot :inner_block, required: true
 
   def app(assigns) do
     ~H"""
-    <header id="site-navigation" class="site-navigation">
+    <header :if={@show_navigation} id="site-navigation" class="site-navigation">
       <nav aria-label="Primary navigation" class="site-navigation__inner">
         <.link
           navigate={~p"/"}
