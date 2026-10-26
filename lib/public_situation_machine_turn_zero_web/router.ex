@@ -17,9 +17,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Router do
   scope "/", PublicSituationMachineTurnZeroWeb do
     pipe_through :browser
 
-    live "/experiments/architecture/engineering", ArchitectureLive, :index
-    live "/experiments/architecture/tunnel", RoomLive, :tunnel
-    live "/experiments/architecture", RoomLive, :groundworking
+    live "/experiments/architecture", ArchitectureLive, :index
     live "/experiments/instrumentation", InstrumentationLive, :index
     live "/experiments/motor", MotorLive, :index
     live "/experiments/refolding", RefoldingLive, :index

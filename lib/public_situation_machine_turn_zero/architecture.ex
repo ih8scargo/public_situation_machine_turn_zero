@@ -1,366 +1,369 @@
 defmodule PublicSituationMachineTurnZero.Architecture do
   @moduledoc """
-  First architectural slice, isolated from the motor and instrumentation benches.
-  Standing contains authored material and lawful consequences. The remaining
-  struct fields are ephemeral Regard; none are saved. STEP admits the already
-  registered ZEROETH–ONE course toward ONE's receiving approach, not a completed ONE.
+  The spindle under the rail line. Held relations and event ancestry are durable;
+  Regarding is not. Only STEP, after Place and seating, can change present FROM.
+  Round One records remain read-only witnesses of their original construction.
   """
-  alias PublicSituationMachineTurnZero.Architecture.{Seed, Craft}
-  import Ecto.Changeset
+  defstruct standing: nil, regarding: nil
+  @version "spindle-rail-pass"
 
-  defstruct standing: nil,
-            projection?: true,
-            flat?: false,
-            bearing: "approach",
-            nav: 0,
-            wheel: 0.0,
-            approach: nil,
-            approach_depth: 0,
-            read_x: 0,
-            read_y: 0,
-            craft: nil
-
-  @material_types %{
-    title: :string,
-    text: :string,
-    location: :string,
-    origin: :string,
-    region: :string,
-    bearing: :string,
-    course: :integer,
-    categories: {:array, :string},
-    dependencies: {:array, :string}
-  }
-  @toy_types %{
-    label: :string,
-    encounter: :string,
-    aim: :string,
-    dependencies: {:array, :string},
-    pretendingable: :boolean,
-    usingable: :boolean,
-    job: :string,
-    provenance: :string,
-    notes: :string
+  @names %{
+    "human" => "This One Constitutioning Human",
+    "terrestrial-computer" => "This One Terrestrial Computer",
+    "ground" => "Ordinary terrestrial Ground",
+    "landinging-here" => "This Standinging Landinging",
+    "landinging-there" => "This Landinging THERE",
+    "time-here" => "This One Discrete Piece of Time",
+    "time-there" => "This Some Other Discrete Piece of Time",
+    "situationing" => "This developing Situationing",
+    "machine" => "PUBLIC-SITUATION-MACHINE-",
+    "cob" => "This Stewardly Co-Captain COB",
+    "pretend-pointing" => "Pretend Pointing Thing",
+    "pointingable" => "This One Pointingable Thing",
+    "place" => "This One Place FOR This One Constitutioning Human",
+    "rugging" => "This rugging",
+    "current-local-moment" => "This, Our Current Local Moment",
+    "passage" => "This passage FROM HERE TOWARD THERE"
   }
 
-  def new, do: restore(Seed.standing())
+  def name(id), do: Map.get(@names, id, id)
+  def legacy?(m), do: m.standing["version"] != @version
+  def furnished?(m, id), do: Map.has_key?(m.standing["relations"], id)
+  def within?(m), do: furnished?(m, "human-from-within")
 
-  def restore(standing) do
-    # Additive fixture registration. No relation, material, inventory or passage
-    # is rewritten when an older composition acquires these apparatus identities.
-    entities = Map.merge(Craft.catalog(), standing["entities"])
+  def new do
+    givens = [
+      {"human-standing", "human", "ALREADY STANDING", "ground"},
+      {"computer-with-human", "terrestrial-computer", "ALONGSIDE WITH", "human"},
+      {"ground-standing", "ground", "ALREADY STANDING", "ground"},
+      {"landinging-for-human", "landinging-here", "FOR", "human"},
+      {"human-up-on", "human", "UP ON", "landinging-here"},
+      {"human-from-here", "human", "FROM", "landinging-here"},
+      {"landinging-upon-time", "landinging-here", "UPON", "time-here"}
+    ]
+
+    relations =
+      Map.new(givens, fn {id, subject, relation, object} ->
+        {id, relation(subject, relation, object, "given; not originated by the machine", [])}
+      end)
 
     %__MODULE__{
-      standing: standing |> Map.put("entities", entities) |> Craft.register_inventory(),
-      craft: %Craft{}
+      standing: %{
+        "version" => @version,
+        "from" => %{
+          "human" => "human",
+          "up_on" => "landinging-here",
+          "temporal_purchase" => "time-here",
+          "basis" => "human-from-here"
+        },
+        "relations" => relations,
+        "events" => [],
+        "stations" => [],
+        "passages" => []
+      }
     }
   end
 
-  def stepped?(m), do: m.standing["passages"] != []
-  def zeroeth_complete?(m), do: furnished?(m, "tc-appointed")
-  def quiet_complete?(m), do: furnished?(m, "quiet-enclosure")
-  def furnished?(m, id), do: Map.has_key?(m.standing["relations"], id)
+  def restore(%{"version" => version} = standing) when version in [@version, "spindle-round-one"],
+    do: %__MODULE__{standing: standing}
 
-  def dependency_ids(m),
-    do:
-      Enum.sort(Map.keys(m.standing["relations"]) ++ Map.keys(m.standing["requirements"]))
-      |> Enum.uniq()
+  # A locality is not an event: FIRST includes both pretend furnishing and appointment;
+  # seating and passage belong to the THIRD's labor without creating further stations.
+  def next(m) do
+    cond do
+      legacy?(m) ->
+        %{
+          action: nil,
+          title: "Round One witness",
+          station: nil,
+          for:
+            "Original standing retained; begin a fresh rail-line composition to undertake the revised succession.",
+          dependencies: [],
+          consequences: []
+        }
 
-  def dependencies_hold?(m, ids), do: Enum.all?(ids, &furnished?(m, &1))
-  def available?(m, :step), do: m.projection? && !stepped?(m) && zeroeth_complete?(m)
-  def available?(m, :nav), do: m.projection? && stepped?(m)
+      !furnished?(m, "approach") ->
+        beat(
+          "approach",
+          "Come under the rail line",
+          nil,
+          "Approach the first available labor",
+          ["human-standing", "computer-with-human", "landinging-upon-time"],
+          [{"approach", "human", "TOWARD", "situationing"}]
+        )
 
-  def available?(m, op) when op in [:calibrate, :position, :appoint] do
-    id = operation_relation(op)
+      !furnished?(m, "cob-appointed") ->
+        beat(
+          "appoint-cob",
+          "Appoint Stewardly Co-Captain COB",
+          "zeroeth",
+          "A responsive companion ALONGSIDE WITH the developing Situationing; meaning remains yours",
+          ["approach", "computer-with-human"],
+          [{"cob-appointed", "cob", "ALONGSIDE WITH", "situationing"}]
+        )
 
-    m.projection? && !stepped?(m) && !furnished?(m, id) &&
-      dependencies_hold?(m, m.standing["requirements"][id])
-  end
+      !furnished?(m, "pretend-pointing") ->
+        beat(
+          "furnish-pretend",
+          "Bring forth the Pretend Pointing Thing",
+          "first",
+          "Furnish pretend pointing through ordinary terrestrial computering",
+          ["computer-with-human", "cob-appointed"],
+          [
+            {"pretend-pointing", "pretend-pointing", "THROUGH-BY", "terrestrial-computer"},
+            {"pretend-toward-pointing", "pretend-pointing", "TOWARD", "pointingable"}
+          ]
+        )
 
-  def next(m),
-    do:
-      if(!stepped?(m) && zeroeth_complete?(m),
-        do: %{"id" => "first-landing", "toward" => "ONE", "by_way_of" => "ZEROETH-ONE"}
-      )
+      !furnished?(m, "pointing-appointed") ->
+        beat(
+          "appoint-pointing",
+          "Appoint This One Pointingable Thing",
+          "first",
+          "Confirm machine pointing through the Pretend Pointing Thing ancestry",
+          ["pretend-pointing", "pretend-toward-pointing"],
+          [
+            {"pointing-appointed", "pointingable", "THROUGH-BY", "pretend-pointing"},
+            {"pointing-for-human", "pointingable", "FOR", "human"}
+          ]
+        )
 
-  def regarding_materials(m) do
-    location = if stepped?(m), do: "ZEROETH-ONE", else: "ZEROETH"
+      !furnished?(m, "tc-down-under") ->
+        beat(
+          "stand-tc",
+          "Stand the TC FROM DOWN UNDER",
+          "second",
+          "Differentiate the computer's standing FOR the machine standing UP a Place FOR you",
+          ["computer-with-human", "pointing-appointed"],
+          [
+            {"tc-down-under", "terrestrial-computer", "FROM DOWN UNDER", "machine"},
+            {"tc-for-place", "terrestrial-computer", "FOR", "place"}
+          ]
+        )
 
-    m.standing["materials"]
-    |> Map.values()
-    |> Enum.filter(fn item ->
-      (item["location"] == location && (!stepped?(m) || abs(item["course"] - m.nav) <= 2)) ||
-        (stepped?(m) && m.nav >= 4 && item["location"] == "ONE")
-    end)
-  end
+      !furnished?(m, "place-standing") ->
+        beat(
+          "stand-place",
+          "Stand UP This One Place FOR you",
+          "third",
+          "The machine stands UP an inhabitationing-able Place THERE through-by TC FROM DOWN UNDER",
+          ["tc-down-under", "tc-for-place", "landinging-upon-time"],
+          [
+            {"machine-through-tc", "machine", "THROUGH-BY", "terrestrial-computer"},
+            {"place-standing", "machine", "STANDS UP", "place"},
+            {"place-for-human", "place", "FOR", "human"},
+            {"place-toward-human", "place", "TOWARD", "human"},
+            {"place-upon-landinging", "place", "UPON", "landinging-there"},
+            {"landinging-staging", "landinging-there", "STAGING FOR STANDING FROM WITHIN",
+             "place"},
+            {"next-landinging-upon-time", "landinging-there", "FROM UPON", "time-there"},
+            {"rugging-for-place", "rugging", "FOR", "place"}
+          ]
+        )
 
-  def operate(m, {:craft, op}), do: Craft.operate(m, op)
+      !furnished?(m, "human-seated") ->
+        beat(
+          "seat",
+          "Become SEATED FOR the new standing",
+          "third",
+          "Suit your bodily standing FOR the Place THERE while remaining FROM HERE",
+          [
+            "place-standing",
+            "landinging-staging",
+            "next-landinging-upon-time",
+            "human-from-here"
+          ],
+          [
+            {"human-seated", "human", "SEATED FOR", "place"},
+            {"passage-available", "passage", "AVAILABLE FOR", "human"},
+            {"passage-from", "passage", "FROM", "landinging-here"},
+            {"passage-toward", "passage", "TOWARD", "landinging-there"},
+            {"moment-way-through", "current-local-moment", "WAY THROUGH", "passage"}
+          ]
+        )
 
-  def operate(%{projection?: true} = m, {:wheel, angle})
-      when is_number(angle) and angle >= -100_000 and angle <= 100_000 do
-    angle = angle - :math.floor(angle / 360) * 360
+      !within?(m) ->
+        beat(
+          "step",
+          "STEP · FROM HERE TOWARD THERE",
+          "third",
+          "Come OVER ACROSS to the next Landinging THROUGH This, Our Current Local Moment",
+          [
+            "human-seated",
+            "passage-available",
+            "moment-way-through",
+            "place-upon-landinging",
+            "human-from-here",
+            "landinging-upon-time",
+            "next-landinging-upon-time"
+          ],
+          [
+            {"human-over-across", "human", "OVER ACROSS", "landinging-there"},
+            {"human-through-moment", "human", "THROUGH-BY", "current-local-moment"},
+            {"human-up-on-there", "human", "UP ON", "landinging-there"},
+            {"human-from-there", "human", "FROM", "landinging-there"},
+            {"human-from-within", "human", "FROM WITHIN", "place"}
+          ]
+        )
 
-    bearing =
-      cond do
-        angle >= 45 && angle < 135 -> "wallward"
-        angle >= 135 && angle < 225 -> "groundward"
-        angle >= 225 && angle < 315 -> "toybox"
-        true -> "approach"
-      end
-
-    {:ok, %{m | wheel: angle, bearing: bearing, approach: nil, approach_depth: 0}}
-  end
-
-  def operate(%{projection?: true} = m, {:approach, id}) do
-    if !m.craft.open? && Enum.any?(regarding_materials(m), &(&1["id"] == id)),
-      do:
-        {:ok,
-         %{
-           m
-           | approach: id,
-             approach_depth: min(2, if(m.approach == id, do: m.approach_depth + 1, else: 1)),
-             read_x: 0,
-             read_y: 0
-         }},
-      else: {:error, :not_available_for_regard}
-  end
-
-  def operate(%{projection?: true, approach: id} = m, :back_regard) when not is_nil(id) do
-    depth = max(0, m.approach_depth - 1)
-
-    {:ok,
-     %{
-       m
-       | approach_depth: depth,
-         approach: if(depth == 0, do: nil, else: id),
-         read_x: 0,
-         read_y: 0
-     }}
-  end
-
-  def operate(%{projection?: true, approach: id} = m, {:read_nav, x, y})
-      when not is_nil(id) and x in [-1, 0, 1] and y in [-1, 0, 1],
-      do:
-        {:ok, %{m | read_x: max(-4, min(4, m.read_x + x)), read_y: max(0, min(20, m.read_y + y))}}
-
-  def operate(m, :projection), do: {:ok, %{restore(m.standing) | projection?: !m.projection?}}
-  def operate(%{projection?: true} = m, :flat), do: {:ok, %{m | flat?: !m.flat?}}
-
-  def operate(%{projection?: true} = m, {:pivot, bearing}) do
-    if bearing in Seed.bearings(),
-      do:
-        {:ok,
-         %{
-           m
-           | bearing: bearing,
-             wheel:
-               case bearing do
-                 "approach" -> 0.0
-                 "wallward" -> 90.0
-                 "groundward" -> 180.0
-                 "toybox" -> 270.0
-               end
-         }},
-      else: {:error, :unknown_bearing}
-  end
-
-  def operate(m, {:nav, delta}) when delta in [-1, 1] do
-    if available?(m, :nav),
-      do: {:ok, %{m | nav: min(6, max(0, m.nav + delta)), approach: nil, approach_depth: 0}},
-      else: {:error, :step_required}
-  end
-
-  def operate(m, op) when op in [:calibrate, :position, :appoint] do
-    if available?(m, op) do
-      id = operation_relation(op)
-
-      note =
-        case op do
-          :calibrate ->
-            "Human exercised Pointing-able calibration using development instrumentation FROM ZEROETH."
-
-          :position ->
-            "Human placed the projected TC furnishing in its grounded Little Square Chair relation. Actual TC did not move."
-
-          :appoint ->
-            "Human appointed projected TC furnishing FOR the already-present actual terrestrial computer. No passage."
-        end
-
-      relation = Seed.relation(id, "ZEROETH", m.standing["requirements"][id], note)
-      {:ok, %{m | standing: put_in(m.standing, ["relations", id], relation)}}
-    else
-      {:error, :unavailable_here}
+      true ->
+        %{
+          action: nil,
+          title: "You may be here.",
+          station: "third",
+          for:
+            "Standing FROM WITHIN This One Place. We stop here, before Inner Aperture furnishing.",
+          dependencies: ["human-from-within"],
+          consequences: []
+        }
     end
   end
 
-  def operate(m, :step) do
-    if available?(m, :step) do
-      passage = %{
-        "id" => "first-step",
-        "operation" => "STEP",
-        "from" => "ZEROETH",
-        "toward" => "ONE-APPROACH",
-        "by_way_of" => "ZEROETH-ONE",
-        "inherited" => Enum.sort(Map.keys(m.standing["relations"]))
-      }
+  def station_name("zeroeth"), do: "THE ZEROETH APPOINTMENTING"
+  def station_name("first"), do: "THE FIRST APPOINTMENTING"
+  def station_name("second"), do: "THE SECOND APPOINTMENTING"
+  def station_name("third"), do: "THE THIRD APPOINTMENTING"
+  def station_name(_), do: "APPROACH"
+  def station_for("zeroeth"), do: "This Stewardly Co-Captain COB"
+  def station_for("first"), do: "This One Pointingable Thing"
+  def station_for("second"), do: "This One Terrestrial Computer FROM DOWN UNDER"
+  def station_for("third"), do: "This One Place FOR This One Constitutioning Human"
 
-      {:ok,
-       %{
-         m
-         | standing:
-             m.standing |> Map.put("from", "ONE-APPROACH") |> Map.put("passages", [passage]),
-           nav: 0,
-           craft: %Craft{},
-           approach: nil,
-           approach_depth: 0
-       }}
-    else
-      {:error, :first_relation_required}
-    end
+  defp beat(action, title, station, purpose, dependencies, consequences) do
+    %{
+      action: action,
+      title: title,
+      station: station,
+      for: purpose,
+      dependencies: dependencies,
+      consequences:
+        Enum.map(consequences, fn {id, s, r, o} ->
+          Map.put(relation(s, r, o, action, dependencies), "id", id)
+        end)
+    }
+  end
+
+  def operate(m, {:regard, id}) do
+    if !legacy?(m) && Enum.any?(m.standing["stations"], &(&1["id"] == id)),
+      do: {:ok, %{m | regarding: id}},
+      else: {:error, :unavailable}
+  end
+
+  def operate(m, :clear_regard), do: {:ok, %{m | regarding: nil}}
+
+  def operate(m, action) when is_binary(action) do
+    beat = next(m)
+
+    if beat.action == action && Enum.all?(beat.dependencies, &furnished?(m, &1)),
+      do: {:ok, furnish(m, beat)},
+      else: {:error, :unavailable}
   end
 
   def operate(_, _), do: {:error, :unavailable}
 
-  # Development composement, explicitly authored FROM ONE; not a Human tunnel operation.
-  def fixture_enclosure(m, enabled?) when is_boolean(enabled?) do
-    if dependencies_hold?(m, m.standing["requirements"]["quiet-enclosure"]) do
-      relations =
-        if enabled? do
-          Map.put(
-            m.standing["relations"],
-            "quiet-enclosure",
-            Seed.relation(
-              "quiet-enclosure",
-              "ONE",
-              ["tc-appointed"],
-              "DEVELOPMENT FIXTURE ONLY, composed FROM ONE; public enclosingmenting labor unresolved."
-            )
-            |> Map.put("kind", "development fixture")
-          )
-        else
-          Map.delete(m.standing["relations"], "quiet-enclosure")
-        end
-
-      {:ok, %{m | standing: Map.put(m.standing, "relations", relations)}}
-    else
-      {:error, :appointment_required}
-    end
+  defp relation(subject, predicate, object, provenance, dependencies) do
+    %{
+      "subject" => subject,
+      "relation" => predicate,
+      "object" => object,
+      "for_human" => "human",
+      "provenance" => provenance,
+      "dependencies" => dependencies
+    }
   end
 
-  def material_changeset(m, material, attrs \\ %{}) do
-    {typed(material, @material_types), @material_types}
-    |> cast(normalize_lists(attrs), Map.keys(@material_types))
-    |> validate_required([
-      :title,
-      :text,
-      :location,
-      :origin,
-      :region,
-      :bearing,
-      :course,
-      :categories
-    ])
-    |> validate_length(:title, max: 160)
-    |> validate_length(:text, max: 12000)
-    |> validate_inclusion(
-      :location,
-      Map.keys(m.standing["localities"]) ++ Map.keys(m.standing["tunnels"])
-    )
-    |> validate_inclusion(:origin, Map.keys(m.standing["localities"]))
-    |> validate_inclusion(:region, Seed.regions())
-    |> validate_inclusion(:bearing, Seed.bearings())
-    |> validate_number(:course, greater_than_or_equal_to: 0, less_than_or_equal_to: 6)
-    |> validate_subset(:categories, Seed.categories())
-    |> validate_subset(:dependencies, dependency_ids(m))
-    |> validate_tunnel_origin(m)
+  def local_ancestry(m) do
+    Enum.map(next(m).dependencies, fn id -> Map.put(m.standing["relations"][id], "id", id) end)
   end
 
-  def compose(m, id, attrs) do
-    existing = m.standing["materials"][id] || %{}
-    cs = material_changeset(m, existing, attrs)
+  defp furnish(m, beat) do
+    before = m.standing
 
-    if cs.valid? do
-      fields = apply_changes(cs) |> Map.new(fn {k, v} -> {Atom.to_string(k), v} end)
-      revision = Map.get(existing, "revision", 0) + 1
-      location = fields["location"]
-
-      toward =
-        if Map.has_key?(m.standing["tunnels"], location),
-          do: m.standing["tunnels"][location]["toward"],
-          else: location
-
-      item =
-        Map.merge(fields, %{
-          "id" => id,
-          "revision" => revision,
-          "toward" => toward,
-          "provenance" =>
-            Map.get(existing, "provenance", []) ++
-              [%{"origin" => fields["origin"], "action" => "composement", "revision" => revision}]
-        })
-
-      {:ok, %{m | standing: put_in(m.standing, ["materials", id], item)}}
-    else
-      {:error, %{cs | action: :validate}}
-    end
-  end
-
-  def toy_changeset(m, item, attrs \\ %{}) do
-    {typed(item, @toy_types), @toy_types}
-    |> cast(normalize_lists(attrs), Map.keys(@toy_types))
-    |> validate_required([:label, :encounter, :aim, :job, :provenance])
-    |> validate_inclusion(:encounter, Seed.localities())
-    |> validate_subset(:dependencies, dependency_ids(m))
-    |> validate_length(:label, max: 200)
-  end
-
-  def compose_toy(m, id, attrs) do
-    case m.standing["toys"][id] do
-      nil ->
-        {:error, :unknown_toy}
-
-      item ->
-        cs = toy_changeset(m, item, attrs)
-
-        if cs.valid? do
-          changes = apply_changes(cs) |> Map.new(fn {k, v} -> {Atom.to_string(k), v} end)
-          {:ok, %{m | standing: put_in(m.standing, ["toys", id], Map.merge(item, changes))}}
-        else
-          {:error, %{cs | action: :validate}}
-        end
-    end
-  end
-
-  defp normalize_lists(attrs) do
-    Enum.reduce(["categories", "dependencies"], attrs, fn key, acc ->
-      case Map.get(acc, key) do
-        values when is_list(values) -> Map.put(acc, key, Enum.reject(values, &(&1 == "")))
-        _ -> acc
-      end
-    end)
-  end
-
-  defp typed(map, types),
-    do:
-      Map.new(types, fn {key, _} ->
-        {key,
-         Map.get(map, Atom.to_string(key), if(match?({:array, _}, types[key]), do: [], else: nil))}
+    relations =
+      Enum.reduce(beat.consequences, before["relations"], fn r, acc ->
+        Map.put(acc, r["id"], Map.delete(r, "id"))
       end)
 
-  defp validate_tunnel_origin(cs, m) do
-    case m.standing["tunnels"][get_field(cs, :location)] do
-      nil ->
-        cs
+    standing = Map.put(before, "relations", relations)
+    standing = if beat.action == "step", do: pass(standing), else: standing
 
-      tunnel ->
-        if get_field(cs, :origin) == tunnel["from"],
-          do: cs,
-          else:
-            add_error(cs, :origin, "must be the Tunnel's furnishing locality #{tunnel["from"]}")
-    end
+    station =
+      if beat.action in ["appoint-cob", "appoint-pointing", "stand-tc", "stand-place"] do
+        [
+          %{
+            "id" => beat.station,
+            "appointment" => station_name(beat.station),
+            "for" => station_for(beat.station),
+            "event" => beat.action
+          }
+        ]
+      else
+        []
+      end
+
+    standing = Map.update!(standing, "stations", &(&1 ++ station))
+    next_m = %{m | standing: standing, regarding: nil}
+
+    event = %{
+      "id" => beat.action,
+      "station" => beat.station,
+      "from" => before["from"],
+      "from_after" => standing["from"],
+      "inherited_before" => Enum.sort(Map.keys(before["relations"])),
+      "inherited_after" => Enum.sort(Map.keys(relations)),
+      "for" => beat.for,
+      "furnishing" => beat.title,
+      "labor" => beat.action,
+      "actor" => "human",
+      "labor_toward" => Enum.map(beat.consequences, & &1["id"]),
+      "live_outreading" => beat.title,
+      "dependencies" => beat.dependencies,
+      "ancestry" =>
+        Enum.map(beat.dependencies, fn id -> Map.put(before["relations"][id], "id", id) end),
+      "consequences" => Enum.map(beat.consequences, & &1["id"]),
+      "semantical_in_stringing_menting" => beat.consequences,
+      "next_for" => next(next_m).for
+    }
+
+    %{next_m | standing: Map.update!(standing, "events", &(&1 ++ [event]))}
   end
 
-  defp operation_relation(:calibrate), do: "pointing-calibrated"
-  defp operation_relation(:position), do: "tc-positioned"
-  defp operation_relation(:appoint), do: "tc-appointed"
+  defp pass(standing) do
+    prior_from = standing["from"]
+
+    next_from = %{
+      "human" => "human",
+      "up_on" => "landinging-there",
+      "within" => "place",
+      "temporal_purchase" => "time-there",
+      "basis" => "human-from-there"
+    }
+
+    passage = %{
+      "id" => "step",
+      "actor" => "human",
+      "from" => prior_from,
+      "standing_toward" => "place-toward-human",
+      "approaching_landinging" => "landinging-there",
+      "by_way_of" => "current-local-moment",
+      "way_through_relation" => "moment-way-through",
+      "from_temporal_purchase" => "time-here",
+      "toward_temporal_purchase" => "time-there",
+      "consequent_landinging" => "landinging-there",
+      "consequent_from" => next_from,
+      "seating" => "human-seated",
+      "over_across" => "human-over-across"
+    }
+
+    standing =
+      Enum.reduce(
+        ["human-up-on", "human-from-here", "landinging-staging", "passage-available"],
+        standing,
+        fn id, acc ->
+          put_in(acc, ["relations", id, "fulfilled_by"], "step")
+        end
+      )
+
+    standing |> Map.put("from", next_from) |> Map.update!("passages", &(&1 ++ [passage]))
+  end
 end

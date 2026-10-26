@@ -4,20 +4,11 @@ defmodule PublicSituationMachineTurnZero.Architecture.Store do
   alias Architecture.Record
   def create, do: Repo.insert!(%Record{standing: Architecture.new().standing})
 
-  def create_tunnel_fixture do
-    lab =
-      Enum.reduce([:calibrate, :position, :appoint, :step], Architecture.new(), fn operation,
-                                                                                   lab ->
-        {:ok, next} = Architecture.operate(lab, operation)
-        next
-      end)
-
-    Repo.insert!(%Record{standing: lab.standing})
-  end
-
   def fetch(id) do
     with {:ok, uuid} <- Ecto.UUID.cast(id),
-         %Record{} = record <- Repo.get(Record, uuid),
+         %Record{standing: %{"version" => version}} = record <-
+           Repo.get(Record, uuid),
+         true <- version in ["spindle-round-one", "spindle-rail-pass"],
          do: {:ok, record},
          else: (_ -> {:error, :not_found})
   end
