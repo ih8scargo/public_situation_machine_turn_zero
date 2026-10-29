@@ -1,0 +1,63 @@
+[
+  {
+    "id": "room",
+    "family": "in-stringing-mentings",
+    "inscription": "Every Pocket is a Room. Every Room has a Floor and a Wall.",
+    "responsibility": "Names the elementary Room relation; does not confer FROM WITHIN.",
+    "region": "first-wedge",
+    "source": "round-three-source.txt § V",
+    "status": "architecturally furnished but not implemented",
+    "affordances": [
+      "inspect beside Floor–Wall",
+      "future en-carriaging"
+    ]
+  },
+  {
+    "id": "human-push",
+    "family": "in-stringing-mentings",
+    "inscription": "The Human takes purchase on the left XT side of the apparent glass and PRETENDS to PUSH that side BACK toward the inside of the monitor, potentially beyond the apparent monitor plane.",
+    "responsibility": "Human operation of the left purchase.",
+    "region": "human-push-handle",
+    "source": "round-three-source.txt § IV",
+    "status": "provisional mechanical rehearsal",
+    "affordances": [
+      "situated notice"
+    ]
+  },
+  {
+    "id": "cob-pull",
+    "family": "in-stringing-mentings",
+    "inscription": "COB takes purchase on its corresponding side and PULLS its handle TOWARD YT FROM XT, co-laboringing ALONGSIDE WITH the Human.",
+    "responsibility": "Derived cooperative PULL; no independent bearing.",
+    "region": "cob-pull-handle",
+    "source": "round-three-source.txt § IV",
+    "status": "provisional mechanical rehearsal",
+    "affordances": [
+      "situated notice"
+    ]
+  },
+  {
+    "id": "zippering-line",
+    "family": "zippering-line",
+    "inscription": "ZIPPERING",
+    "responsibility": "Reserve for line material; no motor implemented.",
+    "region": null,
+    "source": "round-three-source.txt § III B",
+    "status": "architecturally furnished but not implemented",
+    "affordances": [
+      "future RE-ZIPPERING"
+    ]
+  },
+  {
+    "id": "road-material",
+    "family": "road",
+    "inscription": "JANUSITE en-carriagingmenting CUBICAL extents, one per semantically discrete Segmentationing where that later relationship is furnished.",
+    "responsibility": "Reserve for later Road material; no segmentation system implemented.",
+    "region": null,
+    "source": "round-three-source.txt § III C",
+    "status": "architecturally furnished but not implemented",
+    "affordances": [
+      "future en-carriaging"
+    ]
+  }
+]

@@ -1,145 +1,214 @@
 defmodule PublicSituationMachineTurnZero.ArchitectureTest do
   use ExUnit.Case, async: true
   alias PublicSituationMachineTurnZero.Architecture, as: A
+  alias PublicSituationMachineTurnZero.Architecture.PullWitness
 
-  @appointments [
-    "approach",
-    "appoint-cob",
-    "furnish-pretend",
-    "appoint-pointing",
-    "stand-tc",
-    "stand-place"
-  ]
-
-  defp drive(actions, m \\ A.new()) do
-    Enum.reduce(actions, m, fn action, m ->
-      assert {:ok, next} = A.operate(m, action)
-      next
-    end)
+  defp open(metrics \\ %{}) do
+    m = A.rehearsal()
+    {:ok, m} = A.operate(m, :take_purchase)
+    t = m.pulling.token
+    {:ok, m} = A.operate(m, {:pull, t})
+    {:ok, m} = A.operate(m, {:release, t, metrics})
+    m
   end
 
-  test "approach starts with differentiated givens and an empty trace, without a future Place or Landinging" do
-    m = A.new()
-    assert m.standing["stations"] == []
-    assert m.standing["events"] == []
-    assert m.standing["from"]["up_on"] == "landinging-here"
-    assert m.standing["from"]["temporal_purchase"] == "time-here"
-    assert m.standing["relations"]["human-up-on"]["object"] == "landinging-here"
-    assert m.standing["relations"]["landinging-upon-time"]["object"] == "time-here"
-    refute A.furnished?(m, "place-standing")
-    refute Enum.any?(m.standing["relations"], fn {_, r} -> r["object"] == "landinging-there" end)
-    assert {:error, :unavailable} = A.operate(m, "stand-place")
-    assert {:error, :unavailable} = A.operate(m, "seat")
-    assert {:error, :unavailable} = A.operate(m, "step")
+  defp feeding(m) do
+    {:ok, m} = A.operate(m, :start_feed)
+    t = m.feeding.token
+    {:ok, m} = A.operate(m, {:feed_through, t, "regarding-square"})
+    {:ok, m} = A.operate(m, {:feed_through, t, "center-square"})
+    {m, t}
   end
 
-  test "four completed Appointmentings accumulate; FIRST's two labors are one locality" do
-    m = drive(["approach", "appoint-cob"])
-    assert Enum.map(m.standing["stations"], & &1["id"]) == ["zeroeth"]
-    m = drive(["furnish-pretend"], m)
-    assert length(m.standing["stations"]) == 1
-    assert m.standing["relations"]["pretend-pointing"]["object"] == "terrestrial-computer"
-    assert m.standing["relations"]["pretend-toward-pointing"]["object"] == "pointingable"
-    m = drive(["appoint-pointing", "stand-tc", "stand-place"], m)
-    assert Enum.map(m.standing["stations"], & &1["id"]) == ["zeroeth", "first", "second", "third"]
-    assert length(m.standing["events"]) == 6
+  test "fashioned CUBICAL has real bounded extent, a center square and available toys before calibration" do
+    m = A.rehearsal()
+    assert A.label() == "PULL."
+
+    assert m.standing["geometry"]["landinging"]["bottom"] <
+             m.standing["geometry"]["landinging"]["top"]
+
+    assert m.standing["geometry"]["landinging"]["bounds"]["z"] == [-4.5, 4.5]
+    assert A.furnished?(m, "center-square-standing")
+    assert A.furnished?(m, "cob-standing")
+
+    for id <- ["doll", "stick", "regarding-square", "needle"],
+        do: assert(A.furnished?(m, id <> "-available"))
+
+    assert {:ok, needle} = A.operate(m, {:tool, "needle"})
+    assert needle.standing == m.standing
+    refute A.opened?(m)
+    assert A.spindle_extent(m) == 0
+    refute A.complete?(m)
   end
 
-  test "Second makes Place furnishable, but only Third furnishes it THERE without arrival" do
-    before = drive(Enum.take(@appointments, 4))
-    assert {:error, :unavailable} = A.operate(before, "stand-place")
-    second = drive(["stand-tc"], before)
-    assert A.furnished?(second, "tc-down-under")
-    assert second.standing["relations"]["tc-down-under"]["relation"] == "FROM DOWN UNDER"
-    refute A.furnished?(second, "place-standing")
-    refute A.furnished?(second, "landinging-staging")
-    third = drive(["stand-place"], second)
-    assert third.standing["relations"]["machine-through-tc"]["object"] == "terrestrial-computer"
-    assert "tc-down-under" in third.standing["relations"]["place-standing"]["dependencies"]
-    assert third.standing["relations"]["place-upon-landinging"]["object"] == "landinging-there"
-    assert third.standing["relations"]["next-landinging-upon-time"]["object"] == "time-there"
-    assert third.standing["relations"]["rugging-for-place"]["subject"] != "place"
-    assert third.standing["from"] == A.new().standing["from"]
-    refute A.within?(third)
-    assert {:error, :unavailable} = A.operate(third, "step")
-  end
+  test "pull resolves Regarding of exactly the same volume and square without moving FROM" do
+    initial = A.rehearsal()
+    m = open()
+    assert A.opened?(m)
+    assert m.regarding.bearing == "situated"
+    assert m.standing["geometry"] == initial.standing["geometry"]
+    assert m.standing["material"] == initial.standing["material"]
+    assert m.standing["from"] == initial.standing["from"]
 
-  test "seating stages an actual way THROUGH Current Local Moment, then STEP alone changes FROM" do
-    third = drive(@appointments)
-    seated = drive(["seat"], third)
-    assert seated.standing["from"] == third.standing["from"]
-    assert seated.standing["passages"] == []
-    assert seated.standing["relations"]["human-seated"]["object"] == "place"
-    assert seated.standing["relations"]["moment-way-through"]["subject"] == "current-local-moment"
-    assert seated.standing["relations"]["moment-way-through"]["object"] == "passage"
-    within = drive(["step"], seated)
-    assert A.within?(within)
-    assert within.standing["from"]["up_on"] == "landinging-there"
-    assert within.standing["from"]["within"] == "place"
-    assert within.standing["from"]["temporal_purchase"] == "time-there"
-    assert within.standing["relations"]["human-from-here"]["fulfilled_by"] == "step"
-    [passage] = within.standing["passages"]
-    assert passage["from"] == third.standing["from"]
-    assert passage["standing_toward"] == "place-toward-human"
-    assert passage["approaching_landinging"] == "landinging-there"
-    assert passage["by_way_of"] == "current-local-moment"
-    assert passage["consequent_from"] == within.standing["from"]
-    assert passage["from_temporal_purchase"] != passage["toward_temporal_purchase"]
-    assert A.next(within).action == nil
-    assert length(within.standing["stations"]) == 4
-    assert {:error, :unavailable} = A.operate(within, "step")
-    assert {:error, :unavailable} = A.operate(within, "inner-aperture")
-  end
+    for b <- ["end-on", "situated"] do
+      {:ok, r} = A.operate(m, {:bearing, b})
+      assert r.standing == m.standing
 
-  test "every beat preserves actual local ancestry and structured In-Stringing consequences" do
-    Enum.reduce(@appointments ++ ["seat", "step"], A.new(), fn action, before ->
-      beat = A.next(before)
-      assert {:ok, m} = A.operate(before, action)
-      event = List.last(m.standing["events"])
-      assert event["actor"] == "human"
-      assert event["from"] == before.standing["from"]
-      assert event["from_after"] == m.standing["from"]
-      assert event["inherited_before"] == Enum.sort(Map.keys(before.standing["relations"]))
-      assert Enum.map(event["ancestry"], & &1["id"]) == event["dependencies"]
-
-      for r <- event["ancestry"] do
-        assert Map.delete(r, "id") == before.standing["relations"][r["id"]]
-      end
-
-      assert event["semantical_in_stringing_menting"] == beat.consequences
-      assert event["labor_toward"] == event["consequences"]
-      assert Enum.all?(event["consequences"], &(&1 in event["inherited_after"]))
-      assert event["next_for"] == A.next(m).for
-      assert {:error, :unavailable} = A.operate(m, action)
-      if action != "step", do: assert(m.standing["from"] == before.standing["from"])
-      m
-    end)
-  end
-
-  test "Regarding cannot invent localities, change FROM, or become consequential" do
-    m = drive(@appointments)
-    assert {:error, :unavailable} = A.operate(m, {:regard, "future-gallery"})
-
-    for id <- ["zeroeth", "first", "second", "third"] do
-      assert {:ok, regarded} = A.operate(m, {:regard, id})
-      assert regarded.standing == m.standing
-      assert A.restore(regarded.standing).regarding == nil
-      assert {:ok, ^m} = A.operate(regarded, :clear_regard)
+      assert A.projection(r)["objects"]["center-square"] ==
+               A.projection(m)["objects"]["center-square"]
     end
   end
 
-  test "Round One ancestry can be inspected but is never rewritten into the new succession" do
-    standing = %{
-      "version" => "spindle-round-one",
-      "relations" => %{"place-standing" => %{}},
-      "events" => [],
-      "from" => %{"up_on" => "standinging-landinging"}
-    }
+  test "instrumentation has a returnable relational locality and no measurement affects standing" do
+    a = open(%{"dx" => 3, "dy" => 4, "duration_ms" => 1000})
+    b = open(%{"dx" => 300, "dy" => 400, "duration_ms" => 1})
+    assert a.standing["relations"] == b.standing["relations"]
+    assert a.standing["geometry"] == b.standing["geometry"]
+    locality = a.standing["localities"]["pull-instrumentation"]
+    assert locality["relative_to"] == "landinging"
+    assert locality["witness"]["computational_outreading"]["displacement_px"] == 5.0
+    assert locality["witness"]["computational_outreading"]["mean_velocity_px_s"] == 5.0
+    refute locality["witness"]["affects_standing"]
+    {:ok, hidden} = A.operate(a, {:instrumentation, false})
+    assert hidden.standing == a.standing
+    {:ok, returned} = A.operate(hidden, {:instrumentation, true})
+    assert returned.standing["localities"]["pull-instrumentation"]["id"] == locality["id"]
 
-    m = A.restore(standing)
-    assert A.legacy?(m)
-    assert m.standing == standing
-    assert A.next(m).action == nil
-    assert {:error, :unavailable} = A.operate(m, "stand-tc")
+    assert PullWitness.build(%{"dx" => "bad", "duration_ms" => 0})["computational_outreading"][
+             "mean_velocity_px_s"
+           ] == nil
+  end
+
+  test "Fountainhead material and XT have actual separate infrastructural ancestry" do
+    m = A.rehearsal()
+    ids = A.ancestry(m, "material-standing") |> Enum.map(& &1["id"])
+
+    for id <- [
+          "xt-upon-track",
+          "xt-standing",
+          "xt-opening-standing",
+          "crossing-standing",
+          "track-standing",
+          "janusite-standing",
+          "fountaining-standing",
+          "page-by-way-of"
+        ],
+        do: assert(id in ids)
+
+    assert m.standing["geometry"]["xt-course"]["bends"] |> hd() |> Map.fetch!("relation") ==
+             "xt-opening-standing"
+
+    {:ok, r} = A.operate(m, {:material, "fountaining-character-3"})
+    {:ok, r} = A.operate(r, {:bearing, "situated"})
+    assert r.standing == m.standing
+
+    assert Enum.map(A.projection(r)["material"], & &1["id"]) ==
+             Enum.map(m.standing["material"], & &1["id"])
+  end
+
+  test "feed must pass both squares in order; finite growth cannot skip or exceed extent" do
+    assert {:error, :unavailable} = A.operate(A.rehearsal(), :start_feed)
+    m = open()
+    {:ok, m} = A.operate(m, :start_feed)
+    t = m.feeding.token
+    assert {:error, :unavailable} = A.operate(m, {:feed_through, t, "center-square"})
+    assert {:error, :unavailable} = A.operate(m, {:feed, t, 1})
+    {:ok, m} = A.operate(m, {:feed_through, t, "regarding-square"})
+    {:ok, m} = A.operate(m, {:feed_through, t, "center-square"})
+    assert {:error, :unavailable} = A.operate(m, {:feed, t, 2})
+    {:ok, one} = A.operate(m, {:feed, t, 1})
+    assert {:error, :unavailable} = A.operate(one, {:feed, t, 1})
+    assert one.standing["geometry"]["center-square"] == m.standing["geometry"]["center-square"]
+    {:ok, stopped} = A.operate(one, {:cancel_feed, t})
+    resumed = A.restore(stopped.standing)
+    assert A.spindle_extent(resumed) == 1
+    {resumed, t2} = feeding(resumed)
+
+    complete =
+      Enum.reduce(2..6, resumed, fn n, m ->
+        {:ok, m} = A.operate(m, {:feed, t2, n})
+        m
+      end)
+
+    assert A.complete?(complete)
+    assert A.spindle_extent(complete) == 6
+    assert {:error, :unavailable} = A.operate(complete, {:feed, t2, 7})
+    assert {:error, :unavailable} = A.operate(complete, :start_feed)
+    assert complete.standing["from"] == m.standing["from"]
+  end
+
+  test "same COB chain and square persist before during and after Spindle and Pointingable co-labor" do
+    m = open()
+    square = m.standing["geometry"]["center-square"]
+    chain = m.standing["zipperings"]["cob-course"]
+    cob = m.standing["relations"]["cob-standing"]
+    glyphs = m.standing["material"]
+    {m, t} = feeding(m)
+
+    complete =
+      Enum.reduce(1..6, m, fn n, m ->
+        {:ok, next} = A.operate(m, {:feed, t, n})
+        assert next.standing["geometry"]["center-square"] == square
+        assert next.standing["zipperings"]["cob-course"] == chain
+        assert next.standing["relations"]["cob-standing"] == cob
+        assert next.standing["material"] == glyphs
+        assert A.projection(next)["cob_embedding_relation"] == "cob-lift-#{n}"
+        next
+      end)
+
+    ids = A.ancestry(complete, "pointingable-standing") |> Enum.map(& &1["id"])
+
+    for id <- [
+          "stick-through-spindle",
+          "pointingable-co-labor",
+          "spindle-6",
+          "center-square-standing",
+          "xt-upon-track",
+          "fountaining-standing"
+        ],
+        do: assert(id in ids)
+
+    assert "feed-stick-through-regarding" in ids
+    assert "feed-stick-through-center" in ids
+    e = List.last(complete.standing["events"])
+    assert "cob-standing" in e["dependencies"]
+    assert "stick-available" in e["dependencies"]
+    assert e["actor"] == "human ALONGSIDE WITH COB"
+    assert A.next(complete).action == nil
+  end
+
+  test "transient purchase and bad tokens cannot furnish consequence" do
+    m = A.rehearsal()
+    {:ok, p} = A.operate(m, :take_purchase)
+    assert p.standing == m.standing
+    assert {:error, :unavailable} = A.operate(p, {:release, p.pulling.token, %{}})
+    assert {:error, :unavailable} = A.operate(p, {:pull, "other"})
+    {:ok, c} = A.operate(p, {:cancel_pull, p.pulling.token})
+    assert c.standing == m.standing
+    assert A.restore(p.standing).pulling == nil
+  end
+
+  test "all courses retain held immediate predecessors and causal events, older versions remain witnesses" do
+    m = open()
+
+    for {_, course} <- m.standing["zipperings"], step <- course["steps"] do
+      assert A.furnished?(m, step["through"])
+      assert m.standing["relations"][step["link"]]["object"] == step["through"]
+      # Typed infrastructural/co-labor branches are traversed alongside the local predecessor.
+      assert Enum.any?(A.ancestry(m, step["id"]), &(&1["id"] == "ground-standing"))
+    end
+
+    for e <- m.standing["events"] do
+      assert Enum.all?(e["dependencies"], &(&1 in e["inherited_before"]))
+      assert Enum.all?(e["consequences"], &(&1 in e["inherited_after"]))
+      assert e["from"] == e["from_after"]
+    end
+
+    for v <- ["spindle-round-one", "spindle-rail-pass", "toy-box-opening-v1"] do
+      s = %{"version" => v, "relations" => %{}, "events" => []}
+      witness = A.restore(s)
+      assert witness.standing == s
+      assert {:error, :unavailable} = A.operate(witness, :take_purchase)
+    end
   end
 end

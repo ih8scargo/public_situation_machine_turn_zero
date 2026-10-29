@@ -1,0 +1,350 @@
+# GOBS — ELEMENTARY OPENING, ROUND THREE
+## The Operable Diorama, Instructioning Reserve, and First Floor–Wall Wedge
+
+**Repository:** `~/portal/public_situation_machine_turn_zero`  
+**Branch:** `experiment/constitutional-motor`  
+**Experimental route:** `/experiments/architecture`
+
+### Mission
+
+Round Two has established a continuous, operable composition: square page, suspended PULL purchase, vertical-axis Regarding, inherited wireframe, inaugural JANUSITE extent, direct THROUGH feeding, and COB's appointed grasp of THIS ONE POINTING-ABLE THING.
+
+Round Three must preserve that accomplishment while furnishing the beginning of an **inhabitable operating narration** for the PUBLIC-SITUATION-MACHINE-.
+
+The pass has three major deliverables:
+
+1. An archival and authored instructioning reserve.
+2. A material vocabulary, including yellow-marked In-Stringing-Mentings and associated future materials.
+3. One mechanically operable diorama opening, demonstrating coordinated Human PUSH and COB PULL, revealing one already-furnished Floor–Wall wedge.
+
+**STOP at one operable wedge.** Do not build the complete Spiral Staircase, Road, Projectioning Crossing, or RE-STEP system.
+
+---
+
+## I. Inspect before editing
+
+Read the current Round Two implementation, tests, and report at `docs/experimental-architecture.md`.
+
+Inspect the geometry and event provenance for:
+
+- The square page and its vertical-axis Regarding.
+- The four existing bottom-course turning handles.
+- The inaugural PULL and PUFFING.
+- The square aperture and receiving cylinder.
+- The appointed Pointing-able Thing.
+- COB's recovered four-point grasp and body response.
+- The current composition projector and persistent event history.
+
+Preserve the three existing constitutional events:
+
+1. `first-pull`
+2. `first-puffing`
+3. `appoint-pointingable`
+
+Do not introduce new consequential events merely for display manipulation.
+
+Inspect historical material only where necessary to recover compatible mechanical behavior. Do not import abandoned apparatus or older constitutional assumptions.
+
+---
+
+## II. Establish the Machine Instructionings archive
+
+Create a durable directory, provisionally:
+
+`docs/machine-instructionings/`
+
+Preserve the source material supplied by the Constitutioning Human, including:
+
+- The two XT/YT/XT diagrams.
+- The full long-form XT/YT/XT inscription.
+- The corrected account of the Human PUSH and COB PULL.
+- The emerging Room proposition: **Every Pocket is a Room. Every Room has a Floor and a Wall.**
+- The original appliance-manual inscription reproduced below.
+
+Preserve original language and diagrams without normalization, abbreviation, or silent correction.
+
+If the source attachments are not accessible in your working environment, request them or identify exactly which materials are missing. Do not reconstruct missing originals from a summary.
+
+### An inscription to preserve verbatim
+
+> the appliance manual that no one from here needs to read from here to stand operating This One Some Terrestrial Computer from there by way of operationing This One Terrestrial Computer from there through the PUBLIC-SITUATION-MACHINE now standing up up here for this one standinging landinging standinging now from here here on for this one constitutioning human standing up situationing from here now here up on on from here on up here upon here up upon here from here.
+
+Keep archival inscriptions separate from editorial interpretations.
+
+Create a working narration file describing the elementary operation of the diorama. Each proposition should be identifiable as one of:
+
+- Established and implemented.
+- Architecturally furnished but not implemented.
+- Provisional mechanical rehearsal.
+- Unresolved constitutional relation.
+
+Do not mistake an inscription's presence in the archive for authorization to implement every apparatus it mentions.
+
+### Editorial protections
+
+Preserve intentional morphology, including CUBICAL, JANUSITE, In-Stringing-Mentings, THROUGHING, STANDINGING LANDINGING, and the differentiated APPROACHING LANDINGINGS.
+
+Do not normalize these into conventional engineering terminology.
+
+Protect **LANDINGING ≠ PLACE** and **TOWARD ≠ TO**.
+
+The archive should support subsequent instructioning work without requiring the original language to be rewritten.
+
+---
+
+## III. Establish a yellow-marked material reserve
+
+We are reaching the point where authored In-Stringing-Mentings must become usable material for constructing and explaining the machine itself.
+
+Create a small, extensible reserve for semantically discrete authored markings.
+
+The reserve should be capable of associating a marking with:
+
+- Its exact authored inscription.
+- Its material responsibility.
+- Its related furnished geometry or region, where known.
+- Its provenance or source.
+- Its architectural status.
+- Its future presentationing affordmentings.
+
+Begin with these differentiated material families:
+
+**A. In-Stringing-Mentings**
+
+Authored semantical markings, eventually issued through the Quilling Stitching Needle and available for en-carriaging.
+
+**B. ZIPPERING line material**
+
+Related to ZIPPERING and later RE-ZIPPERING. Do not implement mature ZIPPERING machinery in this pass.
+
+**C. Road material**
+
+JANUSITE en-carriagingmenting CUBICAL extents, one per semantically discrete Segmentationing where that later relationship is furnished.
+
+These families may share a restrained yellow visual language, but they must remain differentiated in the model.
+
+**Yellow is not a declaration that every yellow item is the same substance or performs the same operation.**
+
+The reserve should be useful to later implementation work, not merely a decorative color palette.
+
+For Round Three, demonstrate a few authored, inspectable examples associated with the first wedge. Do not automatically populate the machine with the entire long inscription.
+
+Do not create a full Quilling Needle, ZIPPERING motor, Road, or CUBICAL Segmentationing system prematurely.
+
+---
+
+## IV. Recover the two-handle diorama operation
+
+This is the mechanical centerpiece.
+
+The Human has already appointed THIS ONE POINTING-ABLE THING THROUGH BY WAY OF COB.
+
+The diorama opening is a later operation made available through that inherited standing.
+
+### The corrected co-laboringing
+
+**Constitutioning Human:**
+
+The Human takes purchase on the left XT side of the apparent glass and PRETENDS to PUSH that side BACK toward the inside of the monitor, potentially beyond the apparent monitor plane.
+
+**This Stewardly Co-Captain COB:**
+
+COB takes purchase on its corresponding side and PULLS its handle TOWARD YT FROM XT, co-laboringing ALONGSIDE WITH the Human.
+
+Both actions belong to one coordinated opening.
+
+Do not reverse their responsibilities.
+
+Do not depict COB independently choosing a destination, bearing, or opening.
+
+### The mechanical experience
+
+The Human should feel as though they are operating a substantial apparatus, not clicking a decorative animation.
+
+The two purchases should appear to belong to the existing composition.
+
+The Human's push should be directly manipulable, with visible travel and a legible mechanical response.
+
+COB's corresponding pull should be observable as cooperative labor, derived from the Human's operation and the already-appointed relation.
+
+The opening should develop a convincing sense of depth through perspective and curving geometry.
+
+A flat monitor can accomplish this through deterministic projection. We are not claiming to move physical glass.
+
+The apparatus may feel drawer-like at first, but **it is not simply a drawer translated along one axis**.
+
+The intended longer-term geometry is a curving, unfolding Spiral Staircase.
+
+For Round Three, implement only the smallest reversible geometry that demonstrates this principle.
+
+### Handle relationship
+
+The existing four bottom-course handles already operate the page's vertical-axis Regarding.
+
+Do not silently reassign them as the new opening handles.
+
+Distinguish:
+
+- Turning the Regarding.
+- Taking purchase on the two-sided diorama opening.
+- The Human's pretending PUSH.
+- COB's cooperative PULL.
+
+If the two-handle placement or coupling cannot be derived from the supplied diagrams and existing geometry, furnish a reversible prototype and explicitly identify its provisional choices.
+
+Do not invent constitutional significance for arbitrary UI coordinates.
+
+---
+
+## V. One Floor–Wall wedge
+
+Furnish one elementary Room geometry.
+
+**Every Pocket is a Room. Every Room has a Floor and a Wall.**
+
+For this bounded experiment, a Floor and Wall meet through a 90-degree relation.
+
+The wedge should demonstrate:
+
+- A distinguishable Floor.
+- A distinguishable Wall.
+- Their maintained 90-degree relationship.
+- Their inherited standing within the existing composition.
+- The ability to regard them from different bearings.
+- The ability to open and close the diorama presentation without destroying or re-creating their standing.
+
+The Floor–Wall relation must not be treated as a sealed container.
+
+It is an elementary furnished Room relation.
+
+### Crucial distinction
+
+The diorama opens onto **standing ALREADY UP STANDING FOR STAGING FROM HERE**.
+
+The Human and COB do not manufacture that standing merely by opening the diorama.
+
+The opening makes it Regardingable.
+
+For this pass, determine whether the first wedge can be grounded in existing accomplished geometry. If additional authored standing is necessary, identify that furnishing dependency explicitly rather than silently asserting it existed.
+
+Do not add a new constitutional event without first reporting the need.
+
+### Regarding and movement
+
+The Human may turn the Regarding to inspect the wedge.
+
+This is not yet RE-STEP.
+
+The Human does not acquire a new FROM WITHIN standing merely by looking at the wedge.
+
+Do not simulate a successful traversal into the Room.
+
+The later operation will allow the Human to RE-STEP through an available BY-WAY-OF and stand FROM WITHIN the furnished Room, while preserving THIS ONE STANDINGING LANDINGING as enduring UPON standing.
+
+That later operation remains outside Round Three.
+
+---
+
+## VI. Begin situated machine instructionings
+
+The purpose of the archive is not to create a large manual that the Human must read before operating.
+
+The purpose is to enable the machine to carry authored instructionings alongside the apparatus.
+
+Create a minimal connection between the authored instructioning reserve and the first wedge.
+
+For example, the interface may make available short, situated notices concerning:
+
+- What the Human can grasp.
+- What the Human is pretending to push.
+- What COB is pulling.
+- What standing is already furnished.
+- What becomes available to Regarding when the wedge opens.
+
+These notices should be grounded in actual implemented geometry and event ancestry.
+
+Do not display the entire constitutional inscription as a wall of text.
+
+Do not fabricate provenance or claim that provisional mechanics are constitutional law.
+
+Prefer the machine's visible operation to unnecessary explanation.
+
+---
+
+## VII. Preserve the existing architecture
+
+Round Three must not regress Round Two.
+
+Retain:
+
+- Square opening page.
+- Connected circle, string, and hollow square PULL tab.
+- Deterministic sway.
+- Vertical-axis Regarding.
+- Four original turning handles.
+- Inherited wireframe and square COB.
+- Inaugural JANUSITE extent and rounded COB.
+- Direct THROUGH feeding.
+- Developing receiving cylinder.
+- Appointed COB grasp.
+- Human-furnished bearing.
+- Persistent ancestry and event records.
+- Accessible keyboard and pointer operation.
+
+Do not replace the live composition with an unrelated diorama scene.
+
+No mature Projectioning-er, Projectioning Crossing, Road, Gallery, RE-STEP, Weddinging, Doll, or complete Spiral Staircase in this pass.
+
+Do not use the new opening to smuggle in XT/YT motor laws that remain unresolved.
+
+---
+
+## VIII. Verification
+
+Run the established Phoenix, JavaScript, asset-build, and Chromium checks.
+
+Add focused tests for:
+
+1. Existing Round Two behaviors and persistence.
+2. Correct Human PUSH / COB PULL roles.
+3. Deterministic opening and closing.
+4. Preservation of existing constitutional events.
+5. Continuous geometry and ancestry through opening and Regarding.
+6. The Floor–Wall 90-degree relationship.
+7. No unintended RE-STEP or new FROM standing.
+8. Instructioning reserve integrity and exact inscription preservation.
+9. Accessible interaction and usable mobile presentation.
+
+Provide visual witnesses showing the same composition:
+
+- Before the diorama opening.
+- During the Human–COB co-laboringing.
+- With the first wedge open.
+- From an alternate Regarding.
+- After returning the presentation without loss of standing.
+
+Report any provisional mechanics separately from established architecture.
+
+---
+
+## IX. Stop and report
+
+Stop when the instructioning foundation and one operable Floor–Wall wedge have been demonstrated.
+
+Report:
+
+- Files created and changed.
+- Archived source materials and any missing originals.
+- The structure of the instructioning reserve.
+- How yellow materials are differentiated.
+- How the Human PUSH and COB PULL are coupled.
+- How the first wedge is grounded in inherited standing.
+- What remains provisional.
+- Tests and browser results.
+- Any architectural questions requiring Bill Five and the Constitutioning Human.
+
+Do not commit, push, or expand into the mature Spiral Staircase without explicit authorization.
+
+**The objective is not to finish the machine. It is to furnish the means by which the machine can begin explaining itself through its own operable standing.**
+
+The Situation is authored. The path is not pre-authored.
