@@ -1,3 +1,11 @@
+Current default encounter: [Projectioning body recovery, six candidate extents and early COB rehearsal](projection-body-recovery.md). Earlier complete drawer rehearsals require `mode=retained`; their standing and reports remain recoverable.
+
+Current corrective constraint: [Round Five — reserved extent, Human-directed Regarding and retained XT-axle inscriptions](elementary-round-five-corrective.md).
+
+Current pass: [Magic Unrolling Carpet, Ground Floor Rugging, Gallery Wall and official notices](experimental-rugging-geometry.md).
+
+Current implementation: [Round Four — second PUFFING, composed purchases, elbow-macaroni rail and LOCK](elementary-round-four.md). The reports below retain their historical source-status distinctions.
+
 # Elementary opening, round two — operable composition
 
 Public route `/experiments/architecture`, branch `experiment/constitutional-motor`.
@@ -247,3 +255,27 @@ Witnesses of the same composition:
 Reproduce with `PLAYWRIGHT_MODULE=/tmp/opening-browser/node_modules/playwright/index.mjs`
 and `PLAYWRIGHT_BROWSERS_PATH=/tmp/opening-browsers node test/browser/diorama.mjs`.
 The pass stops at this one wedge rehearsal and instructioning foundation.
+
+The default architecture route now rehearses the appliance face, resizable inward
+cutaway and finite Flick-to-seating-locality NAV course. See
+[the appliance/NAV report](appliance-cutaway-nav.md) for source authority, two-frame
+geometry, explicit bounded JANUSITE issuance, visual witnesses and review limits.
+The preceding projection encounter remains available with `mode=early`; the
+retained drawer rehearsal remains available with `mode=retained`.
+
+The [COB alongside bounded pass](cob-alongside.md) adds the mouse-first handoff,
+four-wheel/tack relation, over-the-shoulder Regarding, separate Mouse Treadmill and
+stopping-sheet purchase. It corrects the far-end seating interpretation while
+preserving existing snapshots: the future Seat is reserved beneath the aperture;
+the far endpoint can instead be a NEXT APPROACHINGING LANDINGING.
+
+The default route now follows the [inaugural recovery](inaugural-recovery.md): opaque
+first HERE WITHIN, retained Pointing-able appointment, second ACROSS furnishing,
+inherited NAV to motion-related THUNK, then third OVER ACROSS possibility. Earlier
+companion behavior is retained at `mode=companion`; its source records are unchanged.
+
+The current default is the [bounded paired-aperture geometry rehearsal](paired-aperture-geometry.md),
+through persistent Pointing-able Thing reception only. It preserves the Toy Box
+invitation within the same approach and tests slice-based Regarding without a
+physical helmet. The preceding approach remains an explicit `mode=inaugural`
+engineering witness; subsequent traversal is outside this pass.

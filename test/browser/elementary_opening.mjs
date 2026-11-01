@@ -13,7 +13,7 @@ const turn=async(i,dx)=>{
   await page.mouse.move(box.x+box.width/2,box.y+box.height/2);await page.mouse.down();await page.mouse.move(box.x+box.width/2+dx,box.y+box.height/2,{steps:6});await page.mouse.up()
 }
 try{
-  await page.goto(`${base}/experiments/architecture`)
+  await page.goto(`${base}/experiments/architecture?mode=retained`)
   await page.locator('#purchase-anchor').waitFor();await page.waitForFunction(()=>document.querySelector('#opening-geometry')?.dataset.ready==='true')
   const initial=await model(),sheet=await page.locator('#planar-sheet').boundingBox()
   assert.ok(Math.abs(sheet.width-sheet.height)<1)
@@ -67,7 +67,7 @@ try{
   await page.screenshot({path:`${out}/07-mobile-readable.png`,fullPage:true})
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true)
   await page.emulateMedia({reducedMotion:'reduce'})
-  await page.goto(`${base}/experiments/architecture`);await page.locator('#pulling-ring').waitFor();await page.waitForFunction(()=>document.querySelector('#opening-geometry')?.dataset.ready==='true')
+  await page.goto(`${base}/experiments/architecture?mode=retained`);await page.locator('#pulling-ring').waitFor();await page.waitForFunction(()=>document.querySelector('#opening-geometry')?.dataset.ready==='true')
   const mobileSheet=await page.locator('#planar-sheet').boundingBox();assert.ok(Math.abs(mobileSheet.width-mobileSheet.height)<1)
   await page.locator('#pulling-ring').focus();await page.keyboard.press('Enter');await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await page.locator('#puffing-squeeze').waitFor();await page.locator('#puffing-squeeze').click();await page.locator('#feed-purchase').waitFor()
   const feed=await page.locator('#feed-purchase').boundingBox()

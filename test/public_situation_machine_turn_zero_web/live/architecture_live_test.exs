@@ -18,7 +18,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
   end
 
   test "initial page is pivotable before pull and exposes no later apparatus", %{conn: conn} do
-    {:ok, v, _} = live(conn, ~p"/experiments/architecture")
+    {:ok, v, _} = live(conn, ~p"/experiments/architecture?mode=early")
     assert has_element?(v, "#opening-geometry[data-ready=true]")
     assert has_element?(v, "#opening-geometry[phx-hook=ElementaryOpening]")
     assert has_element?(v, "#pull-invitation")
@@ -38,7 +38,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
   test "completed pull then puff persist separate consequences; partial purchase cannot accomplish",
        %{conn: conn} do
     r = Store.create()
-    path = ~p"/experiments/architecture?id=#{r.id}"
+    path = ~p"/experiments/architecture?id=#{r.id}&mode=early"
     {:ok, v, _} = live(conn, path)
     render_hook(v, "puff", %{})
     assert_reply v, %{accepted: false}
@@ -71,7 +71,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
     conn: conn
   } do
     r = Store.create()
-    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}")
+    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}&mode=early")
     pull(v)
     render_hook(v, "puff", %{})
     {:ok, before_lock} = Store.fetch(r.id)
@@ -107,14 +107,14 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
     assert has_element?(v, "#held-reading[data-held-relation=cob-up-over-stick]")
     {:ok, regarded} = Store.fetch(r.id)
     assert regarded == saved
-    {:ok, resumed, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}")
+    {:ok, resumed, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}&mode=early")
     assert has_element?(resumed, "#appointment-noticing")
   end
 
   test "concurrent pull cannot duplicate constitutional events and stale view adopts held geometry",
        %{conn: conn} do
     r = Store.create()
-    path = ~p"/experiments/architecture?id=#{r.id}"
+    path = ~p"/experiments/architecture?id=#{r.id}&mode=early"
     {:ok, one, _} = live(conn, path)
     {:ok, two, _} = live(conn, path)
     pull(one)
@@ -129,7 +129,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
 
   test "historical witnesses stay read-only and later operations cannot be invoked", %{conn: conn} do
     r = Store.create()
-    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}")
+    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}&mode=early")
 
     for event <- ["step", "re-step", "appoint-pointingable", "feed"] do
       render_hook(v, event, %{})
@@ -139,7 +139,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
     for version <- A.versions() -- [A.version()] do
       s = %{"version" => version, "relations" => %{}, "events" => []}
       old = Repo.insert!(%Record{standing: s})
-      {:ok, witness, _} = live(conn, ~p"/experiments/architecture?id=#{old.id}")
+      {:ok, witness, _} = live(conn, ~p"/experiments/architecture?id=#{old.id}&mode=early")
       assert has_element?(witness, "#earlier-witness")
       assert {:error, :read_only_witness} = Store.save(old, s)
       assert A.restore(s).standing == s
@@ -147,7 +147,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLiveTest do
   end
 
   test "invalid UUID gives a fresh opening link without an operative pull", %{conn: conn} do
-    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=missing")
+    {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=missing&mode=early")
     assert has_element?(v, "#rehearsal-status")
     assert has_element?(v, "#fresh-composition")
     assert has_element?(v, "#opening-geometry[data-ready=false]")

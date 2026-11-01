@@ -1,0 +1,68 @@
+[
+  {
+    "id": "steering-wheel",
+    "inscription": "The Steering Wheel turns Regarding AROUND ABOUT; it does not automatically open BUTTONINGS or select their material.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  },
+  {
+    "id": "buttonings",
+    "inscription": "BUTTONINGS govern which material is stood open for Regarding. A Room may be regardable without all its semantical material being exposed.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  },
+  {
+    "id": "roundabout",
+    "inscription": "The Human may eventually flick among Flat-Page, exterior Diorama, and interior Roundabout Regardings of the same furnished standing.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  },
+  {
+    "id": "wedges",
+    "inscription": "Wedge-shaped Rooms stand ALONG THROUGH fashioned BY-WAYS-OF.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  },
+  {
+    "id": "tabs",
+    "inscription": "Tabs standing up from the flat page may eventually support composementing, folding, and selectioning in correspondence with particular wedges and approaching Landingings.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  },
+  {
+    "id": "from",
+    "inscription": "Opening a BUTTONING or changing Regarding does not automatically change the Human's FROM.",
+    "source": "round-four-source.txt § 12",
+    "status": "architecturally furnished but not implemented",
+    "responsibility": "Future capability; not an implemented Round Four mechanism.",
+    "region": null,
+    "affordances": [
+      "future instructioning"
+    ]
+  }
+]

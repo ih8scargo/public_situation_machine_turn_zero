@@ -1,0 +1,189 @@
+# INTER-OFFICE PRINTING FOR GOBS
+## PUBLIC-SITUATION-MACHINE- — Experimental Architecture, Next Pass
+**From:** Bill Five, Architecture Hallway  
+**To:** Gobs, Building Hallway  
+**Date:** October 29, 2026  
+**Subject:** Magic Unrolling Carpet, Ground Floor Rugging, Diorama Geometry, and Official Noticing-Mentings
+
+### 1. Operating instructions
+
+Continue from the existing Round Four implementation on branch `experiment/constitutional-motor`, in the experimental architecture at `/experiments/architecture`.
+
+Read the current implementation and `docs/elementary-round-four.md` before modifying geometry. Preserve successful Round Four operationing and existing consequential provenance.
+
+**Priority: earn the geometry.** Official Noticing-Mentings should be retained and progressively placed upon successful geometry. Do not delay the build to perfect their wording.
+
+Do not commit or push until Richard has reviewed the result.
+
+### 2. Constitutional geometry to preserve
+
+The PUBLIC-SITUATION-MACHINE- furnishes the Lawful Quadranglementing and CUBICAL relationing through which the Toy Box may be stood UP.
+
+The Diorama's single circular pivot reference is **THIS ONE CONSTITUTIONING HUMAN'S STANDINGING LANDINGING FROM HERE**.
+
+Do not introduce a second arbitrary pivot circle. The aperture, JANUSITE Globe, and furnished CUBICAL extent have their own responsibilities and must not be conflated with the Human's Landinging.
+
+The Human's standing remains FROM HERE when the web page pivots or when the Human changes Regarding TOWARD YT.
+
+The aperture remains UP OVER the Floor.
+
+### 3. Magic Unrolling Carpet and Ground Floor Rugging
+
+Furnish an affordmenting by which the Constitutioning Human may **pretend to unroll a Magic Carpet FROM HERE TOWARD the monitor**.
+
+The Pretending carpet begins in the Human's ordinary computering locality, in relation to their actual Groundward standing.
+
+**The unrolling must follow a determinate LINE.** That line establishes the bearing for lawful square relationing.
+
+On the furnished Toy Box side, the corresponding material is:
+
+**THIS ONE FOOT-HUGGING GROUND FLOOR RUGGING RUGGING DISPENSATIONALING STAND**
+
+Preserve the repeated RUGGING in the archival inscription. Public-facing naming remains editorially provisional.
+
+The furnished Rugging belongs to the Human's own STANDINGING LANDINGING. It is **substrationing material** through which the Human's In-Stringing-Mentings may stand.
+
+Present the carpet as a continuous, alignable Floor/Road relation. As it approaches the Diorama opening, its projected geometry may appear as an angled parallelogram or wedge. Through the opening, it becomes regardable as Floor, extending OVER ACROSS the circular extent of the Human's Landinging.
+
+The Human should be able to align the carpet FROM HERE with its continuation within the Diorama, making the bearing ALONG THROUGH toward YT intelligible.
+
+Do not treat the Pretending carpet as a physical object literally passing through the monitor glass. Preserve the correspondence between Ground-side Pretending and Field-side furnished standing.
+
+### 4. Human square, Floor, and apparatus
+
+Preserve the identity and provenance of the Human's aperture square.
+
+Rehearse its relation to the unfolding Rugging and to the Floor of **THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION**.
+
+Do not render two unrelated Floors competing for the same locality.
+
+The Human square's previously proposed 90-degree course, growth, and lawful seating remain important working requirements. Integrate them with the continuous Rugging geometry rather than independently animating a second Floor.
+
+The exact hinge, growth, and joining geometry should be made explicit in implementation notes and demonstrated in the experimental presentation.
+
+Do not accomplish a RE-STEP merely by aligning the carpet, turning the Diorama, or seating the apparatus.
+
+### 5. COB, Gallery Wall, and transverse YT region
+
+Preserve COB's appointed Pointing-able relation and the coupled drawer operation, including the 180-degree return and releasable LOCK.
+
+COB's contribution makes the **Roundabout Gallery Wall** available for standing and Regarding.
+
+The region TOWARD YT should be distinguishable from the Human's present Landinging FROM HERE.
+
+The conceptual **Co-Situationing Doll upstanding stand** belongs OVER ACROSS, toward the approaching Landinging. It may be presented as a transverse working region, potentially extending from Floor to ceiling.
+
+Do not place a literal Doll there.
+
+The Doll does not author the Human's semantical markings. Its responsibility is stitching from its upstanding stand. QUILLING refers to quill-like penning; it is not quilting. Embroidery and Visionizing Mending may emerge through later recursioning, but do not invent a separate quilting operation now.
+
+The Projectioning Thing is responsible for making already-standing letters regardable, including their curvature along the Road.
+
+### 6. Official Noticing-Mentings and Wayfinding
+
+The outer Diorama Walls should be capable of hosting the bureaucracy's official Noticing-Mentings, Outreading-Mentings, and Wayfinding signs.
+
+These may furnish a Rail Line for Regarding the Human's standing FROM HERE.
+
+Place brief notices upon earned geometric surfaces. Avoid generic floating UI labels where a furnished surface is available.
+
+Human-authored In-Stringing-Mentings must not be presented as accomplished standing until the Human has stood them UP through the appropriate work.
+
+When COB RE-ZIPPERS staged material, it stands **FOR STAGING FROM DOWN UNDER** and remains retained for subsequent Regarding and work.
+
+Historical Regarding, revisions, and forks remain reserved for a separate pass. Preserve consequential provenance; do not introduce destructive replacement or a branching UI now.
+
+### 7. Weddinging
+
+Weddinging is already implicated in the constitutional standing of THIS ONE PLACE FOR THIS ONE CONSTITUTIONING HUMAN.
+
+The bureaucracy may furnish official Noticing-Mentings through which an officiating Human can read what is occurring.
+
+Do not build a full ceremonial animation or independently invent Weddinging events.
+
+A modest official Weddinging notice may be furnished upon a suitable earned surface.
+
+### 8. Archive the original inscription and these editorial candidates
+
+Create the proposed file:
+
+`docs/experimental-rugging-inscriptions.md`
+
+Include:
+
+1. Richard's complete October 29 original inscription, **verbatim**, including its repetitions, unfinished portions, and the remark that the middle became muddled.
+2. The following three editorial candidates, clearly marked **PROVISIONAL**.
+3. Notes distinguishing FROM HERE NOW from FROM HERE ON.
+
+Do not replace the original with the rehearsed notices.
+
+#### NOTICE A — CONSTITUTIONAL ANCESTRY
+
+**OFFICIAL NOTICING-MENTING — THIS ONE PLACE**
+
+THE PUBLIC-SITUATION-MACHINE- STANDS UP FROM HERE NOW BY-WAY-OF STANDING UP THIS ONE PLACE FOR THIS ONE CONSTITUTIONING HUMAN FOR STANDING UP SITUATIONING OVER THE GROUND.
+
+THIS ONE CONSTITUTIONING HUMAN NOW STANDS UP SITUATIONING FROM HERE UPON THIS ONE STANDINGING LANDINGING STANDING UP FROM OUT OF THE GROUND.
+
+THIS ONE SOME TERRESTRIAL COMPUTER STANDS DOWN UNDER THE GROUND FROM HERE, SEATEDINGINGABLY RESTFULLYINGINGLYMENTING UPON ITS OWN LITTLE SQUARE CHAIR.
+
+**THIS ONE PLACE NOW STANDS UP FROM HERE NOW FOR HERE NOW FOR THIS ONE CONSTITUTIONING HUMAN STANDING UP SITUATIONING FROM HERE ON.**
+
+#### NOTICE B — RUGGING DISPENSATIONALING
+
+**OFFICIAL NOTICING-MENTING — GROUND FLOOR RUGGING**
+
+THIS ONE FOOT-HUGGING GROUND FLOOR RUGGING RUGGING DISPENSATIONALING STAND NOW STANDS FROM HERE UPON THIS ONE STANDINGINGING LANDINGING STANDINGING FROM HERE.
+
+THIS STAND STANDS UP HERE FOR FURNISHING FOOT-HUGGING GROUND FLOOR RUGGING PURCHASE FOR THIS ONE CONSTITUTIONING HUMAN NOW STANDING UP SITUATIONING FROM HERE.
+
+THIS ONE CONSTITUTIONING HUMAN MAY PRETEND FROM HERE TO UNROLL THIS ONE FOOT-HUGGING GROUND FLOOR RUGGING ALONG A LINE TOWARD THIS ONE SOME TERRESTRIAL COMPUTER.
+
+THE FURNISHED RUGGING MAY COME INTO REGARDING OVER ACROSS THE CIRCULAR EXTENT OF THIS ONE STANDINGING LANDINGING, THROUGH BY THE DIORAMA OPENING.
+
+#### NOTICE C — COB AND THE APPROACHING LANDINGING
+
+**OFFICIAL NOTICING-MENTING — REGARDING OVER ACROSS**
+
+THIS ONE STANDINGING LANDINGING STANDS TOWARD THIS ONE CONSTITUTIONING HUMAN FROM HERE FROM WITHIN THIS ONE PLACE FOR THIS ONE CONSTITUTIONING HUMAN.
+
+THIS HERE APPROACHING LANDINGING STANDS OVER ACROSS FROM HERE THROUGH BY THE FURNISHED BEARING.
+
+THIS ONE STEWARDLY CAPTAIN COB STANDS FOR THIS ONE CONSTITUTIONING HUMAN FOR FURNISHING REGARDING FROM WITHIN THE ROUNDABOUT GALLERY.
+
+THE FURNISHED RUGGING STANDS OVER ACROSS THE CIRCULAR EXTENT OF THIS ONE STANDINGING LANDINGING FOR REGARDING ALONG THROUGH TOWARD THIS NEXT APPROACHING LANDINGING.
+
+**Editorial protection:** Notice C does not yet settle the full distinction between THIS HERE APPROACHING LANDINGING and THIS NEXT APPROACHING LANDINGING. Preserve the question.
+
+### 9. FROM HERE NOW / FROM HERE ON
+
+These are constitutionally differentiated.
+
+**FROM HERE NOW:** The current local moment of operationing, under the bearing of standing within the present discrete piece of time. A recurring formulation for local operational Noticing-Mentings along the CUBICAL Rail Line.
+
+**FROM HERE ON:** The continuation of standing from the present accomplished relation. It is the deliberate final phrase of Notice A.
+
+Do not normalize or interchange them.
+
+### 10. Implementation and verification
+
+Preserve Round Four behavior wherever it remains constitutionally valid.
+
+Develop the new geometry incrementally and provide visual witnesses of:
+
+- The initial flat presentation and Pretending Carpet affordmenting.
+- First PULL and the furnished Toy Box geometry.
+- The Rugging's angled approach to the aperture.
+- Alignment of the Ground-side bearing with the Diorama Floor.
+- The single circular Landinging pivot.
+- COB's complementary Gallery Wall operation.
+- At least one brief official notice standing on an earned surface.
+
+Run Phoenix tests, JavaScript tests, asset build, and relevant browser tests. Report regressions and unresolved geometry separately from completed work.
+
+Keep the full archival notices available for later editorial work without making their wording a prerequisite for successful operation.
+
+**Standing ahead of operationing. Body ahead of theory. Geometry first; the bureaucracy may follow its earned standing.**
+
+— Bill Five  
+Architecture Hallway, PUBLIC-SITUATION-MACHINE-

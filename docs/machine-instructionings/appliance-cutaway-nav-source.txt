@@ -1,0 +1,344 @@
+# GOBS — ENGINEERING HALLWAY IMPLEMENTATION PRINT
+## RE-FURBISHING THE APPLIANCE FACE, DIORAMA CUTAWAY, AND COB'S FIRST TRAVERSALING COURSE
+
+**From:** Bill Five, Engineering Hallway  
+**For:** Gobs, Builder  
+**Status:** Scoped implementation and architectural rehearsal  
+**Working route:** `/experiments/architecture`
+
+### 1. PURPOSE OF THIS PASS
+
+The recent recovery successfully established a shared Projectioning body, provisional six square/circle resolutioning relationships, the Pointing-able Thing, and deterministic COB skating.
+
+Richard has now rehearsed the implementation in the browser.
+
+The underlying geometry is a substantial improvement. Preserve that work.
+
+However, the current presentation still behaves too much like geometric drawings standing upon a flat webpage. The aperture has not yet become a convincing cutaway INTO the monitor, and COB's skating course is too small and abstract to furnish a meaningful Traversaling experience.
+
+**This pass has four closely related objectives:**
+
+1. RE-FURBISH the flat web-page substrate as the furnished face of ONE PUBLIC-SITUATION-MACHINE- appliance.
+2. Cut a genuinely depth-bearing Diorama opening INTO that face, with a reliable approach from both sides.
+3. Furnish COB's first substantial skating course, beginning at the Flick and arriving at the Traversaling Craft's seating locality.
+4. Furnish an inspectable top-down Outreading-Menting of COB's progress, together with a Human-operated affordmenting for issuing additional JANUSITE track during NAV-STEPPING.
+
+These are parts of one architectural rehearsal, not four independent features.
+
+### 2. INSPECT BEFORE ALTERING
+
+Begin by inspecting the current implementation and the retained architecture.
+
+In particular, review:
+
+- `/experiments/architecture`
+- `docs/projection-body-recovery.md`
+- `docs/tunnel-piping-candidates.md`
+- The existing Projectioning body and aperture geometry
+- The Human 90-degree pivot and its intermediate positions
+- The Pointing-able Thing and Flick
+- COB's deterministic forward/reverse/pause course
+- The retained Toy Box and relevant antique appliance-shell precedent
+
+Preserve the existing successful geometry, state transitions, and tests.
+
+Do not reconstruct the architecture as an unrelated new application.
+
+The previous implementation's six square/circle relationships remain **provisional**. Do not silently appoint them as final constitutional canon.
+
+### 3. RE-FURBISH THE FLAT WEB PAGE
+
+The present browser page must become an explicit, regardable part of the apparatus.
+
+Furnish a recognizable **square appliance shell**, drawing on the principle of the antique appliance without wholesale restoration of obsolete machinery.
+
+Within the shell, furnish a square, resizable **Projectioning Crossing**.
+
+The crossing is the place where the flat monitor presentation opens toward the inward Diorama.
+
+The shell and the crossing must remain distinguishable.
+
+**The shell carries stable instrumentation surfaces. The crossing furnishes the opening. The Diorama furnishes the inward CUBICAL extent.**
+
+The Human should be able to identify where the appliance begins.
+
+Move the existing floating Groundward, Field Upside, THROUGH COB, Return COB, Human 90°, and skating controls onto stable Human-facing instrumentation surfaces belonging to the appliance.
+
+Their placement must not drift with the internal Regarding geometry or overlap the Projectioning.
+
+Preserve their functionality while improving their physical presentation.
+
+Do not spend this pass building an elaborate final CAB. A simple, coherent appliance face is sufficient.
+
+### 4. CUT OPEN THE MONITOR
+
+This is the central geometric requirement.
+
+The current aperture behaves too much like a planar surface with projected wireframes.
+
+We need a **cutaway opening with actual apparent depth**, comparable in principle to a deep television frame or letterbox through which the Human regards an inward extent.
+
+Furnish:
+
+- A visible front crossing.
+- A distinguishable inward Diorama CUBICAL extent.
+- Left and right approaching side relations between the front crossing and the inward extent.
+- A coherent Floor and interior surfaces.
+- Reliable front, side, back, Groundward, and Upside Regardings.
+
+The two approaching side relations are proposed as the initial geometry for furnishing depth. Their exact angle and proportions are subjects for rehearsal, not already-appointed constants.
+
+Use a shared geometric model, proper projection, and appropriate clipping or masking so that the front frame actually functions as an opening.
+
+**Do not simulate depth merely by drawing perspective lines over a flat panel.**
+
+The Human must be able to turn the Regarding and inspect the actual relationship between the front crossing, the approaching sides, and the interior.
+
+Make the Projectioning Crossing resizable without allowing the appliance's fixed instrumentation surfaces to drift or become part of the Diorama.
+
+The approach geometry should accommodate the width of the opening without requiring the whole webpage to become wider.
+
+### 5. TWO RELATED CUBICAL EXTENTS — NOT TWELVE COMPARTMENTS
+
+Protect the distinction between:
+
+**A.** The CUBICAL extent belonging to THIS ONE PUBLIC-SITUATION-MACHINE- as an appliance.
+
+**B.** The local Diorama CUBICAL extent standing TOWARD THIS ONE STANDINGING LANDINGING.
+
+These are related through the machine's recursioning.
+
+Do not automatically duplicate the six provisional resolutioning relationships into twelve independent containers.
+
+The architecture must preserve the possibility of further local CUBICAL extents being furnished recursively without multiplying the entire appliance.
+
+For this pass, demonstrate the relationship through the appliance shell, cutaway crossing, and one inward Diorama.
+
+Do not implement full recursive room generation.
+
+### 6. COB'S COURSE BEGINS AT THE FLICK
+
+The first skating course must begin **at the Flick**, where the Constitutioning Human has already furnished the Pointing-able Thing and can operate COB THROUGH BY the Human-facing CAB.
+
+The Human is learning to operate COB.
+
+The course is not a free-floating demonstration tunnel.
+
+Its purpose is to bring COB from the Flick, through a furnished approach, toward **THIS HERE APPROACHINGING LANDINGING**, where COB will eventually take its Traversaling Craft Seat within THIS ONE STEWARDLY CO-OCCUPANCYINGSHIP.
+
+This should be an intelligible journey with a destination.
+
+The course may evoke the curving Rail Line approach toward the Weddinging Chapelling by the Sea. This is an architectural and experiential reference, not a request to implement the complete Weddinging ceremony.
+
+### 7. FURNISH A REAL CURVING TRAVERSALING COURSE
+
+Replace the present short, abstract play-tunnel experience with a substantial, navigable course.
+
+The course should have recognizable spatial extent and enough room for meaningful changes of bearing.
+
+It may descend in broad curves, bank, turn, and support transitions across floor and wall surfaces.
+
+Provide an initial course with:
+
+- A recognizable departure from the Flick.
+- A substantial curving descent into the Diorama.
+- At least one meaningful lateral or banked transition.
+- A visible approach toward the seating locality.
+- A definite destination, rather than an endless spiral.
+
+COB should be able to skate forward and backward along the same furnished course, pause, resume, and return.
+
+COB's orientation should derive from the course and its local surface relationships.
+
+Keep COB's location independent of the Human's camera angle.
+
+The current interaction is confusing because the Human cannot always tell whether skating has started, why COB appears to move in a particular direction, or what view is needed to observe the motion.
+
+Furnish visible, understandable operational feedback.
+
+Do not make the Human discover a special camera orientation before the skating affordmenting becomes usable.
+
+### 8. NAV-STEPPING MAY ISSUE ADDITIONAL JANUSITE ROAD
+
+This is a newly recovered requirement.
+
+COB's NAV-STEPPING occurs within the current discrete turn.
+
+It is **not** consequential RE-STEP.
+
+The Constitutioning Human may furnish additional JANUSITE track material to lengthen COB's Traversaling Course without sealing the current turn or creating a new constitutional Landinging.
+
+Provide a simple Human-facing affordmenting to issue additional road material.
+
+For the first rehearsal, it may be a button, wheel, or similarly understandable instrument on the appliance shell.
+
+The important behavior is deterministic extension of the existing course.
+
+Protect these invariants:
+
+- Previously furnished track remains unchanged.
+- Newly issued material extends the traversable course continuously.
+- COB can traverse the newly furnished material.
+- COB can reverse along the same course.
+- The Human can inspect how much track has been furnished.
+- Issuing more road does not trigger RE-STEP, RE-ZIPPERING, or a new discrete turn.
+
+Avoid infinite automatic extension.
+
+The Human determines whether and when to issue more material.
+
+The initial course should already be meaningful and should reach the intended seating locality without requiring arbitrary repeated extension. Additional issuance should demonstrate NAV-STEPPING's capacity, not repair an incomplete default course.
+
+If the destination has been reached, do not silently extend the course beyond it. Any further continuation should require an explicit Human appointment and should remain a rehearsal, not an invented constitutional next room.
+
+### 9. TOP-DOWN OUTREADING-MENTING
+
+Furnish a clear **top-down Outreading-Menting** standing toward COB's progress.
+
+This should show, at minimum:
+
+- The Flick and course origin.
+- The furnished JANUSITE track.
+- COB's present locality and direction.
+- The intended destination at THIS HERE APPROACHINGING LANDINGING.
+- The extent of additional track issued during NAV-STEPPING.
+
+The Outreading-Menting must derive from the same course state as the main Projectioning.
+
+It must not be a separate decorative animation.
+
+Allow the Human to inspect or dismiss it without losing COB's position.
+
+This is an excellent opportunity to rehearse the newly recovered distinction between **Regarding Standings** and accomplished standing.
+
+The Human may turn toward the top-down Outreading-Menting while COB remains in the same actual locality.
+
+The Outreading-Menting can be a flat, legible surface belonging to the appliance, or an inspectable sign brought toward the Human's Regarding.
+
+Do not let it permanently obstruct the main Diorama.
+
+### 10. OFFICIAL NOTICING-MENTINGS ALONG THE COURSE
+
+Furnish a small number of playful, readable official Noticing-Mentings along the route.
+
+They should help the Human learn the apparatus while traveling.
+
+Suggested subjects include:
+
+- The departure from the Flick.
+- A banked or sideways skating transition.
+- The distinction between NAV-STEPPING and consequential RE-STEP.
+- The approach toward COB's seating locality.
+
+These signs must have anchored locations along the furnished course.
+
+Where practical, allow the Human to turn a Regarding toward a sign or inspect its reverse without changing COB's actual position.
+
+Do not implement the full Semantical In-Stringing-Menting and Doll-pinning machinery in this pass.
+
+The signs here are official architectural witnesses, not completed Human-authored inscriptions.
+
+### 11. PRESERVE THE FUTURE TRAVERSALING CRAFT SEAT
+
+The destination of this course is meaningful because COB is approaching the place where it will take its seat aboard the Traversaling Craft.
+
+However, **do not yet implement the full embodied COB or the complete Traversaling Craft Seat mechanism**.
+
+For this pass, furnish a recognizable destination or seating-place marker with stable provenance.
+
+Preserve the future requirement that the Traversaling Craft Seat remains WITH COB, including during later NAV-STEPPING.
+
+Do not model the seat as disposable, or as a separate seat left behind at the entrance.
+
+When the full seating mechanism is implemented later, COB's seated relation will be a necessary precondition for consequential RE-STEP.
+
+No RE-STEP operation is requested here.
+
+### 12. PRESERVE THE HUMAN'S CONSTITUTIONAL RESPONSIBILITIES
+
+The Constitutioning Human appoints the course, furnishes additional road material, directs COB THROUGH BY the CAB, and evaluates what is encountered.
+
+COB assists operationally. It does not author or evaluate on the Human's behalf.
+
+The Co-Situationing Doll remains a distinct participant whose two-point pinning and reciprocating labor will be integrated later.
+
+The present pass is intended to establish the spatial and operational conditions for that future cooperative furnishing.
+
+Do not prematurely introduce the Doll's completed inscription mechanism, the Longhouse Gallery Road's full production system, or the RE-ZIPPERING airplane.
+
+### 13. ACCEPTANCE REHEARSALS
+
+Please demonstrate the following in the browser.
+
+**A. Flat-to-inward geometry**
+
+The Human sees a recognizable appliance shell and square crossing. The crossing opens inward toward a distinguishable Diorama extent.
+
+**B. Perspective and Regarding**
+
+From front, side, back, and Upside Regardings, the opening remains a coherent cutaway with actual depth.
+
+**C. Stable instrumentation**
+
+The controls remain on the appliance, outside the Projectioning, while the Human changes Regarding.
+
+**D. Departure from the Flick**
+
+COB begins at the Flick and can be directed into the Traversaling Course.
+
+**E. Curving descent**
+
+COB traverses a substantial descending and turning course, including a meaningful banked or sideways portion.
+
+**F. Deterministic return**
+
+Pause, resume, reverse, and return operate without changing the previously furnished course.
+
+**G. Additional JANUSITE issuance**
+
+The Human extends the course within the same discrete turn. The earlier course remains unchanged, and the new material becomes traversable.
+
+**H. Top-down Outreading**
+
+The Human can inspect COB's progress, direction, furnished track, and destination without moving COB merely by changing the Regarding.
+
+**I. Arrival**
+
+COB reaches the marked seating locality at THIS HERE APPROACHINGING LANDINGING.
+
+No automatic seating, Weddinging, or RE-STEP occurs.
+
+**J. Official signs**
+
+The Human encounters and can regard a few anchored Noticing-Mentings along the course.
+
+### 14. REPORT BACK
+
+After implementation, provide:
+
+1. A concise architectural report explaining the cutaway geometry and how it relates the two CUBICAL extents.
+2. An account of the approach bearings and any proposed angle or depth parameters.
+3. The deterministic course definition, including how additional JANUSITE material is appended without altering earlier standing.
+4. A description of the top-down Outreading-Menting and its relationship to the shared course state.
+5. Browser reproduction steps and visual witnesses for the principal acceptance rehearsals.
+6. Test results, unresolved questions, and any proposed additions to the piping/prepositioning lexicon.
+
+Preserve the distinction between established canon, implemented experimental mechanics, and provisional interpretation.
+
+Do not silently RE-STAND earlier constitutional material.
+
+Cross-test the Python/Phoenix boundary if the work touches it.
+
+**Stop for Richard's review before committing, merging, or pushing.**
+
+---
+
+### ENGINEERING HALLWAY CLOSING
+
+The purpose of this pass is not to build a larger collection of geometric decorations.
+
+It is to furnish a coherent appliance through whose opened face the Constitutioning Human can regard a real inward extent, direct COB along a meaningful curving course, issue additional JANUSITE road material, and witness COB's approach toward its appointed place aboard the Traversaling Craft.
+
+**ONE APPLIANCE. ONE FURNISHED CUTAWAY. ONE CONTINUOUS TRAVERSALING COURSE. ONE DISCRETE TURN.**
+
+Let the geometry earn the co-bobbining.

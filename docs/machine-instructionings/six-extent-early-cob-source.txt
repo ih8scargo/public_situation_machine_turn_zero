@@ -1,0 +1,405 @@
+# INTER-OFFICE PRINT FOR GOBS
+## PUBLIC-SITUATION-MACHINE-
+### Diorama Architectural Recovery, Six-Extent Resolutioning, and Early COB Rehearsaling
+
+**Assignment:** Recover and stabilize the foundational Projectioning geometry; furnish an inspectable early Diorama encounter; report on the six resolutioning extents and candidate Tunnel Piping Segmentations.
+
+**Working repository:** `~/portal/public_situation_machine_turn_zero`
+
+**Starting context:** Experimental constitutional-motor architecture, existing Diorama, Toy Box, and associated engineering documentation.
+
+**Scope boundary:** Stop around the appointmenting of the Pointing-able Thing, after furnishing limited opportunities for the Constitutioning Human (CH) to try out COB, regard THROUGH COB, point THROUGH BY COB, and navigate a deterministic curving tunnel with reversible skating along the course.
+
+**Do not proceed into the full THIS HERE STANDINGING LANDINGING / THIS NEXT APPROACHINGING LANDINGING apparatus, recursive wedges, or consequential RE-STEP integration.**
+
+---
+
+# 1. Governing Architectural Correction
+
+Gobs, this pass begins with a correction to the very structure of the Diorama.
+
+The PUBLIC-SITUATION-MACHINE- is not a conventional webpage containing a small Diorama widget.
+
+**The whole appliance stands FOR PROJECTIONING.**
+
+The apparently flat monitor presentation, the opening aperture, the CUBICAL geometry, the circular and curving geometry, the machine Floor, and the available Regardings must belong to one coherent architectural arrangement.
+
+The Diorama is an opportunity to regard and interact with that arrangement.
+
+Do not solve this assignment by placing a decorative six-part diagram inside the current webpage.
+
+Do not build six unrelated miniature scenes.
+
+Do not use arbitrary camera transformations to conceal disconnected geometry.
+
+The architectural foundation is:
+
+**THREE SQUARES OVER ACROSS THREE CIRCLES, FURNISHING SIX WAYS OF RESOLUTIONING.**
+
+The six extents are not, by default, six equal boxes, six successive turns, six independently functioning Projectioning machines, or six completed inscriptions.
+
+They are six distinguishable resolutioning possibilities inheriting from the underlying square-and-circle relations.
+
+Recover the actual geometric interpretation from the existing repository and architectural documentation. Where the interpretation remains unresolved, implement an explicitly provisional, inspectable model and report the uncertainty.
+
+**Let subsequent apparatus inherit from this foundation.**
+
+# 2. First Inspect What Is Already Standing
+
+Before substantial implementation, inspect the relevant existing code, components, experiments, and documentation.
+
+In particular, recover:
+
+- The current Diorama and opening aperture.
+- The three-square/three-circle and CUBICAL/globular geometry.
+- The existing Toy Box and COB apparatus.
+- The appointmenting sequence for COB and the Pointing-able Thing.
+- The Pretend Pointing Thing and its pen-on-ball-chain ancestry.
+- The Human's 90-degree Pretending and COB's 180-degree return.
+- Groundward Regarding and Field Upside Regarding.
+- The Floor and existing projectioning infrastructure.
+- The current curving, tunnel, rail, wheel, and pointing experiments.
+- Any existing six-extent definitions, calibrationing, or associated documentation.
+- Existing In-Stringing-Mentings, JANUSITE relations, and Projectioning Thing experiments.
+
+Inspect the experimental architecture route, including `/experiments/architecture`, and the existing architecture documentation.
+
+The existing implementation is imperfect, but it contains valuable standing. Recover and reuse rather than casually replacing it.
+
+Before modifying substantial geometry, give a concise account of what is reusable, what is presently disconnected, and what must be corrected.
+
+Do not assume that an earlier implementation's visual appearance proves its geometry is canonical.
+
+# 3. Furnish One Coherent Projectioning Body
+
+Restructure the Diorama around a persistent underlying geometric model.
+
+The model should distinguish:
+
+1. The three square relations.
+2. The three circular relations.
+3. Their six candidate resolutioning extents.
+4. The opening aperture and its orientation.
+5. The machine Floor and Ground relationship.
+6. The current Regarding and pointing bearings.
+7. Furnished material versus reserved-but-unoccupied extent.
+
+These should not be independently invented presentation coordinates.
+
+A change in Regarding must not silently change the machine's constitutional geometry.
+
+An opened aperture must not create an unrelated scene.
+
+A region's identity must persist when viewed from another bearing.
+
+The six extents should have stable identifiers, inspectable relations, and explicit derivation from the square/circle arrangement.
+
+If the repo does not yet determine a unique derivation, do not manufacture canonical certainty. Furnish the smallest useful provisional model and flag it for review.
+
+Maintain meaningful empty Projectioning extent. Empty does not mean missing geometry or accidental whitespace.
+
+# 4. Stabilize the Diorama Encounter
+
+Furnish a usable early encounter at ordinary browser scale.
+
+The Human should encounter an appliance that can be opened and regarded without fighting clipping, arbitrary zoom, excessive whitespace, overlapping controls, or lost orientation.
+
+Recover the established opening mechanics where possible.
+
+The opening should preserve the relationship between the apparent flat presentation and the volumetric machine.
+
+The Human's Pretending and COB's appointed participation must have distinguishable responsibilities.
+
+The machine Floor remains furnished. The opening is not a disappearance of the Floor.
+
+Support meaningful Groundward and Upside Regardings without pretending these are separate machines.
+
+Use actual geometrical transformations rather than disconnected visual substitutions.
+
+Provide enough orientation cues for the Human to understand where COB, the aperture, the pointing bearing, and the selected tunnel course stand in relation to one another.
+
+Do not introduce a conventional website dashboard to explain what should be inspectable through the apparatus.
+
+# 5. Recover COB and the Appointmenting Sequence
+
+The intended early encounter should remain understandable and playful.
+
+Recover the already-standing sequence in which COB becomes appointed and the Pointing-able Thing is furnished, preserving the ancestry of the Pretend Pointing Thing.
+
+The Pointing-able Thing must be a meaningful affordmenting, not merely a cursor renamed in a label.
+
+The Human should be able to use it to point toward distinguishable parts of the architecture.
+
+COB should be an inspectable participant in the encounter, not a decorative figure permanently glued to a camera.
+
+Where supported by existing apparatus, allow the Human to regard COB from more than one bearing.
+
+The Human should have opportunities to:
+
+- Regard THROUGH COB toward the machine's geometry.
+- Point THROUGH BY COB toward selected architectural features.
+- See what COB is regarding or pointing toward.
+- Change the selected target without rebuilding the scene.
+- Return to a recognizable initial COB/pointing relationship.
+
+Preserve the distinction between COB's appointment, COB's location, the Human's Regarding, and the Pointing-able Thing's appointed bearing.
+
+Do not assume that regarding THROUGH COB makes COB the author of the Human's In-Stringing-Mentings.
+
+**Stop the constitutional appointmenting sequence at approximately this point.**
+
+The subsequent skating and tunnel interactions are limited affordmenting rehearsals within the early encounter, not permission to implement the full downstream machine.
+
+# 6. Furnish a Deterministic Curving Tunnel Rehearsal
+
+This is the principal hands-on test.
+
+Provide at least one genuine curving tunnel course derived from the recovered architectural geometry.
+
+The tunnel must have a stable path, identifiable entrance and continuation, predictable bends, and a consistent relationship to the square/circle extents.
+
+Its centerline or equivalent course should be represented in inspectable data, not merely implied by a decorative image.
+
+Allow the Human to navigate COB **ALONG THROUGH** the course.
+
+Provide an opportunity to skate COB back and forth along the same tunnel without requiring a consequential RE-STEP.
+
+The Human should be able to advance, reverse, pause, inspect a bend, and resume.
+
+Reversing the skating position should not erase the tunnel, alter its geometry, or falsely accomplish a new constitutional turn.
+
+At a minimum, test:
+
+- Forward travel along the course.
+- Reverse travel over the same portion.
+- Stopping at a bend.
+- Regarding or pointing toward a selected feature while stopped.
+- Resuming travel with coherent orientation.
+- Returning to the starting locality.
+
+A simple mouse, keyboard, or existing Toy Box control is sufficient. Do not make specialized hardware a dependency.
+
+If a steering or pointing affordmenting already exists, reuse it where appropriate.
+
+Do not introduce an unrelated free-flying camera in place of the actual COB/tunnel relation.
+
+The Human should feel that COB is moving through an architectural course, not that the entire world is being randomly translated around a fixed icon.
+
+# 7. Furnish Limited In-Stringing-Menting Rehearsals
+
+The geometry is general and should support storybooking.
+
+Use a small number of provisional In-Stringing-Mentings to investigate what can be furnished THROUGH the extents.
+
+Recover the architecture of:
+
+- The Quilling Stitching Needle.
+- The Never-Ending Bobbining Stringing Thing.
+- The Doll's assisting role.
+- The CH's authorship of Semantical In-Stringing-Mentings.
+- The Projectioning Thing and its appointed bends and bearings.
+
+Do not attempt to complete this entire operational apparatus in the present pass.
+
+Instead, furnish small, inspectable test inscriptions or path markers whose courses are determined by the actual piping geometry.
+
+The circular and curving courses should have predictable bends.
+
+The CUBICAL relations should correspond to square and cubic extents, planes, lines, and their appointed intersections.
+
+Keep distinct the inscriptional material, its piping course, its anchored locality, and its current presentation.
+
+Experimental test inscriptions must be identifiable as rehearsals, not falsely recorded as completed CH-authored constitutional standing.
+
+Where feasible, show how an inscription might be staged along a course and subsequently be regarded in relation to a CUBICAL JANUSITE extent.
+
+Do not claim that this rehearsal has accomplished consequential RE-STEP, RE-ZIPPERING, or completed constitutional standing.
+
+A truthful, partial demonstration is preferable to a simulated completion.
+
+# 8. Investigate the Prepositioning Lexicon
+
+The repository contains substantial prior architectural thinking. Recover it.
+
+We want Gobs's help clarifying the relations that may eventually receive official appointment as **Tunnel Piping Segmentations**.
+
+Investigate, without limiting the search to:
+
+- OVER
+- UP OVER
+- ACROSS
+- OVER ACROSS
+- THROUGH
+- THROUGH ALONG
+- ALONG THROUGH
+- FROM HERE
+- FROM HERE TOWARD THERE
+- FROM HERE TO THERE
+- DOWN ON
+- DOWN UNDER
+- UP FROM OUT OF
+- UP OVER
+
+Include additional relevant combinations found in the existing documentation.
+
+Do not treat these as interchangeable stylistic expressions.
+
+For example, TOWARD must not silently become TO merely because a line points at a destination. Completed TO requires accomplished relation.
+
+Likewise, investigate whether THROUGH ALONG and ALONG THROUGH furnish distinguishable courses, bearings, or resolutioning operations.
+
+**Do not invent distinctions solely to fill a six-row table.**
+
+One extent may support multiple relational readings. One candidate relation may require additional geometry before it can be distinguished.
+
+For each candidate expression, report:
+
+- Where it is already used.
+- Its established or proposed geometrical meaning.
+- Its relevant square/circle/CUBICAL relations.
+- A concrete test or example.
+- Whether it is established, provisional, ambiguous, or conflicting.
+- What additional furnishing would clarify it.
+
+Gobs may propose canonical labels and definitions.
+
+**Do not officially appoint new canonical terminology or perform sweeping renames without CH review.**
+
+# 9. RE-STANDING Rather Than Erasure
+
+The project is developing a constitutional practice of RE-STANDING material.
+
+Earlier inscriptions and definitions should remain recoverable when successor inscriptions are furnished.
+
+A newly proposed term may inherit from, clarify, distinguish, or supersede earlier standing.
+
+Do not silently overwrite architectural history to make the repository appear retrospectively consistent.
+
+Use ordinary engineering version control where appropriate, but preserve the constitutional distinction between code maintenance and RE-STANDING an architectural inscription.
+
+For this pass, propose any needed RE-STANDING in the report. Do not conduct a repository-wide lexicon migration.
+
+# 10. Explicitly Outside This Pass
+
+Do not extend the assignment into:
+
+- Full THIS HERE STANDINGING LANDINGING operationing.
+- THIS NEXT APPROACHINGING LANDINGING recursion.
+- The complete OVER ACROSS Landinging presentation.
+- Recursive fish-scale wedges and accumulated-turn navigation.
+- Full Traversaling Craft control integration.
+- Consequential RE-STEP or RE-STOMP.
+- Complete RE-ZIPPERING mechanics.
+- Completed JANUSITE road issuance and calibrationing.
+- Full Doll-authored stitching execution.
+- Production Correspondencing.
+- A general redesign of the entire application.
+- Wholesale rewriting of the architectural lexicon.
+
+These may be documented as dependencies or future opportunities, but they are not implementation targets.
+
+The six-extent geometry must be able to receive later furnishing without requiring Gobs to pretend that those later operations already work.
+
+# 11. Required Report
+
+Produce a substantive architectural report alongside the scoped implementation.
+
+Organize it around the following questions.
+
+### A. What was already standing?
+
+Identify recovered components, code paths, documentation, and useful prior experiments.
+
+Explain what was reused and what needed structural correction.
+
+### B. What are the six extents?
+
+Describe the three-square/three-circle foundation and the six candidate resolutioning extents.
+
+For each extent, identify its source relations, bearings, available geometry, and unresolved questions.
+
+Distinguish recovered canon from implementation assumptions.
+
+### C. What can the Diorama now demonstrate?
+
+Explain the opening, available Regardings, COB appointment, Pointing-able Thing, and curving tunnel rehearsal.
+
+Include concrete reproduction steps.
+
+### D. What does the piping teach us?
+
+Present candidate Tunnel Piping Segmentations, including any meaningful THROUGH, ALONG, OVER, ACROSS, and UP OVER relations.
+
+Where possible, show how the selected inscriptional course follows an actual geometric bend.
+
+### E. What lexicon should we consider appointing?
+
+Propose a concise canonical vocabulary with evidence and explicit uncertainty.
+
+Identify collisions, ambiguities, and inherited terminology.
+
+Do not declare proposals constitutional without review.
+
+### F. What should be RE-STOOD later?
+
+Identify specific earlier inscriptions or implementations that would benefit from successor standing.
+
+Explain the reason for each proposed change and what must be preserved.
+
+### G. What remains for the later integration sprint?
+
+Distinguish genuinely unfinished architectural work from features deliberately deferred by this assignment.
+
+Avoid claiming completion beyond the implemented affordmentings.
+
+# 12. Acceptance Checks
+
+The stabilization is successful when:
+
+1. The Diorama presents one coherent Projectioning appliance, not a collection of disconnected widgets.
+2. The six extents have stable identities derived from an inspectable three-square/three-circle model.
+3. Opening and changing Regarding do not mutate the underlying architectural geometry.
+4. The Human can encounter and try out COB and the appointed Pointing-able Thing.
+5. The Human can point THROUGH BY COB toward recognizable geometry.
+6. COB can navigate a deterministic curved tunnel and skate forward and backward along the same course.
+7. The course's bends and position remain reproducible.
+8. At least a small provisional inscriptional or piping demonstration can be inspected.
+9. The proposed lexicon distinguishes recovered standing from new interpretations.
+10. The report explains the six extents and recommends candidate Tunnel Piping Segmentations without prematurely appointing them.
+11. No consequential RE-STEP, RE-ZIPPERING, or completed CH inscription is falsely represented as accomplished.
+12. Existing useful architectural components and historical material remain recoverable.
+
+Test normal-scale browser use and interaction.
+
+Where a change touches the Python/Phoenix contract boundary, coordinate cross-system testing and verify both sides.
+
+Do not commit, merge, or push without review.
+
+# 13. Stop and Return Across the Hall
+
+Gobs, when the early COB encounter, six-extent geometry, and deterministic tunnel rehearsal are standing sufficiently for inspection, **stop**.
+
+Return with:
+
+1. The inspectable implementation and how to run it.
+2. The architectural recovery report.
+3. The proposed six-extent resolutioning model.
+4. The candidate Tunnel Piping Segmentation lexicon.
+5. The list of unresolved constitutional questions.
+6. A proposed, separately scoped next pass.
+
+Do not proceed automatically into the Landinging or full Projectioning integration.
+
+We want to review the actual geometry and the proposed vocabulary together before furnishing additional consequential machinery.
+
+**Governing checksum:**
+
+**STANDING AHEAD OF OPERATIONING.**
+
+**THREE SQUARES OVER ACROSS THREE CIRCLES. SIX WAYS OF RESOLUTIONING.**
+
+**ONE PUBLIC-SITUATION-MACHINE-, FURNISHING ITS OWN PROJECTIONING EXTENT.**
+
+**LET THE APPARATUS INHERIT FROM THE GEOMETRY. LET THE CANON BE APPOINTED THROUGH REVIEW.**
+
+**AND LET NEW STANDING COME TO STAND WITHOUT ERASING WHAT STOOD BEFORE.**

@@ -566,7 +566,7 @@ defmodule PublicSituationMachineTurnZero.Architecture do
   def restore(%{"version" => v} = s) when v in [@version | @witnesses] do
     m = %__MODULE__{standing: s}
 
-    if v == @version && opened?(m),
+    if v == @version && !Map.has_key?(s, "opening_geometry") && opened?(m),
       do: %{m | regarding: %{m.regarding | bearing: "situated"}},
       else: m
   end
@@ -579,7 +579,8 @@ defmodule PublicSituationMachineTurnZero.Architecture do
       Map.has_key?(m.standing, "opening_geometry") ->
         %{
           action: nil,
-          for: "PULL, inaugural PUFFING, then Human-furnished pointing appointment. Stop."
+          for:
+            "PULL, first PUFFING THROUGH, appointment, second PUFFING AROUND ABOUT; compose drawer purchases."
         }
 
       furnished?(m, "puffer-available") ->
@@ -602,6 +603,21 @@ defmodule PublicSituationMachineTurnZero.Architecture do
         %{action: nil, for: "Pointingable relation stands. Stop before Calibrationing."}
     end
   end
+
+  def operate(%{standing: %{"opening_geometry" => _}} = m, {:traversal_rehearsal, params}),
+    do: PublicSituationMachineTurnZero.Architecture.TraversalCourse.operate(m, params)
+
+  def operate(m, {:crossing_rehearsal, params}),
+    do: PublicSituationMachineTurnZero.Architecture.CrossingRehearsal.operate(m, params)
+
+  def operate(m, {:inaugural, params}),
+    do: PublicSituationMachineTurnZero.Architecture.Inaugural.operate(m, params)
+
+  def operate(%{standing: %{"opening_geometry" => _}} = m, :second_puff),
+    do: PublicSituationMachineTurnZero.Architecture.Diorama.second_puff(m)
+
+  def operate(%{standing: %{"opening_geometry" => _}} = m, {:diorama_operation, params}),
+    do: PublicSituationMachineTurnZero.Architecture.Diorama.operate(m, params)
 
   def operate(%{standing: %{"opening_geometry" => _}} = m, op)
       when op in [:opening_pull, :puff, :opening_appoint, :appoint_pointingable] or
@@ -1077,6 +1093,12 @@ defmodule PublicSituationMachineTurnZero.Architecture do
       "live_outreading" => Enum.map(steps, & &1["id"]),
       "next_for" => "Wind only the next available relation"
     }
+
+    event =
+      case PublicSituationMachineTurnZero.Architecture.Inscriptioning.locality(id) do
+        nil -> event
+        locality -> Map.put(event, "inscription_locality", locality)
+      end
 
     %{m | standing: Map.update!(standing, "events", &(&1 ++ [event]))}
   end

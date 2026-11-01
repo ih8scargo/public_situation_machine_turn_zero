@@ -27,6 +27,8 @@ defmodule PublicSituationMachineTurnZero.Architecture.Opening do
     %A{
       standing: %{
         "version" => A.version(),
+        "projection_foundation" =>
+          PublicSituationMachineTurnZero.Architecture.ProjectionBody.seed(),
         "from" => %{"human" => "human", "here" => "here", "basis" => "human-standing"},
         "relations" => relations,
         "events" => [],

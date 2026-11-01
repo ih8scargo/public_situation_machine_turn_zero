@@ -7529,8 +7529,6 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 #opening-geometry { background: transparent; border: 0; border-radius: 0; }
 
 /* A bounded Floor–Wall rehearsal within the inherited composition. */
-.diorama-floor { fill: #edd478; stroke: #9a7727; stroke-width: 1.5; }
-.diorama-wall { fill: #f9edbb; stroke: #9a7727; stroke-width: 1.5; }
 .diorama-rail { fill: none; stroke: #ad965a; stroke-width: 1; stroke-dasharray: 3 5; }
 .diorama-human-handle { fill: #fff4bf; stroke: #765c20; stroke-width: 3; cursor: ns-resize; touch-action: none; }
 .diorama-human-handle:hover, .diorama-human-handle:focus { fill: #f3d261; stroke: #302817; outline: none; }
@@ -7543,3 +7541,246 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 .diorama-instructionings article[data-material-family="road"] { border-left-style: double; border-left-width: 6px; }
 .diorama-instructionings small { display: block; color: #6b6657; }
 .diorama-instructionings button { margin-top: 1rem; text-decoration: underline; text-underline-offset: .25em; }
+
+/* Second PUFFING makes the available course visible, without covering inherited material. */
+.drawer-extent { fill: none; stroke: #b39b48; stroke-width: 1; stroke-dasharray: 3 6; opacity: .75; }
+.drawer-rail { fill: none; stroke: #547a59; stroke-width: 3; }
+.drawer-rail.companion { stroke-width: 1; stroke: #8b9f81; }
+.drawer-notice { fill: #405345; pointer-events: none; paint-order: stroke; stroke: #edf0e9; stroke-width: 3px; stroke-linejoin: round; }
+.compose-purchase { stroke-width: 2.5; stroke-dasharray: 4 2; cursor: grab; touch-action: none; }
+.compose-ch, .second-bellows { fill: #fff0ab; stroke: #866c28; }
+.compose-cob { fill: #dbe9d6; stroke: #466346; }
+.second-bellows, .pointing-flick, .detent-release { cursor: pointer; stroke-width: 2; }
+.pointing-flick { fill: #f7faf2; stroke: #4f6750; }
+.detent-cup { fill: none; stroke: #395e40; stroke-width: 3; }
+.detent-release { fill: #dbe9d6; stroke: #395e40; }
+#opening-space [role="button"]:focus, #opening-space [role="slider"]:focus { outline: none; stroke: #1c3c27; stroke-width: 4; }
+#opening-space [role="button"]:hover { filter: brightness(.95); }
+#opening-geometry[data-regarding-mode="diorama"] .opening-sheet { fill: transparent; stroke-dasharray: 5 5; }
+#diorama-instructionings { border: 0; margin-top: .5rem; padding-top: 0; }
+.bellows-rib, .flick-stem { fill: none; stroke: #6e795b; stroke-width: 1.5; pointer-events: none; }
+.detent-hold { fill: none; stroke: #46694c; stroke-width: 1.5; stroke-dasharray: 4 3; pointer-events: none; }
+
+/* One Ground-side Pretending line corresponds with one Field-side substrate. */
+.carpet-line, .field-bearing { fill: none; stroke: #a88e50; stroke-width: 1.5; stroke-dasharray: 5 4; pointer-events: none; }
+.pretending-carpet { fill: #e9dabe; fill-opacity: .45; stroke: #a38b62; stroke-width: 1.5; }
+.field-rugging { fill: #d9cdb6; fill-opacity: .65; stroke: #8f7b58; stroke-width: 1.5; }
+.carpet-purchase, .rugging-seat { fill: #f4e5c6; stroke: #866b3e; stroke-width: 2; cursor: ns-resize; touch-action: none; }
+.rugging-seat { cursor: pointer; }
+.rugging-join { fill: none; stroke: #9c8050; stroke-width: 1; stroke-dasharray: 2 3; pointer-events: none; }
+.human-landinging-reference { fill: none; stroke: #927b4f; stroke-width: 1.5; }
+.gallery-wall { fill: #cbd7cf; fill-opacity: .13; stroke: none; pointer-events: none; }
+.gallery-course, .gallery-upright { fill: none; stroke: #758d7b; stroke-width: 1; pointer-events: none; }
+.yt-transverse-region { fill: #d3dee3; fill-opacity: .18; stroke: #8b9eaa; stroke-dasharray: 3 5; pointer-events: none; }
+.official-surface { fill: #f3efe2; fill-opacity: .94; stroke: #9a9a81; stroke-width: .8; pointer-events: none; }
+.official-lettering { fill: #505a4c; stroke: none; font-family: ui-monospace, monospace; pointer-events: none; }
+.rugging-stand { fill: #e3d6bd; stroke: #977f55; stroke-width: 1.5; pointer-events: none; }
+
+/* Round Five: the full pivot envelope has a stable place in ordinary page layout. */
+#opening-geometry {
+  position: relative;
+  height: clamp(660px, 90vw, 960px);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 64px;
+  overflow: hidden;
+  contain: layout;
+}
+#opening-space { width: 100%; height: 100%; min-height: 0; overflow: hidden; }
+#regarding-condition { margin: 0; align-self: center; height: 56px; overflow: hidden; }
+.elementary-opening { overflow-anchor: none; }
+.operation-guide-reserve { min-height: 1050px; }
+.regarding-approach { position: absolute; top: 8px; right: 8px; display: flex; gap: 6px; z-index: 2; }
+.regarding-approach button { background: #f7f8f1; border: 1px solid #9da88f; padding: 7px 12px; border-radius: 3px; cursor: pointer; }
+.xt-surface-reading { position: absolute; left: 4%; right: 4%; bottom: 76px; padding: 14px 18px; border: 1px solid #8c987c; background: #f6f1e2; font-size: 16px; line-height: 1.55; z-index: 2; }
+.xt-surface-reading[hidden] { display: none; }
+.xt-surface-reading small { display: block; color: #67705d; font-size: 13px; margin-top: 5px; }
+.xt-axle { fill: none; stroke: #927c52; stroke-width: 2; }
+.inner-spindle { fill: none; stroke: #7c8a6a; stroke-width: 1.2; }
+.xt-locality-surface { fill: #f3eddb; stroke: #998a67; stroke-width: 1; cursor: pointer; }
+.xt-locality-selected { stroke: #3f6147; stroke-width: 3; }
+@media(max-width:600px) { #opening-geometry { height: 580px; } .regarding-approach button { padding: 6px 10px; } .operation-guide-reserve { min-height: 1400px; } }
+.xt-locality-surface { pointer-events: all; }
+
+/* The early encounter is one Projectioning appliance with a shared body and courses. */
+.projection-appliance { max-width: 1480px; padding-top: 16px; }
+.projection-appliance .elementary-intro { margin: 20px 0 12px; }
+.projection-appliance .elementary-intro h1 { font: 20px/1.4 ui-monospace, monospace; letter-spacing: .05em; }
+.projection-appliance #opening-geometry { max-width: 1320px; height: clamp(680px, 82vh, 900px); margin-top: 0; }
+.projection-appliance #operation-guide { min-height: 70px; padding: 12px 0; }
+.projection-appliance #ordinary-operation-details > summary { color: #66735d; cursor: pointer; }
+.projection-appliance footer { margin-top: 16px; }
+.early-appliance-tools { position: absolute; left: 8px; top: 8px; display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(100% - 230px); z-index: 3; }
+.early-appliance-tools button, .early-appliance-tools select { border: 1px solid #9aa990; background: #f4f5ed; border-radius: 3px; padding: 7px 10px; font-size: 13px; cursor: pointer; }
+.early-appliance-tools button:disabled, .early-appliance-tools select:disabled { opacity: .4; cursor: default; }
+.early-appliance-tools .fieldset { padding: 0; margin: 0; }
+.projection-floor { fill: #dad8bf; fill-opacity: .5; stroke: #a39572; stroke-width: 1.2; }
+.resolution-square { fill: none; stroke: #738f99; stroke-width: 1.2; stroke-dasharray: 4 4; cursor: pointer; }
+.resolution-selected { stroke: #c18f2e !important; stroke-width: 3 !important; stroke-dasharray: none; }
+.paired-correspondence { fill: none; stroke: #bc994a; stroke-width: 1.8; stroke-dasharray: 4 3; }
+.tunnel-centerline { fill: none; stroke: #536d87; stroke-width: 1.6; stroke-dasharray: 3 3; }
+.tunnel-section, .tunnel-pipe { fill: none; stroke: #9cafa8; stroke-width: 1; pointer-events: none; }
+.tunnel-entrance { fill: none; stroke: #53786b; stroke-width: 2.5; }
+.cob-skate-purchase { fill: #d8e9d7; stroke: #405e48; stroke-width: 2; cursor: ew-resize; }
+.through-by-cob-pointing-ray { fill: none; stroke: #c99332; stroke-width: 2.5; stroke-dasharray: 6 3; }
+.pen-chain-rehearsal { fill: none; stroke: #9a9d80; stroke-width: 1; stroke-dasharray: 2 4; pointer-events: none; }
+.quarter-leaf { fill: none; stroke: #b29458; stroke-width: 2; }
+.rehearsal-lettering { fill: #6d7483; paint-order: stroke; stroke: #edf0e9; stroke-width: 2; pointer-events: none; }
+.projection-appliance .xt-locality-surface { fill-opacity: .2; stroke-width: .8; }
+.projection-appliance text[id^="xt-axle-"] { opacity: .35; }
+@media(max-width:600px) {
+ .projection-appliance #opening-geometry { height: 700px; }
+ .early-appliance-tools { max-width: 100%; right: 4px; top: 46px; gap: 4px; }
+ .early-appliance-tools button, .early-appliance-tools select { font-size: 12px; padding: 6px 8px; }
+ .projection-appliance .regarding-approach { top: 4px; }
+}
+.projection-reading { position: absolute; left: 14px; bottom: 76px; max-width: 390px; padding: 10px 13px; background: #f2f3e9ed; border-left: 2px solid #a8b394; font-size: 13px; line-height: 1.5; }
+.projection-reading[hidden] { display: none; }
+@media(max-width:600px) { .projection-reading { left: 6px; right: 6px; max-width: none; bottom: 68px; font-size: 12px; } }
+/* Opening the ordinary guide is Human-directed; subsequent furnishing keeps its space. */
+.projection-appliance #ordinary-operation-details[open] { min-height: 1050px; }
+@media(max-width:600px) { .projection-appliance #ordinary-operation-details[open] { min-height: 1400px; } }
+
+/* Refurbished appliance: native cab stays Human-facing around a reserved world aperture. */
+.projection-stage { min-height: 0; height: 100%; }
+.appliance-cab { display: contents; }
+.refurbished-appliance #opening-geometry {
+  max-width: 1320px; width: 100%; height: 980px; padding: 22px;
+  grid-template-columns: minmax(0,1fr) 264px; grid-template-rows: minmax(0,1fr) 48px; gap: 18px;
+  background: #343a33; border: 9px solid #555343; border-radius: 18px;
+  box-shadow: inset 0 0 0 2px #b4a17c, 0 16px 35px #28352918;
+}
+.refurbished-appliance .projection-stage { position: relative; align-self: center; height: auto; aspect-ratio: 1; min-width: 0; border: 10px solid #ae9a72; border-radius: 5px; background: #e8e4d7; box-shadow: inset 0 0 30px #373c3320; overflow: hidden; }
+.refurbished-appliance #opening-space { display: block; aspect-ratio: 1; }
+.refurbished-appliance .appliance-cab { display: block; min-width: 0; overflow-y: auto; scrollbar-width: thin; padding: 13px; border: 1px solid #c4b492; border-radius: 5px; background: #ede7d7; color: #3c4539; }
+.cab-heading { margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #a9946e; font: 10px/1.6 ui-monospace,monospace; letter-spacing: .06em; }
+.cab-heading strong { display: block; font-size: 12px; }
+.refurbished-appliance .early-appliance-tools { position: static; max-width: none; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.refurbished-appliance .early-appliance-tools .fieldset { grid-column: 1 / -1; }
+.refurbished-appliance .appliance-cab button { font: 11px/1.35 ui-monospace,monospace; padding: 7px 6px; border: 1px solid #a99b7c; background: #faf7ed; border-radius: 3px; cursor: pointer; transition: background .15s, box-shadow .15s; }
+.refurbished-appliance .appliance-cab button:hover { background: #e2e9d9; box-shadow: 0 1px 3px #37493420; }
+.refurbished-appliance .appliance-cab button:disabled { opacity: .4; cursor: default; }
+.refurbished-appliance .regarding-approach { position: static; margin: 10px 0; display: flex; }
+.refurbished-appliance .traversal-instruments { display: grid; gap: 9px; font: 11px/1.5 ui-monospace,monospace; }
+.refurbished-appliance .traversal-instruments .fieldset { margin: 0; padding: 0; }
+.crossing-range { width: 100%; accent-color: #69806a; }
+.road-issuance,.course-notice-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.top-down-outreading { height: 230px; overflow: hidden; border: 1px solid #b5aa8d; background: #f5f1e6; }
+.top-down-outreading[hidden],.course-sign-reading[hidden] { display: none; }
+#course-map { width: 100%; height: 100%; }
+.course-sign-reading { padding: 9px; border-left: 2px solid #957c4d; background: #f7efd8; }
+.course-sign-reading small { display: block; font-size: 9px; margin-top: 8px; }
+.refurbished-appliance #regarding-condition { grid-column: 1 / -1; height: 40px; font-size: 10px; color: #e4dcc7; padding: 7px 10px; }
+.refurbished-appliance .xt-surface-reading,.refurbished-appliance .projection-reading { bottom: 12px; left: 12px; right: 12px; max-width: none; max-height: 200px; overflow: auto; font-size: 12px; }
+.cutaway-face { stroke: #99896b; stroke-width: 1.5; stroke-linejoin: round; }
+.cutaway-front { fill: #c5b797; }
+.cutaway-approach { fill: #ded4bc; }
+.cutaway-floor { fill: #d4d1b9; }
+.cutaway-wall { fill: #d5cbb5; }
+.cutaway-floor-rib { fill: none; stroke: #a7ad94; stroke-width: .7; }
+.appliance-world-label { fill: #756c56; font: 10px ui-monospace,monospace; }
+.nav-course-centerline { fill: none; stroke: #426d6d; stroke-width: 2; }
+.nav-course-ring,.nav-course-rail { fill: none; stroke: #7b9b91; stroke-width: 1; }
+.course-sign-panel { fill: #f4e7bb; stroke: #977f48; stroke-width: 1; cursor: pointer; }
+.course-sign-post { fill: none; stroke: #977f48; stroke-width: 1.5; }
+.course-sign-title { fill: #615741; paint-order: stroke; stroke: #eee7d5; stroke-width: 2px; pointer-events: none; }
+.future-seat-locality { fill: none; stroke: #966f55; stroke-width: 2; stroke-dasharray: 4 3; }
+.refurbished-appliance .opening-circle,.refurbished-appliance .turning-course { opacity: .45; }
+@media(max-width:800px) {
+ .refurbished-appliance #opening-geometry { height: 1640px; padding: 12px; grid-template-columns: minmax(0,1fr); grid-template-rows: auto minmax(0,1fr) 50px; gap: 12px; border-width: 6px; }
+ .refurbished-appliance .projection-stage { align-self: start; width: 100%; }
+ .refurbished-appliance .appliance-cab { overflow-y: auto; }
+ .refurbished-appliance #regarding-condition { grid-column: 1; }
+ .refurbished-appliance .early-appliance-tools { grid-template-columns: repeat(3,minmax(0,1fr)); }
+ .refurbished-appliance .top-down-outreading { height: 230px; }
+}
+@media(min-width:801px) { .refurbished-appliance #opening-geometry { height: auto; aspect-ratio: 1; } }
+@media(max-width:800px) { .refurbished-appliance #opening-geometry { height: 1450px; } }
+
+/* One bounded encounter: contextual handoff, companion purchase and a separate camera. */
+.cob-encounter { position: absolute; left: 12px; right: 12px; top: 12px; padding: 12px 15px; border-left: 3px solid #648774; background: #f7f3e6f0; color: #3d5147; font: 12px/1.5 ui-monospace,monospace; z-index: 4; max-height: 220px; overflow: auto; }
+.cob-encounter[hidden],#cob-handoff-controls[hidden],.mouse-treadmill-panel[hidden] { display:none; }
+.cob-encounter strong { display:block; font-size:11px; }
+.cob-encounter p { margin:6px 0; }
+.cob-encounter button { border:1px solid #698270; border-radius:3px; background:#e1ead9; padding:7px 12px; cursor:pointer; }
+.cob-encounter button:disabled { opacity:.45; }
+.mouse-treadmill-panel { display:grid; gap:9px; font:11px/1.5 ui-monospace,monospace; margin-bottom:18px; border-bottom:2px solid #b09e79; padding-bottom:15px; }
+.mouse-treadmill { position:relative; width:216px; height:216px; max-width:100%; margin:auto; border:6px double #98845d; border-radius:50%; background:repeating-conic-gradient(#c6bb9f 0deg 3deg,#e8e0ca 3deg 15deg); box-shadow:inset 0 0 0 12px #d7ccb2; touch-action:none; }
+.refurbished-appliance .mouse-treadmill button { position:absolute; width:57px; height:57px; padding:2px; border-radius:50%; font-size:9px; border:3px double #9d8a61; background:#f6efd9; user-select:none; touch-action:none; }
+.mouse-treadmill #treadmill-rest { left:73px; top:73px; }
+.mouse-treadmill #treadmill-strong { left:73px; top:10px; }
+.mouse-treadmill #treadmill-working { left:136px; top:73px; }
+.mouse-treadmill #treadmill-gentle { left:73px; top:136px; }
+.mouse-treadmill #treadmill-brake { left:10px; top:73px; }
+.refurbished-appliance .mouse-treadmill button[data-engaged=true] { background:#a8c6a5; border-color:#436b54; box-shadow:inset 0 3px 6px #34574455; transform:translateY(2px); }
+#treadmill-response { min-height:48px; padding:7px; background:#dedfc8; border:1px solid #a5ae8b; }
+#cob-immediate-stop { color:#843d30; border-color:#b5896c; font-weight:bold; }
+#regarding-wheel-reserve { padding:7px; border:1px dashed #a9a58c; color:#76715e; font-size:9px; }
+.cob-shoulders,.cob-head { fill:#acc7a5; stroke:#3c634d; stroke-width:2; stroke-linejoin:round; }
+.cob-eye { fill:#244837; stroke:none; }
+.cob-wheel { fill:#5f695d; stroke:#344b3d; stroke-width:2; }
+.cob-wheel-spoke { fill:none; stroke:#dfdfbc; stroke-width:1.4; }
+.cob-wheel-suspension { fill:none; stroke:#627f60; stroke-width:2; }
+.cob-coupling-ring { fill:none; stroke:#bb974c; stroke-width:4; }
+.cob-reaching,.cob-stopping-purchase { fill:none; stroke:#69864f; stroke-width:4; stroke-linecap:round; }
+.cob-stopping-purchase { stroke:#b28739; stroke-dasharray:5 2; }
+.janusite-tack { fill:none; stroke:#628b82; stroke-width:2; }
+.janusite-tie { fill:none; stroke:#a8a482; stroke-width:2; }
+@media(max-width:800px) { .cob-encounter { top:5px; left:5px; right:5px; padding:7px; max-height:145px; font-size:10px; } .cob-encounter strong { font-size:9px; } }
+/* Operational notices vary inside the reserved face; the external view instruments stay put. */
+.refurbished-appliance #cob-encounter button { margin-right:5px; }
+/* The old scrub purchase remains an accessible inspection aid, not COB's visible identity. */
+.refurbished-appliance .cob-skate-purchase { fill:transparent; stroke:#8a9c7e; stroke-width:1; stroke-dasharray:3 3; opacity:.25; }
+/* Experimental arrangement: edit the five #treadmill-* left/top coordinates above.
+   Acceleration strengths and the release rule live in treadmillSettings; the native multiplier rehearses strength. */
+.cob-wheel-back { fill:#495b4d; stroke:#314b39; stroke-width:1; }
+.cob-wheel-tread { fill:none; stroke:#526751; stroke-width:2; }
+#regarding-wheel-reserve { min-height:76px; }
+.inaugural-instruments { display:grid; gap:8px; margin:12px 0; padding:12px 0; border-block:1px solid #ae9d7a; font:11px/1.5 ui-monospace,monospace; }
+#cabinet-seat-reading { padding:10px; background:#dddcc7; border-left:2px solid #8d855e; }
+#cabinet-seat-reading[hidden] { display:none; }
+.inaugural-opaque { fill:#d4c9ad; fill-opacity:1; stroke:#97866b; }
+.inaugural-reference { fill:none; stroke:#ae7790; stroke-width:1; stroke-dasharray:4 5; }
+.regarding-cube,.paired-bend-crossing,.inaugural-segmentation { fill:none; stroke:#7698a4; stroke-width:1.4; }
+/* Bounded paired-aperture instrument: wheel on the face, view instruments outside its reserved projection. */
+.crossing-page { max-width:1500px; margin:auto; padding:24px; color:#34473e; }
+.crossing-page header { padding:10px 0 20px; font:12px/1.6 ui-monospace,monospace; }
+.crossing-page h1 { font-size:25px; margin:8px 0; }
+#crossing-rehearsal { display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:18px; padding:20px; background:#353d36; border:8px solid #9a8968; border-radius:16px; min-height:1050px; }
+.crossing-face { position:relative; align-self:start; aspect-ratio:1; overflow:hidden; background:#efebdc; border:6px solid #b09d76; border-radius:5px; }
+#crossing-scene { width:100%; height:100%; }
+.steering-purchase { position:absolute; top:12px; left:14px; right:14px; z-index:2; padding:10px; background:#f7f3e5ed; border-left:3px solid #798b70; font:10px/1.5 ui-monospace,monospace; }
+.steering-purchase p { margin:4px 0; }
+#crossing-wheel { display:block; margin:8px auto; width:90px; height:90px; border:12px double #927d54; border-radius:50%; background:radial-gradient(circle,#94a489 0 22%,#eee5cd 24% 45%,#b7aa88 47% 52%,#f2ead7 54%); font-size:32px; cursor:ns-resize; touch-action:none; user-select:none; box-shadow:0 3px 8px #37423533; }
+.crossing-instruments { background:#eee8d6; border:1px solid #b8a580; padding:14px; display:flex; flex-direction:column; gap:12px; font:11px/1.6 ui-monospace,monospace; min-width:0; }
+.crossing-instruments .fieldset,.steering-purchase .fieldset { padding:0; margin:0; }
+.crossing-instruments button { border:1px solid #a19170; background:#faf6ea; border-radius:3px; padding:8px; cursor:pointer; }
+.crossing-instruments button:disabled { opacity:.45; cursor:default; }
+.crossing-view-buttons { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+.crossing-instruments pre { padding:9px; background:#dddcc7; white-space:pre-wrap; font-size:10px; }
+.crossing-page footer { padding:20px 0; font:11px ui-monospace,monospace; }
+#crossing-scene path { stroke-width:1.4; stroke-linejoin:round; }
+.crossing-monitor { fill:#afc2bb; fill-opacity:.12; stroke:#899d92; }
+.crossing-cabinet,.crossing-cabinet-side { fill:#d6c5a0; fill-opacity:.18; stroke:#a28d67; }
+.crossing-convergence { fill:none; stroke:#a28d67; stroke-width:2.5 !important; }
+.crossing-inner,.crossing-cab-aperture { fill:none; stroke:#598a91; stroke-width:3 !important; }
+.crossing-doll { fill:#c9a88e; fill-opacity:.2; stroke:#a57d62; }
+.crossing-doll-body,.crossing-arc { fill:none; stroke:#a57d62; stroke-dasharray:4 3; }
+.crossing-pin,.crossing-tab { fill:#eee2bb; stroke:#806f48; }
+.crossing-tab-hole { fill:none; stroke:#806f48; }
+.crossing-wedge { fill:#d9b477; fill-opacity:.25; stroke:#b28c49; }
+.crossing-glass { fill:#99cbd0; fill-opacity:.3; stroke:#4b8f9c; }
+.crossing-seam { fill:none; stroke:#b58936; stroke-width:4 !important; }
+.crossing-framework { fill:none; stroke:#a8b5a1; stroke-dasharray:3 6; }
+.crossing-here-square,.crossing-next-square { fill:none; stroke:#8b8ba2; stroke-width:2 !important; }
+.crossing-human-ground { fill:none; stroke:#a28d67; stroke-dasharray:4 5; }
+.crossing-letter-tile { fill:none; stroke:#a5b39c; opacity:.45; }
+.crossing-the-course { fill:none; stroke:#68988e; stroke-width:7 !important; }
+.crossing-public-course { fill:none; stroke:#b3954f; stroke-width:7 !important; }
+.crossing-stick { fill:none; stroke:#3d735d; stroke-width:5 !important; }
+.crossing-passage-face { fill:#9fc5b6; fill-opacity:.10; stroke:#71a392; stroke-width:.6 !important; }
+.crossing-nozzle { fill:none; stroke:#527f73; stroke-width:2 !important; }
+.crossing-cob { fill:#b5c7a4; stroke:#4d7254; }
+.crossing-cob-grasp { fill:none; stroke:#4d7254; stroke-width:3 !important; }
+.crossing-section { fill:none; stroke:#ba705a; stroke-width:4 !important; }
+.crossing-label { fill:#54675b; font:11px ui-monospace,monospace; paint-order:stroke; stroke:#f0ecdd; stroke-width:2px; pointer-events:none; }
+@media(max-width:800px) { .crossing-page { padding:10px; } #crossing-rehearsal { grid-template-columns:minmax(0,1fr); padding:8px; min-height:0; } .crossing-face { aspect-ratio:.72; } .steering-purchase { top:4px; left:4px; right:4px; padding:6px; font-size:8px; } #crossing-wheel { width:66px; height:66px; font-size:22px; border-width:9px; } .crossing-page h1 { font-size:20px; } }

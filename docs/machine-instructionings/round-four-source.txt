@@ -1,0 +1,363 @@
+# GOBS — ELEMENTARY OPENING, ROUND FOUR
+## Second PUFFING, Composed Purchases, Elbow-Macaroni Rail, and the Diorama LOCK
+
+**Project:** PUBLIC-SITUATION-MACHINE-  
+**Working branch:** `experiment/constitutional-motor`  
+**Experimental route:** `/experiments/architecture`  
+**From:** Bill Five / Architecture Hallway  
+**To:** Gobs / Building Hallway  
+**Status:** Authorized experimental implementation instructions, with explicit constitutional boundaries.
+
+---
+
+## 1. PURPOSE OF THIS ROUND
+
+We have completed another architectural rehearsal with the Constitutioning Human.
+
+The principal discovery is that the **second PUFFING furnishes the entire available extent through which the Diorama drawer may subsequently open**.
+
+The first PUFFING furnished JANUSITE volumetric possibility **THROUGH the aperture**.
+
+The second PUFFING inherits that standing and furnishes an additional extent **OVER ACROSS, AROUND ABOUT the globular extent**.
+
+The Human and COB then compose purchases and operate a drawer-like unfolding of the Diorama within that furnished extent.
+
+The drawer's completed course includes a **180-degree elbow-macaroni return around the flat monitor**. When COB's traveling square completes this course, the drawer seats in a stable, deliberately releasable detent.
+
+This is our first experimental mechanical appearance of the **LOCK**.
+
+The LOCK holds the relationship between the front flat-page presentation and the Diorama standing behind it. The Human describes the physical analogy as **a suction cup holding the front of the page to the Diorama coming into standing on the back**.
+
+The LOCK does **not** freeze the Human's Regarding.
+
+This round should produce a small, genuinely operable mechanical apparatus—not merely another static visualization of the architecture.
+
+---
+
+## 2. PRESERVE THE INHERITED CONSTITUTIONAL SEQUENCE
+
+The existing sequence remains:
+
+1. **FIRST PULL** — Initial Diorama Regarding and wireframe geometry come into standing behind the flat monitor presentation.
+2. **FIRST PUFFING** — JANUSITE volumetric possibility is furnished THROUGH the aperture; rounded COB and the inherited aperture become available.
+3. **APPOINT POINTING-ABLE THING** — The Human furnishes the appointed bearing; COB receives and grasps the Pointing-able Thing. Subsequent relevant operations are THROUGH BY COB.
+4. **SECOND PUFFING — NEW** — The full available drawer extent is furnished OVER ACROSS, AROUND ABOUT the globular extent.
+
+Do not reorder or silently replace the first three events.
+
+The second PUFFING is a distinct consequential furnishing. It should have explicit provenance and an appropriate persisted event or equivalent constitutional record consistent with the existing implementation.
+
+The second PUFFING does not itself open the drawer, appoint purchases, lock the Diorama, or accomplish RE-STEP.
+
+---
+
+## 3. MAKE THE SECOND PUFFING PHYSICALLY AND VISUALLY DISTINCT
+
+Use the existing Bellowing Thing as the basis for the Human's second deliberate PUFFING operation.
+
+The first PUFFING acts THROUGH the aperture.
+
+The second PUFFING must visibly stand **AROUND ABOUT the globular extent**, furnishing the additional available extent OVER ACROSS.
+
+Please develop a restrained but legible deterministic presentationing of that distinction.
+
+The Outreading-Menting should stand locally toward the actual furnishing, not in an unrelated explanatory panel.
+
+The Human should be able to understand that something has become available AROUND ABOUT the Globe, and that the available drawer travel has been furnished.
+
+Do not implement the second PUFFING as merely an invisible change to a numerical maximum-distance parameter.
+
+The extent should be observable in the geometry of the apparatus.
+
+The second PUFFING should preserve the first PUFFING's material, COB's standing, the appointed Pointing-able Thing, and its bearing and provenance.
+
+---
+
+## 4. EXPOSE THE DRAWER RAILS
+
+The drawer should have actual visible rails.
+
+The working mechanical geometry is:
+
+- A rail comes into standing FROM XT TOWARD YT.
+- Its course curves UP FROM the bottom.
+- It proceeds around the flat monitor.
+- The completed course includes a **180-degree elbow-macaroni return**.
+- COB's square travels along the furnished course, beginning at the bottom.
+
+The rail must make the difference between **90-degree curvature** and the **completed 180-degree return** intelligible.
+
+The exact spatial projection of the rail may require experimental adjustment, but its governing relation must not be replaced by arbitrary screen-coordinate dragging.
+
+The rail should be visibly inherited from the second PUFFING's furnished extent.
+
+Avoid decorative rails that do not actually govern the movement of the apparatus.
+
+---
+
+## 5. EXPERIMENTAL COMPOSEMENTING OF PURCHASES
+
+We are choosing **experimental composementing**, rather than permanently prepositioned controls.
+
+The Constitutioning Human should be able to help locate the CH and COB square purchases at lawful positions on the furnished apparatus.
+
+**CH square**
+
+- Yellow.
+- Available from the XT side.
+- Furnishes the Human's PUSH BACK into the glass.
+- Its placement should correspond to a real operating purchase.
+
+**COB square**
+
+- Green.
+- Begins at the **bottom** of the apparatus.
+- Is associated with COB's PULLING operation THROUGH BY COB.
+- Travels along the furnished rail, curving UP and completing the 180-degree return around the monitor.
+
+The square should not simply teleport from the bottom to the top when the drawer opens.
+
+Its movement should reveal the rail's course.
+
+### Local Outreading-Mentings
+
+As the Human explores possible purchase locations, show concise, local indications distinguishing:
+
+- Purchase not yet available.
+- Purchase available through the furnished bearing.
+- Purchase accomplished.
+- Coupled operation available.
+
+These are suggested functional states, not mandatory canonical inscriptions.
+
+Do not create an extensive separate control panel below the toy.
+
+The affordmenting and its Outreading-Menting should remain spatially associated.
+
+Handle positioning may remain reversible staging until the appropriate purchase has actually been accomplished.
+
+Do not manufacture additional constitutional events for every pointer movement or hover.
+
+---
+
+## 6. COUPLED PUSH/PULL — ONE DRAWER, ONE PROGRESS
+
+Once the purchases are composed, the Constitutioning Human and COB can operate the drawer together.
+
+The Human PUSHES BACK.
+
+COB PULLS along the furnished rail THROUGH BY COB.
+
+Their operations are coupled at **equal progress through the same opening**.
+
+Please distinguish equal progress of the coupled drawer from equal screen-space displacement: COB's square follows a curved rail, while the CH purchase may move along a different local course.
+
+One shared opening parameter should govern the coordinated mechanical state, with each purchase positioned according to its own furnished geometry.
+
+The drawer's travel must remain bounded by the extent furnished in the second PUFFING.
+
+The drawer is not an independently created Room or an additional constitutional locality.
+
+It is an operable unfolding and presentationing of the inherited Diorama.
+
+---
+
+## 7. THE ELBOW-MACARONI LOCK
+
+The LOCK is not a separate arbitrary button.
+
+The working discovery is:
+
+**COB's traveling square completes the 180-degree elbow-macaroni bend around the flat monitor, and the completed course seats the drawer in a stable detent.**
+
+The resulting holding relation is analogous to a suction cup holding the front of the page to the Diorama standing behind it.
+
+At full extension:
+
+1. COB's square reaches the completed return course.
+2. The drawer seats in a stable mechanical detent.
+3. A concise local confirmationing Outreading-Menting announces the accomplished holding relation.
+4. The drawer remains held until deliberately released.
+
+Provide a deliberate, discoverable release affordmenting so that the experimental apparatus remains reversible.
+
+Release should not destroy the furnished second-PUFFING extent or erase the inherited standing. It releases the holding condition and permits the drawer to be operated again.
+
+The LOCK holds the drawer's presentationing relationship to **THIS HERE APPROACHING LANDINGING**.
+
+It does not lock the Human's gaze, prohibit the flat page, invent a new FROM, or perform RE-STEP.
+
+**Important:** The LOCK is the mechanically accomplished condition of the composed rail operation, not a new free-floating control invented independently of the rail.
+
+---
+
+## 8. RETIRE THE INTRUSIVE YELLOW FLOOR–WALL FOLD
+
+The existing yellow Floor–Wall fold that swings in front of the Diorama and obscures COB and the Globe should be retired.
+
+Do not simply change its opacity.
+
+The Room's Ground Floor and curving Wall–Ceiling remain architectural material, but that particular yellow sheet was not the correct representation of the unfolding.
+
+The new drawer and exposed rail course should make the mechanical opening legible without obscuring the inherited Diorama.
+
+Preserve the existing COB, Globe, wireframe, aperture, and Pointing-able geometry.
+
+In particular, retain COB's four-point grasp and the appointed Pointing-able Thing's origin, tip, direction, and provenance.
+
+---
+
+## 9. THE LITTLE FLICK ON THE POINTING-ABLE THING
+
+Introduce a modest experimental flicking affordmenting on or immediately associated with the Pointing-able Thing's handle.
+
+The Human should be able to perform a small, finger-like flick between:
+
+**FLAT-PAGE REGARDING ↔ DIORAMA REGARDING**
+
+The flick is reversible.
+
+It must preserve:
+
+- The same inherited standing.
+- The drawer's current extension.
+- The LOCK condition.
+- The appointed Pointing-able Thing and COB's grasp.
+- The current relevant Regarding orientation, so the Human can return without losing their place.
+
+Do not treat the flick as a RE-STEP, a relocation of the Human, or the creation of a new Landinging.
+
+If the mature flick mechanism cannot be implemented cleanly without compromising the existing Pointing-able geometry, furnish a clearly provisional local handle affordmenting and document the remaining work.
+
+---
+
+## 10. THE HANGING TAB AND EXISTING PAGE HANDLES
+
+The hanging square tab needs a more perceptible physical response when the Human turns or pivots the page.
+
+Preserve its deterministic gravity-hanging pendulum character, attachment, and damping.
+
+Increase responsiveness to the relevant turning motion rather than adding unrelated continuous oscillation.
+
+The existing four bottom square handles that pivot the planar page about its vertical axis may remain, but distinguish them from the newly composed CH/COB drawer purchases.
+
+Do not silently reinterpret the four page handles as the Steering Wheel.
+
+---
+
+## 11. STEERING WHEEL — PRESERVE THE ARCHITECTURE, DO NOT INVENT IT
+
+The second PUFFING may furnish possibilities for subsequent turning and pivoting purchases, including a Steering Wheel that turns Regarding AROUND ABOUT the Diorama.
+
+The Human may eventually locate or relocate squares toward furnished turning courses, with local Outreading-Mentings announcing available purchase.
+
+However, the exact Steering Wheel mounting, orientation, and mechanical relation to the CH/COB squares are not yet constitutionally settled.
+
+Please preserve this as an explicit future architectural capability.
+
+Do not build an arbitrary free-spinning wheel merely to complete the visual presentation.
+
+The Round Four drawer rails, composed purchases, and LOCK should be designed so that future steering and pivoting can be added without replacing the inherited apparatus.
+
+---
+
+## 12. FUTURE BUTTONINGS, WEDGES, AND ROUNDABOUT REGARDING
+
+Preserve the following in the instructioning reserve, not as mature Round Four implementation.
+
+The Human may eventually flick among Flat-Page, exterior Diorama, and interior Roundabout Regardings of the same furnished standing.
+
+Wedge-shaped Rooms stand ALONG THROUGH fashioned BY-WAYS-OF.
+
+BUTTONINGS govern which material is stood open for Regarding. A Room may be regardable without all its semantical material being exposed.
+
+The Steering Wheel turns Regarding AROUND ABOUT; it does not automatically open BUTTONINGS or select their material.
+
+Tabs standing up from the flat page may eventually support composementing, folding, and selectioning in correspondence with particular wedges and approaching Landingings.
+
+Opening a BUTTONING or changing Regarding does not automatically change the Human's FROM.
+
+Protect the distinction between **STAGING FOR STANDING** and **STANDING FOR STAGING**.
+
+Do not implement mature selectioning, RE-SEATING, POOFING Pockets, RE-ZIPPERING, or RE-STEP in this round.
+
+---
+
+## 13. PERSISTENCE AND CONSTITUTIONAL BOUNDARIES
+
+Please inspect the existing Round Three implementation before modifying it.
+
+Maintain the separation between:
+
+**Consequential furnishing:** First PULL, first PUFFING, Pointing-able appointment, second PUFFING.
+
+**Reversible staging and operationing:** Exploring purchase locations, coupled drawer movement, flicking Regarding, and deliberate release.
+
+**Accomplished mechanical condition:** The drawer's composed and seated LOCK, which should be represented consistently and recoverably without being mistaken for a new constitutional FROM.
+
+Do not silently invent a new persisted event for each visual interaction.
+
+If persistence of the LOCK or composed purchase requires a new record, explain the proposed representation and its constitutional status in your handoff.
+
+Keep presentationing subordinate to standing.
+
+---
+
+## 14. ACCEPTANCE REHEARSAL
+
+Please make it possible to rehearse the following sequence in the browser:
+
+1. Begin with the ordinary flat presentation.
+2. Perform the first PULL and encounter the inherited wireframe Diorama.
+3. Perform the first PUFFING THROUGH the aperture.
+4. Appoint the Pointing-able Thing and observe COB receiving it.
+5. Perform the second PUFFING AROUND ABOUT the globular extent.
+6. See the newly furnished drawer extent and exposed rail course.
+7. Explore and compose the CH and COB square purchases.
+8. Operate the coupled PUSH/PULL, with COB's square visibly traveling from the bottom around the curved rail.
+9. Complete the 180-degree elbow-macaroni return and observe the stable LOCK confirmationing.
+10. Flick between Flat-Page and Diorama Regarding without losing the LOCK or inherited geometry.
+11. Deliberately release the detent and demonstrate reversible drawer operation.
+12. Confirm that none of these reversible operations has silently performed RE-STEP or created a new Landinging.
+
+Please also verify that the Globe, COB, Pointing-able Thing, and relevant geometry remain visible and regardable throughout the intended operation.
+
+---
+
+## 15. IMPLEMENTATION DISCIPLINE AND HANDOFF
+
+Preserve the established source organization and the machine-instructionings archive.
+
+Keep the existing inscriptions and source-status distinctions intact. Do not normalize the project's constitutional morphology.
+
+Protect especially:
+
+- **CUBICAL**, never cubicle.
+- **JANUSITE**.
+- **PITTONING**, with two Ts.
+- **substrationing** and **infrastructioning**.
+- **THROUGHING**, not throwing.
+- **THIS ONE SITUATIONING**, not THIS ONE THING.
+- **COB** as the stewardly co-operating participant, not an autonomous replacement for the Human's appointment.
+
+Run the relevant Phoenix, JavaScript, and browser tests. Where the boundary between Phoenix persistence and JavaScript operationing is touched, perform an explicit cross-system verification.
+
+Please report:
+
+- What was implemented and where.
+- What was changed in the event/persistence model.
+- How the second PUFFING's extent is represented.
+- How the rail course, coupled motion, and stable detent are calculated.
+- Which aspects of composementing remain experimental.
+- What was reserved for the Steering Wheel and BUTTONINGS.
+- Test results and any remaining failures or limitations.
+
+Do not commit or push without explicit authorization if that remains the current working arrangement.
+
+**Governing proposition:**
+
+The second PUFFING furnishes the extent. The Constitutioning Human and COB compose their purchases. Their coupled operation opens the Diorama through that furnished extent. COB's completed elbow-macaroni return seats the drawer in a stable, releasable LOCK. The Human remains free to regard the same inherited standing through the flat page or the Diorama.
+
+**Standing ahead of operationing. Body ahead of theory.**
+
+— Bill Five, Architecture Hallway

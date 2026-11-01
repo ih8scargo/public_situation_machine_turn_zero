@@ -1,0 +1,274 @@
+# GOBS — BOUNDED IMPLEMENTATION PASS
+## COB Comes Alongside: Grasping, Regarding, Four-Wheel NAV-STEPPING, and the Mouse Treadmill
+
+**Project:** PUBLIC-SITUATION-MACHINE-  
+**Working route:** `/experiments/architecture`  
+**Repository:** `~/portal/public_situation_machine_turn_zero`  
+**Status:** Experimental architectural rehearsal — not a canonical completion
+
+### 0. Governing instruction
+
+Recover and improve the already-standing work. Do not replace the successful square appliance shell, resizable Projectioning Crossing, inward Diorama, deterministic JANUSITE course, or current-turn provenance.
+
+This pass concerns one bounded encounter:
+
+**The Constitutioning Human hands the Pretendinging Stick THROUGH the aperture to COB; COB grasps it; the Human takes hold of COB's Regarding; the Human operates WITH COB while COB skates on four wheels along a furnished course.**
+
+Use the October 23 COB implementation, if recoverable in the repository, as a visual and interaction reference. Inspect the existing code and historical material before choosing a recovery method. Do not overwrite the current architecture with the antique implementation.
+
+Preserve the distinction between Human operationing and COB's stewardly participation.
+
+### 1. Recover a recognizable COB
+
+Replace the present abstract COB marker, where appropriate, with a simple, recognizable representation of **THIS ONE STEWARDLY CO-CAPTAIN CO-BOBBINING THING**.
+
+COB has four wheels.
+
+The four wheels must visibly relate to the JANUSITE tacks and traversable surface. As COB advances, turns, and banks, its wheel placement and orientation should remain coherent with the local course geometry.
+
+We are not asking for elaborate vehicle physics or a finished character design. We are asking for a deterministic, inspectable physical relationship between COB, its wheels, and the furnished track.
+
+Retain COB's identity and position across changes of Regarding. Do not duplicate COB when changing cameras.
+
+### 2. Make the Pointing-able Thing appointmenting a genuine handoff
+
+Preserve the current PULL and PUFF sequence and the existing opening through the aperture.
+
+**Do not implement the alternative groundward stick-feed experiment. It has been rejected.**
+
+The Human hands the Pretendinging Stick THROUGH the aperture toward COB.
+
+COB should visibly reach toward the offered stick, grasp it, and take hold.
+
+The Human should experience this as handing an instrument to a companion, not as entering an obscure keyboard command.
+
+Introduce a conspicuous, situated Noticing-Menting when COB is available:
+
+**STAND THIS ONE STEWARDLY CO-CAPTAIN CO-BOBBINING TOWARD APPOINTMENTING THIS ONE POINTING-ABLE THING.**
+
+Include a brief ordinary-language instruction indicating that the Human should take hold of COB.
+
+After taking hold, reveal the relevant handoff gesture and its completion state.
+
+Use mouse-operable interaction as the primary route. Retain keyboard alternatives where useful, but do not require the Human to discover undocumented key sequences.
+
+Appointmenting occurs once. Once furnished, the Pointing-able Thing remains available henceforth therefrom unless a legitimate later operation changes that standing.
+
+Do not build the full COB telephone or consoling surface in this pass. Reserve their future relationship without introducing unsolicited COB speech.
+
+### 3. Furnish the first COB-local, over-the-shoulder Regarding
+
+The present `THROUGH COB` control is not sufficient if it merely tracks COB from outside.
+
+Furnish an actual **TAKE HOLD OF COB'S REGARDING** affordmenting.
+
+When engaged:
+
+- The Human regards from a camera frame situated just UP OVER and behind COB.
+- COB's upper body or shoulders remain partly visible.
+- The Human looks forward THROUGH ALONG the furnished course.
+- The Regarding follows COB's local heading and banking through curves.
+- The course approaches the Human visually from within the tunnel, rather than being watched only from outside.
+
+Provide an obvious way to release COB's Regarding and return to an external Regarding **without changing COB's standing, course progress, or velocity**.
+
+Keep COB's own position and the Human's selected Regarding as differentiated state.
+
+A simple provisional donut-helmet or coupling marker is welcome if it helps make the operation intelligible. Do not build a finished helmet or a new agent.
+
+Preserve the ability to dispatch COB and observe its activity OVER ACROSS from an external Regarding.
+
+### 4. Recover responsive NAV-STEPPING
+
+The current `Skate +`, `Skate −`, and `Pause` buttons were useful for proving deterministic motion. They are not the intended final interaction grammar.
+
+Replace or supplement them with a mouse-directed skating rehearsal.
+
+COB must respond visibly to:
+
+- Increased or decreased traversaling purchase.
+- Human-directed lateral steering within the furnished course.
+- Changes of local heading and banking.
+- The relation of all four wheels to the tacks.
+- Slowing and stopping for inspection.
+
+This is reversible **NAV-STEPPING within the current discrete turn**, not consequential RE-STEP, RE-ZIPPERING, or new constitutional inscriptioning.
+
+Do not require arrow-key driving.
+
+Do not implement a full Traversaling Craft Seat or consequential seating ceremony yet.
+
+Protect the intended future seating locality: COB's Traversaling Craft Seat belongs beneath the aperture, facing inward, so that the Human can regard forward over COB's shoulder. The far end of the Diorama is not COB's seating destination; it may instead furnish a future NEXT APPROACHINGING LANDINGING.
+
+### 5. Build the experimental Mouse Treadmill
+
+This is a priority deliverable.
+
+Furnish a small, mechanically legible, circular **mouse-operated purchase surface** in a stable Human-facing control locality.
+
+The Human moves the mouse pointer onto a purchase region, presses, and holds.
+
+While held, that region furnishes a deterministic amount of purchase toward COB's traversal.
+
+Begin with a modest provisional arrangement, such as:
+
+- Rest / no additional purchase.
+- Gentle accelerating purchase.
+- Working accelerating purchase.
+- Stronger accelerating purchase.
+- Decelerating purchase.
+
+These are **starting settings, not canonical values**.
+
+The Human should be able to see which region is engaged, the purchase it furnishes, and COB's resulting traversal response.
+
+Distinguish commanded purchase from COB's actual velocity. Provide an explicit, deterministic acceleration/deceleration rule and a documented release/coasting rule.
+
+The mouse cannot physically push back, so represent resistance through detents, visible mechanical engagement, dwell, motion, or differing amounts of gesture needed to obtain purchase.
+
+The regions should be inspectable and their arrangement and strength should be configurable in a simple experimental manner. Do not build a large settings administration system. A compact configuration surface or well-documented local parameters are sufficient for this pass.
+
+Holding a region is an operation of an already-appointed affordmenting. It is not repeated appointmenting.
+
+Releasing the mouse button, leaving the relevant interaction region, or losing browser focus must reliably end active purchase.
+
+Keep this **accelerator distinct from the Regarding Steering Wheel**. The accelerator operates COB's traversal; the Steering Wheel will operate the Human's Regarding.
+
+Do not replace the four-square Regarding apparatus with the final wheel during this bounded pass, but preserve a fixed, usable locality for that imminent recovery.
+
+### 6. Introduce a simple stopping-purchase rehearsal
+
+We want to begin testing COB's ability to slow by making purchase upon furnished JANUSITE material.
+
+Provide one reachable, clearly identified sign or sheet along the course that COB can grasp or PITTON upon to slow and come to rest for inspection.
+
+The Human should be able to understand:
+
+1. The sign is approaching.
+2. COB can take hold of it.
+3. COB's motion changes because of the furnished purchase.
+4. The Human can inspect the sign.
+5. COB can release purchase and resume traversaling.
+
+Keep the mechanism deterministic and modest.
+
+Provide a reliable immediate stop for safety and accessibility, separate from the ordinary situated stopping-purchase rehearsal.
+
+Do not build a general-purpose physics engine or the full pinning system.
+
+### 7. Improve the immediate Noticing-Mentings
+
+For the interactions in this pass, the interface must explain **what the Human may do next**.
+
+At minimum, furnish clear contextual guidance for:
+
+- Taking hold of COB.
+- Handing the Pretendinging Stick THROUGH.
+- COB grasping and receiving it.
+- Taking hold of COB's Regarding.
+- Engaging the Mouse Treadmill.
+- Steering and stopping for inspection.
+- Releasing the COB-local Regarding.
+
+After a successful operation, update the relevant notice to acknowledge the new standing and introduce the next available operation.
+
+Do not flood the appliance with all possible instructions at once.
+
+Reuse existing Noticing-Menting and Outreading-Menting mechanisms where practical. A complete General Offices Rail Line is deferred.
+
+Avoid an ambiguous `Return COB` control. If a course-reset function is retained, label it according to what it actually does. Do not conflate resetting COB's course position with bringing COB into the Human's immediate Regarding.
+
+### 8. Protect the standing geometry and provenance
+
+Do not regress:
+
+- The fixed square appliance body and Human-facing CAB.
+- The resizable Projectioning Crossing.
+- The inward volumetric cutaway.
+- The retained CUBICAL and circular/globular source geometry.
+- The shared course and top-down Outreading.
+- Reversible course progress and inspection.
+- JANUSITE supply provenance.
+- The separation between camera changes and standing changes.
+
+Do not turn the Diorama into a prematurely canonical Longhouse Gallery.
+
+Do not infer that the provisional three square/circle pairs are the completed constitutional motor.
+
+The current course may be reused and adjusted for this encounter, but avoid unnecessary wholesale geometry reconstruction.
+
+**APPOINT ONCE. OPERATE HENCEFORTH THEREFROM.**
+
+Do not force a new appointmenting every time COB skates again or the Human uses an already-furnished instrument.
+
+### 9. Explicitly deferred
+
+Do not implement in this pass:
+
+- Full appliance-wide Steering Wheel reconstruction.
+- Full COB telephone and opening-of-the-line ceremony.
+- General Offices Rail Line refurbishment.
+- RE-SOUND or PENDING UN-BUTTONING.
+- Folding the upper-right aperture corner.
+- Full circular Ground Floor rugging.
+- Complete square/circle resolutioning recovery.
+- Slumbering Lanterning Bug appointmentings.
+- Observationing Class bell.
+- PUFF bellows sculpture and tunneling-machine presentation.
+- Full Traversaling Craft Seat embodiment.
+- Doll inscriptioning, Never-Ending Stringing Thing, or Longhouse Gallery.
+- Consequential RE-STEP or RE-ZIPPERING.
+- Production Correspondencing.
+
+Protect these future furnishing opportunities, but do not let them enlarge this pass.
+
+### 10. Acceptance rehearsal
+
+The Human should be able to perform the following sequence without consulting implementation notes:
+
+1. Begin the current encounter and accomplish PULL and PUFF.
+2. Encounter a situated notice directing attention to COB.
+3. Take hold of COB.
+4. Hand the Pretendinging Stick THROUGH the aperture.
+5. See COB grasp and retain the Pointing-able Thing.
+6. Take hold of COB's Regarding.
+7. Look forward over COB's shoulder from inside the tunnel.
+8. Press and hold different Mouse Treadmill purchase regions.
+9. See COB accelerate or decelerate and its four wheels respond to the JANUSITE tacks.
+10. Steer COB laterally along the furnished course.
+11. Take stopping purchase on a sign and inspect it.
+12. Release that purchase and resume skating.
+13. Release the COB-local Regarding and observe COB externally without losing its progress.
+14. Re-enter COB's Regarding and continue within the same discrete turn.
+
+The entire rehearsal must remain reversible and deterministic.
+
+The key experiential test is:
+
+**Does the Constitutioning Human feel that they are operating WITH COB, rather than merely watching COB travel?**
+
+### 11. Verification and reporting
+
+Inspect existing implementation and historical witnesses first. Prefer small, coherent modifications to the standing architecture.
+
+Run relevant Phoenix and JavaScript tests, the asset build, and browser rehearsals.
+
+Test the boundary between Phoenix standing and browser-side Projectioning. Where the contract boundary is touched, coordinate appropriate cross-system testing, including Python/Phoenix checks when applicable.
+
+Report:
+
+- Files changed.
+- Existing COB material recovered or reused.
+- New interaction state and geometry.
+- Mouse Treadmill's provisional purchase and release rules.
+- How wheel-to-tack coherence is computed.
+- Which Noticing-Mentings advance after each operation.
+- How COB-local and external Regardings preserve the same standing.
+- Tests performed and their results.
+- Remaining limitations and unresolved architectural questions.
+
+Provide screenshots or other visual witnesses of the handoff, four-wheel COB, over-the-shoulder Regarding, Mouse Treadmill, and stopping-purchase rehearsal.
+
+**Stop after this bounded pass. Do not commit, merge, or push.**
+
+Return the implementation and report for Richard and Bill's architectural review before proceeding further.
