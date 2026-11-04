@@ -10,6 +10,29 @@ defmodule PublicSituationMachineTurnZero.CrossingRehearsalTest do
         {:crossing_rehearsal, %{"action" => action, "value" => value, "revision" => revision}}
       )
 
+  test "operating reference fixes ground, monitor and head without locating the CH at a measured distance" do
+    reference = C.model(A.new())["operating_reference"]
+    assert reference["monitor"]["origin"] == reference["head_purchase"]
+
+    assert Enum.zip_with(
+             reference["monitor"]["normal"],
+             reference["ground"]["normal"],
+             &(&1 * &2)
+           )
+           |> Enum.sum() == 0
+
+    assert reference["cabinet_outward_extent"] == 3
+    assert reference["cabinet_front_z"] == -3
+    assert Enum.all?(reference["here_square"], fn [_, y, _] -> y == -2.5 end)
+    {:ok, m} = op(A.new(), "pull", 0.5, 0)
+    assert m.standing["crossing_rehearsal"]["operating_reference"] == reference
+
+    assert C.model(A.restore(Jason.decode!(Jason.encode!(m.standing))))["operating_reference"] ==
+             reference
+
+    refute Map.has_key?(C.model(m), "human")
+  end
+
   test "curved reception persists once and view/mode model reads never reset the held Pointing-able Thing" do
     m = A.new()
     assert {:error, :unavailable} = op(m, "receive", 1, 0)

@@ -29,7 +29,7 @@ is still **PROVISIONAL**. The following are not new canonical geometrical consta
 
 ## Two related extents and the opening
 
-`Architecture.ApplianceCutaway.model/1` names A (`appliance-cubical-frame`) and B
+`Architecture.ApplianceCutawa0y.model/1` names A (`appliance-cubical-frame`) and B
 (`local-diorama-cubical-frame`). B retains its relationship to the existing square
 embedding; no second six-section collection is generated. Its recursive children
 remain empty. The original small cube is a retained geometric reference, not a

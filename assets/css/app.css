@@ -7784,3 +7784,10 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 .crossing-section { fill:none; stroke:#ba705a; stroke-width:4 !important; }
 .crossing-label { fill:#54675b; font:11px ui-monospace,monospace; paint-order:stroke; stroke:#f0ecdd; stroke-width:2px; pointer-events:none; }
 @media(max-width:800px) { .crossing-page { padding:10px; } #crossing-rehearsal { grid-template-columns:minmax(0,1fr); padding:8px; min-height:0; } .crossing-face { aspect-ratio:.72; } .steering-purchase { top:4px; left:4px; right:4px; padding:6px; font-size:8px; } #crossing-wheel { width:66px; height:66px; font-size:22px; border-width:9px; } .crossing-page h1 { font-size:20px; } }
+
+.crossing-entrance-wall { fill:#76b9b1; fill-opacity:.035; stroke:#76b9b1; stroke-opacity:.25; stroke-width:.7; }
+
+.crossing-offered-seat { fill:#b5c7a4; fill-opacity:.15; stroke:#4d7254; stroke-dasharray:5 3; }
+.crossing-instruments button[aria-pressed="true"] { background:#d8e3d4; border-color:#4d7254; box-shadow:inset 0 0 0 1px #4d7254; }
+
+.crossing-retained-stick { fill:none; stroke:#527f73; stroke-dasharray:6 5; opacity:.45; }

@@ -13,6 +13,89 @@ companion and inaugural witnesses remain available in their explicit reference
 modes (`companion`, `inaugural`/`appliance`, `early`, `retained`). They are not competing
 new public openings. Their stored standing is not migrated or erased.
 
+## Ground–monitor–head reference correction
+
+The current opening rehearsal now starts from the CH having pulled the square tab
+through the round aperture to open the Toy Box FROM HERE. Rugging for the CH's
+place is assumed furnished; no dispensationaling operation is simulated. Rugging
+and Standinging Landinging remain distinct: the latter stands FROM this CH place.
+
+`ground-monitor-head-v1` fixes the monitor at Z=0, normal +Z, and the computering
+locality floor at Y=-2.5, normal +Y. Their reference planes are perpendicular.
+The Doll-head purchase is [0,0,0] on the monitor plane. The HERE square lies on
+the floor, X=-2.5…2.5 and Z=-3…0. The cabinet's outward presentation extends to
+Z=-3: an extent of 3 toward the operating side. Side approaches connect that
+front to the projected deck-side face, rather than converging on an invented
+Human point 24 units away. The TC belongs to the ordinary operating locality;
+no measured CH distance, actual posture or direction of escalationing is inferred.
+This establishes a reference construction, not completed Craft seating or a new
+TC Weddinging operation.
+
+The reference is included in the Phoenix model and retained with the next pull,
+feed or reception write. Viewing alone does not rewrite saved records. Existing
+appointed instruments remain unchanged. Pulling and Regarding retain the fixed
+floor, monitor and head reference. The old paired 45-degree rotation is still an
+explicit hypothesis, including its midpoint coincidence; this correction does not
+claim to have earned the bend or resolved finite head-aperture clearance.
+
+Validation of this correction: `mix precommit` passed (125 tests, zero failures,
+one existing skip); `mix assets.build` passed; all 61 JavaScript tests passed.
+The new domain test covers reference persistence through JSON restore; the new
+geometry test checks perpendicularity and the fixed purchase over the full pull.
+Browser screenshots below are historical and have not been regenerated for this
+correction.
+
+The coordinate description and Human-ray convergence findings below document the
+previous rehearsal; the fixed reference above supersedes those portions only.
+
+## Located Regards through the same entrance
+
+The opening now offers **Within the CAB · through the Glass**, **Alongside the
+Doll · over the seat**, and **Transverse inspection**. CAB Regard has a local
+perspective origin on the operating side of the pinned-head Glass, looking through
+its center along the entrance tangent. The alongside purchase is above/behind that
+entrance, directed toward the curved extent and offered craft/seat reference.
+These are provisional model offsets, not physical CH measurements or accomplished
+Craft seating. A dashed seat reference at the existing receiving locality is only
+an inspection aid; it adds no operation or inhabited standing.
+
+A transparent envelope around the existing curve discloses an entrance with depth
+and curvature before instrument feed. It is inspection geometry, not a newly
+constituted BY-WAY-OF. The XT 3 toward XT 6 label preserves the requested relation;
+exact correspondence with the earlier quarter-circle remains for review. Additional
+BY-WAY-OFs and YT ends are not fabricated from empty reference geometry.
+
+Roundabout yaw acts on the selected located Regard. Returning to CAB resets its
+view to the head-point purchase. Explicit section selection returns to external
+inspection. All presentations use the same world points. Near-plane clipping
+removes behind-eye geometry rather than projecting it across the view. Regard is
+browser-local: switching it does not write Standing, move FROM, perform passage,
+or change the received instrument. Reload retains the instrument and resets the
+view to external inspection; CAB can then be selected explicitly.
+
+Validation: 125 Phoenix tests passed with one existing skip; 63 JavaScript tests
+passed; asset build passed. `test/browser/located_regards.mjs` checks world-point
+identity, roundabout yaw, deterministic CAB return, unchanged model/reception,
+reload, narrow-screen layout and absence of page errors. Fresh CAB/alongside/mobile
+screenshots were inspected in `/tmp/psm-located-regards`; older witnesses below
+remain historical. Temporary Playwright installation was outside the repository.
+
+## Re-enacting an accomplished appointmenting
+
+After COB receives the stick, the offering slider remains available as local
+re-enactment. **Re-enact appointmenting journey** begins at zero; the slider moves
+both ways through the presentation. **Regard the received stick** restores its
+completed presentation. A dashed retained course and the receipt notice preserve
+the distinction between the recorded instrument and the journey being re-enacted.
+Re-enactment is available even when the steering pull has been reversed. Switching
+Regard retains its progress; reload returns to the completed received presentation.
+
+Replay sends no appointment/feed operations to Phoenix, does not overwrite the
+receipt, and does not enable a second receipt. It uses the held instrument's curve;
+the pre-head offering path remains the existing illustrative approach, not a stored
+historical gesture recording. Browser checks cover zero/partial/full/reverse replay,
+unchanged model and absence of outgoing domain operations, followed by reload.
+
 ## Findings
 
 | Question | Finding |

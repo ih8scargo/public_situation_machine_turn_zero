@@ -243,7 +243,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
           <p>PUBLIC-SITUATION-MACHINE- / GEOMETRY REHEARSAL</p><h1>
             Paired apertures · one inaugural approach
           </h1><p>
-            YOUR VERY OWN SITUATIONING DOLLHOUSE FROM HERE · PULL TO STAND OPEN THE TOY BOX FROM HERE
+            TOY BOX OPEN FROM HERE · GROUND, MONITOR AND PINNED-HEAD REHEARSAL
           </p>
         </header>
         <section
@@ -256,7 +256,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
           <div class="crossing-face">
             <div class="steering-purchase">
               <strong>PULL THE STEERING WHEEL TOWARD YOU TO SEAT YOUR MONITOR WITHIN THE PUBLIC-SITUATION-MACHINE-.</strong><p>
-                Projected seating only. The actual monitor stays where it is.
+                The square tab has opened the Toy Box. Rugging is assumed furnished for your place, distinct from your Standinging Landinging. The monitor reference stands perpendicular to the ground square; your physical posture is not measured.
               </p>
               <button
                 id="crossing-wheel"
@@ -279,11 +279,21 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
               id="crossing-scene"
               viewBox="0 0 1100 1000"
               role="img"
-              aria-label="One fixed geometric model shown in the selected planar section"
+              aria-label="One standing extent regarded from the CAB, alongside the Doll, or in transverse inspection"
             ></svg>
           </div>
           <aside class="crossing-instruments">
-            <strong>REGARDING SLICES · GEOMETRY STAYS FIXED</strong>
+            <strong>REGARDING · SAME STANDING EXTENT</strong>
+            <div class="crossing-view-buttons">
+              <button id="crossing-cab" type="button" aria-pressed="false">Within the CAB · through the Glass</button>
+              <button id="crossing-alongside" type="button" aria-pressed="false">Alongside the Doll · over the seat</button>
+              <button id="crossing-inspection" type="button" aria-pressed="true">Transverse inspection</button>
+            </div>
+            <output id="crossing-regard-status" aria-live="polite"></output>
+            <p>
+              Return to the CAB to regard toward the wall through the Doll-head point. Roundabout Regarding retains the same standing. The entrance envelope rehearses XT 3 toward XT 6; its registration remains for review.
+            </p>
+            <strong>REGARDING SLICES · EXTERNAL INSPECTION</strong>
             <.input
               id="crossing-slice"
               name="crossing-slice"
@@ -322,7 +332,7 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
             <button id="crossing-find-seam" type="button">Regard ALONG THROUGH the SEAM</button><p id="crossing-seam-notice">
               At the pinned head: Looking THROUGHING THROUGHING Glass. Choose its slice; no view moves automatically.
             </p>
-            <label for="crossing-feed">Offer Pretendinging Stick THROUGH the pinned-head aperture</label><.input
+            <label id="crossing-feed-label" for="crossing-feed">Offer Pretendinging Stick THROUGH the pinned-head aperture</label><.input
               id="crossing-feed"
               name="crossing-feed"
               type="range"
@@ -332,6 +342,10 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
               value="0"
               class="crossing-range"
             />
+            <div class="crossing-view-buttons">
+              <button id="crossing-replay" type="button" hidden>Re-enact appointmenting journey</button>
+              <button id="crossing-present" type="button" hidden>Regard the received stick</button>
+            </div>
             <button id="crossing-receive" type="button">COB takes hold · appoint Pointing-able Thing</button>
             <output id="crossing-status" aria-live="polite"></output><pre id="crossing-coordinates"></pre>
             <p>

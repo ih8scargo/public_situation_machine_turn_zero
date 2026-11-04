@@ -1,0 +1,68 @@
+import assert from 'node:assert/strict'
+import {mkdir} from 'node:fs/promises'
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright')
+const out=process.env.WITNESS_DIR||'/tmp/psm-located-regards'
+await mkdir(out,{recursive:true})
+const browser=await chromium.launch({headless:true,args:['--no-sandbox']})
+const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[]
+page.on('pageerror',e=>errors.push(e.message))
+let operations=0;page.on('websocket',ws=>ws.on('framesent',event=>{if(String(event.payload).includes('crossing-rehearsal'))operations++}))
+const host=page.locator('#crossing-rehearsal'),model=()=>host.evaluate(el=>JSON.parse(el.dataset.model))
+const select=async kind=>{await page.locator('#crossing-'+kind).click();await page.waitForFunction(k=>document.querySelector('#crossing-rehearsal').dataset.regard===k,kind)}
+const range=async(id,value)=>page.locator('#'+id).evaluate((el,v)=>{el.value=String(v);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))},value)
+try{
+ await page.goto('http://127.0.0.1:4001/experiments/architecture')
+ await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal')?.dataset.ready==='true')
+ await range('crossing-pull',1)
+ await page.waitForFunction(()=>JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model).pull===1)
+ const initial=await model()
+ const world=await page.locator('#entrance-mouth').getAttribute('data-world-points')
+ await select('cab')
+ const frame=await host.getAttribute('data-frame')
+ assert.ok(await page.locator('[id^="entrance-wall-"]').count()>0)
+ assert.equal(await page.locator('#entrance-mouth').getAttribute('data-world-points'),world)
+ await page.screenshot({path:out+'/01-within-cab.png',fullPage:true})
+ await select('alongside')
+ await page.screenshot({path:out+'/02-alongside.png',fullPage:true})
+ for(const yaw of [-180,-90,0,90,180]){
+  await range('crossing-yaw',yaw)
+  assert.equal(await page.locator('path[d*="NaN"],path[d*="Infinity"]').count(),0)
+  assert.deepEqual(await model(),initial)
+ }
+ await select('cab');assert.equal(await host.getAttribute('data-frame'),frame)
+ assert.equal(await page.locator('#entrance-mouth').getAttribute('data-world-points'),world)
+ await range('crossing-feed',1)
+ await page.waitForFunction(()=>JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model).feed===1)
+ await page.locator('#crossing-receive').click()
+ await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal').dataset.received==='true')
+ const received=await model()
+ const operationCount=operations
+ assert.equal(await page.locator('#crossing-feed').isEnabled(),true)
+ await page.locator('#crossing-replay').click()
+ assert.equal(await host.getAttribute('data-replay'),'0')
+ assert.equal(await page.locator('#pretending-stick-passage').count(),0)
+ assert.equal(await page.locator('#appointed-stick-retained').count(),1)
+ await range('crossing-feed',.5)
+ assert.equal(await host.getAttribute('data-replay'),'0.5')
+ const halfway=await page.locator('#pretending-stick-passage').getAttribute('data-world-points')
+ await select('alongside');assert.equal(await host.getAttribute('data-replay'),'0.5')
+ await range('crossing-feed',1)
+ assert.notEqual(await page.locator('#pretending-stick-passage').getAttribute('data-world-points'),halfway)
+ await range('crossing-feed',.2)
+ await page.screenshot({path:out+'/04-reenactment.png',fullPage:true})
+ assert.deepEqual(await model(),received);assert.equal(operations,operationCount)
+ assert.equal(await page.locator('#crossing-receive').isDisabled(),true)
+ await page.locator('#crossing-present').click()
+ assert.equal(await host.getAttribute('data-replay'),'present')
+ assert.deepEqual(await model(),received)
+
+ for(const kind of ['alongside','inspection','cab']){await select(kind);assert.deepEqual(await model(),received)}
+ await page.reload();await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal')?.dataset.received==='true')
+ assert.deepEqual(await model(),received);assert.equal(await host.getAttribute('data-replay'),'present')
+ await select('cab');assert.equal(await host.getAttribute('data-frame'),frame)
+ await page.setViewportSize({width:390,height:844})
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))
+ await page.screenshot({path:out+'/03-mobile-cab.png',fullPage:true})
+ assert.deepEqual(errors,[])
+ console.log('Located Regards: shared world geometry, roundabout bearings, CAB return, reception/reload, narrow screen and page errors passed. Witnesses: '+out)
+}finally{await browser.close()}

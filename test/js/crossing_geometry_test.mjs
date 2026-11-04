@@ -20,7 +20,7 @@ test('offered reference reaches the pin continuously and swept CUBICAL passage f
  const cut=sectionPolygon([[-1,-1,-1],[1,-1,1],[1,1,1],[-1,1,-1]],{origin:[0,0,0],normal:[0,0,1]});assert.equal(cut.length,2);for(const p of cut)assert.equal(p[2],0)
 })
 
-test('cabinet side courses truly converge on the shared Human reference; finite nozzle clearance is conditional',async()=>{
+test('historical convergence witness remains reproducible; finite nozzle clearance is conditional',async()=>{
  const {convergingPoint,hinge}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`),human=[0,0,-24]
  for(const p of [[-2,-2,0],[2,-2,0],[2,2,0],[-2,2,0]].map(p=>hinge(p,45))){const nearPoint=convergingPoint(p,human);near(nearPoint.map((v,i)=>(v-human[i])/.86),p.map((v,i)=>v-human[i]))}
  // This verifies a finite Glass section, not clearance derived from a zero-width wedge tip.
@@ -33,4 +33,39 @@ test('the existing reference renderer keeps the appointed curved instrument rath
  const oldSource=await readFile(new URL('../../assets/js/elementary_opening.js',import.meta.url),'utf8'),{retainedInstrumentPoints}=await import(`data:text/javascript;base64,${Buffer.from(oldSource).toString('base64')}`),contract=JSON.parse(await readFile(new URL('../../docs/visual-witnesses/paired-apertures/appointed-contract.json',import.meta.url)))
  const stick=contract.stick,before=JSON.stringify(stick),points=retainedInstrumentPoints(stick,{tip:stick.tip,direction:stick.direction})
  assert.equal(points.length,65);for(let i=0;i<points.length;i++)near(points[i],stick.curve.samples[i]);assert.equal(JSON.stringify(stick),before)
+})
+
+test('ground-monitor reference and pinned purchase remain fixed throughout the pull',()=>{
+ const reference={head_purchase:[0,0,0],monitor:{origin:[0,0,0],normal:[0,0,1]},ground:{origin:[0,-2.5,0],normal:[0,1,0]}}
+ const before=JSON.stringify(reference)
+ for(let i=0;i<=100;i++){
+  const g=pairedGeometry(i/100,reference)
+  near(g.pin,reference.monitor.origin)
+  assert.deepEqual(g.planes.ground,reference.ground)
+  assert.deepEqual(g.planes.monitor,reference.monitor)
+  assert.equal(g.planes.monitor.normal.reduce((sum,v,j)=>sum+v*g.planes.ground.normal[j],0),0)
+ }
+ assert.equal(JSON.stringify(reference),before)
+})
+
+test('CAB looks through the head Glass; alongside and roundabout Regard preserve world geometry',async()=>{
+ const {locatedRegard,projectLocated}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`)
+ const pin=[0,0,0],curve=passage(),before=JSON.stringify(curve),cab=locatedRegard('cab',pin)
+ near(projectLocated(pin,cab).point,[550,500]);assert.ok(projectLocated(pin,cab).depth>0)
+ assert.ok(projectLocated(curve.at(-1),cab).depth>projectLocated(pin,cab).depth)
+ const alongside=locatedRegard('alongside',pin)
+ assert.ok(alongside.origin[1]>pin[1]);assert.notDeepEqual(alongside.origin,cab.origin)
+ for(const kind of ['cab','alongside'])for(const yaw of [-180,-90,0,90,180]){
+  const frame=locatedRegard(kind,pin,yaw)
+  for(const p of curve){const view=projectLocated(p,frame);assert.ok(view.point.every(Number.isFinite))}
+  near(frame.purchase,pin)
+ }
+ assert.equal(JSON.stringify(curve),before);assert.deepEqual(locatedRegard('cab',pin),cab)
+})
+test('located view clips behind-eye polygons and crossing lines at a positive near plane',async()=>{
+ const {locatedPath}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`)
+ const view=p=>({point:[p[0]/Math.max(.08,p[2]),p[1]/Math.max(.08,p[2])],depth:p[2]})
+ assert.equal(locatedPath([[0,0,-2],[1,0,-1]],view),'')
+ assert.equal(locatedPath([[0,0,-2],[1,0,-1],[0,1,-1]],view,true),'')
+ for(const closed of [false,true]){const d=locatedPath([[-1,0,-1],[1,0,1],[0,1,1]],view,closed);assert.ok(d.startsWith('M'));assert.ok(!/NaN|Infinity/.test(d))}
 })

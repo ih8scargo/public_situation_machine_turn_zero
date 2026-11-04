@@ -9,6 +9,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CrossingRehearsalLiveTest do
     r = Store.create()
     {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}")
     assert has_element?(v, "#crossing-wheel")
+    assert has_element?(v, "#crossing-cab")
+    assert has_element?(v, "#crossing-alongside")
+    assert has_element?(v, "#crossing-inspection")
+    assert has_element?(v, "#crossing-regard-status")
     refute has_element?(v, "#inaugural-third-puff")
 
     for {action, value, revision} <- [{"pull", 1, 0}, {"feed", 1, 1}, {"receive", 1, 2}] do

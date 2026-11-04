@@ -2,6 +2,23 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
   @moduledoc "Bounded paired-aperture hypothesis through reception only. View and slice are never constitutional transforms."
   alias PublicSituationMachineTurnZero.Architecture, as: A
   @version "paired-apertures-v1"
+  def operating_reference do
+    %{
+      "version" => "ground-monitor-head-v1",
+      "monitor" => %{"origin" => [0, 0, 0], "normal" => [0, 0, 1]},
+      "ground" => %{"origin" => [0, -2.5, 0], "normal" => [0, 1, 0]},
+      "head_purchase" => [0, 0, 0],
+      "cabinet_outward_extent" => 3,
+      "cabinet_front_z" => -3,
+      "here_square" => [[-2.5, -2.5, -3], [2.5, -2.5, -3], [2.5, -2.5, 0], [-2.5, -2.5, 0]],
+      "tc_locality" =>
+        "ordinary operating locality; no physical direction or distance stipulated",
+      "place" => "CH place; rugging assumed furnished for this rehearsal",
+      "standinging_landinging" => "stands FROM this CH place; distinct from rugging",
+      "basis" => "Toy Box already opened FROM HERE by square tab through round aperture"
+    }
+  end
+
   def model(m) do
     received = A.complete?(m)
 
@@ -18,7 +35,7 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
       "received" => received,
       "pin" => [0, 0, 0],
       "monitor_normal" => [0, 0, 1],
-      "human" => [0, 0, -24],
+      "operating_reference" => state["operating_reference"] || operating_reference(),
       "framework" => [5, 5, 6],
       "words" => [
         %{"text" => "THE", "count" => 3},
@@ -121,7 +138,7 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
   defp save(m, s) do
     state =
       s
-      |> Map.take(["revision", "pull", "feed", "appointed_passage"])
+      |> Map.take(["revision", "pull", "feed", "appointed_passage", "operating_reference"])
       |> Map.update!("revision", &(&1 + 1))
 
     %{m | standing: Map.put(m.standing, "crossing_rehearsal", state)}
