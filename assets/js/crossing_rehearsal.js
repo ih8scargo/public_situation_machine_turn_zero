@@ -11,6 +11,16 @@ export function indexedCourse(){
  const words=['THE','PUBLIC','SITUATION','MACHINE'];let index=0
  return words.flatMap(word=>[...word].map((letter,j)=>{const i=index++;let start=null,end=null;if(i<3){start=[-1.4+i,0,0];end=[-.4+i,0,0]}else if(i<9){start=[1.6,0,i-3];end=[1.6,0,i-2]}return {index:i+1,letter,word,wordIndex:j+1,tile:[i%5-2,2-Math.floor(i/5),6],start,end}}))
 }
+// Interpolate the domain-supplied inscription; no camera or receipt writes.
+export function inscriptionPose(resolution,purchase){
+ const p=Math.max(0,Math.min(resolution.letters.length,Number(purchase)||0)),letterIndex=Math.max(0,Math.ceil(p)-1),letter=resolution.letters[letterIndex]
+ const local=p-letterIndex,scaled=local*(letter.samples.length-1),i=Math.min(letter.samples.length-2,Math.floor(scaled)),f=scaled-i
+ const point=letter.samples[i].point.map((v,axis)=>v+(letter.samples[i+1].point[axis]-v)*f)
+ const relations=resolution.relations.filter(r=>letter.relations.includes(r.id))
+ const twist=Math.abs(p-resolution.twist.purchase)<1e-8,end=p===resolution.letters.length
+ const reading=end?resolution.end_bearing:twist?'N in SITUATION · twist purchase; physical twist unresolved':relations.map(r=>r.bearing).filter(Boolean).join(' / ')
+ return {purchase:p,letter,point,relations,twist,end,reading}
+}
 export function passage(stick=null){
  if(stick?.curve?.samples)return stick.curve.samples.map(p=>[...p])
  if(stick){const tip=stick.tip,dir=stick.direction;return Array.from({length:65},(_,i)=>{const t=i/64,u=1-t;return add(scale([.8,0,0],3*u*u*t),add(scale(sub(tip,scale(dir,.8)),3*u*t*t),scale(tip,t*t*t)))})}
@@ -42,9 +52,9 @@ const circle=(center,r,angle=0)=>Array.from({length:65},(_,i)=>add(center,hinge(
 const box=(min,max)=>{const v=Array.from({length:8},(_,i)=>[i&1?max[0]:min[0],i&2?max[1]:min[1],i&4?max[2]:min[2]]);return v.flatMap((p,i)=>[1,2,4].filter(b=>(i&b)===0).map(b=>[p,v[i|b]]))}
 export const CrossingRehearsal={
  mounted(){
-  this.svg=this.el.querySelector('#crossing-scene');this.pull=0;this.feed=0;this.yaw=-30;this.elevation=15;this.slice='all';this.regard='inspection';this.locatedYaw=0;this.replayFeed=null;this.read=()=>{this.model=JSON.parse(this.el.dataset.model);if(!this.drag&&!this.saving){this.pull=this.model.pull;this.feed=this.model.feed}this.draw()}
+  this.svg=this.el.querySelector('#crossing-scene');this.pull=0;this.feed=0;this.yaw=-30;this.elevation=15;this.slice='all';this.regard='inspection';this.locatedYaw=0;this.replayFeed=null;this.inscriptionPurchase=0;this.read=()=>{this.model=JSON.parse(this.el.dataset.model);if(!this.drag&&!this.saving){this.pull=this.model.pull;this.feed=this.model.feed}this.draw()}
   this.commit=(action,value)=>{if(this.saving||this.el.dataset.ready!=='true')return;this.saving=true;this.pushEvent('crossing-rehearsal',{action,value,revision:this.model.revision},()=>{this.saving=false;this.read()})}
-  this.input=e=>{if(e.target.id==='crossing-pull')this.pull=Number(e.target.value);if(e.target.id==='crossing-feed'){if(this.model.received)this.replayFeed=Number(e.target.value);else this.feed=Number(e.target.value)};if(e.target.id==='crossing-yaw'){if(this.regard==='inspection')this.yaw=Number(e.target.value);else this.locatedYaw=Number(e.target.value)};if(e.target.id==='crossing-slice'){this.regard='inspection';this.slice=e.target.value};this.draw()}
+  this.input=e=>{if(e.target.id==='crossing-inscription')this.inscriptionPurchase=Number(e.target.value);if(e.target.id==='crossing-pull')this.pull=Number(e.target.value);if(e.target.id==='crossing-feed'){if(this.model.received)this.replayFeed=Number(e.target.value);else this.feed=Number(e.target.value)};if(e.target.id==='crossing-yaw'){if(this.regard==='inspection')this.yaw=Number(e.target.value);else this.locatedYaw=Number(e.target.value)};if(e.target.id==='crossing-slice'){this.regard='inspection';this.slice=e.target.value};this.draw()}
   this.change=e=>{if(e.target.id==='crossing-pull')this.commit('pull',this.pull);if(e.target.id==='crossing-feed'&&!this.model.received)this.commit('feed',this.feed)}
   this.down=e=>{if(e.target.closest('#crossing-wheel')&&e.button===0){e.preventDefault();this.drag={id:e.pointerId,y:e.clientY,start:this.pull};e.target.setPointerCapture(e.pointerId)}}
   this.move=e=>{if(this.drag?.id===e.pointerId){this.pull=Math.max(0,Math.min(1,this.drag.start+(e.clientY-this.drag.y)/160));this.draw()}}
@@ -86,8 +96,28 @@ export const CrossingRehearsal={
   label('reference-right-angle',[0,-2.25,0],'GROUND / MONITOR · 90°')
   path('next-approaching-square',rect(.6,.6,0).map(p=>add(p,[1.6,1.5,6])),'next-square',true);label('next-label',[1.6,2.3,6],'THIS NEXT APPROACHING LANDINGING · ACROSS')
   for(const item of indexedCourse()){
-   if(item.start){path(`indexed-extent-${item.index}`,[item.start,item.end],item.word==='THE'?'the-course':'public-course');label(`indexed-letter-${item.index}`,add(scale(add(item.start,item.end),.5),[0,.22,0]),`${item.index} ${item.letter}`)}
+   if(item.start&&!this.model.inscription_resolution){path(`indexed-extent-${item.index}`,[item.start,item.end],item.word==='THE'?'the-course':'public-course');label(`indexed-letter-${item.index}`,add(scale(add(item.start,item.end),.5),[0,.22,0]),`${item.index} ${item.letter}`)}
    const [x,y,z]=item.tile;path(`letter-tile-${item.index}`,rect(.42,.42,0).map(p=>add(p,[x,y,z])),'letter-tile',true);label(`tile-label-${item.index}`,[x,y,z],`${item.index} ${item.letter}`)
+  }
+  const resolution=this.model.inscription_resolution
+  if(resolution){
+   for(const letter of resolution.letters){
+    path(letter.id+'-course',letter.samples.map(s=>s.point),'resolution-course')
+    const middle=letter.samples[Math.floor(letter.samples.length/2)]
+    label(letter.id+'-label',add(middle.point,scale(sub(middle.edges[1],middle.point),2)),letter.letter)
+    if(letter.relations.includes('public-situation-face'))for(let i=1;i<letter.samples.length;i++){
+     const a=letter.samples[i-1],b=letter.samples[i]
+     path(letter.id+'-face-'+i,[a.edges[0],a.edges[1],b.edges[1],b.edges[0]],'resolution-face',true)
+    }
+   }
+   const n=resolution.letters.find(l=>l.id===resolution.twist.letter_id).samples.at(-1).point
+   path('inscription-n-twist',circle(n,.12),'resolution-twist',true)
+   label('inscription-n-label',add(n,[0,.3,0]),'N · TWIST PURCHASE')
+   const pose=inscriptionPose(resolution,this.inscriptionPurchase)
+   path('inscription-purchase',circle(pose.point,.07),'resolution-purchase',true)
+   this.el.dataset.inscriptionPurchase=String(pose.purchase)
+   const range=this.el.querySelector('#crossing-inscription'),status=this.el.querySelector('#crossing-inscription-status')
+   range.value=pose.purchase;status.textContent=`${pose.letter.word} · ${pose.reading}`
   }
   const replaying=this.model.received&&this.replayFeed!==null,displayFeed=replaying?this.replayFeed:this.feed
   const curve=passage(this.model.stick),full=[...offeredPath(),...curve.slice(1)],count=Math.max(2,Math.round(displayFeed*(full.length-1))+1),shown=full.slice(0,count)

@@ -37,6 +37,8 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
       "monitor_normal" => [0, 0, 1],
       "operating_reference" => state["operating_reference"] || operating_reference(),
       "framework" => [5, 5, 6],
+      "inscription_resolution" =>
+        PublicSituationMachineTurnZero.Architecture.InscriptionResolution.model(),
       "words" => [
         %{"text" => "THE", "count" => 3},
         %{"text" => "PUBLIC", "count" => 6},

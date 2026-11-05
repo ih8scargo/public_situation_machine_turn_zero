@@ -69,3 +69,21 @@ test('located view clips behind-eye polygons and crossing lines at a positive ne
  assert.equal(locatedPath([[0,0,-2],[1,0,-1],[0,1,-1]],view,true),'')
  for(const closed of [false,true]){const d=locatedPath([[-1,0,-1],[1,0,1],[0,1,1]],view,closed);assert.ok(d.startsWith('M'));assert.ok(!/NaN|Infinity/.test(d))}
 })
+
+test('inscription inspection interpolates supplied samples without changing geometry or standing; N and end remain distinct purchases',async()=>{
+ const {inscriptionPose}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`)
+ const words=['THE','PUBLIC','SITUATION','MACHINE'];let index=0
+ const resolution={letters:words.flatMap(word=>[...word].map(letter=>{
+  const i=index++;return {id:`inscription-letter-${i+1}`,letter,word,relations:[word==='MACHINE'?'return':'face'],samples:[{point:[i,0,0]},{point:[i+1,0,0]}]}
+ })),relations:[{id:'face',bearing:'XT toward YT'},{id:'return',bearing:'YT toward YT'}],twist:{purchase:18},end_bearing:'XT toward XT'}
+ const before=JSON.stringify(resolution)
+ near(inscriptionPose(resolution,9.25).point,[9.25,0,0])
+ assert.equal(inscriptionPose(resolution,18).letter.letter,'N')
+ assert.equal(inscriptionPose(resolution,18).twist,true)
+ assert.equal(inscriptionPose(resolution,18).end,false)
+ assert.equal(inscriptionPose(resolution,18.1).letter.word,'MACHINE')
+ assert.equal(inscriptionPose(resolution,18.1).reading,'YT toward YT')
+ assert.equal(inscriptionPose(resolution,25).reading,'XT toward XT')
+ near(inscriptionPose(resolution,99).point,[25,0,0]);near(inscriptionPose(resolution,-1).point,[0,0,0])
+ assert.equal(JSON.stringify(resolution),before)
+})

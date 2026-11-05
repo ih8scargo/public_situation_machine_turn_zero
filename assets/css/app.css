@@ -7791,3 +7791,9 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 .crossing-instruments button[aria-pressed="true"] { background:#d8e3d4; border-color:#4d7254; box-shadow:inset 0 0 0 1px #4d7254; }
 
 .crossing-retained-stick { fill:none; stroke:#527f73; stroke-dasharray:6 5; opacity:.45; }
+
+/* Inscription resolution: the same world geometry in every located Regard. */
+.crossing-resolution-course { fill:none; stroke:#487c73; stroke-width:2; }
+.crossing-resolution-face { fill:#76b9b1; fill-opacity:.2; stroke:#487c73; stroke-opacity:.25; stroke-width:.5; }
+.crossing-resolution-twist { fill:#b3954f; fill-opacity:.65; stroke:#81692e; }
+.crossing-resolution-purchase { fill:#487c73; stroke:#f0ecdd; stroke-width:1; }

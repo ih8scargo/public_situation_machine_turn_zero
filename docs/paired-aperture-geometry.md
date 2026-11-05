@@ -1,3 +1,5 @@
+Current inscription extension: [THE/PUBLIC bend, shared face, N twist purchase and MACHINE return](inscription-resolutioning.md). This adds derived resolutioning inspection; reception and consequential-operation boundaries remain as described below.
+
 # Paired-aperture geometry rehearsal — November 1, 2026
 
 The default `/experiments/architecture` is now a bounded geometry instrument through

@@ -293,6 +293,21 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
             <p>
               Return to the CAB to regard toward the wall through the Doll-head point. Roundabout Regarding retains the same standing. The entrance envelope rehearses XT 3 toward XT 6; its registration remains for review.
             </p>
+            <label for="crossing-inscription">Follow THE PUBLIC SITUATION MACHINE</label>
+            <.input
+              id="crossing-inscription"
+              name="crossing-inscription"
+              type="range"
+              min="0"
+              max="25"
+              step="0.05"
+              value="0"
+              aria-label="Follow the inscription from THE through MACHINE"
+            />
+            <output id="crossing-inscription-status" aria-live="polite"></output>
+            <p>
+              The arcs carry one inscription. PUBLIC belongs to both bend and face; N marks the twist. Arc dimensions are provisional; the physical twist remains open.
+            </p>
             <strong>REGARDING SLICES · EXTERNAL INSPECTION</strong>
             <.input
               id="crossing-slice"
