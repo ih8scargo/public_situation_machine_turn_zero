@@ -13,6 +13,8 @@ try{
   await page.locator('#'+id).evaluate(el=>{el.value='1';el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))})
   await page.waitForFunction(field=>JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model)[field]===1,id==='crossing-pull'?'pull':'feed')
  }
+ await page.locator('#crossing-lock').click()
+ await page.waitForFunction(()=>!!JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model).registration)
  await page.locator('#crossing-receive').click()
  await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal').dataset.received==='true')
  const before=await model()

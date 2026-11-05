@@ -10,6 +10,23 @@ defmodule PublicSituationMachineTurnZero.CrossingRehearsalTest do
         {:crossing_rehearsal, %{"action" => action, "value" => value, "revision" => revision}}
       )
 
+  test "registration is deliberate, durable, revision guarded, and releasable without changing FROM" do
+    m = A.new()
+    assert {:error, :unavailable} = op(m, "lock", 1, 0)
+    {:ok, m} = op(m, "pull", 1.0, 0)
+    assert C.model(m)["registration"] == nil
+    assert {:error, :unavailable} = op(m, "lock", 1, 0)
+    {:ok, locked} = op(m, "lock", 1, 1)
+    restored = A.restore(Jason.decode!(Jason.encode!(locked.standing)))
+    assert C.model(restored)["registration"]["operation"] == "CH aperture registration LOCK"
+    assert {:error, :unavailable} = op(restored, "pull", 0, 2)
+    {:ok, released} = op(restored, "unlock", 1, 2)
+    assert C.model(released)["registration"] == nil
+    assert released.standing["from"] == m.standing["from"]
+    assert released.standing["events"] == m.standing["events"]
+    {:ok, _} = op(released, "pull", 0, 3)
+  end
+
   test "operating reference fixes ground, monitor and head without locating the CH at a measured distance" do
     reference = C.model(A.new())["operating_reference"]
     assert reference["monitor"]["origin"] == reference["head_purchase"]
@@ -39,14 +56,18 @@ defmodule PublicSituationMachineTurnZero.CrossingRehearsalTest do
     assert {:error, :unavailable} = op(m, "feed", 1, 0)
     {:ok, m} = op(m, "pull", 1, 0)
     {:ok, m} = op(m, "feed", 1, 1)
-    {:ok, m} = op(m, "receive", 1, 2)
+    assert {:error, :unavailable} = op(m, "receive", 1, 2)
+    {:ok, m} = op(m, "lock", 1, 2)
+    assert {:error, :unavailable} = op(m, "pull", 0, 3)
+    {:ok, m} = op(m, "receive", 1, 3)
     assert C.model(m)["received"]
     stick = m.standing["opening_geometry"]["stick"]
     assert length(stick["curve"]["samples"]) == 65
     assert hd(stick["curve"]["samples"]) == [0.0, 0, 0.0]
     assert List.last(stick["curve"]["samples"]) == stick["tip"]
-    assert {:error, :unavailable} = op(m, "receive", 1, 3)
-    {:ok, reversed} = op(m, "pull", 0, 3)
+    assert {:error, :unavailable} = op(m, "receive", 1, 4)
+    {:ok, m} = op(m, "unlock", 1, 4)
+    {:ok, reversed} = op(m, "pull", 0, 5)
     assert reversed.standing["opening_geometry"]["stick"] == stick
 
     for read <- [

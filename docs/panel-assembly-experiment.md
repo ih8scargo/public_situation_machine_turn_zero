@@ -76,3 +76,29 @@ near-plane clipping, located Regards and section machinery.
 
 These observations establish a first panel inventory and assembly comparison.
 They do not settle the full architectural composition or mechanical registration.
+
+## Approach correction: lower steering purchase and explicit registration
+
+The steering notice, wheel and pull now occupy a separate lower strip below the
+SVG. Neither desktop nor narrow-screen layout overlays the reserved Regarding
+projection. The SVG retains its own bounded display region.
+
+The CH now deliberately uses **Lock aperture registration** after completing the
+steering pull. Reaching the endpoint alone does not lock. This stores an explicit
+registration relation with the head purchase, cabinet/Doll bearings and its
+shared-hinge hypothesis basis. LOCK survives reload and prevents steering changes;
+**Release registration** relinquishes that relation before another steering pull.
+New instrument receipt requires the explicit registration. Previously received
+instruments are retained without inventing a historical LOCK for them.
+
+This carries an explicit approach action into the paired-aperture rehearsal. It
+holds the appointed bearing; it does not prove that the current trial dimensions
+resolve all finite aperture or material clearance questions. Independent panel
+folds remain local alternatives for comparison, not changes to the locked apparatus.
+The older drawer-return LOCK remains a separate retained mechanical rehearsal.
+
+Validation: 129 application tests (zero failures, one existing skip), 67 JavaScript
+tests; browser checks cover lower-strip separation on desktop/mobile, explicit
+LOCK, disabled steering, persisted registration and release. Domain tests reject
+premature and stale LOCK, prevent locked steering and preserve FROM/events on
+release. Receipt tests now explicitly furnish registration.

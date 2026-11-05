@@ -258,6 +258,11 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
               <strong>PULL THE STEERING WHEEL TOWARD YOU TO SEAT YOUR MONITOR WITHIN THE PUBLIC-SITUATION-MACHINE-.</strong><p>
                 The square tab has opened the Toy Box. Rugging is assumed furnished for your place, distinct from your Standinging Landinging. The monitor reference stands perpendicular to the ground square; your physical posture is not measured.
               </p>
+              <div class="crossing-view-buttons">
+                <button id="crossing-lock" type="button" disabled>Lock aperture registration</button>
+                <button id="crossing-unlock" type="button" disabled>Release registration</button>
+              </div>
+              <output id="crossing-registration" aria-live="polite"></output>
               <button
                 id="crossing-wheel"
                 type="button"

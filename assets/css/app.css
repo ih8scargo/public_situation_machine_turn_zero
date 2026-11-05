@@ -7803,3 +7803,12 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 .crossing-assembly-doll { fill: #f59e0b25; stroke: #d97706; stroke-width: 2.5; }
 .crossing-assembly-hinge { fill: none; stroke: #e11d48; stroke-width: 4; }
 #panel-inventory, #panel-observations { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* Reserve the whole projection above a separate lower steering purchase. */
+.crossing-face { display:flex; flex-direction:column; aspect-ratio:auto; }
+#crossing-scene { display:block; order:0; width:100%; height:auto; aspect-ratio:1.1; flex:none; }
+.steering-purchase { position:static; order:1; margin:12px; flex:none; }
+.steering-purchase .crossing-view-buttons { margin:8px 0; }
+.steering-purchase button:disabled { opacity:.5; cursor:default; }
+#crossing-registration { display:block; }
+@media(max-width:800px) { .crossing-face { aspect-ratio:auto; } .steering-purchase { margin:4px; } }

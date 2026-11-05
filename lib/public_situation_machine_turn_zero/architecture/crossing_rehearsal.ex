@@ -33,6 +33,7 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
     Map.merge(state, %{
       "version" => @version,
       "received" => received,
+      "registration" => state["registration"],
       "pin" => [0, 0, 0],
       "monitor_normal" => [0, 0, 1],
       "operating_reference" => state["operating_reference"] || operating_reference(),
@@ -68,9 +69,27 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
     end
   end
 
+  defp change(m, %{"pull" => pull, "registration" => nil} = s, %{"action" => "lock"})
+       when pull == 1 do
+    registration = %{
+      "operation" => "CH aperture registration LOCK",
+      "cabinet_degrees" => 0,
+      "doll_degrees" => 45,
+      "pin" => [0, 0, 0],
+      "basis" => "completed steering pull; shared-head hinge hypothesis"
+    }
+
+    {:ok, save(m, Map.put(s, "registration", registration))}
+  end
+
+  defp change(m, %{"registration" => registration} = s, %{"action" => "unlock"})
+       when is_map(registration),
+       do: {:ok, save(m, Map.put(s, "registration", nil))}
+
   defp change(m, s, %{"action" => action, "value" => value})
        when action in ["pull", "feed"] and is_number(value) and value >= 0 and value <= 1 do
-    if action == "feed" && (s["pull"] < 1 || s["received"]) do
+    if (action == "pull" && is_map(s["registration"])) ||
+         (action == "feed" && (s["pull"] < 1 || s["received"])) do
       {:error, :unavailable}
     else
       key = if(action == "pull", do: "pull", else: "feed")
@@ -78,8 +97,12 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
     end
   end
 
-  defp change(m, %{"received" => false, "pull" => p, "feed" => f} = s, %{"action" => "receive"})
-       when p == 1 and f == 1 do
+  defp change(
+         m,
+         %{"received" => false, "pull" => p, "feed" => f, "registration" => registration} = s,
+         %{"action" => "receive"}
+       )
+       when p == 1 and f == 1 and is_map(registration) do
     # The existing opening supplies its retained prerequisites; no later PUFFING is performed.
     with {:ok, m} <- prepare(m),
          samples <- for(i <- 0..64, do: point(i / 64)),
@@ -140,7 +163,14 @@ defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
   defp save(m, s) do
     state =
       s
-      |> Map.take(["revision", "pull", "feed", "appointed_passage", "operating_reference"])
+      |> Map.take([
+        "revision",
+        "pull",
+        "feed",
+        "appointed_passage",
+        "operating_reference",
+        "registration"
+      ])
       |> Map.update!("revision", &(&1 + 1))
 
     %{m | standing: Map.put(m.standing, "crossing_rehearsal", state)}

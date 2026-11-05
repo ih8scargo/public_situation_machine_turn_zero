@@ -21,7 +21,12 @@ defmodule PublicSituationMachineTurnZeroWeb.CrossingRehearsalLiveTest do
     assert has_element?(v, "#crossing-regard-status")
     refute has_element?(v, "#inaugural-third-puff")
 
-    for {action, value, revision} <- [{"pull", 1, 0}, {"feed", 1, 1}, {"receive", 1, 2}] do
+    for {action, value, revision} <- [
+          {"pull", 1, 0},
+          {"feed", 1, 1},
+          {"lock", 1, 2},
+          {"receive", 1, 3}
+        ] do
       render_hook(v, "crossing-rehearsal", %{
         "action" => action,
         "value" => value,

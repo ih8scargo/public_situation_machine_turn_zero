@@ -33,6 +33,8 @@ try{
  assert.equal(await page.locator('#entrance-mouth').getAttribute('data-world-points'),world)
  await range('crossing-feed',1)
  await page.waitForFunction(()=>JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model).feed===1)
+ await page.locator('#crossing-lock').click()
+ await page.waitForFunction(()=>!!JSON.parse(document.querySelector('#crossing-rehearsal').dataset.model).registration)
  await page.locator('#crossing-receive').click()
  await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal').dataset.received==='true')
  const received=await model()

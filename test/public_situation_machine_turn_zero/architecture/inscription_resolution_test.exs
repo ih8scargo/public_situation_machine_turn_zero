@@ -52,8 +52,10 @@ defmodule PublicSituationMachineTurnZero.Architecture.InscriptionResolutionTest 
     {:ok, m} = CrossingRehearsal.operate(m, %{"action" => "pull", "value" => 1, "revision" => 0})
     {:ok, m} = CrossingRehearsal.operate(m, %{"action" => "feed", "value" => 1, "revision" => 1})
 
+    {:ok, m} = CrossingRehearsal.operate(m, %{"action" => "lock", "revision" => 2})
+
     {:ok, m} =
-      CrossingRehearsal.operate(m, %{"action" => "receive", "value" => 1, "revision" => 2})
+      CrossingRehearsal.operate(m, %{"action" => "receive", "value" => 1, "revision" => 3})
 
     before = m.standing
     expected = CrossingRehearsal.model(m)["inscription_resolution"]
