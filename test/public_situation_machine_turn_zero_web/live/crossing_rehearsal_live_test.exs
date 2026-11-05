@@ -8,6 +8,10 @@ defmodule PublicSituationMachineTurnZeroWeb.CrossingRehearsalLiveTest do
        %{conn: conn} do
     r = Store.create()
     {:ok, v, _} = live(conn, ~p"/experiments/architecture?id=#{r.id}")
+    assert has_element?(v, "#panel-view")
+    assert has_element?(v, "#panel-cabinet")
+    assert has_element?(v, "#panel-doll")
+    assert has_element?(v, "#panel-observations")
     assert has_element?(v, "#crossing-wheel")
     assert has_element?(v, "#crossing-inscription")
     assert has_element?(v, "#crossing-inscription-status")

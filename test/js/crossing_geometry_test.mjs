@@ -1,7 +1,8 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {readFile} from 'node:fs/promises'
-const source=await readFile(new URL('../../assets/js/crossing_rehearsal.js',import.meta.url),'utf8')
+const panels=await readFile(new URL('../../assets/js/panel_assembly.js',import.meta.url),'utf8')
+const source=(await readFile(new URL('../../assets/js/crossing_rehearsal.js',import.meta.url),'utf8')).replace('./panel_assembly.js',`data:text/javascript;base64,${Buffer.from(panels).toString('base64')}`)
 const {pairedGeometry,indexedCourse,passage,sweep,sectionPolygon,offeredPath}=await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`)
 const near=(a,b)=>a.forEach((v,i)=>assert.ok(Math.abs(v-b[i])<1e-9))
 test('shared hinge pins head, preserves toe radius, aligns inner plane and exposes the midpoint degeneracy',()=>{

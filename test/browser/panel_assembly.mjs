@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict'
+import {mkdir} from 'node:fs/promises'
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright')
+const out=process.env.WITNESS_DIR||'/tmp/psm-panel-assembly'
+await mkdir(out,{recursive:true})
+const browser=await chromium.launch({headless:true,args:['--no-sandbox']})
+const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[]
+page.on('pageerror',e=>errors.push(e.message))
+let operations=0
+page.on('websocket',ws=>ws.on('framesent',e=>{if(String(e.payload).includes('crossing-rehearsal'))operations++}))
+const host=page.locator('#crossing-rehearsal')
+const data=()=>host.evaluate(e=>({model:JSON.parse(e.dataset.model),assembly:JSON.parse(e.dataset.panelAssembly)}))
+const range=async(id,v)=>page.locator('#'+id).evaluate((e,v)=>{e.value=String(v);e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}))},v)
+try{
+ await page.goto(process.env.ZEROETH_URL||'http://127.0.0.1:4001/experiments/architecture')
+ await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal')?.dataset.ready==='true')
+ const before=await data(),sent=operations
+ await page.selectOption('#panel-view','panels')
+ assert.equal(await page.locator('#actual-monitor-plane').count(),0)
+ assert.equal(await page.locator('path[id^="assembled-"]').count(),9)
+ await range('panel-cabinet',22);await range('panel-doll',22)
+ assert.equal((await data()).assembly.observations.coincident,true)
+ const world=await page.locator('#assembled-doll').getAttribute('data-world-points')
+ for(const kind of ['cab','alongside','inspection']){
+  await page.locator('#crossing-'+kind).click()
+  assert.equal(await page.locator('#assembled-doll').getAttribute('data-world-points'),world)
+ }
+ await page.selectOption('#crossing-slice','seam')
+ assert.ok(await page.locator('[id$="-section"]').count()>0)
+ await page.selectOption('#crossing-slice','all')
+ await page.screenshot({path:out+'/panels.png',fullPage:true})
+ await page.selectOption('#panel-view','overlay')
+ assert.equal(await page.locator('#actual-monitor-plane').count(),1)
+ assert.equal(await page.locator('#assembled-monitor').count(),1)
+ await page.screenshot({path:out+'/comparison.png',fullPage:true})
+ await page.locator('#panel-match').click()
+ assert.equal((await data()).assembly.cabinet,45*(1-before.model.pull))
+ await page.locator('#panel-reset').click()
+ assert.equal((await data()).assembly.cabinet,45)
+ assert.deepEqual((await data()).model,before.model);assert.equal(operations,sent)
+ await page.reload();await page.waitForFunction(()=>document.querySelector('#crossing-rehearsal')?.dataset.panelAssembly)
+ assert.deepEqual((await data()).model,before.model)
+ await page.setViewportSize({width:390,height:844});await page.selectOption('#panel-view','panels')
+ await range('panel-cabinet',-90);await range('panel-doll',90)
+ assert.equal(await page.locator('path[d*="NaN"],path[d*="Infinity"]').count(),0)
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))
+ await page.screenshot({path:out+'/mobile.png',fullPage:true})
+ assert.deepEqual(errors,[])
+ console.log('Panel assembly browser checks passed; witnesses: '+out)
+}finally{await browser.close()}

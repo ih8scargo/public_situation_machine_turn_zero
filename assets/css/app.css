@@ -7797,3 +7797,9 @@ body:has(.elementary-opening), .elementary-opening { background: #edf0e9; }
 .crossing-resolution-face { fill:#76b9b1; fill-opacity:.2; stroke:#487c73; stroke-opacity:.25; stroke-width:.5; }
 .crossing-resolution-twist { fill:#b3954f; fill-opacity:.65; stroke:#81692e; }
 .crossing-resolution-purchase { fill:#487c73; stroke:#f0ecdd; stroke-width:1; }
+
+/* Panel assembly comparison uses the same world and Regarding transforms. */
+.crossing-assembly-panel { fill: #38bdf818; stroke: #0284c7; stroke-width: 1.8; }
+.crossing-assembly-doll { fill: #f59e0b25; stroke: #d97706; stroke-width: 2.5; }
+.crossing-assembly-hinge { fill: none; stroke: #e11d48; stroke-width: 4; }
+#panel-inventory, #panel-observations { white-space: pre-wrap; overflow-wrap: anywhere; }

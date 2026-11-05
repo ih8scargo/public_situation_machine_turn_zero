@@ -283,6 +283,53 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
             ></svg>
           </div>
           <aside class="crossing-instruments">
+            <strong>PANEL ASSEMBLY · COMPARE THE RELATIONS</strong>
+            <p>
+              Fold the available panels about the head axis. Observe what aligns and what remains apart.
+            </p>
+            <label for="panel-view">Compare constructions</label>
+            <.input
+              id="panel-view"
+              name="panel-view"
+              type="select"
+              value="existing"
+              options={[
+                {"Panels alone", "panels"},
+                {"Panels with existing apparatus", "overlay"},
+                {"Existing apparatus", "existing"}
+              ]}
+            />
+            <label for="panel-cabinet">Cabinet fold · degrees</label>
+            <.input
+              id="panel-cabinet"
+              name="panel-cabinet"
+              type="range"
+              min="-90"
+              max="90"
+              step="1"
+              value="45"
+            />
+            <label for="panel-doll">Doll-side fold · degrees</label>
+            <.input
+              id="panel-doll"
+              name="panel-doll"
+              type="range"
+              min="-90"
+              max="90"
+              step="1"
+              value="0"
+            />
+            <div class="crossing-view-buttons">
+              <button id="panel-reset" type="button">Reset panel assembly</button>
+              <button id="panel-match" type="button">Copy current apparatus angles</button>
+            </div>
+            <pre id="panel-observations" aria-live="polite"></pre>
+            <details>
+              <summary>Available panels and dimensions</summary><pre id="panel-inventory"></pre>
+            </details>
+            <p>
+              Panel folds are local inspection choices. Reload resets them. The Doll top edge shares a trial hinge through the cabinet interior. Deforming cabinet side sheets stay in the existing reference; acquired standing remains separate.
+            </p>
             <strong>REGARDING · SAME STANDING EXTENT</strong>
             <div class="crossing-view-buttons">
               <button id="crossing-cab" type="button" aria-pressed="false">Within the CAB · through the Glass</button>

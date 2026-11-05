@@ -1,3 +1,4 @@
+import {assemblePanels, panelInventory, rectangle, dollStock} from './panel_assembly.js'
 const add=(a,b)=>a.map((v,i)=>v+b[i]),scale=(a,s)=>a.map(v=>v*s),dot=(a,b)=>a.reduce((n,v,i)=>n+v*b[i],0)
 const sub=(a,b)=>a.map((v,i)=>v-b[i]),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],unit=a=>scale(a,1/(Math.hypot(...a)||1)),rad=a=>a*Math.PI/180
 export function hinge(p,angle){const a=rad(angle);return [p[0],p[1]*Math.cos(a)-p[2]*Math.sin(a),p[1]*Math.sin(a)+p[2]*Math.cos(a)]}
@@ -52,15 +53,15 @@ const circle=(center,r,angle=0)=>Array.from({length:65},(_,i)=>add(center,hinge(
 const box=(min,max)=>{const v=Array.from({length:8},(_,i)=>[i&1?max[0]:min[0],i&2?max[1]:min[1],i&4?max[2]:min[2]]);return v.flatMap((p,i)=>[1,2,4].filter(b=>(i&b)===0).map(b=>[p,v[i|b]]))}
 export const CrossingRehearsal={
  mounted(){
-  this.svg=this.el.querySelector('#crossing-scene');this.pull=0;this.feed=0;this.yaw=-30;this.elevation=15;this.slice='all';this.regard='inspection';this.locatedYaw=0;this.replayFeed=null;this.inscriptionPurchase=0;this.read=()=>{this.model=JSON.parse(this.el.dataset.model);if(!this.drag&&!this.saving){this.pull=this.model.pull;this.feed=this.model.feed}this.draw()}
+  this.svg=this.el.querySelector('#crossing-scene');this.pull=0;this.feed=0;this.yaw=-30;this.elevation=15;this.slice='all';this.regard='inspection';this.locatedYaw=0;this.replayFeed=null;this.inscriptionPurchase=0;this.assemblyView='existing';this.panelCabinet=45;this.panelDoll=0;this.read=()=>{this.model=JSON.parse(this.el.dataset.model);if(!this.drag&&!this.saving){this.pull=this.model.pull;this.feed=this.model.feed}this.draw()}
   this.commit=(action,value)=>{if(this.saving||this.el.dataset.ready!=='true')return;this.saving=true;this.pushEvent('crossing-rehearsal',{action,value,revision:this.model.revision},()=>{this.saving=false;this.read()})}
-  this.input=e=>{if(e.target.id==='crossing-inscription')this.inscriptionPurchase=Number(e.target.value);if(e.target.id==='crossing-pull')this.pull=Number(e.target.value);if(e.target.id==='crossing-feed'){if(this.model.received)this.replayFeed=Number(e.target.value);else this.feed=Number(e.target.value)};if(e.target.id==='crossing-yaw'){if(this.regard==='inspection')this.yaw=Number(e.target.value);else this.locatedYaw=Number(e.target.value)};if(e.target.id==='crossing-slice'){this.regard='inspection';this.slice=e.target.value};this.draw()}
+  this.input=e=>{if(e.target.id==='panel-view')this.assemblyView=e.target.value;if(e.target.id==='panel-cabinet')this.panelCabinet=Number(e.target.value);if(e.target.id==='panel-doll')this.panelDoll=Number(e.target.value);if(e.target.id==='crossing-inscription')this.inscriptionPurchase=Number(e.target.value);if(e.target.id==='crossing-pull')this.pull=Number(e.target.value);if(e.target.id==='crossing-feed'){if(this.model.received)this.replayFeed=Number(e.target.value);else this.feed=Number(e.target.value)};if(e.target.id==='crossing-yaw'){if(this.regard==='inspection')this.yaw=Number(e.target.value);else this.locatedYaw=Number(e.target.value)};if(e.target.id==='crossing-slice'){this.regard='inspection';this.slice=e.target.value};this.draw()}
   this.change=e=>{if(e.target.id==='crossing-pull')this.commit('pull',this.pull);if(e.target.id==='crossing-feed'&&!this.model.received)this.commit('feed',this.feed)}
   this.down=e=>{if(e.target.closest('#crossing-wheel')&&e.button===0){e.preventDefault();this.drag={id:e.pointerId,y:e.clientY,start:this.pull};e.target.setPointerCapture(e.pointerId)}}
   this.move=e=>{if(this.drag?.id===e.pointerId){this.pull=Math.max(0,Math.min(1,this.drag.start+(e.clientY-this.drag.y)/160));this.draw()}}
   this.up=e=>{if(this.drag?.id===e.pointerId){this.drag=null;this.commit('pull',this.pull)}}
   this.key=e=>{if(e.target.id==='crossing-wheel'&&['ArrowUp','ArrowDown','Home','End'].includes(e.key)){e.preventDefault();this.pull=e.key==='Home'?0:e.key==='End'?1:Math.max(0,Math.min(1,this.pull+(e.key==='ArrowDown'?.1:-.1)));this.draw();this.commit('pull',this.pull)}}
-  this.click=e=>{const id=e.target.closest('button')?.id;if(id==='crossing-replay')this.replayFeed=0;if(id==='crossing-present')this.replayFeed=null;if(id==='crossing-receive')this.commit('receive',1);if(id==='crossing-cab'||id==='crossing-alongside'){this.regard=id==='crossing-cab'?'cab':'alongside';this.locatedYaw=0;this.slice='all'}if(id==='crossing-inspection')this.regard='inspection';for(const [name,yaw,elevation] of [['front',0,0],['oblique',-30,15],['ground',0,-75],['side',90,0]])if(id==='crossing-'+name){this.regard='inspection';this.yaw=yaw;this.elevation=elevation}if(id==='crossing-find-seam'){this.regard='inspection';this.slice='seam';this.yaw=90;this.elevation=0}this.draw()}
+  this.click=e=>{const id=e.target.closest('button')?.id;if(id==='panel-reset'){this.panelCabinet=45;this.panelDoll=0}if(id==='panel-match'){this.panelCabinet=45*(1-this.pull);this.panelDoll=45*this.pull}if(id==='crossing-replay')this.replayFeed=0;if(id==='crossing-present')this.replayFeed=null;if(id==='crossing-receive')this.commit('receive',1);if(id==='crossing-cab'||id==='crossing-alongside'){this.regard=id==='crossing-cab'?'cab':'alongside';this.locatedYaw=0;this.slice='all'}if(id==='crossing-inspection')this.regard='inspection';for(const [name,yaw,elevation] of [['front',0,0],['oblique',-30,15],['ground',0,-75],['side',90,0]])if(id==='crossing-'+name){this.regard='inspection';this.yaw=yaw;this.elevation=elevation}if(id==='crossing-find-seam'){this.regard='inspection';this.slice='seam';this.yaw=90;this.elevation=0}this.draw()}
   for(const [name,fn] of [['input',this.input],['change',this.change],['pointerdown',this.down],['pointermove',this.move],['pointerup',this.up],['pointercancel',this.up],['keydown',this.key],['click',this.click]])this.el.addEventListener(name,fn)
   this.read()
  },
@@ -69,7 +70,7 @@ export const CrossingRehearsal={
   const ns='http://www.w3.org/2000/svg',g=pairedGeometry(this.pull,this.model.operating_reference),frame=this.regard==='inspection'?null:locatedRegard(this.regard,g.pin,this.locatedYaw),view=p=>frame?projectLocated(p,frame):projectCrossing(p,this.yaw,this.elevation,1,1.5),P=p=>view(p).point,shapes=[],labels=[],plane=frame?null:g.planes[this.slice]
   const path=(id,points,klass,closed=false)=>{shapes.push({id,points,klass,closed,depth:points.reduce((n,p)=>n+view(p).depth,0)/points.length})}
   const label=(id,p,text)=>labels.push({id,p,text})
-  const rect=(x,y,z)=>[[-x,-y,z],[x,-y,z],[x,y,z],[-x,y,z]]
+  const rect=rectangle
   path('actual-monitor-plane',rect(2.5,2.5,0),'monitor',true);label('monitor-label',[-2.5,2.7,0],'MONITOR · Z=0')
   const cab=rect(2.15,2.15,0).map(p=>hinge(p,g.cabinet));path('projected-cabinet-face',cab,'cabinet',true)
   // The outward cabinet extent belongs to the appliance, not a measured CH distance.
@@ -82,7 +83,7 @@ export const CrossingRehearsal={
   path('cabinet-aperture',circle([0,0,0],.9,g.cabinet),'cab-aperture')
   path('square-tab',rect(.2,.2,0).map(p=>add(hinge(p,g.cabinet),hinge([0,-1.2,0],g.cabinet))),'tab',true)
   path('square-tab-hole',circle(hinge([0,-1.2,0],g.cabinet),.08,g.cabinet),'tab-hole')
-  const dollPanel=[[-.4,0,0],[.4,0,0],[.4,-2.4,0],[-.4,-2.4,0]].map(p=>hinge(p,g.doll));path('doll-side-aperture',dollPanel,'doll',true)
+  const dollPanel=dollStock().map(p=>hinge(p,g.doll));path('doll-side-aperture',dollPanel,'doll',true)
   path('doll-head-pin',circle(g.pin,.12),'pin');path('doll-body',[g.pin,g.body,g.toes],'doll-body');label('doll-label',add(g.toes,[.45,-.1,0]),'EXISTING DOLL · TOES')
   path('doll-wedge',[[0,0,0],[0,-2.4,0],g.toes],'wedge',true)
   path('looking-through-glass',[[0,-.24,-.24],[0,.24,-.24],[0,.24,.24],[0,-.24,.24]],'glass',true)
@@ -134,6 +135,20 @@ export const CrossingRehearsal={
   const target=this.model.stick?.tip||curve.at(-1),cob=this.model.stick?.cob_center||add(target,[0,.32,0]);path('receiving-cob',circle(cob,.3),'cob',true);path('cob-shoulder',[add(cob,[-.4,0,0]),add(cob,[0,.45,0]),add(cob,[.4,0,0])],'cob');for(const side of [-1,1])path(`cob-grasp-${side}`,[add(cob,[side*.3,0,0]),add(target,[side*(this.model.received?.10:.30),0,0])],'cob-grasp');label('cob-label',add(cob,[.6,.45,0]),this.model.received?'COB RETAINS POINTING-ABLE THING':'COB · RECEIVING LOCALITY')
   path('offered-craft-seat',[[-.45,-.35,-.35],[.45,-.35,-.35],[.45,-.35,.35],[-.45,-.35,.35]].map(p=>add(cob,p)),'offered-seat',true)
   label('offered-craft-label',add(cob,[0,-.62,0]),'CRAFT / SEAT · OFFERED REFERENCE')
+  const assembly=assemblePanels(reference,this.panelCabinet,this.panelDoll)
+  if(this.assemblyView==='panels'){shapes.length=0;labels.length=0}
+  if(this.assemblyView!=='existing'){
+   for(const panel of assembly.panels){path('assembled-'+panel.id,panel.points,'assembly-'+(panel.id==='doll'?'doll':'panel'),true);label('assembled-'+panel.id+'-label',scale(panel.points.reduce((a,p)=>add(a,p),[0,0,0]),1/panel.points.length),panel.id.toUpperCase())}
+   path('assembled-hinge',assembly.hinge,'assembly-hinge');label('assembled-hinge-label',[0,.35,0],'HEAD AXIS · TRIAL HINGE')
+   path('assembled-inner-aperture',circle(assembly.innerCenter,.55,assembly.cabinet),'inner')
+   path('assembled-cabinet-aperture',circle([0,0,0],.9,assembly.cabinet),'cab-aperture')
+  }
+  const observations=assembly.observations
+  this.el.querySelector('#panel-observations').textContent=`Cabinet fold: ${assembly.cabinet.toFixed(1)}° / Doll fold: ${assembly.doll.toFixed(1)}°\nPanel plane angle: ${observations.planeAngle.toFixed(2)}° · ${observations.coincident?'COPLANAR':'distinct planes'}\nCabinet aligned with monitor: ${observations.monitorAligned}\nDoll top edge / cabinet interior axis: fixed at Y=0 / Z=0\nInner aperture center to head: ${observations.apertureCenterOffset.toFixed(2)}\nInner aperture wholly inside cabinet opening: ${observations.innerWithinCabinet}\nAssumed Glass/nozzle margin per side: ${observations.glassNozzleMargin.toFixed(2)}\nSix planar panels; no side enclosure inferred. Rigid linkage and swept clearance remain unproved.`
+  this.el.querySelector('#panel-inventory').textContent=panelInventory.map(p=>`${p.name} · ${p.size} · ${p.source}`).join('\n')
+  this.el.querySelector('#panel-cabinet').value=this.panelCabinet
+  this.el.querySelector('#panel-doll').value=this.panelDoll
+  this.el.dataset.panelAssembly=JSON.stringify(assembly)
   this.svg.replaceChildren()
   const node=(tag,attrs,text)=>{const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;this.svg.append(n);return n}
   for(const shape of shapes.sort((a,b)=>b.depth-a.depth)){
