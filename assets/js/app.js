@@ -23,6 +23,12 @@ import "phoenix_html"
 import {Socket} from "phoenix"
 import {LiveSocket} from "phoenix_live_view"
 import {hooks as colocatedHooks} from "phoenix-colocated/public_situation_machine_turn_zero"
+import {GalleryRegistration} from "./workshop/gallery_registration"
+import {SnailWeave} from "./workshop/snail_weave"
+import {SnailBody} from "./workshop/snail_body"
+import {WedgingRoom} from "./workshop/wedging_room"
+import {ApproachingRegarding} from "./workshop/inspection_hook"
+import {WorkshopRenderer} from "./workshop/hook"
 import topbar from "../vendor/topbar"
 import {CrossingRehearsal} from "./crossing_rehearsal"
 import {ElementaryOpening} from "./elementary_opening"
@@ -31,7 +37,7 @@ const csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute
 const liveSocket = new LiveSocket("/live", Socket, {
   longPollFallbackMs: 2500,
   params: {_csrf_token: csrfToken},
-  hooks: {...colocatedHooks, ElementaryOpening, CrossingRehearsal},
+  hooks: {...colocatedHooks, ElementaryOpening, CrossingRehearsal, WorkshopRenderer, ApproachingRegarding, WedgingRoom, SnailBody, SnailWeave, GalleryRegistration},
 })
 
 // Show progress bar on live navigation and form submits

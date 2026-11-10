@@ -1,0 +1,114 @@
+[
+  {
+    "hand": -1,
+    "clearance": {
+      "closed": false,
+      "reason": "identity-overlay trial only: source-to-Gallery transform and occupied passage unregistered",
+      "status": "unqualified",
+      "minimum_identity_overlay_gallery_margin": -1.518922932683141,
+      "self_intersection": "not_certified",
+      "support_contact": "intended",
+      "twist_strain": "not_certified"
+    },
+    "letters": 25,
+    "faces": 200,
+    "collisions": [
+      {
+        "a": "Square-Axle",
+        "b": "COB-stand",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Spindle",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Steering-passage",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Monitor-THREE",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "RE-STEP-Wall-FOUR",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "COB-stand",
+        "b": "Steering-passage",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Slate-Inkwell",
+        "b": "Keyboard",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Slate-Inkwell",
+        "b": "Needle-return",
+        "classification": "collision_of_trial_solids"
+      }
+    ]
+  },
+  {
+    "hand": 1,
+    "clearance": {
+      "closed": false,
+      "reason": "identity-overlay trial only: source-to-Gallery transform and occupied passage unregistered",
+      "status": "unqualified",
+      "minimum_identity_overlay_gallery_margin": -1.5207353477324534,
+      "self_intersection": "not_certified",
+      "support_contact": "intended",
+      "twist_strain": "not_certified"
+    },
+    "letters": 25,
+    "faces": 200,
+    "collisions": [
+      {
+        "a": "Square-Axle",
+        "b": "COB-stand",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Spindle",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Steering-passage",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "Monitor-THREE",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Square-Axle",
+        "b": "RE-STEP-Wall-FOUR",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "COB-stand",
+        "b": "Steering-passage",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Slate-Inkwell",
+        "b": "Keyboard",
+        "classification": "collision_of_trial_solids"
+      },
+      {
+        "a": "Slate-Inkwell",
+        "b": "Needle-return",
+        "classification": "collision_of_trial_solids"
+      }
+    ]
+  }
+]

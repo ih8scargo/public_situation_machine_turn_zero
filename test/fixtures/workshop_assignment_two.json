@@ -1,0 +1,2031 @@
+{
+  "assembly": {
+    "id": "contraption",
+    "longitudinal_extents": 18,
+    "name": "THIS ONE RE-STEPPING AND MAY BE RE-STOMPING CONTRAPTION"
+  },
+  "construction_id": "00000000-0000-4000-8000-000000000001",
+  "coordinates": {
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "unit": "one provisional extent; not physical distance",
+    "x": "along rail TC toward CH",
+    "y": "UP",
+    "z": "transverse"
+  },
+  "entities": {
+    "central": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "central-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "central-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "central-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "central-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "central-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "central-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "central-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "central-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "central-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "central-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "central-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "central-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          12,
+          0,
+          -3
+        ]
+      },
+      "id": "central",
+      "name": "Projectioning Crossing · architectural center",
+      "surfaces": [
+        {
+          "id": "central-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "central-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "central-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "central-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "central-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "central-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          18,
+          0,
+          -3
+        ],
+        [
+          12,
+          6,
+          -3
+        ],
+        [
+          18,
+          6,
+          -3
+        ],
+        [
+          12,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          3
+        ],
+        [
+          12,
+          6,
+          3
+        ],
+        [
+          18,
+          6,
+          3
+        ]
+      ]
+    },
+    "ch": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "ch-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "ch-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "ch-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "ch-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "ch-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "ch-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "ch-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "ch-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "ch-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "ch-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "ch-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "ch-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          6,
+          0,
+          -3
+        ]
+      },
+      "id": "ch",
+      "name": "Constitutioning Human",
+      "surfaces": [
+        {
+          "id": "ch-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "ch-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "ch-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "ch-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "ch-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "ch-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          6,
+          0,
+          -3
+        ],
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          6,
+          6,
+          -3
+        ],
+        [
+          12,
+          6,
+          -3
+        ],
+        [
+          6,
+          0,
+          3
+        ],
+        [
+          12,
+          0,
+          3
+        ],
+        [
+          6,
+          6,
+          3
+        ],
+        [
+          12,
+          6,
+          3
+        ]
+      ]
+    },
+    "lower": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "lower-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "lower-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "lower-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "lower-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "lower-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "lower-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "lower-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "lower-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "lower-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "lower-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "lower-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "lower-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          12,
+          -6,
+          -3
+        ]
+      },
+      "id": "lower",
+      "name": "Ground–monitor relational region",
+      "surfaces": [
+        {
+          "id": "lower-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "lower-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "lower-surface-y-min",
+          "role": "Ground-side reference / recurring zero-standing",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "lower-surface-y-max",
+          "role": "Monitor-side reference",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "lower-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "lower-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          12,
+          -6,
+          -3
+        ],
+        [
+          18,
+          -6,
+          -3
+        ],
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          18,
+          0,
+          -3
+        ],
+        [
+          12,
+          -6,
+          3
+        ],
+        [
+          18,
+          -6,
+          3
+        ],
+        [
+          12,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          3
+        ]
+      ]
+    },
+    "tc": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "tc-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "tc-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "tc-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "tc-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "tc-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "tc-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "tc-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "tc-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "tc-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "tc-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "tc-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "tc-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          0,
+          0,
+          -3
+        ]
+      },
+      "id": "tc",
+      "name": "Terrestrial Computer",
+      "surfaces": [
+        {
+          "id": "tc-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "tc-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "tc-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "tc-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "tc-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "tc-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          6,
+          0,
+          -3
+        ],
+        [
+          0,
+          6,
+          -3
+        ],
+        [
+          6,
+          6,
+          -3
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          3
+        ],
+        [
+          6,
+          6,
+          3
+        ]
+      ]
+    }
+  },
+  "legacy_source": null,
+  "lock": null,
+  "positions": {
+    "ch": 6,
+    "tc": 0
+  },
+  "provenance": [
+    {
+      "action": "initial",
+      "actor": "workshop constructor",
+      "parameters": {
+        "approach_bend": 3.0,
+        "machine_reach": 6.0,
+        "n_heading": 135.0
+      },
+      "positions": {
+        "ch": 6,
+        "tc": 0
+      },
+      "revision": 0
+    }
+  ],
+  "rail": {
+    "end": [
+      18,
+      0,
+      0
+    ],
+    "id": "common-rail",
+    "length": 18,
+    "start": [
+      0,
+      0,
+      0
+    ]
+  },
+  "relationships": [
+    {
+      "id": "lower-under-central",
+      "object": "central",
+      "relation": "UNDER",
+      "subject": "lower"
+    },
+    {
+      "id": "ground-monitor-opposed",
+      "object": "lower-surface-y-max",
+      "relation": "OPPOSITE",
+      "subject": "lower-surface-y-min"
+    }
+  ],
+  "reservations": [
+    {
+      "description": "Upper-circle center aperture OVER ACROSS Snail House; frame and dimensions unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "central-upper-aperture",
+      "status": "reserved"
+    },
+    {
+      "description": "UP ACROSS DOWN; attachments refer to lower Ground/monitor surfaces; curve unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "ground-monitor-passage",
+      "status": "reserved"
+    },
+    {
+      "description": "Separate Human Regarding THROUGH Doll-head aperture; frame and aperture unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "human-transverse-passage",
+      "status": "reserved"
+    },
+    {
+      "description": "25-letter structural index furnished as a provisional course; final CUBICAL lettering members unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "xt-xt-lettering",
+      "status": "reserved"
+    },
+    {
+      "description": "Reserved counterclockwise unwinding: initial one revolution, adjustable winding count, four quadrant references; no descent curve",
+      "dimensions": null,
+      "frame": null,
+      "id": "descent",
+      "status": "reserved"
+    },
+    {
+      "description": "Potential stands around all four CUBICAL volumes; Camera A descending toward U/Fieldside, Camera B OVER ACROSS, A rising and reciprocal Regarding; frames unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "regarding-appointments",
+      "status": "reserved"
+    },
+    {
+      "description": "Future Regarding THROUGH next Little ROUNDING Footings TOWARD RE-STEPPING FROM HERE; no transitions",
+      "dimensions": null,
+      "frame": null,
+      "id": "footings-regard",
+      "status": "reserved"
+    },
+    {
+      "description": "COB available alongside WITH CH before formal seating; companionable/consoling surfacing reserved, no interface or storybooking",
+      "dimensions": null,
+      "frame": null,
+      "id": "cob-alongside",
+      "status": "reserved"
+    },
+    {
+      "description": "Future NAV-STEPPING tunnel and mouse treadmill; no navigation implemented",
+      "dimensions": null,
+      "frame": null,
+      "id": "nav-tunnel-treadmill",
+      "status": "reserved"
+    },
+    {
+      "description": "CAB-side Regarding; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "cab-side-regard",
+      "status": "reserved"
+    },
+    {
+      "description": "Within-CAB Regarding; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "within-cab-regard",
+      "status": "reserved"
+    },
+    {
+      "description": "Human transverse Regarding THROUGH Doll-head aperture; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "human-transverse-regard",
+      "status": "reserved"
+    }
+  ],
+  "revision": 0,
+  "schema_version": 2,
+  "steeling": {
+    "attachments": [
+      {
+        "object": "lower-surface-y-min",
+        "relation": "REFERENCE FOR",
+        "status": "unresolved attachment: indexed N return at Y=0 versus lower Ground-side at Y=-6; no connecting member invented",
+        "subject": "n-ground-return"
+      },
+      {
+        "object": "central",
+        "relation": "REFERENCED WITHIN",
+        "status": "provisional spatial registration; not a joint",
+        "subject": "u-projection-return"
+      },
+      {
+        "object": "central-upper-aperture",
+        "relation": "TOWARD",
+        "status": "reserved attachment",
+        "subject": "u-post-reference"
+      }
+    ],
+    "future_descent": {
+      "camera_a": {
+        "frame": null,
+        "id": "future-camera-a",
+        "toward": "u-post-reference / Fieldside"
+      },
+      "camera_b": {
+        "frame": null,
+        "id": "future-camera-b",
+        "relation": "OVER ACROSS; reciprocal with A"
+      },
+      "direction": "counterclockwise",
+      "initial_winding_count": 1,
+      "quadrants_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "stands": [
+        {
+          "frame": null,
+          "id": "candidate-stand-tc",
+          "region": "tc"
+        },
+        {
+          "frame": null,
+          "id": "candidate-stand-ch",
+          "region": "ch"
+        },
+        {
+          "frame": null,
+          "id": "candidate-stand-central",
+          "region": "central"
+        },
+        {
+          "frame": null,
+          "id": "candidate-stand-lower",
+          "region": "lower"
+        }
+      ],
+      "status": "reserved only",
+      "winding_count_adjustment": "reserved"
+    },
+    "gallery": {
+      "boundary": [
+        [
+          1.251798,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0
+        ],
+        [
+          18,
+          6,
+          0
+        ],
+        [
+          1.251798,
+          6,
+          0
+        ]
+      ],
+      "id": "gallery-plane",
+      "members": [
+        "steeling-letter-4",
+        "steeling-letter-5",
+        "steeling-letter-6",
+        "steeling-letter-7",
+        "steeling-letter-8",
+        "steeling-letter-9",
+        "steeling-letter-10",
+        "steeling-letter-11",
+        "steeling-letter-12",
+        "steeling-letter-13",
+        "steeling-letter-14",
+        "steeling-letter-15",
+        "steeling-letter-16",
+        "steeling-letter-17",
+        "steeling-letter-18"
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "status": "XY planar transverse presentation hypothesis; no final members or joints"
+    },
+    "id": "janusite-steeling",
+    "machine": {
+      "direction": [
+        -0.7071067811865475,
+        0.7071067811865476,
+        0
+      ],
+      "id": "machine-from-n",
+      "inherited_from": "n-ground-return",
+      "origin": [
+        18,
+        0,
+        0
+      ],
+      "points": [
+        [
+          18,
+          0,
+          0
+        ],
+        [
+          17.745441558772843,
+          0.2545584412271571,
+          0.0
+        ],
+        [
+          17.36360389693211,
+          0.6363961030678927,
+          0.0
+        ],
+        [
+          16.896913421348987,
+          1.1030865786510142,
+          0.0
+        ],
+        [
+          16.302943725152286,
+          1.6970562748477145,
+          0.0
+        ],
+        [
+          15.539268401470816,
+          2.4607315985291853,
+          0.0
+        ],
+        [
+          14.648313857175765,
+          3.3516861428242355,
+          0.0
+        ],
+        [
+          13.757359312880716,
+          4.242640687119286,
+          0.0
+        ]
+      ],
+      "representation": "straight staging hypothesis"
+    },
+    "n_return": {
+      "heading_degrees": 135.0,
+      "id": "n-ground-return",
+      "incoming": [
+        1,
+        0,
+        0
+      ],
+      "outgoing": [
+        -0.7071067811865475,
+        0.7071067811865476,
+        0
+      ],
+      "point": [
+        18,
+        0,
+        0
+      ],
+      "points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0
+        ],
+        [
+          13.757359312880716,
+          4.242640687119286,
+          0.0
+        ]
+      ],
+      "role": "Ground reference sharp return TOWARD center / MACHINE approach",
+      "situation_incoming": [
+        0.3000000000000007,
+        -0.4,
+        0
+      ],
+      "station": "steeling-letter-18"
+    },
+    "parameters": {
+      "approach_bend": 3.0,
+      "machine_reach": 6.0,
+      "n_heading": 135.0
+    },
+    "reference_origin": [
+      0,
+      0,
+      0
+    ],
+    "segmentation": [
+      3,
+      6,
+      9,
+      7
+    ],
+    "situation": {
+      "points": [
+        [
+          9.0,
+          6.0,
+          0.0
+        ],
+        [
+          10,
+          5.5,
+          0
+        ],
+        [
+          11.25,
+          5,
+          0
+        ],
+        [
+          13,
+          4,
+          0
+        ],
+        [
+          15,
+          3,
+          0
+        ],
+        [
+          16.2,
+          2.5,
+          0
+        ],
+        [
+          16.8,
+          1.8,
+          0
+        ],
+        [
+          17.4,
+          0.9,
+          0
+        ],
+        [
+          17.7,
+          0.4,
+          0
+        ],
+        [
+          18,
+          0,
+          0
+        ]
+      ],
+      "representation": "registered polyline"
+    },
+    "stations": [
+      {
+        "group": "THE",
+        "id": "steeling-letter-1",
+        "index": 1,
+        "letter": "T",
+        "point": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "references": [
+          "the-public-curve"
+        ]
+      },
+      {
+        "group": "THE",
+        "id": "steeling-letter-2",
+        "index": 2,
+        "letter": "H",
+        "point": [
+          0.138816,
+          0.35980799999999996,
+          0.0
+        ],
+        "references": [
+          "the-public-curve"
+        ]
+      },
+      {
+        "group": "THE",
+        "id": "steeling-letter-3",
+        "index": 3,
+        "letter": "E",
+        "point": [
+          0.522432,
+          1.074816,
+          0.0
+        ],
+        "references": [
+          "the-public-curve"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-4",
+        "index": 4,
+        "letter": "P",
+        "point": [
+          1.251798,
+          2.033499,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-5",
+        "index": 5,
+        "letter": "U",
+        "point": [
+          2.3552639999999996,
+          3.1000319999999997,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-6",
+        "index": 6,
+        "letter": "B",
+        "point": [
+          4.067538000000001,
+          4.3233690000000005,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-7",
+        "index": 7,
+        "letter": "L",
+        "point": [
+          5.812145999999999,
+          5.224473,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-8",
+        "index": 8,
+        "letter": "I",
+        "point": [
+          7.741782,
+          5.854491,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "PUBLIC",
+        "id": "steeling-letter-9",
+        "index": 9,
+        "letter": "C",
+        "point": [
+          9.0,
+          6.0,
+          0.0
+        ],
+        "references": [
+          "the-public-curve",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-10",
+        "index": 10,
+        "letter": "S",
+        "point": [
+          10,
+          5.5,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-11",
+        "index": 11,
+        "letter": "I",
+        "point": [
+          11.25,
+          5,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-12",
+        "index": 12,
+        "letter": "T",
+        "point": [
+          13,
+          4,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-13",
+        "index": 13,
+        "letter": "U",
+        "point": [
+          15,
+          3,
+          0
+        ],
+        "references": [
+          "u-projection-return",
+          "u-post-reference",
+          "central-upper-aperture",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-14",
+        "index": 14,
+        "letter": "A",
+        "point": [
+          16.2,
+          2.5,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-15",
+        "index": 15,
+        "letter": "T",
+        "point": [
+          16.8,
+          1.8,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-16",
+        "index": 16,
+        "letter": "I",
+        "point": [
+          17.4,
+          0.9,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-17",
+        "index": 17,
+        "letter": "O",
+        "point": [
+          17.7,
+          0.4,
+          0
+        ],
+        "references": [
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "SITUATION",
+        "id": "steeling-letter-18",
+        "index": 18,
+        "letter": "N",
+        "point": [
+          18,
+          0,
+          0
+        ],
+        "references": [
+          "n-ground-return",
+          "machine-from-n",
+          "gallery-plane"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-19",
+        "index": 19,
+        "letter": "M",
+        "point": [
+          17.745441558772843,
+          0.2545584412271571,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-20",
+        "index": 20,
+        "letter": "A",
+        "point": [
+          17.36360389693211,
+          0.6363961030678927,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-21",
+        "index": 21,
+        "letter": "C",
+        "point": [
+          16.896913421348987,
+          1.1030865786510142,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-22",
+        "index": 22,
+        "letter": "H",
+        "point": [
+          16.302943725152286,
+          1.6970562748477145,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-23",
+        "index": 23,
+        "letter": "I",
+        "point": [
+          15.539268401470816,
+          2.4607315985291853,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-24",
+        "index": 24,
+        "letter": "N",
+        "point": [
+          14.648313857175765,
+          3.3516861428242355,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      },
+      {
+        "group": "MACHINE",
+        "id": "steeling-letter-25",
+        "index": 25,
+        "letter": "E",
+        "point": [
+          13.757359312880716,
+          4.242640687119286,
+          0.0
+        ],
+        "references": [
+          "machine-from-n",
+          "n-ground-return"
+        ]
+      }
+    ],
+    "status": "provisional structural hypothesis; not constitutional curvature",
+    "the_public": {
+      "control_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          3.0,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ],
+        [
+          9,
+          6,
+          0
+        ]
+      ],
+      "id": "the-public-curve",
+      "representation": "cubic Bezier",
+      "samples": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.06765407986111109,
+          0.18747287326388887,
+          0.0
+        ],
+        [
+          0.14539930555555555,
+          0.37478298611111116,
+          0.0
+        ],
+        [
+          0.23291015625,
+          0.561767578125,
+          0.0
+        ],
+        [
+          0.32986111111111105,
+          0.7482638888888887,
+          0.0
+        ],
+        [
+          0.43592664930555564,
+          0.9341091579861113,
+          0.0
+        ],
+        [
+          0.55078125,
+          1.119140625,
+          0.0
+        ],
+        [
+          0.6740993923611112,
+          1.3031955295138888,
+          0.0
+        ],
+        [
+          0.8055555555555555,
+          1.4861111111111107,
+          0.0
+        ],
+        [
+          0.94482421875,
+          1.667724609375,
+          0.0
+        ],
+        [
+          1.091579861111111,
+          1.8478732638888888,
+          0.0
+        ],
+        [
+          1.2454969618055556,
+          2.026394314236111,
+          0.0
+        ],
+        [
+          1.40625,
+          2.203125,
+          0.0
+        ],
+        [
+          1.573513454861111,
+          2.3779025607638893,
+          0.0
+        ],
+        [
+          1.746961805555556,
+          2.550564236111111,
+          0.0
+        ],
+        [
+          1.92626953125,
+          2.720947265625,
+          0.0
+        ],
+        [
+          2.111111111111111,
+          2.8888888888888893,
+          0.0
+        ],
+        [
+          2.3011610243055554,
+          3.0542263454861107,
+          0.0
+        ],
+        [
+          2.49609375,
+          3.216796875,
+          0.0
+        ],
+        [
+          2.6955837673611116,
+          3.3764377170138893,
+          0.0
+        ],
+        [
+          2.8993055555555554,
+          3.5329861111111107,
+          0.0
+        ],
+        [
+          3.10693359375,
+          3.686279296875,
+          0.0
+        ],
+        [
+          3.3181423611111116,
+          3.8361545138888893,
+          0.0
+        ],
+        [
+          3.532606336805556,
+          3.9824490017361107,
+          0.0
+        ],
+        [
+          3.75,
+          4.125,
+          0.0
+        ],
+        [
+          3.969997829861111,
+          4.263644748263889,
+          0.0
+        ],
+        [
+          4.192274305555555,
+          4.398220486111111,
+          0.0
+        ],
+        [
+          4.41650390625,
+          4.528564453125,
+          0.0
+        ],
+        [
+          4.642361111111112,
+          4.654513888888889,
+          0.0
+        ],
+        [
+          4.869520399305555,
+          4.775906032986111,
+          0.0
+        ],
+        [
+          5.09765625,
+          4.892578125,
+          0.0
+        ],
+        [
+          5.3264431423611125,
+          5.004367404513889,
+          0.0
+        ],
+        [
+          5.555555555555555,
+          5.111111111111111,
+          0.0
+        ],
+        [
+          5.78466796875,
+          5.212646484375,
+          0.0
+        ],
+        [
+          6.013454861111111,
+          5.308810763888888,
+          0.0
+        ],
+        [
+          6.241590711805555,
+          5.399441189236111,
+          0.0
+        ],
+        [
+          6.46875,
+          5.484375,
+          0.0
+        ],
+        [
+          6.694607204861112,
+          5.563449435763888,
+          0.0
+        ],
+        [
+          6.918836805555555,
+          5.636501736111112,
+          0.0
+        ],
+        [
+          7.14111328125,
+          5.703369140625,
+          0.0
+        ],
+        [
+          7.3611111111111125,
+          5.763888888888889,
+          0.0
+        ],
+        [
+          7.578504774305555,
+          5.817898220486112,
+          0.0
+        ],
+        [
+          7.79296875,
+          5.865234375,
+          0.0
+        ],
+        [
+          8.00417751736111,
+          5.905734592013888,
+          0.0
+        ],
+        [
+          8.211805555555555,
+          5.939236111111111,
+          0.0
+        ],
+        [
+          8.41552734375,
+          5.965576171875,
+          0.0
+        ],
+        [
+          8.615017361111112,
+          5.984592013888889,
+          0.0
+        ],
+        [
+          8.809950086805555,
+          5.996120876736112,
+          0.0
+        ],
+        [
+          9.0,
+          6.0,
+          0.0
+        ]
+      ]
+    },
+    "u_return": {
+      "id": "u-projection-return",
+      "point": [
+        15,
+        3,
+        0
+      ],
+      "post": {
+        "id": "u-post-reference",
+        "points": [
+          [
+            15,
+            0,
+            0
+          ],
+          [
+            15,
+            6,
+            0
+          ]
+        ],
+        "status": "provisional reference, not a mechanical post"
+      },
+      "role": "Projectioning center return",
+      "station": "steeling-letter-13",
+      "upper_aperture": {
+        "dimensions": null,
+        "frame": null,
+        "id": "central-upper-aperture",
+        "status": "reserved; reference endpoint does not appoint aperture geometry",
+        "toward_reference": [
+          15,
+          6,
+          0
+        ]
+      }
+    },
+    "unresolved": "Course lies in XY at Z=0. CUBICAL frames do not deform with it. No final connections, load paths, aperture dimensions or THE/PUBLIC corner angle are appointed.",
+    "version": 1
+  },
+  "turn": {
+    "anchored_index": 0,
+    "local": 0,
+    "status": "reserved; no turn operation"
+  },
+  "witnesses": []
+}

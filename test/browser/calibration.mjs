@@ -1,0 +1,108 @@
+import assert from 'node:assert/strict'
+import {mkdir,readFile} from 'node:fs/promises'
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE||'playwright')
+const out=process.env.WITNESS_DIR||'/tmp/psm-calibration'
+await mkdir(out,{recursive:true})
+const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||undefined,args:['--no-sandbox']})
+const page=await browser.newPage({viewport:{width:1600,height:1200}}),errors=[]
+page.on('pageerror',e=>errors.push(e.message))
+const model=()=>page.locator('#gw-renderer').evaluate(e=>JSON.parse(e.dataset.model))
+const registry=()=>page.locator('#gw-renderer').evaluate(e=>JSON.parse(e.dataset.calibration))
+const item=(r,id)=>r.items.find(i=>i.id===id)
+const edit=async changes=>{
+ const revision=Number(await page.locator('#gw-calibration-controls').getAttribute('data-revision'))
+ for(const [key,value] of Object.entries(changes)) {
+  const el=page.locator('#calibration_'+key)
+  if(['axis','coupling'].includes(key))await el.selectOption(value);else await el.fill(String(value))
+ }
+ await page.locator('#gw-apply-calibration').click()
+ await page.waitForFunction(r=>Number(document.querySelector('#gw-calibration-controls')?.dataset.revision)===r,revision+1)
+}
+const view=async id=>{await page.locator('#gw-view-'+id).click();await page.waitForFunction(id=>document.querySelector('#gw-scene').dataset.regard===id,id)}
+const capture=async name=>page.locator('.gw-stage').screenshot({path:out+'/'+name})
+try {
+ await page.goto(process.env.WORKSHOP_URL||'http://127.0.0.1:4001/workshop')
+ await page.waitForSelector('#gw-scene[data-structural-paths="439"]')
+ await page.waitForSelector('.phx-connected')
+ const initial=await model()
+ await page.locator('#gw-furnish-calibration').click()
+ await page.waitForSelector('#gw-cal-u-aperture')
+ const start=await registry()
+ assert.equal(item(start,'camera-zero'),undefined)
+ await view('diorama');await capture('01-diorama-initial.png')
+ for(const index of [13,18,1,25,4]) {
+  await page.selectOption('#pick_index',String(index))
+  await page.waitForFunction(i=>document.querySelector('#gw-renderer').dataset.letter===String(i),index)
+  await page.locator('#gw-quick-collect').click()
+  await page.waitForFunction(i=>JSON.parse(document.querySelector('#gw-renderer').dataset.model).rehearsal.collected.includes(i),index)
+ }
+ const five=await model();assert.equal(five.rehearsal.ready,true)
+ assert.deepEqual(five.entities,initial.entities)
+ assert.deepEqual(five.turn,initial.turn)
+ const withFootings=await registry()
+ assert.ok(item(withFootings,'camera-zero'))
+ assert.deepEqual(item(withFootings,'camera-zero').points.at(-1),item(withFootings,'camera-one').points[0])
+ for(const angle of [45,90]) {
+  await edit({quarter_turn:angle})
+  const r=await registry()
+  assert.deepEqual(r.u_frame,start.u_frame)
+  assert.deepEqual(item(r,'u-aperture').points,item(start,'u-aperture').points)
+  assert.deepEqual(r.toe_points,start.toe_points)
+  assert.equal(r.ground_resolution[1],-6)
+  assert.deepEqual(await model(),five)
+ }
+ await page.locator('#gw-inspect-SIX-upstage').click()
+ await view('diorama');await capture('02-diorama-quarter-turn-90.png')
+ for(const mode of ['counter','linked','independent']) {
+  await edit({coupling:mode,opening:30})
+  assert.deepEqual((await registry()).toe_points,start.toe_points)
+ }
+ await edit({axis:'z',quarter_turn:0,opening:0})
+ assert.deepEqual((await registry()).u_frame,start.u_frame)
+ assert.deepEqual((await registry()).toe_points,start.toe_points)
+ await edit({axis:'x',quarter_turn:90,opening:45})
+ await page.locator('#gw-inspect-doll-toes').click()
+ await view('tunneling');await capture('03-tunneling-pinned-opening.png')
+ await page.locator('#gw-inspect-projection-thing').click()
+ await view('reciprocal')
+ await page.locator('#inspection_yaw').evaluate(el=>{el.value='35';el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))})
+ await page.waitForFunction(()=>document.querySelector('#gw-scene').dataset.yaw==='35')
+ const stable=await registry()
+ await capture('04-oblique-reciprocal.png')
+ assert.deepEqual(await model(),five)
+ await page.locator('#gw-inspect-monitor-prospective').click()
+ await page.waitForFunction(()=>JSON.parse(document.querySelector('#gw-planar-detail').textContent).id==='monitor-prospective')
+ assert.match(await page.locator('#gw-planar-detail').textContent(),/STAGING FOR STANDING/)
+ assert.match(await page.locator('#gw-planar-detail').textContent(),/PROVISIONAL/)
+ await page.locator('#gw-calibration').screenshot({path:out+'/05-planar-ledger.png'})
+ assert.ok(await page.locator('#gw-scene path').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).fill==='none')))
+ // UI constraints and server-side forged submissions both preserve registered state.
+ await page.locator('#calibration_quarter_turn').fill('91')
+ assert.equal(await page.locator('#calibration_quarter_turn').evaluate(el=>el.checkValidity()),false)
+ await page.locator('#calibration_quarter_turn').fill('90')
+ await page.locator('#gw-lock').click()
+ await page.waitForFunction(()=>!!JSON.parse(document.querySelector('#gw-renderer').dataset.model).lock)
+ assert.equal(await page.locator('#gw-apply-calibration').isDisabled(),true)
+ const locked=await model(),downloadPromise=page.waitForEvent('download')
+ await page.locator('#gw-export').click()
+ const envelope=JSON.parse(await readFile(await (await downloadPromise).path(),'utf8'))
+ assert.equal(envelope.schema_version,4)
+ assert.deepEqual(envelope.construction,locked)
+ assert.equal(envelope.extensions.calibration_v1.parameters.quarter_turn,90)
+ await page.locator('#gw-reset-rehearsal').click()
+ await page.waitForFunction(()=>JSON.parse(document.querySelector('#gw-renderer').dataset.model).rehearsal.collected.length===0)
+ assert.equal((await model()).rehearsal.previous_runs.at(-1).footings.length,5)
+ await page.locator('#gw-file-form input[type=file]').setInputFiles({name:'calibration.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(envelope))})
+ await page.locator('#gw-import-file').click()
+ await page.waitForFunction(()=>JSON.parse(document.querySelector('#gw-renderer').dataset.model).rehearsal.ready)
+ assert.deepEqual(await model(),locked)
+ assert.deepEqual(await registry(),stable)
+ await page.setViewportSize({width:390,height:844})
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))
+ assert.deepEqual(await model(),locked)
+ assert.deepEqual(await registry(),stable)
+ assert.deepEqual(errors,[])
+ console.log('Calibration browser passed: U lock; 0/90 range; 0/45 pinning; both axis hypotheses; three wishbone modes; camera appointments; measured/appointed/provisional ledger; material distinction; five Footings; LOCK; archive; saved-extension restore; three Regardings and mobile invariance.')
+} catch(error) {
+ await page.screenshot({path:out+'/failure.png',fullPage:true});console.error('Page errors:',errors);throw error
+} finally {await browser.close()}

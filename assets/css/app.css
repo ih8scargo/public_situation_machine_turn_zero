@@ -2,6 +2,9 @@
    https://tailwindcss.com/docs/configuration */
 
 @import "tailwindcss" source(none);
+@import "./workshop.css";
+@import "./rail_recovery.css";
+@import "./wedging_geometry.css";
 @import "phoenix-colocated/public_situation_machine_turn_zero/colocated.css";
 @source "../css";
 @source "../js";

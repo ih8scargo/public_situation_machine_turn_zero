@@ -1,0 +1,275 @@
+/* Workshop boundary. No existing apparatus selectors or theme tokens are reused. */
+#geometric-workshop.gw { box-sizing:border-box; min-height:100dvh; width:100%; margin:0; padding:24px; background:#f5f7fa; color:#182a3a; color-scheme:light; font:15px/1.5 system-ui,sans-serif; isolation:isolate; }
+#geometric-workshop *, #geometric-workshop *::before, #geometric-workshop *::after { box-sizing:border-box; }
+#geometric-workshop h1 { font-size:28px; font-weight:650; margin:0 0 6px; }
+#geometric-workshop h2 { font-size:16px; font-weight:650; margin:18px 0 10px; }
+#geometric-workshop p { margin:8px 0; }
+#geometric-workshop .gw-header { display:flex; justify-content:space-between; align-items:start; gap:16px; padding-bottom:18px; }
+#geometric-workshop .gw-eyebrow { font:11px/1.5 ui-monospace,monospace; letter-spacing:.07em; color:#536476; }
+#geometric-workshop .gw-link { color:#1b536c; display:flex; align-items:center; gap:6px; text-decoration:underline; }
+#geometric-workshop .gw-status { display:flex; gap:12px 24px; flex-wrap:wrap; padding:12px 16px; background:#e5edf3; overflow-wrap:anywhere; font-size:13px; border:1px solid #c8d4df; border-radius:6px; }
+#geometric-workshop .gw-layout { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; margin-top:20px; }
+#geometric-workshop .gw-stage { min-width:0; align-self:start; border:1px solid #bccbd7; border-radius:6px; background:#fff; overflow:hidden; }
+#geometric-workshop .gw-views { display:flex; flex-wrap:wrap; gap:6px; padding:12px; border-bottom:1px solid #d6dfe7; }
+#geometric-workshop button { font:inherit; font-size:13px; line-height:1.4; padding:8px 11px; border:1px solid #a8bac9; background:#fff; color:#203c50; border-radius:4px; cursor:pointer; transition:background-color 120ms; }
+#geometric-workshop button:hover { background:#e7f0f7; }
+#geometric-workshop button:focus-visible, #geometric-workshop input:focus-visible, #geometric-workshop summary:focus-visible, #geometric-workshop [role="button"]:focus-visible { outline:3px solid #277ba8; outline-offset:3px; }
+#geometric-workshop button[aria-pressed="true"] { background:#173d55; color:white; border-color:#173d55; }
+#geometric-workshop button:disabled { opacity:.45; cursor:default; }
+#geometric-workshop #gw-renderer { width:100%; overflow:hidden; }
+#geometric-workshop #gw-regarding-viewport { width:100%; aspect-ratio:1; container-type:inline-size; overflow:auto; overflow-anchor:none; overscroll-behavior:contain; scrollbar-color:#6e8799 #e5edf3; }
+#geometric-workshop #gw-regarding-viewport:focus-visible { outline:3px solid #277ba8; outline-offset:-3px; }
+#geometric-workshop .gw-regarding-relations { display:flex; flex-wrap:wrap; gap:8px 24px; padding:12px; border-bottom:1px solid #d6dfe7; font-size:13px; }
+#geometric-workshop .gw-regarding-relations dt { font-weight:700; }
+#geometric-workshop .gw-regarding-relations dd { margin:0; }
+#geometric-workshop #gw-scene { display:block; width:100%; max-width:none; height:auto; aspect-ratio:1; color:#516e83; background:#fff; }
+#geometric-workshop .gw-zoom { display:flex; flex-wrap:wrap; align-items:center; gap:8px; padding:12px; border-bottom:1px solid #d6dfe7; }
+#geometric-workshop .gw-zoom output { font-variant-numeric:tabular-nums; }
+#geometric-workshop .gw-outreadings { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:20px; }
+#geometric-workshop .gw-geometry { fill:none !important; stroke-linejoin:round; pointer-events:stroke; stroke-width:1.25; }
+#geometric-workshop .gw-surface { stroke-dasharray:3 5; stroke-width:.65; }
+#geometric-workshop .gw-selected.gw-edge { stroke-width:2.4; }
+#geometric-workshop .gw-entity-tc { color:#2174a5; }
+#geometric-workshop .gw-entity-ch { color:#9a4c1d; }
+#geometric-workshop .gw-entity-central { color:#5d4a9a; }
+#geometric-workshop .gw-entity-lower { color:#23725b; }
+#geometric-workshop .ground-reference { stroke:#1b6950; stroke-width:2; stroke-dasharray:7 3; }
+#geometric-workshop .monitor-reference { stroke:#7c3c8e; stroke-width:2; stroke-dasharray:2 4; }
+#geometric-workshop .gw-rail { stroke:#1a2d3c; stroke-width:2.5; }
+#geometric-workshop .gw-label { fill:currentColor; font:600 13px ui-monospace,monospace; cursor:pointer; }
+#geometric-workshop .gw-axis-label, #geometric-workshop .gw-reference-label { fill:#233d50; font:11px ui-monospace,monospace; }
+#geometric-workshop .gw-caption, #geometric-workshop #gw-overlaps { padding:0 16px; font-size:13px; }
+#geometric-workshop .gw-controls { padding:0 16px 16px; background:#edf2f6; border:1px solid #c8d4df; border-radius:6px; min-width:0; }
+#geometric-workshop .gw-selection, #geometric-workshop .gw-actions { display:flex; flex-wrap:wrap; gap:6px; }
+#geometric-workshop #gw-carriage-form { display:flex; flex-wrap:wrap; align-items:end; gap:8px; }
+#geometric-workshop #gw-carriage-form .gw-input { max-width:12rem; }
+#geometric-workshop .gw-controls p { font-size:13px; }
+#geometric-workshop form { display:grid; gap:10px; margin:12px 0; }
+#geometric-workshop .gw-input { display:block; width:100%; padding:8px; border:1px solid #8fa5b7; border-radius:4px; background:#fff; color:#172c3d; font:14px/1.4 ui-monospace,monospace; }
+#geometric-workshop textarea.gw-input { min-height:140px; }
+#geometric-workshop input[type="file"] { width:100%; min-width:0; font-size:12px; }
+#geometric-workshop .gw-comparison { display:grid; grid-template-columns:1fr auto; gap:6px; font-size:13px; }
+#geometric-workshop dd { margin:0; }
+#geometric-workshop .gw-notes { margin-top:20px; }
+#geometric-workshop details { margin:12px 0; }
+#geometric-workshop summary { cursor:pointer; font-weight:600; }
+#geometric-workshop pre { white-space:pre-wrap; overflow-wrap:anywhere; max-height:380px; overflow:auto; padding:14px; background:#e9eef3; font:12px/1.5 ui-monospace,monospace; }
+#geometric-workshop .gw-message { padding:10px; border-left:3px solid #a05a21; background:#fff4e8; }
+#geometric-workshop .gw-notes dt { font-weight:600; margin-top:10px; }
+@media(max-width:900px) { #geometric-workshop.gw { padding:12px; } #geometric-workshop .gw-header { flex-wrap:wrap; } }
+@media(prefers-reduced-motion:reduce) { #geometric-workshop button { transition:none; } }
+
+#geometric-workshop .gw-legend { display:flex; flex-wrap:wrap; gap:5px 16px; padding:10px 14px; font-size:12px; border-bottom:1px solid #d6dfe7; }
+#geometric-workshop .gw-legend-tc { color:#2174a5; }
+#geometric-workshop .gw-legend-central { color:#5d4a9a; }
+#geometric-workshop .gw-legend-ch { color:#9a4c1d; }
+#geometric-workshop .gw-legend-lower { color:#23725b; }
+@media(max-width:600px) { #geometric-workshop .gw-label, #geometric-workshop .gw-reference-label, #geometric-workshop .gw-axis-label { display:none; } }
+
+#geometric-workshop .gw-assembly-name { font-size:13px; font-weight:600; margin-top:16px; }
+#geometric-workshop .gw-pivot { padding:0 14px; margin:8px 0; }
+#geometric-workshop .gw-pivot input { padding:0; }
+#geometric-workshop .gw-steeling { display:grid; grid-template-columns:minmax(0,1fr) minmax(260px,360px); gap:24px; margin-top:22px; padding:18px; background:white; border:1px solid #c8d4df; border-radius:6px; }
+#geometric-workshop .gw-steeling .label, #geometric-workshop #gw-progress-form .label { white-space:normal; overflow-wrap:anywhere; }
+#geometric-workshop .gw-stations { display:flex; flex-wrap:wrap; gap:5px; margin:12px 0; }
+#geometric-workshop .gw-stations button { min-width:43px; font:13px ui-monospace,monospace; }
+#geometric-workshop .gw-u-button { border:2px solid #913da1; }
+#geometric-workshop .gw-n-button { border:2px solid #a3510a; }
+#geometric-workshop #gw-two-returns dt { font-weight:650; margin-top:12px; }
+#geometric-workshop .gw-course { stroke:#384b60; stroke-width:2; }
+#geometric-workshop .gw-machine { stroke:#a3510a; stroke-width:2.5; stroke-dasharray:7 3; }
+#geometric-workshop .gw-n-return { stroke:#a3510a; stroke-width:2; stroke-dasharray:2 5; }
+#geometric-workshop .gw-u-return { stroke:#913da1; stroke-width:2.8; stroke-dasharray:9 3; }
+#geometric-workshop .gw-gallery { stroke:#6a7986; stroke-dasharray:2 6; stroke-width:.7; }
+#geometric-workshop .gw-station { stroke:#233d50; stroke-width:1.6; }
+#geometric-workshop .gw-u-station { stroke:#913da1; stroke-width:2.8; }
+#geometric-workshop .gw-n-station { stroke:#a3510a; stroke-width:2.8; }
+#geometric-workshop .gw-letter-label { fill:#223548; font:600 12px ui-monospace,monospace; cursor:pointer; }
+#geometric-workshop .gw-return-label { font-size:14px; }
+#geometric-workshop .gw-u-label { fill:#913da1; }
+#geometric-workshop .gw-n-label { fill:#a3510a; }
+#geometric-workshop .gw-letter-selected { text-decoration:underline; }
+@media(max-width:900px) { #geometric-workshop .gw-steeling { grid-template-columns:minmax(0,1fr); } }
+@media(max-width:600px) { #geometric-workshop .gw-letter-label { display:none; } #geometric-workshop .gw-return-label { display:block; font-size:19px; } }
+
+#geometric-workshop .gw-quick-rehearsal { display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:10px 14px; background:#e6f1ee; border:1px solid #adc6bc; border-radius:6px; }
+#geometric-workshop .gw-quick-rehearsal form { margin:0; min-width:230px; }
+#geometric-workshop .gw-rehearsal { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,1fr); gap:24px; margin-top:22px; padding:18px; background:#fff; border:1px solid #a6bfbc; border-radius:6px; }
+#geometric-workshop .gw-companion { padding:10px; background:#edf6f2; border-left:3px solid #23725b; }
+#geometric-workshop #gw-readiness { display:block; margin:12px 0; }
+#geometric-workshop #gw-readiness[data-ready="true"] { color:#16644b; border:2px solid #23725b; padding:10px; }
+#geometric-workshop .gw-footings { display:flex; flex-wrap:wrap; gap:6px; margin-top:12px; }
+#geometric-workshop .gw-source-plane { stroke:#377769; stroke-dasharray:4 4; }
+#geometric-workshop .gw-source, #geometric-workshop .gw-footing-source { stroke:#377769; stroke-width:2; }
+#geometric-workshop .gw-projection-vertical, #geometric-workshop .gw-footing-vertical { stroke:#077dab; stroke-width:1.8; stroke-dasharray:8 3; }
+#geometric-workshop .gw-projection-oblique, #geometric-workshop .gw-footing-oblique { stroke:#ab4f80; stroke-width:1.8; stroke-dasharray:2 4; }
+#geometric-workshop .gw-reference-course { stroke:#485c24; stroke-width:2.4; }
+#geometric-workshop .gw-height-measure { stroke:#334155; stroke-width:2.4; }
+#geometric-workshop .gw-cob-progress { stroke:#485c24; stroke-width:3; }
+#geometric-workshop .gw-provisional-association { stroke:#72818c; stroke-width:.7; stroke-dasharray:1 6; }
+#geometric-workshop .gw-acquired-index { stroke:#377769; stroke-width:2; }
+#geometric-workshop .gw-material-label { fill:#254c47; font:600 11px ui-monospace,monospace; }
+#geometric-workshop .gw-vertical-label { fill:#077dab; }
+#geometric-workshop .gw-oblique-label { fill:#ab4f80; }
+#geometric-workshop .gw-cob-label { fill:#485c24; }
+#geometric-workshop .gw-selected.gw-footing-source, #geometric-workshop .gw-selected.gw-footing-vertical, #geometric-workshop .gw-selected.gw-footing-oblique { stroke-width:3.5; }
+@media(max-width:900px) { #geometric-workshop .gw-rehearsal { grid-template-columns:minmax(0,1fr); } }
+@media(max-width:600px) { #geometric-workshop .gw-material-label { font-size:17px; } }
+
+#geometric-workshop .gw-calibration { margin:24px 0; padding:20px; border:1px solid #b1c3c7; background:#f6faf9; border-radius:6px; }
+#geometric-workshop #gw-calibration-form { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+#geometric-workshop .gw-planar-buttons { display:flex; flex-wrap:wrap; gap:6px; max-height:230px; overflow:auto; padding:10px 0; }
+#geometric-workshop .gw-planar-buttons button { font-size:12px; }
+#geometric-workshop .gw-cal-standing { color:#076d69; stroke-width:1.5; }
+#geometric-workshop .gw-cal-prospective { color:#ac4c22; stroke-dasharray:4 3; stroke-width:1.4; }
+#geometric-workshop .gw-cal-selected { color:#862b9b; stroke-width:3; }
+#geometric-workshop .gw-calibration-label { font:10px ui-monospace,monospace; fill:#27505b; cursor:pointer; }
+#geometric-workshop .gw-calibration h2 { margin-bottom:12px; }
+#geometric-workshop .gw-calibration p { margin:12px 0; }
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-edge,
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-surface,
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-course,
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-machine { opacity:0.25; }
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-axis-label,
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-label,
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-letter-label:not(.gw-return-label),
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-reference-label { display:none; }
+#geometric-workshop #gw-scene[data-calibration-focus="true"] .gw-material-label { opacity:0.5; font-size:9px; }
+#geometric-workshop .gw-calibration-quarter-turn { color:#7b2794; stroke-width:3; }
+#geometric-workshop .gw-calibration-quarter-range { color:#7b8796; stroke-dasharray:2 5; }
+#geometric-workshop .gw-calibration-excursion-4 { color:#b48713; }
+#geometric-workshop .gw-calibration-excursion-6 { color:#28775d; }
+#geometric-workshop .gw-calibration-excursion-8 { color:#836621; }
+#geometric-workshop .gw-calibration-u-aperture { stroke-width:2.5; }
+#geometric-workshop .ip-panel { margin:20px 0; border:1px solid #afc3cd; border-radius:8px; padding:20px; background:#f5f8fa; }
+#geometric-workshop .ip-panel h2 { font-size:21px; line-height:1.3; }
+#geometric-workshop #ip-stands { display:flex; gap:10px; justify-content:center; margin:18px 0; border-bottom:2px solid #b8c6ce; padding-bottom:12px; }
+#geometric-workshop #ip-stands button { min-width:64px; font-weight:700; font-size:17px; }
+#geometric-workshop .ip-note { font-size:13px; color:#45616f; margin:12px 0; line-height:1.6; }
+#geometric-workshop .ip-actions { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
+#geometric-workshop #ip-control-form { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; }
+#geometric-workshop .ip-comparison { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+#geometric-workshop .ip-comparison figure { min-width:0; margin:0; background:white; border:1px solid #a8beca; border-radius:5px; overflow:hidden; }
+#geometric-workshop .ip-comparison figcaption { padding:10px; font-size:13px; font-weight:700; border-bottom:1px solid #ccd8de; }
+#geometric-workshop .ip-comparison svg { display:block; width:100%; overflow:hidden; background:#e8eff1; touch-action:manipulation; }
+#geometric-workshop #ip-monitor-scene { aspect-ratio:4/3; }
+#geometric-workshop #ip-regarding-scene { aspect-ratio:11/7; }
+#geometric-workshop #ip-pose-readout,#geometric-workshop #ip-standing { font:13px/1.7 ui-monospace,monospace; overflow-wrap:anywhere; margin:12px 0; }
+#geometric-workshop #ip-details { margin-top:16px; }
+#geometric-workshop #ip-locality-detail { max-height:300px; }
+@media(max-width:760px) { #geometric-workshop .ip-comparison { grid-template-columns:1fr; } #geometric-workshop .ip-panel { padding:12px; } #geometric-workshop #ip-stands { gap:5px; } #geometric-workshop #ip-stands button { min-width:0; flex:1; padding:9px 4px; } }
+#geometric-workshop .ip-panel, #geometric-workshop #ip-controls, #geometric-workshop .ip-panel .fieldset { min-width:0; }
+#geometric-workshop #ip-locality-form { grid-template-columns:minmax(0,1fr); }
+#geometric-workshop .ip-panel form > *, #geometric-workshop .ip-panel select { min-width:0; max-width:100%; }
+#geometric-workshop .ip-panel .label, #geometric-workshop .ip-panel label { white-space:normal; overflow-wrap:anywhere; }
+#geometric-workshop .ip-range { display:block; width:100%; min-width:0; height:24px; accent-color:#19566d; cursor:pointer; }
+#geometric-workshop .ip-check { accent-color:#19566d; }
+#geometric-workshop .sf-workshop { margin:20px 0; padding:22px; border:1px solid #bac8c6; border-radius:10px; background:#fffefa; }
+#geometric-workshop .sf-heading { display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
+#geometric-workshop .sf-identity { font-size:13px; letter-spacing:.03em; color:#496361; }
+#geometric-workshop .sf-offices { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:24px; margin:22px 0; }
+#geometric-workshop .sf-offices > section { min-width:0; padding:20px; border:1px solid #c9d7d0; border-radius:8px; }
+#geometric-workshop #sf-consoling-stand { background:#eef5f2; border-left:4px solid #347065; }
+#geometric-workshop .sf-office-label { color:#44645f; font-size:12px; letter-spacing:.08em; }
+#geometric-workshop .sf-workshop h3 { font-size:19px; font-weight:650; margin:8px 0 14px; }
+#geometric-workshop .sf-quill { display:block; width:100%; min-height:180px; padding:14px; border:1px solid #77988b; border-radius:6px; background:white; color:#142e2a; font:16px/1.6 system-ui,sans-serif; resize:vertical; }
+#geometric-workshop .sf-actions { display:flex; flex-wrap:wrap; gap:8px; }
+#geometric-workshop #sf-route-staging { color:white; background:#245e52; }
+#geometric-workshop #sf-route-inquiry { color:white; background:#3c5378; }
+#geometric-workshop #sf-by-way-of { padding:14px; background:#fff; border-radius:6px; margin:18px 0; }
+#geometric-workshop .sf-text { white-space:pre-wrap; overflow-wrap:anywhere; font-size:16px; line-height:1.7; }
+#geometric-workshop #sf-material-ledger article,#geometric-workshop #sf-console-material article { margin:12px 0; padding:16px; border:1px solid #becdc5; border-radius:6px; background:white; }
+#geometric-workshop .sf-record-heading { display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; font-size:13px; }
+#geometric-workshop article[data-route="inquiry"] { border-left:4px solid #3c5378!important; }
+#geometric-workshop article[data-route="staging"] { border-left:4px solid #245e52!important; }
+#geometric-workshop .sf-route-note { color:#4b625c; font-size:13px; }
+#geometric-workshop .sf-relation-buttons { display:flex; flex-wrap:wrap; gap:8px; }
+#geometric-workshop [data-sf-note] { position:relative; }
+#geometric-workshop [data-sf-note]:hover::after,#geometric-workshop [data-sf-note]:focus-visible::after { content:attr(data-sf-note); position:absolute; bottom:100%; left:0; width:240px; padding:12px; background:#17352f; color:white; z-index:4; font-size:12px; text-align:left; border-radius:5px; }
+@media(max-width:760px) { #geometric-workshop .sf-workshop { padding:14px; } #geometric-workshop .sf-offices { grid-template-columns:minmax(0,1fr); } #geometric-workshop .sf-offices>section { padding:14px; } }
+#geometric-workshop #ip-renderer { position:relative; }
+#geometric-workshop #ip-outreading-panel { padding:16px; margin:16px 0; background:white; border:1px solid #a9bfca; border-radius:6px; }
+#geometric-workshop #ip-outreading-panel h3 { font-size:18px; font-weight:650; margin-bottom:10px; }
+#geometric-workshop #ip-outreading-detail { max-height:280px; }
+#geometric-workshop #ip-outreading-tooltip { position:absolute; max-width:280px; padding:12px; border-radius:6px; background:#143541; color:white; pointer-events:none; z-index:10; font-size:12px; overflow-wrap:anywhere; box-shadow:0 6px 16px #19323d33; }
+#geometric-workshop .ip-hit-line:focus-visible { stroke:#cf8a1a; stroke-opacity:.35; outline:none; }
+#geometric-workshop [data-letter-body]:focus-visible { stroke:#eea533; stroke-width:2; outline:none; }
+#geometric-workshop .sf-workshop .fieldset,#geometric-workshop .sf-workshop form>*,#geometric-workshop #sf-display { min-width:0; }
+#geometric-workshop .sf-workshop .label { white-space:normal; overflow-wrap:anywhere; }
+@media(max-width:760px) { #geometric-workshop [data-sf-note]:hover::after,#geometric-workshop [data-sf-note]:focus-visible::after { position:fixed; left:16px; right:16px; bottom:16px; width:auto; } }
+
+#geometric-workshop .gw-inherited-cage { stroke: #8799aa; stroke-opacity: .65; }
+#geometric-workshop .gw-trial-cage { stroke: #245785; stroke-width: 2; }
+#geometric-workshop .gw-bunting { stroke: #a34b22; stroke-width: 2; }
+#geometric-workshop .gw-receiving-region { stroke: #08776e; stroke-width: 2.5; }
+
+#geometric-workshop .gw-regarding-console { display:grid; gap:8px; padding:12px; border-bottom:1px solid #d6dfe7; font-size:13px; }
+#geometric-workshop .gw-regarding-console[hidden] { display:none; }
+#geometric-workshop .gw-regarding-console h2 { font-size:1rem; }
+#geometric-workshop .gw-regarding-console > button { justify-self:start; }
+#geometric-workshop .gw-flat-material { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%, 190px),1fr)); gap:12px; }
+#geometric-workshop .gw-flat-material article { border-inline-start:4px solid #257054; background:#eaf5ef; padding:12px; }
+#geometric-workshop .gw-flat-material article[data-stage="prospective"] { border-color:#956221; background:#fff4e2; }
+#geometric-workshop .gw-stand-witness { color:#275b85; }
+#geometric-workshop .gw-cob-stand-witness { color:#a32362; font-weight:700; }
+#geometric-workshop .gw-zoom[hidden] { display:none; }
+
+#geometric-workshop .gw-axis-witness { padding:12px; border-bottom:1px solid #d6dfe7; font-size:13px; }
+#geometric-workshop .gw-axis-witness summary { cursor:pointer; font-weight:700; }
+#geometric-workshop .gw-axis-readings { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%, 190px),1fr)); gap:12px; margin-block:8px; }
+#geometric-workshop .gw-axis-readings section { border:1px solid #d6dfe7; border-radius:6px; padding:10px; }
+#geometric-workshop .gw-axis-readings h3 { font-weight:700; margin-bottom:4px; }
+#geometric-workshop #gw-seat-axis-diagram { display:block; width:100%; max-height:115px; background:#f8f4fa; margin-block:8px; }
+#geometric-workshop #gw-seat-axis-diagram text { font-size:12px; fill:#58286c; }
+#geometric-workshop .gw-seat-ground { stroke:#718297; fill:none; }
+#geometric-workshop .gw-seat-reserve { stroke:#79358f; fill:none; stroke-dasharray:3 2; }
+#geometric-workshop .gw-seat-direction { stroke:#79358f; fill:none; stroke-width:2; }
+#geometric-workshop .gw-crossing-axis { stroke:#155f9a; stroke-width:3; vector-effect:non-scaling-stroke; }
+#geometric-workshop .gw-crossing-axis-center { fill:#155f9a; }
+#geometric-workshop .gw-crossing-axis-label { fill:#155f9a; font-size:17px; font-weight:700; paint-order:stroke; stroke:white; stroke-width:4px; }
+
+#geometric-workshop .gw-draw-out { padding:12px; border-bottom:1px solid #d6dfe7; display:grid; gap:8px; font-size:13px; }
+#geometric-workshop .gw-draw-out h2 { font-size:1rem; font-weight:700; }
+#geometric-workshop #gw-draw-out-scene { width:100%; background:#f6f9fc; border:1px solid #d6dfe7; border-radius:5px; }
+#geometric-workshop #gw-draw-out-scene text { font:600 17px system-ui; fill:#20374a; paint-order:stroke; stroke:#f6f9fc; stroke-width:3px; }
+#geometric-workshop .gw-draw-crossing { fill:none; stroke:#3474a0; stroke-width:1.4; }
+#geometric-workshop .gw-draw-here { fill:#d5eadf; stroke:#287252; stroke-width:2; }
+#geometric-workshop .gw-draw-standing { fill:#287252; stroke:white; stroke-width:1.3; }
+#geometric-workshop .gw-draw-next { fill:#f2cf8e99; stroke:#825016; stroke-width:2; stroke-dasharray:5 3; }
+#geometric-workshop .gw-draw-ray, #geometric-workshop .gw-draw-sight { fill:none; stroke:#825016; stroke-width:2; }
+#geometric-workshop .gw-draw-sight { stroke-dasharray:3 4; }
+#geometric-workshop .gw-draw-craft { fill:#7f2869; stroke:white; stroke-width:2; }
+#geometric-workshop .gw-draw-head { fill:#825016; }
+#geometric-workshop .gw-draw-legend { display:grid; gap:4px; }
+#geometric-workshop .gw-draw-legend li { padding-inline-start:8px; border-inline-start:3px solid; }
+#geometric-workshop .gw-draw-legend-crossing { border-inline-start-color:#3474a0; }
+#geometric-workshop .gw-draw-legend-standing { border-inline-start-color:#287252; }
+#geometric-workshop .gw-draw-legend-next { border-inline-start-color:#825016; }
+#geometric-workshop #gw-groundside { min-width:0; }
+#geometric-workshop #gw-groundside h3 { font-size:17px; font-weight:650; }
+#geometric-workshop #gw-groundside-scene { display:block; width:100%; background:#f7fafc; border:1px solid #b7cbd3; border-radius:6px; overflow:hidden; }
+#geometric-workshop #gw-groundside-scene polygon,#geometric-workshop #gw-groundside-scene polyline { fill:none; vector-effect:non-scaling-stroke; }
+#geometric-workshop #gw-groundside-scene text { font:13px ui-monospace,monospace; fill:#1f3c4b; paint-order:stroke; stroke:#f7fafc; stroke-width:2px; }
+#geometric-workshop .gs-crossing { stroke:#3375aa; stroke-width:1.4; }
+#geometric-workshop .gs-lower { stroke:#4f8a79; stroke-width:1; stroke-dasharray:3 4; }
+#geometric-workshop .gs-ground { stroke:#36694e; }
+#geometric-workshop .gs-strip { stroke:#bc7918; stroke-width:2; stroke-dasharray:5 3; }
+#geometric-workshop .gs-source { stroke:#158774; stroke-width:3; }
+#geometric-workshop .gs-window { stroke:#9a729c; stroke-dasharray:7 4; stroke-width:1.5; }
+#geometric-workshop .gs-aperture { stroke:#772f94; stroke-width:3; }
+#geometric-workshop .gs-rays { stroke:#ada0bc; stroke-dasharray:3 3; }
+#geometric-workshop .gs-source-map { stroke:#bc7918; stroke-dasharray:2 4; }
+#geometric-workshop .gs-up-over { stroke:#bc7918; stroke-width:4; }
+#geometric-workshop .gs-standing { fill:#24745a; }
+#geometric-workshop .gs-craft { fill:#304568; }
+#geometric-workshop .gs-vanish { fill:#a06a1b; }
+#geometric-workshop #gw-groundside-scene .gs-token text { font-size:18px; font-weight:700; fill:#9c5708; }
+#geometric-workshop .gs-authored { white-space:pre-wrap; overflow-wrap:anywhere; }
+#geometric-workshop .gs-legend { margin:10px 0; padding-left:18px; font-size:13px; }
+#geometric-workshop #gw-groundside-provisional { padding:10px; background:#f5efde; border-left:3px solid #bd832e; }
+#geometric-workshop .gs-unvanishing { stroke:#a06a1b; stroke-width:2; stroke-dasharray:3 3; }
+#geometric-workshop .gs-rail-cage { stroke:#8c6ca0; stroke-width:1; stroke-dasharray:2 3; }
+
+#geometric-workshop .gw-groundside-allowance { fill:none; stroke:#344c62; stroke-width:1.5; stroke-dasharray:6 4; vector-effect:non-scaling-stroke; }
+#geometric-workshop .gw-groundside-strip { fill:#d18b3426; stroke:#a6651b; stroke-width:2; stroke-dasharray:4 3; vector-effect:non-scaling-stroke; }
+#geometric-workshop .gw-groundside-label { fill:#344c62; font:700 16px system-ui; paint-order:stroke; stroke:white; stroke-width:4px; }

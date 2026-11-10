@@ -1,0 +1,8 @@
+{
+  "lib/public_situation_machine_turn_zero/workshop/snail_body.ex": "7b6fe4e329f49998d1b6d070fc418d30187f483769518e393e5a4ee5db364eed",
+  "lib/public_situation_machine_turn_zero/workshop/snail_weave.ex": "997cd3fb39ec253e1e4a012ba29ffc69866c6116bab470685e97842e58e2c591",
+  "lib/public_situation_machine_turn_zero/workshop/snail_emergence.ex": "e17b0816eb16eb28ca3f6586f7ff40d5efdc7c500c2a90d27af2313cf6a4e6fa",
+  "lib/public_situation_machine_turn_zero/workshop/snail_weave_geometry.ex": "94f8ea6836740606cbd2e54c624f5be78ed2f70379c9e6dc7a39a907b23eceac",
+  "lib/public_situation_machine_turn_zero/architecture.ex": "24aaae0f73094fc14f85f070e0aa6ec4875b9ff9a1d5fe9faec14fcede05c27e",
+  "docs/visual-witnesses/snail-weave/two-woven-turns.json": "1d2452cf31a60b643cab92633cc4fbe759d554bb8f8333d7768da162f7594c95"
+}

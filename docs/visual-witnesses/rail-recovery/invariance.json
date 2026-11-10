@@ -1,0 +1,12 @@
+{
+  "protectedFiles": {
+    "lib/public_situation_machine_turn_zero/architecture/inscription_resolution.ex": "033445b2cd67abedbb4bd7310ceda3b193fbefd8ac441ff9afbaa6d927bf222b",
+    "lib/public_situation_machine_turn_zero/workshop/steeling.ex": "e6b70b12a57d6cad49a52aab1b017d504f7dac5547ddacb69809ae5c23d249a3",
+    "lib/public_situation_machine_turn_zero/workshop/snail_body.ex": "7b6fe4e329f49998d1b6d070fc418d30187f483769518e393e5a4ee5db364eed",
+    "docs/visual-witnesses/snail-weave/two-woven-turns.json": "1d2452cf31a60b643cab92633cc4fbe759d554bb8f8333d7768da162f7594c95"
+  },
+  "letters": 25,
+  "sourceUnchanged": true,
+  "acquisitionArtifactUnchanged": true,
+  "errors": []
+}

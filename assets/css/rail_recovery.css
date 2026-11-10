@@ -1,0 +1,19 @@
+.rr-workshop { max-width: 1600px; margin: auto; padding: clamp(16px,3vw,48px); background: #151b24; color: #e5e8ed; font: 15px/1.6 system-ui,sans-serif; }
+.rr-workshop h1 { font-size: clamp(28px,4vw,48px); letter-spacing: -.03em; margin: 8px 0; }
+.rr-workshop h2 { font-size: 21px; font-weight: 600; margin: 8px 0; }
+.rr-workshop h3 { font-size: 17px; font-weight: 600; }
+.rr-workshop a { color: #9bd9e9; text-decoration: underline; }
+.rr-workshop section, .rr-workshop aside { margin-top: 24px; padding: 20px; border: 1px solid #394250; border-radius: 12px; }
+.rr-workshop aside { border-color: #8e793b; color: #f0d99a; }
+.rr-workshop .rr-eyebrow { text-transform: uppercase; font-size: 12px; letter-spacing: .15em; color: #99b8c2; }
+.rr-workshop .rr-controls { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 24px; }
+.rr-workshop .rr-views { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,560px),1fr)); gap: 16px; padding: 12px; }
+.rr-workshop svg { width: 100%; background: #10151d; border-radius: 8px; }
+.rr-workshop svg g:focus text { fill: #ffdf7d; font-weight: bold; }
+.rr-workshop .rr-scroll { overflow-x: auto; }
+.rr-workshop table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.rr-workshop td, .rr-workshop th { text-align: left; padding: 8px; border-bottom: 1px solid #394250; white-space: nowrap; }
+.rr-workshop ul { list-style: disc; padding-left: 20px; }
+.rr-workshop select { background: #202936; color: #f1f5f9; border: 1px solid #607184; border-radius: 6px; }
+.rr-workshop button, .rr-workshop a { transition: color .15s; }
+.rr-workshop a:hover { color: #fff; }

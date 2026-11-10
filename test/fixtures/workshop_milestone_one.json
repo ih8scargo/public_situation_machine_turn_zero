@@ -1,0 +1,1011 @@
+{
+  "construction_id": "00000000-0000-4000-8000-000000000001",
+  "coordinates": {
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "unit": "one provisional extent; not physical distance",
+    "x": "along rail TC toward CH",
+    "y": "UP",
+    "z": "transverse"
+  },
+  "entities": {
+    "central": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "central-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "central-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "central-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "central-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "central-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "central-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "central-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "central-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "central-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "central-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "central-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "central-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          6,
+          0,
+          -3
+        ]
+      },
+      "id": "central",
+      "name": "Central contraption / Projectioning Crossing",
+      "surfaces": [
+        {
+          "id": "central-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "central-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "central-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "central-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "central-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "central-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          6,
+          0,
+          -3
+        ],
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          6,
+          6,
+          -3
+        ],
+        [
+          12,
+          6,
+          -3
+        ],
+        [
+          6,
+          0,
+          3
+        ],
+        [
+          12,
+          0,
+          3
+        ],
+        [
+          6,
+          6,
+          3
+        ],
+        [
+          12,
+          6,
+          3
+        ]
+      ]
+    },
+    "ch": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "ch-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "ch-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "ch-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "ch-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "ch-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "ch-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "ch-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "ch-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "ch-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "ch-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "ch-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "ch-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          12,
+          0,
+          -3
+        ]
+      },
+      "id": "ch",
+      "name": "Constitutioning Human",
+      "surfaces": [
+        {
+          "id": "ch-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "ch-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "ch-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "ch-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "ch-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "ch-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          18,
+          0,
+          -3
+        ],
+        [
+          12,
+          6,
+          -3
+        ],
+        [
+          18,
+          6,
+          -3
+        ],
+        [
+          12,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          3
+        ],
+        [
+          12,
+          6,
+          3
+        ],
+        [
+          18,
+          6,
+          3
+        ]
+      ]
+    },
+    "lower": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "lower-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "lower-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "lower-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "lower-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "lower-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "lower-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "lower-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "lower-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "lower-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "lower-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "lower-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "lower-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          6,
+          -6,
+          -3
+        ]
+      },
+      "id": "lower",
+      "name": "Ground–monitor relational region",
+      "surfaces": [
+        {
+          "id": "lower-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "lower-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "lower-surface-y-min",
+          "role": "Ground-side reference / recurring zero-standing",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "lower-surface-y-max",
+          "role": "Monitor-side reference",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "lower-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "lower-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          6,
+          -6,
+          -3
+        ],
+        [
+          12,
+          -6,
+          -3
+        ],
+        [
+          6,
+          0,
+          -3
+        ],
+        [
+          12,
+          0,
+          -3
+        ],
+        [
+          6,
+          -6,
+          3
+        ],
+        [
+          12,
+          -6,
+          3
+        ],
+        [
+          6,
+          0,
+          3
+        ],
+        [
+          12,
+          0,
+          3
+        ]
+      ]
+    },
+    "tc": {
+      "dimensions": [
+        6,
+        6,
+        6
+      ],
+      "edges": [
+        {
+          "id": "tc-edge-0-1",
+          "vertices": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "tc-edge-0-2",
+          "vertices": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "tc-edge-0-4",
+          "vertices": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "tc-edge-1-2",
+          "vertices": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "tc-edge-1-4",
+          "vertices": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "tc-edge-2-1",
+          "vertices": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "tc-edge-2-4",
+          "vertices": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "tc-edge-3-4",
+          "vertices": [
+            3,
+            7
+          ]
+        },
+        {
+          "id": "tc-edge-4-1",
+          "vertices": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "tc-edge-4-2",
+          "vertices": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "tc-edge-5-2",
+          "vertices": [
+            5,
+            7
+          ]
+        },
+        {
+          "id": "tc-edge-6-1",
+          "vertices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "frame": {
+        "basis": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "origin": [
+          0,
+          0,
+          -3
+        ]
+      },
+      "id": "tc",
+      "name": "Terrestrial Computer",
+      "surfaces": [
+        {
+          "id": "tc-surface-x-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "id": "tc-surface-x-max",
+          "role": "inspection outline",
+          "vertices": [
+            1,
+            3,
+            7,
+            5
+          ]
+        },
+        {
+          "id": "tc-surface-y-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            5,
+            4
+          ]
+        },
+        {
+          "id": "tc-surface-y-max",
+          "role": "inspection outline",
+          "vertices": [
+            2,
+            3,
+            7,
+            6
+          ]
+        },
+        {
+          "id": "tc-surface-z-min",
+          "role": "inspection outline",
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "tc-surface-z-max",
+          "role": "inspection outline",
+          "vertices": [
+            4,
+            5,
+            7,
+            6
+          ]
+        }
+      ],
+      "vertices": [
+        [
+          0,
+          0,
+          -3
+        ],
+        [
+          6,
+          0,
+          -3
+        ],
+        [
+          0,
+          6,
+          -3
+        ],
+        [
+          6,
+          6,
+          -3
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          3
+        ],
+        [
+          6,
+          6,
+          3
+        ]
+      ]
+    }
+  },
+  "lock": null,
+  "positions": {
+    "ch": 12,
+    "tc": 0
+  },
+  "provenance": [
+    {
+      "action": "initial",
+      "actor": "workshop constructor",
+      "positions": {
+        "ch": 12,
+        "tc": 0
+      },
+      "revision": 0
+    }
+  ],
+  "rail": {
+    "end": [
+      18,
+      0,
+      0
+    ],
+    "id": "common-rail",
+    "length": 18,
+    "start": [
+      0,
+      0,
+      0
+    ]
+  },
+  "relationships": [
+    {
+      "id": "lower-under-central",
+      "object": "central",
+      "relation": "UNDER",
+      "subject": "lower"
+    },
+    {
+      "id": "ground-monitor-opposed",
+      "object": "lower-surface-y-max",
+      "relation": "OPPOSITE",
+      "subject": "lower-surface-y-min"
+    }
+  ],
+  "reservations": [
+    {
+      "description": "Upper-circle center aperture OVER ACROSS Snail House; frame and dimensions unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "central-upper-aperture",
+      "status": "reserved"
+    },
+    {
+      "description": "UP ACROSS DOWN; attachments refer to lower Ground/monitor surfaces; curve unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "ground-monitor-passage",
+      "status": "reserved"
+    },
+    {
+      "description": "Separate Human Regarding THROUGH Doll-head aperture; frame and aperture unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "human-transverse-passage",
+      "status": "reserved"
+    },
+    {
+      "description": "Future 25-letter CUBICAL rail and center U return; placement and curvature unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "xt-xt-lettering",
+      "status": "reserved"
+    },
+    {
+      "description": "CAB-side Regarding; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "cab-side-regard",
+      "status": "reserved"
+    },
+    {
+      "description": "Within-CAB Regarding; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "within-cab-regard",
+      "status": "reserved"
+    },
+    {
+      "description": "Human transverse Regarding THROUGH Doll-head aperture; frame unappointed",
+      "dimensions": null,
+      "frame": null,
+      "id": "human-transverse-regard",
+      "status": "reserved"
+    }
+  ],
+  "revision": 0,
+  "schema_version": 1,
+  "turn": {
+    "anchored_index": 0,
+    "local": 0,
+    "status": "reserved; no turn operation"
+  },
+  "witnesses": []
+}
