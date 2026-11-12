@@ -483,6 +483,8 @@ defmodule PublicSituationMachineTurnZeroWeb.WedgingGeometryLive do
     geometry = Map.put(geometry, :near_monitor, SnailNearMonitor.model(s, geometry))
 
     assign(socket,
+      common_material_model:
+        PublicSituationMachineTurnZero.Workshop.CommonMaterialRegistration.model(s, geometry),
       weave_model: geometry,
       gallery_model: SnailGalleryRegistration.model(s, geometry, a.gallery_parameters),
       gallery_form: to_form(a.gallery_parameters, as: :registration),
@@ -739,6 +741,9 @@ defmodule PublicSituationMachineTurnZeroWeb.WedgingGeometryLive do
               PUBLIC-SITUATION-MACHINE- · SNAIL HOUSE
             </p>
             <h1 class="text-3xl font-semibold">Wedging Geometry Workshop</h1>
+            <.link navigate={~p"/workshop/coming-aboard"} class="text-sm text-teal-300 underline">
+              Coming Aboard
+            </.link>
             <p class="text-slate-300">
               Zeroeth Bearinging · one continuous Snail House, Human Quilling and Furnishing / Traversaling turn-weaving.
             </p>
@@ -756,6 +761,7 @@ defmodule PublicSituationMachineTurnZeroWeb.WedgingGeometryLive do
             interface={@weave_interface}
             message={@weave_message}
           />
+          <PublicSituationMachineTurnZeroWeb.CommonMaterialPanel.panel model={@common_material_model} />
           <PublicSituationMachineTurnZeroWeb.SnailGalleryPanel.panel
             model={@gallery_model}
             form={@gallery_form}

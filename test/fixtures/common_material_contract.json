@@ -1,0 +1,841 @@
+{
+  "version": "common-material-registration-v1",
+  "source": {
+    "role": "existing monitor-stage registration; no new String",
+    "material": {
+      "affordment": "Quilling Stitching Needle",
+      "author": "Constitutioning Human",
+      "id": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "piece": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-piece-1",
+      "standing": "authored Pretending material; not Road Stitching",
+      "text": "ONE material carried through this furnished turn."
+    },
+    "turn": "590038f3-8b09-4265-8795-764c6bfae454-turn-2",
+    "ancestry": [
+      {
+        "labor": "Human pull UP",
+        "material_identity": "diagonal-brace-to-Quilling-Needle",
+        "needle_piece": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-piece-1",
+        "opening_source": "first-puffing-accomplished",
+        "source": "zeroeth-first-arch-diagonal-brace"
+      }
+    ],
+    "grapheme_count": 49
+  },
+  "incoming": {
+    "status": "GEOMETRIC HYPOTHESIS",
+    "from": [
+      -0.5499999999999999,
+      -0.65,
+      1.4
+    ],
+    "toward": [
+      0,
+      0.63,
+      0
+    ],
+    "meaning": "midpoint-to-eye bearing; no material transport"
+  },
+  "diagonal": {
+    "id": "diagonal-XT-TOWARD-YT",
+    "status": "IMPLEMENTED WITNESS",
+    "midpoint": [
+      -0.5499999999999999,
+      -0.65,
+      1.4
+    ],
+    "endpoints": [
+      [
+        -0.8799999999999999,
+        -0.881,
+        1.4
+      ],
+      [
+        -0.22000000000000003,
+        -0.41900000000000004,
+        1.4
+      ]
+    ],
+    "length_model_units": 0.8056326706384243,
+    "constitutional_standing": "UNREGISTERED"
+  },
+  "frame": "Snail inspection frame; common physical transform UNREGISTERED",
+  "eye": [
+    0,
+    0.63,
+    0
+  ],
+  "registration": {
+    "next": {
+      "status": "CONFIRMED CANON",
+      "floor": null,
+      "source": {
+        "id": "THIS-NEXT-APPROACHING-LANDINGING",
+        "center": [
+          5.204748896376251e-17,
+          -0.8,
+          0.85
+        ]
+      },
+      "frame_motion": false,
+      "upper_from_ground": 6,
+      "upper_boundary": null,
+      "center_to_ground": null,
+      "horizontal_separation": null
+    },
+    "here": {
+      "status": "CONFIRMED CANON",
+      "source": "SnailBody.fixed.here",
+      "points": [
+        [
+          -0.7,
+          0,
+          -0.7
+        ],
+        [
+          0.7,
+          0,
+          -0.7
+        ],
+        [
+          0.7,
+          0,
+          0.7
+        ],
+        [
+          -0.7,
+          0,
+          0.7
+        ]
+      ],
+      "extents": [
+        6,
+        6,
+        6
+      ],
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "planar_reference_to_here": [
+        [
+          0.2333333333333333,
+          0,
+          0,
+          -0.7
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0.2333333333333333,
+          0,
+          -0.7
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "volumetric_transform": null
+    },
+    "ground": {
+      "status": "UNREGISTERED",
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": {
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "origin": [
+          0,
+          -2.5,
+          0
+        ]
+      },
+      "meaning": "independent Ground; HERE Y=0 and old Table Y=-0.1 do not define it",
+      "source_frame": "ground-monitor-head-v1",
+      "to_snail": null
+    },
+    "upper_check": {
+      "status": "UNREGISTERED",
+      "residual": null
+    },
+    "issuing_post": {
+      "status": "CONFIRMED CANON",
+      "endpoints": null,
+      "extents": 6,
+      "world_transform": null,
+      "implementation": "UNREGISTERED; no spindle/helix/diagonal substitution"
+    },
+    "source_transform": {
+      "status": "IMPLEMENTED WITNESS",
+      "meaning": "both views project exactly the same Snail-frame Q(t) points",
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "eye_registration": "IMPLEMENTED WITNESS of a provisional inspection eye; physical seated registration UNREGISTERED",
+  "xt": {
+    "id": "XT-TO-XT-zero-to-one",
+    "status": "IMPLEMENTED WITNESS",
+    "from": [
+      0,
+      0,
+      0
+    ],
+    "endpoints": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.2333333333333333,
+        0,
+        0
+      ]
+    ],
+    "length_model_units": 0.2333333333333333,
+    "toward": [
+      0.2333333333333333,
+      0,
+      0
+    ]
+  },
+  "mapping": {
+    "id": "midpoint-transverse-candidate",
+    "status": "GEOMETRIC HYPOTHESIS",
+    "parameter": [
+      0,
+      1
+    ],
+    "midpoint": [
+      -0.5499999999999999,
+      -0.65,
+      1.4
+    ],
+    "endpoints": [
+      [
+        -0.8799999999999999,
+        -0.65,
+        1.4
+      ],
+      [
+        -0.22000000000000003,
+        -0.65,
+        1.4
+      ]
+    ],
+    "span_model_units": 0.6599999999999999,
+    "parameter_meaning": "normalized display address, not furnishing chronology",
+    "anchor_parameter": 0.5,
+    "formula": "Q(t) = A + t(B - A); Q(1/2) = diagonal midpoint",
+    "extent_source": "monitor left/right edge midpoints; trial display span, not a physical YT measure",
+    "physical_transform": null,
+    "yt_metric": null,
+    "physical_status": "UNREGISTERED — a midpoint anchors the extent; it is not the extent"
+  },
+  "samples": [
+    {
+      "index": 0,
+      "text": "O",
+      "t": 0.01020408163265306,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8732653061224489,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 1,
+      "text": "N",
+      "t": 0.030612244897959183,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8597959183673468,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 2,
+      "text": "E",
+      "t": 0.05102040816326531,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8463265306122448,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 3,
+      "text": " ",
+      "t": 0.07142857142857142,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8328571428571427,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 4,
+      "text": "m",
+      "t": 0.09183673469387756,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8193877551020408,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 5,
+      "text": "a",
+      "t": 0.11224489795918367,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.8059183673469387,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 6,
+      "text": "t",
+      "t": 0.1326530612244898,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7924489795918366,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 7,
+      "text": "e",
+      "t": 0.15306122448979592,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7789795918367346,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 8,
+      "text": "r",
+      "t": 0.17346938775510204,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7655102040816326,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 9,
+      "text": "i",
+      "t": 0.19387755102040816,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7520408163265305,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 10,
+      "text": "a",
+      "t": 0.21428571428571427,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7385714285714284,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 11,
+      "text": "l",
+      "t": 0.23469387755102042,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7251020408163265,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 12,
+      "text": " ",
+      "t": 0.25510204081632654,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.7116326530612244,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 13,
+      "text": "c",
+      "t": 0.2755102040816326,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6981632653061224,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 14,
+      "text": "a",
+      "t": 0.29591836734693877,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6846938775510203,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 15,
+      "text": "r",
+      "t": 0.3163265306122449,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6712244897959183,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 16,
+      "text": "r",
+      "t": 0.336734693877551,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6577551020408162,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 17,
+      "text": "i",
+      "t": 0.35714285714285715,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6442857142857142,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 18,
+      "text": "e",
+      "t": 0.37755102040816324,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6308163265306121,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 19,
+      "text": "d",
+      "t": 0.3979591836734694,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6173469387755102,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 20,
+      "text": " ",
+      "t": 0.41836734693877553,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.6038775510204081,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 21,
+      "text": "t",
+      "t": 0.4387755102040816,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.590408163265306,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 22,
+      "text": "h",
+      "t": 0.45918367346938777,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.576938775510204,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 23,
+      "text": "r",
+      "t": 0.47959183673469385,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.563469387755102,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 24,
+      "text": "o",
+      "t": 0.5,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.5499999999999999,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 25,
+      "text": "u",
+      "t": 0.5204081632653061,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.5365306122448978,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 26,
+      "text": "g",
+      "t": 0.5408163265306123,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.5230612244897959,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 27,
+      "text": "h",
+      "t": 0.5612244897959183,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.5095918367346939,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 28,
+      "text": " ",
+      "t": 0.5816326530612245,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.4961224489795918,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 29,
+      "text": "t",
+      "t": 0.6020408163265306,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.48265306122448975,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 30,
+      "text": "h",
+      "t": 0.6224489795918368,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.46918367346938766,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 31,
+      "text": "i",
+      "t": 0.6428571428571429,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.4557142857142856,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 32,
+      "text": "s",
+      "t": 0.6632653061224489,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.44224489795918365,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 33,
+      "text": " ",
+      "t": 0.6836734693877551,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.4287755102040816,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 34,
+      "text": "f",
+      "t": 0.7040816326530612,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.4153061224489795,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 35,
+      "text": "u",
+      "t": 0.7244897959183674,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.4018367346938775,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 36,
+      "text": "r",
+      "t": 0.7448979591836735,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.38836734693877545,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 37,
+      "text": "n",
+      "t": 0.7653061224489796,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.3748979591836734,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 38,
+      "text": "i",
+      "t": 0.7857142857142857,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.36142857142857143,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 39,
+      "text": "s",
+      "t": 0.8061224489795918,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.34795918367346934,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 40,
+      "text": "h",
+      "t": 0.826530612244898,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.33448979591836725,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 41,
+      "text": "e",
+      "t": 0.8469387755102041,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.32102040816326527,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 42,
+      "text": "d",
+      "t": 0.8673469387755102,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.3075510204081633,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 43,
+      "text": " ",
+      "t": 0.8877551020408163,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.2940816326530612,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 44,
+      "text": "t",
+      "t": 0.9081632653061225,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.2806122448979591,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 45,
+      "text": "u",
+      "t": 0.9285714285714286,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.2671428571428571,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 46,
+      "text": "r",
+      "t": 0.9489795918367347,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.25367346938775504,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 47,
+      "text": "n",
+      "t": 0.9693877551020408,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.24020408163265305,
+        -0.65,
+        1.4
+      ]
+    },
+    {
+      "index": 48,
+      "text": ".",
+      "t": 0.9897959183673469,
+      "material": "1a6fc9ae-3bf8-4ce9-9487-e79be71f78c4-material-2",
+      "point": [
+        -0.22673469387755096,
+        -0.65,
+        1.4
+      ]
+    }
+  ],
+  "sequence": [
+    {
+      "name": "STAND UP",
+      "status": "UNREGISTERED",
+      "meaning": "required furnishing order; no physical transition performed"
+    },
+    {
+      "name": "STAND DOWN",
+      "status": "UNREGISTERED",
+      "meaning": "required furnishing order; no physical transition performed"
+    },
+    {
+      "name": "STAND UP UPON",
+      "status": "UNREGISTERED",
+      "meaning": "required furnishing order; no physical transition performed"
+    }
+  ],
+  "inheritance_hypothesis": [
+    "Successive triangular standings alternate through DOWN folding.",
+    "Each DOWN fold follows the newly inherited YT TO YT line.",
+    "YT TO YT measures Craft UP OVER relative to preceding XT TO XT roadway.",
+    "Apparent posts belong to one XT reference line, curved between local RE-ZIPPERINGS.",
+    "Joining Regarding triangles accommodate curvature; local squares and triangles remain flat."
+  ],
+  "limits": "No physical YT extent, canonical diagonal standing, Ground transform or issuing-post correspondence is furnished. No acquisition or completed UN-FOLDING/PITTONING/RE-STEP."
+}

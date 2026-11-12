@@ -1,6 +1,29 @@
 defmodule PublicSituationMachineTurnZeroWeb.SnailWeavePanel do
   use PublicSituationMachineTurnZeroWeb, :html
   alias PublicSituationMachineTurnZero.Architecture, as: A
+  attr :id, :string, required: true
+  attr :material, :string, default: nil
+  slot :membrane
+  slot :xt
+  slot :yt
+
+  def gallery_wall(assigns) do
+    ~H"""
+    <div
+      id={@id}
+      class={["sw-composition", @membrane != [] && "relative"]}
+      data-material={@material}
+      aria-label="Longhouse Gallery Wall · flat Looking THROUGHING THROUGHING Glass"
+    >
+      <div class="sw-composition-from" aria-hidden={if @xt == [], do: "true"}>
+        {render_slot(@xt)}
+      </div>
+      <article class="sw-composition-across">{render_slot(@yt)}</article>
+      {render_slot(@membrane)}
+    </div>
+    """
+  end
+
   attr :state, :map, required: true
   attr :model, :map, required: true
   attr :form, :any, required: true
@@ -119,22 +142,17 @@ defmodule PublicSituationMachineTurnZeroWeb.SnailWeavePanel do
         <p id="sw-bearing" class="sw-bearing" aria-live="polite"></p>
         <div class="sw-regarding-pair">
           <div class="sw-bearing-outreading">
-            <div
+            <.gallery_wall
               id="sw-flat-material"
-              class="sw-composition"
-              data-material={
-                @model.near_monitor.flat.material && @model.near_monitor.flat.material["id"]
-              }
-              aria-label="Longhouse Gallery Wall · flat Looking THROUGHING THROUGHING Glass"
+              material={@model.near_monitor.flat.material && @model.near_monitor.flat.material["id"]}
             >
-              <div class="sw-composition-from" aria-hidden="true"></div>
-              <article class="sw-composition-across">
+              <:yt>
                 <p data-composition-text></p>
                 <details class="sw-material-provenance">
                   <summary>Material registration</summary><small data-composition-source></small>
                 </details>
-              </article>
-            </div>
+              </:yt>
+            </.gallery_wall>
             <svg
               id="sw-scene"
               viewBox="0 0 1000 650"
