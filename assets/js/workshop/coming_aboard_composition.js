@@ -1,3 +1,5 @@
+// Geometry reconciliation: normalized stock is a historical fold witness, not revised Seat/Craft fit.
+// Authority: docs/architecture/geometry/README.md and impact-ledger.md; no acquisition from presentation.
 import {assemblePanels} from "../panel_assembly.js"
 
 // Normalized drawing stock from bearing-archway/archway.png, lower two cells.

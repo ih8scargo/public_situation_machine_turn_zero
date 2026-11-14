@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Motor do
+  # Geometry reconciliation: Laboratory RE-STEP receipts are a narrow historical policy, not the revised physical Ground/securing contract.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc """
   Experimental motor. Standing is durable; Regarding, pointing, selection and pace
   are temporary posture. Laboratory approach units and curve are not calibration

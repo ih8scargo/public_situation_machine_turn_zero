@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Architecture.CrossingRehearsal do
+  # Geometry reconciliation: Historical 5x5x6 operating reference is not the new default SIX cube; preserve saved source versions.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Bounded paired-aperture hypothesis through reception only. View and slice are never constitutional transforms."
   alias PublicSituationMachineTurnZero.Architecture, as: A
   @version "paired-apertures-v1"

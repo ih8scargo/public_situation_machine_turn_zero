@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Architecture.ProjectionBody do
+  # Geometry reconciliation: Retained source/presentation body is not a complete revised optical or material Crossing law.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Versioned provisional three-square/three-circle correspondence. Rehearsal is not calibration or a new turn."
   alias PublicSituationMachineTurnZero.Architecture, as: A
 

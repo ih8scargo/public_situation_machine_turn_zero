@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.Projection do
+  # Geometry reconciliation: Affine presentation translations remain source-backed mappings, not physical joints or optical curvature laws.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Shared lower source and two affine presentation candidates. All coordinates are provisional workshop units."
   @defaults %{"oblique_x" => 1.0, "oblique_z" => 1.5}
   def defaults, do: @defaults

@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Architecture.InscriptionResolution do
+  # Geometry reconciliation: Curved letter source retains its version; ordinal correspondence does not appoint a physical metric transform.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc """
   THE/PUBLIC bend, PUBLIC/SITUATION face, N twist purchase and MACHINE return.
   Relations follow the Human's inscription scheme; arc planes, radii and width

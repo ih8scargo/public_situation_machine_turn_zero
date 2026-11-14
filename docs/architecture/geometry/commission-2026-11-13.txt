@@ -1,0 +1,1196 @@
+# GOBS — ENGINEERING HALL COMMISSION
+
+# THE GEOMETRY RE-SURFACING TABLE
+## Canonical Architecture, Repository Reconciliation, and the Next RE-STEPPING Geometry Workshop
+
+**Principal operator and architectural author:** Richard Songbird  
+**Engineering builder:** Gobs  
+**Project:** PUBLIC-SITUATION-MACHINE-  
+**Date:** November 13, 2026  
+**Primary experimental route:** `/workshop/string-ribbon`
+
+**Commission character:** Architectural reconciliation, canonical documentation, repository-wide impact inspection, and exploratory geometric construction.
+
+This assignment authorizes investigation and implementation of the Geometry Workshop and its supporting documentation. It does not authorize silently replacing uncertain constitutional relationships with engineering assumptions or promoting experimental geometry into completed public operation.
+
+---
+
+# 00 — THE PRINCIPAL INSTRUCTION
+
+Gobs!
+
+Richard and Correspondencing Bill have recovered a substantially revised understanding of the spatial geometry governing the Constitutioning Human, the Traversaling Craft, Projectioning Crossing, the RE-STEPPING Room, JANUSITE ribbon material, Little ROUNDING Footings, and the emerging Roundabout Gallery.
+
+The discoveries concern not merely the visual appearance of the apparatus, but the actual relationships by which furnished material stands FROM HERE TOWARD OVER ACROSS, is encountered, acquired, traversed, and returned.
+
+An important motivation for this recovery was Richard's recognition that the existing diorama did not adequately represent the Traversaling Craft in relation to the Human's seated locality.
+
+Subsequent geometric investigation recovered additional relationships among:
+
+- The Human's fixed seated locality and continuous six-extent HERE pillar.
+- Ground ZERO, the Seat at ONE, and the Standing Up Table at THREE.
+- The fixed 45-degree XT TOWARD YT diagonal.
+- The reciprocal diagonal resolving THROUGH the center.
+- The flat monitor and the transformation toward Tunnel Regarding.
+- The staged position, projectioned position, and actual standing of material.
+- Reciprocal FT COB and TF COB offices.
+- The furnishing of a RE-STEPPING Room before the Human's consequential RE-STEP.
+- The minimum two-Footing capacity.
+- The folding UNDER FROM WITHIN of successive coiling Little ROUNDING Footings.
+- The eligibility and encounter rules of PENDING UN-BUTTONING.
+- The emerging curvature of the Roundabout Gallery and its central axle.
+- The constitutional distinction between Footing acquisition, ceiling arrival, and RE-STEP.
+
+**Every applicable established rule must govern the implementation.**
+
+The next Workshop is principally a place for Richard and Correspondencing Bill to explore geometry, discover layout arrangements, and develop interactioning affordmentings for the Constitutioning Human.
+
+Some experiments may subsequently enter the public appliance, but there is no requirement to finalize the public interface during this commission.
+
+Above all:
+
+**STANDING AHEAD OF OPERATIONING.**
+
+**BODY AHEAD OF THEORY.**
+
+**THE CONSTITUTIONING HUMAN MUST LAWFULLY ACQUIRE ANY EXTENT WITHIN WHICH THE COB MAY STAND WORKING.**
+
+---
+
+# 01 — FIRST ESTABLISH A CANONICAL GEOMETRIC LOCALITY
+
+Before undertaking substantial new Workshop implementation, inspect the repository's architectural documentation organization.
+
+Establish a maintained collection of linked documents, provisionally at:
+
+`docs/architecture/geometry/`
+
+The exact path may be adjusted to conform to existing repository organization. Explain any adjustment in the engineering report.
+
+Create a single authoritative entry point:
+
+`docs/architecture/geometry/README.md`
+
+Give it the recognizable architectural identity:
+
+**THE GEOMETRY RE-SURFACING TABLE**
+
+This is the canonical entry point for the currently understood geometric picture of the PUBLIC-SITUATION-MACHINE-.
+
+It must not become an unstructured collection of disconnected notes.
+
+It should furnish a navigable architectural picture with explicit relationships among its constituent documents.
+
+## 01A — Proposed document collection
+
+Create appropriately named, linked documents covering at least:
+
+1. **Constitutioning Human, HERE, and Landingings**
+2. **Six-Extent CUBICAL Registration and RE-STEPPING Framing**
+3. **XT TO XT, XT TOWARD YT, Diagonal Bearings, and the Continuous Pillar**
+4. **Standing Up Table, Projectioning Crossing, and Staging**
+5. **JANUSITE, Triangles, Squares, Circle, and Material Folding**
+6. **FT COB, TF COB, Traversaling Craft, and Reciprocal Offices**
+7. **Constitutional RE-STEP and Lawful Acquisition**
+8. **Little ROUNDING Footings, Accretioning, and Asymptotic Folding**
+9. **PENDING UN-BUTTONING, Tunnel Conditions, and Return Course**
+10. **Roundabout Gallery, Axle Curvature, Pocketings, and Map Regarding**
+11. **Flat, Tunnel, THROUGH, ALONG, and Other Regardings**
+12. **DIRT Geometry and Acquisition Provenance**
+13. **Historical Geometry, Supersession, and Repository Reconciliation**
+14. **Open Geometric Questions and Experimental Witnesses**
+
+These may be organized into subdirectories if helpful.
+
+Do not create duplicate authorities for the same relationship.
+
+Link related concepts bidirectionally where appropriate.
+
+## 01B — Each document should contain
+
+Where applicable:
+
+- A concise account of the current architectural standing.
+- Exact canonical terminology and prepositions.
+- Material components and their offices.
+- Reference points, dimensions, axes, and extents.
+- Relationships to other geometric regions.
+- Established invariants.
+- Constitutional requirements and prohibitions.
+- Candidate mechanisms requiring experiment.
+- Known mechanical or optical gaps.
+- Diagrams and reference drawings.
+- Implementation locations.
+- Historical provenance.
+- Tests and witnesses required.
+- Links to adjoining canonical documents.
+
+Use actual diagrams rather than prose alone.
+
+Prefer diagrams whose geometry can be inspected and revised alongside the source.
+
+Distinguish a planar section, elevation, top-down plan, perspective appearance, and actual three-dimensional material construction.
+
+**A two-dimensional drawing must not silently become proof of a three-dimensional folding mechanism.**
+
+## 01C — Architectural classification
+
+Every major claim must be classified appropriately:
+
+**ESTABLISHED ARCHITECTURAL REQUIREMENT**  
+A relationship or rule confirmed by the Human and governing subsequent construction.
+
+**SOURCE-BACKED IMPLEMENTED GEOMETRY**  
+A relationship for which inspectable source and implementation evidence exists.
+
+**CANDIDATE EXPERIMENT**  
+A proposed material or presentation mechanism not yet established.
+
+**UNPROVED MECHANICAL OR OPTICAL RELATIONSHIP**  
+An architectural relationship whose physical implementation remains unresolved.
+
+**SUPERSEDED HISTORICAL ASSUMPTION**  
+An older model that must not govern new construction.
+
+**OPEN ARCHITECTURAL QUESTION**  
+A relationship awaiting further deliberation with Richard.
+
+Do not confuse these classifications.
+
+An unproved physical mechanism does not invalidate an established constitutional rule.
+
+Likewise, an attractive visual experiment does not prove the material mechanism depicted.
+
+---
+
+# 02 — THE CONSTITUTIONING HUMAN'S HERE LOCALITY
+
+The Constitutioning Human remains seated FROM HERE.
+
+The Human does not become an avatar transported through a simulated world.
+
+The ordinary flat monitor remains the Human's actual monitor plane.
+
+Preserve the distinction among:
+
+- THIS ONE STANDINGING LANDINGING — the Human's circular seated locality.
+- THIS HERE APPROACHING LANDINGING — the persistent square HERE.
+- THIS NEXT APPROACHING LANDINGING — the differentiated square OVER ACROSS.
+
+These relationships participate in furnishing the RE-STEPPING Room from the Human's HERE standing TOWARD the next standing.
+
+They are not interchangeable screens, cassettes, or containers.
+
+**THIS NEXT does not become THIS HERE.**
+
+Richard has described the relationship provisionally as an interlocking of the HERE square and NEXT approaching Landinging by way of THIS HERE APPROACHING LANDINGING, standing FROM UPON THIS ONE STANDINGING LANDINGING.
+
+Preserve that geometric intention while clearly marking the exact constitutional inscription as awaiting final formulation.
+
+Do not normalize an unfinished constitutional phrase into a supposedly established quotation.
+
+## 02A — Continuous HERE pillar
+
+Recover one continuous vertical six-extent pillar immediately behind the Human's seated locality.
+
+The pillar is registered at Ground ZERO and remains six extents high.
+
+The Traversaling Seat is registered at ONE.
+
+The XT TO XT material stands FROM WITHIN the pillar's six-extent range.
+
+The pillar does not lengthen, shorten, or rotate simply because angular bearings change AROUND ABOUT it.
+
+ZERO remains available as an enduring reference for successive changes of bearing and COB standing.
+
+Distinguish the continuous HERE pillar from a potentially curving Gallery axle OVER ACROSS.
+
+They may have related geometric offices, but they must not be silently identified.
+
+## 02B — The Human's seated references
+
+Recover the distinct offices of:
+
+- Ground ZERO.
+- The Traversaling Seat at ONE.
+- The pointing/selectioning seam around TWO.
+- The Standing Up Table and Projectioning Crossing at THREE.
+- The ceiling registration at SIX.
+
+The fixed Traversaling Seat and the Standing Up Table possess different pivoting offices.
+
+Do not assume that they rotate together.
+
+Recover the under-seat volume as a candidate location for differentiated wedging and angular resolutioning.
+
+Preserve the distinction between the apparent origin of a pointing or projectioning instrument and its actual furnished material provenance.
+
+The fishing-pole-like pointing reference, the center crossing, and the staging locality should remain mutually inspectable.
+
+---
+
+# 03 — THE SIX BY SIX BY SIX RE-STEPPING FRAME
+
+The default RE-STEPPING framing is:
+
+**SIX BY SIX BY SIX.**
+
+Its three registered extents must remain coherent.
+
+The Ground-to-ceiling height OVER ACROSS must be established before Little ROUNDING Footings are fashioned.
+
+The Table at THREE does not introduce another six extents above the Table.
+
+Nothing is to be automatically measured as constitutional material extent beyond the established SIX merely because a perspective or Projectioning makes it appear to extend beyond the boundary.
+
+A candidate projected appearance may extend visually beyond a flat picture or apparent boundary. Record that separately from actual registered material extent.
+
+The default appointed RE-STEP measure is SIX.
+
+Earlier alternatives THREE and TWELVE remain available for separate comparison or appointment where constitutionally appropriate.
+
+The recovered FOUR/SIX/EIGHT gauges remain distinct engineering reference studies; do not silently substitute them for the constitutional framing measure.
+
+## 03A — Furnishing precedes the Human's FROM-standing
+
+The RE-STEPPING Room must already be furnished and in a ready posture before the Constitutioning Human undertakes the consequential RE-STEP.
+
+That readiness includes:
+
+- The appointed CUBICAL frame.
+- Its Groundward and ceiling registrations.
+- The relevant diagonal bearings.
+- Projectioning Crossing.
+- Necessary material provisions.
+- The Ground connection and securing apparatus required for lawful acquisition.
+- Machinery capable of fashioning Little ROUNDING Footings.
+- The rules for subsequent Footing accretioning.
+
+**The minimum capacity is TWO Little ROUNDING Footings per RE-STEP.**
+
+This is a construction capacity requirement.
+
+It does not require two individual Footings to have already been fashioned before the Human acquires FROM-standing in the room.
+
+The machinery and law must be available before the operation. The particular Footings may then be fashioned FROM WITHIN the acquired frame.
+
+## 03B — The Human's consequential RE-STEP
+
+The Constitutioning Human stands selectioning a wedging.
+
+The Human then PUFFS and RE-STEPS to stand FROM WITHIN the already-furnished room.
+
+This is the consequential FROM-standing that previous implementations have not yet fully established.
+
+Preserve the necessary witnesses for:
+
+- Human material selectioning.
+- Already-furnished room.
+- Groundward connection.
+- PITTONING.
+- Appropriate RE-STOMPING.
+- RE-ZIPPERING and securing.
+- Completion and confirmation of the acquired FROM-standing.
+
+Determine and document the correct ordering and dependencies among these witnesses.
+
+Do not authorize acquisition merely because a visual animation completes or a button is pressed.
+
+Do not invent a shortcut around the constitutional material requirements.
+
+A lawful protected RE-STEP may advance constitutional acquisition only after its required witnesses have been satisfied.
+
+If the current implementation cannot establish that, present an explicit blocked or pending witness and report the unsatisfied requirements.
+
+## 03C — The COB's distinct relationship
+
+The COB does not travel toward RE-STEP as a destination.
+
+**THE COB IS ALWAYS RE-STEPPING TOWARD FROM WITHIN THIS ONE FRAMING.**
+
+The COB works within extent lawfully acquired by the Constitutioning Human.
+
+A local Footing acquisition does not constitute another consequential RE-STEP.
+
+A completed circuit does not constitute another consequential RE-STEP.
+
+An ascent does not constitute another consequential RE-STEP.
+
+Reaching the ceiling does not constitute another consequential RE-STEP.
+
+Preserve the difference between the Human's constitutional FROM-standing and the COB's ongoing Traversaling within its furnished framing.
+
+---
+
+# 04 — THE TWO XT TOWARD YT DIAGONALS
+
+Make both diagonal offices visible and inspectable.
+
+## 04A — Diagonal A
+
+The lower-left to upper-right diagonal is the fixed 45-degree XT TOWARD YT reference bar.
+
+In the relevant elevation, it establishes the Ground-to-ceiling range of the default six-extent RE-STEPPING Room.
+
+It is a primary geometric instrument for the next Workshop.
+
+Show the actual source points and coordinate conventions.
+
+A 45-degree line in elevation does not mean its physical diagonal length is SIX.
+
+Preserve the distinction between projected rise, horizontal run, and actual length.
+
+## 04B — Diagonal B
+
+The upper-left to lower-right diagonal resolves THROUGH the center.
+
+Its resolutioning must be investigated in relation to:
+
+- The continuous six-extent HERE pillar.
+- The seated locality at ONE.
+- The center of Projectioning Crossing at THREE.
+- The bobbing apparatus.
+- The changed presentationing of transverse material.
+
+A candidate sequence is that the post's vertical relation resolves THROUGH the bobbing apparatus before its upright presentation is accepted.
+
+Do not claim this candidate mechanism is mechanically verified.
+
+The diagonal relationships must be inspectable together, not simply drawn as anonymous crossed strokes.
+
+---
+
+# 05 — CIRCLE, SQUARE, TRIANGLE, AND JANUSITE MATERIAL
+
+This is the immediate geometric exploration priority.
+
+The Workshop should let the Human and the correspondents experiment with the simplest possible material arrangements involving:
+
+**SQUARE — CIRCLE — TRIANGLE — 45-DEGREE BAR.**
+
+The square establishes bounded registration.
+
+The circle furnishes local AROUND ABOUT Traversaling.
+
+The triangle participates in the differentiation and folding of material bearings.
+
+JANUSITE is the actual ribbonating substrate.
+
+The triangle cannot be treated as an abstract outline if the experiment purports to establish occupied material.
+
+Preserve occupied faces, finite thickness, ordered hinges, and collision inspection.
+
+## 05A — Outward-swinging wedging
+
+Investigate the candidate relation in which a JANUSITE wedging:
+
+- Swings OUT TOWARD the seated Human.
+- Acquires transverse extent AROUND ABOUT.
+- May project as passing behind the Traversaling Seat.
+- Curves AWAY FROM the inner Standing Up Table.
+- Nevertheless remains registered THROUGH the Table's center reference.
+
+Differentiate rigid hinge rotation from intrinsic material curvature.
+
+Do not manufacture curvature by merely rotating a camera or redrawing a straight source line as an unrelated curved line.
+
+If multiple material mechanisms appear possible, present bounded alternatives for inspection.
+
+## 05B — Ordered coiling folds
+
+The Little ROUNDING Footings are **coils**, not flat wedges or detached circular platforms.
+
+For the initial construction investigation:
+
+**EACH LITTLE ROUNDING FOOTING STANDS THROUGH THE CENTER OF THE APERTURE AND FOLDS UNDER FROM WITHIN.**
+
+**THE MOST RECENT FOLD STANDS NEAREST THE FLOOR.**
+
+**OLDER FOLDS STAND ACCRETIONING INTO THE MANIFOLD.**
+
+The newly furnished fold is ordered relative to the previously standing folds. Do not replace this with arbitrary append-only tunnel segments.
+
+The architecture requires at least two Footings' construction capacity to establish the relationship necessary for the asymptotic folding.
+
+Additional Footings may accretion within the same furnished frame.
+
+Do not impose a fixed maximum count merely because the default Lanterning Bug appointmenting count is ONE.
+
+That count is a presence witness, reappointable to TWO or THREE; it is not a cap on Footing accretioning.
+
+## 05C — The asymptote
+
+Investigate how the nested coiling material relationships can continue within a bounded six-extent frame.
+
+Do not merely draw successively smaller circles and declare the asymptotic folding solved.
+
+Inspect:
+
+- Actual occupied material.
+- Relative coil geometry.
+- Ordering of newer and older folds.
+- Aperture incidence.
+- The folded-under material relationship.
+- Shared hinges and clearance.
+- Continued material supply.
+- Whether the mathematical construction and physically occupied construction remain compatible.
+
+The Human should not be required to calculate the asymptotic geometry.
+
+The eventual public affordmenting should permit the Human to approach the station where the COB can be re-suited for the particular Footing.
+
+The Human fashions the Footing; the machine's lawful geometry places it where it belongs.
+
+The present Workshop is where we discover that placement law.
+
+---
+
+# 06 — THE XT TOWARD YT TUNNELING COURSE
+
+The 45-degree XT TOWARD YT bearing is not merely a straight staircase with unrelated circular platforms attached.
+
+The Little ROUNDING Footings are local coils participating in a furnished traversable course.
+
+XT TOWARD YT Tunnel Regarding should eventually provide an opening toward a THROUGH-ALONG presentation of the tunneling that stands along the 45-degree stair-stepping ascent.
+
+The already-standing bearings retain the tunnel opening while further material is furnished or inspected.
+
+The course must be distinguished from its projection.
+
+Gobs should investigate the correspondence among:
+
+- The diagonal reference bar.
+- The coils.
+- Their retained entrances.
+- The local AROUND ABOUT courses.
+- The ascending bearing.
+- The return course.
+- The aperture.
+- The COB's occupied passage profile.
+
+Do not claim a traversable tunnel until the actual material and occupied clearance witnesses support it.
+
+---
+
+# 07 — FOOTING ACQUISITION AND TUNNEL CONDITIONS
+
+The COB begins FROM ZERO.
+
+After acquiring a Little ROUNDING Footing, it still stands FROM ZERO.
+
+It may nevertheless have acquired a Footing that has been stood DOWN along the way.
+
+Preserve this distinction between the persistent FROM-standing and the succession of local acquisitions.
+
+A Footing must satisfy **at least one condition** before the COB may stand TOWARD the next buttoning.
+
+That condition may be as simple as presence.
+
+Do not conflate:
+
+- Encountering a Footing.
+- Standing acquisitioning that Footing.
+- Satisfying its authored condition.
+- Completing its tunneling exit condition.
+- Becoming eligible for the next buttoning.
+- Entering the next tunnel.
+- Undertaking a constitutional RE-STEP.
+
+These are distinguishable relationships and occasions, even when some may occur close together.
+
+## 07A — PENDING UN-BUTTONING
+
+Preserve the constitutional operation name:
+
+**PENDING UN-BUTTONING**
+
+The Human-facing inscription may be particularized without renaming the constitutional operation.
+
+The emerging architectural understanding is:
+
+When the COB completes the requirements associated with its current Footing, the next PENDING UN-BUTTONING may stand ready as THIS ONE BUTTONING.
+
+This is the affordment standing TOWARD entering the next encounterable tunnel.
+
+The COB may become eligible to take the next already-furnished tunneling, subject to the appointed conditions.
+
+The button does not manufacture the next tunnel.
+
+The button does not independently acquire new constitutional extent.
+
+It must be reconciled with the inherited return course, RE-STOMPING, and RE-ZIPPERING requirements.
+
+Preserve the distinction between the buttoning's readiness, its encounter, activation, actual return or passage, and the resulting standing.
+
+The earlier architecture also associates PENDING UN-BUTTONING with the COB's entry into the RE-STEPPING contraption; retain this source distinction and explicitly reconcile it rather than silently discarding either account.
+
+The public outreading **STAND TOWARD THIS ONE BUTTONING** must not appear before the completed standing and required RE-STOMPING, state readiness, and COB RE-ZIPPERING conditions have been satisfied.
+
+Do not hardcode a generic NEXT button as a substitute for the protected relationship.
+
+## 07B — Lanterning Bug and conditions
+
+The Lanterning Bug may light upon the COB's entry into a tunnel.
+
+Additional authored conditions may be furnished and satisfied while the COB stands FROM WITHIN that tunneling.
+
+The Lanterning Bug may witness those particular satisfactions.
+
+Each tunnel may have an exit condition.
+
+When its exit condition is satisfied, the COB may stand TOWARD the next eligible PENDING UN-BUTTONING and its corresponding Little ROUNDING Footing.
+
+Preserve the difference between the next Footing being already furnished and the COB being eligible to encounter it.
+
+The actual exit and return mechanics remain open to geometric investigation.
+
+## 07C — Ceiling arrival
+
+Create a separate inspectable occasion for the COB's arrival at the appointed ceiling extent.
+
+Use a clearly provisional name until the final constitutional inscription is chosen.
+
+**REACHING SIX DOES NOT COUNT AS A RE-STEP.**
+
+The ceiling occasion may record:
+
+- The acquired Footing or locality.
+- The completed height or extent.
+- The COB's bearing.
+- The relevant exit condition.
+- Its relation to retained material and the return course.
+- Any newly available authored affordment.
+
+It must not automatically advance the constitutional acquisition index.
+
+It must not silently open another frame.
+
+---
+
+# 08 — THE RECIPROCAL COB OFFICES
+
+Recover the distinct material offices:
+
+**FT COB — Furnishing Traversaling COB**
+
+**TF COB — Traversaling Furnishing COB**
+
+Use their current authoritative repo definitions where these have been further particularized.
+
+The furnishing office provides actual authored material.
+
+The taking office may encounter and take that furnished material according to the lawful geometry.
+
+The taking office may not invent encounterable material merely because a projection or selector displays it.
+
+Both offices may have Tunneling Regarding.
+
+Fashioning requires an appropriate flat working surface.
+
+The Workshop should let the Human investigate compositioning FROM FT COB TOWARD TF COB, by way of material standing FROM HERE TOWARD THERE OVER ACROSS Projectioning Crossing.
+
+Preserve:
+
+- Material provenance.
+- Distinct provision and taking.
+- Staging locality.
+- Groundward relations.
+- The Traversaling Craft and its Seat.
+- Projectioning correspondence.
+- Material remaining available.
+- Actual acquisition and non-acquisition.
+
+The mismatch in Traversaling Craft representation that motivated this architectural recovery must receive explicit investigation.
+
+Show where the Craft actually stands relative to the Human's HERE locality, the centerline, the staged material, and the acquired course.
+
+Do not treat the Craft as a decorative avatar attached to a screen-space tunnel.
+
+---
+
+# 09 — THE ROUNDABOUT GALLERY AND ITS EMERGING AXLE
+
+Investigate the hypothesis that successive reciprocal COB relationships and material accretioning furnish an emerging curved Roundabout Gallery.
+
+A newly furnished pocketing may stand THROUGH a twist or angle in the Gallery's central axle.
+
+The axle's changing bearing may help the Human understand where the COB stands.
+
+Distinguish:
+
+1. The invariant HERE post.
+2. The candidate curving Gallery axle OVER ACROSS.
+3. The individual coiling Footings.
+4. The local pocketings.
+5. The COB's acquired standing.
+6. The chosen location or angle of Regarding.
+
+Do not prescribe a finished spiral before the material folds establish its course.
+
+## 09A — Shared top-down map
+
+Provide an exploratory top-down map Regarding shared by FT COB and TF COB.
+
+This map should be grounded in the same material geometry and provenance as the other Regardings.
+
+Candidate affordmentings include:
+
+- Registered frame boundaries.
+- A persistent ZERO reference.
+- Furnished Footings.
+- The current acquired locality.
+- Local coil orientation.
+- Actual direction arrows.
+- Retained entrances.
+- The candidate emerging axle.
+- Successive pocketings.
+- The already-furnished course.
+- The prospective next tunneling.
+- The material or conditional reason a course is eligible or blocked.
+
+As Footings are furnished, the visible course may emerge.
+
+Do not pre-populate the map with a fictitious completed Gallery.
+
+Richard and Correspondencing Bill will use the Workshop to discover the appropriate navigationing affordmentings.
+
+Do not prematurely settle how clicking a map position changes the COB's standing.
+
+Maintain separate experimental hypotheses for inspecting a locality and actually re-standing or navigating the COB.
+
+A change of map selection must not silently alter acquired material or constitutional standing.
+
+---
+
+# 10 — FLAT AND TUNNEL REGARDING
+
+Investigate the candidate presentationing in which the Human's fixed monitor retains a recognizable HERE registration while Tunnel Regarding reveals additional transverse material relationships.
+
+The initial hypothesis includes:
+
+- Full-square Flat Regarding.
+- A possible compression of the flat registration toward half the screen.
+- Projectioning Crossing appearing as a central vertical bar.
+- A widening apparent aperture.
+- Transverse material standing toward the near field.
+- THROUGH-ALONG presentation toward the coiling 45-degree ascent.
+
+These are candidate optical and compositional relationships.
+
+The half-screen must eventually do meaningful work for the Constitutioning Human, not merely decorate the interface.
+
+It may help distinguish what remains HERE, what is staged, what is projectioned, and what has actually been taken or acquired OVER ACROSS.
+
+Do not yet prescribe the final left/right screen arrangement.
+
+Preserve three distinct surfaces:
+
+1. The Human's physical flat monitor plane.
+2. The inner aperture.
+3. The cabinet-side or material aperture.
+
+Preserve the pinned Doll-head seam and Looking THROUGHING THROUGHING Glass relationships where applicable in existing diorama architecture.
+
+Distinguish actual spatial curvature from rigid transformation, optical projection, and occlusion.
+
+Changing Regarding must not silently change the source geometry or material identity.
+
+---
+
+# 11 — THE EXPLORATORY GEOMETRY WORKSHOP
+
+The next implementation should primarily support geometric discovery by Richard and the correspondents.
+
+Do not begin by polishing a completed public interaction model.
+
+Retain the existing `/workshop/string-ribbon` bench and its validated diagnostic mechanisms where they remain applicable.
+
+Provide a clearly differentiated **Geometry Exploration** region or equivalent working surface.
+
+The Human should be able to investigate:
+
+- The six-extent square and frame.
+- The 45-degree diagonal bar.
+- Diagonal B.
+- The continuous HERE post.
+- The central Table and aperture.
+- Selected occupied triangular JANUSITE material.
+- Candidate hinge axes.
+- Square and triangle placements.
+- AROUND ABOUT relationships.
+- The folding of material UNDER FROM WITHIN.
+- The minimum two-Footing relationship.
+- Candidate coiling courses.
+- The emerging Gallery axle.
+- Alternative sectional, plan, and transverse Regardings.
+
+Prefer simple, intelligible operations over a large collection of specialized technical controls.
+
+Let the material relationships become recognizable before the interface becomes elaborate.
+
+## 11A — Suggested experiment sequence
+
+**Experiment One: Fundamental registration**
+
+Show the six-extent frame, HERE pillar, Table center, and both diagonals.
+
+Establish the 45-degree bar as an understandable material reference.
+
+**Experiment Two: Square and triangular construction**
+
+Place and compare occupied triangular specimens against the square and diagonal references.
+
+Test different hinging possibilities and their source geometry.
+
+**Experiment Three: Outward transverse standing**
+
+Explore how the wedging might swing TOWARD HERE and curve AROUND ABOUT.
+
+Preserve exact source identity and finite clearance.
+
+**Experiment Four: Aperture and folding**
+
+Investigate how material stands THROUGH the aperture center and folds UNDER FROM WITHIN.
+
+**Experiment Five: Two-Footing minimum**
+
+Test the first successive pair of coiling Footings, their material ordering, and the asymptotic relationship.
+
+**Experiment Six: Emerging Gallery**
+
+Investigate the candidate axle, twist, pocketing, and shared map.
+
+**Experiment Seven: Flat and Tunnel correspondence**
+
+Compare a bounded half-screen proposal with the same underlying material source.
+
+**Experiment Eight: Return and conditional traversal**
+
+Inspect the current Footing's acquisition, its required condition, next buttoning readiness, and the return-course relationship.
+
+Keep each experiment separately identifiable.
+
+Do not require all mechanisms to be mechanically solved before useful geometric witnesses can be presented.
+
+But clearly mark what each witness does and does not establish.
+
+## 11B — Preserve existing validated engineering work
+
+Retain, where applicable:
+
+- Occupied triangle prisms and faces.
+- Stable material IDs.
+- Thickness and normal information.
+- Revision guards.
+- Bounded fold proposals.
+- Collision blocking.
+- Shared-world orthographic Regardings.
+- Human reference inscriptions.
+- FOUR/SIX/EIGHT gauges.
+- N18/U13 provenance.
+- Rail identities.
+- Source-to-motor comparison transforms.
+- Existing Paired Motor witnesses.
+- Current authored-material provision/taking experiments.
+
+Do not replace these with convenient visual fictions.
+
+The November 13 Material Ribbon report remains an important source witness:
+
+`docs/material-ribbon-construction-2026-11-13.md`
+
+The current bench has not yet proved physical optical curvature, mechanically continuous return, occupied tunnel clearance, or lawful RE-STEP.
+
+Preserve those limitations.
+
+---
+
+# 12 — CANONICAL DIRT GEOMETRY AND TRACKING PROPOSAL
+
+Gobs should propose how the newer geometric architecture supports the eventual DIRT system.
+
+Do not implement the full DIRT system in this commission.
+
+Design an inspectable relationship between canonical geometry versions and discrete material or constitutional records.
+
+DIRT must be able to distinguish at least:
+
+- The canonical geometry version used.
+- Material source and identity.
+- Furnishing office.
+- Taking office.
+- Selected wedging.
+- Furnished but unacquired framing.
+- Lawfully acquired FROM-standing.
+- Current constitutional acquisition index.
+- Inherited XT TO XT extent.
+- Appointed six-extent framing.
+- Little ROUNDING Footing source and identity.
+- Footing acquisition.
+- Condition appointmenting.
+- Condition satisfaction.
+- PENDING UN-BUTTONING readiness and encounter.
+- Return-course material and status.
+- RE-STOMPING and RE-ZIPPERING witnesses.
+- Axle/pocketing provenance.
+- Ceiling arrival.
+- Projectioning or Regarding change.
+- Proposed but rejected geometry.
+- Accepted geometric furnishing.
+- Actual Traversaling within acquired extent.
+
+The model must distinguish **geometry that is proposed, geometry that is furnished, and extent that is constitutionally acquired**.
+
+A candidate drawing is not an acquired frame.
+
+A camera change is not a material transformation.
+
+A completed local Footing is not another RE-STEP.
+
+An eligibility condition is not itself the construction of a tunnel.
+
+A ceiling arrival is not a constitutional acquisition.
+
+Propose a versioned, reconstructable event/provenance contract, including how it should interact with existing DIRT design material.
+
+Respect the established implementation policy:
+
+Phoenix LiveView owns application interaction and evaluation orchestration.
+
+External computations may be supported through user-configurable webhooks.
+
+Do not introduce an internal production Python evaluation engine or assume a Phoenix/Python evaluator boundary.
+
+Python may remain useful for local inspection scripts.
+
+---
+
+# 13 — REPOSITORY-WIDE GEOMETRIC RECONCILIATION
+
+After establishing the canonical documentation collection, inspect the repository for implementations and documentation dependent on earlier geometric models.
+
+This includes, where present:
+
+- Giraffe diorama and Video One.
+- Traversaling Craft and Seat.
+- Co-Situationing Doll and cabinet.
+- Projectioning apparatus.
+- Projectioning Crossing.
+- Snail House and Snail Weave.
+- RE-STEPPING machinery.
+- Paired Motor.
+- String-Ribbon Workshop.
+- JANUSITE and ribbon material.
+- Roundabout Gallery.
+- Footing and coiling experiments.
+- N18/Rail/return systems.
+- Calibration and Assignment 04.
+- DIRT design.
+- Quarry artifacts and archived experiments.
+
+Use repository inspection to identify exact filenames and source locations.
+
+Do not invent implementation paths.
+
+## 13A — Supersession inventory
+
+For every important affected implementation, identify:
+
+- Existing model.
+- Source file and relevant function/component.
+- Underlying older architectural assumption.
+- Current canonical relation.
+- Whether the implementation remains valid.
+- Whether it requires a comment, documentation link, test, or actual geometric revision.
+- Whether it should remain an explicitly historical witness.
+- Any unresolved conflict.
+
+Pay special attention to representations of the Traversaling Craft, staged material, seated locality, and Gallery bearings.
+
+These motivated the present recovery and must not be omitted.
+
+## 13B — Repository comments and documentation links
+
+Where an active component still relies on older assumptions, leave a precise, discoverable reconciliation notice or update it as appropriate.
+
+Avoid vague comments such as "geometry changed."
+
+A useful notice identifies:
+
+- The affected relation.
+- The canonical documentation link.
+- The exact conflict or missing witness.
+- Whether the code is historical, provisional, or awaiting implementation.
+
+Update `AGENTS.md` or the existing authoritative engineering entry point with a concise requirement to consult the Geometry RE-surfacing Table before modifying the relevant architecture.
+
+Do not duplicate the entire canon into AGENTS.md.
+
+Link to the authoritative records.
+
+## 13C — Preserve history
+
+Do not erase older commissions or historical diagrams merely because their geometric assumptions have been superseded.
+
+Retain their provenance.
+
+Mark the supersession and link to the newer architectural standing.
+
+When reusing quarry material, require an explicit compatibility review against the current geometry.
+
+**EXECUTABLE OLD GEOMETRY DOES NOT OVERRIDE CURRENT ARCHITECTURAL REQUIREMENTS.**
+
+## 13D — Order of operations
+
+The intended reconciliation order is:
+
+1. Inspect sources and active implementations.
+2. Establish the canonical entry point and linked records.
+3. Register confirmed invariants, requirements, and open questions.
+4. Identify contradictions and superseded assumptions.
+5. Link or annotate affected active files.
+6. Implement the new bounded Geometry Workshop experiments.
+7. Validate the experiments against the canonical rules.
+8. Update the canonical documents with verified findings.
+9. Report remaining conflicts and recommended public-build integrations.
+
+Do not make broad production geometry replacements merely to conform to an unverified candidate mechanism.
+
+---
+
+# 14 — REQUIRED DIAGRAMS
+
+Provide a coherent family of inspectable geometric diagrams.
+
+At minimum:
+
+**A. Human HERE locality**  
+Circular Landinging, persistent HERE square, NEXT square, continuous six-extent pillar, Seat at ONE.
+
+**B. Six-extent elevation**  
+Ground ZERO, ONE, THREE, SIX, Table, fixed 45-degree bar, Diagonal B.
+
+**C. Projectioning relationship**  
+Actual material source, staged material, center crossing, apparent projection, and OVER ACROSS standing.
+
+**D. Reciprocal COB offices**  
+FT COB and TF COB, their distinct material roles and shared reference.
+
+**E. Circle–Square–Triangle**  
+Bounded square, local circular relationship, and candidate JANUSITE wedging.
+
+**F. Minimum two-Footing folding**  
+Two successive occupied coils, aperture center, newest fold nearest Ground, retained older fold, and their asymptotic relationship.
+
+**G. Tunnel condition and buttoning**  
+Acquisition, presence/other condition, exit condition, next PENDING UN-BUTTONING, and return-course status.
+
+**H. Gallery plan**  
+Emerging curved axle, pocketings, actual Footings, possible direction arrows, and selected Regarding locality.
+
+**I. Flat/Tunnel correspondence**  
+Same material source, persistent HERE, candidate half-screen and transverse presentation.
+
+**J. Constitutional sequence**  
+Already-furnished room and capacity, Human selectioning, consequential RE-STEP, lawful FROM-standing, Footing accretioning, local acquisition, and separate ceiling occasion.
+
+Every diagram should disclose:
+
+- View type.
+- Coordinate or relational reference.
+- Which material identities it depicts.
+- Whether it is established, implemented, or candidate.
+- Important unresolved physical or optical questions.
+
+Avoid decorative diagrams that falsely imply geometric proof.
+
+---
+
+# 15 — TESTS AND ACCEPTANCE WITNESSES
+
+Run existing relevant tests and preserve working rehearsals.
+
+Add deterministic tests where appropriate for:
+
+1. Invariant six-extent frame and pillar registration.
+2. Preservation of original material identity across Regardings.
+3. Correct 45-degree diagonal reference.
+4. Distinction between diagonal material, comparison geometry, and screen-space projection.
+5. Minimum two-Footing capacity.
+6. No assumed pre-furnished Footings merely because the capacity exists.
+7. Correct newer/older fold ordering.
+8. Fixed framing measure during subsequent accretioning.
+9. Blocked material collision without silently changing standing.
+10. No traversal authorization into constitutionally unacquired extent.
+11. No acquisition from mere camera or map selection.
+12. Footing condition requirement before next buttoning eligibility.
+13. Ceiling arrival not advancing the RE-STEP acquisition index.
+14. Existing return and source identities preserved.
+15. Unsupported physical or optical claims remaining explicitly unresolved.
+
+Where constitutional acquisition can be implemented with genuine material witnesses, test its complete contract.
+
+Where it cannot, test the proper blocking condition.
+
+Do not write a test that merely asserts an acquisition flag and claim the constitutional operation has been solved.
+
+Use actual Chromium walkthroughs for significant interface behavior.
+
+Document the observed results, not just intended behavior.
+
+---
+
+# 16 — ENGINEERING DELIVERABLES
+
+Return the following:
+
+## Deliverable A — Canonical Geometry RE-surfacing Table
+
+A linked Markdown architecture collection with one central entry point, diagrams, references, canonical relationships, and current standing classifications.
+
+## Deliverable B — Repository Supersession and Impact Ledger
+
+A searchable inventory of affected files, inherited assumptions, required updates, and reconciliation status.
+
+## Deliverable C — Exploratory Geometry Workshop
+
+A functioning experimental surface focused on the six-extent registration, 45-degree bar, triangles, squares, coil folding, and related bounded geometric experiments.
+
+## Deliverable D — Geometric Witnesses
+
+Screenshots and diagrams showing actual material source relations, candidate folding outcomes, and the distinctions between established and unproved mechanisms.
+
+## Deliverable E — DIRT Geometry Tracking Proposal
+
+A concrete proposal for the future versioned acquisition and provenance architecture, without implementing a full DIRT system.
+
+## Deliverable F — Validation Report
+
+Tests, Chromium results, observed failures, remaining mechanical and optical gaps, and clear statements about what has and has not been constitutionally acquired.
+
+## Deliverable G — Public Build Integration Recommendations
+
+Identify which newly validated components could enter the public appliance, which older components should be revised first, and which elements require additional workshop discovery.
+
+Do not automatically integrate exploratory geometry into production.
+
+---
+
+# 17 — CANONICAL LANGUAGE PROTECTIONS
+
+Preserve these exact terms and distinctions:
+
+- PUBLIC-SITUATION-MACHINE-
+- Constitutioning Human
+- Terrestrial Computer
+- JANUSITE
+- CUBICAL — never "cubicle"
+- XT TO XT — spell out TO; never XT2XT
+- XT TOWARD YT
+- XT TO YT — the accomplished relation, distinct from TOWARD
+- YT TOWARD YT
+- RE-STEP
+- RE-STEPPING
+- RE-STOMPING
+- RE-ZIPPERING
+- PENDING UN-BUTTONING
+- Little ROUNDING Footings
+- accretioning
+- Standing Up Table
+- Traversaling Seat
+- Projectioning Crossing
+- Traversaling Craft
+- Roundabout Gallery
+- PITTONING
+- PIVOTING
+- PINNING
+- Looking THROUGHING THROUGHING Glass
+- THIS ONE STANDINGING LANDINGING
+- THIS HERE APPROACHING LANDINGING
+- THIS NEXT APPROACHING LANDINGING
+- RE-surfacing Table
+
+Maintain the offices of the prepositions:
+
+FROM HERE, TOWARD, TO, THROUGH, FROM WITHIN, DOWN UNDER, UP FROM OUT OF, UP OVER ACROSS, AROUND ABOUT, and OVER ACROSS.
+
+Do not replace RE-STEP with the phrase "consequential state transition."
+
+Its architectural operation is coordinationingably accordionationingable.
+
+Retain the distinctions among co-relationing, co-ordinationing, co-operationing, and co-officing-er.
+
+Do not normalize specialized vocabulary merely for conventional English readability.
+
+When the exact canonical phrase remains unsettled, label it provisional rather than inventing a definitive inscription.
+
+---
+
+# 18 — STOPPING POINT AND ARCHITECTURAL HANDOFF
+
+Stop after the canonical architecture collection, repository reconciliation, bounded Geometry Workshop experiments, provenance proposal, tests, and report are complete to the extent supported by the existing implementation.
+
+Do not proceed into:
+
+- A finalized public Workshop interface.
+- Arbitrary new Gallery rooms.
+- Unverified COB transport.
+- Unproved traversable tunnel claims.
+- Automatic constitutional acquisition.
+- A full DIRT evaluation system.
+- Unrequested broad production replacements.
+- A fabricated mechanical return or optical curvature law.
+
+If an important relation remains unresolved, provide an inspectable bounded experiment and an explicit report of what must be discovered next.
+
+Future Gobs and future Bills must be able to recover the present architecture by entering through the Geometry RE-surfacing Table, following its links, and examining its geometric witnesses.
+
+They should not have to reconstruct the architecture from scattered conversations, previous engineering commissions, or whichever prototype happens to be executable.
+
+The Geometry RE-surfacing Table is to become **the maintained current locality for the architectural picture**.
+
+Historical work remains accessible, but the latest reviewed geometry governs new construction.
+
+---
+
+# FINAL CHARGE
+
+Gobs, we're not asking you to finish the PUBLIC-SITUATION-MACHINE- in this pass.
+
+We're asking you to help us establish the material and architectural foundation from which we can continue discovering how it should be furnished.
+
+Begin with the six-extent reference.
+
+Let the Constitutioning Human see the 45-degree XT TOWARD YT bar.
+
+Let us work with the square, circle, and triangle.
+
+Let us investigate how a selected JANUSITE wedging can participate in the lawful FROM-standing.
+
+Let us discover how two Little ROUNDING Footings can stand through the aperture, folding UNDER FROM WITHIN, with the newest nearest Ground and the older folds accretioning into the manifold.
+
+Let us investigate the emerging curved axle and Gallery pocketings without pretending their final material law has already been solved.
+
+Let us preserve every acquisition and return distinction.
+
+And let the Geometry RE-surfacing Table retain what we discover, so the next experiment, the next Bill, the next Gobs, and the eventual public build can stand upon the same architectural Ground.
+
+**THE ROOM IS FURNISHED BEFORE THE HUMAN RE-STEPS.**
+
+**THE HUMAN LAWFULLY ACQUIRES THE EXTENT WITHIN WHICH THE COB MAY WORK.**
+
+**THE COB STANDS RE-STEPPING TOWARD FROM WITHIN THAT FRAMING.**
+
+**THE LITTLE ROUNDING FOOTINGS ACCRETION FROM WITHIN THE ACQUIRED FRAME.**
+
+**THE CEILING IS ITS OWN OCCASION, NOT ANOTHER RE-STEP.**
+
+**THE MAP AND THE REGARDINGS MUST FOLLOW THE ACTUAL STANDING MATERIAL.**
+
+**THE CANONICAL GEOMETRY MUST REMAIN RECOVERABLE, INSPECTABLE, AND REVISIONABLE.**
+
+STANDING AHEAD OF OPERATIONING.
+
+BODY AHEAD OF THEORY.
+
+**END COMMISSION.**

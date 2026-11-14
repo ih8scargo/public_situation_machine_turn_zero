@@ -1,4 +1,8 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailBody do
+  # R25/R26: HERE wedging / seated ONE / Snail THROUGH SIX registration is required.
+  # Missing physical source correspondence is not optional architecture; see docs/architecture/geometry/here-wedging-snail-six.md.
+  # Geometry reconciliation: Native helix is a retained body witness, not the revised ordered coiling placement law.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Experimental body geometry and conservative Quilling/bobbin rehearsal. No constitutional turn or PINNING operation."
   alias PublicSituationMachineTurnZero.Workshop.{Projection, WedgingGeometry}
 

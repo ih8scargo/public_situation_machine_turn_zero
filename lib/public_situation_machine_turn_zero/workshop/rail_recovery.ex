@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.RailRecovery do
+  # Geometry reconciliation: Roll and source/Gallery overlay remain candidates; revised acquisition/return requires finite material witnesses.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc """
   Engineering recovery candidates. Source letter samples are retained exactly.
   No acquisition API, durable turn state, or source-to-Gallery metric is supplied.

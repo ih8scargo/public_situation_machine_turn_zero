@@ -435,3 +435,6 @@ And **never** do this:
 <!-- phoenix:liveview-end -->
 
 <!-- usage-rules-end -->
+## Geometry architectural authority
+
+Before changing Human/HERE, Craft/Seat, Table/Crossing, JANUSITE, Footing, Gallery, acquisition or projection geometry, consult [THE GEOMETRY RE-SURFACING TABLE](docs/architecture/geometry/README.md) and its impact ledger. Preserve historical source versions; executable older geometry does not override current Human-established requirements.

@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailNearMonitor do
+  # Geometry reconciliation: Historical physical source frames remain unchanged; new Seat ONE/Table THREE fit is not established by this presentation.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Presentation registrations only. Keeps the source standing, material and acquisition ledger unchanged."
   alias PublicSituationMachineTurnZero.Workshop.Geometry
   alias PublicSituationMachineTurnZero.Architecture.{ApplianceCutaway, CrossingRehearsal}

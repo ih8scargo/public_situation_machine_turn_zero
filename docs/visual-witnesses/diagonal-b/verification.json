@@ -1,0 +1,24 @@
+{
+  "geometryContract": "geometry-table-2026-11-13.v2",
+  "currentTurn": "current-turn-preview",
+  "endpoints": [
+    [
+      0,
+      6,
+      0
+    ],
+    [
+      6,
+      0,
+      0
+    ]
+  ],
+  "length": 8.48528137423857,
+  "nextExtent": "not-furnished",
+  "overlayInitiallyHidden": true,
+  "prospectiveMaterialPoints": [],
+  "identityPreserved": true,
+  "acquiredIndex": 0,
+  "pageErrors": [],
+  "mobileOverflow": false
+}

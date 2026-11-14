@@ -1,4 +1,9 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailWeaveGeometry do
+  # R21–R23: historical DOWN UNDER computer/passage is apparatus-source provenance,
+  # not automatic FROM DOWN UNDER acquisition for newly staged material.
+  # See docs/architecture/geometry/table-crossing-staging.md and un-vanishing-aperture.md.
+  # Geometry reconciliation: Source Seat/relay coordinates and zero-width ray hits do not prove revised finite passage or Craft fit.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Registration layers on the existing SnailBody, not a second room. All new fittings are bounded proposals."
   alias PublicSituationMachineTurnZero.Workshop.{SnailBody}
 

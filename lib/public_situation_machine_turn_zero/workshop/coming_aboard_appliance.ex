@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.ComingAboardAppliance do
+  # Geometry reconciliation: Session approach/configuration is not lawful acquired extent for the revised framing.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Bounded Coming Aboard staging witness. No PINNING, acquisition or constitutional turn."
   alias PublicSituationMachineTurnZero.Workshop.{WedgingGeometry, SnailBody}
   alias PublicSituationMachineTurnZero.Architecture

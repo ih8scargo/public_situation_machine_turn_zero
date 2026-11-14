@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZeroWeb.ComingAboardMachinePanel do
+  # Historical/trial presentation: no revised Seat ONE/Table THREE fit or protected acquisition is implied.
+  # Reconcile against docs/architecture/geometry/README.md and impact-ledger.md before changing geometry.
   use PublicSituationMachineTurnZeroWeb, :html
   alias PublicSituationMachineTurnZero.Workshop.ComingAboardMachine
 

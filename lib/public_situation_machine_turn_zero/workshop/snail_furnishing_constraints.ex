@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailFurnishingConstraints do
+  # Geometry reconciliation: Lanterning counts are presence appointments, never a Footing cap; revised Seat/Table heights require separate compatibility review.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Recovered architectural requirements, not generated solids or new constitutional standing."
 
   def model(state, geometry) do

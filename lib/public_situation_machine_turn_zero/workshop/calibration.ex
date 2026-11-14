@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.Calibration do
+  # Geometry reconciliation: Retain A04 gauges as references; old pivot placements do not override the revised ONE/THREE/SIX frame.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Versioned, bounded mechanical hypotheses alongside unchanged schema-3 construction."
   @defaults %{
     "quarter_turn" => 0.0,

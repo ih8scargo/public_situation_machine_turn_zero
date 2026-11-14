@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailWeave do
+  # Geometry reconciliation: Local completion preserves its historical contract; it is not the revised secured Human FROM-standing evaluator.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Bounded integration of existing opening, SnailBody labor and continuous-arc turn witnesses. No RE-STEP, NAV-STEP or PINNING operation."
   alias PublicSituationMachineTurnZero.Architecture, as: A
   alias PublicSituationMachineTurnZero.Workshop.{SnailBody, WedgingRehearsal}

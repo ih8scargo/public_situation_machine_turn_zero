@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Architecture.Diorama do
+  # Geometry reconciliation: Retained Craft/drawer and staging geometry is historical; revised Seat ONE/Table THREE needs physical registration, not avatar relocation.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Second PUFFING furnishes extent; composed drawer operation is recoverable mechanical state."
   alias PublicSituationMachineTurnZero.Architecture, as: A
   @reserve Path.expand("../../../docs/machine-instructionings/material-reserve.json", __DIR__)

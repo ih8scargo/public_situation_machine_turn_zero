@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.Groundside do
+  # Geometry reconciliation: Groundside/Craft projections retain old frames and cannot establish the new acquired Human FROM-standing.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Reversible lower-source presentation and explicitly provisional U-normal optical probe. No registrations are mutated."
   alias PublicSituationMachineTurnZero.Workshop.Projection
 

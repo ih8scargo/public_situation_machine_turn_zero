@@ -1,5 +1,7 @@
 # Snail House — Zeroeth Bearinging and two woven turns
 
+> Historical implementation witness. Current requirements and supersessions: [Geometry RE-surfacing Table](architecture/geometry/README.md). Source coordinates and original results below retain their historical scope.
+
 Engineering Hall return · November 8, 2026. Route: **`/workshop/wedging-geometry`**, in the existing Phoenix app (`mix phx.server`). The integrated apparatus is the default surface. Inspection uses the same controls and model; there is no privileged engineering mode.
 
 This pass furnishes the six **bounded geometric/registration and local-operation witnesses** below. It does not establish a physically fitted projector or complete the machine. POOFING's missing operation contract, physical ring engagement, proposed seating scale and a cabinet-lead conflict remain for review.

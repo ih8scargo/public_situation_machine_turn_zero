@@ -1,5 +1,7 @@
 # M17-forward authoritative reconstruction — October 4, 2026
 
+> Historical reconstruction scope. Before reusing Craft/Seat/staging geometry, consult [Geometry RE-surfacing Table](../../docs/architecture/geometry/README.md) and the impact ledger; these narrative witnesses do not prove the revised physical registration.
+
 Richard explicitly authorized deletion and breaking continuity. HEAD was efd68084f9656264c5e9511b9fd472cc8aa57859; Quarry arrived with 2,126 user-added lines (7,953 total). User-added Quarry was preserved byte-for-byte.
 
 Deleted old working-print lines 4810–9892 (M17–M23). M1–M16 preserved byte-for-byte. No old M17-forward copy retained or rejoined.

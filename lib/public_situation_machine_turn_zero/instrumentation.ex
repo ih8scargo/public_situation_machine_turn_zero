@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Instrumentation do
+  # Geometry reconciliation: Fixture seating is not acquisition of the revised six-extent framing.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc """
   Isolated already-standing Rail laboratory. Only `standing` is saved.
   Alignment is an explicit Human operation on a selected identity/bearing,

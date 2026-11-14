@@ -1,4 +1,8 @@
 defmodule PublicSituationMachineTurnZero.Workshop.ComingAboardMachine do
+  # R25/R26: HERE wedging / seated ONE / Snail THROUGH SIX registration is required.
+  # Missing physical source correspondence is not optional architecture; see docs/architecture/geometry/here-wedging-snail-six.md.
+  # Geometry reconciliation: Historical Ground Table and Craft Seat SIX registration; new Seat ONE / Standing Up Table THREE / ceiling SIX must be reviewed before reuse.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Extent registration of the inherited tuple, Snail body and monitor. No acquisition operation."
   alias PublicSituationMachineTurnZero.{TupleProjectioning, Architecture.CrossingRehearsal}
   alias PublicSituationMachineTurnZero.Workshop.SnailBody

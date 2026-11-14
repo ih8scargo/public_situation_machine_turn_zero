@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.Steeling do
+  # Geometry reconciliation: N18/U13 are permanent source registrations; never relocate them to fit the revised motor frame.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Provisional planar JANUSITE STEELING hypothesis. Indices, coordinates and carriage intervals are distinct."
   @defaults %{"approach_bend" => 3.0, "n_heading" => 135.0, "machine_reach" => 6.0}
   @bounds %{"approach_bend" => {1, 6}, "n_heading" => {105, 165}, "machine_reach" => {3, 8}}

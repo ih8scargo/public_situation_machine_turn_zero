@@ -1,5 +1,7 @@
 # PublicSituationMachineTurnZero
 
+Current geometric architectural authority: [THE GEOMETRY RE-SURFACING TABLE](docs/architecture/geometry/README.md).
+
 To start your Phoenix server:
 
 * Run `mix setup` to install and setup dependencies

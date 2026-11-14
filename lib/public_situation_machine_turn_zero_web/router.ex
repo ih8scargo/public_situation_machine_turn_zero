@@ -20,6 +20,7 @@ defmodule PublicSituationMachineTurnZeroWeb.Router do
     live "/workshop", WorkshopLive, :index
     live "/workshop/rail-recovery", RailRecoveryLive, :index
     live "/workshop/wedging-geometry", WedgingGeometryLive, :index
+    live "/workshop/string-ribbon", StringRibbonLive, :index
     live "/workshop/coming-aboard", ComingAboardReconstructionLive, :index
     live "/workshop/engineering-quarry", EngineeringQuarryLive, :index
     live "/workshop/engineering-quarry/coming-aboard-rehearsal", ComingAboardLive, :index

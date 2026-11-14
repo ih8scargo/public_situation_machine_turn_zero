@@ -1,0 +1,14 @@
+{
+  "geometryContract": "geometry-table-2026-11-13.v2",
+  "minimumCapacity": 2,
+  "initialFootings": 0,
+  "acceptedCandidates": 1,
+  "rejectedSecondCandidate": true,
+  "sourceIdentityAcrossViews": true,
+  "herePillarInvariant": true,
+  "fixtureEligibilityDoesNotAcquire": true,
+  "ceilingNotActualArrival": true,
+  "acquiredIndex": 0,
+  "pageErrors": [],
+  "mobileOverflow": false
+}

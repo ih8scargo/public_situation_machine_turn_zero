@@ -1,0 +1,47 @@
+import assert from 'node:assert/strict'
+import {mkdir,writeFile} from 'node:fs/promises'
+const {chromium}=await import(process.env.PLAYWRIGHT_MODULE || 'playwright')
+const output=process.env.WITNESS_DIR || 'docs/visual-witnesses/diagonal-b-v4'
+await mkdir(output,{recursive:true})
+const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,args:['--no-sandbox']})
+try {
+ const page=await browser.newPage({viewport:{width:1440,height:1050}})
+ const errors=[];page.on('pageerror',e=>errors.push(e.message))
+ await page.goto('http://127.0.0.1:4001/workshop/string-ribbon');await page.waitForSelector('.phx-connected')
+ const bench=page.locator('#geometry-exploration')
+ const click=async selector=>{const r=Number(await bench.getAttribute('data-revision'));await page.locator(selector).click();await page.waitForFunction(n=>Number(document.querySelector('#geometry-exploration').dataset.revision)>n,r)}
+ const world=id=>page.locator('#ge-scene-'+id).getAttribute('data-world')
+ const witness=page.locator('#ge-diagonal-b-witness')
+ const measure=await world('current-turn-measure'),pillar=await world('pillar'),basis=await world('xt-to-xt-from-here')
+ assert.deepEqual(JSON.parse(measure),[[0,6,0],[6,0,0]])
+ assert.equal(await witness.getAttribute('data-status'),'current_turn_line_furnished')
+ assert.equal(await witness.getAttribute('data-next-status'),'not-furnished')
+ assert.match(await witness.innerText(),/8.485281/)
+ assert.match(await witness.innerText(),/XT TO XT FROM HERE/)
+ assert.equal(await page.locator('#ge-scene-prospective-join').count(),0)
+ await witness.screenshot({path:`${output}/01-current-turn-measure.png`})
+ await page.locator('#ge-scene').screenshot({path:`${output}/02-default-no-continuation.png`})
+ await click('#ge-continuation-overlay-toggle')
+ assert.equal(await page.locator('#ge-scene-prospective-join').getAttribute('data-material-points'),'[]')
+ assert.equal(await page.locator('#ge-scene-prospective-join').getAttribute('data-acquired'),'false')
+ assert.match(await page.locator('#ge-prospective-join-note').innerText(),/PROSPECTIVE ONLY/)
+ assert.equal(await world('current-turn-measure'),measure)
+ assert.equal(await world('pillar'),pillar)
+ await page.locator('#ge-scene').screenshot({path:`${output}/03-prospective-join-reference.png`})
+ await witness.screenshot({path:`${output}/04-prospective-qualification.png`})
+ for(const view of ['elevation','plan','transverse','oblique','half']){
+  await click('#ge-view-'+view)
+  assert.equal(await world('current-turn-measure'),measure)
+  assert.equal(await world('pillar'),pillar);assert.equal(await world('xt-to-xt-from-here'),basis)
+ }
+ await click('#ge-continuation-overlay-toggle')
+ assert.equal(await page.locator('#ge-scene-prospective-join').count(),0)
+ assert.equal(await bench.getAttribute('data-index'),'0');assert.equal(await bench.getAttribute('data-coils'),'0')
+ assert.match(await page.locator('#paired-motor-current-turn-qualification').innerText(),/does not furnish or acquire/)
+ await page.setViewportSize({width:390,height:844})
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))
+ await witness.screenshot({path:`${output}/05-mobile.png`})
+ assert.deepEqual(errors,[])
+ await writeFile(`${output}/verification.json`,JSON.stringify({geometryContract:'geometry-table-2026-11-13.v4',currentTurn:'current-turn-preview',endpoints:JSON.parse(measure),length:Math.sqrt(72),nextExtent:'not-furnished',overlayInitiallyHidden:true,prospectiveMaterialPoints:[],identityPreserved:true,acquiredIndex:0,pageErrors:errors,mobileOverflow:false},null,2))
+ console.log('PASS Diagonal B: current measure, inherited basis, no default continuation, empty-material overlay, reversible views and no acquisition.')
+} finally {await browser.close()}

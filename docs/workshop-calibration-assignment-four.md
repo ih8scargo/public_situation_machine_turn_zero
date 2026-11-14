@@ -1,5 +1,7 @@
 # Assignment 04 — locked U and reciprocal calibration
 
+> Historical implementation witness. Current requirements and supersessions: [Geometry RE-surfacing Table](architecture/geometry/README.md). Source coordinates and original results below retain their historical scope.
+
 ## Inspection and baseline
 
 Branch: `workshop/milestone-one`; HEAD: `b3fb3e471fe531784b2adec8203ffed1164d152a`. Earlier workshop work was already uncommitted/untracked. No branch change or commit was made.

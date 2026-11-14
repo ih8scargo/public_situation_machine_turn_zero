@@ -1,0 +1,2045 @@
+{
+  "scope": "staging_geometry_preview",
+  "initial": {
+    "version": "alongside-angular-registration-v1",
+    "aperture": {
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "id": "un-vanishing-aperture",
+      "status": "candidate_physical_registration",
+      "relation": "REGISTERED OPENING TOWARD REGARDING",
+      "center": [
+        3,
+        3,
+        0
+      ],
+      "correspondence": "Crossing THREE center reference; distinct from monitor and material aperture",
+      "frame": "exploration-six-v1",
+      "physical_passage": "unproved",
+      "points": [
+        [
+          3.4,
+          3.0,
+          0
+        ],
+        [
+          3.392314112161292,
+          3.0780361288064513,
+          0
+        ],
+        [
+          3.369551813004515,
+          3.153073372946036,
+          0
+        ],
+        [
+          3.3325878449210182,
+          3.222228093207841,
+          0
+        ],
+        [
+          3.282842712474619,
+          3.282842712474619,
+          0
+        ],
+        [
+          3.222228093207841,
+          3.3325878449210182,
+          0
+        ],
+        [
+          3.153073372946036,
+          3.369551813004515,
+          0
+        ],
+        [
+          3.0780361288064513,
+          3.392314112161292,
+          0
+        ],
+        [
+          3.0,
+          3.4,
+          0
+        ],
+        [
+          2.9219638711935487,
+          3.392314112161292,
+          0
+        ],
+        [
+          2.846926627053964,
+          3.369551813004515,
+          0
+        ],
+        [
+          2.777771906792159,
+          3.3325878449210182,
+          0
+        ],
+        [
+          2.717157287525381,
+          3.282842712474619,
+          0
+        ],
+        [
+          2.6674121550789818,
+          3.222228093207841,
+          0
+        ],
+        [
+          2.630448186995485,
+          3.153073372946036,
+          0
+        ],
+        [
+          2.607685887838708,
+          3.0780361288064513,
+          0
+        ],
+        [
+          2.6,
+          3.0,
+          0
+        ],
+        [
+          2.607685887838708,
+          2.9219638711935487,
+          0
+        ],
+        [
+          2.630448186995485,
+          2.846926627053964,
+          0
+        ],
+        [
+          2.6674121550789818,
+          2.777771906792159,
+          0
+        ],
+        [
+          2.717157287525381,
+          2.717157287525381,
+          0
+        ],
+        [
+          2.777771906792159,
+          2.6674121550789818,
+          0
+        ],
+        [
+          2.8469266270539637,
+          2.630448186995485,
+          0
+        ],
+        [
+          2.9219638711935487,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.0,
+          2.6,
+          0
+        ],
+        [
+          3.0780361288064513,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.153073372946036,
+          2.630448186995485,
+          0
+        ],
+        [
+          3.222228093207841,
+          2.6674121550789818,
+          0
+        ],
+        [
+          3.282842712474619,
+          2.717157287525381,
+          0
+        ],
+        [
+          3.3325878449210182,
+          2.777771906792159,
+          0
+        ],
+        [
+          3.369551813004515,
+          2.8469266270539637,
+          0
+        ],
+        [
+          3.392314112161292,
+          2.9219638711935483,
+          0
+        ],
+        [
+          3.4,
+          3.0,
+          0
+        ]
+      ],
+      "radius": 0.4
+    },
+    "projection": {
+      "id": "alongside-shared-projectioning",
+      "relation": "UP FROM HERE OVER ACROSS",
+      "framing": "six-frame",
+      "material_ids": [
+        "alongside:inherited-reference"
+      ],
+      "opening": "un-vanishing-aperture",
+      "physical_transfer": "unproved"
+    },
+    "materials": [
+      {
+        "id": "alongside:inherited-reference",
+        "status": "already_standing_reference",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.0,
+          3,
+          1.0
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 0,
+        "office": "inherited fixture / office not attested",
+        "vertices": [
+          [
+            2.88,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            3.25,
+            1.015
+          ],
+          [
+            2.88,
+            3.25,
+            1.015
+          ]
+        ],
+        "acquisition": "not_attested",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      }
+    ],
+    "axle": {
+      "id": "angular-registration-axle-candidate",
+      "status": "registration_control_only",
+      "points": [
+        [
+          3.0,
+          3,
+          1.0
+        ]
+      ],
+      "basis": [
+        "alongside:inherited-reference"
+      ],
+      "deflections": [],
+      "lawful_acquisition": "not_attested",
+      "occupied_curvature": "unproved"
+    },
+    "future_relation": {
+      "status": "not_established",
+      "relation": "FROM DOWN UNDER",
+      "requires": [
+        "lawfully_acquired_human_frame",
+        "lawful_landinging_acquisition"
+      ],
+      "actual_material_ids": []
+    },
+    "note": "Inherited standing is a stipulated reference fixture; no physical acquisition is attested by this preview.",
+    "relationships": [
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:inherited-reference"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:inherited-reference"
+      }
+    ],
+    "work": {
+      "scope": "same acquired six-frame only",
+      "actual_cob": null,
+      "permitted": false
+    }
+  },
+  "staged": {
+    "version": "alongside-angular-registration-v1",
+    "aperture": {
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "id": "un-vanishing-aperture",
+      "status": "candidate_physical_registration",
+      "relation": "REGISTERED OPENING TOWARD REGARDING",
+      "center": [
+        3,
+        3,
+        0
+      ],
+      "correspondence": "Crossing THREE center reference; distinct from monitor and material aperture",
+      "frame": "exploration-six-v1",
+      "physical_passage": "unproved",
+      "points": [
+        [
+          3.4,
+          3.0,
+          0
+        ],
+        [
+          3.392314112161292,
+          3.0780361288064513,
+          0
+        ],
+        [
+          3.369551813004515,
+          3.153073372946036,
+          0
+        ],
+        [
+          3.3325878449210182,
+          3.222228093207841,
+          0
+        ],
+        [
+          3.282842712474619,
+          3.282842712474619,
+          0
+        ],
+        [
+          3.222228093207841,
+          3.3325878449210182,
+          0
+        ],
+        [
+          3.153073372946036,
+          3.369551813004515,
+          0
+        ],
+        [
+          3.0780361288064513,
+          3.392314112161292,
+          0
+        ],
+        [
+          3.0,
+          3.4,
+          0
+        ],
+        [
+          2.9219638711935487,
+          3.392314112161292,
+          0
+        ],
+        [
+          2.846926627053964,
+          3.369551813004515,
+          0
+        ],
+        [
+          2.777771906792159,
+          3.3325878449210182,
+          0
+        ],
+        [
+          2.717157287525381,
+          3.282842712474619,
+          0
+        ],
+        [
+          2.6674121550789818,
+          3.222228093207841,
+          0
+        ],
+        [
+          2.630448186995485,
+          3.153073372946036,
+          0
+        ],
+        [
+          2.607685887838708,
+          3.0780361288064513,
+          0
+        ],
+        [
+          2.6,
+          3.0,
+          0
+        ],
+        [
+          2.607685887838708,
+          2.9219638711935487,
+          0
+        ],
+        [
+          2.630448186995485,
+          2.846926627053964,
+          0
+        ],
+        [
+          2.6674121550789818,
+          2.777771906792159,
+          0
+        ],
+        [
+          2.717157287525381,
+          2.717157287525381,
+          0
+        ],
+        [
+          2.777771906792159,
+          2.6674121550789818,
+          0
+        ],
+        [
+          2.8469266270539637,
+          2.630448186995485,
+          0
+        ],
+        [
+          2.9219638711935487,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.0,
+          2.6,
+          0
+        ],
+        [
+          3.0780361288064513,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.153073372946036,
+          2.630448186995485,
+          0
+        ],
+        [
+          3.222228093207841,
+          2.6674121550789818,
+          0
+        ],
+        [
+          3.282842712474619,
+          2.717157287525381,
+          0
+        ],
+        [
+          3.3325878449210182,
+          2.777771906792159,
+          0
+        ],
+        [
+          3.369551813004515,
+          2.8469266270539637,
+          0
+        ],
+        [
+          3.392314112161292,
+          2.9219638711935483,
+          0
+        ],
+        [
+          3.4,
+          3.0,
+          0
+        ]
+      ],
+      "radius": 0.4
+    },
+    "projection": {
+      "id": "alongside-shared-projectioning",
+      "relation": "UP FROM HERE OVER ACROSS",
+      "framing": "six-frame",
+      "material_ids": [
+        "alongside:inherited-reference",
+        "alongside:material-1"
+      ],
+      "opening": "un-vanishing-aperture",
+      "physical_transfer": "unproved"
+    },
+    "materials": [
+      {
+        "id": "alongside:inherited-reference",
+        "status": "already_standing_reference",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.0,
+          3,
+          1.0
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 0,
+        "office": "inherited fixture / office not attested",
+        "vertices": [
+          [
+            2.88,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            3.25,
+            1.015
+          ],
+          [
+            2.88,
+            3.25,
+            1.015
+          ]
+        ],
+        "acquisition": "not_attested",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      },
+      {
+        "id": "alongside:material-1",
+        "status": "newly_staged",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.5,
+          3,
+          0.8660254037844387
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 30,
+        "office": "FT COB candidate furnishing / TF COB unmounted",
+        "vertices": [
+          [
+            3.3885769515458675,
+            2.75,
+            0.9130350227276721
+          ],
+          [
+            3.596423048454133,
+            2.75,
+            0.7930350227276722
+          ],
+          [
+            3.596423048454133,
+            3.25,
+            0.7930350227276722
+          ],
+          [
+            3.3885769515458675,
+            3.25,
+            0.9130350227276721
+          ],
+          [
+            3.403576951545867,
+            2.75,
+            0.9390157848412052
+          ],
+          [
+            3.6114230484541325,
+            2.75,
+            0.8190157848412053
+          ],
+          [
+            3.6114230484541325,
+            3.25,
+            0.8190157848412053
+          ],
+          [
+            3.403576951545867,
+            3.25,
+            0.9390157848412052
+          ]
+        ],
+        "alongside": "alongside:inherited-reference",
+        "appointment": "wedging-appointment-1",
+        "inherited_furnishing": [],
+        "projection": "alongside-shared-projectioning",
+        "acquisition": "not_acquired",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ]
+          ],
+          [
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ]
+          ],
+          [
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ],
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ]
+          ],
+          [
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ],
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ]
+          ],
+          [
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ]
+          ],
+          [
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      }
+    ],
+    "axle": {
+      "id": "angular-registration-axle-candidate",
+      "status": "registration_control_only",
+      "points": [
+        [
+          3.0,
+          3,
+          1.0
+        ]
+      ],
+      "basis": [
+        "alongside:inherited-reference"
+      ],
+      "deflections": [],
+      "lawful_acquisition": "not_attested",
+      "occupied_curvature": "unproved"
+    },
+    "future_relation": {
+      "status": "not_established",
+      "relation": "FROM DOWN UNDER",
+      "requires": [
+        "lawfully_acquired_human_frame",
+        "lawful_landinging_acquisition"
+      ],
+      "actual_material_ids": []
+    },
+    "note": "Inherited standing is a stipulated reference fixture; no physical acquisition is attested by this preview.",
+    "relationships": [
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:inherited-reference"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:inherited-reference"
+      },
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "FROM OVER ACROSS",
+        "object": "Projectioning Crossing",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "STAGED ALONGSIDE",
+        "object": "alongside:inherited-reference",
+        "subject": "alongside:material-1",
+        "lifecycle": "current_staging"
+      }
+    ],
+    "work": {
+      "scope": "same acquired six-frame only",
+      "actual_cob": null,
+      "permitted": false
+    }
+  },
+  "angular": {
+    "version": "alongside-angular-registration-v1",
+    "aperture": {
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "id": "un-vanishing-aperture",
+      "status": "candidate_physical_registration",
+      "relation": "REGISTERED OPENING TOWARD REGARDING",
+      "center": [
+        3,
+        3,
+        0
+      ],
+      "correspondence": "Crossing THREE center reference; distinct from monitor and material aperture",
+      "frame": "exploration-six-v1",
+      "physical_passage": "unproved",
+      "points": [
+        [
+          3.4,
+          3.0,
+          0
+        ],
+        [
+          3.392314112161292,
+          3.0780361288064513,
+          0
+        ],
+        [
+          3.369551813004515,
+          3.153073372946036,
+          0
+        ],
+        [
+          3.3325878449210182,
+          3.222228093207841,
+          0
+        ],
+        [
+          3.282842712474619,
+          3.282842712474619,
+          0
+        ],
+        [
+          3.222228093207841,
+          3.3325878449210182,
+          0
+        ],
+        [
+          3.153073372946036,
+          3.369551813004515,
+          0
+        ],
+        [
+          3.0780361288064513,
+          3.392314112161292,
+          0
+        ],
+        [
+          3.0,
+          3.4,
+          0
+        ],
+        [
+          2.9219638711935487,
+          3.392314112161292,
+          0
+        ],
+        [
+          2.846926627053964,
+          3.369551813004515,
+          0
+        ],
+        [
+          2.777771906792159,
+          3.3325878449210182,
+          0
+        ],
+        [
+          2.717157287525381,
+          3.282842712474619,
+          0
+        ],
+        [
+          2.6674121550789818,
+          3.222228093207841,
+          0
+        ],
+        [
+          2.630448186995485,
+          3.153073372946036,
+          0
+        ],
+        [
+          2.607685887838708,
+          3.0780361288064513,
+          0
+        ],
+        [
+          2.6,
+          3.0,
+          0
+        ],
+        [
+          2.607685887838708,
+          2.9219638711935487,
+          0
+        ],
+        [
+          2.630448186995485,
+          2.846926627053964,
+          0
+        ],
+        [
+          2.6674121550789818,
+          2.777771906792159,
+          0
+        ],
+        [
+          2.717157287525381,
+          2.717157287525381,
+          0
+        ],
+        [
+          2.777771906792159,
+          2.6674121550789818,
+          0
+        ],
+        [
+          2.8469266270539637,
+          2.630448186995485,
+          0
+        ],
+        [
+          2.9219638711935487,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.0,
+          2.6,
+          0
+        ],
+        [
+          3.0780361288064513,
+          2.607685887838708,
+          0
+        ],
+        [
+          3.153073372946036,
+          2.630448186995485,
+          0
+        ],
+        [
+          3.222228093207841,
+          2.6674121550789818,
+          0
+        ],
+        [
+          3.282842712474619,
+          2.717157287525381,
+          0
+        ],
+        [
+          3.3325878449210182,
+          2.777771906792159,
+          0
+        ],
+        [
+          3.369551813004515,
+          2.8469266270539637,
+          0
+        ],
+        [
+          3.392314112161292,
+          2.9219638711935483,
+          0
+        ],
+        [
+          3.4,
+          3.0,
+          0
+        ]
+      ],
+      "radius": 0.4
+    },
+    "projection": {
+      "id": "alongside-shared-projectioning",
+      "relation": "UP FROM HERE OVER ACROSS",
+      "framing": "six-frame",
+      "material_ids": [
+        "alongside:inherited-reference",
+        "alongside:material-1",
+        "alongside:material-2"
+      ],
+      "opening": "un-vanishing-aperture",
+      "physical_transfer": "unproved"
+    },
+    "materials": [
+      {
+        "id": "alongside:inherited-reference",
+        "status": "already_standing_reference",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.0,
+          3,
+          1.0
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 0,
+        "office": "inherited fixture / office not attested",
+        "vertices": [
+          [
+            2.88,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            2.75,
+            0.985
+          ],
+          [
+            3.12,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            3.25,
+            0.985
+          ],
+          [
+            2.88,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            2.75,
+            1.015
+          ],
+          [
+            3.12,
+            3.25,
+            1.015
+          ],
+          [
+            2.88,
+            3.25,
+            1.015
+          ]
+        ],
+        "acquisition": "not_attested",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              2.75,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              2.75,
+              1.015
+            ]
+          ],
+          [
+            [
+              3.12,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ],
+            [
+              3.12,
+              3.25,
+              1.015
+            ]
+          ],
+          [
+            [
+              2.88,
+              3.25,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              0.985
+            ],
+            [
+              2.88,
+              2.75,
+              1.015
+            ],
+            [
+              2.88,
+              3.25,
+              1.015
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      },
+      {
+        "id": "alongside:material-1",
+        "status": "candidate_furnished",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.5,
+          3,
+          0.8660254037844387
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 30,
+        "office": "FT COB candidate furnishing / TF COB unmounted",
+        "vertices": [
+          [
+            3.3885769515458675,
+            2.75,
+            0.9130350227276721
+          ],
+          [
+            3.596423048454133,
+            2.75,
+            0.7930350227276722
+          ],
+          [
+            3.596423048454133,
+            3.25,
+            0.7930350227276722
+          ],
+          [
+            3.3885769515458675,
+            3.25,
+            0.9130350227276721
+          ],
+          [
+            3.403576951545867,
+            2.75,
+            0.9390157848412052
+          ],
+          [
+            3.6114230484541325,
+            2.75,
+            0.8190157848412053
+          ],
+          [
+            3.6114230484541325,
+            3.25,
+            0.8190157848412053
+          ],
+          [
+            3.403576951545867,
+            3.25,
+            0.9390157848412052
+          ]
+        ],
+        "alongside": "alongside:inherited-reference",
+        "appointment": "wedging-appointment-1",
+        "inherited_furnishing": [],
+        "projection": "alongside-shared-projectioning",
+        "acquisition": "not_acquired",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ]
+          ],
+          [
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ]
+          ],
+          [
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ],
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ]
+          ],
+          [
+            [
+              3.596423048454133,
+              2.75,
+              0.7930350227276722
+            ],
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ],
+            [
+              3.6114230484541325,
+              2.75,
+              0.8190157848412053
+            ]
+          ],
+          [
+            [
+              3.596423048454133,
+              3.25,
+              0.7930350227276722
+            ],
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ],
+            [
+              3.6114230484541325,
+              3.25,
+              0.8190157848412053
+            ]
+          ],
+          [
+            [
+              3.3885769515458675,
+              3.25,
+              0.9130350227276721
+            ],
+            [
+              3.3885769515458675,
+              2.75,
+              0.9130350227276721
+            ],
+            [
+              3.403576951545867,
+              2.75,
+              0.9390157848412052
+            ],
+            [
+              3.403576951545867,
+              3.25,
+              0.9390157848412052
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      },
+      {
+        "id": "alongside:material-2",
+        "status": "candidate_furnished",
+        "unit": "trial extent",
+        "relation": "UP FROM HERE OVER ACROSS",
+        "width": 0.24,
+        "source": "alongside-planar-janusite-stock-v1",
+        "center": [
+          3.8660254037844384,
+          3,
+          0.5000000000000001
+        ],
+        "frame": "exploration-six-v1",
+        "angle": 60,
+        "office": "FT COB candidate furnishing / TF COB unmounted",
+        "vertices": [
+          [
+            3.793035022727672,
+            2.75,
+            0.5964230484541327
+          ],
+          [
+            3.913035022727672,
+            2.75,
+            0.38857695154586747
+          ],
+          [
+            3.913035022727672,
+            3.25,
+            0.38857695154586747
+          ],
+          [
+            3.793035022727672,
+            3.25,
+            0.5964230484541327
+          ],
+          [
+            3.8190157848412047,
+            2.75,
+            0.6114230484541326
+          ],
+          [
+            3.939015784841205,
+            2.75,
+            0.4035769515458675
+          ],
+          [
+            3.939015784841205,
+            3.25,
+            0.4035769515458675
+          ],
+          [
+            3.8190157848412047,
+            3.25,
+            0.6114230484541326
+          ]
+        ],
+        "alongside": "alongside:inherited-reference",
+        "appointment": "wedging-appointment-2",
+        "inherited_furnishing": [
+          "alongside:material-1"
+        ],
+        "projection": "alongside-shared-projectioning",
+        "acquisition": "not_acquired",
+        "from_down_under": false,
+        "ancestry": [
+          "xt-to-xt-from-here",
+          "current-turn:xt-toward-yt-measure",
+          "un-vanishing-aperture"
+        ],
+        "faces": [
+          [
+            [
+              3.793035022727672,
+              2.75,
+              0.5964230484541327
+            ],
+            [
+              3.793035022727672,
+              3.25,
+              0.5964230484541327
+            ],
+            [
+              3.913035022727672,
+              3.25,
+              0.38857695154586747
+            ],
+            [
+              3.913035022727672,
+              2.75,
+              0.38857695154586747
+            ]
+          ],
+          [
+            [
+              3.8190157848412047,
+              2.75,
+              0.6114230484541326
+            ],
+            [
+              3.939015784841205,
+              2.75,
+              0.4035769515458675
+            ],
+            [
+              3.939015784841205,
+              3.25,
+              0.4035769515458675
+            ],
+            [
+              3.8190157848412047,
+              3.25,
+              0.6114230484541326
+            ]
+          ],
+          [
+            [
+              3.793035022727672,
+              2.75,
+              0.5964230484541327
+            ],
+            [
+              3.913035022727672,
+              2.75,
+              0.38857695154586747
+            ],
+            [
+              3.939015784841205,
+              2.75,
+              0.4035769515458675
+            ],
+            [
+              3.8190157848412047,
+              2.75,
+              0.6114230484541326
+            ]
+          ],
+          [
+            [
+              3.913035022727672,
+              2.75,
+              0.38857695154586747
+            ],
+            [
+              3.913035022727672,
+              3.25,
+              0.38857695154586747
+            ],
+            [
+              3.939015784841205,
+              3.25,
+              0.4035769515458675
+            ],
+            [
+              3.939015784841205,
+              2.75,
+              0.4035769515458675
+            ]
+          ],
+          [
+            [
+              3.913035022727672,
+              3.25,
+              0.38857695154586747
+            ],
+            [
+              3.793035022727672,
+              3.25,
+              0.5964230484541327
+            ],
+            [
+              3.8190157848412047,
+              3.25,
+              0.6114230484541326
+            ],
+            [
+              3.939015784841205,
+              3.25,
+              0.4035769515458675
+            ]
+          ],
+          [
+            [
+              3.793035022727672,
+              3.25,
+              0.5964230484541327
+            ],
+            [
+              3.793035022727672,
+              2.75,
+              0.5964230484541327
+            ],
+            [
+              3.8190157848412047,
+              2.75,
+              0.6114230484541326
+            ],
+            [
+              3.8190157848412047,
+              3.25,
+              0.6114230484541326
+            ]
+          ]
+        ],
+        "height": 0.5,
+        "source_scope": "staging_geometry_preview",
+        "thickness": 0.03
+      }
+    ],
+    "axle": {
+      "id": "angular-registration-axle-candidate",
+      "status": "registration_control_only",
+      "points": [
+        [
+          3.0,
+          3,
+          1.0
+        ],
+        [
+          3.5,
+          3,
+          0.8660254037844387
+        ],
+        [
+          3.8660254037844384,
+          3,
+          0.5000000000000001
+        ]
+      ],
+      "basis": [
+        "alongside:inherited-reference",
+        "alongside:material-1",
+        "alongside:material-2"
+      ],
+      "deflections": [
+        30.000000000000004
+      ],
+      "lawful_acquisition": "not_attested",
+      "occupied_curvature": "unproved"
+    },
+    "future_relation": {
+      "status": "not_established",
+      "relation": "FROM DOWN UNDER",
+      "requires": [
+        "lawfully_acquired_human_frame",
+        "lawful_landinging_acquisition"
+      ],
+      "actual_material_ids": []
+    },
+    "note": "Inherited standing is a stipulated reference fixture; no physical acquisition is attested by this preview.",
+    "relationships": [
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:inherited-reference"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:inherited-reference"
+      },
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "FROM OVER ACROSS",
+        "object": "Projectioning Crossing",
+        "subject": "alongside:material-1"
+      },
+      {
+        "relation": "STAGED ALONGSIDE",
+        "object": "alongside:inherited-reference",
+        "subject": "alongside:material-1",
+        "lifecycle": "inherited_staging_basis"
+      },
+      {
+        "relation": "UP FROM HERE OVER ACROSS",
+        "object": "HERE / OVER ACROSS",
+        "subject": "alongside:material-2"
+      },
+      {
+        "relation": "THROUGH-BY",
+        "object": "un-vanishing-aperture",
+        "subject": "alongside:material-2"
+      },
+      {
+        "relation": "FROM OVER ACROSS",
+        "object": "Projectioning Crossing",
+        "subject": "alongside:material-2"
+      },
+      {
+        "relation": "STAGED ALONGSIDE",
+        "object": "alongside:inherited-reference",
+        "subject": "alongside:material-2",
+        "lifecycle": "inherited_staging_basis"
+      }
+    ],
+    "work": {
+      "scope": "same acquired six-frame only",
+      "actual_cob": null,
+      "permitted": false
+    }
+  },
+  "geometry_contract": "geometry-table-2026-11-13.v3"
+}

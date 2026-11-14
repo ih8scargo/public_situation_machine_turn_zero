@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Refolding.Proof do
+  # Geometry reconciliation: Atomic historical ZIPPERING guards are reusable patterns, not proof of the revised material acquisition prerequisites.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc """
   Domain-owned lawful approach to the sole consequential boundary: ZIPPERING.
   Material may be Regarded FROM THERE before furnishing is authorized.

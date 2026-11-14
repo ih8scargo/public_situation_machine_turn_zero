@@ -1,0 +1,18 @@
+{
+  "geometryContract": "geometry-table-2026-11-13.v3",
+  "sameMaterialAcrossViews": true,
+  "pivotDoesNotMoveMaterial": true,
+  "explicitAppointmentAndStage": true,
+  "inheritedAcquisition": "not_attested",
+  "stagedAcquisition": "not_acquired",
+  "candidateFurnishings": 2,
+  "registrationDeflectionDegrees": 30,
+  "occupiedAxleCurvature": "unproved",
+  "landingAcquisition": "blocked",
+  "cobWork": "blocked",
+  "fromDownUnderEstablished": false,
+  "diagonalBPreserved": true,
+  "acquiredIndex": 0,
+  "pageErrors": [],
+  "mobileOverflow": false
+}

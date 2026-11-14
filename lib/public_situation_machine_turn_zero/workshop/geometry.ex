@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.Geometry do
+  # Geometry reconciliation: Historical eighteen-extent reservations are not additional material beyond the revised SIX frame.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Pure provisional workshop geometry. One extent is a model unit, not a physical measure."
   @basis [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
   def rail,

@@ -1,4 +1,6 @@
 defmodule PublicSituationMachineTurnZero.Workshop.SnailGalleryRegistration do
+  # Geometry reconciliation: Retained octagonal fit/arc trials do not appoint a completed Gallery axle or the new coiling law.
+  # Current authority: docs/architecture/geometry/README.md; see impact-ledger.md.
   @moduledoc "Reversible CUBICAL/Gallery inspection. No furnishing, staging resolution or navigation operation."
   alias PublicSituationMachineTurnZero.Workshop.{
     SnailBody,
