@@ -1,0 +1,21 @@
+{
+  "contract": "one-cubical-doorway-2026-11-17.v13",
+  "sourceDigest": "eed1bdf3d99b1cbb0133e8d55e826d9bcc052c8862b9eb256f4aacf66f502471",
+  "standingDigest": "46b94e20f65685ec74d4b0ddca7d8ef899670e97834606c3007f6196a909c908",
+  "orderedLetters": [
+    "R",
+    "O1",
+    "O2",
+    "M"
+  ],
+  "oneAtATime": true,
+  "DoorOpeningPreservesLetterSource": true,
+  "pairedBodiesPresent": true,
+  "COBOneCubePresent": true,
+  "neutralPivotGuard": true,
+  "legacyMAndSeamRetained": true,
+  "fiveTupleOffices": true,
+  "acquiredDelta": 0,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

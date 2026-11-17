@@ -1,0 +1,120 @@
+{
+  "contract": "one-cubical-doorway-2026-11-17.v13",
+  "baseline_files": 1095,
+  "changed_pre_existing_paths": [
+    "lib/public_situation_machine_turn_zero/workshop/room_from_here.ex",
+    "lib/public_situation_machine_turn_zero_web/live/architecture_live.ex",
+    "lib/public_situation_machine_turn_zero_web/components/room_toy_box_panel.ex",
+    "lib/public_situation_machine_turn_zero_web/components/room_from_here_controls.ex",
+    "assets/css/room_toy_box.css",
+    "docs/architecture/geometry/validation-report.md",
+    "docs/architecture/geometry/impact-ledger.md",
+    "docs/architecture/geometry/README.md",
+    "docs/architecture/geometry/change-ledger.md"
+  ],
+  "unchanged_pre_existing_files": 1086,
+  "preserved_v12_piece_source_hashes": 55,
+  "historical_numeric_witnesses_and_base_geometry_byte_preserved": true,
+  "exact_archived_sources": {
+    "lib/public_situation_machine_turn_zero/workshop/room_from_here.ex": "source-archive/room_from_here-v12.ex.txt",
+    "lib/public_situation_machine_turn_zero_web/components/room_from_here_controls.ex": "source-archive/room_from_here_controls-v12.ex.txt"
+  },
+  "new_material_records": 24,
+  "unit_COB": [
+    1,
+    1,
+    1
+  ],
+  "all_letter_extents": [
+    1,
+    1,
+    1
+  ],
+  "exact_swept_translation_legs": 17,
+  "swept_intersections": 0,
+  "Door_swing_intersections": 0,
+  "R_U_before_interference": {
+    "room:inner-u": true,
+    "room:r-wall": true,
+    "room:within-u": true
+  },
+  "R_U_after_interference": {
+    "inner-u": false,
+    "r-wall": false,
+    "transverse-u": false
+  },
+  "preserved_ribbon_new_stationary_intersections": [],
+  "unit_axes_SAT_length_tolerance": 1e-08,
+  "paired_computers": {
+    "pretend_axle_interference": false,
+    "pretend_leverage_interference": false,
+    "real_fixed_intersections": [],
+    "axle_side_clearance": 0.04000000000000001
+  },
+  "intentional_material_contacts": {
+    "R_carrier_to_head": true,
+    "head_to_wall": true,
+    "COB_Table_support_face": {
+      "gap": 0.0,
+      "contact_area": 1.0,
+      "footprint": [
+        [
+          5.5,
+          -4.1
+        ],
+        [
+          6.5,
+          -3.1
+        ]
+      ],
+      "support_bounds": [
+        [
+          5.45,
+          -4.15
+        ],
+        [
+          6.55,
+          -3.0
+        ]
+      ]
+    },
+    "COB_to_brace": true,
+    "brace_to_U": true,
+    "rim_link_to_Table": true,
+    "link_to_body_bearing": true
+  },
+  "actual_transverse_bearing_angle_degrees": 45,
+  "ordered_rehearsal_records": 52,
+  "one_letter_at_a_time": true,
+  "accepted_Needle_purchase": false,
+  "acquired_delta": 0,
+  "source_hashes_match": true,
+  "all_mesh_indices_valid": true,
+  "mix_precommit": {
+    "tests": 360,
+    "failures": 0,
+    "skipped": 1
+  },
+  "browser": {
+    "contract": "one-cubical-doorway-2026-11-17.v13",
+    "sourceDigest": "eed1bdf3d99b1cbb0133e8d55e826d9bcc052c8862b9eb256f4aacf66f502471",
+    "standingDigest": "46b94e20f65685ec74d4b0ddca7d8ef899670e97834606c3007f6196a909c908",
+    "orderedLetters": [
+      "R",
+      "O1",
+      "O2",
+      "M"
+    ],
+    "oneAtATime": true,
+    "DoorOpeningPreservesLetterSource": true,
+    "pairedBodiesPresent": true,
+    "COBOneCubePresent": true,
+    "neutralPivotGuard": true,
+    "legacyMAndSeamRetained": true,
+    "fiveTupleOffices": true,
+    "acquiredDelta": 0,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "main_witness_sha256": "961d228e2ab4687a63307fc948efa4caf756ba9e518a90ab4fd85457c4df6118"
+}

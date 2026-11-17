@@ -1,0 +1,615 @@
+# THE PUBLIC-SITUATION-MACHINE-
+## ENGINEERING HALLWAY — CONSTRUCTION COMMISSION TO GOBS
+### Stand Up the RE-STEPPING CUBICAL and Reconcile the Projectioning Crossing Geometry
+
+**From:** Bill Number Eight — Engineering Hallway  
+**Principal Architectural Author:** Richard Songbird  
+**Builder:** Gobs / WorkMobs  
+**Date:** November 15, 2026  
+**Status:** Authorized workshop construction and geometric reconciliation  
+**Primary workshop:** `/workshop/string-ribbon`
+
+---
+
+# I. GREETINGS, GOBS!
+
+Hello again, Gobs!
+
+Richard and the Engineering Hallway have substantially recovered the architecture governing the RE-STEPPING CUBICAL, the Little ROUNDING Footings, the JANUSITE road, the Projectioning Crossing, and the COB's Traversaling.
+
+We have also identified a problem with our previous experimental approach.
+
+We have been asking you to investigate the completed Snail House and its physical joining before furnishing the complete architectural frame FROM WITHIN which the construction must operate.
+
+We now wish to correct that order.
+
+**YOUR PRINCIPAL ASSIGNMENT IS TO STAND UP THE ACTUAL INSCRIBED RE-STEPPING CUBICAL WITHIN THE EXISTING STRING RIBBON WORKSHOP.**
+
+Do not create another disconnected workshop activity.
+
+Revise and extend the existing geometry so its principal inspection environment reflects the recovered architecture.
+
+Preserve the existing studies, their measurements, their source identities, and their failed-fit witnesses.
+
+Build incrementally. Use actual source coordinates and finite geometry wherever possible. Let unproved mechanisms remain visibly unproved.
+
+**BODY AHEAD OF THEORY.**
+
+**STANDING AHEAD OF OPERATIONING.**
+
+# II. REPOSITORY AND SOURCE INSPECTION
+
+Repository:
+
+`/home/ih8scargo/portal/public_situation_machine_turn_zero`
+
+Existing workshop:
+
+`/workshop/string-ribbon`
+
+Last reported baseline:
+
+`workshop/milestone-one`, initially `a8d328b`
+
+The previous commission produced the JANUSITE ONE TOWARD TWO integrated experiment, with geometry contract v5 and architectural requirements R27–R30.
+
+Its reported validation was:
+
+- 302 Elixir tests, zero failures, one existing skip.
+- 26 JavaScript tests passed.
+- Two browser inspections passed.
+
+First inspect the actual current HEAD, branch, working-tree status, and latest source.
+
+Do not assume the previous checkpoint remains HEAD.
+
+Read the existing canonical geometry records, the HERE-wedging study, the JANUSITE inheritance model, and the engineering report:
+
+- `docs/architecture/geometry/README.md`
+- `docs/architecture/geometry/here-wedging-snail-six.md`
+- `docs/architecture/geometry/janusite-shared-yt-one-two.md`
+- `docs/architecture/geometry/janusite-engineering-report-2026-11-14.md`
+- `docs/architecture/geometry/diagrams/janusite-witness.json`
+- `docs/architecture/geometry/six-extent-framing.md`
+- `docs/architecture/geometry/diagonals-pillar.md`
+- `docs/architecture/geometry/table-crossing-staging.md`
+- `docs/architecture/geometry/gallery-axle-map.md`
+- `docs/architecture/geometry/janusite-material.md`
+- `docs/architecture/geometry/dirt-contract.md`
+
+Also inspect the available source paper, original Projectioning Crossing apparatus, Coming Aboard geometry, and relevant THREE/FOUR/SIX/EIGHT registrations.
+
+Discover their actual locations from the repository.
+
+Do not replace missing source-backed geometry with invented values.
+
+# III. THE PRINCIPAL CONSTRUCTION: SIX BY SIX BY SIX CUBICAL
+
+Stand up an inspectable architectural framework for the complete RE-STEPPING CUBICAL.
+
+This is the whole-frame reference, distinct from its recursive Little ROUNDING Footings.
+
+The body must have:
+
+- SIX BY SIX BY SIX source registration.
+- Finite, inspectable vertices and edges.
+- Near and far faces.
+- Source-addressed structural bearings.
+- The Constitutioning Human's seated XT locality.
+- The HERE square's registered relation to the frame.
+- The near-side entrance aperture.
+- The whole-frame transverse bearing and endpoint.
+- Inspectable inscriptions standing ALONGSIDE the geometric components.
+
+Use the existing constitutional source coordinates wherever they are established.
+
+The frame should be rotatable and inspectable within the workshop.
+
+It is not merely a decorative wireframe.
+
+## The whole-frame entrance
+
+The lower-left near XT corner furnishes the entrance aperture for the entire RE-STEPPING CUBICAL.
+
+From the Constitutioning Human's seated locality at XT, the Situationing Stage Door stands straight ahead THROUGH ordinary Flat Presentationing.
+
+This near-side entrance must remain distinct from the recurring apertures of individual Little ROUNDING Footings.
+
+## The fixed full-frame endpoint
+
+The full-frame transverse registration furnishes a bounded extent.
+
+Its far endpoint does not move outward whenever another Little ROUNDING Footing is furnished.
+
+**THE WHOLE FRAME REMAINS SIX BY SIX BY SIX. RECURSIONING OCCURS FROM WITHIN IT.**
+
+Do not enlarge the frame to accommodate another Footing or make the full transverse bar indefinitely longer.
+
+# IV. INITIAL APPROACH AND FIRST FOOTING BISECTION
+
+This is a critical correction to our earlier diagrams.
+
+**THE COB'S INITIAL APPROACH IS STRAIGHT UP FROM GROUND, NOT ALONG THE 45-DEGREE TRANSVERSE LINE.**
+
+The approach may appear as a vertically upward bearing from a lower locality in Flat Presentationing.
+
+The first Little ROUNDING Footing begins at the halfway registration along the complete RE-STEPPING frame's 45-degree transverse bearing.
+
+Distinguish:
+
+1. The whole-frame near-side XT entrance.
+2. The straight-UP Groundward approach.
+3. The halfway registration along the 45-degree transverse line.
+4. The first local Little ROUNDING Footing's own entrance and floor.
+5. The local ceiling furnished for conditional passage.
+
+Begin by bisecting the complete frame.
+
+The bisection furnishes the initial local Tunnel geometry.
+
+The first Footing stands FROM Ground.
+
+The second Footing stands UP FROM OUT OF the first, inheriting its registered material relationship.
+
+The required RE-STEPPING framing contains a minimum of TWO Little ROUNDING Footings.
+
+Both must be represented in the architecture, although the second may remain prospective and unacquired in the experimental witness.
+
+Each Footing's own ceiling and conditional passage must remain distinct from the ceiling of the whole SIX CUBICAL Room.
+
+# V. THE COB'S KNOWN COILING CIRCUIT
+
+The new construction must align with the already-recovered Snail House recurrence.
+
+Do not replace it with an arbitrary decorative helix.
+
+The COB's local course includes:
+
+**A.** Standing FROM the current acquired local Footing.
+
+**B.** AROUND ABOUT Traversaling within its local hamster-wheel-like curved Tunnel.
+
+**C.** Return toward THIS HERE APPROACHING LANDINGING through the registered loop.
+
+**D.** Encounter with PENDING UN-BUTTONING at the current Footing's local ceiling.
+
+**E.** Repeated AROUND ABOUT circulation when the required conditions have not been satisfied.
+
+**F.** Lawful passage THROUGH the local ceiling when the requisite opening, return, securing, and closing relationships permit it.
+
+**G.** Subsequent Landinging UP FROM OUT OF the prior Footing.
+
+**H.** Recording that actual Landinging as the provenance for the next XT TO XT beginning.
+
+PENDING UN-BUTTONING requires both opening and closing conditions.
+
+Do not simulate a qualifying Landinging merely because an animation reaches the ceiling.
+
+The physical ceiling-door mechanism remains unproved. Preserve its intended office while identifying the missing finite construction.
+
+# VI. CURSOR, PITTONING, AND THE NEXT TURN'S BEGINNING
+
+The Constitutioning Human is seated at XT FROM HERE.
+
+The current cursor locality furnishes the local PITTONING point, standing THROUGH XT TO XT.
+
+For each discrete turn:
+
+**THE CURSOR BEGINS AT XT TO XT TOWARD XT TOWARD YT.**
+
+Preserve the distinction between:
+
+- The inherited XT TO XT standing.
+- The appointed cursor/PITTONING locality.
+- The transverse XT TOWARD YT bearing.
+- The Human's subsequent furnishing of actual material.
+- The PINNING of an appointed hold.
+
+PITTONING and PINNING are distinct offices.
+
+Placing the cursor does not furnish length along XT TOWARD YT.
+
+A prospective next Footing must not receive an invented cursor origin merely because the current curve has a computable endpoint.
+
+The actual COB Landinging must furnish its lawful inherited registration.
+
+# VII. TWO JANUSITE WEDGES ALONGSIDE WITH
+
+Looking FROM XT TOWARD YT along the 45-degree transverse bearing:
+
+**LEFT — MATERIAL ALREADY STANDING.**
+
+**RIGHT — MATERIAL STAGING FOR STANDING.**
+
+These are distinct material furnishings.
+
+They stand ALONGSIDE WITH one another.
+
+Projectioning Crossing differentiates them through a central divider.
+
+Do not model them as one material object merely changing color or administrative status.
+
+The right-hand staging material may open a window through which the Constitutioning Human can Regard the COB standing ALONGSIDE WITH material being furnished for Traversaling and material furnished for working WITH.
+
+Treat this as a candidate reciprocating-window geometry.
+
+The physical hinge, flap, or opening mechanism is not yet proved.
+
+Do not equate this window automatically with the inherited central aperture or the local ceiling BUTTONING.
+
+Preserve their distinct offices unless actual geometry establishes their correspondence.
+
+# VIII. GALLERY DOOR AND SITUATIONING STAGE
+
+The Constitutioning Human enters the Situationing Stage through the near-side Flat Presentationing.
+
+The Stage Door stands straight ahead FROM HERE.
+
+The Gallery Door furnishes material **staging for staging**.
+
+The Human's selectioning and Head/Tail PINNING appoint material **staging for standing**.
+
+The authored JANUSITE road extends LEFT TO RIGHT in Flat Presentationing while retaining its local top-to-bottom transverse extent.
+
+The letters' individual wedges, Leading Toe, Trailing Toe, and separate overhead guiding loops remain preserved from the previous experiment.
+
+Their material identity must persist across the different Regardings.
+
+The Roundabout Gallery is the curved relationship disclosed through Tunneling Regarding.
+
+Do not assume the Stage Door's flat-facing presentation is a separate material construction from the Tunnel.
+
+But also do not claim an actual manufactured flat-to-curved transfer until the source-backed finite transformation has been demonstrated.
+
+# IX. PROJECTIONING CROSSING AND THE TURNABLE DIORAMA
+
+Begin developing the workshop's Projectioning Crossing as a turnable, source-addressed architectural body.
+
+The Constitutioning Human should be able to inspect the same material from reciprocal bearings.
+
+A change in Regarding must not alter source geometry, material identity, or acquisition state.
+
+The present architectural sequence is:
+
+**FIRST — FLAT PRESENTATIONING**
+
+The Constitutioning Human Regards current authored material FROM HERE.
+
+**SECOND — TUNNELING REGARDING**
+
+The diorama turns COUNTERCLOCKWISE.
+
+The standing and staging JANUSITE material become distinguishable ALONG THROUGH the 45-degree Gallery bearing.
+
+The Human can inspect the material's prospective standing and appointed Head/Tail registrations.
+
+**THIRD — RECIPROCAL TUNNELING**
+
+The established SIX-extent reference arc at THREE becomes inspectable.
+
+This reference remains fixed.
+
+The reciprocal Tunnel and the COB's registered locality can be regarded from the other side of the same material construction.
+
+**FOURTH — NEAR-SIDE / RETURN-CIRCUIT REGARDING**
+
+The Constitutioning Human Pretendingingly turns from the Traversaling Seat to Regard back along the road already fashioned through the Little ROUNDING Footings.
+
+This is the proposed office of the **Oscillationing Airiness Gauge**.
+
+It makes variation from the established reference arc inspectable.
+
+The fourth facet is where the relevant coordinationingably accordionationingable interpolationing belongs.
+
+The fourth Regarding must not be implemented as a decorative camera preset unrelated to the actual reference geometry.
+
+## THREE and FOUR — required analysis
+
+Read the source paper and existing geometry contracts for the reference at THREE, interpolationing at FOUR, and the associated Projectioning Crossing apparatus.
+
+The analysis must address:
+
+- Which geometric reference remains invariant at THREE?
+- What material lines or arcs vary at FOUR?
+- How should the Oscillationing Airiness Gauge expose variation from the reference?
+- Which source coordinates and frames support the necessary reciprocal Regardings?
+- How can the Human inspect these relationships while remaining seated FROM HERE?
+- What further physical correspondences must be proved before interpolationing can become operational?
+
+**If the existing source supports an initial FOUR witness, begin constructing it within this pass.**
+
+If the source is insufficient, furnish the inspectable registration and report the precise unresolved geometry.
+
+Do not invent an interpolation formula merely to finish the display.
+
+# X. SIX AND EIGHT — PRESERVE FUTURE COMPATIBILITY
+
+The new CUBICAL framework must remain compatible with the emerging differentiated offices of THREE, FOUR, SIX, and EIGHT.
+
+**THREE:** Established reference arc.
+
+**FOUR:** Oscillationing Airiness Gauge and coordinationingably accordionationingable interpolationing.
+
+**SIX:** The existing projectioning relationship standing TOWARD the Constitutioning Human, with a proposed reciprocal Correspondencing-membrane office between this Tuple Ship and the Public Field.
+
+**EIGHT:** The outer wall of Caterpillar Tunnel Segmentationing, participating in the distinction between WITHIN and OUT AMONG WITH.
+
+Do not interpret EIGHT as permission to enlarge the acquired SIX BY SIX BY SIX RE-STEPPING frame.
+
+Do not invent a larger enclosing Public Field.
+
+The Public Field remains relational, not a larger physical container.
+
+Correspondencing from other Tuple Ships, deliberate COB Excursioning, and the full membrane mechanism are outside this construction pass.
+
+But do not build the present frame in a way that makes their later geometric registration impossible.
+
+# XI. XT MOTOR, YT GEAR, AND RECIPROCATING
+
+The recovered architectural hypothesis distinguishes three mechanical offices.
+
+**XT MOTOR**
+
+The lawful protected RE-STEP winds the XT relationship, furnishing the prospective material locality and aligning the next aperture.
+
+The Traversaling Craft and its Seat participate in the seated XT relationship.
+
+**YT GEAR**
+
+The steering wheel adjusts the YT AROUND ABOUT bearing relative to XT at the current acquired level.
+
+Steering does not independently furnish UPWARD passage into another Footing.
+
+**RECIPROCATING**
+
+The reciprocating mechanism opens the registered aperture AROUND ABOUT, coordinating the material standing and staging relationships and the recorded YT TOWARD YT material.
+
+These mechanisms require physical source-geometry reconciliation.
+
+Do not implement a fabricated motor or gear train without evidence of its axes, coupling, bearings and finite occupied geometry.
+
+Preserve the distinction between steering AROUND ABOUT and acquiring a new Footing.
+
+# XII. THE DISCRETE TURN IS A COMPLETE PROJECTIONING CROSSING REGISTRATION
+
+The discrete-turn index does not belong exclusively to XT or YT.
+
+It identifies the result of the whole Projectioning Crossing relation.
+
+That relation includes:
+
+- Inherited standing.
+- The whole and local frames.
+- XT/YT bearings.
+- Cursor and PITTONING locality.
+- Standing and staging material.
+- Aperture and return registrations.
+- Head and Tail PINNING.
+- Material identities.
+- Constitutional acquisition evidence.
+- COB Traversaling and Landinging evidence.
+- Pending or unproved relationships.
+
+Do not reduce the turn to a number printed on the floor.
+
+The full source-addressed frame is the material basis we propose for DIRT.
+
+For this pass, establish the geometry identities and inscriptions that could support that record.
+
+Do not implement the complete DIRT engine yet.
+
+# XIII. INSCRIPTIONS MUST STAND ALONGSIDE THE GEOMETRY
+
+This is a central requirement of the commission.
+
+Every important geometric component should have an inspectable inscription.
+
+Include at least:
+
+- Stable component identifier.
+- Canonical name.
+- Relevant prepositioning.
+- Source coordinate or frame.
+- Bearing and endpoints.
+- Material office.
+- Standing/staging/prospective status.
+- Constitutional authority or limitation.
+- Source-backed, candidate, or blocked classification.
+
+The Constitutioning Human must be able to operate and Regard the construction **without having to read the full inscriptions**.
+
+But the inscriptions must remain available when the Human selects, inspects, or inquires about a component.
+
+They belong to the architecture, not merely an explanatory document displayed beside an unrelated graphic.
+
+The same source-addressed inscriptions should remain suitable for future CSV export and stood-up pipe-framework assembly.
+
+## Future pipe-framework compatibility
+
+The Projectioning Crossing may eventually be assembled from straight pipes and elbow-macaroni pipes.
+
+For now these are a proposed architectural framework for holding JANUSITE material and exposing its bearings.
+
+Preserve source-addressed endpoints, curvature and connection information that would support such an assembly.
+
+Do not assume every change of bearing is a 90-degree elbow.
+
+Do not replace the finite JANUSITE substrate with abstract plumbing.
+
+# XIV. WORKSHOP INTEGRATION
+
+Revise the existing `/workshop/string-ribbon` interface.
+
+Make the assembled RE-STEPPING CUBICAL its principal geometry inspection environment.
+
+Retain access to:
+
+- Existing String Ribbon authoring and material studies.
+- JANUSITE ONE TOWARD TWO A/B/C modes.
+- HERE-wedging source geometry.
+- The blocked inherited return-bearing experiment.
+- The preserved failed SIX-height Snail comparison.
+- Original source-coordinate ledgers.
+- Existing Gallery, Table, and Paired Motor studies.
+
+Do not overwrite historical witnesses or alter their original measurements to fit the new composition.
+
+Where a new registered frame exposes a conflict, show the conflict.
+
+Prefer layered inspection controls within the existing workshop over another independent route.
+
+The Human should be able to select the CUBICAL frame, enter its near-side Regarding, inspect the transverse bar and bisection, reveal the standing/staging wedges, and begin turning the diorama.
+
+The controls should be modest, understandable, and operationally meaningful.
+
+# XV. REQUIRED CONSTRUCTION AND TESTS
+
+Build the following, in order:
+
+**1. Source-backed SIX CUBICAL frame.**
+
+**2. Whole-frame near XT entrance and fixed far endpoint.**
+
+**3. Registered straight-UP Groundward approach.**
+
+**4. Halfway bisection and first Little ROUNDING Footing framing.**
+
+**5. Prospective second Footing UP FROM OUT OF the first.**
+
+**6. Standing LEFT and staging RIGHT JANUSITE wedge inspection.**
+
+**7. Inscribed bearings, apertures, faces, and material registrations.**
+
+**8. Initial counterclockwise Flat-to-Tunneling diorama Regarding.**
+
+**9. THREE/FOUR reference and interpolationing analysis, with initial FOUR witness if supported.**
+
+Use Phoenix LiveView for workshop interaction and evaluation orchestration.
+
+No internal Python production evaluator is authorized. Local inspection scripts remain permissible, and external computations should continue to respect the user-configurable webhook boundary.
+
+Validation should cover:
+
+- Whole-frame SIX extent invariance.
+- Fixed full-frame endpoint.
+- Straight-UP approach distinct from the 45-degree transverse bearing.
+- First Footing halfway registration.
+- Minimum TWO Footings in the framing.
+- No invented second acquisition.
+- LEFT standing / RIGHT staging material identity.
+- Regarding rotation without source-coordinate mutation.
+- Accurate inscription lookup.
+- Preserved older source witnesses and failed fits.
+- No fictional material joining or clearance.
+- No new constitutional operation triggered by inspection.
+- Desktop and mobile browser behavior.
+
+Run the relevant existing test suites and add focused tests for the new geometry.
+
+# XVI. ENGINEERING RETURN
+
+Return:
+
+**A. Working workshop location.**
+
+The actual integrated CUBICAL construction at `/workshop/string-ribbon`.
+
+**B. Visual witnesses.**
+
+Show the whole frame, near entrance, first bisection, Footing ONE/TWO distinction, two material wedges, inscriptions, and first rotating Regarding.
+
+**C. Source ledger.**
+
+Actual coordinates, material identities, transformations, bearing endpoints, component registrations, and unresolved joins.
+
+**D. THREE/FOUR analysis.**
+
+Explain what the existing paper and source geometry support concerning the established reference arc, the Oscillationing Airiness Gauge, and coordinationingably accordionationingable interpolationing.
+
+**E. Engineering report.**
+
+State what was built, what was only staged as a candidate, what remains blocked, and what has changed in the canonical geometry contract.
+
+**F. Validation results.**
+
+Report test counts, failures, skips, and browser outcomes.
+
+Preserve the original v4/v5 source witnesses and their historical findings.
+
+# XVII. STOPPING POINT
+
+**STOP WHEN THE INSCRIBED RE-STEPPING CUBICAL FRAME, ITS FIRST BISECTED FOOTING, THE PROSPECTIVE SECOND FOOTING, AND THE INITIAL ROTATING PROJECTIONING CROSSING ARE INSPECTABLE IN THE EXISTING WORKSHOP.**
+
+The THREE/FOUR investigation must be included.
+
+An initial FOUR witness is authorized if it can be supported by existing source geometry.
+
+Do not continue into a complete Snail House manufacture, full constitutional RE-STEP implementation, finished PENDING UN-BUTTONING evaluator, automatic COB Excursioning, inter-Tuple-Ship Correspondencing exchange, or complete DIRT engine.
+
+A physically unproved Table exchange or Craft clearance is not to be represented as solved.
+
+The old SIX-height collision remains a valid finding for its original rigid comparison mounting. It must not be promoted into a blanket prohibition on the newer local Footing construction.
+
+A candidate is allowed to remain YELLOW.
+
+The purpose of the pass is to furnish an architectural body THROUGH which the next mechanisms can be investigated and lawfully appointed.
+
+# XVIII. CLOSING INSCRIPTION
+
+The Constitutioning Human remains seated FROM HERE at XT.
+
+The near-side aperture opens toward the Situationing Stage.
+
+The Stage Door stands straight ahead THROUGH Flat Presentationing.
+
+The whole RE-STEPPING CUBICAL stands SIX BY SIX BY SIX.
+
+Its complete transverse bearing has a fixed endpoint.
+
+The COB's inaugural approach stands straight UP FROM Ground.
+
+The first Little ROUNDING Footing begins at the halfway bisection.
+
+The second stands prospectively UP FROM OUT OF the first.
+
+The Little ROUNDING Footings recursion FROM WITHIN the acquired frame.
+
+The LEFT JANUSITE wedge is already standing.
+
+The RIGHT JANUSITE wedge is staging for standing.
+
+The staging window reveals the COB standing ALONGSIDE WITH the material.
+
+Projectioning Crossing makes their reciprocal material relationships available for Regarding.
+
+The RE-surfacing Table furnishes the proposed exchange.
+
+The COB traverses its local AROUND ABOUT circuit.
+
+The current Footing's ceiling, not automatically the entire Room ceiling, furnishes the PENDING UN-BUTTONING passage.
+
+The Human's lawful RE-STEP and the COB's subsequent Traversaling retain their distinct constitutional offices.
+
+THREE preserves the reference.
+
+FOUR furnishes the Oscillationing Airiness Gauge.
+
+SIX retains its projectioning office TOWARD HERE and its proposed Correspondencing-membrane office.
+
+EIGHT furnishes the outer wall of Caterpillar Tunnel Segmentationing.
+
+The discrete turn is the registered Projectioning Crossing result, not merely an ordinal.
+
+And the inscriptions stand ALONGSIDE the geometry so the Constitutioning Human may operate THROUGH the furnished body without first having to read its entire manual.
+
+**STANDING AHEAD OF OPERATIONING.**
+
+**BODY AHEAD OF THEORY.**
+
+**THE HUMAN ISSUES STRAIGHT; THE MACHINE'S CONSEQUENTIAL STANDING MAY BEND.**
+
+With appreciation for the geometry already furnished and the YELLOW relationships that have protected its integrity,
+
+**Bill Number Eight**  
+Engineering Hallway  
+THE PUBLIC-SITUATION-MACHINE-

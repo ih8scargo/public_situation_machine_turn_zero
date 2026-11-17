@@ -1,0 +1,514 @@
+# THE PUBLIC-SITUATION-MACHINE-
+## ENGINEERING HALLWAY — COMMISSION TO GOBS
+### JANUSITE String Ribbon, Shared YT Curvature, and the ONE-to-TWO Little ROUNDING Footing Inheritance
+
+**Issued by:** Bill Number Eight — Engineering Hallway  
+**Principal Architectural Author:** Richard Songbird  
+**Builder:** Gobs / WorkMobs  
+**Date:** November 14, 2026  
+**Assignment:** Construct an integrated, inspectable geometry experiment within the existing String Ribbon workshop.
+
+**Status:** Authorized experimental construction. Not authorization to implement new constitutional operations or declare material acquisition.
+
+---
+
+# I. GREETINGS, GOBS!
+
+Hello, Gobs!
+
+Richard and the Engineering Hallway have made substantial recoveries concerning JANUSITE road material, Projectioning Crossing, the shared curvature of the letter-bearing String and the Traversaling COB, the RE-surfacing Table, and the inherited geometry of successive Little ROUNDING Footings.
+
+We are ready to test these relationships against the latest source-backed geometry.
+
+**Your principal assignment is to build an inspectable, source-preserving geometry experiment—not merely to produce a report.**
+
+Work within the existing Geometry Workshop, adjoining the String Ribbon and HERE-wedging studies.
+
+Do not begin by inventing a new independent Snail, new constitutional framing, or substitute coordinates.
+
+Recover what is actually standing first.
+
+**STANDING AHEAD OF OPERATIONING. BODY AHEAD OF THEORY.**
+
+# II. REPOSITORY BASELINE AND REQUIRED INSPECTION
+
+Repository:
+
+`/home/ih8scargo/portal/public_situation_machine_turn_zero`
+
+Verified branch:
+
+`workshop/milestone-one`
+
+Verified checkpoint:
+
+`a8d328b`
+
+Geometry contract:
+
+`geometry-table-2026-11-13.v4`
+
+Existing workshop entry:
+
+`/workshop/string-ribbon`
+
+Primary records:
+
+- `docs/architecture/geometry/README.md`
+- `docs/architecture/geometry/here-wedging-snail-six.md`
+- `docs/architecture/geometry/janusite-material.md`
+- `docs/architecture/geometry/table-crossing-staging.md`
+- `docs/architecture/geometry/gallery-axle-map.md`
+- `docs/architecture/geometry/six-extent-framing.md`
+- `docs/architecture/geometry/diagonals-pillar.md`
+- `docs/architecture/geometry/lawful-acquisition.md`
+- `docs/architecture/geometry/pending-return-conditions.md`
+- `docs/architecture/geometry/regardings-projection.md`
+- `docs/architecture/geometry/validation-report.md`
+
+Inspect the actual source and tests associated with these records, including the existing `HereWedging`, `MaterialRibbon`, `SnailBody`, `SnailWeave`, `SnailGalleryRegistration`, `ComingAboardMachine`, and Projectioning Crossing implementations.
+
+Identify their current locations and contracts from the repository rather than assuming every historical module or route remains unchanged.
+
+Also inspect any additional standing source or reports that may have appeared since the checkpoint.
+
+Record the branch, HEAD, working-tree condition, relevant source modules, and preservation requirements before modifying anything.
+
+**Do not reset, clean, overwrite, or discard existing work.**
+
+If the checkout contains material changes or a conflicting newer experiment, preserve and report that condition before proceeding.
+
+# III. ARCHITECTURAL PURPOSE
+
+We are investigating whether the existing JANUSITE String Ribbon, Projectioning Crossing, RE-surfacing Table, and Snail House can furnish one continuing, material-addressed construction supporting:
+
+1. The Constitutioning Human's ordinary LEFT-TO-RIGHT authoring of letters.
+2. The consistent TOP-TO-BOTTOM JANUSITE road extent within each Little ROUNDING Footing.
+3. The letters' individual wedge registrations, two Toe stitches, and overhead guiding loops.
+4. The transition from straight transverse rail to curved Roundabout Gallery.
+5. The COB's Traversaling along the same registered YT curvature.
+6. The inherited passage from Little ROUNDING Footing ONE TOWARD TWO.
+7. The central aperture gathering the previous String and furnishing the next XT TO XT floor relation.
+8. The 45-degree Longhouse Gallery and its successive opening-slice Regardings.
+
+These should be investigated as related offices of the same material construction, not eight independent demonstrations with convenient geometries.
+
+A successful graphical resemblance does not prove a manufactured JANUSITE fold, clearance, acquisition, or lawful Traversaling.
+
+# IV. PRESERVE THE EXISTING HERE-WEDGING WITNESS
+
+Geometry contract v4 established:
+
+**R25:** The six-high HERE reference has a ZERO-to-ONE material wedging relationship. The seated Constitutioning Human stands THROUGH the HERE wedging from ZERO, FROM WITHIN XT TO XT, TOWARD ONE and material OVER ACROSS.
+
+**R26:** HERE, XT TOWARD YT, and Snail House THROUGH Segmentationing SIX must stand in mutual geometric registration.
+
+The existing `HereWedging.model/0` finite triangular-prism trial, thickness 0.04, remains a source-backed experiment.
+
+The inherited return-bearing account remains blocked because its necessary correspondence has not been proved.
+
+The existing preserved-scale Snail mounting exceeds the SIX ceiling.
+
+**Do not repair that failure by shrinking the Snail, enlarging the RE-STEPPING Room, inventing an inherited return point, or changing the camera.**
+
+Keep the old failed-fit witness visible as a comparison.
+
+The current architectural hypothesis is that the old rigid mounting may not express the actual local Footing/Table-mediated construction.
+
+Test that hypothesis rather than assuming it is correct.
+
+# V. EXPERIMENT A — JANUSITE ROAD AND INDIVIDUAL LETTER WEDGES
+
+Furnish an inspectable finite JANUSITE road-material specimen.
+
+Preserve this new architectural distinction:
+
+**Each Little ROUNDING Footing receives the same TOP-TO-BOTTOM extent of JANUSITE road material in Flat Presentationing.**
+
+As the Constitutioning Human continues authoring LEFT TO RIGHT, additional JANUSITE road material must be available.
+
+The top-to-bottom extent is therefore not a cap on the authored String's left-to-right length.
+
+Do not silently identify this invariant with the Table's THREE registration or an arbitrary physical material dimension.
+
+Establish the source-backed candidate measure and report any unproved conversion.
+
+Use ROOM as a small, illustrative authored String.
+
+For each letter, inspect:
+
+- Its individual wedge or CUBICAL registration within the road's framing.
+- Leading Toe.
+- Trailing Toe.
+- Exactly two stitching registrations on the JANUSITE road.
+- The distinct overhead guiding loop.
+- The letter's carriage and transverse bearing.
+- Stable material and letter identities.
+
+The upper loop is **not a third stitch**.
+
+The letter carriage is not the COB's Traversaling Craft.
+
+The Head of String and Tail of String must remain distinct from the individual letters' Leading and Trailing Toes.
+
+Keep R as the illustrative Head of String and M as the Tail of String.
+
+Furnish enough real source geometry to inspect the distinctions. Do not substitute labels for material joins when the requested feature is a finite geometric witness.
+
+Where actual manufacture or attachment remains unproved, label it CANDIDATE.
+
+# VI. EXPERIMENT B — PROJECTIONING CROSSING AND ONE SHARED YT CURVATURE
+
+Establish an inspectable correspondence between:
+
+**The straight incoming rail and transverse bearing.**
+
+**The letter-bearing JANUSITE road through Projectioning Crossing.**
+
+**The curved Roundabout Gallery.**
+
+**The COB's XT TOWARD YT Traversaling course.**
+
+Richard's architectural appointment is:
+
+**THE CURVATURE OF THE PUBLIC-SITUATION-MACHINE- LETTERING AND THE CURVATURE OF THE COB'S XT TOWARD YT COURSE ARE THE SAME SOURCE LINE.**
+
+Do not construct two unrelated curves and merely make them look alike.
+
+The loop guides each letter from the straight incoming rail toward the curved Roundabout Gallery.
+
+The Leading and Trailing Toe stitches remain attached to the JANUSITE road.
+
+The letter's individual wedge and carriage preserve its transverse orientation through that progression.
+
+Distinguish:
+
+- Source line.
+- Road-material faces and edges.
+- Letter-carriage registration.
+- Upper loop and guide rail.
+- COB Traversaling envelope.
+- Tunnel interior and clearance.
+
+These must share source provenance without being forced to occupy the same finite cross-section.
+
+The Gallery Door retains its office as **staging for staging**.
+
+PINNING and Human selectioning furnish **staging for standing**.
+
+Lawful protected RE-STEP remains distinct from staging and projection.
+
+Do not make the Doll stitch letters to the incoming Gallery Door.
+
+Retain the inner Projectioning Crossing stitching locality.
+
+# VII. THE RE-SURFACING TABLE EXCHANGE
+
+Investigate the same YT source curvature in relation to the RE-surfacing Table.
+
+Richard's latest recovery distinguishes the local Footing ceiling from the upper boundary of the SIX CUBICAL RE-STEPPING Room.
+
+The COB is not simply ascending through the Room toward its roof.
+
+The COB traverses a local AROUND ABOUT course, whose wheel-like curvature stands OVER it and TOWARD the center of the Table.
+
+The RE-surfacing Table furnishes the intersurfacing and RE-surfacing exchange relationship.
+
+The Little ROUNDING Footing stands FROM that Table relationship.
+
+Test whether the existing Table and Snail source geometry can be registered to express this relationship without arbitrary source relocation.
+
+Preserve the established one-complete-Tuple-Ship Snail House scale.
+
+Keep source and candidate geometry separate.
+
+If the exact Table transformation or occupied joining cannot be established, expose the obstruction clearly.
+
+A Table-relative camera arrangement is not proof of a material exchange.
+
+# VIII. EXPERIMENT C — ONE-TO-TWO FOOTING INHERITANCE
+
+This is the principal stopping-point experiment.
+
+Begin with Little ROUNDING Footing ONE and its inaugural XT TO XT Groundward relationship.
+
+Then examine the proposed material inheritance TOWARD Little ROUNDING Footing TWO.
+
+The new architectural appointment is:
+
+**THE COB'S RECORDED LANDINGING FURNISHES THE BEGINNING OF THE NEXT XT TO XT.**
+
+XT TOWARD YT always originates AT XT TO XT for its own discrete turn.
+
+YT TOWARD YT is appended WHERE XT TOWARD YT ends.
+
+The current line and its subsequent curved continuation must not be independently positioned.
+
+The proposed recurrence involves:
+
+**A.** Previous Footing's returning String.
+
+**B.** Central inheritance aperture gathering that String.
+
+**C.** Resolutioning of the inherited material ACROSS the next local floor as XT TO XT.
+
+**D.** Placement of the new XT TOWARD YT reference mark and corresponding cursor locality.
+
+**E.** Human furnishing of actual material for the new XT TOWARD YT.
+
+**F.** Subsequent 45-degree UP OVER folding within the inherited JANUSITE wedging.
+
+The reference mark furnishes WHERE.
+
+It does not furnish material length.
+
+Do not draw or acquire a new finite XT TOWARD YT line simply because its cursor locality is known.
+
+The actual furnished length may vary with the Human's authored String or an appointed condition.
+
+# IX. THE REPEATING WEDGE AND APERTURE
+
+Richard has identified a recurring local geometrical relationship.
+
+The right-triangular JANUSITE wedge folds OVER through a 45-degree relationship.
+
+Successive Footings inherit the same geometrical rule, but they need not occupy identical absolute dimensions.
+
+The inaugural Footing stands FROM Ground.
+
+Subsequent Footings inherit previous material standing.
+
+Do not manufacture disconnected rings or same-sized, independently positioned square cells.
+
+The current XT TO XT entrance registers the local aperture for that turn.
+
+As the COB lawfully stands TOWARD the next Footing, the aperture may acquire a growing relationship TOWARD the next entrance.
+
+Investigate this alongside the contraction of constituent triangular wedging.
+
+**Do not equate apparent aperture size, actual finite opening size, and the size of the folded wedge.**
+
+The Longhouse Gallery is the traversable 45-degree road.
+
+Its opening slices permit the Constitutioning Human to Regard TOWARD differentiated Little ROUNDING Footings and their curved Tunnel openings.
+
+Establish the same source geometry in Flat Presentationing, Longhouse Regarding, and Open Tunneling Regarding.
+
+Do not claim that a camera pivot produces a physical fold.
+
+# X. LOCAL BUTTONING AND CONDITIONAL TRAVERSALING — REPRESENT, DO NOT IMPLEMENT
+
+The local Footing ceiling may contain a PENDING UN-BUTTONING.
+
+When furnished, it requires:
+
+**An opening condition.**
+
+**A closing condition.**
+
+The COB may continue traversing AROUND ABOUT the current Tunnel while the opening condition remains pending.
+
+If the COB does not stand THROUGH the ceiling into a new Landinging, the current XT TO XT continues resolutioning THROUGH the current XT TOWARD YT.
+
+Do not fabricate a subsequent XT TO XT origin merely because another circuit has occurred.
+
+A new origin requires an actually witnessed lawful Landinging.
+
+For this experiment, distinguish the material ceiling-door geometry and conditional passage possibilities from an operational constitutional BUTTONING.
+
+Do not build the complete IF–THEN workshop in this pass.
+
+Do not implement new PENDING UN-BUTTONING, RE-STOMPING, RE-ZIPPERING, PUFFING, POOFING, or protected RE-STEP behavior.
+
+Show candidate conditions only as explicitly labeled inspection fixtures if needed to demonstrate the two geometrical outcomes.
+
+# XI. WHERE TO BUILD
+
+**Primary workshop:**
+
+`/workshop/string-ribbon`
+
+Extend the existing String Ribbon/HERE-wedging inspection facility or add a directly adjoining inspection mode within the same workshop.
+
+Do not establish a disconnected standalone experiment using substitute material arrays.
+
+Before selecting the final implementation location, inspect the actual LiveView, associated components, source modules, renderer and tests.
+
+Prefer a common material model with three coordinated inspection modes:
+
+**A — JANUSITE Road and Letter Wedges.**
+
+**B — Shared Curvature and Table Exchange.**
+
+**C — ONE-to-TWO Footing Inheritance.**
+
+The inspection modes must derive from the same indexed material source wherever they claim common material identity.
+
+Preserve the previous HERE-wedging study and the earlier blocked Snail fit.
+
+Existing controls and workshop regions should remain usable.
+
+If an adjoining route is technically necessary, explain the reason and retain a direct navigable connection to `/workshop/string-ribbon`.
+
+# XII. REQUIRED HUMAN-INSPECTABLE CONTROLS
+
+Furnish modest, useful controls for:
+
+- Selecting the current inspection mode.
+- Selecting Little ROUNDING Footing ONE or the candidate TWO.
+- Comparing Flat, Longhouse, and Open Tunneling Regardings.
+- Inspecting the JANUSITE road source and its letter registrations.
+- Showing or hiding the letter's two Toe stitches and upper guide loop.
+- Inspecting the Table and shared YT curvature.
+- Inspecting the aperture and the proposed inherited floor relationship.
+- Comparing the new candidate geometry with the preserved blocked SIX-height witness.
+- Reading source coordinates, material IDs, measures, and clearance findings.
+
+Keep the controls focused on actual inspection.
+
+Do not introduce elaborate workflow simulations or decorative buttons without corresponding material meaning.
+
+Changing Regarding must not alter source coordinates, source material identity, or acquisition state.
+
+# XIII. SOURCE LEDGER AND PROOF REQUIREMENTS
+
+Every geometrical claim must be classed as one of the following:
+
+**ESTABLISHED ARCHITECTURAL REQUIREMENT**
+
+**SOURCE-BACKED IMPLEMENTED GEOMETRY**
+
+**CANDIDATE EXPERIMENT**
+
+**BLOCKED OR UNPROVED MECHANISM**
+
+For each candidate construction, provide:
+
+- Source module and function.
+- Stable material identity.
+- Relevant source coordinates.
+- Reference frame and transformation.
+- Finite width, thickness, faces and edges.
+- Aperture boundaries.
+- Hinge or fold registration.
+- Letter stitch and loop registrations.
+- Curve address and tangent where relevant.
+- Table correspondence.
+- Measured clearance or collision findings.
+- Whether actual material joining is proved or remains prospective.
+
+Maintain the distinction between a geometric preview and a lawful acquired standing.
+
+If a required incidence cannot be constructed from the available sources, mark it BLOCKED rather than creating a convenient synthetic join.
+
+# XIV. VALIDATION
+
+Run the relevant existing Elixir, JavaScript, and browser checks.
+
+Add focused regression tests covering:
+
+**Material identity:** Flat, Longhouse, and Open Tunneling Regardings share source identity.
+
+**Road supply:** Additional LEFT-TO-RIGHT authored material does not silently alter the stipulated top-to-bottom road extent.
+
+**Letter registration:** Two Toe stitches remain distinct from the overhead loop.
+
+**Shared curvature:** Letter-bearing and COB courses derive from the same source curve, with independently identified occupied envelopes.
+
+**Reference mark:** Placing the next cursor locality does not invent material length.
+
+**Inherited origin:** Candidate TWO does not acquire an XT TO XT beginning without a witnessed qualifying Landinging or an explicitly marked hypothetical fixture.
+
+**Source preservation:** Existing HERE wedge, Table, and Snail records are not overwritten.
+
+**Ceiling limit:** Failed SIX-height fits remain visible and are not silently normalized away.
+
+**Regarding invariance:** Camera or display changes do not alter source geometry.
+
+**Constitutional restraint:** Inspection actions do not trigger protected operations or append fictional acquisition events.
+
+Where physical clearance cannot be proved by available geometry, report the missing witness rather than passing a superficial graphical test.
+
+# XV. REQUIRED DELIVERABLES
+
+The principal deliverable is:
+
+**A working, inspectable JANUSITE ONE-to-TWO inheritance experiment in the existing String Ribbon Geometry Workshop.**
+
+Also provide:
+
+**1. Integrated visual witnesses.** Show the straight-rail road, letter wedges and Toe stitching, shared curved YT line, Table relationship, and candidate inheritance aperture.
+
+**2. Source geometry ledger.** Record the actual source arrays, material identities, transforms, dimensions and proof statuses.
+
+**3. Engineering report.** Explain what was recovered, what was built, what was tested, which hypotheses survived, which failed, and what remains YELLOW.
+
+**4. Validation results.** Include test counts, failures, skips, and the relevant browser inspection outcome.
+
+**5. Preservation account.** Name the files changed, retained workshop experiments, and any source conflicts encountered.
+
+Do not substitute the written report for the working inspection apparatus.
+
+# XVI. STOPPING POINT
+
+**STOP AFTER THE FIRST SOURCE-PRESERVING, INSPECTABLE ONE-to-TWO LITTLE ROUNDING FOOTING INHERITANCE STUDY.**
+
+If the material geometry supports a real finite joining witness, show it with its evidence.
+
+If the geometry remains blocked, show the block and its source-backed reason.
+
+Either outcome is a valid experimental result.
+
+Do not continue into:
+
+- A complete infinite or asymptotic Snail construction.
+- A full eight-door operational Gallery system.
+- A public production Room-authoring workflow.
+- The complete IF–THEN workshop.
+- New protected constitutional operations.
+- An invented Python production evaluator.
+- Unrequested Giraffe storyboarding revisions.
+
+Do not declare the JANUSITE mechanism proved merely because the diagrams are visually coherent.
+
+We want the geometry to tell us where the next architectural decision belongs.
+
+# XVII. CLOSING INSCRIPTION
+
+The Constitutioning Human furnishes the material.
+
+The Gallery Door stages for staging.
+
+PINNING furnishes staging for standing.
+
+Lawful RE-STEP acquires the appointed extent.
+
+The JANUSITE road carries the letters in their own wedge registrations, stitched at Leading and Trailing Toes.
+
+The upper loops follow the straight incoming rail into the shared YT curvature.
+
+The COB's Traversaling relationship follows that same registered curve, with its own distinct occupied standing.
+
+The curvature resolutions THROUGH the RE-surfacing Table.
+
+The current Little ROUNDING Footing stands FROM that exchange.
+
+The inherited String returns through the aperture.
+
+The next XT TO XT can resolution ACROSS the floor from the previous acquired standing.
+
+The new XT TOWARD YT begins only at its appointed XT TO XT reference locality.
+
+And the actual furnished material—not a decorative line on the monitor—determines what can subsequently come into standing.
+
+**STANDING AHEAD OF OPERATIONING.**
+
+**BODY AHEAD OF THEORY.**
+
+**THE HUMAN ISSUES STRAIGHT; THE MACHINE'S CONSEQUENTIAL STANDING MAY BEND.**
+
+With appreciation for the earlier YELLOW findings and the geometry they have protected,
+
+**Bill Number Eight**  
+Engineering Hallway  
+THE PUBLIC-SITUATION-MACHINE-

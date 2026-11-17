@@ -1,0 +1,247 @@
+defmodule PublicSituationMachineTurnZeroWeb.RoomFromHereControls do
+  use PublicSituationMachineTurnZeroWeb, :html
+  alias PublicSituationMachineTurnZero.Workshop.MaterialRibbon, as: M
+  attr :state, :map, required: true
+  attr :model, :map, required: true
+  attr :form, :any, required: true
+
+  def panel(assigns) do
+    ~H"""
+    <section
+      class="rfh-controls"
+      id="rfh-controls"
+      aria-label="Appliance, source material and course inspection"
+    >
+      <div class="rfh-toolbar">
+        <h2>From Flat to Diorama</h2>
+        <p>
+          The square aperture discloses one source-identical ROOM. Four corner wedges carry inspection Outreadings; they are interface overlays, not new material.
+        </p>
+        <.form for={@form} id="rfh-regarding-settings" phx-change="room-toy-setting">
+          <.input field={@form[:revision]} id="rfh-regarding-revision" type="hidden" />
+          <.input
+            field={@form[:opening]}
+            id="rtb-opening"
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            label="Open the Flat cutout toward CUBICAL Diorama Regarding"
+          />
+          <.input
+            field={@form[:orbit]}
+            id="rtb-orbit"
+            type="range"
+            min="-180"
+            max="180"
+            step="5"
+            label="AROUND ABOUT the central axis · Regarding only"
+          />
+          <.input
+            field={@form[:close]}
+            id="rtb-close"
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            label="Approach the selected finite face · eye moves, material scale stays fixed"
+          />
+        </.form>
+        <div class="rtb-controls">
+          <button
+            id="rtb-return"
+            phx-click="room-toy-action"
+            phx-value-action="return"
+            phx-value-revision={@state.revision}
+          >Return Regarding</button>
+          <button
+            id="rtb-labels"
+            phx-click="room-toy-action"
+            phx-value-action="labels"
+            phx-value-revision={@state.revision}
+            aria-pressed={to_string(@state.labels?)}
+          >Notice every visible source</button>
+        </div>
+      </div>
+      <div class="rfh-authoring">
+        <h2>Select FROM the Gallery; appoint TOWARD the Stage</h2>
+        <div class="rtb-controls">
+          <button
+            :for={letter <- @model.authoring.sources}
+            id={"rtb-select-"<>letter.id}
+            phx-click="room-toy-action"
+            phx-value-action="selection"
+            phx-value-choice={letter.id}
+            phx-value-revision={@state.revision}
+            aria-pressed={to_string(@state.selection == letter.id)}
+          >{letter.id}</button>
+          <button
+            id="rtb-appoint-stage"
+            phx-click="room-toy-action"
+            phx-value-action="appoint_stage"
+            phx-value-revision={@state.revision}
+          >Appoint selected source TOWARD Stage</button>
+        </div>
+        <p id="rfh-authoring-state">
+          Selected: {@state.selection || "none"}. Appointment: {if @state.appointment,
+            do: "STAGING FOR STANDING · conditional, unattached",
+            else: "none"}. Selection and appointment do not stitch material onto the road. O1 and O2 retain distinct source addresses; finite O purchases are unfurnished.
+        </p>
+        <p>
+          Gallery surface cb:slate · Stage Door cb:stage-door · inherited standing fixture cb:standing-material. The actual cb:monitor remains fixed.
+        </p>
+      </div>
+      <div class="rfh-pivots">
+        <h2>One turning reference; the reciprocal reference locked</h2>
+        <div class="rtb-controls">
+          <button
+            :for={
+              {ref, label} <- [
+                {"locked", "Lock both"},
+                {"seat", "Seat pose / Table locked"},
+                {"table", "Table pose / Seat locked"}
+              ]
+            }
+            id={"rtb-pivot-"<>ref}
+            phx-click="room-toy-action"
+            phx-value-action="pivot"
+            phx-value-choice={ref}
+            phx-value-revision={@state.revision}
+            aria-pressed={to_string(@state.pivot == ref)}
+          >{label}</button>
+        </div>
+        <.form for={@form} id="rfh-pivot-settings" phx-change="room-toy-setting">
+          <.input field={@form[:revision]} id="rfh-pivot-revision" type="hidden" />
+          <.input
+            field={@form[:turn]}
+            id="rtb-turn"
+            type="range"
+            min="-45"
+            max="45"
+            step="5"
+            label="Rehearse the active finite source pose · degrees"
+            disabled={@state.pivot == "locked"}
+          />
+        </.form>
+        <div class="rtb-controls">
+          <button
+            :for={gear <- ["XT", "YT"]}
+            id={"rtb-gear-"<>gear}
+            phx-click="room-toy-action"
+            phx-value-action="gear"
+            phx-value-choice={gear}
+            phx-value-revision={@state.revision}
+            aria-pressed={to_string(@state.gear == gear)}
+          >{gear} candidate direction</button>
+          <button
+            id="rtb-steer"
+            phx-click="room-toy-action"
+            phx-value-action="steer"
+            phx-value-revision={@state.revision}
+          >Turn steering wheel · one candidate increment</button>
+        </div>
+        <p id="rfh-pivot-status">
+          Active: {@state.pivot}. Seat {@state.seat_angle}°; Table {@state.table_angle}°. Regarding follows {@state.follow}. Axis +Y, right-handed. YT +5° / counterclockwise from +Y; XT −5° / clockwise from the registered left-elbow/+Y inspection side.
+        </p>
+        <p class="rtb-yellow">
+          These are interlocked source-pose rehearsals. Mechanical bearings, traction and gear coupling remain unproved; stationary accessories are not assumed to turn. Lock the active reference before switching. No gear motion acquires standing.
+        </p>
+      </div>
+      <div class="rfh-seams">
+        <h2>Every sampled seam: Foreview and Aft view</h2>
+        <.form for={@form} id="rfh-seam-settings" phx-change="room-toy-setting">
+          <.input field={@form[:revision]} id="rfh-seam-revision" type="hidden" />
+          <.input
+            field={@form[:seam]}
+            id="rtb-seam"
+            type="range"
+            min="1"
+            max={@model.seams}
+            step="1"
+            label={"Appoint any internal finite-stock seam · 1 through #{@model.seams}"}
+          />
+        </.form>
+        <p id="rfh-seam-status" data-source-id={@model.selected_seam.id}>
+          Selected: {@model.selected_seam.id} · shared finite face: FOUR vertices · gap ZERO · section 0.12 × 0.02 trial extents. Foreview departs ALONG the local tangent; Aft view looks back THROUGH the arriving relation. Both faces retain their cell source identities.
+        </p>
+        <details id="rfh-seam-ledger">
+          <summary>Adjoining faces, normals, bearings and continuity</summary><pre>{inspect(@model.selected_seam, pretty: true, limit: :infinity)}</pre>
+        </details>
+        <p class="rtb-yellow">
+          This is prospective sampled ribbon stock, not an acquired Caterpillar Tunnel or an occupied passage clearance certificate.
+        </p>
+      </div>
+      <details class="rtb-details" id="rfh-registration">
+        <summary>ZERO · ONE · TWO · THREE — positions, planes and inherited basis</summary><pre>{inspect(@model.registration,pretty: true,limit: :infinity)}</pre>
+      </details>
+      <details class="rtb-details" id="rfh-circles">
+        <summary>EIGHT sectors and distinct circular offices</summary>
+        <p id="rfh-sector-count">
+          EIGHT source-addressed sectors partition the same 32 source edges, radius 1.5. SIX CUBICAL remains unchanged. No new floor thickness or acquired Landinging is inferred.
+        </p>
+        <pre>{inspect(%{offices: @model.circular_offices,sectors: @model.sectors},pretty: true,limit: :infinity)}</pre>
+      </details>
+      <details class="rtb-details" id="rfh-apparatus">
+        <summary>Historical four-apparatus offices · current paired bodies above</summary>
+        <p>
+          Historical source offices are named directly below. The new paired bodies have separate registrations above; no nearby object is renamed by resemblance. Main monitor cb:monitor and inner cb:glass remain distinct; historical cabinet-side aperture remains in SnailBody's own frame.
+        </p>
+        <pre id="rfh-aperture-planes">{inspect(@model.aperture_planes, pretty: true, limit: :infinity)}</pre>
+        <article :for={office <- @model.projection_offices} id={String.replace(office.id, ":", "-")}>
+          <h3>{office.name}</h3><pre>{inspect(office,pretty: true)}</pre>
+        </article>
+      </details>
+      <details class="rtb-details" id="rfh-material-assessment">
+        <summary>R / U purchase assessment, per-leg return lengths and finite clearances</summary><pre>{inspect(@model.material_assessment,pretty: true,limit: :infinity)}</pre><pre>{inspect(@model.pose_clearance,pretty: true,limit: :infinity)}</pre>
+      </details>
+      <details class="rtb-details" id="rfh-staircase">
+        <summary>
+          Prospective spiral inheritance · native Snail frame · ZERO acquired Footings
+        </summary>
+        <svg
+          id="rfh-native-spiral"
+          viewBox="0 0 420 300"
+          role="img"
+          aria-label="Prospective staircase source-frame wedge references; unmounted and unacquired"
+        >
+          <polygon
+            :for={w <- @model.staircase.wedges}
+            points={native_points(w.geometry.vertices)}
+            class="rtb-face"
+          >
+            <title>{w.id} · prospective native-frame chord wedge</title>
+          </polygon>
+          <polyline
+            :for={r <- @model.staircase.references}
+            points={native_points(r.xt_to_xt)}
+            class="rtb-guide"
+          >
+            <title>{r.id} · invariant one local extent</title>
+          </polyline>
+        </svg>
+        <p>
+          Native source-frame preview only; no common ROOM mounting is asserted. Each local XT TO XT reference has length ONE and local offset [0,0,1]. Midpoint bisections are measured chord candidates, not an appointed constitutional Footing law.
+        </p>
+        <p>
+          RE-STEP, NAV-STEP, accretioning, COB SCOOPING, Lanterning and RE-ZIPPERING retain distinct offices. Lanterning default ONE, options TWO or THREE, does not cap Footings.
+        </p>
+        <pre>{inspect(@model.staircase,pretty: true,limit: :infinity)}</pre>
+      </details>
+      <details class="rtb-details" id="rfh-gear-observers">
+        <summary>XT / YT physical rotation and explicitly oriented observer witnesses</summary><pre>{inspect(@model.gear_observations, pretty: true, limit: :infinity)}</pre>
+      </details>
+      <details class="rtb-details" id="rfh-control-ledger">
+        <summary>New appliance material / Regarding control ledger</summary><pre>{inspect(@model.control_ledger,pretty: true,limit: :infinity)}</pre>
+      </details>
+    </section>
+    """
+  end
+
+  defp native_points(ps) do
+    Enum.map_join(ps, " ", fn p ->
+      x = 210 + M.dot(p, [0.85, 0, -0.52]) * 85
+      y = 40 - M.dot(p, [0.18, 0.94, 0.3]) * 85
+      "#{x},#{y}"
+    end)
+  end
+end

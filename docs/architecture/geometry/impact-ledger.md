@@ -78,3 +78,59 @@ The [change ledger](change-ledger.md) preserves the refinement. No broad histori
 
 
 [Three-Footing shared-face study](three-footing-study.md) adds an inspection option to the existing workshop. Its versioned local registrations and finite-stock controls do not supersede A/B, HERE/NEXT, installed aperture geometry or acquisition records.
+
+## JANUSITE inheritance — v5
+
+Added `Workshop.JanusiteInheritance.model/1` and `JanusiteInheritancePanel.panel/1`, integrated in `StringRibbonLive`. Only inspection handlers/state and the geometry contract metadata changed in existing source. HereWedging, SnailBody, SnailWeave, Gallery, MaterialRibbon and ComingAboard source arrays/functions were not edited. Flat address layout is separate from source geometry; no unsupported Table exchange transform is substituted.
+
+## Inscribed CUBICAL / reciprocal Crossing — v6
+
+`CubicalConstruction` and its function component become the principal inspection at the existing `StringRibbonLive` route. New inspection state has its own revision guard and no operation/event/acquisition adapter. Existing `GeometryExploration` retains v5 source metadata; v6 composes that source instead of migrating saved witnesses. Existing HERE/JANUSITE/Snail/Calibration/MaterialRibbon constructors and old witness bytes are unchanged.
+
+Historical diagonal A remains fixed but is not the initial COB approach. New lower/upper bisection boxes are candidate bounds, not replacements for the prior Z-adjacent 3-cube bearing study or lawful Footings. v5 endpoint fixtures remain explicitly hypothetical; v6 actual second cursor is nil. The historical full-Snail failed fit applies to its mounting, not to every local construction. A04 FOUR/SIX/EIGHT gauges keep native provenance and provisional relative radii; no interpolation or membrane authority is inferred. New material pair separation concerns only its two finite specimens. [Detailed return](cubical-engineering-report-2026-11-15.md).
+
+## Material co-building — v7
+
+`CoBuilding`, `CoBuildingGeometry` and `CoBuildingPanel` are new. `ArchitectureLive` adds isolated revision-guarded state/handlers and the workbench before its retained crossing apparatus. `app.css` imports scoped styles. Existing GeometryExploration, HereWedging, JANUSITE, CUBICAL, Snail, MaterialRibbon, Crossing JavaScript, tests and older visual witnesses are unchanged from the pre-round manifest. No persistence or operation adapter is attached to co-building. The explicit candidate source-to-world translation does not migrate existing registrations. See the [v7 engineering return](co-building-engineering-report-2026-11-15.md) and [requirements](co-building-material-2026-11-15.md).
+
+## Gallery course refinement — v8
+
+[R44–R47 and engineering witness](gallery-course-v8-2026-11-15.md) register the undercurve, Gallery departure, finite upper loop and continuous source course TOWARD a distinct flat next PINNING. `GalleryCourse` adds source geometry; `CoBuilding` composes source section slices, inspection stages and separate lifecycle identities. The old v7 course is retained in the archived export and metadata. ArchitectureLive adds one inspection command; the function component adds stages/overlays and DOWN Tunneling. No standing-store or protected-operation adapter changes. Upper-loop/departure interference remains an observed YELLOW failure.
+
+## THREE–FOUR / offset passage — v9
+
+[Rules R48–R50 and bounded witness](three-four-offset-v9-2026-11-15.md) add `ThreeFourStudy`, finite candidate material and source-addressed offset arc references. `CoBuilding` gains isolated material-refashioning, conditional-proposal and projection state; ArchitectureLive adds only corresponding inspection handlers; the component exposes independent overlays/status and encounter cursor records. All v8 source meshes and existing actual standing are preserved. Physical ceiling/Tunnel incidence and whole occupied clearance remain YELLOW; measured reference order is not actual COB Traversaling or acquisition. Earlier reports and exports retain their own versions.
+
+## Reserved correspondence — 16 November 2026 / R51
+
+[YT TOWARD YT / Ground-side–Field-side reservation](yt-ground-field-reservation-2026-11-16.md) records distinct Groundward object, Field-side standing, Human-appointed axle reference and source-addressed String roles. Only architectural records and a read-only notice in `CoBuildingPanel` change. `CoBuilding`, geometry helpers, actual standing, appointments, source meshes and previous witness exports remain unchanged. No geometry version bump or executable correspondence is asserted; implementation remains YELLOW.
+
+## Double Gallery passage — v10 / 16 November 2026
+
+[R52–R53 and bounded return](double-passage-v10-2026-11-16.md) add `DoublePassageStudy`, one source sweep sliced into outward/AROUND/return, measured opening-plane incidence and central corridor checks. `CoBuilding` composes new prospective listings; the existing Gallery frame uses its identical original coordinates from the shared Door reference. The component/ArchitectureLive add inspection only, with colour distinction and close-up view; scoped CSS styles the two courses. Previous source meshes, actual standing and protected operations are unchanged. Eight measured boundary samples do not establish recurring four-point furnishing. Exact incidence, joins, whole occupied clearance and inaugural-to-recurring relation remain YELLOW.
+
+V10 digest correction: `CoBuilding.digest/1` now uses explicitly versioned sorted typed content encoding. Legacy JSON-order digest strings remain in historical exports. This corrects cross-VM source comparisons without changing source IDs, finite meshes or standing; see the v10 compatibility note.
+
+## ROOM Toy Box refurnishing — v11 / 16 November 2026
+
+[Rules R54–R61 and four-movement evidence](room-toy-box-v11-2026-11-16.md) apply the source commission and square-axle correction. New `RoomToyBox`/`RoomRibbon` constructors compose preserved v10 material with a tested common ROOM frame, solid opposite-corner bearing, explicit axle ZERO TO ONE, source-derived U candidates, finite under-return and source-bound stands. `RoomToyBoxPanel`, scoped CSS and narrow ArchitectureLive integration provide the primary material/control ledger; older panels remain in a labelled historical disclosure. No protected-operation adapter or consequential persistence changes. Root foundation, source attachment and SIXTH/EIGHTH joining remain YELLOW; new U/R-wall port interference is reported, not accepted. Historical constructors, meshes and reports are not rewritten.
+
+## RE-STEP Wall inheritance — R62 / 16 November 2026
+
+`TupleExcursionInheritance` adds five source-addressed office records and required FOUR/FIVE/SIX correspondence without geometry transforms. `RoomToyBoxPanel` exposes them in the existing material listing. `RoomToyBox`, `RoomRibbon`, canonical Tuple, RailRecovery and historical v11 artifacts remain unchanged. FIVE camera geometry is not a receiving surface; SIX arc is not the inherited return. No operation or persistence adapter is added. [Source and engineering return](re-step-wall-canonical-inheritance-2026-11-16.md).
+
+## ROOM FROM HERE — v12 / R63–R70 / 17 November 2026
+
+New `RoomFromHere` composes `RoomToyBox` without changing its source meshes. It adds source/Regarding state, eight reference sectors, a finite unmounted steering candidate, material diagnostics, sampled seam pairs and native Snail-frame prospective specimens. `RoomToyBoxPanel` and new controls provide one square-aperture appliance. ArchitectureLive uses the wrapper with explicit whitelisted commands and the same revision gate. Seat/Table transforms are pose rehearsals; no operation/store adapter changes. v11, RoomRibbon, canonical Tuple, Snail and R62 constructors/witnesses remain preserved. [Engineering return](room-from-here-v12-2026-11-17.md).
+
+## One-CUBICAL doorway — v13 / R71–R76 / 17 November 2026
+
+New `OneCubicalDoorway` and its panel construct the preferred Table-furnished candidate, distinct TC bodies, exact unit carriers, guarded letter succession and source-versioned receiving ports. `RoomFromHere` composes the candidate while preserving all previous source meshes and exposing historical material separately; neutral locked source pivots gate passage labor. The new collision proof uses unit-length separating axes; historical geometry helpers are untouched. Table locality, monitor, axle, body diagonal and R62 identities are preserved. [Engineering return](one-cubical-doorway-v13-2026-11-17.md).
+
+## Same-letter transformations — v14 / R77–R79 / 17 November 2026
+
+`LetterTransformInspection` poses the existing R and existing Door only; it adds no material piece or ROOM geometry. `RoomFromHere` composes an inspection record/camera and restores the normal workflow outside the mode. The panel supplies independent observer/Door/frame controls, an original toe pointer and explicit PUFFING gate. Unit-doorway, R/U, axle, TC and v11–v13 source profiles are unchanged. Exact preceding v13 orchestration source is archived. [Engineering return](same-letter-transformations-v14-2026-11-17.md).
+
+## Compact reservation / Projectioning resolution — v15 / R80–R83 / 17 November 2026
+
+`OpeningSliceProjection` adds three alternative compact-family profiles, one-at-a-time bound reservations and an invertible nonlinear source chart. `RoomFromHere`, its panel and ArchitectureLive compose inspection controls and the same resolved toe. The unchanged native Snail profile is a trial source, not established revised coiling authority; explicit ROOM translation/calibration remains candidate evidence. `OneCubicalDoorway.measurements/1` excludes this alternative family when reporting its preserved port installation; its constructors/source profiles are unchanged and exact v13 source is archived. All 79 preceding material content hashes, old R/U/ports, paired TC bodies and 30 historical numerical witnesses remain unchanged. No Store, protected-operation or acquisition adapter is added. [Construction return and finite proofs](opening-slice-projection-v15-2026-11-17.md).

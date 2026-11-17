@@ -1,0 +1,66 @@
+{
+  "contract": "same-letter-transformations-2026-11-17.v14",
+  "baseline_files": 1119,
+  "changed_pre_existing_paths": [
+    "lib/public_situation_machine_turn_zero/workshop/room_from_here.ex",
+    "lib/public_situation_machine_turn_zero_web/live/architecture_live.ex",
+    "lib/public_situation_machine_turn_zero_web/components/room_toy_box_panel.ex",
+    "assets/css/room_toy_box.css",
+    "docs/architecture/geometry/validation-report.md",
+    "docs/architecture/geometry/impact-ledger.md",
+    "docs/architecture/geometry/README.md",
+    "docs/architecture/geometry/change-ledger.md"
+  ],
+  "all_79_material_source_hashes_preserved": true,
+  "ROOM_frame_unchanged": true,
+  "no_material_instances_added": true,
+  "same_source_snapshots": 9,
+  "T1_world_mesh_unchanged": true,
+  "T2_inverse_vertex_recovery": true,
+  "rigid_material_allocation": [
+    1,
+    1,
+    1
+  ],
+  "toe_original_source_point": [
+    3.26,
+    2.05,
+    -1.04
+  ],
+  "toe_original_face": 25,
+  "toe_pose_reconstruction": true,
+  "Door_leaf_blocks_closed_clears_open_initial_toe_reference": true,
+  "lawful_PUFFING_bound": false,
+  "actual_curvature_standing": false,
+  "acquired_delta": 0,
+  "archived_v13_orchestration_hash_matches": true,
+  "mix_precommit": {
+    "tests": 365,
+    "failures": 0,
+    "skipped": 1
+  },
+  "browser": {
+    "contract": "same-letter-transformations-2026-11-17.v14",
+    "sourceDigest": "eed1bdf3d99b1cbb0133e8d55e826d9bcc052c8862b9eb256f4aacf66f502471",
+    "letterSourceHash": "132f61ca73f40efa7e52644f951795debf3f709eeb1ec8d3de18abe48c407ef8",
+    "oneExistingR": true,
+    "DoorAngles": [
+      0,
+      45,
+      90
+    ],
+    "RegardingBearings": [
+      0,
+      90,
+      30
+    ],
+    "curvatureFramePreview": true,
+    "originalToeID": "specimen:R:1/leading-toe/end-cap",
+    "PUFFINGGateBlocked": true,
+    "acquiredDelta": 0,
+    "standingDigestUnchanged": true,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "main_witness_sha256": "73c6a073a134b3bab09c15c3c2bfea4dbc79fd0b03f7e591e22bab7dd94a5328"
+}

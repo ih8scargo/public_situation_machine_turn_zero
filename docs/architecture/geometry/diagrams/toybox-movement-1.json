@@ -1,0 +1,669 @@
+{
+  "contract": "geometry-table-2026-11-16.v11",
+  "movement": {
+    "id": 1,
+    "yellow": [
+      "subfloor_foundation",
+      "corner_purchase"
+    ],
+    "evidence": "fixed_support_containment_and_body_bearing"
+  },
+  "evidence": {
+    "frame": {
+      "id": "room-from-axle-v1",
+      "maximum": [
+        7.5,
+        6,
+        0.5
+      ],
+      "minimum": [
+        1.5,
+        0,
+        -5.5
+      ],
+      "measure": [
+        6,
+        6,
+        6
+      ],
+      "inherited_old_frame": {
+        "translation": [
+          3,
+          0,
+          -2
+        ],
+        "measure": [
+          6,
+          6,
+          6
+        ],
+        "source_minimum": [
+          0,
+          0,
+          0
+        ],
+        "source_maximum": [
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    "containment": [
+      {
+        "id": "cb:zero",
+        "bounds": [
+          [
+            2.42,
+            3.58
+          ],
+          [
+            -0.12,
+            0.12
+          ],
+          [
+            -2.58,
+            -1.42
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:zero-square",
+        "bounds": [
+          [
+            2.3252512626584707,
+            3.6747487373415293
+          ],
+          [
+            -0.03500000000000001,
+            0.03500000000000001
+          ],
+          [
+            -2.6747487373415293,
+            -1.325251262658471
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:leverage",
+        "bounds": [
+          [
+            2.95,
+            3.05
+          ],
+          [
+            -0.028284271247461898,
+            1.0282842712474618
+          ],
+          [
+            -3.028284271247462,
+            -1.9717157287525382
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:square-axle",
+        "bounds": [
+          [
+            2.94,
+            3.06
+          ],
+          [
+            0,
+            0.94
+          ],
+          [
+            -3.06,
+            -2.94
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:pivot-one",
+        "bounds": [
+          [
+            2.78,
+            3.22
+          ],
+          [
+            0.94,
+            1.04
+          ],
+          [
+            -3.22,
+            -2.78
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:seat",
+        "bounds": [
+          [
+            2.65,
+            3.35
+          ],
+          [
+            1.04,
+            1.1
+          ],
+          [
+            -3.35,
+            -2.65
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:seat-back",
+        "bounds": [
+          [
+            2.65,
+            3.35
+          ],
+          [
+            1.1,
+            1.75
+          ],
+          [
+            -3.4,
+            -3.34
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:over-across",
+        "bounds": [
+          [
+            3.1814355377009016,
+            5.7085644622990985
+          ],
+          [
+            1.078457328545072,
+            2.921542671454928
+          ],
+          [
+            -3.0660742854777987,
+            -1.9339257145222013
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:pivot-three",
+        "bounds": [
+          [
+            5.68,
+            6.32
+          ],
+          [
+            2.94,
+            3.06
+          ],
+          [
+            -2.32,
+            -1.68
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:globe",
+        "bounds": [
+          [
+            5.68,
+            6.32
+          ],
+          [
+            2.3228718707889797,
+            2.8771281292110205
+          ],
+          [
+            -2.32,
+            -1.68
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:globe-adapter",
+        "bounds": [
+          [
+            5.68,
+            6.32
+          ],
+          [
+            2.8424871130596427,
+            2.94
+          ],
+          [
+            -2.32,
+            -1.68
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:table",
+        "bounds": [
+          [
+            4.5,
+            7.5
+          ],
+          [
+            2.98,
+            3.02
+          ],
+          [
+            -3.5,
+            -0.5
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:wedge-A",
+        "bounds": [
+          [
+            2.9,
+            2.94
+          ],
+          [
+            0.16,
+            1.16
+          ],
+          [
+            -3.0,
+            -2.0
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:wedge-B",
+        "bounds": [
+          [
+            1.92,
+            2.92
+          ],
+          [
+            0.14,
+            0.18
+          ],
+          [
+            -3.0,
+            -2.0
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:monitor",
+        "bounds": [
+          [
+            1.8,
+            4.2
+          ],
+          [
+            1.5,
+            3.3
+          ],
+          [
+            -1.01,
+            -0.99
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:glass",
+        "bounds": [
+          [
+            2.2,
+            3.8
+          ],
+          [
+            1.75,
+            3.05
+          ],
+          [
+            -1.034,
+            -1.025
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:slate",
+        "bounds": [
+          [
+            2.083995390008388,
+            3.916004609991612
+          ],
+          [
+            1.6307944680100654,
+            3.169205531989934
+          ],
+          [
+            -1.0599999999999998,
+            -1.01
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:stage-door",
+        "bounds": [
+          [
+            1.8,
+            4.2
+          ],
+          [
+            1.5,
+            3.3
+          ],
+          [
+            -1.025,
+            -1.005
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:inkwell",
+        "bounds": [
+          [
+            2,
+            2.25
+          ],
+          [
+            1.15,
+            1.4
+          ],
+          [
+            -1.55,
+            -1.3
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:quilling-needle",
+        "bounds": [
+          [
+            2.2849999999999997,
+            2.315
+          ],
+          [
+            1.2,
+            1.55
+          ],
+          [
+            -1.4149999999999998,
+            -1.385
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:doll-source",
+        "bounds": [
+          [
+            5.3,
+            5.55
+          ],
+          [
+            2.65,
+            2.9
+          ],
+          [
+            -1.15,
+            -0.9
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:endless-source",
+        "bounds": [
+          [
+            5.33,
+            5.67
+          ],
+          [
+            2.6,
+            2.9
+          ],
+          [
+            -2.17,
+            -1.83
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:yt-pipe",
+        "bounds": [
+          [
+            1.645,
+            4.3549999999999995
+          ],
+          [
+            3.545,
+            3.6550000000000002
+          ],
+          [
+            -4.3549999999999995,
+            -1.645
+          ]
+        ],
+        "all_inside": true,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:standing-material",
+        "bounds": [
+          [
+            5.59,
+            6.01
+          ],
+          [
+            -0.3,
+            3.3
+          ],
+          [
+            -2.09,
+            -1.91
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:quadranglement-1",
+        "bounds": [
+          [
+            2.285,
+            2.415
+          ],
+          [
+            -0.18,
+            0.02
+          ],
+          [
+            -2.715,
+            -2.585
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:quadranglement-2",
+        "bounds": [
+          [
+            3.585,
+            3.715
+          ],
+          [
+            -0.18,
+            0.02
+          ],
+          [
+            -2.715,
+            -2.585
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:quadranglement-3",
+        "bounds": [
+          [
+            3.585,
+            3.715
+          ],
+          [
+            -0.18,
+            0.02
+          ],
+          [
+            -1.415,
+            -1.2850000000000001
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      },
+      {
+        "id": "cb:quadranglement-4",
+        "bounds": [
+          [
+            2.285,
+            2.415
+          ],
+          [
+            -0.18,
+            0.02
+          ],
+          [
+            -1.415,
+            -1.2850000000000001
+          ]
+        ],
+        "all_inside": false,
+        "only_subfloor_exception": true
+      }
+    ],
+    "body_bearing": {
+      "length": 10.392304845413264,
+      "elevation": 35.264389682754654,
+      "endpoints": [
+        [
+          1.5,
+          0,
+          -5.5
+        ],
+        [
+          7.5,
+          6,
+          0.5
+        ]
+      ],
+      "delta": [
+        6,
+        6,
+        6
+      ],
+      "flat_appearance": 45
+    },
+    "zero_one": {
+      "root": [
+        3,
+        0,
+        -2
+      ],
+      "seat": [
+        3,
+        1,
+        -3
+      ],
+      "office": "FROM_DOWN_UNDER",
+      "root_to_axle_offset": [
+        0,
+        0,
+        -1
+      ],
+      "gallery": "gallery-door:1",
+      "axle_identity": "cb:square-axle",
+      "axle_height_interval": [
+        [
+          3,
+          0,
+          -3
+        ],
+        [
+          3,
+          1,
+          -3
+        ]
+      ]
+    },
+    "bearing_clearance": {
+      "cb:globe": false,
+      "cb:globe-adapter": false,
+      "cb:leverage": false,
+      "cb:over-across": false,
+      "cb:pivot-one": false,
+      "cb:pivot-three": false,
+      "cb:quadranglement-1": false,
+      "cb:quadranglement-2": false,
+      "cb:quadranglement-3": false,
+      "cb:quadranglement-4": false,
+      "cb:seat": false,
+      "cb:seat-back": false,
+      "cb:square-axle": false,
+      "cb:table": false,
+      "cb:zero": false,
+      "cb:zero-square": false
+    }
+  },
+  "acquisition": {
+    "index_delta": 0,
+    "actual_next_footing": null,
+    "pittoning": "not_performed",
+    "puffing": "not_performed",
+    "re_step": "unavailable",
+    "pending_un_buttoning": "separate_unavailable"
+  },
+  "main_witness": "room-toy-box-v11-witness.json",
+  "main_sha256": "a51d4d0111a416f8ab9abc1fd30cb5d12d0b65eb7e3d43681ff1643e7c7d7e62"
+}

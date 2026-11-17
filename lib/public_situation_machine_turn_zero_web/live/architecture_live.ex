@@ -2,6 +2,8 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
   use PublicSituationMachineTurnZeroWeb, :live_view
   alias PublicSituationMachineTurnZero.Architecture, as: A
   alias PublicSituationMachineTurnZero.Architecture.Store
+  alias PublicSituationMachineTurnZero.Workshop.CoBuilding, as: CB
+  alias PublicSituationMachineTurnZero.Workshop.RoomFromHere, as: RTB
 
   def mount(_, _, socket),
     do:
@@ -9,6 +11,8 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
        socket
        |> assign(
          lab: A.new(),
+         co_building: CB.new(),
+         room_toy_box: RTB.new(),
          record: nil,
          message: nil,
          early?: true,
@@ -72,6 +76,225 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
         end
     end
   end
+
+  def handle_event(
+        "room-toy-action",
+        %{"action" => action, "revision" => revision} = params,
+        %{assigns: %{geometry?: true}} = socket
+      ) do
+    command =
+      case action do
+        "view" ->
+          {:view, params["choice"]}
+
+        "movement" ->
+          {:movement, params["choice"]}
+
+        "select" ->
+          {:select, params["choice"]}
+
+        "pin" ->
+          case Integer.parse(params["choice"] || "") do
+            {n, ""} -> {:pin, n}
+            _ -> :unsupported
+          end
+
+        "projection" ->
+          :projection
+
+        "slice_projection" ->
+          case params["choice"] do
+            choice when choice in ~w(compact ports appoint open resolve next) ->
+              {:slice_projection,
+               Map.fetch!(
+                 %{
+                   "compact" => :compact,
+                   "ports" => :ports,
+                   "appoint" => :appoint,
+                   "open" => :open,
+                   "resolve" => :resolve,
+                   "next" => :next
+                 },
+                 choice
+               )}
+
+            _ ->
+              :unsupported
+          end
+
+        "letter_inspection" ->
+          case params["choice"] do
+            "activate" -> {:letter_inspection, :activate}
+            "close" -> {:letter_inspection, :close}
+            "puff" -> {:letter_inspection, :puff}
+            _ -> :unsupported
+          end
+
+        "doorway" ->
+          case params["choice"] do
+            "candidate" ->
+              {:doorway, {:layer, "candidate"}}
+
+            "legacy" ->
+              {:doorway, {:layer, "legacy"}}
+
+            choice when choice in ~w(trace select place open needle) ->
+              {:doorway,
+               Map.fetch!(
+                 %{
+                   "trace" => :trace,
+                   "select" => :select,
+                   "place" => :place,
+                   "open" => :open,
+                   "needle" => :needle
+                 },
+                 choice
+               )}
+
+            _ ->
+              :unsupported
+          end
+
+        name when name in ~w(pivot gear selection) ->
+          {Map.fetch!(%{"pivot" => :pivot, "gear" => :gear, "selection" => :selection}, name),
+           params["choice"]}
+
+        name when name in ~w(steer labels return appoint_stage) ->
+          Map.fetch!(
+            %{
+              "steer" => :steer,
+              "labels" => :labels,
+              "return" => :return,
+              "appoint_stage" => :appoint_stage
+            },
+            name
+          )
+
+        _ ->
+          :unsupported
+      end
+
+    room_toy(socket, revision, command)
+  end
+
+  def handle_event(
+        "room-toy-setting",
+        %{"toy" => params, "_target" => ["toy", key]},
+        %{assigns: %{geometry?: true}} = socket
+      ) do
+    command =
+      with name when not is_nil(name) <-
+             Map.get(
+               %{
+                 "travel" => :travel,
+                 "door" => :door,
+                 "opening" => :opening,
+                 "close" => :close,
+                 "orbit" => :orbit,
+                 "turn" => :turn,
+                 "seam" => :seam,
+                 "doorway_progress" => :doorway_progress,
+                 "letter_bearing" => :letter_bearing,
+                 "letter_door" => :letter_door,
+                 "letter_curvature" => :letter_curvature,
+                 "slice_progress" => :slice_progress
+               },
+               key
+             ),
+           value when is_binary(value) <- params[key],
+           {n, ""} <- Float.parse(value),
+           do: {name, if(name == :seam and n == trunc(n), do: trunc(n), else: n)}
+
+    room_toy(socket, params["revision"], command)
+  end
+
+  def handle_event(
+        "co-building-action",
+        %{"action" => action, "revision" => revision} = params,
+        %{assigns: %{geometry?: true}} = socket
+      ) do
+    command =
+      case action do
+        "course-stage" ->
+          case Integer.parse(params["choice"] || "") do
+            {n, ""} -> {:course_stage, n}
+            _ -> :unsupported
+          end
+
+        "view" ->
+          {:view, params["choice"]}
+
+        "select" ->
+          {:select, params["choice"]}
+
+        "toggle" ->
+          {:toggle, params["choice"]}
+
+        "r_pose" ->
+          {:r_pose, params["choice"]}
+
+        _ ->
+          Map.get(
+            %{
+              "park_view" => :park_view,
+              "restore_view" => :restore_view,
+              "park_door" => :park_door,
+              "restore_door" => :restore_door,
+              "stitch" => :stitch,
+              "m_projection" => :m_projection,
+              "three_four" => :three_four,
+              "double_passage" => :double_passage,
+              "passage_appointment" => :passage_appointment,
+              "interpolation_projection" => :interpolation_projection,
+              "bare" => :bare,
+              "isolate" => :isolate,
+              "reveal" => :reveal
+            },
+            action,
+            :unsupported
+          )
+      end
+
+    co_building(socket, revision, command)
+  end
+
+  def handle_event(
+        "co-building-setting",
+        %{"settings" => p, "_target" => ["settings", key]},
+        %{assigns: %{geometry?: true}} = socket
+      ) do
+    command =
+      case key do
+        "view" ->
+          {:view, p[key]}
+
+        _ ->
+          with name when not is_nil(name) <-
+                 Map.get(
+                   %{
+                     "yaw" => :yaw,
+                     "door" => :door,
+                     "wedge" => :wedge,
+                     "interpolation" => :interpolation,
+                     "layer" => :layer,
+                     "circuit" => :circuit
+                   },
+                   key
+                 ),
+               true <- is_binary(p[key]),
+               {number, ""} <- Float.parse(p[key]),
+               true <- name != :layer or trunc(number) == number do
+            {name, if(name == :layer, do: trunc(number), else: number)}
+          else
+            _ -> :unsupported
+          end
+      end
+
+    co_building(socket, p["revision"], command)
+  end
+
+  def handle_event("co-building-trace", %{"trace" => p}, %{assigns: %{geometry?: true}} = socket),
+    do: co_building(socket, p["revision"], {:trace, p["text"]})
 
   def handle_event("crossing-rehearsal", params, %{assigns: %{geometry?: true}} = socket),
     do: consequence(socket, {:crossing_rehearsal, params})
@@ -231,202 +454,282 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
     )
   end
 
+  defp room_toy(socket, revision, command) do
+    with true <- is_binary(revision),
+         {r, ""} <- Integer.parse(revision),
+         {:ok, state} <- RTB.change(socket.assigns.room_toy_box, r, command) do
+      {:noreply, assign(socket, :room_toy_box, state)}
+    else
+      error ->
+        notice =
+          case error do
+            {:error, :one_wedge_predecessor_required} ->
+              "Appoint one wedge, open and issue its compact slice, then inspect its Projectioning resolution before the next appointment."
+
+            {:error, :inherited_projection_binding_changed} ->
+              "The reservation's ROOM, law or source binding changed. This appointment cannot be resolved."
+
+            {:error, :unit_letter_puffing_acceptance_unbound} ->
+              "Lawful PUFFING is not bound to this letter/wedging candidate. Material mounting, occupied passage and source-bound acceptance are still required; acquired standing unchanged."
+
+            {:error, :neutral_pivots_required_for_passage} ->
+              "Return Seat and Table to zero degrees and lock both before the unit-letter passage rehearsal."
+
+            {:error, :letter_predecessor_required} ->
+              "Complete the preceding trace, selection, placement, Door opening or passage before continuing."
+
+            {:error, :lock_active_pivot_before_switching} ->
+              "Lock the active pivot before selecting the reciprocal reference. Source standing unchanged."
+
+            {:error, :select_permitted_pivot} ->
+              "Select Seat or Table with its reciprocal reference locked before turning."
+
+            {:error, :select_source_material_first} ->
+              "Select a Gallery source before appointing it TOWARD the Stage."
+
+            {:error, :preceding_hold_required} ->
+              "Rehearse the preceding PINNING hold first. No purchase or standing acquired."
+
+            {:error, :stale} ->
+              "This inspection used an earlier revision. Try the current control again; source standing unchanged."
+
+            _ ->
+              "Requested rehearsal unavailable. Required material and constitutional means remain distinct; source standing unchanged."
+          end
+
+        {:noreply,
+         assign(socket, :room_toy_box, %{
+           socket.assigns.room_toy_box
+           | notice: notice
+         })}
+    end
+  end
+
+  defp co_building(socket, revision, command) do
+    with true <- is_binary(revision),
+         {r, ""} <- Integer.parse(revision),
+         {:ok, state} <- CB.change(socket.assigns.co_building, r, command) do
+      {:noreply, assign(socket, :co_building, state)}
+    else
+      _ ->
+        {:noreply,
+         assign(socket, :co_building, %{
+           socket.assigns.co_building
+           | notice:
+               "Rehearsal unavailable or stale. Source standing and acquisition unchanged; trace R and appoint its road pose before stitching rehearsal."
+         })}
+    end
+  end
+
   def render(%{geometry?: true} = assigns) do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:architecture_experiment} show_navigation={false}>
-      <main class="crossing-page">
-        <p :if={@message} id="rehearsal-status">
-          {@message}
-          <.link id="fresh-composition" navigate={~p"/experiments/architecture"}>Begin a fresh geometry rehearsal</.link>
-        </p>
-        <header>
-          <p>PUBLIC-SITUATION-MACHINE- / GEOMETRY REHEARSAL</p><h1>
-            Paired apertures · one inaugural approach
-          </h1><p>
-            TOY BOX OPEN FROM HERE · GROUND, MONITOR AND PINNED-HEAD REHEARSAL
+      <PublicSituationMachineTurnZeroWeb.RoomToyBoxPanel.panel
+        state={@room_toy_box}
+        standing_digest={CB.digest(@lab.standing)}
+      />
+      <details id="room-historical" class="rtb-history" open>
+        <summary>
+          Historical material workshops · v10 and earlier / independent failed and passing witnesses
+        </summary>
+        <PublicSituationMachineTurnZeroWeb.CoBuildingPanel.panel
+          state={@co_building}
+          standing_digest={CB.digest(@lab.standing)}
+        />
+        <main class="crossing-page">
+          <p :if={@message} id="rehearsal-status">
+            {@message}
+            <.link id="fresh-composition" navigate={~p"/experiments/architecture"}>Begin a fresh geometry rehearsal</.link>
           </p>
-        </header>
-        <section
-          id="crossing-rehearsal"
-          phx-hook="CrossingRehearsal"
-          phx-update="ignore"
-          data-model={Jason.encode!(@model["crossing_rehearsal"])}
-          data-ready={to_string(!is_nil(@record))}
-        >
-          <div class="crossing-face">
-            <div class="steering-purchase">
-              <strong>PULL THE STEERING WHEEL TOWARD YOU TO SEAT YOUR MONITOR WITHIN THE PUBLIC-SITUATION-MACHINE-.</strong><p>
-                The square tab has opened the Toy Box. Rugging is assumed furnished for your place, distinct from your Standinging Landinging. The monitor reference stands perpendicular to the ground square; your physical posture is not measured.
-              </p>
-              <div class="crossing-view-buttons">
-                <button id="crossing-lock" type="button" disabled>Lock aperture registration</button>
-                <button id="crossing-unlock" type="button" disabled>Release registration</button>
+          <header>
+            <p>PUBLIC-SITUATION-MACHINE- / GEOMETRY REHEARSAL</p><h1>
+              Paired apertures · one inaugural approach
+            </h1><p>
+              TOY BOX OPEN FROM HERE · GROUND, MONITOR AND PINNED-HEAD REHEARSAL
+            </p>
+          </header>
+          <section
+            id="crossing-rehearsal"
+            phx-hook="CrossingRehearsal"
+            phx-update="ignore"
+            data-model={Jason.encode!(@model["crossing_rehearsal"])}
+            data-ready={to_string(!is_nil(@record))}
+          >
+            <div class="crossing-face">
+              <div class="steering-purchase">
+                <strong>PULL THE STEERING WHEEL TOWARD YOU TO SEAT YOUR MONITOR WITHIN THE PUBLIC-SITUATION-MACHINE-.</strong><p>
+                  The square tab has opened the Toy Box. Rugging is assumed furnished for your place, distinct from your Standinging Landinging. The monitor reference stands perpendicular to the ground square; your physical posture is not measured.
+                </p>
+                <div class="crossing-view-buttons">
+                  <button id="crossing-lock" type="button" disabled>Lock aperture registration</button>
+                  <button id="crossing-unlock" type="button" disabled>Release registration</button>
+                </div>
+                <output id="crossing-registration" aria-live="polite"></output>
+                <button
+                  id="crossing-wheel"
+                  type="button"
+                  aria-label="Pull steering wheel: drag downward; arrows also rehearse the pull"
+                >↕</button>
+                <.input
+                  id="crossing-pull"
+                  name="crossing-pull"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0"
+                  class="crossing-range"
+                  aria-label="Paired-aperture steering pull"
+                />
               </div>
-              <output id="crossing-registration" aria-live="polite"></output>
-              <button
-                id="crossing-wheel"
-                type="button"
-                aria-label="Pull steering wheel: drag downward; arrows also rehearse the pull"
-              >↕</button>
+              <svg
+                id="crossing-scene"
+                viewBox="0 0 1100 1000"
+                role="img"
+                aria-label="One standing extent regarded from the CAB, alongside the Doll, or in transverse inspection"
+              ></svg>
+            </div>
+            <aside class="crossing-instruments">
+              <strong>PANEL ASSEMBLY · COMPARE THE RELATIONS</strong>
+              <p>
+                Fold the available panels about the head axis. Observe what aligns and what remains apart.
+              </p>
+              <label for="panel-view">Compare constructions</label>
               <.input
-                id="crossing-pull"
-                name="crossing-pull"
+                id="panel-view"
+                name="panel-view"
+                type="select"
+                value="existing"
+                options={[
+                  {"Panels alone", "panels"},
+                  {"Panels with existing apparatus", "overlay"},
+                  {"Existing apparatus", "existing"}
+                ]}
+              />
+              <label for="panel-cabinet">Cabinet fold · degrees</label>
+              <.input
+                id="panel-cabinet"
+                name="panel-cabinet"
+                type="range"
+                min="-90"
+                max="90"
+                step="1"
+                value="45"
+              />
+              <label for="panel-doll">Doll-side fold · degrees</label>
+              <.input
+                id="panel-doll"
+                name="panel-doll"
+                type="range"
+                min="-90"
+                max="90"
+                step="1"
+                value="0"
+              />
+              <div class="crossing-view-buttons">
+                <button id="panel-reset" type="button">Reset panel assembly</button>
+                <button id="panel-match" type="button">Copy current apparatus angles</button>
+              </div>
+              <pre id="panel-observations" aria-live="polite"></pre>
+              <details>
+                <summary>Available panels and dimensions</summary><pre id="panel-inventory"></pre>
+              </details>
+              <p>
+                Panel folds are local inspection choices. Reload resets them. The Doll top edge shares a trial hinge through the cabinet interior. Deforming cabinet side sheets stay in the existing reference; acquired standing remains separate.
+              </p>
+              <strong>REGARDING · SAME STANDING EXTENT</strong>
+              <div class="crossing-view-buttons">
+                <button id="crossing-cab" type="button" aria-pressed="false">Within the CAB · through the Glass</button>
+                <button id="crossing-alongside" type="button" aria-pressed="false">Alongside the Doll · over the seat</button>
+                <button id="crossing-inspection" type="button" aria-pressed="true">Transverse inspection</button>
+              </div>
+              <output id="crossing-regard-status" aria-live="polite"></output>
+              <p>
+                Return to the CAB to regard toward the wall through the Doll-head point. Roundabout Regarding retains the same standing. The entrance envelope rehearses XT 3 toward XT 6; its registration remains for review.
+              </p>
+              <label for="crossing-inscription">Follow THE PUBLIC SITUATION MACHINE</label>
+              <.input
+                id="crossing-inscription"
+                name="crossing-inscription"
+                type="range"
+                min="0"
+                max="25"
+                step="0.05"
+                value="0"
+                aria-label="Follow the inscription from THE through MACHINE"
+              />
+              <output id="crossing-inscription-status" aria-live="polite"></output>
+              <p>
+                The arcs carry one inscription. PUBLIC belongs to both bend and face; N marks the twist. Arc dimensions are provisional; the physical twist remains open.
+              </p>
+              <strong>REGARDING SLICES · EXTERNAL INSPECTION</strong>
+              <.input
+                id="crossing-slice"
+                name="crossing-slice"
+                type="select"
+                value="all"
+                options={[
+                  {"All references", "all"},
+                  {"Monitor plane", "monitor"},
+                  {"Inner aperture", "inner"},
+                  {"Projected cabinet face", "cabinet"},
+                  {"Doll-side aperture", "doll"},
+                  {"Pinned-head SEAM", "seam"},
+                  {"Groundward reference", "ground"},
+                  {"Far side of monitor", "far"}
+                ]}
+              />
+              <label for="crossing-yaw">Turn Regarding AROUND ABOUT central axis</label><.input
+                id="crossing-yaw"
+                name="crossing-yaw"
+                type="range"
+                min="-180"
+                max="180"
+                step="1"
+                value="-30"
+                class="crossing-range"
+              />
+              <div class="crossing-view-buttons">
+                <button id="crossing-front" type="button">Frontal</button><button
+                  id="crossing-oblique"
+                  type="button"
+                >Oblique</button><button id="crossing-ground" type="button">Groundward</button><button
+                  id="crossing-side"
+                  type="button"
+                >Side section</button>
+              </div>
+              <button id="crossing-find-seam" type="button">Regard ALONG THROUGH the SEAM</button><p id="crossing-seam-notice">
+                At the pinned head: Looking THROUGHING THROUGHING Glass. Choose its slice; no view moves automatically.
+              </p>
+              <label id="crossing-feed-label" for="crossing-feed">Offer Pretendinging Stick THROUGH the pinned-head aperture</label><.input
+                id="crossing-feed"
+                name="crossing-feed"
                 type="range"
                 min="0"
                 max="1"
                 step="0.01"
                 value="0"
                 class="crossing-range"
-                aria-label="Paired-aperture steering pull"
               />
-            </div>
-            <svg
-              id="crossing-scene"
-              viewBox="0 0 1100 1000"
-              role="img"
-              aria-label="One standing extent regarded from the CAB, alongside the Doll, or in transverse inspection"
-            ></svg>
-          </div>
-          <aside class="crossing-instruments">
-            <strong>PANEL ASSEMBLY · COMPARE THE RELATIONS</strong>
-            <p>
-              Fold the available panels about the head axis. Observe what aligns and what remains apart.
-            </p>
-            <label for="panel-view">Compare constructions</label>
-            <.input
-              id="panel-view"
-              name="panel-view"
-              type="select"
-              value="existing"
-              options={[
-                {"Panels alone", "panels"},
-                {"Panels with existing apparatus", "overlay"},
-                {"Existing apparatus", "existing"}
-              ]}
-            />
-            <label for="panel-cabinet">Cabinet fold · degrees</label>
-            <.input
-              id="panel-cabinet"
-              name="panel-cabinet"
-              type="range"
-              min="-90"
-              max="90"
-              step="1"
-              value="45"
-            />
-            <label for="panel-doll">Doll-side fold · degrees</label>
-            <.input
-              id="panel-doll"
-              name="panel-doll"
-              type="range"
-              min="-90"
-              max="90"
-              step="1"
-              value="0"
-            />
-            <div class="crossing-view-buttons">
-              <button id="panel-reset" type="button">Reset panel assembly</button>
-              <button id="panel-match" type="button">Copy current apparatus angles</button>
-            </div>
-            <pre id="panel-observations" aria-live="polite"></pre>
-            <details>
-              <summary>Available panels and dimensions</summary><pre id="panel-inventory"></pre>
-            </details>
-            <p>
-              Panel folds are local inspection choices. Reload resets them. The Doll top edge shares a trial hinge through the cabinet interior. Deforming cabinet side sheets stay in the existing reference; acquired standing remains separate.
-            </p>
-            <strong>REGARDING · SAME STANDING EXTENT</strong>
-            <div class="crossing-view-buttons">
-              <button id="crossing-cab" type="button" aria-pressed="false">Within the CAB · through the Glass</button>
-              <button id="crossing-alongside" type="button" aria-pressed="false">Alongside the Doll · over the seat</button>
-              <button id="crossing-inspection" type="button" aria-pressed="true">Transverse inspection</button>
-            </div>
-            <output id="crossing-regard-status" aria-live="polite"></output>
-            <p>
-              Return to the CAB to regard toward the wall through the Doll-head point. Roundabout Regarding retains the same standing. The entrance envelope rehearses XT 3 toward XT 6; its registration remains for review.
-            </p>
-            <label for="crossing-inscription">Follow THE PUBLIC SITUATION MACHINE</label>
-            <.input
-              id="crossing-inscription"
-              name="crossing-inscription"
-              type="range"
-              min="0"
-              max="25"
-              step="0.05"
-              value="0"
-              aria-label="Follow the inscription from THE through MACHINE"
-            />
-            <output id="crossing-inscription-status" aria-live="polite"></output>
-            <p>
-              The arcs carry one inscription. PUBLIC belongs to both bend and face; N marks the twist. Arc dimensions are provisional; the physical twist remains open.
-            </p>
-            <strong>REGARDING SLICES · EXTERNAL INSPECTION</strong>
-            <.input
-              id="crossing-slice"
-              name="crossing-slice"
-              type="select"
-              value="all"
-              options={[
-                {"All references", "all"},
-                {"Monitor plane", "monitor"},
-                {"Inner aperture", "inner"},
-                {"Projected cabinet face", "cabinet"},
-                {"Doll-side aperture", "doll"},
-                {"Pinned-head SEAM", "seam"},
-                {"Groundward reference", "ground"},
-                {"Far side of monitor", "far"}
-              ]}
-            />
-            <label for="crossing-yaw">Turn Regarding AROUND ABOUT central axis</label><.input
-              id="crossing-yaw"
-              name="crossing-yaw"
-              type="range"
-              min="-180"
-              max="180"
-              step="1"
-              value="-30"
-              class="crossing-range"
-            />
-            <div class="crossing-view-buttons">
-              <button id="crossing-front" type="button">Frontal</button><button
-                id="crossing-oblique"
-                type="button"
-              >Oblique</button><button id="crossing-ground" type="button">Groundward</button><button
-                id="crossing-side"
-                type="button"
-              >Side section</button>
-            </div>
-            <button id="crossing-find-seam" type="button">Regard ALONG THROUGH the SEAM</button><p id="crossing-seam-notice">
-              At the pinned head: Looking THROUGHING THROUGHING Glass. Choose its slice; no view moves automatically.
-            </p>
-            <label id="crossing-feed-label" for="crossing-feed">Offer Pretendinging Stick THROUGH the pinned-head aperture</label><.input
-              id="crossing-feed"
-              name="crossing-feed"
-              type="range"
-              min="0"
-              max="1"
-              step="0.01"
-              value="0"
-              class="crossing-range"
-            />
-            <div class="crossing-view-buttons">
-              <button id="crossing-replay" type="button" hidden>Re-enact appointmenting journey</button>
-              <button id="crossing-present" type="button" hidden>Regard the received stick</button>
-            </div>
-            <button id="crossing-receive" type="button">COB takes hold · appoint Pointing-able Thing</button>
-            <output id="crossing-status" aria-live="polite"></output><pre id="crossing-coordinates"></pre>
-            <p>
-              HYPOTHESIS: paired hinges share the pinned-head axis. Their midpoint planes coincide; complementary angles alone do not prove a mechanical crossing. Craft seating is unresolved.
-            </p>
-            <p id="crossing-doll-duty"></p><p>
-              25 indexed references: THE / PUBLIC / SITUATION / MACHINE — 3 / 6 / 9 / 7. Proposed 5 × 5 square, SIX depth units; not a physical JANUSITE fold.
-            </p>
-          </aside>
-        </section>
-        <footer>
-          STOP AT RECEPTION · no further PUFFING, traversal or consequential departure in this rehearsal.
-        </footer>
-      </main>
+              <div class="crossing-view-buttons">
+                <button id="crossing-replay" type="button" hidden>Re-enact appointmenting journey</button>
+                <button id="crossing-present" type="button" hidden>Regard the received stick</button>
+              </div>
+              <button id="crossing-receive" type="button">COB takes hold · appoint Pointing-able Thing</button>
+              <output id="crossing-status" aria-live="polite"></output><pre id="crossing-coordinates"></pre>
+              <p>
+                HYPOTHESIS: paired hinges share the pinned-head axis. Their midpoint planes coincide; complementary angles alone do not prove a mechanical crossing. Craft seating is unresolved.
+              </p>
+              <p id="crossing-doll-duty"></p><p>
+                25 indexed references: THE / PUBLIC / SITUATION / MACHINE — 3 / 6 / 9 / 7. Proposed 5 × 5 square, SIX depth units; not a physical JANUSITE fold.
+              </p>
+            </aside>
+          </section>
+          <footer>
+            STOP AT RECEPTION · no further PUFFING, traversal or consequential departure in this rehearsal.
+          </footer>
+        </main>
+      </details>
     </Layouts.app>
     """
   end

@@ -1,0 +1,16 @@
+{
+  "sourceHash": "bd2cf1828fc682fe7bce2b9066547d55d1560c38bb8e6bb81e8e3540b862faf3",
+  "facets": 4,
+  "sourceInvariant": true,
+  "fixedReferenceInvariant": true,
+  "footings": [
+    "candidate",
+    "prospective"
+  ],
+  "actualTwoOrigin": null,
+  "nextCursor": null,
+  "index": 0,
+  "gauge": "matched-source comparison; no interpolation law",
+  "pageErrors": [],
+  "mobileOverflow": false
+}

@@ -1,0 +1,18 @@
+{
+  "contract": "geometry-table-2026-11-15.v8",
+  "listings": 53,
+  "camera_witnesses": 10,
+  "v7_meshes_changed": [
+    "cb:tail-return",
+    "cb:next-fold"
+  ],
+  "remaining_v7_meshes_unchanged": 45,
+  "v7_export_preserved": true,
+  "same_R_source": true,
+  "finite_indices_valid": true,
+  "stable_aperture_interference": false,
+  "upper_loop_departure_interference": true,
+  "return_join_certified": false,
+  "acquisition_delta": 0,
+  "geometry_witness_sha256": "829d4a8d32b61a66945c34ef5c969263cb55b6d298481a3beb5e9cb7f0f6609b"
+}

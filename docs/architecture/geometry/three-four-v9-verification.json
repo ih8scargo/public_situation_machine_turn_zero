@@ -1,0 +1,42 @@
+{
+  "contract": "geometry-table-2026-11-15.v9",
+  "listings": 58,
+  "v8_source_meshes_preserved": 53,
+  "material_cursor_witnesses": 15,
+  "finite_indices_valid": true,
+  "ceiling_before_tunnel": "candidate reference incidences 90 then 270 degrees",
+  "physical_incidence": "yellow",
+  "named_interference_pairs_clear": true,
+  "physical_join": false,
+  "lawful_passage": false,
+  "acquired_turns": 0,
+  "mix_precommit": {
+    "tests": 331,
+    "failures": 0,
+    "skipped": 1
+  },
+  "browser": {
+    "oneRSource": "6eca2a2ba1cae1a5ab052e8c8c0a1606f7d2104015133c7bffaca2111652ed6c",
+    "standingDigestUnchanged": true,
+    "stageDoorChangesDepthNotHeight": true,
+    "flatAt90": "edge_on",
+    "rInstances": 1,
+    "stitchingAcquired": false,
+    "selectionSurvivesLayers": true,
+    "wedgeInterferenceDisclosed": true,
+    "referenceRestoredAfterReload": true,
+    "seatGallery": true,
+    "sevenCourseStages": true,
+    "underSeatFlatSideTunneling": true,
+    "nextPinningFlat": true,
+    "ceilingBeforeTunnel": true,
+    "refashioningPreservesProtectedStanding": true,
+    "projectionPreservesMaterialSource": true,
+    "conditionalProposalAcquiresNothing": true,
+    "acquisitionDelta": 0,
+    "legacyRetained": true,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "geometry_witness_sha256": "050c87f79d024ab8c83d3575eb2d574bda3b8a8afb1bb13bd834d7a1f7e67e42"
+}

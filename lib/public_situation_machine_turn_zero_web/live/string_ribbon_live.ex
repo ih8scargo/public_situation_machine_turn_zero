@@ -12,12 +12,74 @@ defmodule PublicSituationMachineTurnZeroWeb.StringRibbonLive do
       {:ok,
        assign(socket,
          state: StringRibbon.new(),
+         janusite: PublicSituationMachineTurnZero.Workshop.JanusiteInheritance.new(),
+         cubical: PublicSituationMachineTurnZero.Workshop.CubicalConstruction.new(),
          bench: MaterialRibbon.new(),
          exploration: PublicSituationMachineTurnZero.Workshop.GeometryExploration.new(),
          error: nil,
          selected: "table",
          motor: PublicSituationMachineTurnZero.Workshop.PairedMotor.new()
        )}
+
+  def handle_event("cubical-inspect", %{"kind" => kind, "revision" => revision} = p, socket) do
+    command =
+      case kind do
+        "facet" ->
+          {:facet, p["choice"]}
+
+        "orbit" ->
+          case Integer.parse(p["choice"] || "") do
+            {n, ""} -> {:orbit, n}
+            _ -> :unsupported
+          end
+
+        "select" ->
+          {:select, p["choice"]}
+
+        "materials" ->
+          :materials
+
+        "comparison" ->
+          {:comparison, p["choice"]}
+
+        _ ->
+          :unsupported
+      end
+
+    cubical(socket, revision, command)
+  end
+
+  def handle_event("cubical-select", %{"cubical" => p}, socket),
+    do: cubical(socket, p["revision"], {:select, p["component"]})
+
+  def handle_event("janusite-inspect", %{"kind" => kind, "choice" => v, "revision" => r}, socket) do
+    command =
+      case kind do
+        "mode" ->
+          {:mode, v}
+
+        "view" ->
+          {:view, v}
+
+        "footing" ->
+          {:footing, v}
+
+        "toggle" ->
+          {:toggle,
+           Map.get(
+             %{"stitches" => :stitches?, "loops" => :loops?, "fixture" => :hypothetical?},
+             v
+           )}
+
+        _ ->
+          :unsupported
+      end
+
+    janusite(socket, r, command)
+  end
+
+  def handle_event("janusite-author", %{"janusite" => p}, socket),
+    do: janusite(socket, p["revision"], {:text, p["text"]})
 
   def handle_event(
         "explore-staging",
@@ -241,6 +303,44 @@ defmodule PublicSituationMachineTurnZeroWeb.StringRibbonLive do
 
   def handle_event(_, _, socket), do: {:noreply, socket}
 
+  defp cubical(socket, r, command) do
+    with {revision, ""} <- Integer.parse(r || ""),
+         {:ok, state} <-
+           PublicSituationMachineTurnZero.Workshop.CubicalConstruction.change(
+             socket.assigns.cubical,
+             revision,
+             command
+           ) do
+      {:noreply, assign(socket, cubical: state)}
+    else
+      _ ->
+        {:noreply,
+         assign(socket,
+           cubical: %{
+             socket.assigns.cubical
+             | notice: "Inspection unavailable or stale; geometry and acquisition unchanged."
+           }
+         )}
+    end
+  end
+
+  defp janusite(socket, r, command) do
+    with {rev, ""} <- Integer.parse(r || ""),
+         true <- rev == socket.assigns.exploration.revision,
+         {:ok, state} <-
+           PublicSituationMachineTurnZero.Workshop.JanusiteInheritance.change(
+             socket.assigns.janusite,
+             command
+           ) do
+      exploration = %{socket.assigns.exploration | revision: rev + 1}
+      {:noreply, assign(socket, janusite: state, exploration: exploration)}
+    else
+      _ ->
+        {:noreply,
+         assign(socket, error: "JANUSITE inspection unavailable or stale. No acquisition.")}
+    end
+  end
+
   defp explore(socket, revision, command) do
     with {r, ""} <- Integer.parse(revision || ""),
          {:ok, state} <-
@@ -337,6 +437,14 @@ defmodule PublicSituationMachineTurnZeroWeb.StringRibbonLive do
         <div class="sr-standing">
           <span class="sr-status-dot"></span><span>Human seated FROM HERE · fixed monitor · Table seated · SIX-extent base</span><strong>REHEARSAL / NO ACQUISITION</strong>
         </div>
+        <PublicSituationMachineTurnZeroWeb.CubicalConstructionPanel.panel
+          state={@cubical}
+          janusite={@janusite}
+        />
+        <PublicSituationMachineTurnZeroWeb.JanusiteInheritancePanel.panel
+          state={@janusite}
+          revision={@exploration.revision}
+        />
         <PublicSituationMachineTurnZeroWeb.GeometryExplorationPanel.panel state={@exploration} />
         <PublicSituationMachineTurnZeroWeb.MaterialRibbonPanel.panel
           bench={@bench}

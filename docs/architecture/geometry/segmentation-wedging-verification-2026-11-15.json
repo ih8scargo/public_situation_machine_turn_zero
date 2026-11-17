@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-15",
+  "scope": "inspection and alternatives; no production geometry edits",
+  "source_contract": "geometry-table-2026-11-15.v6",
+  "diagnostic_world_hash": "b86a357b8aa827e93b8aa65447ebd1d3bb3c26efe25446ce2f568bd43bf2c5b2",
+  "precommit": {
+    "tests": 310,
+    "failures": 0,
+    "skips": 1
+  },
+  "browser": {
+    "sourceGeometryInvariant": true,
+    "parkAndReturn": true,
+    "viewThetaIndependentOfArmPhi": true,
+    "hitCounts": [
+      2,
+      1,
+      0
+    ],
+    "operativeAppointment": null,
+    "index": 0,
+    "craftReceipt": null,
+    "curvedLetterLookup": true,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "preservation": {
+    "existing_files_checked": 760,
+    "mismatches": [],
+    "commissions_byte_preserved": true
+  },
+  "extractor_assertions": "passed: fixed frame/index/next cursor, orthogonal reference basis, native handedness, matched candidate hit counts, retained mounting above Table",
+  "next_implementation": "recommended only; not performed"
+}

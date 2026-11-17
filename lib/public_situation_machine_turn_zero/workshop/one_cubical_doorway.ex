@@ -1,0 +1,829 @@
+defmodule PublicSituationMachineTurnZero.Workshop.OneCubicalDoorway do
+  @moduledoc "Finite Table-furnished doorway candidate. Unit letter carriers, corresponding passages and separately registered computers; no constitutional acquisition."
+  alias PublicSituationMachineTurnZero.Workshop.{
+    RoomRibbon,
+    CoBuildingGeometry,
+    CoBuilding,
+    MaterialRibbon,
+    RoomToyBox
+  }
+
+  alias CoBuildingGeometry, as: G
+  alias MaterialRibbon, as: M
+  @letters ~w(R O1 O2 M)
+  @route [[3.0, 5.02, -4.2], [5.6, 5.02, -4.2], [5.6, 5.02, -2.05]]
+  @legacy ~w(cb:stage-door room:R room:M room:ribbon room:r-wall room:inner-u room:outer-u room:within-u)
+  def contract, do: "one-cubical-doorway-2026-11-17.v13"
+  def new, do: %{layer: "candidate", phase: "idle", index: 0, progress: 0.0, completed: []}
+  def letters, do: @letters
+  def route, do: @route
+  def parking("R"), do: [3, 5.02, -2.65]
+  def parking("O1"), do: [2.1, 3.4, -0.1]
+  def parking("O2"), do: [3.3, 3.4, -0.1]
+  def parking("M"), do: [4.5, 3.4, -0.1]
+  def offload("R"), do: [List.last(@route), [3.9, 5.02, -2.05], [3.9, 5.02, -2.65], parking("R")]
+
+  def offload(id),
+    do: [
+      List.last(@route),
+      [4.2, 5.02, -2.05],
+      [4.2, 5.02, -0.1],
+      [Enum.at(parking(id), 0), 5.02, -0.1],
+      parking(id)
+    ]
+
+  def change(s, {:layer, l}) when l in ~w(candidate legacy), do: {:ok, %{s | layer: l}}
+  def change(%{index: 4}, _), do: {:error, :letters_complete}
+  def change(%{phase: "idle"} = s, :trace), do: {:ok, %{s | phase: "traced", layer: "candidate"}}
+  def change(%{phase: "traced"} = s, :select), do: {:ok, %{s | phase: "selected"}}
+  def change(%{phase: "selected"} = s, :place), do: {:ok, %{s | phase: "placed", progress: 0.0}}
+  def change(%{phase: "placed"} = s, :open), do: {:ok, %{s | phase: "open"}}
+
+  def change(%{phase: phase} = s, {:progress, t})
+      when phase in ~w(open passing) and is_number(t) and t >= 0 and t <= 1 do
+    if t >= s.progress,
+      do: {:ok, %{s | phase: if(t == 1, do: "passed", else: "passing"), progress: t}},
+      else: {:error, :passage_progress_cannot_reverse}
+  end
+
+  def change(%{phase: "passed"} = s, :needle),
+    do: {:ok, %{s | phase: "offloading", progress: 0.0}}
+
+  def change(%{phase: "offloading"} = s, {:progress, t})
+      when is_number(t) and t >= 0 and t <= 1 do
+    cond do
+      t < s.progress ->
+        {:error, :passage_progress_cannot_reverse}
+
+      t == 1 ->
+        {:ok,
+         %{
+           s
+           | index: s.index + 1,
+             phase: "idle",
+             progress: 0.0,
+             completed: s.completed ++ [Enum.at(@letters, s.index)]
+         }}
+
+      true ->
+        {:ok, %{s | progress: t}}
+    end
+  end
+
+  def change(_, _), do: {:error, :letter_predecessor_required}
+
+  def along(points, t) do
+    lengths = Enum.zip(points, tl(points)) |> Enum.map(fn {a, b} -> M.distance(a, b) end)
+    target = Enum.sum(lengths) * t
+
+    Enum.zip([points, tl(points), lengths])
+    |> Enum.reduce_while(target, fn {a, b, l}, remaining ->
+      if remaining <= l,
+        do: {:halt, M.add(a, M.scale(M.sub(b, a), remaining / l))},
+        else: {:cont, remaining - l}
+    end)
+    |> case do
+      p when is_list(p) -> p
+      _ -> List.last(points)
+    end
+  end
+
+  def unit_box(center), do: G.box(M.sub(center, [0.5, 0.5, 0.5]), M.add(center, [0.5, 0.5, 0.5]))
+  defp box(a, b), do: G.box(a, b)
+
+  defp join(meshes),
+    do:
+      G.mesh(Enum.flat_map(meshes, & &1.faces))
+      |> Map.put(:cells, Enum.flat_map(meshes, &Map.get(&1, :cells, [&1])))
+
+  defp source_piece(id, name, mesh, office, evidence) do
+    %{
+      id: id,
+      name: name,
+      source_identity: id,
+      source_geometry: mesh,
+      geometry: mesh,
+      content_hash: CoBuilding.digest(%{identity: id, mesh: mesh}),
+      material_office: office,
+      standing_locality: %{frame: :v11_world, bounds: RoomToyBox.bounds(mesh)},
+      bearing: Map.get(evidence, :axis, :registered_candidate),
+      attachment: :finite_candidate_not_PITTONING,
+      inheritance: ["THREE / fixed Seat ONE / square axle / v11 sources"],
+      affordment: :material_inspection_and_rehearsal,
+      regarding: :source_identical,
+      status: :finite_candidate_unacquired,
+      evidence: evidence,
+      yellow: [:load_and_constitutional_acceptance],
+      movement: "room",
+      lines: [],
+      render_layer: :candidate
+    }
+  end
+
+  defp ring_frame(center, axis, opening, thickness) do
+    [x, y, z] = center
+    h = opening / 2
+    t = thickness
+
+    cubes =
+      if axis == "X",
+        do: [
+          box([x - t, y - h - t, z - h - t], [x + t, y - h, z + h + t]),
+          box([x - t, y + h, z - h - t], [x + t, y + h + t, z + h + t]),
+          box([x - t, y - h, z - h - t], [x + t, y + h, z - h]),
+          box([x - t, y - h, z + h], [x + t, y + h, z + h + t])
+        ],
+        else: [
+          box([x - h - t, y - h - t, z - t], [x + h + t, y - h, z + t]),
+          box([x - h - t, y + h, z - t], [x + h + t, y + h + t, z + t]),
+          box([x - h - t, y - h, z - t], [x - h, y + h, z + t]),
+          box([x + h, y - h, z - t], [x + h + t, y + h, z + t])
+        ]
+
+    join(cubes)
+  end
+
+  defp cabinet(lo, hi, front) do
+    [x, y, z] = lo
+    [u, v, w] = hi
+    t = 0.04
+
+    faces = [
+      box([x, y, z], [x + t, v, w]),
+      box([u - t, y, z], [u, v, w]),
+      box([x + t, y, z], [u - t, y + t, w]),
+      box([x + t, v - t, z], [u - t, v, w])
+    ]
+
+    back =
+      if front == "-Z",
+        do: box([x + t, y + t, w - t], [u - t, v - t, w]),
+        else: box([x + t, y + t, z], [u - t, v - t, z + t])
+
+    join(faces ++ [back])
+  end
+
+  defp planar_sweep(path, width, thickness, normal) do
+    true = Enum.all?(path, &(length(&1) == 3))
+
+    sections =
+      Enum.map(G.frames(path), fn f ->
+        across = M.unit(M.cross(normal, f.tangent))
+
+        for {w, t} <- [
+              {-width / 2, -thickness / 2},
+              {width / 2, -thickness / 2},
+              {width / 2, thickness / 2},
+              {-width / 2, thickness / 2}
+            ],
+            do: M.add(f.point, M.add(M.scale(across, w), M.scale(normal, t)))
+      end)
+
+    cells =
+      for [a, b] <- Enum.chunk_every(sections, 2, 1, :discard) do
+        vertices = a ++ b
+
+        G.mesh(
+          for ids <- [
+                [0, 3, 2, 1],
+                [4, 5, 6, 7],
+                [0, 1, 5, 4],
+                [1, 2, 6, 5],
+                [2, 3, 7, 6],
+                [3, 0, 4, 7]
+              ],
+              do: Enum.map(ids, &Enum.at(vertices, &1))
+        )
+      end
+
+    join(cells) |> Map.put(:sections, sections) |> Map.put(:source_course, path)
+  end
+
+  defp arch(radius) do
+    curve =
+      Enum.map(1..32, fn i ->
+        a = :math.pi() - i * :math.pi() / 32
+        [5.6 + radius * :math.cos(a), 5.02 + radius * :math.sin(a), -2.65]
+      end)
+
+    path =
+      [[5.6 - radius, 3.02, -2.65], [5.6 - radius, 5.02, -2.65]] ++
+        curve ++ [[5.6 + radius, 3.02, -2.65]]
+
+    planar_sweep(path, 0.04, 0.04, [0, 0, 1])
+  end
+
+  defp corridor do
+    # Boundary of the L-shaped union; no hidden wall at its internal corner.
+    floor = [box([3.65, 4.36, -4.8], [6.2, 4.42, -3.6]), box([5, 4.36, -3.6], [6.2, 4.42, -2.05])]
+    roof = Enum.map(floor, &G.translate(&1, [0, 1.26, 0]))
+
+    walls = [
+      box([3.65, 4.42, -4.86], [6.26, 5.62, -4.8]),
+      box([6.2, 4.42, -4.8], [6.26, 5.62, -2.05]),
+      box([3.65, 4.42, -3.6], [5, 5.62, -3.54]),
+      box([4.94, 4.42, -3.6], [5, 5.62, -2.65])
+    ]
+
+    join(floor ++ roof ++ walls)
+  end
+
+  defp letter_mesh(base, id) do
+    h = 0.5
+    t = 0.02
+
+    bars =
+      for(y <- [-h, h - t], z <- [-h, h - t], do: box([-h, y, z], [h, y + t, z + t])) ++
+        for(x <- [-h, h - t], z <- [-h, h - t], do: box([x, -h, z], [x + t, h, z + t])) ++
+        for(x <- [-h, h - t], y <- [-h, h - t], do: box([x, y, -h], [x + t, y + t, h])) ++
+        [box([-h, -0.015, -0.5], [h, 0.015, -0.47]), box([-h, -0.015, 0.47], [h, 0.015, 0.5])]
+
+    glyph =
+      cond do
+        id in ~w(R M) ->
+          source =
+            Enum.find(base.pieces, &(&1.id == if(id == "R", do: "room:R", else: "room:M"))).source_geometry
+
+          c = G.centroid(source.vertices)
+          G.translate(source, M.sub([0, 0, -0.48], c))
+
+        true ->
+          path =
+            for i <- 0..32 do
+              a = i * 2 * :math.pi() / 32
+              [0.3 * :math.cos(a), 0.3 * :math.sin(a), -0.48]
+            end
+
+          planar_sweep(path, 0.025, 0.012, [0, 0, 1])
+      end
+
+    join(bars ++ [glyph])
+  end
+
+  def leaf_pose(mesh, degrees) do
+    origin = [3.65, 5.02, -4.78]
+
+    G.transform(mesh, fn p ->
+      M.add(origin, RoomRibbon.rotate(M.sub(p, origin), [0, 1, 0], degrees * :math.pi() / 180))
+    end)
+  end
+
+  def model(base, state) do
+    rtc = cabinet([4.7, 0.9, -2.4], [5.5, 1.7, -1.6], "-Z")
+    # Roof/floor channels retain the fixed axle and inherited ZERO-to-ONE leverage.
+    ptc =
+      join([
+        box([2.6, 0.12, -3.4], [2.64, 0.85, -2.6]),
+        box([3.36, 0.12, -3.4], [3.4, 0.85, -2.6]),
+        box([2.64, 0.16, -3.4], [3.36, 0.81, -3.36]),
+        box([2.64, 0.12, -3.36], [2.90, 0.16, -2.6]),
+        box([3.10, 0.12, -3.36], [3.36, 0.16, -2.6]),
+        box([2.90, 0.12, -3.36], [3.10, 0.16, -3.10]),
+        box([2.90, 0.12, -2.90], [3.10, 0.16, -2.6]),
+        box([2.64, 0.81, -3.36], [2.86, 0.85, -2.6]),
+        box([3.14, 0.81, -3.36], [3.36, 0.85, -2.6]),
+        box([2.86, 0.81, -3.36], [3.14, 0.85, -3.14])
+      ])
+
+    mounts =
+      join(
+        for(
+          x <- [2.68, 3.28],
+          z <- [-3.30, -2.72],
+          do: box([x, 0.85, z], [x + 0.04, 1.04, z + 0.04])
+        ) ++
+          [
+            box([5.06, 1.7, -1.74], [5.14, 2.98, -1.66]),
+            box([4.75, 0, -1.75], [4.83, 0.9, -1.67]),
+            box([5.37, 0, -1.75], [5.45, 0.9, -1.67])
+          ]
+      )
+
+    plate = box([5.45, 2.98, -4.15], [6.55, 3.02, -3.0])
+
+    support =
+      join([
+        box([5.48, 0, -4.10], [5.56, 2.98, -4.02]),
+        box([6.44, 0, -4.10], [6.52, 2.98, -4.02])
+      ])
+
+    cob = unit_box([6, 3.52, -3.6])
+
+    brace =
+      join([
+        planar_sweep([[6.5, 3.52, -3.6], [6.6, 3.52, -2.65], [6.4, 3.52, -2.65]], 0.04, 0.04, [
+          0,
+          1,
+          0
+        ]),
+        box([6.35, 3.47, -2.7], [6.45, 3.57, -2.6])
+      ])
+
+    inner = arch(0.8)
+    outer = arch(0.9)
+
+    transverse =
+      join([
+        G.strap([5.2, 5.97, -3.05], [5.8, 5.97, -2.45], 0.04, 0.02, [0, 1, 0]),
+        G.strap([5.6, 5.92, -2.65], [5.5, 5.97, -2.75], 0.04, 0.02, [0, 1, 0])
+      ])
+
+    wall =
+      join([
+        box([2.94, 0, -2.01], [3.06, 1.2, -1.99]),
+        box([2.94, 3.1, -2.01], [3.06, 6, -1.99]),
+        box([2.26, 1.14, -2.04], [3.74, 1.2, -1.96]),
+        box([2.26, 3.1, -2.04], [3.74, 3.16, -1.96]),
+        box([2.26, 1.2, -2.04], [2.32, 3.1, -1.96]),
+        box([3.68, 1.2, -2.04], [3.74, 3.1, -1.96])
+      ])
+
+    head = box([2.94, 4.94, -2.17], [3.06, 5.10, -1.98])
+    [a, b] = base.body_bearing.endpoints
+    t = M.unit(M.sub(b, a))
+    q = M.add(a, M.scale(t, M.dot(M.sub(base.three, a), t)))
+    crossing = G.strap([5.2, 3.02, -2], q, 0.06, 0.04, [0, 0, 1])
+
+    channel =
+      G.sweep([[3.4, 0.25, -3.1], [4.4, 0.25, -3.1], [4.4, 0.25, -2], [4.7, 1.3, -2]], 0.04, 0.02)
+
+    shelf =
+      join([
+        box([1.55, 2.86, -0.4], [5.05, 2.9, 0.45]),
+        box([1.55, 2.86, -0.65], [3.75, 2.9, -0.4]),
+        box([4.35, 2.86, -0.65], [5.05, 2.9, -0.4]),
+        box([1.57, 0, 0.3], [1.65, 2.86, 0.38]),
+        box([4.95, 0, 0.3], [5.03, 2.86, 0.38])
+      ])
+
+    frame = ring_frame([3.65, 5.02, -4.2], "X", 1.2, 0.04)
+    leaf_source = box([3.64, 4.44, -4.78], [3.66, 5.60, -3.62])
+
+    leaf =
+      if state.phase in ~w(open passing passed offloading),
+        do: leaf_pose(leaf_source, 90),
+        else: leaf_source
+
+    items = [
+      {"receiving-side-port", "Table receiving / offload aperture",
+       ring_frame([4.94, 5.02, -2.05], "X", 1.2, 0.04),
+       "finite transverse exit after the receiving arch",
+       %{centre: [4.94, 5.02, -2.05], axis: [1, 0, 0], opening: [1.2, 1.2]}},
+      {"stage-hinge", "Stage Door hinge purchase", box([3.61, 4.98, -4.84], [3.69, 5.06, -4.77]),
+       "fixed hinge registration; leaf opens into clear corridor",
+       %{axis: [0, 1, 0], origin: [3.65, 5.02, -4.78]}},
+      {"cob", "COB · ONE CUBICAL UP FROM OUT OF Table", cob,
+       "canonical one-unit material standing",
+       %{
+         dimensions: [1, 1, 1],
+         bottom: [6, 3.02, -3.6],
+         Table_local_offset: [0, 0.02, -1.6],
+         tiny_cursor_substituted: false
+       }},
+      {"table-outrigger", "Table-furnished rear working surface", plate,
+       "Candidate B extension; THREE remains unchanged",
+       %{surface_y: 3.02, dimensions: [1.1, 0.04, 1.15]}},
+      {"table-supports", "Table extension supports", support,
+       "finite support below furnished working surface", %{}},
+      {"real-tc", "Real Terrestrial Computer · UNDER Table", rtc,
+       "distinct candidate hardware body UNDER Table",
+       %{
+         dimensions: [0.8, 0.8, 0.8],
+         front_normal: [0, 0, -1],
+         opening: :front_service_face,
+         axis: [0, 1, 0]
+       }},
+      {"pretend-tc", "Pretend Terrestrial Computer · UNDER Seat", ptc,
+       "distinct cabinet around fixed square axle",
+       %{
+         dimensions: [0.8, 0.73, 0.8],
+         front_normal: [0, 0, 1],
+         axle_bore: [0.20, 0.20],
+         roof_leverage_slot: [0.28, 0.54]
+       }},
+      {"computer-mounts", "Computer attachments", mounts,
+       "Seat and Table physical mounting candidates", %{}},
+      {"paired-channel", "Paired computer registration channel", channel,
+       "finite non-optical correspondence with ZERO/ONE/THREE", %{optical_transfer: :unproved}},
+      {"inner-u", "Inner U · curved receiving arch", inner,
+       "curved aperture around ONE-unit passage",
+       %{radius: 0.8, section: [0.04, 0.04], plane_normal: [0, 0, 1], centre: [5.6, 5.02, -2.65]}},
+      {"outer-u", "Outer U · Table-furnished structural rail", outer,
+       "outer structural arch with Table feet", %{radius: 0.9, section: [0.04, 0.04]}},
+      {"transverse-u", "U within U · transverse bearing", transverse,
+       "invariant 45-degree receiving-course bearing",
+       %{direction: M.unit([1, 0, 1]), course: [0, 0, 1], angle_degrees: 45}},
+      {"cob-brace", "COB purchase-to-doorway brace", brace,
+       "material correspondence from one-CUBICAL body to receiving arch", %{}},
+      {"corridor", "Correspondencing material passage", corridor(),
+       "finite L passage; two registered physical aperture localities",
+       %{clear_section: [1.2, 1.2], floor_y: 4.42, ceiling_y: 5.5, wall: 0.06, route: @route}},
+      {"stage-frame", "Situationing Stage Door · unit passage", frame,
+       "one letter at a time; distinct from fixed monitor",
+       %{
+         centre: [3.65, 5.02, -4.2],
+         axis: [1, 0, 0],
+         opening: [1.2, 1.2],
+         gallery_transform: :rigid_placement_not_optical_coincidence
+       }},
+      {"stage-leaf", "Stage Door finite leaf", leaf_source,
+       "pivoting candidate leaf; letters do not move when it pivots",
+       %{hinge: %{origin: [3.65, 5.02, -4.78], axis: [0, 1, 0]}}},
+      {"r-wall", "R-held SIX-height wall with receiving port", wall,
+       "full-height bearing retained around finite receiving opening",
+       %{
+         height: 6,
+         original_axis: [3, 0, -2],
+         opening: %{x: [2.32, 3.68], y: [1.2, 3.1]},
+         source: "room:r-wall",
+         moved_axis: false
+       }},
+      {"r-head-clamp", "R / Head of String receiving clamp", head,
+       "one-unit R carrier attaches to full SIX-height wall",
+       %{load: :unproved, accepted_PITTONING: false}},
+      {"crossing-link", "Table rim TO body-bearing purchase", crossing,
+       "finite connector; no collinearity assumption",
+       %{
+         rim: [5.2, 3.02, -2],
+         body_purchase: q,
+         Table_centre_residual: M.norm(M.sub(q, base.three))
+       }},
+      {"offload-shelf", "Letter material-offload shelf", shelf,
+       "separate candidate material standing; no constitutional acquisition", %{top_y: 2.9}}
+    ]
+
+    pieces =
+      Enum.map(items, fn {id, name, mesh, office, evidence} ->
+        source_piece("doorway:" <> id, name, mesh, office, evidence)
+      end)
+      |> Enum.map(fn p ->
+        if p.id == "doorway:stage-leaf" do
+          opened = state.phase in ~w(open passing passed offloading)
+
+          %{
+            p
+            | geometry: leaf,
+              standing_locality: %{frame: :v11_world, bounds: RoomToyBox.bounds(leaf)},
+              bearing: %{
+                source_normal: [1, 0, 0],
+                normal: if(opened, do: [0, 0, -1], else: [1, 0, 0]),
+                axis: [0, 1, 0],
+                degrees: if(opened, do: 90, else: 0)
+              }
+          }
+        else
+          p
+        end
+      end)
+
+    letters =
+      Enum.with_index(@letters)
+      |> Enum.map(fn {id, i} ->
+        source = letter_mesh(base, id)
+
+        position =
+          cond do
+            id in state.completed ->
+              parking(id)
+
+            i == state.index and state.phase == "offloading" ->
+              along(offload(id), state.progress)
+
+            i == state.index and state.phase in ~w(open passing passed) ->
+              along(@route, state.progress)
+
+            true ->
+              hd(@route)
+          end
+
+        p =
+          source_piece(
+            "doorway:letter-" <> id,
+            "ONE-CUBICAL letter · " <> id,
+            source,
+            "unit letter extent with unscaled source inscription",
+            %{
+              letter: id,
+              dimensions: [1, 1, 1],
+              extent_basis: :finite_material_carrier,
+              inscription_scaled: false,
+              original_source: Enum.find(base.authoring.sources, &(&1.id == id)).source,
+              source_frame: :unit_letter_local,
+              position: position,
+              stitching: :conditional_Doll_Needle_appointment_only
+            }
+          )
+
+        Map.merge(p, %{
+          geometry: G.translate(source, position),
+          standing_locality: %{
+            frame: :v11_world,
+            bounds: RoomToyBox.bounds(G.translate(source, position)),
+            source_frame: :unit_letter_local,
+            source_bounds: RoomToyBox.bounds(source),
+            translation: position
+          },
+          bearing: %{
+            origin: position,
+            front_normal: [0, 0, -1],
+            linear_transform: [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+          },
+          active_letter:
+            id in state.completed or
+              (i == state.index and state.phase in ~w(placed open passing passed offloading))
+        })
+      end)
+
+    %{
+      contract: contract(),
+      state: state,
+      pieces: pieces ++ letters,
+      route: @route,
+      table: %{
+        locality: base.three,
+        principal_radius: 1.5,
+        principal_thickness: 0.04,
+        principal_surface_y: 3.02,
+        pivot: %{origin: base.three, axis: [0, 1, 0]},
+        candidate: "B",
+        COB_extent: [1, 1, 1],
+        COB_appointed_surface: [6, 3.02, -3.6]
+      },
+      correspondence: %{
+        ZERO_ONE: base.zero_one,
+        TWO: base.two,
+        THREE: base.three,
+        monitor: "cb:monitor fixed",
+        body_bearing: base.body_bearing.endpoints,
+        receiving: [5.6, 5.02, -2.65],
+        SIXTH_EIGHTH: :source_material_seam_not_yet_identified
+      },
+      alternatives: %{
+        table_A: %{COB: unit_box([6, 3.52, -2]), reason: :test_current_U_and_ribbon_interference},
+        table_B: %{
+          selected: true,
+          reason:
+            "unit COB stands on Table-furnished rear surface; upper material passage clears existing standing"
+        },
+        door_A: %{
+          unit_at_monitor: unit_box([3, 2.4, -1.035]),
+          reason: :test_filled_monitor_and_inner_surface
+        },
+        door_B: %{
+          selected: true,
+          reason:
+            "separate Stage/receiving localities connected by finite corridor; monitor remains fixed"
+        }
+      },
+      protected: %{
+        acquired_delta: 0,
+        PITTONING: :not_accepted,
+        PUFFING: :not_performed,
+        RE_STEP: :not_performed,
+        Needle: :Doll_appointment_rehearsal_not_actual_stitching
+      },
+      legacy_conflicts: @legacy
+    }
+  end
+
+  # Unit-length axes make the tolerance a length, independent of tiny rail-face areas.
+  # Historical helpers and witnesses remain unchanged.
+  def interferes?(a, b) do
+    overlap = fn x, y ->
+      Enum.all?(0..2, fn i ->
+        {lo, hi} = Enum.map(x.vertices, &Enum.at(&1, i)) |> Enum.min_max()
+        {u, v} = Enum.map(y.vertices, &Enum.at(&1, i)) |> Enum.min_max()
+        min(hi, v) - max(lo, u) > 1.0e-8
+      end)
+    end
+
+    overlap.(a, b) and
+      Enum.any?(Map.get(a, :cells, [a]), fn x ->
+        Enum.any?(Map.get(b, :cells, [b]), fn y ->
+          overlap.(x, y) and convex_interference?(x, y)
+        end)
+      end)
+  end
+
+  defp convex_interference?(a, b) do
+    edges = fn mesh ->
+      mesh.faces
+      |> Enum.flat_map(fn face ->
+        Enum.zip(face, tl(face) ++ [hd(face)]) |> Enum.map(fn {x, y} -> M.sub(y, x) end)
+      end)
+      |> unit_axes()
+    end
+
+    normals = fn mesh ->
+      Enum.map(mesh.faces, fn [x, y, z | _] -> M.cross(M.sub(y, x), M.sub(z, x)) end)
+    end
+
+    axes = normals.(a) ++ normals.(b) ++ for x <- edges.(a), y <- edges.(b), do: M.cross(x, y)
+
+    unit_axes(axes)
+    |> Enum.all?(fn axis ->
+      {lo, hi} = Enum.map(a.vertices, &M.dot(&1, axis)) |> Enum.min_max()
+      {u, v} = Enum.map(b.vertices, &M.dot(&1, axis)) |> Enum.min_max()
+      min(hi, v) - max(lo, u) > 1.0e-8
+    end)
+  end
+
+  defp unit_axes(vectors) do
+    vectors
+    |> Enum.filter(&(M.norm(&1) > 1.0e-12))
+    |> Enum.map(fn v ->
+      n = M.unit(v)
+      first = Enum.find(n, &(abs(&1) > 1.0e-10)) || 1
+      if first < 0, do: M.scale(n, -1), else: n
+    end)
+    |> Enum.uniq_by(fn n -> Enum.map(n, &Float.round(&1 * 1.0, 10)) end)
+  end
+
+  def measurements(m) do
+    d = m.doorway
+    get = fn id -> Enum.find(m.pieces, &(&1.id == id)) end
+    # Alternative compact hardware is not installed in this preserved port trial.
+    # Its own fixed-scene clearance proof lives in OpeningSliceProjection.
+    base =
+      Enum.reject(m.pieces, fn p ->
+        String.starts_with?(p.id, "doorway:") or
+          Map.get(p, :candidate_family) == :opening_slice
+      end)
+
+    fixed = Enum.filter(base, &(&1.geometry.vertices != [] and &1.id not in @legacy))
+
+    stationary =
+      Enum.filter(
+        d.pieces,
+        &(&1.id != "doorway:stage-leaf" and not String.starts_with?(&1.id, "doorway:letter-"))
+      )
+
+    leaf_source = get.("doorway:stage-leaf").source_geometry
+    obstacles = fixed ++ stationary ++ [%{id: "open-leaf", geometry: leaf_pose(leaf_source, 90)}]
+
+    legs = fn path, ignore, parked ->
+      Enum.zip(path, tl(path))
+      |> Enum.map(fn {a, b} ->
+        volume = unit_sweep(a, b)
+
+        %{
+          from: a,
+          toward: b,
+          swept_bounds: RoomToyBox.bounds(volume),
+          intersections:
+            for(
+              p <- obstacles ++ parked,
+              p.id not in ignore,
+              interferes?(volume, p.geometry),
+              do: p.id
+            )
+        }
+      end)
+    end
+
+    offloads =
+      Enum.with_index(@letters)
+      |> Map.new(fn {letter, index} ->
+        parked =
+          Enum.take(@letters, index)
+          |> Enum.map(&%{id: "completed:" <> &1, geometry: unit_box(parking(&1))})
+
+        {letter,
+         legs.(offload(letter), ["doorway:offload-shelf", "doorway:r-head-clamp"], parked)}
+      end)
+
+    leaf_envelope = box([3.64, 4.44, -4.79], [4.811, 5.60, -3.61])
+    collision = fn a, b -> interferes?(get.(a).geometry, get.(b).geometry) end
+
+    %{
+      route: legs.(@route, [], []),
+      offloads: offloads,
+      proof:
+        "exact Minkowski unit-cube swept boxes for every axis-aligned translation leg; not centreline or sampled clearance",
+      closed_leaf_blocks_unit: interferes?(unit_box([3.65, 5.02, -4.2]), leaf_source),
+      leaf_swing: %{
+        interval_degrees: [0, 90],
+        conservative_envelope: leaf_envelope,
+        bound_basis: "dx +/- .01, dz 0..1.16; radius sqrt(1.16^2+.01^2) < 1.161",
+        envelope_intersections:
+          for(
+            p <- obstacles,
+            p.id not in ~w(open-leaf doorway:stage-hinge),
+            interferes?(leaf_envelope, p.geometry),
+            do: p.id
+          ),
+        staging_letter_interference: interferes?(unit_box(hd(@route)), leaf_envelope)
+      },
+      original_R_U_interference:
+        Map.new(~w(room:r-wall room:inner-u room:within-u), fn id ->
+          {id, interferes?(m.ribbon.geometry, get.(id).source_geometry)}
+        end),
+      rectangular_aperture_offices: ~w(doorway:stage-frame doorway:receiving-side-port),
+      normalized_SAT_tolerance: 1.0e-8,
+      old_ribbon_new_ports:
+        Map.new(~w(r-wall inner-u transverse-u), fn name ->
+          {name, interferes?(m.ribbon.geometry, get.("doorway:" <> name).geometry)}
+        end),
+      old_ribbon_new_stationary_intersections:
+        for(p <- stationary, interferes?(m.ribbon.geometry, p.geometry), do: p.id),
+      paired_computers: %{
+        pretend_axle_interference: collision.("doorway:pretend-tc", "cb:square-axle"),
+        pretend_leverage_interference: collision.("doorway:pretend-tc", "cb:leverage"),
+        real_fixed_intersections:
+          for(p <- fixed, interferes?(get.("doorway:real-tc").geometry, p.geometry), do: p.id),
+        axle_side_clearance: (0.20 - 0.12) / 2
+      },
+      intended_material_contacts: %{
+        R_carrier_to_head:
+          interferes?(
+            G.translate(get.("doorway:letter-R").source_geometry, parking("R")),
+            get.("doorway:r-head-clamp").geometry
+          ),
+        head_to_wall: collision.("doorway:r-head-clamp", "doorway:r-wall"),
+        COB_Table_support_face: %{
+          gap: hd(Enum.at(RoomToyBox.bounds(get.("doorway:cob").geometry), 1)) - 3.02,
+          contact_area: 1.0,
+          footprint: [[5.5, -4.1], [6.5, -3.1]],
+          support_bounds: [[5.45, -4.15], [6.55, -3.0]]
+        },
+        COB_to_brace: collision.("doorway:cob", "doorway:cob-brace"),
+        brace_to_U: collision.("doorway:cob-brace", "doorway:inner-u"),
+        rim_link_to_Table: collision.("doorway:crossing-link", "cb:table"),
+        link_to_body_bearing: collision.("doorway:crossing-link", "room:body-bearing")
+      },
+      candidate_A_Table_intersections:
+        for(
+          p <- base,
+          p.geometry.vertices != [],
+          interferes?(Map.fetch!(d.alternatives.table_A, :COB), p.geometry),
+          do: p.id
+        ),
+      candidate_A_Door_intersections:
+        for(p <- fixed, interferes?(d.alternatives.door_A.unit_at_monitor, p.geometry), do: p.id),
+      selected_COB_fixed_intersections:
+        for(
+          p <- fixed,
+          p.id != "cb:table",
+          interferes?(get.("doorway:cob").geometry, p.geometry),
+          do: p.id
+        ),
+      new_stationary_outside_ROOM:
+        for(p <- stationary, not Enum.all?(p.geometry.vertices, &RoomToyBox.inside?/1), do: p.id),
+      unit_letter_local_bounds:
+        Map.new(@letters, fn id ->
+          {id, RoomToyBox.bounds(get.("doorway:letter-" <> id).source_geometry)}
+        end),
+      aperture_clear_section: [1.2, 1.2],
+      unit_extent: [1, 1, 1],
+      nominal_side_margin: 0.1,
+      acquired_delta: 0,
+      Needle_purchase: :not_proved,
+      PITTONING: :not_accepted,
+      RE_STEP: :not_performed
+    }
+  end
+
+  def unit_sweep(a, b),
+    do:
+      G.box(
+        Enum.zip_with(a, b, fn x, y -> min(x, y) - 0.5 end),
+        Enum.zip_with(a, b, fn x, y -> max(x, y) + 0.5 end)
+      )
+
+  def controls do
+    Enum.map(
+      ~w(unit-layer-candidate unit-layer-legacy unit-trace unit-select unit-place unit-open unit-needle rtb-doorway_progress unit-material-ledger unit-alternatives),
+      fn id ->
+        %{
+          id: id,
+          office:
+            "unit-letter predecessor-guarded material or source inspection; Needle appointment is rehearsal only",
+          kind: :material_rehearsal_no_acquisition
+        }
+      end
+    )
+  end
+
+  def decorate(base, state) do
+    d = model(base, state)
+
+    old =
+      Enum.map(base.pieces, fn p ->
+        if p.id in @legacy, do: Map.put(p, :render_layer, :legacy), else: p
+      end)
+
+    pieces = old ++ d.pieces
+
+    base
+    |> Map.put(:doorway, d)
+    |> Map.put(:pieces, pieces)
+    |> Map.put(:source_digest, CoBuilding.digest(Enum.map(pieces, &[&1.id, &1.content_hash])))
+  end
+
+  def visible?(p, state) do
+    layer = Map.get(p, :render_layer, :both)
+
+    (layer == :both or (layer == :candidate and state.layer == "candidate") or
+       (layer == :legacy and state.layer == "legacy")) and Map.get(p, :active_letter, true)
+  end
+end

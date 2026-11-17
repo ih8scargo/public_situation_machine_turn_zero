@@ -1,0 +1,19 @@
+{
+  "sourceDigest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+  "Msource": "a468928ee281ee92841820334d5a5efe5c4bb6062ce6482446dd05e736c4bc88",
+  "axleSource": "839494f3e0f48588a4749b9a019b8752d5e4323cd222c0cb1dc0fae5b2c27aba",
+  "fourMovementsInspected": true,
+  "allViewsPreserveSource": true,
+  "threePINNINGRehearsals": true,
+  "axleNotMoved": true,
+  "underAxleAndStandingMaterialInterference": false,
+  "oneMSource": true,
+  "projectionDoesNotMoveMaterial": true,
+  "oneSeatInPrimaryAssembly": true,
+  "historicalWitnessesRetained": true,
+  "standingDigestUnchanged": true,
+  "acquisitionDelta": 0,
+  "reloadPreservesSource": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

@@ -1,0 +1,66 @@
+{
+  "contract": "geometry-table-2026-11-16.v11",
+  "baseline_files": 1016,
+  "changed_pre_existing_paths": [
+    "lib/public_situation_machine_turn_zero_web/live/architecture_live.ex",
+    "assets/css/app.css",
+    "docs/architecture/geometry/validation-report.md",
+    "docs/architecture/geometry/six-extent-framing.md",
+    "docs/architecture/geometry/impact-ledger.md",
+    "docs/architecture/geometry/README.md",
+    "docs/architecture/geometry/regardings-projection.md",
+    "docs/architecture/geometry/change-ledger.md",
+    "docs/architecture/geometry/table-crossing-staging.md"
+  ],
+  "protected_imported_meshes": 32,
+  "all_imported_source_meshes_preserved": true,
+  "all_prior_historical_constructors_and_witnesses_byte_preserved": true,
+  "pieces": 46,
+  "source_identities_unique": true,
+  "ledger_fields_complete": true,
+  "views": 8,
+  "same_M_pose_witnesses": 10,
+  "pinning_rehearsals": 3,
+  "movement_checkpoints": 4,
+  "mesh_indices_valid": true,
+  "source_hashes_match": true,
+  "browser_and_export_source_hashes_agree": true,
+  "finite_fixed_support_interference": false,
+  "new_R_wall_and_U_attachment_interference": "reported YELLOW",
+  "acquired_delta": 0,
+  "mix_precommit": {
+    "tests": 347,
+    "failures": 0,
+    "skipped": 1
+  },
+  "node_geometry": {
+    "passed": 26,
+    "failed": 0
+  },
+  "browser": {
+    "sourceDigest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+    "Msource": "a468928ee281ee92841820334d5a5efe5c4bb6062ce6482446dd05e736c4bc88",
+    "axleSource": "839494f3e0f48588a4749b9a019b8752d5e4323cd222c0cb1dc0fae5b2c27aba",
+    "fourMovementsInspected": true,
+    "allViewsPreserveSource": true,
+    "threePINNINGRehearsals": true,
+    "axleNotMoved": true,
+    "underAxleAndStandingMaterialInterference": false,
+    "oneMSource": true,
+    "projectionDoesNotMoveMaterial": true,
+    "oneSeatInPrimaryAssembly": true,
+    "historicalWitnessesRetained": true,
+    "standingDigestUnchanged": true,
+    "acquisitionDelta": 0,
+    "reloadPreservesSource": true,
+    "mobileOverflow": false,
+    "pageErrors": []
+  },
+  "historical_v10_browser": "passed; output redirected to /tmp/toybox-historical-v10",
+  "main_witness_sha256": "a51d4d0111a416f8ab9abc1fd30cb5d12d0b65eb7e3d43681ff1643e7c7d7e62",
+  "same_door_passage_boundary_samples": [
+    4,
+    4
+  ],
+  "recurring_four_point_furnishing": "unproved"
+}

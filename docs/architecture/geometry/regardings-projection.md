@@ -21,3 +21,15 @@ The SVG declares view, frame, material IDs and qualification. Relational drawing
 Implementation: `lib/public_situation_machine_turn_zero/workshop/geometry_exploration.ex` and `lib/public_situation_machine_turn_zero_web/components/geometry_exploration_panel.ex`, unless historical sources are explicitly named above. Current tests: `test/public_situation_machine_turn_zero/geometry_exploration_test.exs` and the matching LiveView/browser tests. Source authority: [commission](commission-2026-11-13.txt), relevant named section; verification status in [report](validation-report.md).
 
 Adjoining records: [Roundabout Gallery, Axle Curvature, Pocketings, and Map Regarding](gallery-axle-map.md) · [DIRT Geometry and Acquisition Provenance](dirt-geometry-provenance.md).
+
+Current [v6 assembled CUBICAL / Crossing requirements R31–R36](cubical-construction-2026-11-15.md) preserve this source witness. Initial straight-UP approach, whole-frame versus local ceilings, distinct LEFT/RIGHT material and THREE/FOUR comparison must be read under that refinement. No historical candidate or failed fit becomes actual acquisition.
+
+V7 material co-building refinement: [R37–R43](co-building-material-2026-11-15.md) and [finite geometry / interfaces / witnesses](co-building-engineering-report-2026-11-15.md). Earlier source registrations and their versioned scope remain retained.
+
+## THREE–FOUR / offset passage — v9
+
+[Rules R48–R50 and bounded witness](three-four-offset-v9-2026-11-15.md) add `ThreeFourStudy`, finite candidate material and source-addressed offset arc references. `CoBuilding` gains isolated material-refashioning, conditional-proposal and projection state; ArchitectureLive adds only corresponding inspection handlers; the component exposes independent overlays/status and encounter cursor records. All v8 source meshes and existing actual standing are preserved. Physical ceiling/Tunnel incidence and whole occupied clearance remain YELLOW; measured reference order is not actual COB Traversaling or acquisition. Earlier reports and exports retain their own versions.
+
+## ROOM Toy Box refurnishing — v11 / 16 November 2026
+
+[Rules R54–R61 and four-movement evidence](room-toy-box-v11-2026-11-16.md) apply the source commission and square-axle correction. New `RoomToyBox`/`RoomRibbon` constructors compose preserved v10 material with a tested common ROOM frame, solid opposite-corner bearing, explicit axle ZERO TO ONE, source-derived U candidates, finite under-return and source-bound stands. `RoomToyBoxPanel`, scoped CSS and narrow ArchitectureLive integration provide the primary material/control ledger; older panels remain in a labelled historical disclosure. No protected-operation adapter or consequential persistence changes. Root foundation, source attachment and SIXTH/EIGHTH joining remain YELLOW; new U/R-wall port interference is reported, not accepted. Historical constructors, meshes and reports are not rewritten.

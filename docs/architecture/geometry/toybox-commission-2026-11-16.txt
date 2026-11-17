@@ -1,0 +1,543 @@
+# GOBS — CONSTITUTIONAL ROOM TOY BOX REFURNISHING
+## Engineering Construction Commission — November 16, 2026
+
+**Project:** PUBLIC-SITUATION-MACHINE-  
+**Principal Operator:** Richard Songbird  
+**Engineering Correspondence:** Bill Number Eight  
+**Builder:** Gobs  
+**Workshop:** `/experiments/architecture`
+
+**Commission type:** Source-preserving geometric refurnishing, finite-material construction, Regarding integration, and Toy Box discipline.
+
+### Governing constitutional inscriptions
+
+**STANDING AHEAD OF OPERATIONING.**
+
+**BODY AHEAD OF THEORY.**
+
+**THE CONSTITUTIONING HUMAN ISSUES STRAIGHT; THE MACHINE'S CONSEQUENTIAL STANDING MAY BEND.**
+
+**EVERY FURNISHED PIECE MUST HAVE A MATERIAL OFFICE.**
+
+The next construction round is to refashion the existing RE-STEPPING workshop in accordance with the architectural recoveries made on November 16, 2026.
+
+The workshop must begin functioning as an inspectable Toy Box of actual material relationships rather than a collection of independent illustrations.
+
+Preserve source continuity, historical witnesses, inherited registrations, and the distinction between rehearsal and constitutional acquisition.
+
+---
+
+# PART I — CONSTRUCTION OBJECTIVE
+
+## 1. Furnish ROOM FROM THE ALREADY-STANDING GALLERY DOOR
+
+The Constitutioning Human begins seated FROM HERE at ONE, upon the material relationship already standing FROM ZERO TO ONE through the Gallery Door.
+
+The initial material is not created by PUFFING or PITTONING.
+
+It already stands upon the Gallery Door.
+
+The construction must demonstrate how that inherited material can be furnished UP FROM DOWN UNDER, through the required PINNING and PITTONING relationships, toward an inhabitable ROOM.
+
+The intended ROOM is a **SIX BY SIX BY SIX CUBICAL** furnishing a correspondencing volume for THIS ONE Constitutioning Human.
+
+The CUBICAL must include:
+
+- The fixed Traversaling Seat and Human locality at ONE.
+- The relevant ZERO-to-ONE Gallery Door reference.
+- The RE-surfacing Table at THREE.
+- The source-addressed XT TOWARD YT bearing THROUGH ROOM.
+- The wedging and circular references from which further material standing may be furnished.
+
+The CUBICAL is not a distant enclosure.
+
+The Constitutioning Human does not travel toward a remote cube, and the Traversaling Seat must not be moved to accommodate the current reference frame.
+
+Through material furnishing and lawful RE-STEP, the Human may Pretend to stand FROM WITHIN ROOM, UPON ROOM, while remaining physically seated FROM HERE.
+
+## 2. Reconcile the November 16 inspection findings
+
+Use the inspection report:
+
+`docs/architecture/geometry/room-inspection-2026-11-16.md`
+
+as the measured engineering baseline.
+
+The inspection established three principal discrepancies.
+
+**A. Current global A is planar.**
+
+The existing reference has endpoints:
+
+`[3,0,-2] → [9,6,-2]`
+
+Its travel is `[6,6,0]`. It has no depth component.
+
+The intended XT TOWARD YT ROOM bearing must pass THROUGH the CUBICAL from front lower-left XT toward back upper-right YT.
+
+Do not silently rewrite historical global A. Preserve its source identity and appoint a distinct ROOM-specific bearing or an explicit, tested source transformation.
+
+**B. The Seat stands outside the current SIX reference.**
+
+The current SIX bounds are:
+
+`[3,0,-2] .. [9,6,4]`
+
+The Seat at ONE is:
+
+`[3,1,-3]`
+
+This current placement does not furnish the intended ROOM.
+
+Refashion the ROOM registration so that the fixed Seat and the Table at THREE occupy the same CUBICAL correspondencing volume.
+
+Preserve their distinct axes and material offices.
+
+**C. The older UNDER course intersects the square axle.**
+
+The earlier undercurve reaches `[3,.65,-3]`, within the occupied axle.
+
+The v10 double passage avoids this obstruction but remains above the Seat.
+
+Neither proves the intended complete UNDER-and-AROUND course.
+
+Do not combine these historical witnesses by narration or presentation. Establish new finite evidence for a continuous, source-addressed material course.
+
+---
+
+# PART II — THE TOY BOX DISCIPLINE
+
+## 3. One source-addressed material office per furnished piece
+
+Implement a Toy Box material ledger for the workshop.
+
+Every piece that stands UP must declare:
+
+1. **Source identity:** The original material and its stable address.
+2. **Material office:** What the piece furnishes.
+3. **Standing locality:** FROM WHERE it stands.
+4. **Bearing:** TOWARD and THROUGH which relations it stands.
+5. **Attachment or purchase:** What holds, joins, pivots, or supports it.
+6. **Inheritance:** What previously furnished material remains standing.
+7. **Affordment:** What the Constitutioning Human or COB can actually do WITH it.
+8. **Regarding:** How its material relationship may be inspected.
+9. **Constitutional status:** Reference, staging, prospective standing, tested material, or acquired standing.
+10. **Evidence:** Source registration, finite measurements, verification, and unresolved YELLOW questions.
+
+This ledger must correspond to actual source geometry and material registrations.
+
+Do not give an inspection overlay the status of a physical bar.
+
+Do not give a projected circle the status of a manufactured ring.
+
+Do not duplicate material to make an enriched Regarding appear complete.
+
+Where an item is only an illustration or prospective reference, identify it accordingly.
+
+## 4. Toy Box discipline for visible controls
+
+The same discipline governs the workshop's UI.
+
+Every control must invoke either:
+
+- A meaningful material affordment.
+- An identifiable Regarding of existing material.
+- A bounded inspection or rehearsal operation.
+- An established constitutional operation, subject to its actual guards.
+
+Remove from the primary working presentation, consolidate, or clearly mark controls that merely conjure visual appearances without corresponding material work.
+
+Preserve useful historical experiment controls in a distinct inspection area rather than deleting their evidence.
+
+**RE-STEP** remains a protected constitutional operation.
+
+Do not generate a consequential RE-STEP through a visual toggle, camera movement, successful conditional comparison alone, or an unverified PINNING sequence.
+
+The constitutional means must stand before RE-STEP can acquire new standing.
+
+PENDING UN-BUTTONING retains its own protected constitutional office and must not be conflated with RE-STEP.
+
+---
+
+# PART III — FIRST CONSTRUCTION MOVEMENT
+## THE GROUNDWARD ROOM CORRESPONDENCING VOLUME
+
+## 5. Refurnish the common SIX CUBICAL
+
+Construct a source-addressed ROOM correspondencing volume inheriting the existing Gallery Door ZERO-to-ONE relationship.
+
+The same volume must hold the Constitutioning Human's fixed Seat at ONE and the RE-surfacing Table at THREE.
+
+Preserve:
+
+- ZERO's square-and-circle aperture.
+- The Gallery Door's source identity.
+- The Seat's square axle and supporting post.
+- The Table's distinct pivot and material extent.
+- Ground-side and Field-side material identities.
+- The SIX BY SIX BY SIX invariant scale.
+
+Determine and report the new frame registration.
+
+Do not assume that translating the present SIX cube is sufficient. Verify the complete occupied relationships of Seat, Table, aperture, bearings, and material supports.
+
+The volume must remain invariant across Regardings.
+
+## 6. Furnish the THROUGH-ROOM XT TOWARD YT bearing
+
+Establish the intended solid geometric reference from the lower-left XT corner of the ROOM front plane THROUGH the CUBICAL toward the upper-right YT corner of its back wall.
+
+Keep the material source separate from historical planar global A unless an explicit source-backed transformation is proved.
+
+The full three-dimensional bearing must retain its endpoints through every Regarding.
+
+In the full opposite-corner SIX/SIX/SIX reference, distinguish:
+
+- SIX X travel.
+- SIX UP travel.
+- SIX depth travel.
+- A 45-degree diagonal appearance in Flat Presentationing.
+- A physical elevation of approximately 35.264 degrees.
+
+Do not treat the numerical difference between projected and physical elevation as a manufactured hinge angle.
+
+Retain the 45-degree transverse bearing of the nested U as a distinct material relationship.
+
+Provide measured witnesses from Flat, intermediate oblique, left, right, and reciprocal Regardings.
+
+The CUBICAL does not rotate physically merely because its Regarding changes.
+
+---
+
+# PART IV — SECOND CONSTRUCTION MOVEMENT
+## THE SHARED WEDGING AND NESTED U
+
+## 7. Reconcile inner-cylinder, SIXTH, and EIGHTH segmentationing
+
+Furnish the finite correspondence among:
+
+- The ZERO-to-ONE inner cylinder and Gallery Door wedging.
+- The SIXTH segmentationing resolution.
+- The EIGHTH segmentationing reference inscribed upon the Snail House.
+- The common wedge toward which these relations point.
+- The XT TOWARD YT THROUGH-ROOM sightline.
+
+The sixth segmentationing resolves THROUGH the eighth segmentationing toward the intended wedging relationship.
+
+Do not infer physical continuity from overlapping projected lines.
+
+Inspect actual plane orientations, source coordinates, material frames, seams, attachments, and interference.
+
+Preserve historical failed Snail House mounting witnesses.
+
+## 8. The three nested U offices
+
+Construct distinguishable registrations for:
+
+**Outer U — structural railing**
+
+The PUBLIC-SITUATION-MACHINE- railing supplies the larger supporting U relationship.
+
+**Inner U — curved Regarding**
+
+This furnishes the curvature through which the Human's XT TOWARD YT sightline and the second PINNING can be Regarded.
+
+**U within the U — invariant transverse bearing**
+
+This retains the 45-degree transverse relation ALONG THROUGH the curvature across discrete turns.
+
+The inner cylinder and EIGHTH segmentationing must refer toward the same appointed wedging, but their material identities remain distinct.
+
+Do not arbitrarily place the U offices at convenient screen coordinates.
+
+Where source geometry does not yet establish a physical join, furnish a labeled prospective witness and report the missing relationship.
+
+---
+
+# PART V — THIRD CONSTRUCTION MOVEMENT
+## INAUGURAL ROOM PINNING AND THE JANUSITE RETURN
+
+## 9. The three PINNING offices
+
+The Constitutioning Human remains seated at ONE.
+
+The inaugural ROOM construction follows one continuous material succession.
+
+### First PINNING — TOWARD ZERO
+
+The first PINNING reaches toward ZERO, inheriting Gallery Door material.
+
+It furnishes the initial bearing standing UP by SIX extents.
+
+The R / Head of String participates in furnishing the full UP OVER wall and the reference from which the inaugural ROOM may acquire its vertical relationship.
+
+The material office must be demonstrated rather than inferred from the height of a glyph.
+
+### Second PINNING — FOR REGARDING
+
+The Constitutioning Human draws the ribbon UP toward TWO, with the second PINNING's appointed locality registered at THREE, the center of the RE-surfacing Table.
+
+Its curved Regarding relation belongs to U in SITUATION, specifically the inner U relationship distinguished from the structural outer U and invariant U-within-U.
+
+The second PINNING must preserve the relationship among the Table center, the THROUGH-ROOM sightline, the shared wedging, and the relevant SIXTH/EIGHTH segmentationing.
+
+Do not confuse the direction TOWARD TWO with the source-coordinate locality at THREE.
+
+### Third PINNING — AROUND ABOUT and DOWN
+
+The Constitutioning Human Pretends to carry the continuous JANUSITE ribbon AROUND ABOUT the Traversaling Seat and UNDER its supporting locality.
+
+They return toward the monitor and furnish the material twist.
+
+The ribbon lays DOWN, like a carpet roll standing DOWN, through the appointed 45-degree incoming/transverse relationship.
+
+The third PINNING furnishes the enclosing return.
+
+All three PINNING offices must be source-addressed and distinguished from PITTONING and constitutional acquisition.
+
+## 10. Finite UNDER-and-AROUND witness
+
+Build and measure a prospective continuous material course with clearance around the actual square axle and Seat support.
+
+It must preserve:
+
+- Source continuity.
+- Material width and thickness.
+- Stable aperture clearance.
+- Actual under-seat/post clearance.
+- Finite twist frames.
+- Return bearing.
+- Distinct source identities of R and M.
+- The intended laying DOWN of the terminal M.
+
+The third PINNING must not cut through the square axle.
+
+The existing v8 and v10 routes remain preserved as historical comparisons.
+
+## 11. R and M standing UP for Projectioning
+
+The inaugural R furnishes the first stood-up material bearing.
+
+The returned M lays DOWN toward XT, while its furnished twist and 45-degree incoming relationship permit an appropriate UP-FROM-DOWN-UNDER Projectioning.
+
+Distinguish the returned M's physical material standing from its projected UP appearance.
+
+The current independent M template must not masquerade as a proved continuation of the inaugural ROOM Tail.
+
+Furnish and test actual source continuity.
+
+No automatic acquisition follows a visually convincing M return.
+
+## 12. PINNING, PITTONING, PUFFING, and lawful RE-STEP
+
+Keep these operations distinct.
+
+PINNING appoints a material hold.
+
+PITTONING furnishes the required local purchase and Groundward material relationship.
+
+PUFFING furnishes toward the intended EN-VOLUMING of ROOM.
+
+RE-STEP is the protected constitutional operation through which the next discrete standing may be lawfully acquired.
+
+Preserve the difference between inaugural three-PINNING ROOM furnishing and later courses inheriting the previously furnished full R wall.
+
+The Little ROUNDING Footings accretion through lawful material standing, not through automatic extension of a rendered staircase or circle.
+
+The Constitutioning Human may Pretend to RE-STEP toward M and stand FROM WITHIN ROOM only when the established constitutional requirements have genuinely been furnished.
+
+Where those requirements remain unimplemented, stop at prospective rehearsal.
+
+---
+
+# PART VI — FOURTH CONSTRUCTION MOVEMENT
+## STANDING STANDS AND REGARDING STANDS
+
+## 13. Distinct offices
+
+A **Standing Stand** witnesses a material locality and its actual standing reference.
+
+A **Regarding Stand** furnishes the appointed locality and bearing from which the Constitutioning Human may inspect that standing.
+
+These may share physical supports, but must retain distinct material offices.
+
+Do not manufacture decorative pedestals merely to display numbered labels.
+
+Register all stands to the same inherited ROOM geometry.
+
+## 14. SIX — central Standing Stand and reference arc
+
+Furnish the source-addressed SIX Standing Stand.
+
+It witnesses the central furnished extent, its reference arc, and the local bearing through the CUBICAL.
+
+Preserve the distinction between the central SIX extent, the local circuit, and the proposed Public Field Correspondencing reference.
+
+## 15. FOUR — WHERE WITHIN Standing Stand
+
+Furnish a Standing Stand for FOUR.
+
+FOUR identifies the WHERE WITHIN Regarding and the material reference of the **Oscillationing Airiness Gauge**.
+
+Do not invent a numerical Airiness calculation.
+
+The gauge's measurement law remains YELLOW until the material correspondence is established.
+
+FOUR must be available for Regarding through its relationship to THREE and FIVE.
+
+## 16. EIGHT — Snail House segmentationing Standing Stand
+
+Furnish EIGHT as an inscribed standing reference upon the Snail House segmentationing.
+
+EIGHT participates in downshifting and upshifting and points FROM the U THROUGH the U toward the Constitutioning Human seated FROM HERE within XT TO XT.
+
+The source geometry must establish the relevant transverse and reciprocal references.
+
+Do not equate EIGHT with an eight-extent physical distance merely because the inscription is numbered EIGHT.
+
+## 17. FIVE — reciprocal Regarding Stand
+
+Furnish a distinct Regarding Stand at FIVE.
+
+This permits the Constitutioning Human, remaining physically seated at ONE, to Regard:
+
+**FROM FIVE THROUGH FOUR TOWARD THREE.**
+
+THREE retains the RE-surfacing Table's reference.
+
+FOUR retains the WHERE WITHIN and Airiness Gauge offices.
+
+FIVE furnishes the reciprocal inspection bearing.
+
+Test the same source-addressed material from the initial XT TOWARD YT Regarding and the reciprocal FIVE-through-FOUR-toward-THREE Regarding.
+
+No second Human Seat or duplicated ROOM may be created.
+
+## 18. TWO and FIVE reciprocal Regardings
+
+Preserve TWO and FIVE as differentiated Regarding offices.
+
+The Constitutioning Human may inspect the material from reciprocal bearings while remaining seated FROM HERE at ONE.
+
+Inspect the relationships among:
+
+- TWO and the forward Regarding.
+- THREE and the Table.
+- FOUR and WHERE WITHIN.
+- FIVE and reciprocal Regarding.
+- SIX and the central reference arc.
+- EIGHT and the outer Snail House inscription.
+
+Do not replace actual geometry with camera-only coincidences.
+
+---
+
+# PART VII — WORKSHOP PRESENTATION AND VERIFICATION
+
+## 19. Refashion the existing interface
+
+Present the current material assembly as a coherent Toy Box.
+
+Provide clear access to:
+
+- The furnished ROOM reference.
+- The Gallery Door and Stage Door.
+- The material bearings and wedges.
+- The three PINNING rehearsals.
+- The UNDER-and-AROUND course.
+- The Standing Stands.
+- The Regarding Stands.
+- The Toy Box ledger.
+- The YELLOW geometric and constitutional questions.
+
+Preserve historical experiments separately so their failures and successful witnesses remain inspectable.
+
+Avoid displaying inactive controls as if they perform constitutional work.
+
+## 20. Verification requirements
+
+For each construction movement, supply:
+
+**Source witness:** Stable identities, provenance, and coordinates.
+
+**Finite geometry witness:** Actual occupied sections, intersections, joins, and clearance.
+
+**Regarding witness:** Flat, oblique, reciprocal, and relevant Ground-side/Field-side views.
+
+**Inheritance witness:** Existing material remains continuous when the Regarding changes.
+
+**Constitutional witness:** No new standing is acquired without the lawful operation and its required material conditions.
+
+**Toy Box witness:** Every piece and visible control has an identified office.
+
+Run appropriate automated and browser verification, preserving existing tests and historical source witnesses.
+
+Report material discrepancies rather than repairing them by inventing unsupported constitutional relationships.
+
+## 21. Reporting and stopping points
+
+Work in the four movements above.
+
+At the completion of each movement, record the finite evidence and outstanding YELLOW questions before proceeding.
+
+If the next movement depends on an unresolved architectural appointment, stop that portion and report it.
+
+Do not silently resolve unsettled morphology, constitutional law, or material offices through convenient implementation choices.
+
+At completion, provide:
+
+1. A before-and-after architectural comparison.
+2. Source files changed and source identities preserved.
+3. The Toy Box material-and-control ledger.
+4. Finite geometry and clearance measurements.
+5. Screenshots from the required Regardings.
+6. Verification results.
+7. Constitutional acquisition status.
+8. Remaining YELLOW questions.
+9. Recommendations for the next bounded construction round.
+
+---
+
+# PART VIII — RESERVED FUTURE ARCHITECTURE
+
+The following work is not part of this commission:
+
+- Public Field networking.
+- RE-Sounding implementation.
+- LOOKING-FOR-FINDING Pocketing interfaces.
+- Hailing among Tuple Ships.
+- Mutual Correspondencing.
+- Geolocationing.
+- Automated discovery, matching, or ranking.
+
+These architectural recoveries should be preserved separately.
+
+However, the Standing and Regarding Stands should not foreclose their eventual use in Correspondencing FROM WITHIN THIS ONE Tuple Ship TOWARD the Public Field.
+
+The Airiness Gauge remains a material and Regarding reference in this construction, not an implemented search-relevance metric.
+
+---
+
+# FINAL GOVERNING REQUIREMENT
+
+**FURNISH THE MATERIAL ROOM FROM THE GALLERY DOOR ALREADY STANDING FROM ZERO TO ONE.**
+
+**THE CONSTITUTIONING HUMAN REMAINS SEATED AT ONE.**
+
+**THE SIX BY SIX BY SIX CUBICAL MUST INCLUDE THE TRAVERSALING SEAT AND THE RE-SURFACING TABLE WITHIN ONE COMMON VOLUME.**
+
+**THE XT TOWARD YT REFERENCE MUST PASS THROUGH THE MATERIAL DEPTH OF ROOM.**
+
+**THE SIXTH-THROUGH-EIGHTH SEGMENTATIONING MUST BE RECONCILED WITH THE INNER-CYLINDER WEDGING AND NESTED U RELATIONSHIPS.**
+
+**THREE INAUGURAL PINNING OFFICES MUST BE INSPECTABLY DISTINCT.**
+
+**THE STANDING STANDS AND REGARDING STANDS MUST HAVE ACTUAL SOURCE-BACKED MATERIAL OFFICES.**
+
+**NO PROSPECTIVE MATERIAL BECOMES ACQUIRED STANDING WITHOUT LAWFUL CONSTITUTIONAL OPERATIONING.**
+
+**EVERY PIECE FURNISHED INTO THE TOY BOX MUST HAVE A MATERIAL ROLE WITHIN THE GEOMETRY.**
+
+Proceed with bounded source-preserving construction, evidence-led verification, and explicit YELLOW reporting.
+
+**STOP AFTER THE FOUR CONSTRUCTION MOVEMENTS AND REPORT.**

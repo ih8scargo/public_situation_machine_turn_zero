@@ -1,0 +1,16 @@
+{
+  "sourceGeometryInvariant": true,
+  "parkAndReturn": true,
+  "viewThetaIndependentOfArmPhi": true,
+  "hitCounts": [
+    2,
+    1,
+    0
+  ],
+  "operativeAppointment": null,
+  "index": 0,
+  "craftReceipt": null,
+  "curvedLetterLookup": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

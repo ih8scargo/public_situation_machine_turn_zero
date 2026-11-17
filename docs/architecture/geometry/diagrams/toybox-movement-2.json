@@ -1,0 +1,38 @@
+{
+  "contract": "geometry-table-2026-11-16.v11",
+  "movement": {
+    "id": 2,
+    "yellow": [
+      "SIXTH_EIGHTH_join",
+      "optical_mount"
+    ],
+    "evidence": "registered_finite_U_trials"
+  },
+  "evidence": {
+    "joining_diagnostics": {
+      "room:body-bearing": false,
+      "room:inner-u": true,
+      "room:outer-u": false,
+      "room:r-wall": true,
+      "room:within-u": true
+    },
+    "stopped_portions": [
+      "subfloor_enclosure_interpretation",
+      "SIXTH_EIGHTH_physical_join",
+      "ink_and_wall_material_attachment",
+      "PITTONING_conversion",
+      "airiness_law",
+      "actual_COB_traversal"
+    ]
+  },
+  "acquisition": {
+    "index_delta": 0,
+    "actual_next_footing": null,
+    "pittoning": "not_performed",
+    "puffing": "not_performed",
+    "re_step": "unavailable",
+    "pending_un_buttoning": "separate_unavailable"
+  },
+  "main_witness": "room-toy-box-v11-witness.json",
+  "main_sha256": "a51d4d0111a416f8ab9abc1fd30cb5d12d0b65eb7e3d43681ff1643e7c7d7e62"
+}

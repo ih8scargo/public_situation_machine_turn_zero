@@ -1,0 +1,23 @@
+{
+  "contract": "same-letter-transformations-2026-11-17.v14",
+  "sourceDigest": "eed1bdf3d99b1cbb0133e8d55e826d9bcc052c8862b9eb256f4aacf66f502471",
+  "letterSourceHash": "132f61ca73f40efa7e52644f951795debf3f709eeb1ec8d3de18abe48c407ef8",
+  "oneExistingR": true,
+  "DoorAngles": [
+    0,
+    45,
+    90
+  ],
+  "RegardingBearings": [
+    0,
+    90,
+    30
+  ],
+  "curvatureFramePreview": true,
+  "originalToeID": "specimen:R:1/leading-toe/end-cap",
+  "PUFFINGGateBlocked": true,
+  "acquiredDelta": 0,
+  "standingDigestUnchanged": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

@@ -1,0 +1,27 @@
+{
+  "contract": "opening-slice-projection-2026-11-17.v15",
+  "sourceDigest": "b7b94872c80b8dfedb7f733c5f867b095dff3a21100562533de9bf0c7426d408",
+  "RSourceHash": "132f61ca73f40efa7e52644f951795debf3f709eeb1ec8d3de18abe48c407ef8",
+  "priorCandidateHashes": {
+    "real-tc": "4e9e13b56d011179445c6758656dfea75a2bcabe9d686db989a4fbbc8182c8c3",
+    "pretend-tc": "4e15c8b79b2e6d78549ef9bebf2fb78db1131855d1ae75fdcc1325ae022b7c48",
+    "inner-u": "dcbbec518cc4dfed38d7cdb7da5eae8e45d4b946c4686b0fa3863055a53b18a0",
+    "outer-u": "6a43a62ce9aee4b43396104567e600f1630d0527c09d6948fbfb495e0d0c8293",
+    "r-wall": "8693fa0aa0210bffb42394598ae51d82245b30fbeac67ef69f0bff73e89e2191"
+  },
+  "orderedLetters": [
+    "R",
+    "O1",
+    "O2",
+    "M"
+  ],
+  "compactSliceIsNotMiniatureLetter": true,
+  "actualSourceCurvatureResolution": true,
+  "oneAtATime": true,
+  "portCandidatePreserved": true,
+  "pairedTCBodiesPreserved": true,
+  "acquiredDelta": 0,
+  "standingDigestUnchanged": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

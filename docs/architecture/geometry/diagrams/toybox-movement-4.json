@@ -1,0 +1,938 @@
+{
+  "contract": "geometry-table-2026-11-16.v11",
+  "movement": {
+    "id": 4,
+    "yellow": [
+      "Airiness_law",
+      "physical_optics"
+    ],
+    "evidence": "source_bound_standing_and_reciprocal_regarding_offices"
+  },
+  "evidence": {
+    "views": [
+      {
+        "view": "flat",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "right": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "target": [
+            4.5,
+            3,
+            0
+          ],
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            4.5,
+            3,
+            -14
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "left",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            0.18882559027146498,
+            0.9706297885884076,
+            0.14907283442484076
+          ],
+          "right": [
+            0.6196442885790208,
+            0.0,
+            -0.7848827655334263
+          ],
+          "target": [
+            4.5,
+            3,
+            -2.5
+          ],
+          "forward": [
+            0.7618305927763942,
+            -0.24057808192938762,
+            0.6014452048234691
+          ],
+          "eye": [
+            -5,
+            6,
+            -10
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "right",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            -0.18882559027146498,
+            0.9706297885884076,
+            0.14907283442484076
+          ],
+          "right": [
+            0.6196442885790208,
+            -0.0,
+            0.7848827655334263
+          ],
+          "target": [
+            4.5,
+            3,
+            -2.5
+          ],
+          "forward": [
+            -0.7618305927763942,
+            -0.24057808192938762,
+            0.6014452048234691
+          ],
+          "eye": [
+            14,
+            6,
+            -10
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "oblique",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            -0.27607137251031044,
+            0.8855936576997409,
+            0.37350832751394936
+          ],
+          "right": [
+            0.8041761414663254,
+            -0.0,
+            0.5943910610838058
+          ],
+          "target": [
+            4.5,
+            2.5,
+            -2.5
+          ],
+          "forward": [
+            -0.5263889538892377,
+            -0.4644608416669744,
+            0.7121732905560274
+          ],
+          "eye": [
+            13,
+            10,
+            -14
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "two",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            -0.37712929734613304,
+            0.9175895312557981,
+            -0.12570976578204435
+          ],
+          "right": [
+            0.31622776601683794,
+            0.0,
+            -0.9486832980505138
+          ],
+          "target": [
+            6,
+            3,
+            -2
+          ],
+          "forward": [
+            0.8705018627683756,
+            0.3975291839975582,
+            0.29016728758945853
+          ],
+          "eye": [
+            3,
+            1.63,
+            -3
+          ],
+          "scale": 95,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "five",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            -0.37712929734613326,
+            0.9175895312557982,
+            -0.12570976578204446
+          ],
+          "right": [
+            -0.31622776601683805,
+            0.0,
+            0.9486832980505138
+          ],
+          "target": [
+            6,
+            3,
+            -2
+          ],
+          "forward": [
+            -0.8705018627683756,
+            -0.39752918399755843,
+            -0.29016728758945864
+          ],
+          "eye": [
+            7.305752794152563,
+            3.5962937759963376,
+            -1.564749068615812
+          ],
+          "scale": 110,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "ground",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            0.22140372138502382,
+            0.752772652709081,
+            -0.6199304198780666
+          ],
+          "right": [
+            0.9417419115948373,
+            -0.0,
+            0.3363363969981562
+          ],
+          "target": [
+            4.5,
+            1.5,
+            -2
+          ],
+          "forward": [
+            -0.25318484177091666,
+            0.6582805886043833,
+            0.7089175569585666
+          ],
+          "eye": [
+            7,
+            -5,
+            -9
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      },
+      {
+        "view": "field",
+        "acquisition": {
+          "index_delta": 0,
+          "actual_next_footing": null,
+          "pittoning": "not_performed",
+          "puffing": "not_performed",
+          "re_step": "unavailable",
+          "pending_un_buttoning": "separate_unavailable"
+        },
+        "camera": {
+          "scope": "regarding_only",
+          "up": [
+            -0.08980540315662251,
+            0.9142190041344171,
+            -0.39514377388913907
+          ],
+          "right": [
+            -0.9751328557914598,
+            0.0,
+            0.22162110358896814
+          ],
+          "target": [
+            4.5,
+            2,
+            -2
+          ],
+          "forward": [
+            -0.20261022461827694,
+            -0.40522044923655387,
+            -0.8914849883204186
+          ],
+          "eye": [
+            7,
+            7,
+            9
+          ],
+          "scale": 60,
+          "human_seat": [
+            3,
+            1,
+            -3
+          ]
+        },
+        "source_digest": "654c859233128c8fb45ea1f49c52fd43a5485dc89566710cb074ddb93e069988",
+        "body_endpoints": [
+          [
+            1.5,
+            0,
+            -5.5
+          ],
+          [
+            7.5,
+            6,
+            0.5
+          ]
+        ],
+        "axle": {
+          "root": [
+            3,
+            0,
+            -2
+          ],
+          "seat": [
+            3,
+            1,
+            -3
+          ],
+          "office": "FROM_DOWN_UNDER",
+          "root_to_axle_offset": [
+            0,
+            0,
+            -1
+          ],
+          "gallery": "gallery-door:1",
+          "axle_identity": "cb:square-axle",
+          "axle_height_interval": [
+            [
+              3,
+              0,
+              -3
+            ],
+            [
+              3,
+              1,
+              -3
+            ]
+          ]
+        }
+      }
+    ],
+    "stands": [
+      {
+        "id": "SIX",
+        "reference": "room:six-arc",
+        "kind": "standing_stand",
+        "point": [
+          4.5,
+          3.0,
+          -2.5
+        ],
+        "material": "room:body-bearing"
+      },
+      {
+        "id": "FOUR",
+        "kind": "standing_stand",
+        "point": [
+          6.870501862768376,
+          3.397529183997558,
+          -1.7098327124105415
+        ],
+        "office": "WHERE_WITHIN_airiness_gauge",
+        "material": "room:inner-u",
+        "measurement_law": "yellow"
+      },
+      {
+        "id": "EIGHT",
+        "kind": "standing_stand",
+        "point": [
+          2.0807611844574883,
+          3.6,
+          -2.0807611844574883
+        ],
+        "office": "segmentation_not_distance",
+        "material": "room:eight"
+      },
+      {
+        "id": "TWO",
+        "target": [
+          6,
+          3,
+          -2
+        ],
+        "kind": "regarding_stand",
+        "point": [
+          3,
+          1.63,
+          -3
+        ],
+        "physical_seat": "cb:seat"
+      },
+      {
+        "id": "FIVE",
+        "target": [
+          6,
+          3,
+          -2
+        ],
+        "kind": "regarding_stand",
+        "point": [
+          7.305752794152563,
+          3.5962937759963376,
+          -1.564749068615812
+        ],
+        "physical_seat": "cb:seat",
+        "through": [
+          6.870501862768376,
+          3.397529183997558,
+          -1.7098327124105415
+        ]
+      }
+    ],
+    "controls": [
+      {
+        "id": "rtb-view-flat",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-left",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-right",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-oblique",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-two",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-five",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-ground",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-view-field",
+        "kind": "regarding",
+        "office": "Regarding of unchanged material"
+      },
+      {
+        "id": "rtb-movement-room",
+        "kind": "inspection",
+        "office": "inspect construction movement"
+      },
+      {
+        "id": "rtb-movement-wedging",
+        "kind": "inspection",
+        "office": "inspect construction movement"
+      },
+      {
+        "id": "rtb-movement-pinning",
+        "kind": "inspection",
+        "office": "inspect construction movement"
+      },
+      {
+        "id": "rtb-movement-stands",
+        "kind": "inspection",
+        "office": "inspect construction movement"
+      },
+      {
+        "id": "rtb-pin-1",
+        "kind": "material_rehearsal",
+        "office": "ordered PINNING rehearsal; no PITTONING"
+      },
+      {
+        "id": "rtb-pin-2",
+        "kind": "material_rehearsal",
+        "office": "ordered PINNING rehearsal; no PITTONING"
+      },
+      {
+        "id": "rtb-pin-3",
+        "kind": "material_rehearsal",
+        "office": "ordered PINNING rehearsal; no PITTONING"
+      },
+      {
+        "id": "rtb-travel",
+        "kind": "material_rehearsal",
+        "office": "pose one source-addressed M along finite ribbon"
+      },
+      {
+        "id": "rtb-door",
+        "kind": "material_rehearsal",
+        "office": "pivot same Stage Door and R source"
+      },
+      {
+        "id": "rtb-projection",
+        "kind": "projection",
+        "office": "change M display using registered material frame"
+      },
+      {
+        "id": "rtb-listing",
+        "kind": "inspection",
+        "office": "inspect every source material office"
+      },
+      {
+        "id": "rtb-selected-ledger",
+        "kind": "inspection",
+        "office": "inspect selected material source and purchase"
+      },
+      {
+        "id": "rtb-evidence",
+        "kind": "inspection",
+        "office": "inspect four movement evidence and stopped portions"
+      },
+      {
+        "id": "rtb-scene polygon[data-piece]",
+        "kind": "inspection",
+        "office": "select existing finite material"
+      },
+      {
+        "id": "rtb-inspect-*",
+        "kind": "inspection",
+        "office": "select source piece without furnishing new material"
+      },
+      {
+        "id": "room-historical",
+        "kind": "historical_inspection",
+        "office": "inspect preserved prior experiments under their versions"
+      }
+    ]
+  },
+  "acquisition": {
+    "index_delta": 0,
+    "actual_next_footing": null,
+    "pittoning": "not_performed",
+    "puffing": "not_performed",
+    "re_step": "unavailable",
+    "pending_un_buttoning": "separate_unavailable"
+  },
+  "main_witness": "room-toy-box-v11-witness.json",
+  "main_sha256": "a51d4d0111a416f8ab9abc1fd30cb5d12d0b65eb7e3d43681ff1643e7c7d7e62"
+}

@@ -1,0 +1,287 @@
+{
+  "contract": "toybox-tuple-inheritance-2026-11-16.v1",
+  "geometry_contract": "geometry-table-2026-11-16.v11",
+  "entries": [
+    {
+      "id": "tuple:re-step-wall",
+      "name": "RE-STEP Wall",
+      "status": "canonical_office_registered_material_correspondence_yellow",
+      "attachment": "material_interface_unproved",
+      "evidence": {
+        "historical_candidate": "RailRecovery.apparatus/0 / RE-STEP-Wall-FOUR",
+        "historical_frame": "independent recovery frame; mounting unappointed",
+        "distinct_from": [
+          "room:r-wall",
+          "room:within-u",
+          "regarding plane"
+        ]
+      },
+      "source_identity": "tuple:re-step-wall",
+      "material_office": "Material purchase and calibration reference for COB Excursioning",
+      "standing_locality": {
+        "office": "FOUR–FIVE Tuple seam",
+        "toybox_material_transform": null
+      },
+      "bearing": "material_registration_unproved",
+      "inheritance": {
+        "authority": "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt",
+        "source_locality": "canonical_position_five/1",
+        "repository_source": "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex"
+      },
+      "affordment": "inspection_only",
+      "regarding": "does_not_replace_material_purchase",
+      "geometry": null
+    },
+    {
+      "id": "tuple:gimbalizing-piton",
+      "name": "Gimbalizing PITON",
+      "status": "canonical_office_registered_material_correspondence_yellow",
+      "attachment": "material_interface_unproved",
+      "evidence": {
+        "distinct_from": [
+          "three PINNING appointments",
+          "a completed PITTONING purchase"
+        ],
+        "attachment": "COB / RE-STEP Wall purchase interface",
+        "finite_profile": null
+      },
+      "source_identity": "tuple:gimbalizing-piton",
+      "material_office": "Stewardly Captain COB takes purchase THROUGH this PITON FROM the Wall",
+      "standing_locality": {
+        "office": "COB purchase at RE-STEP Wall",
+        "toybox_material_transform": null
+      },
+      "bearing": "material_registration_unproved",
+      "inheritance": {
+        "authority": "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt",
+        "source_locality": "canonical_position_four/1; canonical_position_five/1",
+        "repository_source": "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex"
+      },
+      "affordment": "inspection_only",
+      "regarding": "does_not_replace_material_purchase",
+      "geometry": null
+    },
+    {
+      "id": "tuple:purchase-surface-five",
+      "name": "Purchase Surface at FIVE",
+      "status": "canonical_office_registered_material_correspondence_yellow",
+      "attachment": "material_interface_unproved",
+      "evidence": {
+        "distinct_from": [
+          "toybox:regarding-five",
+          "FIVE camera eye"
+        ],
+        "material_transform": null
+      },
+      "source_identity": "tuple:purchase-surface-five",
+      "material_office": "Material receiving purchase TOWARD which COB pushes off FROM the RE-STEP Wall",
+      "standing_locality": {
+        "office": "Tuple FIVE",
+        "toybox_material_transform": null
+      },
+      "bearing": "material_registration_unproved",
+      "inheritance": {
+        "authority": "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt",
+        "source_locality": "canonical_position_five/1",
+        "repository_source": "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex"
+      },
+      "affordment": "inspection_only",
+      "regarding": "does_not_replace_material_purchase",
+      "geometry": null
+    },
+    {
+      "id": "toybox:regarding-five",
+      "name": "FIVE reciprocal Regarding Stand",
+      "status": "canonical_office_registered_material_correspondence_yellow",
+      "attachment": "material_interface_unproved",
+      "evidence": {
+        "distinct_from": [
+          "tuple:purchase-surface-five"
+        ],
+        "toybox_source": "RoomToyBox.model/1 / stands FIVE",
+        "registered_stand": {
+          "id": "FIVE",
+          "target": [
+            6,
+            3,
+            -2
+          ],
+          "kind": "regarding_stand",
+          "point": [
+            7.305752794152563,
+            3.5962937759963376,
+            -1.564749068615812
+          ],
+          "physical_seat": "cb:seat",
+          "through": [
+            6.870501862768376,
+            3.397529183997558,
+            -1.7098327124105415
+          ]
+        },
+        "material_equivalence_to_purchase_surface": "unproved"
+      },
+      "source_identity": "toybox:regarding-five",
+      "material_office": "Reciprocal Regarding THROUGH FOUR TOWARD THREE; correspondence with Tuple FIVE",
+      "standing_locality": {
+        "office": "Toy Box FIVE",
+        "toybox_material_transform": null
+      },
+      "bearing": "material_registration_unproved",
+      "inheritance": {
+        "authority": "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt",
+        "source_locality": "canonical_position_five/1",
+        "repository_source": "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex"
+      },
+      "affordment": "inspection_only",
+      "regarding": "does_not_replace_material_purchase",
+      "geometry": null
+    },
+    {
+      "id": "tuple:six-return-reference",
+      "name": "SIX return and inherited calibrated reference",
+      "status": "canonical_office_registered_material_correspondence_yellow",
+      "attachment": "material_interface_unproved",
+      "evidence": {
+        "distinct_from": [
+          "merely projected circle",
+          "newly acquired return"
+        ],
+        "registered_stand": {
+          "id": "SIX",
+          "reference": "room:six-arc",
+          "kind": "standing_stand",
+          "point": [
+            4.5,
+            3.0,
+            -2.5
+          ],
+          "material": "room:body-bearing"
+        },
+        "reference_arc": "room:six-arc",
+        "physical_return_join": null,
+        "calibrated_transfer_to_toybox": "unproved"
+      },
+      "source_identity": "tuple:six-return-reference",
+      "material_office": "Retain return, departure/arrival ancestry and inherited calibrated-reference offices",
+      "standing_locality": {
+        "office": "Tuple SIX",
+        "toybox_material_transform": null
+      },
+      "bearing": "material_registration_unproved",
+      "inheritance": {
+        "authority": "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt",
+        "source_locality": "canonical_position_six/1; position-6-description-title",
+        "repository_source": "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex"
+      },
+      "affordment": "inspection_only",
+      "regarding": "does_not_replace_material_purchase",
+      "geometry": null
+    }
+  ],
+  "correspondences": [
+    {
+      "status": "required_correspondence",
+      "stand": {
+        "id": "FOUR",
+        "kind": "standing_stand",
+        "office": "WHERE_WITHIN_airiness_gauge",
+        "point": [
+          6.870501862768376,
+          3.397529183997558,
+          -1.7098327124105415
+        ],
+        "material": "room:inner-u",
+        "measurement_law": "yellow"
+      },
+      "material_transform": null,
+      "office": "FOUR Standing Stand corresponds with the FOUR–FIVE material departure seam",
+      "tuple_office": "tuple:re-step-wall",
+      "physical_equivalence": "unproved"
+    },
+    {
+      "status": "required_correspondence",
+      "stand": {
+        "id": "FIVE",
+        "target": [
+          6,
+          3,
+          -2
+        ],
+        "kind": "regarding_stand",
+        "point": [
+          7.305752794152563,
+          3.5962937759963376,
+          -1.564749068615812
+        ],
+        "physical_seat": "cb:seat",
+        "through": [
+          6.870501862768376,
+          3.397529183997558,
+          -1.7098327124105415
+        ]
+      },
+      "material_transform": null,
+      "office": "FIVE Regarding Stand corresponds with FIVE; it is not the material Purchase Surface",
+      "tuple_office": "tuple:purchase-surface-five",
+      "physical_equivalence": "unproved"
+    },
+    {
+      "status": "required_correspondence",
+      "stand": {
+        "id": "SIX",
+        "reference": "room:six-arc",
+        "kind": "standing_stand",
+        "point": [
+          4.5,
+          3.0,
+          -2.5
+        ],
+        "material": "room:body-bearing"
+      },
+      "material_transform": null,
+      "office": "SIX reference-arc Standing Stand retains correspondence with return and calibration",
+      "tuple_office": "tuple:six-return-reference",
+      "physical_equivalence": "unproved"
+    }
+  ],
+  "relations": [
+    {
+      "status": "canonical_requirement_not_performed",
+      "subject": "Stewardly Captain COB",
+      "ordered_prepositioning": [
+        "THROUGH",
+        "FROM"
+      ],
+      "instruments": [
+        "tuple:gimbalizing-piton"
+      ],
+      "object": "tuple:re-step-wall",
+      "office": "taking_purchase"
+    },
+    {
+      "status": "canonical_requirement_not_performed",
+      "origin": "tuple:re-step-wall",
+      "subject": "Stewardly Captain COB",
+      "ordered_prepositioning": [
+        "FROM",
+        "TOWARD"
+      ],
+      "object": "tuple:purchase-surface-five",
+      "office": "push_off_excursioning"
+    }
+  ],
+  "operation": {
+    "push_off": "not_performed",
+    "re_step": "distinct_protected_operation",
+    "push_off_alone_permits_re_step": false,
+    "acquired_delta": 0
+  },
+  "source_files": {
+    "docs/architecture/geometry/re-step-wall-canonical-inheritance-2026-11-16.txt": "0c2168d6a35bac661da2aecb8a311b3671d0ea5cde358f6d1387cd27192820ca",
+    "lib/public_situation_machine_turn_zero/workshop/rail_recovery.ex": "f0fe702d5e6423c35c239573b159cabcf3ccea915112805ef3e1a18b9fc65ec4",
+    "lib/public_situation_machine_turn_zero/workshop/room_toy_box.ex": "2a43d77c4a82fad971f4fe351dc4acf1d650667a72b41ba0d19ac4e05061c96f",
+    "lib/public_situation_machine_turn_zero/workshop/tuple_excursion_inheritance.ex": "d12f897f7847889cfcf450fda6cba6ec0f174b908c78c356f587fc941a9e8254",
+    "lib/public_situation_machine_turn_zero_web/live/canonical_tuple_live.ex": "05f214e8767fb8f3f4e79ec6200e0c6d5eb15db6951399f67835c7cbe49c4148"
+  }
+}

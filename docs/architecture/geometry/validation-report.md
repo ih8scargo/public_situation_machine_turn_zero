@@ -1,5 +1,9 @@
 # Geometry RE-surfacing Table — validation and engineering return
 
+15 November supplement: [Inscribed CUBICAL engineering return and THREE/FOUR analysis](cubical-engineering-report-2026-11-15.md), with v6 source registry and browser witnesses. Historical v4/v5 findings below remain preserved.
+
+14 November 2026 supplement: [JANUSITE shared-source ONE-to-TWO engineering return](janusite-engineering-report-2026-11-14.md), with source arrays, integrated browser witnesses and v5 validation. The historical findings below remain preserved.
+
 13 November 2026 · `/workshop/string-ribbon` · [canonical entry](README.md). This is implementation evidence, not another source of constitutional authority.
 
 ## Deliverable A — maintained architectural locality
@@ -213,3 +217,51 @@ Canonical HERE, framing, diagonals, Table, JANUSITE, Gallery and DIRT pages now 
 
 
 [Three-Footing shared-face study](three-footing-study.md) adds the exact registration, failed finite joins, parent-bound and aperture qualifications, domain tests and Chromium screenshots.
+
+## Material co-building — v7
+
+`mix precommit` passes 324 tests with zero failures and one skipped. The new workbench has geometry and LiveView invariance checks, including positive-volume trial-fold rejection and saved-standing preservation. The first adapter interference remains archived. Browser evidence, finite-mesh export, prospective return gap and all bounded claims are in the new engineering return. See the [v7 engineering return](co-building-engineering-report-2026-11-15.md) and [requirements](co-building-material-2026-11-15.md).
+
+## Gallery course refinement — v8
+
+[R44–R47 and engineering witness](gallery-course-v8-2026-11-15.md) register the undercurve, Gallery departure, finite upper loop and continuous source course TOWARD a distinct flat next PINNING. `GalleryCourse` adds source geometry; `CoBuilding` composes source section slices, inspection stages and separate lifecycle identities. The old v7 course is retained in the archived export and metadata. ArchitectureLive adds one inspection command; the function component adds stages/overlays and DOWN Tunneling. No standing-store or protected-operation adapter changes. Upper-loop/departure interference remains an observed YELLOW failure.
+
+## THREE–FOUR / offset passage — v9
+
+[Rules R48–R50 and bounded witness](three-four-offset-v9-2026-11-15.md) add `ThreeFourStudy`, finite candidate material and source-addressed offset arc references. `CoBuilding` gains isolated material-refashioning, conditional-proposal and projection state; ArchitectureLive adds only corresponding inspection handlers; the component exposes independent overlays/status and encounter cursor records. All v8 source meshes and existing actual standing are preserved. Physical ceiling/Tunnel incidence and whole occupied clearance remain YELLOW; measured reference order is not actual COB Traversaling or acquisition. Earlier reports and exports retain their own versions.
+
+## Double Gallery passage — v10 / 16 November 2026
+
+[R52–R53 and bounded return](double-passage-v10-2026-11-16.md) add `DoublePassageStudy`, one source sweep sliced into outward/AROUND/return, measured opening-plane incidence and central corridor checks. `CoBuilding` composes new prospective listings; the existing Gallery frame uses its identical original coordinates from the shared Door reference. The component/ArchitectureLive add inspection only, with colour distinction and close-up view; scoped CSS styles the two courses. Previous source meshes, actual standing and protected operations are unchanged. Eight measured boundary samples do not establish recurring four-point furnishing. Exact incidence, joins, whole occupied clearance and inaugural-to-recurring relation remain YELLOW.
+
+## ROOM Toy Box refurnishing — v11 / 16 November 2026
+
+[Rules R54–R61 and four-movement evidence](room-toy-box-v11-2026-11-16.md) apply the source commission and square-axle correction. New `RoomToyBox`/`RoomRibbon` constructors compose preserved v10 material with a tested common ROOM frame, solid opposite-corner bearing, explicit axle ZERO TO ONE, source-derived U candidates, finite under-return and source-bound stands. `RoomToyBoxPanel`, scoped CSS and narrow ArchitectureLive integration provide the primary material/control ledger; older panels remain in a labelled historical disclosure. No protected-operation adapter or consequential persistence changes. Root foundation, source attachment and SIXTH/EIGHTH joining remain YELLOW; new U/R-wall port interference is reported, not accepted. Historical constructors, meshes and reports are not rewritten.
+
+## RE-STEP Wall inheritance — R62 / 16 November 2026
+
+The supplemental registry has five unique office identities, source provenance, unchanged FOUR/FIVE/SIX stand records and explicit unappointed material transforms. Domain checks preserve the ordered COB purchase/push-off relation and zero acquisition; the LiveView standing-preservation test checks all five ledger entries. Required check: `mix precommit`. Separate registry export preserves the earlier v11 geometry witnesses. [Source and engineering return](re-step-wall-canonical-inheritance-2026-11-16.md).
+
+R62 result: `mix precommit` passed **348 tests, zero failures, one skipped**. Local browser inspection passed all five ledger entries with zero acquisition and no page errors. Supplemental source hashes match; existing geometry constructors, canonical Tuple source and v11 witness bytes remain preserved.
+
+## ROOM FROM HERE — v12 / R63–R70 / 17 November 2026
+
+The new domain suite verifies all 88 adjoining finite seam faces and course-relative normals/views, exact v11 source preservation, eight retained circular sectors, interlocking and physical rotation signs, explicit selection/appointment and zero staircase acquisition. LiveView verifies the same standing store through controls and PINNING. A new browser script records the four-stage Human inspection sequence, source/standing digests and narrow layout. Required `mix precommit` and preservation results are linked from the v12 return. [Engineering return](room-from-here-v12-2026-11-17.md).
+
+V12 final result: `mix precommit` passed **355 tests, zero failures, one skipped**. Browser inspection passed desktop/mobile, true Flat edge-on R, close material lettering, all controls and unchanged source/standing digests. The standalone validator checked 55 identities, all 46 inherited v11 meshes, 88 actual finite seam pairs, eight retained sectors, six pivot/camera witnesses, eleven view cameras, four source-linked checkpoints and the 1,062-file preservation baseline. See [verification artifact](room-from-here-v12-verification.json).
+
+## One-CUBICAL doorway — v13 / R71–R76 / 17 November 2026
+
+The candidate is tested with exact unit-cube swept volumes along all passage/offload legs, a conservative Door swing envelope, normalized SAT in trial length units, distinct computer/axle/leverage clearances, source-bound letter order and material contact records. The LiveView witness completes R/O1/O2/M with no standing-store change. Full required precommit and desktop/mobile browser results are recorded in the v13 verification artifact. [Engineering return](one-cubical-doorway-v13-2026-11-17.md).
+
+V13 final result: `mix precommit` passed **360 tests, zero failures, one skipped**. Desktop/mobile browser completed R/O1/O2/M with no page errors, overflow or acquired standing. Artifact validation checked 24 new material profiles, all unit extents, 17 exact clear occupied translation sweeps, Door swing, real R/U before/after results, 52 ordered rehearsal records, 55 preserved v12 source hashes and the 1,095-file baseline. Nine existing integration/documentation paths changed; exact prior v12 model/control definitions are archived. [Verification](one-cubical-doorway-v13-verification.json).
+
+## Same-letter transformations — v14 / R77–R79 / 17 November 2026
+
+New domain/LiveView checks cover same-source material invariance under observer changes, finite edge-on glyph width, Door/letter independence, inverse rigid recovery of every material vertex, unchanged 79 source profiles, original cap provenance and finite leaf incidence. The gate rejects a curvature-standing request without changing stored standing. Browser and preservation results are linked from the v14 return. [Engineering return](same-letter-transformations-v14-2026-11-17.md).
+
+V14 final result: `mix precommit` passed **365 tests, zero failures, one skipped**. Desktop/mobile browser checks passed independent same-R Door/Regarding/frame controls, original toe and explicit PUFFING rejection. Nine snapshots retain all 79 material source hashes and the unchanged ROOM frame; inverse vertex/toe recovery and the closed/open leaf reference are validated. No actual curvature standing or acquired turn is claimed. [Verification](same-letter-transformations-v14-verification.json).
+
+## Opening-slice reservation / explicit resolution — v15 / 17 November 2026
+
+[Engineering return](opening-slice-projection-v15-2026-11-17.md), [verification](opening-slice-projection-v15-verification.json), [numerical witness](diagrams/opening-slice-projection-v15-witness.json), and [browser witness](../../visual-witnesses/opening-slice-projection-v15/verification.json). `mix precommit`: **370 tests, 0 failures, 1 skipped**; final browser check passes at desktop and 390px mobile. Bound source charts invert; one pending wedge and predecessor/revision/binding checks hold; full compact sweep and four mapped unit allocations clear their tested fixed scene. Insert clears both closed Door and conservative full swing; intended frame and resolved toe/wall contacts are explicit. All 79 prior source profiles and 30 pre-existing numerical JSON witnesses remain unchanged; old port measurements reproduce after indexed/raw-face decoding. Actual Store standing is unchanged, acquired turns ZERO. Native trial source profile is not promoted to revised canonical coiling authority; manufacturing, full occupied passage and lawful acquisition remain YELLOW.

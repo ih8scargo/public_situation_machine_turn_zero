@@ -23,3 +23,11 @@ Adjoining records: [Constitutioning Human, HERE, and Landingings](human-here-lan
 **ESTABLISHED ARCHITECTURAL RELATIONSHIP — [R25/R26](here-wedging-snail-six.md).** HERE is not merely a post: seated ONE stands THROUGH its local wedging, TOWARD THREE/OVER ACROSS, with required Snail House registration THROUGH SIX. SIX frame, local XT TO XT and prior acquisition duties remain established. Return-line intersection, occupied joining, optics and securing are UNPROVED IMPLEMENTATION MECHANISMS; a registered cube alone proves no lawful acquisition. Compare the [two bounded trials](here-wedging-snail-six.md).
 
 The [local 45° comparison](bearing-registration-study.md) registers two 3×3×3 boxes along Z inside SIX. Their full common face registers independently of the tested bearings and the failed finite stock placements. A third reference extends beyond SIX.
+
+Current [v6 assembled CUBICAL / Crossing requirements R31–R36](cubical-construction-2026-11-15.md) preserve this source witness. Initial straight-UP approach, whole-frame versus local ceilings, distinct LEFT/RIGHT material and THREE/FOUR comparison must be read under that refinement. No historical candidate or failed fit becomes actual acquisition.
+
+V7 material co-building refinement: [R37–R43](co-building-material-2026-11-15.md) and [finite geometry / interfaces / witnesses](co-building-engineering-report-2026-11-15.md). Earlier source registrations and their versioned scope remain retained.
+
+## ROOM Toy Box refurnishing — v11 / 16 November 2026
+
+[Rules R54–R61 and four-movement evidence](room-toy-box-v11-2026-11-16.md) apply the source commission and square-axle correction. New `RoomToyBox`/`RoomRibbon` constructors compose preserved v10 material with a tested common ROOM frame, solid opposite-corner bearing, explicit axle ZERO TO ONE, source-derived U candidates, finite under-return and source-bound stands. `RoomToyBoxPanel`, scoped CSS and narrow ArchitectureLive integration provide the primary material/control ledger; older panels remain in a labelled historical disclosure. No protected-operation adapter or consequential persistence changes. Root foundation, source attachment and SIXTH/EIGHTH joining remain YELLOW; new U/R-wall port interference is reported, not accepted. Historical constructors, meshes and reports are not rewritten.

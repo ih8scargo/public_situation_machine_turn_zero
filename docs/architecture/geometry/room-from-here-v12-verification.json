@@ -1,0 +1,79 @@
+{
+  "contract": "room-from-here-2026-11-17.v12",
+  "baseline_files": 1062,
+  "changed_pre_existing_paths": [
+    "lib/public_situation_machine_turn_zero_web/live/architecture_live.ex",
+    "lib/public_situation_machine_turn_zero_web/components/room_toy_box_panel.ex",
+    "assets/css/room_toy_box.css",
+    "docs/architecture/geometry/validation-report.md",
+    "docs/architecture/geometry/impact-ledger.md",
+    "docs/architecture/geometry/README.md",
+    "docs/architecture/geometry/change-ledger.md"
+  ],
+  "unchanged_pre_existing_files": 1055,
+  "preserved_v11_piece_source_meshes": 46,
+  "historical_geometry_constructors_and_witnesses_byte_preserved": true,
+  "pieces": 55,
+  "all_source_ids_unique": true,
+  "ten_ledger_fields_complete": true,
+  "all_mesh_indices_valid": true,
+  "source_hashes_match": true,
+  "stage_checkpoints": 4,
+  "seam_pairs_checked": 88,
+  "seam_cap_incidence_gap": 0,
+  "eight_sectors_preserve_source_radius": 1.5,
+  "source_pose_witnesses": 6,
+  "view_cameras": 11,
+  "regarding_pose_witnesses": 6,
+  "physical_direction_convention_checked": true,
+  "pinning_succession": [
+    [
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "R_U_intersections_retained_and_reported": true,
+  "acquired_delta": 0,
+  "prospective_staircase_acquired_footings": 0,
+  "mix_precommit": {
+    "tests": 355,
+    "failures": 0,
+    "skipped": 1
+  },
+  "browser": {
+    "contract": "room-from-here-2026-11-17.v12",
+    "sourceDigest": "b60f1f9656493cbe3cf31b4a883e771d9db47d18d36f10863a4e12743a786d88",
+    "standingDigest": "46b94e20f65685ec74d4b0ddca7d8ef899670e97834606c3007f6196a909c908",
+    "fourCornerOutreadings": true,
+    "squareAperture": true,
+    "flatOpeningPreservesSources": true,
+    "edgeOnR": true,
+    "explicitSelectionAndAppointment": true,
+    "pivotInterlock": true,
+    "seatAndTablePoseRehearsals": true,
+    "arbitrarySeamForeAft": [
+      1,
+      42,
+      88
+    ],
+    "sameSelectedSeam": true,
+    "eightSectors": true,
+    "oneMSource": "a468928ee281ee92841820334d5a5efe5c4bb6062ce6482446dd05e736c4bc88",
+    "threeHolds": true,
+    "fiveTupleOffices": true,
+    "prospectiveStaircase": true,
+    "acquiredDelta": 0,
+    "mobileOverflow": false,
+    "reloadPreservesSources": true,
+    "pageErrors": []
+  },
+  "main_witness_sha256": "bf4fb93999afb6aea9056a6972354d607a6b0d3bc08d3022620f6d45795ff1ce"
+}

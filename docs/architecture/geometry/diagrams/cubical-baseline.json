@@ -1,0 +1,24 @@
+{
+  "branch": "workshop/milestone-one",
+  "head": "a8d328b0b77383afce4e2b743f561684a8561969",
+  "working_tree_before": " M assets/css/string_ribbon.css\n M docs/architecture/geometry/README.md\n M docs/architecture/geometry/change-ledger.md\n M docs/architecture/geometry/diagonals-pillar.md\n M docs/architecture/geometry/gallery-axle-map.md\n M docs/architecture/geometry/here-wedging-snail-six.md\n M docs/architecture/geometry/impact-ledger.md\n M docs/architecture/geometry/janusite-material.md\n M docs/architecture/geometry/pending-return-conditions.md\n M docs/architecture/geometry/table-crossing-staging.md\n M docs/architecture/geometry/validation-report.md\n M lib/public_situation_machine_turn_zero/workshop/geometry_exploration.ex\n M lib/public_situation_machine_turn_zero_web/live/string_ribbon_live.ex\n?? docs/architecture/geometry/cubical-commission-2026-11-15.txt\n?? docs/architecture/geometry/diagrams/export_janusite.exs\n?? docs/architecture/geometry/diagrams/janusite-witness.json\n?? docs/architecture/geometry/janusite-commission-2026-11-14.txt\n?? docs/architecture/geometry/janusite-engineering-report-2026-11-14.md\n?? docs/architecture/geometry/janusite-shared-yt-one-two.md\n?? docs/visual-witnesses/janusite-inheritance/\n?? lib/public_situation_machine_turn_zero/workshop/janusite_inheritance.ex\n?? lib/public_situation_machine_turn_zero_web/components/janusite_inheritance_panel.ex\n?? test/browser/janusite_inheritance.mjs\n?? test/public_situation_machine_turn_zero/janusite_inheritance_test.exs\n?? test/public_situation_machine_turn_zero_web/live/janusite_inheritance_live_test.exs\n",
+  "preserved_sha256": {
+    "lib/public_situation_machine_turn_zero/workshop/here_wedging.ex": "0af798b9f1a6473594a039374e87e43de540850981604d2e3d66861a29e18fa4",
+    "lib/public_situation_machine_turn_zero/workshop/snail_body.ex": "d95f1a30fa5195eb3978cd6c1e188cfe9e78ba97ead6e87cd11e3100b49d2cf3",
+    "lib/public_situation_machine_turn_zero/workshop/snail_weave.ex": "3313215f69799ec43c691c71fd6efed3741acaf3bc08965f14c820db43492aa6",
+    "lib/public_situation_machine_turn_zero/workshop/snail_gallery_registration.ex": "ceb9ff617f389134e4c88ad119c74852c7024785cf6257be54c99f4ddb7b9de4",
+    "lib/public_situation_machine_turn_zero/workshop/coming_aboard_machine.ex": "18a29b79253bdef3ed263d5e2cc51ecd88673b01ea89bab8d75aaeb7330492d7",
+    "lib/public_situation_machine_turn_zero/workshop/material_ribbon.ex": "8a7edd9fb396ff439c8066b51f1862bad1d99a12d99a200e5dd40572c5741511",
+    "lib/public_situation_machine_turn_zero/workshop/calibration.ex": "560a5fe46c775bf33b4e477b54a379969030d1837dc4635688744eefb9771a56",
+    "lib/public_situation_machine_turn_zero/workshop/projection.ex": "4184ebaeb6cb759c777d701243b906e909f6ac30e853bca6915df63e2a416b41",
+    "lib/public_situation_machine_turn_zero/workshop/janusite_inheritance.ex": "57c5f43f2b0529de9a7d404f7a1b7f77bddb6d2ab97634a09c1802ccc895c6bf",
+    "docs/architecture/geometry/diagrams/janusite-witness.json": "5688286fa90d355011c72b133ed5c1ebf231613e156d2dcb51d1041baa8c066e",
+    "docs/architecture/geometry/diagrams/here-wedging-witness.json": "6472d7c033382ba7a6e9e3fcaa54d5076df2e51a529a2f1d003f142778119003",
+    "docs/visual-witnesses/janusite-inheritance/02-shared-source.png": "1ea66fb0e1afa5c7edc2e90b8b6457a5b10db5c8b1b17757f54e0ad807a5e41a",
+    "docs/visual-witnesses/janusite-inheritance/03-two-cursor-no-length.png": "ab999ddf2a5d61007b9fb67380baefaeb5db5e8ecd3c0a52bad02a4624f806bf",
+    "docs/visual-witnesses/janusite-inheritance/05-curved-detail.png": "e485612c3db9f4c92bf2ef38afd617fdd3e6904ff249e8fe14e3df029600f287",
+    "docs/visual-witnesses/janusite-inheritance/04-mobile.png": "b84c3d01888363e6c033c9fd6fef1897c2f82aa0105a29117043f38e05da6975",
+    "docs/visual-witnesses/janusite-inheritance/01-road-room.png": "35888d1bef37c2ecdf9f87b9a12dcca58de0cf574098019edf1902c2557ce0c6",
+    "docs/visual-witnesses/janusite-inheritance/verification.json": "909bf6c9da1635a702620c0455eafed58dd12af60b5b64df5e195c98ee057b93"
+  }
+}

@@ -31,3 +31,21 @@ Implementation: `lib/public_situation_machine_turn_zero/workshop/geometry_explor
 Adjoining records: [XT TO XT, XT TOWARD YT, Diagonal Bearings, and the Continuous Pillar](diagonals-pillar.md) · [JANUSITE, Triangles, Squares, Circle, and Material Folding](janusite-material.md).
 
 **ESTABLISHED ARCHITECTURAL RELATIONSHIP — [R25/R26](here-wedging-snail-six.md).** HERE is not merely a post: seated ONE stands THROUGH its local wedging, TOWARD THREE/OVER ACROSS, with required Snail House registration THROUGH SIX. SIX frame, local XT TO XT and prior acquisition duties remain established. Return-line intersection, occupied joining, optics and securing are UNPROVED IMPLEMENTATION MECHANISMS; a registered cube alone proves no lawful acquisition. Compare the [two bounded trials](here-wedging-snail-six.md).
+
+Current [JANUSITE / shared-YT / ONE-to-TWO refinement](janusite-shared-yt-one-two.md) adds R27–R30 without repairing the preserved v4 failed fit or granting acquisition.
+
+Current [v6 assembled CUBICAL / Crossing requirements R31–R36](cubical-construction-2026-11-15.md) preserve this source witness. Initial straight-UP approach, whole-frame versus local ceilings, distinct LEFT/RIGHT material and THREE/FOUR comparison must be read under that refinement. No historical candidate or failed fit becomes actual acquisition.
+
+V7 material co-building refinement: [R37–R43](co-building-material-2026-11-15.md) and [finite geometry / interfaces / witnesses](co-building-engineering-report-2026-11-15.md). Earlier source registrations and their versioned scope remain retained.
+
+## Gallery course refinement — v8
+
+[R44–R47 and engineering witness](gallery-course-v8-2026-11-15.md) register the undercurve, Gallery departure, finite upper loop and continuous source course TOWARD a distinct flat next PINNING. `GalleryCourse` adds source geometry; `CoBuilding` composes source section slices, inspection stages and separate lifecycle identities. The old v7 course is retained in the archived export and metadata. ArchitectureLive adds one inspection command; the function component adds stages/overlays and DOWN Tunneling. No standing-store or protected-operation adapter changes. Upper-loop/departure interference remains an observed YELLOW failure.
+
+## Double Gallery passage — v10 / 16 November 2026
+
+[R52–R53 and bounded return](double-passage-v10-2026-11-16.md) add `DoublePassageStudy`, one source sweep sliced into outward/AROUND/return, measured opening-plane incidence and central corridor checks. `CoBuilding` composes new prospective listings; the existing Gallery frame uses its identical original coordinates from the shared Door reference. The component/ArchitectureLive add inspection only, with colour distinction and close-up view; scoped CSS styles the two courses. Previous source meshes, actual standing and protected operations are unchanged. Eight measured boundary samples do not establish recurring four-point furnishing. Exact incidence, joins, whole occupied clearance and inaugural-to-recurring relation remain YELLOW.
+
+## ROOM Toy Box refurnishing — v11 / 16 November 2026
+
+[Rules R54–R61 and four-movement evidence](room-toy-box-v11-2026-11-16.md) apply the source commission and square-axle correction. New `RoomToyBox`/`RoomRibbon` constructors compose preserved v10 material with a tested common ROOM frame, solid opposite-corner bearing, explicit axle ZERO TO ONE, source-derived U candidates, finite under-return and source-bound stands. `RoomToyBoxPanel`, scoped CSS and narrow ArchitectureLive integration provide the primary material/control ledger; older panels remain in a labelled historical disclosure. No protected-operation adapter or consequential persistence changes. Root foundation, source attachment and SIXTH/EIGHTH joining remain YELLOW; new U/R-wall port interference is reported, not accepted. Historical constructors, meshes and reports are not rewritten.

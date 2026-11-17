@@ -3,10 +3,10 @@ defmodule PublicSituationMachineTurnZero.Workshop.GeometryExploration do
   # Missing physical source correspondence is not optional architecture; see docs/architecture/geometry/here-wedging-snail-six.md.
   @moduledoc """
   Geometry RE-surfacing Table exploration. Candidate material is never acquired extent.
-  Authority: docs/architecture/geometry/README.md (geometry-table-2026-11-13.v4).
+  Authority: docs/architecture/geometry/README.md (geometry-table-2026-11-14.v5).
   """
   alias PublicSituationMachineTurnZero.Workshop.MaterialRibbon, as: M
-  @version "geometry-table-2026-11-13.v4"
+  @version "geometry-table-2026-11-14.v5"
   @mechanism "constant-radius-underfold-v1"
   @views ~w(elevation plan transverse oblique half)
   @experiments [

@@ -1,0 +1,46 @@
+{
+  "contract": "geometry-table-2026-11-15.v7",
+  "algorithm": "co-building-material-v1",
+  "baseline_files": 740,
+  "changed_existing_source_files": [
+    "assets/css/app.css",
+    "lib/public_situation_machine_turn_zero_web/live/architecture_live.ex"
+  ],
+  "missing_baseline_files": [],
+  "unchanged_baseline_files": 738,
+  "finite_reference_listings": 47,
+  "camera_witnesses": 9,
+  "source_invariance": true,
+  "mesh_indices_valid": true,
+  "commission_byte_preserved": true,
+  "wedge_reference_contact_area": 0.028001428534987285,
+  "wedge_trial_90_interference": true,
+  "acquisition_delta": 0,
+  "mix_precommit": {
+    "tests": 324,
+    "failures": 0,
+    "skipped": 1
+  },
+  "node_geometry": {
+    "passed": 26,
+    "failed": 0
+  },
+  "crossing_browser_regression": "passed; historical screenshot output redirected to /tmp/co-building-crossing-regression",
+  "geometry_witness_sha256": "c72d43642cbfde84eced92150b562caf6185ba1fdb8358c328aeb3c1cc724fa5",
+  "co_building_browser": {
+    "oneRSource": "6eca2a2ba1cae1a5ab052e8c8c0a1606f7d2104015133c7bffaca2111652ed6c",
+    "standingDigestUnchanged": true,
+    "stageDoorChangesDepthNotHeight": true,
+    "flatAt90": "edge_on",
+    "rInstances": 1,
+    "stitchingAcquired": false,
+    "selectionSurvivesLayers": true,
+    "wedgeInterferenceDisclosed": true,
+    "referenceRestoredAfterReload": true,
+    "seatGallery": true,
+    "acquisitionDelta": 0,
+    "legacyRetained": true,
+    "mobileOverflow": false,
+    "pageErrors": []
+  }
+}

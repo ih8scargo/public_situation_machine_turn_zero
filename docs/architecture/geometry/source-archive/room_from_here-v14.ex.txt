@@ -1,0 +1,1067 @@
+defmodule PublicSituationMachineTurnZero.Workshop.RoomFromHere do
+  @moduledoc "Source-preserving ROOM inspection, interlocked pose rehearsals and course-relative seam Regardings. No acquisition adapter."
+  alias PublicSituationMachineTurnZero.Workshop.{
+    RoomToyBox,
+    OneCubicalDoorway,
+    LetterTransformInspection,
+    RoomRibbon,
+    CoBuilding,
+    CoBuildingGeometry,
+    MaterialRibbon,
+    SnailBody
+  }
+
+  alias RoomToyBox, as: T
+  alias CoBuildingGeometry, as: G
+  alias MaterialRibbon, as: M
+
+  def rotate_y(point, origin, degrees) do
+    M.add(origin, RoomRibbon.rotate(M.sub(point, origin), [0, 1, 0], degrees * :math.pi() / 180))
+  end
+
+  def contract, do: "room-from-here-2026-11-17.v12"
+  def views, do: T.views() ++ ~w(fore aft surface)
+  def movements, do: T.movements()
+
+  def new do
+    Map.merge(T.new(), %{
+      view: "flat",
+      opening: 0.0,
+      disclosing?: false,
+      doorway: OneCubicalDoorway.new(),
+      letter_inspection: LetterTransformInspection.new(),
+      close: 0.0,
+      orbit: 0.0,
+      seam: 1,
+      pivot: "locked",
+      seat_angle: 0.0,
+      table_angle: 0.0,
+      follow: "seat",
+      gear: "YT",
+      labels?: false,
+      selection: nil,
+      appointment: nil
+    })
+  end
+
+  def change(s, r, command) when r == s.revision do
+    inspection? =
+      is_tuple(command) and
+        elem(command, 0) in [:letter_inspection, :letter_bearing, :letter_door, :letter_curvature]
+
+    s =
+      if inspection?,
+        do: s,
+        else: %{s | letter_inspection: %{s.letter_inspection | active: false}}
+
+    case update(s, command) do
+      :delegate ->
+        case T.change(s, r, command) do
+          {:ok, next} when is_tuple(command) ->
+            if elem(command, 0) in [:pin, :travel, :movement, :door],
+              do: {:ok, %{next | doorway: %{next.doorway | layer: "legacy"}}},
+              else: {:ok, next}
+
+          {:ok, next} when command == :projection ->
+            {:ok, %{next | doorway: %{next.doorway | layer: "legacy"}}}
+
+          result ->
+            result
+        end
+
+      {:ok, n, kind} ->
+        event = %{
+          sequence: r + 1,
+          kind: kind,
+          command: inspect(command),
+          scope: :prospective_rehearsal,
+          acquired_delta: 0
+        }
+
+        {:ok, %{n | revision: r + 1, events: Enum.take(s.events ++ [event], -64), notice: nil}}
+
+      error ->
+        error
+    end
+  end
+
+  def change(_, _, _), do: {:error, :stale}
+
+  defp update(s, {:letter_inspection, command}) do
+    if s.pivot == "locked" and s.seat_angle == 0 and s.table_angle == 0 do
+      case LetterTransformInspection.change(s.letter_inspection, command) do
+        {:ok, next} ->
+          {:ok,
+           %{
+             s
+             | letter_inspection: next,
+               opening: 1.0,
+               disclosing?: false,
+               doorway: %{s.doorway | layer: "candidate"}
+           }, :same_letter_inspection}
+
+        error ->
+          error
+      end
+    else
+      {:error, :neutral_pivots_required_for_passage}
+    end
+  end
+
+  defp update(s, {:letter_bearing, v}), do: update(s, {:letter_inspection, {:bearing, v}})
+  defp update(s, {:letter_door, v}), do: update(s, {:letter_inspection, {:door, v}})
+  defp update(s, {:letter_curvature, v}), do: update(s, {:letter_inspection, {:curvature, v}})
+
+  defp update(s, {:doorway, command}) do
+    if command == {:layer, "legacy"} or
+         (s.pivot == "locked" and s.seat_angle == 0 and s.table_angle == 0) do
+      case OneCubicalDoorway.change(s.doorway, command) do
+        {:ok, next} ->
+          next =
+            if command in [{:layer, "candidate"}, {:layer, "legacy"}],
+              do: next,
+              else: %{next | layer: "candidate"}
+
+          {:ok, %{s | doorway: next, opening: 1.0}, :unit_letter_material_rehearsal}
+
+        error ->
+          error
+      end
+    else
+      {:error, :neutral_pivots_required_for_passage}
+    end
+  end
+
+  defp update(s, {:doorway_progress, t}), do: update(s, {:doorway, {:progress, t}})
+  defp update(s, {:pivot, "locked"}), do: {:ok, %{s | pivot: "locked"}, :both_pivots_locked}
+
+  defp update(s, {:pivot, p}) when p in ~w(seat table) do
+    if s.pivot in ["locked", p],
+      do:
+        {:ok, %{s | pivot: p, follow: p, opening: 1.0, doorway: %{s.doorway | layer: "legacy"}},
+         :reciprocal_reference_locked},
+      else: {:error, :lock_active_pivot_before_switching}
+  end
+
+  defp update(%{pivot: "locked"}, {:turn, _}), do: {:error, :select_permitted_pivot}
+
+  defp update(s, {:turn, angle}) when is_number(angle) and angle >= -45 and angle <= 45 do
+    key = if s.pivot == "seat", do: :seat_angle, else: :table_angle
+    {:ok, Map.put(s, key, angle), :source_pose_rehearsal}
+  end
+
+  defp update(s, {:gear, g}) when g in ~w(XT YT),
+    do: {:ok, %{s | gear: g}, :candidate_gear_selected}
+
+  defp update(s, :steer) do
+    if s.pivot == "locked" do
+      {:error, :select_permitted_pivot}
+    else
+      # +Y right-handed rotation looks CCW from +Y toward the origin.
+      # XT is observed from the explicit left-elbow/+Y inspection eye.
+      delta = if s.gear == "YT", do: 5.0, else: -5.0
+      angle = if s.pivot == "seat", do: s.seat_angle, else: s.table_angle
+      update(s, {:turn, max(-45.0, min(45.0, angle + delta))})
+    end
+  end
+
+  defp update(s, {:seam, n}) when is_integer(n) and n > 0 do
+    count = length(T.model(s).ribbon.frames) - 2
+
+    if n <= count,
+      do:
+        {:ok,
+         %{
+           s
+           | seam: n,
+             opening: 1.0,
+             movement: "pinning",
+             doorway: %{s.doorway | layer: "legacy"}
+         }, :seam_appointed},
+      else: {:error, :unknown_seam}
+  end
+
+  defp update(s, {:view, v}) when v in ~w(fore aft surface),
+    do:
+      {:ok,
+       %{
+         s
+         | view: v,
+           opening: 1.0,
+           disclosing?: false,
+           doorway: if(v in ["fore", "aft"], do: %{s.doorway | layer: "legacy"}, else: s.doorway)
+       }, :regarding}
+
+  defp update(s, {:view, v}) do
+    if v in T.views(),
+      do: {:ok, %{s | view: v, opening: 1.0, disclosing?: false}, :regarding},
+      else: {:error, :unknown_regarding}
+  end
+
+  defp update(s, {:opening, v}) when is_number(v) and v >= 0 and v <= 1,
+    do: {:ok, %{s | opening: v, disclosing?: true}, :cutout_regarding_only}
+
+  defp update(s, {:close, v}) when is_number(v) and v >= 0 and v <= 1,
+    do: {:ok, %{s | close: v, view: "surface", opening: 1.0}, :approach_regarding_only}
+
+  defp update(s, {:orbit, v}) when is_number(v) and v >= -180 and v <= 180,
+    do: {:ok, %{s | orbit: v, opening: 1.0}, :central_axis_regarding_only}
+
+  defp update(s, :return),
+    do:
+      {:ok, %{s | close: 0.0, orbit: 0.0, view: "oblique", opening: 1.0}, :return_regarding_only}
+
+  defp update(s, :labels), do: {:ok, %{s | labels?: !s.labels?}, :noticing_overlay}
+
+  defp update(s, {:selection, id}) when id in ~w(R O1 O2 M),
+    do: {:ok, %{s | selection: id, appointment: nil}, :human_material_selection}
+
+  defp update(%{selection: nil}, :appoint_stage), do: {:error, :select_source_material_first}
+
+  defp update(s, :appoint_stage),
+    do:
+      {:ok,
+       %{
+         s
+         | appointment: %{
+             source: s.selection,
+             surface: "cb:stage-door",
+             office: :staging_for_standing,
+             attached: false
+           }
+       }, :conditional_stage_appointment}
+
+  defp update(s, {:select, id}) do
+    if Enum.any?(model(s).pieces, &(&1.id == id)),
+      do: {:ok, %{s | selected: id}, :inspection},
+      else: {:error, :unknown_source}
+  end
+
+  defp update(_, _), do: :delegate
+
+  def model(s) do
+    base = T.model(s)
+    parts = Enum.map(base.pieces, &pose(&1, s, base))
+    sectors = sectors(base)
+    wheel = wheel(base, s)
+    pieces = parts ++ sectors ++ [wheel]
+    seam = seam(base.ribbon, s.seam)
+    source_hash = CoBuilding.digest(Enum.map(pieces, &[&1.id, &1.content_hash]))
+
+    Map.merge(base, %{
+      contract: contract(),
+      geometry_contract: T.contract(),
+      pieces: pieces,
+      source_digest: source_hash,
+      selected_seam: seam,
+      seams: length(base.ribbon.frames) - 2,
+      sectors:
+        Enum.map(sectors, &Map.take(&1, [:id, :source_identity, :lines, :status, :evidence])),
+      registration: registration(base),
+      material_assessment: assessment(base),
+      circular_offices: circles(base),
+      projection_offices: projection_offices(),
+      aperture_planes: aperture_planes(base),
+      authoring: %{
+        selection: s.selection,
+        appointment: s.appointment,
+        staging_for_staging: "cb:slate / gallery-door:1",
+        staging_for_standing: "cb:stage-door",
+        standing_for_staging: "cb:standing-material inherited fixture, acquisition not attested",
+        sources: letter_sources(),
+        stitching: :not_performed
+      },
+      pivots: %{
+        active: s.pivot,
+        seat: %{
+          origin: base.one,
+          axis: [0, 1, 0],
+          degrees: s.seat_angle,
+          locked: s.pivot != "seat",
+          moving_parts: ~w(cb:seat cb:seat-back)
+        },
+        table: %{
+          origin: base.three,
+          axis: [0, 1, 0],
+          degrees: s.table_angle,
+          locked: s.pivot != "table",
+          moving_parts: ["cb:table"]
+        },
+        followed_reference: s.follow,
+        scope: :pose_rehearsal_not_lawful_mechanical_purchase,
+        attachment_limit: :stationary_accessories_not_inferred_to_turn
+      },
+      gear_observations: gear_observations(base),
+      gear: %{
+        candidate: s.gear,
+        axis: [0, 1, 0],
+        positive: :right_handed,
+        observer:
+          if(s.gear == "YT",
+            do: M.add(base.one, [0, 3, 0]),
+            else: M.add(base.one, [-0.6, 0.8, -0.6])
+          ),
+        observer_side: :positive_Y,
+        looks: :toward_axis_origin,
+        sign: if(s.gear == "YT", do: 1, else: -1),
+        appearance: if(s.gear == "YT", do: :counterclockwise, else: :clockwise),
+        coupling: :candidate_manual_pose_not_certified_gear,
+        traction: :unproved,
+        re_step: :not_performed
+      },
+      staircase: staircase(),
+      pose_clearance: pivot_clearance(pieces),
+      control_ledger: controls()
+    })
+    |> OneCubicalDoorway.decorate(s.doorway)
+    |> LetterTransformInspection.decorate(s.letter_inspection)
+  end
+
+  def gear_observations(m) do
+    for {name, eye, sign} <- [
+          {"YT", M.add(m.one, [0, 3, 0]), 1},
+          {"XT", M.add(m.one, [-0.6, 0.8, -0.6]), -1}
+        ] do
+      forward = M.unit(M.sub(m.one, eye))
+      up = if abs(M.dot(forward, [0, 1, 0])) > 0.95, do: [0, 0, -1], else: [0, 1, 0]
+      right = M.unit(M.cross(forward, up))
+      screen_up = M.cross(right, forward)
+      initial = [1, 0, 0]
+      turned = RoomRibbon.rotate(initial, [0, 1, 0], sign * 5 * :math.pi() / 180)
+      a = [M.dot(initial, right), M.dot(initial, screen_up)]
+      b = [M.dot(turned, right), M.dot(turned, screen_up)]
+      [ax, ay] = a
+      [bx, by] = b
+      signed = :math.atan2(ax * by - ay * bx, ax * bx + ay * by) * 180 / :math.pi()
+
+      %{
+        gear: name,
+        eye: eye,
+        target: m.one,
+        axis: [0, 1, 0],
+        right: right,
+        up: screen_up,
+        source_degrees: sign * 5,
+        source_from: initial,
+        source_to: turned,
+        projected_from: a,
+        projected_to: b,
+        observer_angle_degrees: signed,
+        appearance: if(signed > 0, do: :counterclockwise, else: :clockwise),
+        status: :candidate_direction_witness_not_gear_or_traction_proof
+      }
+    end
+  end
+
+  defp pose(p, s, m) do
+    {origin, angle} =
+      cond do
+        p.id in ~w(cb:seat cb:seat-back) -> {m.one, s.seat_angle}
+        p.id == "cb:table" -> {m.three, s.table_angle}
+        true -> {m.one, 0.0}
+      end
+
+    f = &rotate_y(&1, origin, angle)
+
+    if angle == 0 do
+      p
+    else
+      p
+      |> Map.put(:geometry, G.transform(p.geometry, f))
+      |> Map.put(:display_geometry, G.transform(Map.get(p, :display_geometry, p.geometry), f))
+      |> Map.put(:lines, Enum.map(p.lines, &Enum.map(&1, f)))
+      |> Map.put(:pose_witness, %{
+        origin: origin,
+        axis: [0, 1, 0],
+        degrees: angle,
+        source_unchanged: true
+      })
+    end
+  end
+
+  defp overlay(id, name, lines, evidence) do
+    mesh = %{vertices: [], faces: []}
+
+    %{
+      id: id,
+      name: name,
+      geometry: mesh,
+      source_geometry: mesh,
+      source_identity: id,
+      content_hash: CoBuilding.digest(%{id: id, lines: lines}),
+      material_office: name,
+      standing_locality: %{frame: "v11 world coordinates", acquired: false},
+      bearing: :source_reference,
+      attachment: :reference_not_purchase,
+      inheritance: ["cb:standing-circle"],
+      affordment: :inspection_only,
+      regarding: views(),
+      status: :prospective_reference,
+      evidence: evidence,
+      yellow: [:not_acquired],
+      movement: "room",
+      lines: lines
+    }
+  end
+
+  defp sectors(m) do
+    circle = Enum.find(m.pieces, &(&1.id == "cb:standing-circle")) |> Map.fetch!(:lines) |> hd()
+    # Partition retained source edges; never change the inherited circle's radius or vertices.
+    points = if hd(circle) == List.last(circle), do: circle, else: circle ++ [hd(circle)]
+    per = div(length(points) - 1, 8)
+
+    for i <- 0..7 do
+      path = Enum.slice(points, i * per, per + 1)
+
+      overlay(
+        "landinging:sector-#{i + 1}",
+        "Standinging Landinging · sector #{i + 1} / EIGHT",
+        [path],
+        %{
+          source: "cb:standing-circle",
+          edge_interval: [i * per, (i + 1) * per],
+          sector_angle_degrees: 45,
+          centre: [3, 0, -3],
+          radius: 1.5,
+          unit: "inherited trial extent",
+          floor_thickness: nil
+        }
+      )
+    end
+  end
+
+  defp wheel(m, s) do
+    center = M.add(m.one, [0, 0.5, -0.5])
+
+    path =
+      for i <- 0..32 do
+        a = i * 2 * :math.pi() / 32
+        M.add(center, [0.22 * :math.cos(a), 0.22 * :math.sin(a), 0])
+      end
+
+    geometry = G.sweep(path, 0.025, 0.025)
+
+    spokes =
+      for i <- 0..3 do
+        a = i * :math.pi() / 2
+        endpoint = M.add(center, [0.22 * :math.cos(a), 0.22 * :math.sin(a), 0])
+        G.strap(center, endpoint, 0.025, 0.025, [0, 0, 1])
+      end
+
+    mesh =
+      G.mesh(geometry.faces ++ Enum.flat_map(spokes, & &1.faces))
+      |> Map.put(:cells, geometry.cells ++ spokes)
+
+    angle = if s.pivot == "table", do: s.table_angle, else: s.seat_angle
+
+    p =
+      overlay("rfh:steering-wheel", "Steering wheel · candidate manual pivot control", [], %{
+        source:
+          "new finite candidate; prior CrossingRehearsal shared-head/paired-aperture registration remains unmodified",
+        center: center,
+        radius: 0.22,
+        section: [0.025, 0.025],
+        source_axis: [0, 0, 1],
+        pivot_mapping: :candidate_user_selected_Y_axis,
+        mechanical_linkage: nil,
+        en_throning: false
+      })
+
+    %{
+      p
+      | geometry: G.transform(mesh, &G.rotate_z(&1, center, angle)),
+        source_geometry: mesh,
+        content_hash: CoBuilding.digest(%{id: p.id, mesh: mesh}),
+        status: :finite_candidate_unmounted,
+        inheritance: ["CrossingRehearsal completed steering pull hypothesis"],
+        yellow: [:mounting, :gearing, :traction]
+    }
+  end
+
+  def seam(ribbon, i) do
+    f = Enum.at(ribbon.frames, i)
+    section = Enum.at(ribbon.geometry.sections, i)
+    a = Enum.at(ribbon.geometry.cells, i - 1)
+    b = Enum.at(ribbon.geometry.cells, i)
+
+    %{
+      id: "#{ribbon.id}/seam-#{i}",
+      index: i,
+      source: ribbon.id,
+      acquired: false,
+      point: f.point,
+      tangent: f.tangent,
+      u: f.u,
+      v: f.v,
+      arriving: %{
+        id: "#{ribbon.id}/cell-#{i - 1}/end",
+        face: section,
+        normal: f.tangent,
+        cell: a,
+        section: [ribbon.width, ribbon.thickness]
+      },
+      departing: %{
+        id: "#{ribbon.id}/cell-#{i}/start",
+        face: Enum.reverse(section),
+        normal: M.scale(f.tangent, -1),
+        cell: b,
+        section: [ribbon.width, ribbon.thickness]
+      },
+      continuity: %{
+        shared_vertices: 4,
+        max_gap: 0.0,
+        status: :sampled_stock_continuity_not_lawful_tunnel
+      },
+      fore: %{eye: M.sub(f.point, M.scale(f.tangent, 0.35)), target: M.add(f.point, f.tangent)},
+      aft: %{eye: M.add(f.point, M.scale(f.tangent, 0.35)), target: M.sub(f.point, f.tangent)},
+      qualification:
+        "finite stock interface; enclosing Caterpillar Tunnel faces and occupied passage remain unproved"
+    }
+  end
+
+  defp point(m, id), do: Enum.find(m.pieces, &(&1.id == id))
+
+  defp center(p) do
+    case p.geometry.vertices do
+      [] -> p.lines |> List.flatten() |> Enum.chunk_every(3) |> G.centroid()
+      vs -> G.centroid(vs)
+    end
+  end
+
+  def registration(m) do
+    [
+      %{
+        id: "ZERO",
+        point: m.zero,
+        source: "cb:zero",
+        office: "Groundward aperture reference",
+        plane_normal: [0, 1, 0]
+      },
+      %{
+        id: "ONE",
+        point: m.one,
+        source: "cb:seat / cb:square-axle",
+        office: "fixed seated locality; ZERO TO ONE relation is not JANUSITE",
+        plane_normal: [0, 1, 0]
+      },
+      %{
+        id: "TWO",
+        point: m.two,
+        source: "eye-socket reference",
+        office: "approaching Regarding; not optical or material issuer",
+        plane_normal: M.unit(M.sub(m.three, m.two))
+      },
+      %{
+        id: "THREE",
+        point: m.three,
+        source: "cb:table / cb:pivot-three",
+        office: "Table-centered Projectioning Crossing",
+        plane_normal: [0, 1, 0]
+      }
+    ]
+    |> Enum.map(
+      &Map.merge(&1, %{
+        frame: "v11 world X/right Y/up Z/depth",
+        unit: "trial extent",
+        inherited_basis: m.zero_one
+      })
+    )
+  end
+
+  def assessment(m) do
+    [a, b] = m.body_bearing.endpoints
+    t = M.unit(M.sub(b, a))
+    distance = fn p -> M.norm(M.cross(M.sub(p, a), t)) end
+
+    parts =
+      for id <- ~w(room:r-wall room:inner-u room:within-u) do
+        p = point(m, id)
+
+        %{
+          id: id,
+          bounds: T.bounds(p.geometry),
+          section: p.evidence,
+          intersected_cells:
+            Enum.with_index(m.ribbon.geometry.cells)
+            |> Enum.filter(fn {cell, _} -> G.collision?(cell, p.geometry) end)
+            |> Enum.map(&elem(&1, 1)),
+          repair: :stopped_missing_receiving_purchase_not_arbitrary_relocation
+        }
+      end
+
+    lengths =
+      Enum.zip(m.ribbon.points, tl(m.ribbon.points))
+      |> Enum.with_index()
+      |> Enum.map(fn {{x, y}, i} -> %{cell: i, from: x, toward: y, length: M.distance(x, y)} end)
+
+    %{
+      R_issuing_XT_reference: %{
+        source: "specimen:R:1",
+        flat_surface: "cb:slate",
+        registered_head_purchase: nil,
+        status: :exact_R_XT_issuing_purchase_unappointed
+      },
+      ports: parts,
+      table_to_body_bearing_distance: distance.(m.three),
+      M_source_anchor_to_body_bearing_distance: distance.([3.55, 2.4, -1.04]),
+      foundation: %{
+        status: :retained_below_ROOM,
+        band_y: [-0.4, 0],
+        axle_source: "cb:square-axle",
+        corner_to_ZERO: :unappointed,
+        cube_enlarged: false
+      },
+      centre_purchase: m.port_registration,
+      fixed_clearance: m.clearance,
+      legs: lengths,
+      total_length: Enum.sum(Enum.map(lengths, & &1.length)),
+      simplified_route: :not_accepted_without_port_and_clearance_evidence,
+      ink_attachment: :unproved,
+      acquired_delta: 0
+    }
+  end
+
+  def circles(m) do
+    [
+      %{
+        id: "cb:standing-circle",
+        office: "THIS ONE STANDINGING LANDINGING",
+        center: [3, 0, -3],
+        radius: 1.5,
+        sectors: 8,
+        frame: :v11_world,
+        status: :reference
+      },
+      %{
+        id: "cb:HERE",
+        office: "THIS HERE square",
+        side: 6,
+        frame: :v11_world,
+        status: :reference
+      },
+      %{
+        id: "from-here:circular-registration",
+        office: "FROM HERE circular relation",
+        source: "cb:standing-circle",
+        radius: :no_independent_radius_appointed,
+        status: :relational_registration
+      },
+      %{
+        id: "en-throning:wheel",
+        office: "EN-THRONING Wheel",
+        geometry: nil,
+        attachment: nil,
+        turning_law: nil,
+        status: :missing_material_office
+      },
+      %{
+        id: "cb:table",
+        office: "Table circular reference",
+        center: m.three,
+        radius: 1.5,
+        thickness: 0.04,
+        status: :inherited_finite_fixture
+      },
+      %{
+        id: "snail-radial-arc-v1",
+        office: "Snail House segmentationing",
+        source: "SnailBody.reference_arc/0",
+        radius: 0.85,
+        frame: :native_snail,
+        toybox_transform: nil,
+        status: :common_mount_unproved
+      }
+    ]
+  end
+
+  def aperture_planes(m) do
+    historic =
+      SnailBody.model(SnailBody.new()).surfaces
+      |> Enum.filter(
+        &(&1.id in ["ordinary-flat-monitor", "inner-aperture", "cabinet-side-aperture"])
+      )
+      |> Enum.map(
+        &%{
+          id: &1.id,
+          points: &1.points,
+          frame: :native_SnailBody,
+          toybox_transform: nil,
+          status: :historical_surface_registration
+        }
+      )
+
+    current =
+      for id <- ~w(cb:monitor cb:glass cb:stage-door) do
+        p = point(m, id)
+
+        %{
+          id: id,
+          source: p.source_identity,
+          bounds: T.bounds(p.geometry),
+          normal: p.bearing.plane_normal,
+          frame: :v11_world,
+          pivot: p.bearing.pivot,
+          status: p.status
+        }
+      end
+
+    %{current: current, historical: historic, common_cabinet_registration: :unappointed}
+  end
+
+  def projection_offices do
+    [
+      %{
+        id: "apparatus:pretend-real-tc",
+        name: "Pretend Real Terrestrial Computer",
+        source: "SnailBody.model/1 / down-under-computer",
+        source_bounds: [[-0.65, -2.65, -0.45], [0.65, -2.25, 0.45]],
+        office: "DOWN UNDER apparatus representation"
+      },
+      %{
+        id: "apparatus:pretend-tc",
+        name: "Pretend Terrestrial Computer",
+        source: "SnailWeaveGeometry.model/6 / projection_relay.pretend_pretend_TC",
+        office: "staging receiver in historical furnished CUBICAL"
+      },
+      %{
+        id: "apparatus:pretend-projection",
+        name: "Pretend Projectioning Thing",
+        source: "SnailWeaveGeometry.model/6 / projection_relay",
+        office: "DOWN UNDER relay, bellows and receiver"
+      },
+      %{
+        id: "apparatus:main-projection",
+        name: "Main Projectioning Thing",
+        source: "StringRibbonGeometry.objects/1 / main-projection",
+        office: "fixed-monitor TOWARD Human reference bearing"
+      }
+    ]
+    |> Enum.map(
+      &Map.merge(&1, %{
+        toybox_transform: nil,
+        status: :source_office_registered_current_mount_yellow
+      })
+    )
+  end
+
+  def letter_sources do
+    prefix = "janusite:577fba0b80d791636e583ebc868cf72baf53b9c32e18d501355f2a4fca8820cd"
+
+    [
+      %{
+        id: "R",
+        source: "specimen:R:1",
+        physical: "room:R",
+        office: :head_of_string_purchase_unproved
+      },
+      %{
+        id: "O1",
+        source: prefix <> "/letter-2",
+        physical: nil,
+        office: :first_O_purchase_unfurnished
+      },
+      %{
+        id: "O2",
+        source: prefix <> "/letter-3",
+        physical: nil,
+        office: :second_O_purchase_unfurnished
+      },
+      %{
+        id: "M",
+        source: "room-ribbon:1/M",
+        semantic_ancestry: prefix <> "/letter-4",
+        physical: "room:M",
+        office: :human_held_terminal_return
+      }
+    ]
+  end
+
+  def staircase do
+    # Regard the inherited descending helix in reverse, FROM its DOWN end TOWARD UP.
+    samples =
+      for i <- 0..8 do
+        parameter = 1 - i / 8
+        f = SnailBody.arc_frame(parameter)
+
+        Map.merge(f, %{
+          source_parameter: parameter,
+          tangent: M.scale(f.tangent, -1),
+          binormal: M.scale(f.binormal, -1)
+        })
+      end
+
+    references =
+      Enum.with_index(samples)
+      |> Enum.map(fn {f, i} ->
+        %{
+          id: "prospective-snail:local-#{i}",
+          origin: f.point,
+          source_parameter: f.source_parameter,
+          xt_to_xt: [f.point, M.add(f.point, f.binormal)],
+          offset_in_local_frame: [0, 0, 1],
+          length: 1.0,
+          radial: f.radial,
+          tangent: f.tangent,
+          binormal: f.binormal,
+          acquired: false
+        }
+      end)
+
+    wedges =
+      Enum.chunk_every(references, 2, 1, :discard)
+      |> Enum.with_index()
+      |> Enum.map(fn {[a, b], i} ->
+        mid = M.scale(M.add(a.origin, b.origin), 0.5)
+        mesh = G.prism([a.origin, b.origin, Enum.at(a.xt_to_xt, 1)], 0.02)
+
+        %{
+          id: "prospective-snail:wedge-#{i}",
+          geometry: mesh,
+          source_endpoints: [a.id, b.id],
+          chord_midpoint: mid,
+          half_chord: M.distance(a.origin, b.origin) / 2,
+          acquired: false
+        }
+      end)
+
+    %{
+      source: "SnailBody.reference_arc/0 / snail-radial-arc-v1",
+      frame: :native_snail,
+      toybox_transform: nil,
+      references: references,
+      wedges: wedges,
+      local_length: 1.0,
+      curve_law: :inherited_analytic_helix,
+      bisection: :measured_chord_candidate_not_constitutional_law,
+      footing_count: 0,
+      acquired_turns: 0,
+      lanterning: %{default: 1, options: [1, 2, 3], caps_footings: false},
+      operations: ~w(RE-STEP NAV-STEP ACCRETIONING SCOOPING LANTERNING RE-ZIPPERING),
+      status: :prospective_unmounted_not_successive_acquisition
+    }
+  end
+
+  defp pivot_clearance(pieces) do
+    moving = Enum.filter(pieces, &(&1.id in ~w(cb:seat cb:seat-back cb:table)))
+
+    obstacles =
+      Enum.filter(
+        pieces,
+        &(&1.id not in ~w(cb:seat cb:seat-back cb:table) and &1.geometry.vertices != [])
+      )
+
+    for p <- moving do
+      %{
+        id: p.id,
+        intersections: for(q <- obstacles, G.collision?(p.geometry, q.geometry), do: q.id),
+        status: :static_pose_intersections_not_swept_mechanical_clearance
+      }
+    end
+  end
+
+  def camera(s, m) do
+    c = T.camera(s, m)
+
+    c =
+      cond do
+        s.letter_inspection.active ->
+          view = Map.fetch!(m.letter_inspection, :Regarding)
+          basis(view.eye, view.target, 240, false, m.one)
+
+        s.view in ~w(fore aft) ->
+          spec = if s.view == "fore", do: m.selected_seam.fore, else: m.selected_seam.aft
+          basis(spec.eye, spec.target, 320, true, m.one)
+
+        s.view == "surface" ->
+          p = Enum.find(m.pieces, &(&1.id == s.selected)) || hd(m.pieces)
+
+          face =
+            Enum.max_by(
+              p.geometry.faces,
+              fn face ->
+                area = face_area(face)
+                facing = M.dot(face_normal(face), M.unit(M.sub(c.eye, G.centroid(face))))
+                area * (1 + 0.0001 * facing)
+              end,
+              fn -> nil end
+            )
+
+          target = if face, do: G.centroid(face), else: center(p)
+          normal = if face, do: face_normal(face), else: [0, 0, -1]
+
+          near =
+            if p.id in ~w(room:R room:M),
+              do: max(0.3, 2 * Enum.max(Enum.map(p.geometry.vertices, &M.distance(&1, target)))),
+              else: 0.3
+
+          {target, normal, near} =
+            if String.starts_with?(p.id, "doorway:letter-") do
+              {M.add(p.evidence.position, [0, 0, -0.5]), [0, 0, -1], 1.2}
+            else
+              {target, normal, near}
+            end
+
+          distance = 6 * (1 - s.close) + near * s.close
+          basis(M.add(target, M.scale(normal, distance)), target, 320, true, m.one)
+
+        s.view == "flat" and s.disclosing? and s.opening > 0 ->
+          full = T.camera(%{s | view: "oblique"}, m)
+          mix = fn a, b -> M.add(M.scale(a, 1 - s.opening), M.scale(b, s.opening)) end
+          basis(mix.(c.eye, full.eye), mix.(c.target, full.target), c.scale, false, m.one)
+
+        true ->
+          c |> Map.put(:perspective, false)
+      end
+
+    # Pose-following rotates the appointed eye and target around the selected material axis.
+    {origin, angle} =
+      if s.follow == "seat", do: {m.one, s.seat_angle}, else: {m.three, s.table_angle}
+
+    c =
+      if s.letter_inspection.active or s.view in ~w(fore aft surface),
+        do: c,
+        else:
+          basis(
+            rotate_y(c.eye, origin, angle),
+            rotate_y(c.target, origin, angle),
+            c.scale,
+            c.perspective,
+            m.one
+          )
+
+    centre = M.scale(M.add(m.frame.minimum, m.frame.maximum), 0.5)
+
+    if s.letter_inspection.active or s.orbit == 0 or s.view in ~w(fore aft surface),
+      do: c,
+      else: basis(rotate_y(c.eye, centre, s.orbit), c.target, c.scale, c.perspective, m.one)
+  end
+
+  defp face_normal([a, b, c | _]), do: M.unit(M.cross(M.sub(b, a), M.sub(c, a)))
+
+  defp face_area([a | rest]) do
+    Enum.chunk_every(rest, 2, 1, :discard)
+    |> Enum.map(fn [b, c] -> M.norm(M.cross(M.sub(b, a), M.sub(c, a))) / 2 end)
+    |> Enum.sum()
+  end
+
+  defp basis(eye, target, scale, perspective, seat) do
+    f = M.unit(M.sub(target, eye))
+    up = if abs(M.dot(f, [0, 1, 0])) > 0.95, do: [0, 0, 1], else: [0, 1, 0]
+    right = M.unit(M.cross(up, f))
+
+    %{
+      eye: eye,
+      target: target,
+      forward: f,
+      right: right,
+      up: M.cross(f, right),
+      scale: scale,
+      perspective: perspective,
+      human_seat: seat,
+      scope: :regarding_only
+    }
+  end
+
+  def project(p, c) do
+    q = M.sub(p, if(c.perspective, do: c.eye, else: c.target))
+    depth = M.dot(M.sub(p, c.eye), c.forward)
+    scale = if c.perspective, do: c.scale / max(0.04, depth), else: c.scale
+    [420 + M.dot(q, c.right) * scale, 420 - M.dot(q, c.up) * scale, depth]
+  end
+
+  def points(ps, c),
+    do:
+      Enum.map_join(ps, " ", fn p ->
+        [x, y, _] = project(p, c)
+        "#{x},#{y}"
+      end)
+
+  def visible?(p, s) do
+    OneCubicalDoorway.visible?(p, s.doorway) and visible_in_regarding?(p, s)
+  end
+
+  defp visible_in_regarding?(p, s) do
+    if s.opening < 0.01 do
+      p.id in ~w(cb:monitor cb:slate cb:glass cb:stage-door room:R)
+    else
+      T.visible?(p, s)
+    end
+  end
+
+  def faces(m, s) do
+    c = camera(s, m)
+
+    m.pieces
+    |> Enum.filter(&visible?(&1, s))
+    |> Enum.flat_map(fn p ->
+      Enum.filter(Map.get(p, :display_geometry, p.geometry).faces, fn face ->
+        not c.perspective or Enum.all?(face, &(Enum.at(project(&1, c), 2) > 0.04))
+      end)
+      |> Enum.map(fn face ->
+        %{
+          id: p.id,
+          points: points(face, c),
+          depth: Enum.at(project(G.centroid(face), c), 2),
+          status: p.status
+        }
+      end)
+    end)
+    |> Enum.sort_by(&(-&1.depth))
+  end
+
+  defp label_anchor(p) do
+    case Map.get(p, :display_geometry, p.geometry).faces do
+      [face | _] ->
+        G.centroid(face)
+
+      [] ->
+        case p.lines do
+          [[a, b | _] | _] -> M.scale(M.add(a, b), 0.5)
+          _ -> center(p)
+        end
+    end
+  end
+
+  def labels(m, s) do
+    c = camera(s, m)
+
+    m.pieces
+    |> Enum.filter(&visible?(&1, s))
+    |> Enum.map(fn p ->
+      %{id: p.id, name: p.name, point: label_anchor(p), screen: project(label_anchor(p), c)}
+    end)
+  end
+
+  def controls do
+    OneCubicalDoorway.controls() ++
+      T.controls() ++
+      [
+        %{
+          id: "rfh-corner-*",
+          office: "four corner rail-office Outreadings; interface overlays",
+          kind: :inspection
+        },
+        %{
+          id: "rfh-* disclosure",
+          office: "inspect source, circular, apparatus, seam and inheritance ledgers",
+          kind: :inspection
+        }
+      ] ++
+      Enum.map(
+        ~w(opening close orbit turn seam),
+        &%{
+          id: "rtb-" <> &1,
+          office: "bounded source or Regarding inspection; explicit pose/camera separation",
+          kind: :inspection
+        }
+      ) ++
+      Enum.map(
+        ~w(pivot-locked pivot-seat pivot-table gear-XT gear-YT steer labels return view-fore view-aft view-surface select-R select-O1 select-O2 select-M appoint-stage),
+        &%{
+          id: "rtb-" <> &1,
+          office: "source-addressed appointment, pose rehearsal or Regarding; no acquisition",
+          kind: :inspection
+        }
+      )
+  end
+end

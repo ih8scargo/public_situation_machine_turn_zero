@@ -1,0 +1,27 @@
+{
+  "contract": "room-from-here-2026-11-17.v12",
+  "sourceDigest": "b60f1f9656493cbe3cf31b4a883e771d9db47d18d36f10863a4e12743a786d88",
+  "standingDigest": "46b94e20f65685ec74d4b0ddca7d8ef899670e97834606c3007f6196a909c908",
+  "fourCornerOutreadings": true,
+  "squareAperture": true,
+  "flatOpeningPreservesSources": true,
+  "edgeOnR": true,
+  "explicitSelectionAndAppointment": true,
+  "pivotInterlock": true,
+  "seatAndTablePoseRehearsals": true,
+  "arbitrarySeamForeAft": [
+    1,
+    42,
+    88
+  ],
+  "sameSelectedSeam": true,
+  "eightSectors": true,
+  "oneMSource": "a468928ee281ee92841820334d5a5efe5c4bb6062ce6482446dd05e736c4bc88",
+  "threeHolds": true,
+  "fiveTupleOffices": true,
+  "prospectiveStaircase": true,
+  "acquiredDelta": 0,
+  "mobileOverflow": false,
+  "reloadPreservesSources": true,
+  "pageErrors": []
+}

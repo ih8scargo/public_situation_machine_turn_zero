@@ -29,3 +29,7 @@ Implementation: `lib/public_situation_machine_turn_zero/workshop/geometry_explor
 Adjoining records: [PENDING UN-BUTTONING, Tunnel Conditions, and Return Course](pending-return-conditions.md) · [Flat, Tunnel, THROUGH, ALONG, and Other Regardings](regardings-projection.md).
 
 **ESTABLISHED ARCHITECTURAL RELATIONSHIP — [R25/R26](here-wedging-snail-six.md).** HERE is not merely a post: seated ONE stands THROUGH its local wedging, TOWARD THREE/OVER ACROSS, with required Snail House registration THROUGH SIX. SIX frame, local XT TO XT and prior acquisition duties remain established. Return-line intersection, occupied joining, optics and securing are UNPROVED IMPLEMENTATION MECHANISMS; a registered cube alone proves no lawful acquisition. Compare the [two bounded trials](here-wedging-snail-six.md).
+
+Current [JANUSITE / shared-YT / ONE-to-TWO refinement](janusite-shared-yt-one-two.md) adds R27–R30 without repairing the preserved v4 failed fit or granting acquisition.
+
+Current [v6 assembled CUBICAL / Crossing requirements R31–R36](cubical-construction-2026-11-15.md) preserve this source witness. Initial straight-UP approach, whole-frame versus local ceilings, distinct LEFT/RIGHT material and THREE/FOUR comparison must be read under that refinement. No historical candidate or failed fit becomes actual acquisition.
