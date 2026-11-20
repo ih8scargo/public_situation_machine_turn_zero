@@ -1,0 +1,50 @@
+.lzero {
+  --lz-panel: #172633;
+  --lz-ink: #f3e8d7;
+  --lz-line: #405765;
+  max-width: 72rem;
+  margin: 1.5rem auto 2.5rem;
+  padding: clamp(1rem, 3vw, 2.5rem);
+  color: var(--lz-ink);
+  background: #101a24;
+  border: 1px solid var(--lz-line);
+  border-radius: 1.25rem;
+}
+.lzero-header { margin-bottom: 1.5rem; }
+.lzero-header span { color: #84d9cf; font: 600 .75rem/1.4 monospace; text-transform: uppercase; }
+.lzero-header h1 { margin: .2em 0; font: 500 clamp(2rem, 5vw, 3.8rem)/1.05 Georgia, serif; }
+.lzero-header p { color: #b3c2ce; }
+.lzero-grid { display: grid; gap: 1rem; grid-template-columns: minmax(0, 2fr) minmax(13rem, 1fr); }
+.lzero-views { display: grid; grid-template-columns: repeat(4, 1fr); gap: .35rem; margin-bottom: .5rem; }
+.lzero button, .lzero select {
+  background: var(--lz-panel);
+  border: 1px solid var(--lz-line);
+  border-radius: .45rem;
+  padding: .5rem;
+  color: inherit;
+  min-width: 0;
+  transition: background-color .15s, border-color .15s;
+}
+.lzero button:hover, .lzero button[aria-pressed="true"] { background: #2b484e; border-color: #84d9cf; }
+.lzero :focus-visible { outline: 2px solid #ffcd80; outline-offset: 2px; }
+.lzero svg {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  background: radial-gradient(ellipse at center, #213d4c, #111e29 74%);
+  border: 1px solid var(--lz-line);
+  border-radius: .65rem;
+}
+#lzero-scene { aspect-ratio: 1; }
+.lzero[data-view="diorama"] #lzero-scene { cursor: grab; touch-action: none; }
+.lzero [data-source] { cursor: pointer; }
+#lzero-wayfinding { margin-top: .5rem; }
+.lzero-inscription { fill: #f3e8d7; font: 12px monospace; paint-order: stroke; stroke: #101a24; stroke-width: 3px; }
+.lzero-instruments { display: grid; align-content: start; gap: .45rem; padding: 1rem; border: 1px solid var(--lz-line); border-radius: .65rem; }
+.lzero-instruments h2 { font: 500 1.45rem Georgia, serif; margin: 0 0 .5rem; }
+.lzero-instruments label, .lzero-instruments p { font-size: .82rem; color: #b3c2ce; }
+.lzero-instruments input { accent-color: #84d9cf; max-width: 100%; }
+.lzero-instruments input[type="range"] { width: 100%; }
+.lzero output { min-height: 2.3rem; overflow-wrap: anywhere; color: #ffcd80; font: .75rem monospace; }
+.lzero-checks { display: grid; gap: .25rem; margin: .5rem 0; }
+@media (max-width: 650px) { .lzero-grid { grid-template-columns: minmax(0, 1fr); } }

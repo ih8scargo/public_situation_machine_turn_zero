@@ -13,6 +13,8 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
          lab: A.new(),
          co_building: CB.new(),
          room_toy_box: RTB.new(),
+         layering_zero_model:
+           Jason.encode!(PublicSituationMachineTurnZero.Workshop.LayeringZero.model()),
          record: nil,
          message: nil,
          early?: true,
@@ -524,6 +526,10 @@ defmodule PublicSituationMachineTurnZeroWeb.ArchitectureLive do
   def render(%{geometry?: true} = assigns) do
     ~H"""
     <Layouts.app flash={@flash} active_locality={:architecture_experiment} show_navigation={false}>
+      <PublicSituationMachineTurnZeroWeb.LayeringZeroPanel.panel
+        model={@layering_zero_model}
+        standing_digest={CB.digest(@lab.standing)}
+      />
       <PublicSituationMachineTurnZeroWeb.RoomToyBoxPanel.panel
         state={@room_toy_box}
         standing_digest={CB.digest(@lab.standing)}

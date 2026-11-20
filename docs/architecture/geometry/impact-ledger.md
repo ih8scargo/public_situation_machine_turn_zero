@@ -134,3 +134,11 @@ New `OneCubicalDoorway` and its panel construct the preferred Table-furnished ca
 ## Compact reservation / Projectioning resolution — v15 / R80–R83 / 17 November 2026
 
 `OpeningSliceProjection` adds three alternative compact-family profiles, one-at-a-time bound reservations and an invertible nonlinear source chart. `RoomFromHere`, its panel and ArchitectureLive compose inspection controls and the same resolved toe. The unchanged native Snail profile is a trial source, not established revised coiling authority; explicit ROOM translation/calibration remains candidate evidence. `OneCubicalDoorway.measurements/1` excludes this alternative family when reporting its preserved port installation; its constructors/source profiles are unchanged and exact v13 source is archived. All 79 preceding material content hashes, old R/U/ports, paired TC bodies and 30 historical numerical witnesses remain unchanged. No Store, protected-operation or acquisition adapter is added. [Construction return and finite proofs](opening-slice-projection-v15-2026-11-17.md).
+
+## Gallery Door ZERO — Layering ZERO, Round One
+
+`LayeringZero` registers an inspection-only shell and coil with inherited Seat/Table/axle/monitor faces, a finite transverse crossing, comparative Footings and a ceiling-first course. `LayeringZeroPanel` and its browser hook consume the same source registry in Flat, Bulb, Coil, and Diorama. The rigid wheel pose is a finite comparison. Historical ROOM FROM HERE and other appliances remain available by their existing controls. No Store or protected-operation adapter is added. [Archaeology, source and office ledgers, geometry comparisons and acceptance findings](layering-zero-round-one.md).
+
+### Round One continuation · v3
+
+The Layering ZERO registry adds four-point opening slices at eight addresses, independent straight and reciprocal curved witnesses, measured comparison bowstring and CUBICAL cages, differentiated floor sectors, and FT/TF material traces. It registers a first-Footing comparison at the recovered Diagonal A midpoint and preserves the earlier strip and segment-30 obstruction as controls. The v2 securing drafts remain outside the executable fixture. Established permissions and receipt protections remain under their canonical records. [Continuation geometry, physical securing and test report](layering-zero-continuation.md).
